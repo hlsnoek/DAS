@@ -1,4 +1,4 @@
-# Test Course
+# Data analyse en statistiek
 
 ## Studiewijzer, January 2020<br><small>Programmeren 1</small>
 
