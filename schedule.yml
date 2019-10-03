@@ -20,75 +20,75 @@ Blok 4:
     Inleveren:
 
     
-Module 0:
-    Overview & Grading: /overviews/scratch
-    "Lecture: Computational Thinking": /lectures/computational-thinking
-    Implement Scratch: /problems/scratch
-Module 1:
-    Overview & Grading: /overviews/c
-    "Lecture: C": /lectures/c
-    Hello:
-        Create a GitHub account: https://github.com/join
-        Implement Hello: https://lab.cs50.io/uva/cs50x/master/problems/hello/
-    Water:
-        Create your own CS50 IDE: https://ide.cs50.io/
-        Learn about the Command Line: /shorts/command-line
-        Implement Water: /problems/water
-    Greedy:
-        "Implement either of:":
-            Greedy: /problems/greedy
-            Credit (hacker): /problems/credit
-    Mario:
-        "Lecture: Tools": /lectures/tools
-        "Implement either of:":
-            Mario: /problems/mario-less
-            Mario (hacker): /problems/mario-more
-    Exercises:
-        Variables: /exercises/variables
-Module 2:
-    Overview & Grading: /overviews/crypto
-    "Lecture: Arrays": /lectures/arrays
-    Initials:
-        "Implement either of:":
-            Initials: /problems/initials-less
-            Initials (hacker): /problems/initials-more
-    Caesar:
-        Implement Caesar: /problems/caesar
-    Vigenere:
-        "Implement either  of:":
-            Vigenere: /problems/vigenere
-            Crack (hacker): /problems/crack
-    Exercises:
-        Unscratch: /exercises/unscratch
-        Control flow: /exercises/control-flow
-Module 3:
-    Overview & Grading: /overviews/fifteen
-    "Lecture: Algorithms": /lectures/algorithms
-    Find:
-        "Implement either of:":
-            Find: /problems/find-less
-            Find (hacker): /problems/find-more
-    Fifteen:
-        Implement Fifteen: /problems/fifteen
-    Exercises:
-        Sequences: /exercises/sequences
-        Arrays: /exercises/arrays
-        Nested loops: /exercises/nested-loops
-Module 4:
-    Overview & Grading: /overviews/forensics
-    "Lecture: Memory": /lectures/memory
-    Whodunit:
-        Implement Whodunit: /problems/whodunit
-    Resize:
-        "Implement either of:":
-            Resize: /problems/resize-less
-            Resize (hacker): /problems/resize-more
-    Recover:
-        Implement Recover: /problems/recover
-    Exercises:
-        Functions: /exercises/functions
-        Algorithms: /exercises/algorithms
-Module 5:
-    Overview & Grading: /overviews/mispellings
-    "Lecture: Data Structures": /lectures/data-structures
-    Implement Mispellings: /overviews/mispellings
+[//]: #Module 0:
+[//]: #    Overview & Grading: /overviews/scratch
+[//]: #    "Lecture: Computational Thinking": /lectures/computational-thinking
+[//]: #    Implement Scratch: /problems/scratch
+[//]: #Module 1:
+[//]: #    Overview & Grading: /overviews/c
+[//]: #    "Lecture: C": /lectures/c
+[//]: #    Hello:
+[//]: #        Create a GitHub account: https://github.com/join
+[//]: #        Implement Hello: https://lab.cs50.io/uva/cs50x/master/problems/hello/
+[//]: #    Water:
+[//]: #        Create your own CS50 IDE: https://ide.cs50.io/
+[//]: #        Learn about the Command Line: /shorts/command-line
+[//]: #        Implement Water: /problems/water
+[//]: #    Greedy:
+[//]: #        "Implement either of:":
+[//]: #            Greedy: /problems/greedy
+[//]: #            Credit (hacker): /problems/credit
+[//]: #    Mario:
+[//]: #        "Lecture: Tools": /lectures/tools
+[//]: #        "Implement either of:":
+[//]: #            Mario: /problems/mario-less
+[//]: #            Mario (hacker): /problems/mario-more
+[//]: #    Exercises:
+[//]: #        Variables: /exercises/variables
+[//]: #Module 2:
+[//]: #    Overview & Grading: /overviews/crypto
+[//]: #    "Lecture: Arrays": /lectures/arrays
+[//]: #    Initials:
+[//]: #        "Implement either of:":
+[//]: #            Initials: /problems/initials-less
+[//]: #            Initials (hacker): /problems/initials-more
+[//]: #    Caesar:
+[//]: #        Implement Caesar: /problems/caesar
+[//]: #    Vigenere:
+[//]: #        "Implement either  of:":
+[//]: #            Vigenere: /problems/vigenere
+[//]: #            Crack (hacker): /problems/crack
+[//]: #   Exercises:
+[//]: #        Unscratch: /exercises/unscratch
+[//]: #        Control flow: /exercises/control-flow
+[//]: #Module 3:
+[//]: #    Overview & Grading: /overviews/fifteen
+[//]: #    "Lecture: Algorithms": /lectures/algorithms
+[//]: #    Find:
+[//]: #        "Implement either of:":
+[//]: #            Find: /problems/find-less
+[//]: #            Find (hacker): /problems/find-more
+[//]: #    Fifteen:
+[//]: #        Implement Fifteen: /problems/fifteen
+[//]: #    Exercises:
+[//]: #        Sequences: /exercises/sequences
+[//]: #        Arrays: /exercises/arrays
+[//]: #        Nested loops: /exercises/nested-loops
+[//]: #Module 4:
+[//]: #    Overview & Grading: /overviews/forensics
+[//]: #    "Lecture: Memory": /lectures/memory
+[//]: #    Whodunit:
+[//]: #        Implement Whodunit: /problems/whodunit
+[//]: #    Resize:
+[//]: #       "Implement either of:":
+[//]: #            Resize: /problems/resize-less
+[//]: #            Resize (hacker): /problems/resize-more
+[//]: #    Recover:
+[//]: #       Implement Recover: /problems/recover
+[//]: #    Exercises:
+[//]: #        Functions: /exercises/functions
+[//]: #        Algorithms: /exercises/algorithms
+[//]: #Module 5:
+[//]: #    Overview & Grading: /overviews/mispellings
+[//]: #    "Lecture: Data Structures": /lectures/data-structures
+[//]: #    Implement Mispellings: /overviews/mispellings
