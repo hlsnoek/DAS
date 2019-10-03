@@ -1,6 +1,22 @@
-Test:
+Blok 1:
     Test: info/01 nogeenTestPagina
     Een testpagina: /info/02 testpagina
+Blok 2:
+    Theorie:
+    Werkcollege 1:
+    Werkcollege 2:
+    Werkcollege 3:
+Blok 3:
+    Theorie:
+    Werkcollege 1:
+    Werkcollege 2:
+    Werkcollege 3:
+Blok 4:
+    Theorie:
+    Werkcollege 1:
+    Werkcollege 2:
+    Werkcollege 3:
+    
 Module 0:
     Overview & Grading: /overviews/scratch
     "Lecture: Computational Thinking": /lectures/computational-thinking
