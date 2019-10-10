@@ -1,6 +1,6 @@
-# Overkoepelend onderwerp
+[//]: # # Overkoepelend onderwerp
 
-## Inhoudsopgave
+[//]: # ## Inhoudsopgave
 1. [Onderwerp 1](#Dinges)
 2. [ onderwerp 2](#Nog wat)
     1. [Onderwerp 2-1](#subje1)
