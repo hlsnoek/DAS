@@ -3,8 +3,8 @@ short: Test
 language: nl
 
 links:
-    "<i class='fa fa-book'></i> CS50 Reference": https://man.cs50.io/
-    "<i class='fa fa-server'></i> CS50 IDE": https://ide.cs50.io/
+#    "<i class='fa fa-book'></i> CS50 Reference": https://man.cs50.io/
+#    "<i class='fa fa-server'></i> CS50 IDE": https://ide.cs50.io/
 
 acknowledgements:
     - 'Based on CS50 from http://cs50.tv/2017/fall/ -- Copyright 2011--2018, David J. Malan.'
