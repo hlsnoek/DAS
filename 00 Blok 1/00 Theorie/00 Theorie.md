@@ -1,6 +1,6 @@
 # Basisbegrippen in de statistiek
 
-- dinges
+1. Ordered TOC
 {:toc}
 
 ## Introductie
