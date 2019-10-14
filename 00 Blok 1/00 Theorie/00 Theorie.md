@@ -14,6 +14,8 @@ Het higgs deeltje is niet te zien met het menselijk oog, dus je kunt het alleen 
 <img src="Higgs_figuur_fig1.PNG" width="50%"><img src="Higgs_figuur_fig2.PNG" width="50%">
 dingetje test
 ![](Higgs_figuur_fig1.PNG=200x)
+test 2
+<img src="/hlsnoek/DAS/raw/master/00%20Blok%201/00%20Theorie/Higgs_figuur_fig1.PNG" style="max-width:100%;" width="50%">
 
 Het visueel weergeven van de data alleen is niet genoeg, de data moet ook vergeleken worden met de achtergrondenergie (linker figuur) of met een model (rechter figuur). Daarnaast kun je niet zoveel met de figuur als er geen uitleg wordt gegeven, daarom wordt in het onderschrift en het artikel zelf, toegelicht wat er te zien is in de figuren. Dan zijn de vragen 'wat zien we?' en 'ten opzichte van wat zien we dat dan?' beantwoord, maar nu moet de vraag nog beantwoord worden of het waargenomen verschil in energie (het piekje) wel groot genoeg is om te kunnen spreken van een nieuw deeltje. Is het niet gewoon de achtergrondenergie die waargenomen is? Om deze vragen te kunnen beantwoorden is de data statistisch geanalyseerd. De uiteindelijke conclusie was dat er met 97% zekerheid gezegd kan worden dat het waargenomen deeltje ook daadwerkelijk het Higgs deeltje is.  
 
