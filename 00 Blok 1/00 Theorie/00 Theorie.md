@@ -117,8 +117,15 @@ voor het midden van de waarden die de dataset aan
 ### Coëfficient van variantie
 
 ## Datamanipulatie & 'Outliers'
-
 effect van verschuiving, vermenigvuldiging, outliers op bovenstaande begrippen
+
+### Data verschuiven
+
+### Data vermenigvuldigen
+
+### Data ....
+
+### Outliers
 
 
 ## Data visueel weergeven
