@@ -118,7 +118,9 @@ zowel het getal 4 als het getal 11 komen drie keer voor in de set. De set is dus
 
 #### Populatiemodus
 
-Voor een continue verdeling met dichtheidsfunctie $$f(x)$$ is de modus gedefinieerd als de waarde die met de grootste frequentie in de verdeling voorkomt. Dit houdt in dat het de waarde is die hoort bij het maximum van de dichtheidsfuncite $$f(x)$$.  
+Voor een continue verdeling met dichtheidsfunctie $$f(x)$$ is de modus gedefinieerd als de waarde die met de grootste frequentie in de verdeling voorkomt. Dit houdt in dat het de waarde is die hoort bij het maximum van de dichtheidsfuncite $$f(x)$$. Een voorbeeld van een verdeling met één modus is weergegeven in het figuur hieronder:
+![higgs](Higgs_figuur_fig1.PNG){:width="45%"}
+
 
 dichtheidsverdeling (voorbeeld laatje)
 Elk van de waarden vaarvoor de dichtheid lokaal maximaal is wordt in prncipe als een modus gezien. (voorbeeld plaatje)
