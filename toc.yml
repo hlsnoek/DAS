@@ -1,11 +1,8 @@
-- caption: Blok 1
+- Caption: Blok 1
   children:
-  - caption: Theorie
-    children:
-    - page: Basisbegrippen
-      url: /blok-1/theorie-basisbegrippen
-    - page: dinges
-      url: /blok-1/theorie-basisbegrippen
-    - page: danges
-      url: /blok-1/theorie-basisbegrippen
+  - name: Basisbegrippen
+    href: 00 Blok 1/00 Theorie Basisbegrippen/Basisbegrippen.md
+  - name: Topic2
+    href: 00 Blok 1/00 Theorie Basisbegrippen/Basisbegrippen.md
+  
 
