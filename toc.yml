@@ -1,7 +1,11 @@
-- name: Theorie
-  items:
-    - name: Basisbegrippen
-      href: 
-    - name: Dingetje
-      href: 
-  
+- caption: Blok 1
+  children:
+  - caption: Theorie
+    children:
+    - page: Basisbegrippen
+      url: /blok-1/theorie-basisbegrippen
+    - page: dinges
+      url: /blok-1/theorie-basisbegrippen
+    - page: danges
+      url: /blok-1/theorie-basisbegrippen
+
