@@ -99,13 +99,6 @@ Voor symmetrische datasets zijn het gemiddelde en de mediaan gelijk aan elkaar.
 
 ### De modus
 
-#### Populatiemodus
-
-Voor een continue verdeling met dichtheidsfunctie $$f(x)$$ is de modus gedefinieerd als de waarde die met de grootste frequentie in de verdeling voorkomt. Dit houdt in dat het de waarde is die hoort bij het maximum van de dichtheidsfuncite $$f(x)$$.  
-
-dichtheidsverdeling (voorbeeld laatje)
-Elk van de waarden vaarvoor de dichtheid lokaal maximaal is wordt in prncipe als een modus gezien. (voorbeeld plaatje)
-
 #### Steekproefmodus
 
 De modus van een dataset is de waarde die met de grootste frequentie in de dataset voorkomt. Hebben we bijvoorbeeld de dataset 
@@ -121,6 +114,14 @@ Een voorbeeld van een bimodale dataset is:
 $$1,2,3,3,4,4,4,5,6,11,11,11,15$$
 
 zowel het getal 4 als het getal 11 komen drie keer voor in de set. De set is dus bimodaal met modus 4 en modus 11.
+
+
+#### Populatiemodus
+
+Voor een continue verdeling met dichtheidsfunctie $$f(x)$$ is de modus gedefinieerd als de waarde die met de grootste frequentie in de verdeling voorkomt. Dit houdt in dat het de waarde is die hoort bij het maximum van de dichtheidsfuncite $$f(x)$$.  
+
+dichtheidsverdeling (voorbeeld laatje)
+Elk van de waarden vaarvoor de dichtheid lokaal maximaal is wordt in prncipe als een modus gezien. (voorbeeld plaatje)
 
 ### Spreiding en range
 
