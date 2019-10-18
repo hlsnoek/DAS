@@ -3,7 +3,7 @@
 1. Ordered TOC
 {:toc}
 
-## Introductie {:blue}
+## Introductie 
 
 Statistiek is een belangrijk onderdeel in vele werkvelden. Als wetenschapper zul je later hoogstwaarschijnlijk te maken krijgen met het verzamelen van data bij het onderzoek dat je uitvoert. Deze data wordt dan verzameld om een antwoord te vinden op de onderzoeksvraag. Maar wanneer kun je zeggen dat het antwoord ook juist is? Wanneer heb je genoeg data verzameld? Hierbij gaat het erom dat andere wetenschappers er ook van overtuigd moeten raken dat jouw onderzoek gedegend is uitgevoerd, en dat de conclusie die uit de resultaten wordt getrokken ook correct is.
 
@@ -126,13 +126,39 @@ Bij een verdeling die beschreven kan worden met een dichtheidsfunctie is het ook
 
 ![higgs](Basisbegr_Normaleverd_BiModaal.png){:width="30%"}![higgs](Basisbegr_Normaleverd_MultiModaal.png){:width="30%"}
 
-### Spreiding en range
+### Spreiding van data
 
-### Standaardafwijking
+De spreiding geeft een beeld van de mate waarin datapunten in een set verspreid zijn. Er zijn verschillende maten om de spreiding van een dataset mee aan te geven. Hieronder zullen we de range, variantie, coëfficient van variantie en de standaardafwijking bespreken. 
 
-### Variantie
+#### Range (spreidingsbreedte)
 
-### Coëfficient van variantie
+De range is de afstand tussen de hoogste en de laagste waarde in een dataset. Hebben we bijvoorbeeld de dataset
+
+$$50,70,72,76,76,80,120$$
+
+dan is de range van deze dataset gelijk aan $$120-50=70$$.
+
+De range geeft dus aan hoe breed de dataset in totaliteit is. De range is niet altijd een handige maat voor de spreiding van een dataset. Zo zouden we bijvoorbeeld de volgende dataset kunnen hebben:
+
+$$1,2,3,4,5,5,5,6,6,6,7,7,10$$
+
+De range is in dit geval $$10-1=9$$. Maar stel dat we een foutieve meting doen (of we maken een typefout in het overnemen van de data), en we hebben de volgende dataset:  
+
+$$1,2,3,4,5,5,5,6,6,6,7,7,10,30$$
+
+De range wordt nu $$30-1=29$$. Dus onder invloed van één foutief datapunt geeft de range nu een veel grotere mate van spreiding aan. 
+
+#### Variantie
+
+De variantie geeft aan in welke mate de data verspreid is rondom het gemiddelde van de dataset. 
+
+Populatie variantie
+
+Steekproefvariantie:
+
+#### Coëfficient van variantie
+
+#### Standaardafwijking
 
 
 
