@@ -11,7 +11,7 @@ Denk bijvoorbeeld eens terug aan het moment waarop aan de wereld kenbaar werd ge
 
 Het higgs deeltje is niet te zien met het menselijk oog, dus je kunt het alleen vinden door de eventuele sporen die het deeltje achterlaat (botsingen met andere deeltjes). Om deze sporen te kunnen vinden en hier een patroon in te ontdekken, is het nodig om heel veel data te verzamelen. De bulk data wordt in eerste instantie verzameld in grote tabellen. Het is echter lastig om hier patronen in te vinden, de data moet verwerkt worden tot een visuele weergave. Hieronder staat de visueel weergegeven data, waaruit is geconcludeerd dat het Higgs deeltje met grote waarschijnlijkheid bestaat (Bron: ATLAS Collaboration / Physics Letters B 716 (2012) 1–29, [Link](https://doi.org/10.1016/j.physletb.2012.08.020)):
 
-![higgs1](Higgs_figuur_fig1.PNG){:width="20%"}![higgs2](Higgs_figuur_fig2.PNG){:width="20%"}
+![higgs1](Higgs_figuur_fig1.PNG){:width="40%"}![higgs2](Higgs_figuur_fig2.PNG){:width="40%"}
 
 Het visueel weergeven van de data alleen is niet genoeg, de data moet ook vergeleken worden met de achtergrondenergie (linker figuur) of met een model (rechter figuur). Daarnaast kun je niet zoveel met de figuur als er geen uitleg wordt gegeven, daarom wordt in het onderschrift en het artikel zelf, toegelicht wat er te zien is in de figuren. Dan zijn de vragen 'wat zien we?' en 'ten opzichte van wat zien we dat dan?' beantwoord, maar nu moet de vraag nog beantwoord worden of het waargenomen verschil in energie (het piekje) wel groot genoeg is om te kunnen spreken van een nieuw deeltje. Is het niet gewoon de achtergrondenergie die waargenomen is? Om deze vragen te kunnen beantwoorden is de data statistisch geanalyseerd. De uiteindelijke conclusie was dat er met 97% zekerheid gezegd kan worden dat het waargenomen deeltje ook daadwerkelijk het Higgs deeltje is.  
 
@@ -120,11 +120,11 @@ zowel het getal 4 als het getal 11 komen drie keer voor in de set. De set is dus
 
 Voor een continue verdeling met dichtheidsfunctie $$f(x)$$ is de modus gedefinieerd als de waarde die met de grootste frequentie in de verdeling voorkomt. Dit houdt in dat het de waarde is die hoort bij het maximum van de dichtheidsfuncite $$f(x)$$. Een voorbeeld van een verdeling (een normale verdeling) met één modus is weergegeven in het figuur hieronder:
 
-![higgs](Basisbegr_Normaleverd_Modus.png){: width="30%" style="float:center"}
+![higgs](Basisbegr_Normaleverd_Modus.png){:width="30%"}
 
 Bij een verdeling die beschreven kan worden met een dichtheidsfunctie is het ook mogelijk om meerdere waarden te hebben die een modus zijn. Elk van de waarden waarvoor de dichtheid lokaal maximaal is wordt in principe als een modus gezien. Hierbij hoeven de pieken dus niet gelijk van hoogte te zijn. Bij verdelingen geldt dezelfde naamgeving als bij de steekproefmodus. Heeft de verdeling één lokaal maximum dan is deze *unimodaal*, als er twee lokale maxima zijn dan is de verdeling *bimodaal*, en als er meer lokale maxima zijn dan is deze *multimodaal*. Hieronder is een voorbeeld gegeven van een bimodale en multimodale verdeling.
 
-![higgs](Basisbegr_Normaleverd_BiModaal.png){: width="30%" style="float:center"}![higgs](Basisbegr_Normaleverd_MultiModaal.png){: width="30%" style="float:center"}
+![higgs](Basisbegr_Normaleverd_BiModaal.png){:width="30%"}![higgs](Basisbegr_Normaleverd_MultiModaal.png){:width="30%"}
 
 ### Spreiding en range
 
