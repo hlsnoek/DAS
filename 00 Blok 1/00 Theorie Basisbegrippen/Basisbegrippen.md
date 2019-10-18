@@ -124,7 +124,7 @@ Voor een continue verdeling met dichtheidsfunctie $$f(x)$$ is de modus gedefinie
 
 Bij een verdeling die beschreven kan worden met een dichtheidsfunctie is het ook mogelijk om meerdere waarden te hebben die een modus zijn. Elk van de waarden waarvoor de dichtheid lokaal maximaal is wordt in principe als een modus gezien. Hierbij hoeven de pieken dus niet gelijk van hoogte te zijn. Bij verdelingen geldt dezelfde naamgeving als bij de steekproefmodus. Heeft de verdeling één lokaal maximum dan is deze *unimodaal*, als er twee lokale maxima zijn dan is de verdeling *bimodaal*, en als er meer lokale maxima zijn dan is deze *multimodaal*. Hieronder is een voorbeeld gegeven van een bimodale en multimodale verdeling.
 
-![higgs](Basisbegr_Normaleverd_BiModaal.png){: width="30%" style="float:left"}![higgs](Basisbegr_Normaleverd_MultiModaal.png){: width="30%" style="float:right"}
+![higgs](Basisbegr_Normaleverd_BiModaal.png){: width="30%" style="float:center"}![higgs](Basisbegr_Normaleverd_MultiModaal.png){: width="30%" style="float:center"}
 
 ### Spreiding en range
 
