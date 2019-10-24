@@ -120,11 +120,11 @@ zowel het getal 4 als het getal 11 komen drie keer voor in de set. De set is dus
 
 Voor een continue verdeling met dichtheidsfunctie $$f(x)$$ is de modus gedefinieerd als de waarde die met de grootste frequentie in de verdeling voorkomt. Dit houdt in dat het de waarde is die hoort bij het maximum van de dichtheidsfuncite $$f(x)$$. Een voorbeeld van een verdeling (een normale verdeling) met één modus is weergegeven in het figuur hieronder:
 
-![higgs](Basisbegr_Normaleverd_Modus.png){:width="30%"}
+<p align="center">![higgs](Basisbegr_Normaleverd_Modus.png){:width="30%"}</p>
 
 Bij een verdeling die beschreven kan worden met een dichtheidsfunctie is het ook mogelijk om meerdere waarden te hebben die een modus zijn. Elk van de waarden waarvoor de dichtheid lokaal maximaal is wordt in principe als een modus gezien. Hierbij hoeven de pieken dus niet gelijk van hoogte te zijn. Bij verdelingen geldt dezelfde naamgeving als bij de steekproefmodus. Heeft de verdeling één lokaal maximum dan is deze *unimodaal*, als er twee lokale maxima zijn dan is de verdeling *bimodaal*, en als er meer lokale maxima zijn dan is deze *multimodaal*. Hieronder is een voorbeeld gegeven van een bimodale en multimodale verdeling.
 
-![higgs](Basisbegr_Normaleverd_BiModaal.png){:width="30%"}![higgs](Basisbegr_Normaleverd_MultiModaal.png){:width="30%"}
+<p align="center">![higgs](Basisbegr_Normaleverd_BiModaal.png){:width="30%"}![higgs](Basisbegr_Normaleverd_MultiModaal.png){:width="30%"}</p>
 
 ### Spreiding van data
 
