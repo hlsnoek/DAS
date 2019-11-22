@@ -162,15 +162,52 @@ De range wordt nu $$30-1=29$$. Dus onder invloed van één foutief datapunt geef
 
 #### Variantie
 
-De variantie geeft aan in welke mate de data verspreid is rondom het gemiddelde van de dataset. 
+De variantie geeft aan in welke mate de data verspreid is rondom het gemiddelde van de dataset. Dit geeft met name ook een maat voor de spreiding van de datapunten onderling. Hoe groter de variantie des te groter is de spreiding tussen de afzonderlijke punten. 
 
-Populatie variantie
+De variantie kan aangegeven worden met $$\sigma^2$$, met $$s^2$$ of met \(Var(X)\). Deze notaties worden doorgaans gebruikt voor de populatievariantie, steekproefvariantie en de variantie van een kansverdeling respectievelijk.
 
-Steekproefvariantie:
+Voor een *populatie* wordt de variantie gegeven door:
 
-#### Coëfficient van variantie
+$$\sigma^2 = \displaystyle \frac{\displaystyle \sum_{i=1}^{N}(x_i - \mu)^2}{N}$$
+
+De variantie is dus de som van het verschil tussen elk punt en het gemiddelde in het kwadraat, gedeeld door de populatiegrootte $$N$$. 
+
+Voor een *steekproef* is de formule van de variantie vrijwel gelijk aan de formule bij een populatie. Nu gebruiken we echter het steekproefgemiddelde $$\overline{x}$$, en we delen niet door het aantal datapunten $$n$$ maar door $$n-1$$. Delen door $$n-1$$ wordt de *unbiased variance* genoemd. Bij een steekrpoef geeft dit een accurater resultaat dan delen door het aantal termen $$n$$ (deze kun je ook tegenkomen en wordt de *biased variance* genoemd). De 'unbiased' variantie voor een steekproef wordt gegeven door:
+
+$$s^2 = \displaystyle \frac{\displaystyle \sum_{i=1}^{n}(x_i - \overline{x})^2}{n-1}$$
 
 #### Standaardafwijking
 
+Net zoals de variantie geeft de standaardafwijking geeft aan in welke mate de data verspreid is rondom het gemiddelde van de dataset. Ook de standaardafwijking geeft een maat voor de spreiding van de datapunten onderling. Hoe groter de standaardafwijking des te groter is de spreiding tussen de afzonderlijke punten. 
+
+De standaardafwijking is de positieve wortel van de variantie. Voor een populatie wordt de standaardafwijking dus gegeven door:
+
+$$\sigma = \sqrt{\sigma^2} = \sqrt{\displaystyle \frac{\displaystyle \sum_{i=1}^{N}(x_i - \mu)^2}{N}}$$
+
+en voor een steekproef wordt de standaard afwijking gegeven door:
+
+$$s = \sqrt{s^2} = \sqrt{\displaystyle \frac{\displaystyle \sum_{i=1}^{n}(x_i - \overline{x})^2}{n-1}}$$
+
+Een verschil tussen de standaardafwijking en de variantie is de eenheid. De standaardafwijking heeft dezelfde eenheid als het gemiddelde terwijl de variantie de eenheid in het kwadraat heeft. Bij het rapporteren van resultaten wordt daarom vaak de standaarddeviatie van een verdeling of steekproef gegeven in plaats van de variantie. In het werken met een dataset maakt het echter niet uit welk van de twee je gebruikt. Bij een meer wiskundige benadering kan het eenvoudiger zijn om met de variantie te werken omdat er dan geen sprake is van een wortel. 
 
 
+#### Coëfficient van variatie
+
+De coëfficient van variatie wordt ook wel de relatieve standaardafwijking genoemd. De coëfficient van variatie geeft, net zoals de standaardafwijking en de variantie, een maat voor de spreiding van de populatie of dataset. 
+
+De coëfficient van variatie wordt gegeven door de verhouding tussen de standaardafwijking en het gemiddelde.
+Voor een populatie is de coëfficient van variantie $$c_v$$ dan:
+
+$$c_{v} = \frac{\sigma}{\mu}$$
+
+Met $$\sigma$$ de standaardafwijking van de populatie en $$\mu$$ het populatiegemiddelde.
+
+De steekproefvariatie $$\hat{c_v}$$ wordt gegeven door:
+
+$$\hat{c_v} = \frac{s}{\overline{x}}$$
+
+Met $$s$$ de standaardafwijking van de steekproef en $$\overline{x}$$ het steekproefgemiddelde.
+
+Het verschil met de variantie en de standaardafwijking is dat de coëfficient van variatie dimensieloos is. Dit is bijvoorbeeld handig als er meerdere datasets vergeleken moeten worden die verschillende eenheden hebben. Ook als de gemiddelde waarden van verschillende datasets erg uiteen liggen is het beter om de coëfficient van variatie te gebruiken i.p.v. de standaardafwijking.
+Een nadeel van het gebruik van de coëfficient van variatie is dat er gedeeld wordt door het gemiddelde. Als dit gemiddelde vlak bij nul ligt dan gaat de coëfficient van variatie richting oneindig. Als het gemiddelde dan een klein beetje veranderd heeft dit een groot effect op de coëfficient. 
+Als het gemiddelde van een dataset dus dicht bij nul ligt dan is het beter om de standaardafwijking of de variantie te gebruiken. 
