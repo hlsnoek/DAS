@@ -26,6 +26,8 @@ Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, ten
 
 De assen kunnen nog wat netter. Zo eindigd de $$x$$-as *na* de waarde $$20$$, maar het is niet helemaal duidelijk bij welke waarde precies. De $$y$$-as begint een klein stukje voor 1980 en eindigd een klein stukje na 2015. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**. Daarnaast willen we niet te veel maatstreepjes maar ook niet te weinig. In het algemeen worden **zeven maatstreepjes** aangehouden voor de goede leesbaarheid (eentje meer of minder is niet erg). In ons geval laten we het jaartal beginnen op 1980 en eindigen op 2015, daarnaast laten we de temperatuur beginnen op $$-5$$ C&deg; en eindigen op $$25$$ C&deg;. Op de $$x$$-as hebben we 8 maatstreepjes en op de $$y$$-as hebben we 7 maatstreepjes:
 
+GRAFIEKTITEL ook doen.
+
 <p align="center">![higgs](plot4_scatter_aslabels_startendMayorTick_NoTopBot.png){:width="40%"}</p>
 
 Stel we willen nu niet alleen de temperatuur in de Bilt weergeven maar ook de temperatuur
