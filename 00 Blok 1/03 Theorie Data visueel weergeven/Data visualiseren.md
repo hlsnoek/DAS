@@ -51,11 +51,21 @@ Samengevat:
 
 ### Staafdiagrammen & Histogrammen
 
-Staafdiagrammen en histogrammen lijken behoorlijk op elkaar. Hieronder links een voorbeeld van een staafdiagram en rechts een voorbeeld van een histogram:
+Staafdiagrammen en histogrammen lijken grafisch gezien op elkaar. Er is echter een belangrijk verschil tussen een staafdiagram en een histogram. 
 
-PLOT7
+Een staafdiagram wordt gebruikt om de frequentie bij een *discrete* verdeling aan de geven. Een voorbeeld van een discrete verdeling is het aantal keer dat er kop of munt gegooid wordt met een muntstuk. De discrete waarden zijn in dit geval 'kop' en 'munt'. een ander voorbeeld van een discrete verdeling is het aantal inwoners in 'Europa', 'Amerika' en 'Azië'. 
 
-### Histogrammen
+Een histogram wordt gebruikt om het resultaat van een *continue* verdeling mee weer te geven. Dit houdt in dat alle tussenligende waarden aangenomen mogen worden. Een voorbeeld van een continue verdeling is het genereren van random kommagetallen tussen de 0 en de 1. Elke tussenliggende waarde kan aangenomen worden. Een ander voorbeeld van een continue verdeling is het gewicht van elke persoon in Nederland. 
+
+Hieronder aan de linkerkant het resultaat van 100 keer kop/munt gooien met een muntstuk weergegeven in een staafdiagram. Aan de rechterkant het resultaat van het genereren van 1000 random kommagetallen tussen de 0 en de 100:
+
+PLOT7PLOT8
+
+VERDERVERDER over bingrootte en de regels daarvan.
+
+Bij het weergeven van data in een histogram wordt de data gegroepeerd in categoriën. 
++ over bingrootte
+
 
 ### Data plotten met Python
 
