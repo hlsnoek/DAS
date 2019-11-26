@@ -39,6 +39,7 @@ De kleuren zijn aangepast t.o.v. eerder. Welk van de twee series hoort bij 'de B
 Tot nu toe hebben we nog geen titels toegevoegd aan de plots. Dit komt omdat dat voor verslagen en wetenschappelijke artikelen ongebruikelijk is, daar moet het onderschrift namelijk al vertellen wat er te zien is in de grafiek. In webteksten, lesteksten en presentaties kan het echter voorkomen dat een grafiek wel een titel heeft, omdat er in die context vaak geen onderschrift toegevoegd kan worden. 
 
 Samengevat:
+
 - Een grafiek van een dataset wordt geplot met punten (een 'scatter plot'). 
 - Het resultaat van een fit of een theoretisch verband wordt met een lijn geplot.
 - Bij een enkele dataset wordt geen legenda gebruikt. Als er meerdere datasets in één grafiek worden weergegeven dan is een legenda noodzakelijk.
