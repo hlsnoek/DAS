@@ -49,9 +49,11 @@ Samengevat:
 - Een as begint en eindigd op een groot maatstreepje met een waarde ('major tick') en niet op een klein maatstreepje of een maatstreep zonder getal.
 - Een grafiek voor een wetenschappelijk artikel of een verslag heeft geen titel. Een grafiek voor webteksten of lesmateriaal heeft over het algemeen wel een titel.
 
-### Staafdiagrammen
+### Staafdiagrammen & Histogrammen
 
+Staafdiagrammen en histogrammen lijken behoorlijk op elkaar. Hieronder links een voorbeeld van een staafdiagram en rechts een voorbeeld van een histogram:
 
+PLOT7
 
 ### Histogrammen
 
