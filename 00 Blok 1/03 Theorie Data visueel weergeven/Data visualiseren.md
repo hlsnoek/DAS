@@ -30,7 +30,7 @@ GRAFIEKTITEL ook doen.
 
 <p align="center">![higgs](plot4_scatter_aslabels_startendMayorTick_NoTopBot.png){:width="40%"}</p>
 
-Stel we willen nu niet alleen de temperatuur in de Bilt weergeven maar ook de temperatuur
+Stel we willen de temperatuur in de Bilt nu weergeven t.o.v. de temperatuur in centraal Nederland (een combinatie van vijf weerstations representatief voor het gebied tussen de steden Utrecht, Arnhem, Breda en Eindhoven):
 
 VERDERRRR
 
