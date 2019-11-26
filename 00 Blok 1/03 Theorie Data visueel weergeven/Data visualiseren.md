@@ -34,7 +34,7 @@ Stel we willen de temperatuur in de Bilt nu weergeven t.o.v. de 'Centraal Nederl
 
 De kleuren zijn aangepast t.o.v. eerder. Welk van de twee series hoort bij 'de Bilt' en welke hoort bij 'Centraal Nederland'? Dat is lastig te zien vanuit de plot. Om deze reden wordt er, bij twee of meer series, een **legenda** aan de plot toegevoegd. Bovenstaande plot ziet er met legenda als volgt uit:
 
-<p align="center">![higgs](plot6_scatter_samen_metLegenda.png){:width="40%"}</p>
+<p align="center">![higgs](plot6_scatter_samen_metLegenda.png){:width="50%"}</p>
 
 Tot nu toe hebben we nog geen titels toegevoegd aan de plots. Dit komt omdat dat voor verslagen en wetenschappelijke artikelen ongebruikelijk is, daar moet het onderschrift namelijk al vertellen wat er te zien is in de grafiek. In webteksten, lesteksten en presentaties kan het echter voorkomen dat een grafiek wel een titel heeft, omdat er in die context vaak geen onderschrift toegevoegd kan worden. 
 
