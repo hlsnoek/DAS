@@ -53,7 +53,7 @@ Samengevat:
 
 Staafdiagrammen en histogrammen lijken grafisch gezien op elkaar. Er is echter een belangrijk verschil tussen een staafdiagram en een histogram. 
 
-Een staafdiagram wordt gebruikt om de frequentie bij een *discrete* verdeling aan de geven. Een voorbeeld van een discrete verdeling is het aantal keer dat er kop of munt gegooid wordt met een muntstuk. De discrete waarden zijn in dit geval 'kop' en 'munt'. een ander voorbeeld van een discrete verdeling is het aantal inwoners in 'Europa', 'Amerika' en 'Azië'. 
+Een staafdiagram wordt gebruikt om de frequentie bij een *discrete* verdeling aan de geven. Een voorbeeld van een discrete verdeling is het aantal keer dat er kop of munt gegooid wordt met een muntstuk. De discrete waarden zijn in dit geval 'kop' en 'munt'. Een ander voorbeeld van een discrete verdeling is het aantal inwoners in 'Europa', 'Amerika' en 'Azië'. 
 
 Een histogram wordt gebruikt om het resultaat van een *continue* verdeling mee weer te geven. Dit houdt in dat alle tussenligende waarden aangenomen mogen worden. Een voorbeeld van een continue verdeling is het genereren van random kommagetallen tussen de 0 en de 1. Elke tussenliggende waarde kan aangenomen worden. Een ander voorbeeld van een continue verdeling is het gewicht van elke persoon in Nederland. 
 
@@ -63,8 +63,27 @@ PLOT7PLOT8
 
 VERDERVERDER over bingrootte en de regels daarvan.
 
-Bij het weergeven van data in een histogram wordt de data gegroepeerd in categoriën. 
-+ over bingrootte
+Bij een staafdiagram heeft elke groep een staaf die de frequentie aangeeft. Zo is er bij het bovenstaande voorbeeld een staaf voor de groep 'kop' waaruit we kunnen aflezen dat er 60 keer kop is gegooid. Daarnaast kunnen we vanuit de staaf bij de groep 'munt' aflezen dat er 40 keer munt is gegooid. 
+
+Bij het weergeven van data in een histogram wordt de data gegroepeerd in categoriën. De breedte van de staven (in het vervolg 'bins' genoemd), geeft de breedte van een categorie aan. Zo zijn de categoriën bij het histogram hierboven bijvoorbeeld de getallen van: 0-9, 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99. Vanuit het histogram kunnen we bijvoorbeeld aflezen dat er 100 keer een getal tussen de 60 en 69 en tussen de 80 en 89 voorkomt. Daarnaast kunnen we zien dat getallen tussen de 70 en 80 het minst vaak in de dataset voorkomen en dat getallen tussen de 90 en 99 het meeste voorkomen in de dataset.
+
+Voor een histogram is de breedte van de categoriën van belang. Als we te weinig bins kiezen dan worden de categoriën erg groot (/breed) en is er minder te zeggen over het gedrag van de data. Als we te veel bins kiezen dan fluctueerd de hoogte van de (smalle) bins onderling erg en kan er ook minder over het gedrag van de data gezegd worden.  
+
+Dit bekijken we aan de hand van een voorbeeld. Zo zou het kunnen zijn dat het ideale plaatje bij een gegeven dataset het volgende is:
+
+PLOT 11
+
+Als we te weinig bins kiezen dan wordt de data afgevlakt en kunnen we het bovenstaande gedrag niet meer herkennen:
+
+PLOT 12
+
+Kiezen we juist te veel bins, dan fluctueerd de hiigte van de staven onderling en kunnen we het gedrag ook niet meer herkennen:
+
+PLOT 13
+
+Voor het bepalen van het optimale aantal bins en de optimale binbreedte bestaan verschillende methodes. In dit vak zullen we de METHODE
+
+REGELS BINBREEDTE
 
 
 ### Data plotten met Python
