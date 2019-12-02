@@ -61,11 +61,11 @@ Hieronder aan de linkerkant het resultaat van 100 keer kop/munt gooien met een m
 
 PLOT7PLOT8
 
-VERDERVERDER over bingrootte en de regels daarvan.
-
 Bij een staafdiagram heeft elke groep een staaf die de frequentie aangeeft. Zo is er bij het bovenstaande voorbeeld een staaf voor de groep 'kop' waaruit we kunnen aflezen dat er 60 keer kop is gegooid. Daarnaast kunnen we vanuit de staaf bij de groep 'munt' aflezen dat er 40 keer munt is gegooid. 
 
 Bij het weergeven van data in een histogram wordt de data gegroepeerd in categoriën. De breedte van de staven (in het vervolg 'bins' genoemd), geeft de breedte van een categorie aan. Zo zijn de categoriën bij het histogram hierboven bijvoorbeeld de getallen van: 0-9, 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99. Vanuit het histogram kunnen we bijvoorbeeld aflezen dat er 100 keer een getal tussen de 60 en 69 en tussen de 80 en 89 voorkomt. Daarnaast kunnen we zien dat getallen tussen de 70 en 80 het minst vaak in de dataset voorkomen en dat getallen tussen de 90 en 99 het meeste voorkomen in de dataset.
+
+#### Breedte van de bins bij een histogram
 
 Voor een histogram is de breedte van de categoriën van belang. Als we te weinig bins kiezen dan worden de categoriën erg groot (/breed) en is er minder te zeggen over het gedrag van de data. Als we te veel bins kiezen dan fluctueerd de hoogte van de (smalle) bins onderling erg en kan er ook minder over het gedrag van de data gezegd worden.  
 
@@ -77,22 +77,66 @@ Als we te weinig bins kiezen dan wordt de data afgevlakt en kunnen we het bovens
 
 PLOT 12
 
-Kiezen we juist te veel bins, dan fluctueerd de hiigte van de staven onderling en kunnen we het gedrag ook niet meer herkennen:
+Kiezen we juist te veel bins, dan kunnen we het gedrag van de data nog wel herkennen (in dit geval) maar er is veel fluctatie in de hoogte van de bins: 
 
 PLOT 13
 
-Voor het bepalen van het optimale aantal bins en de optimale binbreedte bestaan verschillende methodes. In dit vak zullen we de METHODE
+Met het kiezen van te veel bins hebben we dus ruis geïntroduceerd. 
 
-REGELS BINBREEDTE
+Voor het bepalen van het optimale aantal bins en de optimale binbreedte bestaan verschillende methodes. Hieronder geven we de 'Square' formule en 'Sturges' formule. 
 
+Voor een dataset met $$n$$ datapunten wordt de 'Square' formule voor het aantal bins en de binbreedte gegeven door:
+
+$$\text{Aantal bins} = \sqrt{n}$$
+$$\text{binbreedte} = \frac{\text{max}(\text{waarden})-\text{min}(\text{waarden})}{\sqrt{n}}$$
+
+Voor een dataset met $$n$$ datapunten wordt de 'Sturges' formule voor het aantal bins en de binbreedte gegeven door:
+
+$$\text{Aantal bins} = \text{ceil}(\log_2(n)+1)$$
+$$\text{binbreedte} = \frac{\text{max}(\text{waarden})-\text{min}(\text{waarden})}{ceil\left(\log_2(n)\right)+1}$$
+
+#### Interval van de bins bij een histogram
+
+Naast het aantal bins en de binbreedte is de grens van de bins ook van belang. Er zijn een aantal opties:
+
+1. Alle bins hebben links een open interval en rechts een gesloten interval. 
+
+Bijvoorbeeld $$(0,10]$$, $$(10,20]$$, $$(20,30]$$, $$\dots$$, $$(90,100]$$ 
+Deze intervals geven aan dat de eerste bin de getallen 1 t/m 10 bevat. De 2e bin bevat de getallen 11 t/m 20, de derde bin bevat de getallen 21 t/m 30, de laatste bin bevat de getallen 91 t/m 100. Je ziet dat het eerste getal, in dit geval de $$0$$ daarbuiten valt.
+
+2. Alle bins hebben links een gesloten interval en rechts een open interval.
+
+Bijvoorbeeld $$[0,10)$$, $$[10,20)$$, $$[20,30)$$, $$\dots$$, $$[90,100)$$ 
+Deze intervals geven aan dat de eerste bin de getallen 1 t/m 10 bevat. De 2e bin bevat de getallen 11 t/m 20, de derde bin bevat de getallen 21 t/m 30, de laatste bin bevat de getallen 91 t/m 100. Je ziet dat nu het laatste getal, in dit geval de $$100$$ daarbuiten valt.
+
+Je ziet dat er bij beide opties een datapunt buiten het histogram valt. Over het algmeen wordt er gekozen voor de tweede optie waarbij de intervallen aan de linkerkant gesloten zijn en aan de rechterkant open. Om ervoor te zorgen dat het laatste datapunt ook wordt wergegeven in het histogram wordt er dan voor gekozen om de laatste bin aan beide kanten gesloten te maken. In ons geval zouden de intervallen dan als volgt zijn: 
+
+$$[0,10)$$, $$[10,20)$$, $$[20,30)$$, $$\dots$$, $$[90,100]$$ 
+
+In Python is de standaardoptie dat de bins links gesloten zijn en rechts open, en dat de laatste bin aan beide kanten gesloten is. Wel is het van belang om te beseffen dat als je bingrenzen handmatig aanpast, je goed moet nadenken over de intervallen van de bins zodanig dat alle datapunten meegenomen worden. 
 
 ### Data plotten met Python
 
 #### Een grafiek plotten
 
-Stel we hebben de snelheid van een rijdend speelgoedautotje gemeten als functie van de tijd. In de tabel hieronder is de gemeten data weergegeven:
+Stel we hebben de hoogte van een vallende bal gemeten als functie van de tijd. In de tabel hieronder is de gemeten data weergegeven:
 
-TABEL
+| t (s) | h (cm) |
+|-------|--------|
+| 0.0 | 180.0 |
+| 0.5 | 178.8 |
+| 1.0 | 175.1 |
+| 1.5 | 169.0 |
+| 2.0 | 160.4 |
+| 2.5 | 149.3 |
+| 3.0 | 135.9 |
+| 3.5 | 120.0 |
+| 4.0 | 102.0 |
+| 4.5 | 80.7 |
+| 5.0 | 57.4 |
+| 5.5 | 31.6 |
+| 6.0 | 3.4 |
+
 
 Om in Python te kunnen plotten moeten we als eerste een library importeren die ingebouwde functies heeft voor het visueel weergeven van data. Een populair pakket is Matplotlib, deze zullen we in dit vak dan ook gebruiken (er zijn ook andere geschikte pakketten zoals Seaborn, ggplot en Plotly). 
 We importeren de `pyplot` functie vanuit Matplotlib en geven deze de naam 'plt' met het volgende commando:
@@ -103,15 +147,124 @@ De naamgeving 'plt' met het commando `as plt` is optioneel, maar wel handig omda
 Nu maken we een lijst `t_data` aan voor de tijd en een lijst `v_data` voor de snelheid:
 
     t_data = [,,,]
-    v_data = [,,,]
+    h_data = [,,,]
 
 Daarna roepen we het `plot` commando uit matplotlib.pyplot aan:
 
-    plt.plot(t_data, v_data, 'ro')
+    plt.plot(t_data, h_data, 'ro')
 
-Met `'ro'` geven we aan dat we rode gevulde punten in de plot willen. Je ziet dat de assen automatisch op ... en ... beginnen. Daarnaast willen we graag labels op de assen en het aantal ticks is nog niet correct. VERDER
+Met `'ro'` geven we aan dat we rode gevulde punten in de plot willen. De plot ziet er nu als volgt uit:
 
-VERDER MET VOORBEELD (omdat het om gemeten data gaat, plotten we een scatter plot, ook laten zien hoe een lijn erbij kan (theoretische waarde) en een legenda) Daarna een plot met alleen lijnen.
+PLOT 14
+
+Je ziet dat de assen automatisch vanaf de laagste waarde tot aan de hoogste waarden gaan, en hierbij niet eindigen op een maatstreepje. Daarnaast willen we graag labels op de assen.
+
+De limiet van de assen kunnen we aangeven met de commando's `plt.xlim` en `plt.ylim`:
+
+    plt.xlim(0,7)
+    plt.ylim(0,200)
+
+Labels voor de assen kunnen we als volgt specificeren:
+
+    plt.xlabel('t(s)')
+    plt.ylabel('h (cm)')
+    
+Het resultaat is:
+
+PLOT 15
+
+De volledige code tot nu toe is:    
+
+    # dataset in lijsten zetten
+    t_data = [0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6]
+    h_data = [180,178.8,175.1,169.0,160.4,149.3,135.9,120,102,80.7,57.4,31.6,3.4]
+    
+    # data plotten, as-limieten instellen, as-labels instellen
+    plt.plot(t_data, h_data, 'ro')    
+    plt.xlim(0,7)
+    plt.ylim(0,200)
+    plt.xlabel('t(s)')
+    plt.ylabel('h (cm)')
+
+Als we nu nog een dataset hebben, bijvoorbeeld van dezelfde bal die vanaf een hoogte van 160 cm valt in plaats van een hoogte van 180 cm:
+
+    # tweede dataset in lijsten zetten
+    t_data2 = [0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5]
+    h_data2 = [160,158.8,155.1,149.0,140.4,129.3,115.9,100,82,60.7,37.4,11.6]
+    
+Deze dataset kunnen we in de grafiek van de eerste plotten door twee keer het plot commando achter elkaar te gebruiken: daarna gebruiken we weer dezelfde eigenschappen voor de limieten en de aslabels:
+
+    plt.plot(t_data, h_data, 'ro')
+    plt.plot(t_data2, h_data2, 'bo')
+   
+Daarna gebruiken we weer dezelfde eigenschappen voor de as-limieten en de as-labels":
+
+    plt.xlim(0,7)
+    plt.ylim(0,200)
+    plt.xlabel('t (s)')
+    plt.ylabel('h (cm)')
+    
+De plot ziet er dan als volgt uit:
+
+PLOT16
+
+Omdat er meerdere datasets in één grafiek zijn weergegeven is het noodzakelijk om hier een legenda bij te plaatsen. Een legenda kan op meerdere plaatsen in de figuur neergezet worden. Voordat we de legenda kunnen toevoegen moeten we de plots eerst labelen dit doen we door `label = "naam"` achteraan in de `plot` commando's toe te voegen:
+
+    plt.plot(t_data, h_data, 'ro' , label='h(0) = 180 cm')
+    plt.plot(t_data2, h_data2, 'bo', label='h(0) = 160 cm')
+
+Nu kunnen we de legenda als volgt toevoegen (hier kiezen we ervoor om de legenda in de rechterbovenhoek neer te zetten zodat er geen overlap is met de grafieken zelf): 
+
+    plt.legend(loc='upper right', shadow=True, ncol=1)
+
+De grafiek is nu als volgt:
+
+PLOT17
+
+De volledige code tot nu toe is:    
+
+    # dataset in lijsten zetten
+    t_data = [0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6]
+    h_data = [180,178.8,175.1,169.0,160.4,149.3,135.9,120,102,80.7,57.4,31.6,3.4]
+    
+    # tweede dataset in lijsten zetten
+    t_data2 = [0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5]
+    h_data2 = [160,158.8,155.1,149.0,140.4,129.3,115.9,100,82,60.7,37.4,11.6]
+    
+    # data plotten, as-limieten instellen, as-labels instellen
+    plt.plot(t_data, h_data, 'ro' , label='h(0) = 180 cm')
+    plt.plot(t_data2, h_data2, 'bo', label='h(0) = 160 cm')
+    plt.xlim(0,7)
+    plt.ylim(0,200)
+    plt.xlabel('t(s)')
+    plt.ylabel('h (cm)')
+    
+    # legenda toevoegen
+    plt.legend(loc='upper right', shadow=True, ncol=1)
+
+
+Omdat het bovenstaand om gemeten data gaat hebben we dit geplot als een scatter plot. Stel we willen een aantal theoretische verbanden bij elkaar plotten in één grafiek. Meerdere lijnen in één grafiek plotten gaat bijvoorbeeld als volgt (onderstaande is fictieve data):
+
+    # datasets in lijsten
+    x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    y1 = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21] #2x+1
+    y2 = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] #x+2
+
+    # datasets plotten als 'solid' lijnen
+    plt.plot(x, y1, 'r-' , label='dataset 1')
+    plt.plot(x, y2, 'b-', label='dataset 2')
+    plt.xlim(0,7)
+    plt.ylim(0,20)
+    plt.xlabel('x')
+    plt.ylabel('y')
+    
+    # legenda toevoegen
+    plt.legend(loc='upper right', shadow=True, ncol=1)
+
+    
+De bijbehorende plot:
+
+PLOT18
 
 
 #### Een staafdiagram plotten
