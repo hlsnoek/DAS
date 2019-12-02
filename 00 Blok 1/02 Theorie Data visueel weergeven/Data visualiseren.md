@@ -71,15 +71,15 @@ Voor een histogram is de breedte van de categoriën van belang. Als we te weinig
 
 Dit bekijken we aan de hand van een voorbeeld. Zo zou het kunnen zijn dat het ideale plaatje bij een gegeven dataset het volgende is:
 
-PLOT 11
+<p align="center">![higgs](Plot11_RandNorm_Hist_GoedeBins.png){:width="40%"}</p>
 
 Als we te weinig bins kiezen dan wordt de data afgevlakt en kunnen we het bovenstaande gedrag niet meer herkennen:
 
-PLOT 12
+<p align="center">![higgs](Plot12_RandNorm_Hist_TeWeinigBins.png){:width="40%"}</p>
 
 Kiezen we juist te veel bins, dan kunnen we het gedrag van de data nog wel herkennen (in dit geval) maar er is veel fluctatie in de hoogte van de bins: 
 
-PLOT 13
+<p align="center">![higgs](Plot13_RandNorm_Hist_TeVeelBins.png){:width="40%"}</p>
 
 Met het kiezen van te veel bins hebben we dus ruis geïntroduceerd. 
 
@@ -155,7 +155,7 @@ Daarna roepen we het `plot` commando uit matplotlib.pyplot aan:
 
 Met `'ro'` geven we aan dat we rode gevulde punten in de plot willen. De plot ziet er nu als volgt uit:
 
-PLOT 14
+<p align="center">![higgs](Plot14_Vallenbal_PlotOnopgemaakt.png){:width="40%"}</p>
 
 Je ziet dat de assen automatisch vanaf de laagste waarde tot aan de hoogste waarden gaan, en hierbij niet eindigen op een maatstreepje. Daarnaast willen we graag labels op de assen.
 
@@ -171,7 +171,7 @@ Labels voor de assen kunnen we als volgt specificeren:
     
 Het resultaat is:
 
-PLOT 15
+<p align="center">![higgs](Plot15_Vallenbal_PlotOpgemaakt.png){:width="40%"}</p>
 
 De volledige code tot nu toe is:    
 
@@ -206,7 +206,7 @@ Daarna gebruiken we weer dezelfde eigenschappen voor de as-limieten en de as-lab
     
 De plot ziet er dan als volgt uit:
 
-PLOT16
+<p align="center">![higgs](PLOT16_MeerdereScatter.png){:width="40%"}</p>
 
 Omdat er meerdere datasets in één grafiek zijn weergegeven is het noodzakelijk om hier een legenda bij te plaatsen. Een legenda kan op meerdere plaatsen in de figuur neergezet worden. Voordat we de legenda kunnen toevoegen moeten we de plots eerst labelen dit doen we door `label = "naam"` achteraan in de `plot` commando's toe te voegen:
 
@@ -219,7 +219,7 @@ Nu kunnen we de legenda als volgt toevoegen (hier kiezen we ervoor om de legenda
 
 De grafiek is nu als volgt:
 
-PLOT17
+<p align="center">![higgs](PLOT17_MeerdereLijnen_legenda.png){:width="40%"}</p>
 
 De volledige code tot nu toe is:    
 
@@ -264,7 +264,7 @@ Omdat het bovenstaand om gemeten data gaat hebben we dit geplot als een scatter 
     
 De bijbehorende plot:
 
-PLOT18
+<p align="center">![higgs](PLOT18_MeerdereScatter_legenda.png){:width="40%"}</p>
 
 
 #### Een staafdiagram plotten
