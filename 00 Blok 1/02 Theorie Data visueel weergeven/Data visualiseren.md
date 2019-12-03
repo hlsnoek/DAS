@@ -81,9 +81,13 @@ Kiezen we juist te veel bins, dan kunnen we het gedrag van de data nog wel herke
 
 <p align="center">![higgs](Plot13_RandNorm_Hist_TeVeelBins.png){:width="40%"}</p>
 
-Met het kiezen van te veel bins hebben we dus ruis geïntroduceerd. 
+Met het kiezen van te veel bins hebben we dus visuele ruis geïntroduceerd, dit maakt het moeilijker om het gedrag op het oog te herkennen.
 
-Voor het bepalen van het optimale aantal bins en de optimale binbreedte bestaan verschillende methodes. Hieronder geven we de 'Square' formule en 'Sturges' formule. 
+Bij het bepalen van het optimale aantal bins en de optimale binbreedte is het het belangrijkste dat het gedrag van de data goed zichtbaar is. In dit vak willen wij vooral dat je een **gevoel** krijgt voor het optimale aantal bins. 
+
+Om hier een leidraad bij te hebben, geven we een tweetal voorbeelden van formules die gebruikt worden voor het bepalen van het optimale aantal bins en de binbreedte. Er zijn veel meer methodes om dit te bepalen, daar kun je bijvoorbeeld zelf eens op Googlen. 
+
+Hieronder geven we de 'Square' formule en 'Sturges' formule. 
 
 Voor een dataset met $$n$$ datapunten wordt de 'Square' formule voor het aantal bins en de binbreedte gegeven door:
 
@@ -94,6 +98,8 @@ Voor een dataset met $$n$$ datapunten wordt de 'Sturges' formule voor het aantal
 
 $$\text{Aantal bins} = \text{ceil}(\log_2(n)+1)$$
 $$\text{binbreedte} = \frac{\text{max}(\text{waarden})-\text{min}(\text{waarden})}{ceil\left(\log_2(n)\right)+1}$$
+
+Nogmaals, bij dit vak vinden we het belangrijker dat je een gevoelg krijgt voor het optimale aantal bin en de binbreedte, dan dat je de formules kunt toepassen. De formules zijn wel handig als een leidraad.
 
 #### Interval van de bins bij een histogram
 
