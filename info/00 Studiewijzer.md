@@ -55,5 +55,13 @@ Kijk dus niet naar mekaars scherm.
 
 Als we zien dat (delen) van het werk zijn overgenomen van een andere student kunnen we
 niet inschatten of jij het zelf ook wel echt begrepen hebt - en dan kunnen we
-het werk ook niet een cijfer geven.
+het werk ook geen cijfer geven.
 
+Fraude volgens de UvA: *"Het handelen of nalaten van een student waardoor een
+juist oordeel over zijn kennis, inzicht en vaardigheden geheel of gedeeltelijk
+onmogelijk wordt."*
+
+Zie ook:
+
+* de [fraude- en plagiaatwebsite](http://www.uva.nl/plagiaat), en
+* de onderwijs- en examenregeling van Natuur- en Sterrenkunde.
