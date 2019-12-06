@@ -4,11 +4,11 @@
 
 Installeer de volgende twee files in een werkfolder op de computer:
 
-1. B1A_MooiPlotten.py
+1. [B1A_MooiPlotten.py](B1A_MooiPlotten.py)
 
-2. B1_DatasetGenerator.py
+2. [B1_DatasetGenerator.py](B1_DatasetGenerator.py)
 
-3. InlevertemplateBlok1.docx
+3. [InlevertemplateBlok1.docx](InlevertemplateBlok1.docx)
 
 Lees het theorie blok ['Data visueel weergeven'](/blok-1/theorie-data-visueel-weergeven) en zorg dat je op alle punten let.<br>
 Verander eerst in B1A_MooiPlotten.py je studentnummer.<br>
