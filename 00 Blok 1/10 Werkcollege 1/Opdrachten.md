@@ -10,9 +10,10 @@ Installeer de volgende twee files in een werkfolder op de computer:
 
 3. InlevertemplateBlok1.docx
 
+Lees het theorie blok ['Data visueel weergeven'](Blok1/Data visueel weergeven) en zorg dat je op alle punten let.<br>
 Verander eerst in B1A_MooiPlotten.py je studentnummer.<br>
 Verander nu de binning en de range van de plot net zo lang tot je een goed leesbaar histogram krijgt.<br>
-Lees het theorie blok 'Data visueel weergeven' en zorg dat je op alle punten let.
+
 
 Kopieer nu je histogram en je code op het inlever template voor Blok1. <br>
 Is je iets opgevallen aan de distributie? - Schrijf dit dan ook op.
