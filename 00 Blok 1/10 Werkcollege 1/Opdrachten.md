@@ -29,7 +29,7 @@ Je moet expliciet de bin en range opties gebruiken in je code.
 
 Installeer de volgende twee files in een werkfolder op de computer:
 
-* [B1C_GroteGetallen.py](B1C_GroteGetallen.py)
+* [B1C_GroteAantallen.py](B1C_GroteAantallen.py)
 
 Zorg dat dit bestand in dezelfde folder staat als de B1_DatasetGenerator.py file die je in opgave B1A al hebt gebruikt.
 
