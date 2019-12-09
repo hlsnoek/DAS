@@ -38,7 +38,7 @@ Open Python en voer de volgende code uit om een random dataset te genereren met 
     random.seed(30)
     randomData = [random.randint(0,100) for x in range(1, 200)]
 
-Bepaal met behulp van Python (gebruik eventueel Google om de functienamen te vinden):
+Bepaal met behulp van Python:
 
 - Het gemiddelde
 - De mediaan
@@ -47,6 +47,9 @@ Bepaal met behulp van Python (gebruik eventueel Google om de functienamen te vin
 - De variantie
 - De standaardafwijking
 - De coëfficient van variatie
+
+Definieer ZELF de benodigde functies in Python. Gebruik hierbij de formules voor het gemiddelde etc. 
+HIERLINK MATERIAAL basisbegrippen
 
 ## Opdracht 3 - Python: Dataset plotten 
 
