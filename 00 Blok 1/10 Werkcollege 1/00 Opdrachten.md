@@ -11,6 +11,7 @@ $$33, 35, 40, 42, 47, 50, 51, 54, 59$$
 #### Onderdeel a
 
 Bepaal van deze dataset met de hand: 
+
 - Het gemiddelde
 - De mediaan
 - De modus
@@ -38,6 +39,7 @@ Open Python en voer de volgende code uit om een random dataset te genereren met 
     randomData = [random.randint(0,100) for x in range(1, 200)]
 
 Bepaal met behulp van Python (gebruik eventueel Google om de functienamen te vinden):
+
 - Het gemiddelde
 - De mediaan
 - De modus
