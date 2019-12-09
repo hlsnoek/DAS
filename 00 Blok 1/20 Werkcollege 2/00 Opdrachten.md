@@ -7,12 +7,12 @@ Vandaag gaan we aan de slag met de kansdefinitie, het rekenen aan verschoven dat
 #### Onderdeel a
 
 <span style="color:red">HIERHIERHIERHIERHIERHIER</span>
-Uitrekenen van de kans op iets met dobbelstenen
+Uitrekenen van de kans op iets met dobbelstenen. Verjaardagen.
 
 #### Onderdeel b
 
 <span style="color:red">HIERHIERHIERHIERHIERHIER wel uitzoeken</span>
-kans op een waarde onder...bij een normale verdeling.
+kans op een waarde onder...bij een uniforme verdeling. Met for loop. (Hella).
 
 ## Opdracht 2 - Data verschuiven
 
