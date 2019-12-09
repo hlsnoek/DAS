@@ -8,7 +8,7 @@ Gegeven de volgende dataset:
 
 $$33, 35, 40, 42, 47, 50, 51, 54, 59$$
 
-### a
+#### Onderdeel a
 
 Bepaal van deze dataset met de hand: 
 - Het gemiddelde
@@ -19,7 +19,7 @@ Bepaal van deze dataset met de hand:
 - De standaardafwijking
 - De coëfficient van variatie
 
-### b
+### Onderdeel b
 
 Er zijn meer metingen gedaan en de dataset ziet er nu als volgt uit:
 
@@ -28,8 +28,6 @@ $$33, 35, 40, 42, 43, 44, 45, 47, 50, 51, 54, 59$$
 Bepaal nogmaals de waarden uit onderdeel a met de hand. Welk van de waarden zijn nu verandert? Hoeveel zijn deze waarden verandert? Zijn er waarden gelijk gebleven?
 
 ## Opdracht 2 - Python: waarden berekenen grote dataset
-
-### a
 
 Open Python en voer de volgende code uit om een random dataset te genereren met 200 waarden tussen de 0 en de 100. 
 
