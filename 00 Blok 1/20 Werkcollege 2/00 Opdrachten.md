@@ -19,7 +19,7 @@ kans op een waarde onder...bij een normale verdeling.
 <span style="color:red">HIERHIERHIERHIERHIERHIER</span>
 1e dataset van werkcollege 1. Deze maal een factor, plus een factor, min een factor.. De studenten laten uitrekenen hoe de mean, stdef, etc veranderd. Komt dit overeen met wat je verwacht?
 
-## Opdracht 2 - Python: Data verschuiven
+## Opdracht 3 - Python: Data verschuiven
 
 <span style="color:red">HIERHIERHIERHIERHIERHIER</span>
 2e dataset van werkcollege 1. Deze maal een factor, plus een factor, min een factor. . De studenten laten uitrekenen hoe de mean, stdef, etc veranderd. Komt dit overeen met wat je verwacht?
