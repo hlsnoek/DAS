@@ -237,7 +237,7 @@ Een kans van $$0$$ geeft aan dat iets *niet kan* gebeuren en een kans van $$1$$ 
 
 De kans op een *gebeurtenis* $$P(\text{gebeurtenis})$$ wordt gegeven door het aantal mogelijkheden waarbij de gebeurtenis kan optreden gedeelt door het totaal aantal mogelijkheden:
 
-$$P(\text{gebeurtenis}) = \frac{\text{Aantal mogelijkheden waarbij de gebeurtenis optreedt}}{Het totale aantal mogelijkheden}$$ 
+$$P(\text{gebeurtenis}) = \frac{\text{Aantal mogelijkheden waarbij de gebeurtenis optreedt}}{\text{Het totale aantal mogelijkheden}}$$ 
 
 De kansen op alle mogelijke uitkomsten bij elkaar opgeteld zijn gelijk aan 1.
 
@@ -247,7 +247,7 @@ $$P(\text{gebeurtenis}) = \frac{1}{n}$$
 
 Stel we gooien met een zes zijdige dobbelsteen (afgekort tot D6). De kans om bijvoorbeeld 4 te gooien is gelijk aan:
 
-$$P(\text{we gooien 4 met een D6}) = \frac{\text{Aantal mogelijkheden waarbij de gebeurtenis optreedt}}{Het totale aantal mogelijkheden} \frac{1}{6}$$
+$$P(\text{we gooien 4 met een D6}) = \frac{\text{Aantal mogelijkheden waarbij de gebeurtenis optreedt}}{\text{Het totale aantal mogelijkheden}} \frac{1}{6}$$
 
 ### De EN-regel, de OF-regel en de complementregel
 
