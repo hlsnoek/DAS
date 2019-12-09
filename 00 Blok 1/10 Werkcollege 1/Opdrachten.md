@@ -24,6 +24,10 @@ Is je iets opgevallen aan de distributie? - Schrijf dit dan ook op.
 Let op! Je mag niet de automatische binning gebruiken van matplotlib.<br>
 Je moet expliciet de bin en range opties gebruiken in je code.
 
+## Opdracht B1B - Poisson Verdeling
+
+
+
 
 ## Opdracht B1C - Grote Aantallen
 
@@ -58,7 +62,7 @@ We gaan dit nu simuleren om een gevoel te krijgen hoe dit werkt.
 
 * In B1C_GroteAantallen.py bestand wordt de DatasetGenerator aangeroepen die een dataset voor je aanmaakt. (met ds.DataSetGroteAantallen() )
      * Laat zien dat de waardes in de dataset een Normaal verdeling volgen. 
-     * Reken het gemiddelde en de standaard deviatie uit van de dataset.
+     * Reken het gemiddelde en de standaard deviatie uit van de dataset. Gebruik hiervoor geen standaardfuncties, graag de formules coderen.
      * Representeer de dataset in een histogram. Zorg dat het histogram er netjes uitziet.
 
 * We gaan nu simuleren dat we steeds meer datapunten hebben in onze dataset. We willen weten wat het gemiddelde is na $1, 2, 3 ... n$ metingen?
@@ -72,3 +76,29 @@ Zorg nu dat de code in het 'berekenGemiddelde' correct werkt. Als dit werkt zorg
 Zorg dat je je histogram en je grafiek er goed uitzien. Volg de aanwijzingen in het blok ['Data visueel weergeven'](/blok-1/theorie-data-visueel-weergeven) en zorg dat je op alle punten let.<br>
 
 Voeg je resultaten toe aan je inlever document.
+
+
+
+## Opgave B1D - Plaatjes Verzamelen
+
+Een bekende Nederlandse supermarkt geeft gratis kaartjes weg. Per 10 euro aan boodschappen krijg je 4 plaatjes.
+Per pakje van 4 kaartjes zitten vier willekeurige plaatjes. De plaatjes komen dus niet in vaste combinaties per pakje voor. 
+Er bestaan 160 identieke plaatjes.
+
+Je probeert het boek compleet te krijgen.
+
+Ga ervan uit dat de kansdichtheidsverdeling uniform is. Dus dat elk plaatje even veel kans heeft om in jouw pakje te zitten.
+
+
+* Bereken de kans dat je een specifiek plaatje aantreft in je pakje.
+  * Doe dit eerst met de aanname dat de vier plaatjes in je pakje eventueel ook dezelfde plaatjes kunnen zijn.
+  * Bereken nu de kans als je ervanuit gaat dat per pakje je per definitie vier verschillende plaatjes kunt verwachten.
+* Schrijf nu een simulatie waarbij je 1000 keer een pakje opent. Het pakje heeft vier verschillende plaatjes.
+  * Maak een histogram die voor alle plaatjes het aantal getrokken kaartjes weergeeft. Ziet de distributie eruit zoals je verwacht had? Tip: Controlleer je resultaat door veel meer pakjes te openen en te controleren of je de verwachte distributie terug krijgt.
+* Nu willen we weten hoeveel pakjes we gemiddeld nodig hebben om ons boek compleet te krijgen.
+  * Schrijf eerst een functie die 1 vol boek simuleert, dus die door blijft gaan met pakjes openen tot het boek vol is. De functie hoort het aantal pakjes terug te geven.
+  * Roep deze functie nu 10000 keer aan en maak een histogram met de resultaten (aan pakjes nodig).
+  * Bereken uit dit histogram het gemiddelde aantal pakjes dat nodig is. 
+
+
+Voeg je resultaten toe aan je inlever document
