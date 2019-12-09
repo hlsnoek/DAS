@@ -19,7 +19,7 @@ Bepaal van deze dataset met de hand:
 - De standaardafwijking
 - De coëfficient van variatie
 
-### Onderdeel b
+#### Onderdeel b
 
 Er zijn meer metingen gedaan en de dataset ziet er nu als volgt uit:
 
