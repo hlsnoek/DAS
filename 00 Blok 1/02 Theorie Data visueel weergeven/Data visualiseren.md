@@ -92,11 +92,13 @@ Hieronder geven we de 'Square' formule en 'Sturges' formule.
 Voor een dataset met $$n$$ datapunten wordt de 'Square' formule voor het aantal bins en de binbreedte gegeven door:
 
 $$\text{Aantal bins} = \sqrt{n}$$
+
 $$\text{binbreedte} = \frac{\text{max}(\text{waarden})-\text{min}(\text{waarden})}{\sqrt{n}}$$
 
 Voor een dataset met $$n$$ datapunten wordt de 'Sturges' formule voor het aantal bins en de binbreedte gegeven door:
 
 $$\text{Aantal bins} = \text{ceil}(\log_2(n)+1)$$
+
 $$\text{binbreedte} = \frac{\text{max}(\text{waarden})-\text{min}(\text{waarden})}{ceil\left(\log_2(n)\right)+1}$$
 
 Nogmaals, bij dit vak vinden we het belangrijker dat je een gevoelg krijgt voor het optimale aantal bin en de binbreedte, dan dat je de formules kunt toepassen. De formules zijn wel handig als een leidraad.
