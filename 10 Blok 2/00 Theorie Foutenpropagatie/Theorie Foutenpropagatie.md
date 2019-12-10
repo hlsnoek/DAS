@@ -170,7 +170,7 @@ Daarom wordt er bij herhaaldelijke metingen vaak gebruik gemaakt van de *standaa
 In de eerdere lesstof onder ['Basisbegrippen'](/blok-1/theorie-basisbegrippen) hebben we het al over de standaardafwijking gehad.
 Bij de lengte van het blokje zouden we dan de gemiddelde meetwaarde bepalen en hier de standaardafwijking als meetfout bij optellen/aftrekken:
 
-$$\text{lengte l} = l_{gemiddeld} \pm \sigma_lengte$$
+$$\text{lengte l} = l_{gemiddeld} \pm \sigma_{lengte}$$
 
 De eerdere formules voor de foutenpropagatie zijn ook van toepassing op meetwaarden met de standaardafwijking als meetfout. Hierbij
 vul je de standaardafwijking in op de plekken waar de absolute fout staat.
