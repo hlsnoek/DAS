@@ -13,7 +13,7 @@ def berekenGemiddelde(dataset, n) :
 def maakSetGemiddeldes(dataset) :
     N = []
     gemiddeldes = []
-#    for i in range(1,len(set_gauss)+1) :
+#    for i in range(1,len(dataset)+1) :
     for i in range(1,4) :
         N.append(i)
         gemiddeldes.append(berekenGemiddelde(dataset,i))
@@ -23,7 +23,7 @@ def maakGrafiek(x,y) :
     graph = plt.plot(x, y, '-o')
     return graph
 
-set_gauss = ds.DataSetGroteAantallen() 
+set_gauss = ds.DataSetGroteAantallen(1) 
 N, means = maakSetGemiddeldes(set_gauss) 
 
 
