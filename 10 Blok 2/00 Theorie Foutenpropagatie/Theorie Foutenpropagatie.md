@@ -8,7 +8,7 @@
 Zodra je een meting verricht heb je te maken met meetonzekerheden. Denk bijvoorbeeld aan het 
 meten van de lengte van een blokje. Hier zou je bijvoorbeeld een lineaal voor kunnen gebruiken.
 
-<p align="center">![higgs](lineaal_v1.png){:width="30%"}</p>
+<p align="center">![higgs](lineaal_v1.png){:width="80%"}</p>
 
 Als we naar de bovenstaande situatie kijken dan zou het blokje 7.6 cm lang kunnen zijn. Maar het is niet helemaal goed
 af te lezen. Zo zou het blokje ook 7.7 cm lang kunnen zijn als we de linkerkant van het blokje aan de binnenkant van deeerste zwarte streep 
