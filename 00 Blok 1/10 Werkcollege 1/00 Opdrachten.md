@@ -48,8 +48,7 @@ Bepaal met behulp van Python:
 - De standaardafwijking
 - De coëfficient van variatie
 
-Definieer ZELF de benodigde functies in Python. Gebruik hierbij de formules voor het gemiddelde etc. 
-HIERLINK MATERIAAL basisbegrippen
+Definieer ZELF de benodigde functies in Python. Gebruik hierbij de formules voor het gemiddelde, de mediaan etcetera zoals deze zij gegeven in de lesstof ['Basisbegrippen'](/blok-1/theorie-basisbegrippen)
 
 ## Opdracht 3 - Python: Dataset plotten 
 
