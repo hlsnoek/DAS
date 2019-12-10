@@ -129,9 +129,9 @@ Met bovenstaande rekenregels kan de propagatie van fouten bepaald worden.
 
 Stel dat we de lengte van het blokje hebben gemeten en we lezen de volgende waarde af:
 
-- $$\text{lengte = l} = 7.6 \pm 0.1 \text{ cm}$$
-- $$\text{breedte = b} = 4.1 \pm 0.2 \text{ cm}$$ 
-- $$\text{hoogte = h} = 2.0 \pm 0.2 \text{ cm}$$ 
+- De $$\text{lengte = l} = 7.6 \pm 0.1 \text{ cm}$$
+- De $$\text{breedte = b} = 4.1 \pm 0.2 \text{ cm}$$ 
+- De $$\text{hoogte = h} = 2.0 \pm 0.2 \text{ cm}$$ 
 
 Het volume van het blokje wordt gegeven door:
 
@@ -145,7 +145,8 @@ Dus:
 
 $$\begin{aligned}\frac{\Delta V}{|V|} &= \sqrt{\left(\frac{\Delta l}{l}\right)^2+\left(\frac{\Delta b}{b}\right)^2+\left(\frac{\Delta h}{h}\right)^2} \\ 
 &= \sqrt{\left(\frac{0.1}{7.6}\right)^2+\left(\frac{0.2}{4.1}\right)^2+\left(\frac{0.2}{2.0}\right)^2}\end{aligned}\\
-&= 0.01255 \dots$$
+&= 0.01255 \dots
+\end{aligned}$$
 
 We ronden dit nog niet af, dat doen we pas als we de absolute fout hebben:
 
