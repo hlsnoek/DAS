@@ -273,7 +273,3 @@ De bijbehorende plot:
 <p align="center">![higgs](PLOT18_MeerdereScatter_legenda.png){:width="40%"}</p>
 
 
-#### Een staafdiagram plotten
-
-#### Een histogram plotten
-
