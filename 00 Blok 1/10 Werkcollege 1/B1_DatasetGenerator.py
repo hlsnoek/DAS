@@ -28,11 +28,11 @@ def DataSetMooiPlotten() :
     x = np.append(x1,x2)
     return x
 
-def DataSetGroteAantallen() :
+def DataSetGroteAantallen(s=1) :
     checkSD()
     mu = student_nummer%100
     sigma = (student_nummer%100)/10 + 1
-    np.random.seed(1)
+    np.random.seed(s)
     set_gauss = np.random.normal(mu,sigma,size = 100)
     return set_gauss
     
