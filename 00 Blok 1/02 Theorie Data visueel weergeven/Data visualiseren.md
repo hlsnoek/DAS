@@ -59,7 +59,7 @@ Een histogram wordt gebruikt om het resultaat van een *continue* verdeling mee w
 
 Hieronder aan de linkerkant het resultaat van 100 keer kop/munt gooien met een muntstuk weergegeven in een staafdiagram. Aan de rechterkant het resultaat van het genereren van 1000 random kommagetallen tussen de 0 en de 100:
 
-<p align="center">![higgs1](Plot7_KopMunt.PNG){:height="400px"}&emsp;![higgs2](Plot8_RandomHist.PNG){:height="400px"}</p>
+<p align="center">![higgs1](Plot7_KopMunt.PNG){:height="200px"}&emsp;![higgs2](Plot8_RandomHist.PNG){:height="200px"}</p>
 
 Bij een staafdiagram heeft elke groep een staaf die de frequentie aangeeft. Zo is er bij het bovenstaande voorbeeld een staaf voor de groep 'kop' waaruit we kunnen aflezen dat er 60 keer kop is gegooid. Daarnaast kunnen we vanuit de staaf bij de groep 'munt' aflezen dat er 40 keer munt is gegooid. 
 
