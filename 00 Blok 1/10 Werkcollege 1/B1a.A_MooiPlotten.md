@@ -68,7 +68,7 @@ Je resultaten moet je inleveren via ANS en worden beoordeeld. Kijk hier XX voor 
 Download hier een inlevertemplate voor blok 1a: 
 [InlevertemplateBlok1a.docx](InlevertemplateBlok1a.docx)
 
-Kopieer nu je **histogram** en je **code** in het document. <br>
+> Kopieer nu je **histogram** en je **code** in het document. <br>
 Is je iets opgevallen aan de distributie? - Schrijf dit dan ook op.
 
 **Let op!** Je mag dus niet de automatische binning gebruiken van matplotlib.<br>
