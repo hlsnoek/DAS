@@ -164,3 +164,46 @@ Ga ervan uit dat de kansdichtheidsverdeling uniform is. Dus dat elk plaatje even
 
 Voeg je resultaten toe aan je inlever document
 
+
+
+
+
+## Opdracht B1a.A - Mooi Plotten *
+
+We gaan in deze opdracht een histogram maken van een gegeven dataset. <br>
+Je krijgt hiervoor een programmaatje dat je moet aanpassen.
+
+
+>Installeer de volgende twee bestanden naar een werkfolder op de computer:<br>
+ [B1a.A_MooiPlotten.py](B1a.A_MooiPlotten.py)
+ en [DAS_DatasetGenerator.py](DAS_DatasetGenerator.py)
+
+> **_NOTE_** : test
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+
+
+[InlevertemplateBlok1a.docx](InlevertemplateBlok1a.docx)
+
+<!--
+Lees het theorie blok ['Data visueel weergeven'](/blok-1/theorie-data-visueel-weergeven) en zorg dat je op alle punten let.<br>
+-->
+
+Open nu het B1a.A_MooiPlotten.py bestand in het 'Visual Studio Code' programma. 
+
+
+
+Verander eerst in B1A_MooiPlotten.py je studentnummer.<br>
+Verander nu de binning en de range van de plot net zo lang tot je een goed leesbaar histogram krijgt.<br>
+
+
+Kopieer nu je histogram en je code op het inlever template voor Blok1. <br>
+Is je iets opgevallen aan de distributie? - Schrijf dit dan ook op.
+
+Let op! Je mag niet de automatische binning gebruiken van matplotlib.<br>
+Je moet expliciet de bin en range opties gebruiken in je code.
+
