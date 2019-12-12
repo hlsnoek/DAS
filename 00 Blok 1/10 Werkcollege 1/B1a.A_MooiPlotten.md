@@ -21,7 +21,7 @@ Helemaal boven in de code vind je de regel:
 
 	import DAS_DatasetGenerator as ds	
 
-en zo weet je dat *DataSetMooiPlotten()* een functie is die in *DAS_DatasetGenerator.py* is gedefiniëerd.
+en zo weet je dat *DataSetMooiPlotten()* een functie is die in *DAS_DatasetGenerator.py* is gedefinieerd.
 Om dit bestand te kunnen runnnen moet je eerst je studentnummer invoeren in dit bestand.
 
 > 1. Open *DAS_DatasetGenerator.py*, vind de student_nummer variabele en  voer hier je studentnummer in.
@@ -42,11 +42,11 @@ Als je helemaal boven in de code kijkt zie je de volgende regel:
 
 	import matplotlib.pyplot as plt
 
-De hist functie wordt dus gedefiniëerd in de matplotlib library. Dat is handig om te weten als je meer over deze library te weten wilt komen. Je kan bijvoorbeeld veel vinden over de verschillende plot mogelijkeheden door op "matplotlib" en "hist" te zoeken op het web.
+De hist functie wordt dus gedefinieerd in de matplotlib library. Dat is handig om te weten als je meer over deze library te weten wilt komen. Je kan bijvoorbeeld veel vinden over de verschillende plot mogelijkheden door op "matplotlib" en "hist" te zoeken op het web.
 
 
 Je ziet dat behalve de dataset *x* dat er ook twee opties worden meegegeven (bins en range). De range geeft aan welk bereik de x-as van het histogram heeft. De andere variabele, bins, geeft aan in hoeveel delen deze x-as is opgedeeld. <br>
-Deze twee opties kun je eventueel weglaten. In dat geval zoek python zelf, met behulp van een algorithme een range en aantal bins uit. Je zult zien dat dat niet altijd optimaal werkt. 
+Deze twee opties kun je eventueel weglaten. In dat geval zoek python zelf, met behulp van een algoritme een range en aantal bins uit. Je zult zien dat dat niet altijd optimaal werkt. 
 
 > Probeer nu de default binning van de hist functie uit door de *bins* en *range* opties weg te laten.
 

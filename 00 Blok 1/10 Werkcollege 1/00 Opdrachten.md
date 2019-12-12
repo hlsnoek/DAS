@@ -51,3 +51,5 @@ Bepaal met behulp van Python:
 Definieer ZELF de benodigde functies in Python. Gebruik hierbij de formules voor het gemiddelde, de mediaan etcetera zoals deze zij gegeven in de lesstof ['Basisbegrippen'](/blok-1/theorie-basisbegrippen)
 
 
+Opdracht B1a.A : ['B1a.A_MooiPlotten'](B1a.A_MooiPlotten) 
+
