@@ -12,7 +12,7 @@ We hebben een opstelling gemaakt waarmee we steeds per tijdsinterval van 2 minut
 De intensiteit van de $$\gamma$$-bron, $$I(d)$$, hangt af van de dikte lood (in cm) die tussen de bron en de telbuis is geplaatst. Deze volgt de volgende vergelijking:
 
 
-$$I(d) = I_0 \times \left( \frac{1}{2} \right) ^{d/d_half}$$
+$$I(d) = I_0 \times \left( \frac{1}{2} \right) ^{d/d_{half}}$$
 
 Hierbij is de intensiteit $$I$$ gelijk aan het aantal counts per seconde: 
 
@@ -39,7 +39,8 @@ We gaan nu de halfwaardedikte bepalen met de volgende methode. We kijken eerst n
 >  Bepaal nu met deze methode de halfwaardedikte (in cm). Dit is natuurlijk makkelijk met de hand te doen maar programmeer het ook, dat hebben we in een latere opdracht nog nodig.
 
 Beantwoord nu de volgende vragen:
-> * Wat is de onzekerheid op de bepaalde halfwaardedikte? Maak een inschatting. <br>
+
+>  * Wat is de onzekerheid op de bepaalde halfwaardedikte? Maak een inschatting. <br>
 >  * Wat voor soort kansdistributie zou de onzekerheid op de halfwaardedikte beschrijven? <br>
 >  * Is de bepaalde halfwaardedikte een zuivere meting (Engels: unbiased)? Zo nee, waarom denk dat je dat dit niet zo is. Zo ja, kun je een manier bedenken om de onzuiverheid te verminderen? <br>
 >  * Stel dat de halfwaardedikte veel kleiner is dan de waarde die je nu gevonden hebt. Zou dit experiment dan hebben gewerkt? Wanneer wordt dit een probleem? <br>
