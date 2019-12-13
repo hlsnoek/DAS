@@ -38,9 +38,9 @@ We gaan nu de halfwaardedikte bepalen met de volgende methode. We kijken eerst n
 
 Beantwoord nu de volgende vragen:
 > * Wat is de onzekerheid op de bepaalde halfwaardedikte? Maak een inschatting.
-* Wat voor soort kansdistributie zou de onzekerheid op de halfwaardedikte beschrijven?
-* Is de bepaalde halfwaardedikte een zuivere meting (Engels: unbiased)? Zo nee, waarom denk dat je dat dit niet zo is. Zo ja, kun je een manier bedenken om de onzuiverheid te verminderen?
-* Stel dat de halfwaardedikte veel kleiner is dan de waarde die je nu gevonden hebt. Zou dit experiment dan hebben gewerkt? Wanneer wordt dit een probleem?
-* Hoe zou je dit experiment willen verbeteren. Dit kunnen verbeteringen zijn aan de kant van de opstelling maar ook aan de kant van de data analyse.
-* Iemand suggereert dat het experiment ook wel sneller kan worden uitgevoerd door in plaats van 2 minuten, steed 1 minuut per keer te meten met de Geiger-Möller telbuis. Dat scheelt een hoop meettijd. Is dit een goed idee?
+  * Wat voor soort kansdistributie zou de onzekerheid op de halfwaardedikte beschrijven?
+  * Is de bepaalde halfwaardedikte een zuivere meting (Engels: unbiased)? Zo nee, waarom denk dat je dat dit niet zo is. Zo ja, kun je een manier bedenken om de onzuiverheid te verminderen?
+  * Stel dat de halfwaardedikte veel kleiner is dan de waarde die je nu gevonden hebt. Zou dit experiment dan hebben gewerkt? Wanneer wordt dit een probleem?
+  * Hoe zou je dit experiment willen verbeteren. Dit kunnen verbeteringen zijn aan de kant van de opstelling maar ook aan de kant van de data analyse.
+  * Iemand suggereert dat het experiment ook wel sneller kan worden uitgevoerd door in plaats van 2 minuten, steed 1 minuut per keer te meten met de Geiger-Möller telbuis. Dat scheelt een hoop meettijd. Is dit een goed idee?
 
