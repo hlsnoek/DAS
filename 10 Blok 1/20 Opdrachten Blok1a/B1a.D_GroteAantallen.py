@@ -1,4 +1,8 @@
-import B1_DatasetGenerator as ds
+# Author: Hella Snoek
+# Date: Nov 2019
+# Code for Data Analyse en Statistiek course
+
+import DAS_DatasetGenerator as ds
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -23,7 +27,16 @@ def maakGrafiek(x,y) :
     graph = plt.plot(x, y, '-o')
     return graph
 
-set_gauss = ds.DataSetGroteAantallen(1) 
-N, means = maakSetGemiddeldes(set_gauss) 
+set_gauss = ds.DataSetGroteAantallen() 
+
+# Schrijf hieronder je code om een histogram te maken van de set_gauss dataset.
+
+
+# Schrijf hieronder je code om het gemiddelde over de eerste n punten uit te rekenen.
+#mu = berekenGemiddelde(set_gauss, 2)
+#print('mu')
+
+# Schrijf hieronder de code om automatisch de gemiddeldes uit te rekenen 
+#N, means = maakSetGemiddeldes(set_gauss) 
 
 
