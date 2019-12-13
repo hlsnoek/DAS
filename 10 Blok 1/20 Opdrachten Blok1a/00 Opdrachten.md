@@ -1,6 +1,3 @@
-
-Even een test om te kijken of git nog werkt.
-
 # Werkcollege 1
 
 Vandaag gaan we aan de slag met het gemiddelde, de mediaan, de modus, de varantie, de standaardafwijking en de coëfficient van variatie. Daarnaast zullen we data als histogram plotten en hierbij een conclusie trekken over het optimale aantal bins.
