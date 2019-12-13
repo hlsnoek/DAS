@@ -28,7 +28,7 @@ Eerst kijken we naar de regel
 Hier wordt de dataset met de kogel gewichten aangemaakt waarbij de elementen dus een normaal verdeling volgen. We gaan eerst kijken naar de gehele dataset.
 
 > 1. Laat zien dat de waardes in de dataset een Normaal verdeling volgen. Doe dit door de waardes te plotten in een *histogram* (gebruik dus nog even _niet_ de maakGrafiek functie). Zorg dat het histogram er netjes uitziet en dat je de as-labels ook aanmaakt. Kijk eventueel naar de code van opgave B1a.A om te zien hoe je dat moet doen.
-> 2. Reken het gemiddelde en de standaard deviatie uit van de gehele set metingen. Programmeer dit zelf uit (en maak dus geen gebruik van functies in python libraries die dit voor je kunnen doen).
+> 2. Reken het gemiddelde, $$\mu$$, en de standaard deviatie, $$\sigma$$, uit van de gehele set metingen. Programmeer dit zelf uit (en maak dus geen gebruik van functies in python libraries die dit voor je kunnen doen).
 
 
 We gaan nu simuleren dat we steeds meer datapunten hebben in onze dataset. We willen weten wat het gevonden kogel gewicht is na $1, 2, 3 ... n$ metingen. Hoe verandert het gevonden gemiddelde van de dataset als we nog een extra kogel gewicht eraan toevoegen?
