@@ -19,7 +19,9 @@ Hierbij is de intensiteit $$I$$ gelijk aan het aantal counts per seconde:
 $$I = \frac{N}{\Delta T}$$
 
 
-We gaan het experiment nu simuleren. Download het bestand [B1b.A_Halfwaardedikte.py](B1b.A_Halfwaardedikte.py) en zorg dat deze in dezelfde folder staat als *DAS_DatasetGenerator.py*. De volgende regel maakt de dataset aan: 
+We gaan het experiment nu simuleren. Download het bestand [B1b.A_Halfwaardedikte.py](B1b.A_Halfwaardedikte.py) en zorg dat deze in dezelfde folder staat als *DAS_DatasetGenerator.py*. Download ook het inlever template: [Inlevertemplate](B1b.InleverTemplate.docx)
+
+De volgende regel maakt de dataset aan: 
 
 	counts,diktes = ds.DataSetHalfwaardeDikte()
 
@@ -37,10 +39,12 @@ We gaan nu de halfwaardedikte bepalen met de volgende methode. We kijken eerst n
 >  Bepaal nu met deze methode de halfwaardedikte (in cm). Dit is natuurlijk makkelijk met de hand te doen maar programmeer het ook, dat hebben we in een latere opdracht nog nodig.
 
 Beantwoord nu de volgende vragen:
-> * Wat is de onzekerheid op de bepaalde halfwaardedikte? Maak een inschatting.
-  * Wat voor soort kansdistributie zou de onzekerheid op de halfwaardedikte beschrijven?
-  * Is de bepaalde halfwaardedikte een zuivere meting (Engels: unbiased)? Zo nee, waarom denk dat je dat dit niet zo is. Zo ja, kun je een manier bedenken om de onzuiverheid te verminderen?
-  * Stel dat de halfwaardedikte veel kleiner is dan de waarde die je nu gevonden hebt. Zou dit experiment dan hebben gewerkt? Wanneer wordt dit een probleem?
-  * Hoe zou je dit experiment willen verbeteren. Dit kunnen verbeteringen zijn aan de kant van de opstelling maar ook aan de kant van de data analyse.
-  * Iemand suggereert dat het experiment ook wel sneller kan worden uitgevoerd door in plaats van 2 minuten, steed 1 minuut per keer te meten met de Geiger-Möller telbuis. Dat scheelt een hoop meettijd. Is dit een goed idee?
+> * Wat is de onzekerheid op de bepaalde halfwaardedikte? Maak een inschatting. <br>
+>  * Wat voor soort kansdistributie zou de onzekerheid op de halfwaardedikte beschrijven? <br>
+>  * Is de bepaalde halfwaardedikte een zuivere meting (Engels: unbiased)? Zo nee, waarom denk dat je dat dit niet zo is. Zo ja, kun je een manier bedenken om de onzuiverheid te verminderen? <br>
+>  * Stel dat de halfwaardedikte veel kleiner is dan de waarde die je nu gevonden hebt. Zou dit experiment dan hebben gewerkt? Wanneer wordt dit een probleem? <br>
+>  * Hoe zou je dit experiment willen verbeteren. Dit kunnen verbeteringen zijn aan de kant van de opstelling maar ook aan de kant van de data analyse. <br>
+>  * Iemand suggereert dat het experiment ook wel sneller kan worden uitgevoerd door in plaats van 2 minuten, steed 1 minuut per keer te meten met de Geiger-Möller telbuis. Dat scheelt een hoop meettijd. Is dit een goed idee? <br>
 
+
+Voer nu alle antwoorden in op het inlever template en lever je werk in via ANS.
