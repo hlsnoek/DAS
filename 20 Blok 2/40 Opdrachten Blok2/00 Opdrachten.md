@@ -21,22 +21,22 @@ Gegeven de volgende meetwaarden:
 
 $$\begin{aligned} a &=  2.05 \pm 0.07 \\ b &= 30.7612 \pm 0.0020 \\ c &= -0.66 \pm 0.11\end{aligned}$$
 
-> Bereken van onderstaande uitdrukkingen steeds het resultaat, de bijbehorende absolute fout en rond af op het juiste aantal  significante cijfers. Gebruik hiervoor de rekenregels m.b.t. foutenpropagatie en de afronding van meetonzekerheden.
->
-> 1. $$a+b$$  
-> 2. $$b-c$$
-> 3. $$a\cdot b \cdot c$$
-> 4. $$\frac{b\cdot c}{a}$$
+Bereken van onderstaande uitdrukkingen steeds het resultaat, de bijbehorende absolute fout en rond af op het juiste aantal  significante cijfers. Gebruik hiervoor de rekenregels m.b.t. foutenpropagatie en de afronding van meetonzekerheden.
+
+> 1. De uitdrukking: $$a+b$$  
+> 2. De uitdrukking: $$b-c$$
+> 3. De uitdrukking: $$a\cdot b \cdot c$$
+> 4. De uitdrukking: $$\frac{b\cdot c}{a}$$
 
 
 ## Opdracht 4 - Foutenpropagatie partieel
 
-> Bereken van onderstaande uitdrukkingen steeds het resultaat, de bijbehorende absolute fout en rond af op het juiste aantal  significante cijfers. Gebruik hiervoor de rekenregel m.b.t. foutenpropagatie voor een functie van meerdere variabelen.  
->
-> 1. $$w = \frac{x\cdot y}{z}$$
-> 2. $$w = xy+xz$$
-> 3. $$w = \log(x+y)$$
-> 4. $$w = e^{3x^2}+y$$
+Bereken van onderstaande uitdrukkingen steeds het resultaat, de bijbehorende absolute fout en rond af op het juiste aantal  significante cijfers. Gebruik hiervoor de rekenregel m.b.t. foutenpropagatie voor een functie van meerdere variabelen.  
+
+> 1. De formule: $$w = \frac{x\cdot y}{z}$$
+> 2. De formule: $$w = xy+xz$$
+> 3. De formule: $$w = \log(x+y)$$
+> 4. De formule: $$w = e^{3x^2}+y$$
 
 
 ## Opdracht 5 - Foutenpropagatie partieel
