@@ -12,8 +12,9 @@
 >  2. Hoeveel significante cijfers heeft de meetwaarde $$0.0673$$ m? Schrijf deze meetwaarde in de wetenschappelijke notatie
 met twee significante cijfers.
 >  3. Schrijf de volgende getallen steeds in de wetenschappelijke notatie met twee significante cijfers: $$10.034$$ kg, $$456.0$$ m
-en $$0.000271$$ s
->  4. Bereken $$$$ en schrijf het resultaat met het juiste aantal significantie cijfers.
+en $$0.000271$$ s.
+>  4. Bereken $$5.63 + 3.493$$ en schrijf het resultaat met het juiste aantal significantie cijfers.
+>  5. Bereken $$5.63 \cdot 3.493$$ en schrijf het resultaat met het juiste aantal significantie cijfers.
  
 
 
