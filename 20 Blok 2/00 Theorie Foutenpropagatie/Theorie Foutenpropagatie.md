@@ -1,7 +1,40 @@
-# Foutenpropagatie en significantie
+# Significantie , meetonzekerheden en foutenpropagatie 
 
 1. Ordered TOC
 {:toc}
+
+## Significantie
+
+Significantie is de precisie waarmee een (meet)waarde wordt weergegeven. Dit geeft dus een maat voor de nauwkeurigheid van de meting of het getal.
+
+Een aantal voorbeelden:
+
+- Het getal $$7.134$$ heeft in totaal 4 significante cijfers.
+- Het getal $$0.576$$ heeft 3 significante cijfers.
+- $$0.001$$ heeft 1 significant cijfer.
+- $$1.001$$ heeft 4 significante cijfers.
+- $$2.4500$$ heeft 5 significante cijfers.
+
+Hier kun je misschien al een patroon in ontdekken. Er zijn namelijk een aantal regels m.b.t. nullen bij de significantie:
+
+- Nullen aan de linkerkant doen niet mee met de significantie. Het getal $$0.0056$$ heeft bijvoorbeeld twee significante cijfers.
+- Nullen aan de linkerkant voorafgegaan door een getal doen wel mee met de significantie. Het getal $$100.004$$ heeft zes significante cijfers.
+- Nullen aan de rechterkant doen wel mee met de significantie. Zo heeft $$10.34000$$ zeven significante cijfers.
+
+Voor het afronden van (meet)waarden op het juiste aantal significantie cijfers zijn er een aantal regels:
+
+- Bij het vermenigvuldigen of delen van getallen krijgt het resultaat de significantie van het oorspronkelijke getal dat de laagste significantie had. 
+Vermenigvuldigen we bijvoorbeeld $$2.00$$ (drie significante cijfers) met $$3.5$$ (twee significante cijfers) dan is het 
+resultaat gelijk aan $$2.00 \cdot 3.5 = 7.0$$ (twee significante cijfers). 
+- Bij het optellen of aftrekken van getallen heeft het resultaat niet meer cijfers achter de decimale punt 
+dan het gegeven met het minste aantal cijfers achter de decimale punt. Tellen we bijvoorbeeld $$1.23$$ op bij $$0.1$$ dan is het resultaat 
+$$1.23 + 0.1 = 1.3 $$. 
+
+## Wetenschappelijke notatie
+
+<span style="color:red">HIER</span>
+Wetenschappelijke notatie
+
 
 ## Meetonzekerheden
 
@@ -44,40 +77,10 @@ Dit is niet direct uit de absolute fout te zien, maar wel vanuit de relatieve fo
 $$\frac{3}{803} = 0.004$$. De relatieve fout behorende bij de snelheidsmeting van de hardloper is $$\frac{0.2}{18.3} = 0.01$$. Dit betekend dat
 de snelheidsmeting van de harloper met een grotere precisie heeft plaatsgevonden.
 
-## Significantie
+### Meetonzekerheden noteren
 
-Significantie is de precisie waarmee een meetwaarde wordt weergegeven. Dit geeft dus een maat voor de nauwkeurigheid van de meting.
-
-Een aantal voorbeelden:
-
-- Het getal $$7.134$$ heeft in totaal 4 significante cijfers.
-- Het getal $$0.576$$ heeft 3 significante cijfers.
-- $$0.001$$ heeft 1 significant cijfer.
-- $$1.001$$ heeft 4 significante cijfers.
-- $$2.4500$$ heeft 5 significante cijfers.
-
-Hier kun je misschien al een patroon in ontdekken. Er zijn namelijk een aantal regels m.b.t. nullen bij de significantie:
-
-- Nullen aan de linkerkant doen niet mee met de significantie. Het getal $$0.0056$$ heeft bijvoorbeeld twee significante cijfers.
-- Nullen aan de linkerkant voorafgegaan door een getal doen wel mee met de significantie. Het getal $$100.004$$ heeft zes significante cijfers.
-- Nullen aan de rechterkant doen wel mee met de significantie. Zo heeft $$10.34000$$ zeven significante cijfers.
-
-Voor het afronden van meetwaarden op het juiste aantal significantie cijfers zijn er een aantal regels:
-
-- Bij het vermenigvuldigen of delen van getallen krijgt het resultaat de significantie van het oorspronkelijke getal dat de laagste significantie had. 
-Vermenigvuldigen we bijvoorbeeld $$2.00$$ (drie significante cijfers) met $$3.5$$ (twee significante cijfers) dan is het 
-resultaat gelijk aan $$2.00 \cdot 3.5 = 7.0$$ (twee significante cijfers). 
-- Bij het optellen of aftrekken van getallen heeft het resultaat niet meer cijfers achter de decimale punt 
-dan het gegeven met het minste aantal cijfers achter de decimale punt. Tellen we bijvoorbeeld $$1.23$$ op bij $$0.1$$ dan is het resultaat 
-$$1.23 + 0.1 = 1.3 $$. 
-
-Dan is er nog een regel voor het afronden van meetonzekerheden op het juiste aantal significante cijfers:
-
-- Is het getal kleiner dan $$3\cdot 10^n$$ met $$n\varepsilon \mathbb{Z}$$ dan wordt de meetonzekerheid afgerond op twee significante cijfers. Zo wordt de meetonzekerheid 
-$$0.12367$$ afgerond op twee decimalen tot $$0.12$$. Is de meetonzekerheid gelijk aan 23.4 dan wordt dit afgerond op $$23 = 2.3\cdot 10^1$$.
-- Is het getal groter of gelijk aan $$3\cdot 10^n$$ met $$n\varepsilon \mathbb{Z}$$ dan wordt  
-de meetonzekerheid afgerond op één significant cijfer. Zo wordt de meetonzekerheid $$0.7321$$ afgerond tot $$0.7$$. 
- 
+<span style="color:red">HIER</span>
+, notatie met pm, notatie met 55.45(12). notatie bij wetenschappelijke notatie
 
 ## Foutenpropagatie
 
@@ -124,8 +127,21 @@ Hierbij zijn $$\frac{\delta q}{\delta x}$$, \frac{\delta q}{\delta y} etc. de pa
 
 Met bovenstaande rekenregels kan de propagatie van fouten bepaald worden. 
 
+### Afronding meetonzekerheden en meetwaarden bij foutenpropagatie
 
-**Voorbeeld**
+Voor het afronden van meetonzekerheden op het juiste aantal significante cijfers geldt het volgende:
+
+- Is het getal kleiner dan $$3\cdot 10^n$$ met $$n\,\varepsilon\, \mathbb{Z}$$ dan wordt de meetonzekerheid afgerond op twee significante cijfers. Zo wordt de meetonzekerheid 
+$$0.12367$$ afgerond op twee decimalen tot $$0.12$$. Is de meetonzekerheid gelijk aan 23.4 dan wordt dit afgerond op $$23$$.
+- Is het getal groter of gelijk aan $$3\cdot 10^n$$ met $$n\,\varepsilon\, \mathbb{Z}$$ dan wordt  
+de meetonzekerheid afgerond op één significant cijfer. Zo wordt de meetonzekerheid $$0.6321$$ bijvoorbeeld afgerond tot $$0.6$$.  
+
+Bij foutenpropagatie bepaald de afronding van de doorberekende (absolute) fout op hoeveel decimalen het doorberekende resultaat wordt afgerond. Is het doorberekende resultaat (onafgerond) bijvoorbeeld $$8.956$$ en de doorberekende (onafgeronde) absolute fout is $$0.68$$ dan wordt de absolute fout afgerond tot $$0.7$$ volgens bovenstande regels. Dit betekent dan ook dat het doorberekende resultaat wordt afgerond tot een getal met één decimaal, namelijk $$9.0$$. De doorberekende waarde met bijbehorende fout wordt dan weergegeven als $$9.0 \pm 0.7$$ of als $$9.0(7)$$.
+
+Stel we hebben als (onafgeronde) doorberekende waarde bijvoorbeeld $$45.326$$, met de bijbehorende absolute fout $$0.123$$. Ondat de absolute fout volgens bovenstaande regels wordt afgerond op twee decimalen, noteren dit resultaat dan als $$45.33 \pm 0.12$$. 
+
+
+**Voorbeeld foutenpropagatie en afronding**
 
 Stel dat we de lengte van het blokje hebben gemeten en we lezen de volgende waarde af:
 
@@ -172,7 +188,7 @@ Bij de lengte van het blokje zouden we dan de gemiddelde meetwaarde bepalen en h
 
 $$\text{lengte l} = l_{gemiddeld} \pm \sigma_{lengte}$$
 
-De eerdere formules voor de foutenpropagatie zijn ook van toepassing op meetwaarden met de standaardafwijking als meetfout. Hierbij
-vul je de standaardafwijking in op de plekken waar de absolute fout staat.
+De eerdere formules voor de foutenpropagatie zijn ook van toepassing op meetwaarden met de standaardafwijking als meetfout. Hierbij vul je de standaardafwijking in op de plekken waar de absolute fout staat.
+
 
  

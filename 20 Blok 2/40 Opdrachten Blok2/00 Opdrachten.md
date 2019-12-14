@@ -6,8 +6,6 @@
 
 ## Opdracht 2 - Significantie
 
-<span style="color:red">IDEE: oefenen met significantie.</span>
-
 >  1. Hoeveel significante cijfers heeft de meetwaarde $$3,0123$$ kg? Hoeveel significante cijfers heeft de meetwaarde $$10.05\,\text{m}^2$$?  
 >  2. Hoeveel significante cijfers heeft de meetwaarde $$0.0673$$ m? Schrijf deze meetwaarde in de wetenschappelijke notatie
 met twee significante cijfers.
@@ -17,21 +15,44 @@ en $$0.000271$$ s.
 >  5. Bereken $$5.63 \cdot 3.493$$ en schrijf het resultaat met het juiste aantal significantie cijfers.
  
 
-
 ## Opdracht 3 - Foutenpropagatie
 
-<span style="color:red">IDEE: gegeven meetwaarden. Uitrekenen wat de fout is als je de meetwaarden bij elkaar opteld, deelt en combinaties daarvan.
-Hierbij ook letten op de significantie.</span>
+Gegeven de volgende meetwaarden:
 
-#### Onderdeel a
+- $$a = 2.05 \pm 0.07$$
+- $$b = 30.7612 \pm 0.0020$$
+- $$c = -0.66 \pm 0.11$$
+
+> Bereken van onderstaande uitdrukkingen steeds het resultaat, de bijbehorende absolute fout en rond af op het juiste aantal  significante cijfers. Gebruik hiervoor de rekenregels m.b.t. foutenpropagatie en de afronding van meetonzekerheden.
+>
+> 1. $$a+b$$  
+> 2. $$b-c$$
+> 3. $$a\cdot b \cdot c$$
+> 4. $$\frac{b\cdot c}{a}$$
+
 
 ## Opdracht 4 - Foutenpropagatie partieel
 
-<span style="color:red">IDEE: oefenen met partieel op een formule </span>
+> Bereken van onderstaande uitdrukkingen steeds het resultaat, de bijbehorende absolute fout en rond af op het juiste aantal  significante cijfers. Gebruik hiervoor de rekenregel m.b.t. foutenpropagatie voor een functie van meerdere variabelen.  
+>
+> 1. $$w = \frac{x\cdot y}{z}$$
+> 2. $$w = xy+xz$$
+> 3. $$w = \log(x+y)$$
+> 4. $$w = e^{3x^2}+y$$
+
 
 ## Opdracht 5 - Foutenpropagatie partieel
 
-<span style="color:red">IDEE: in onderdelen verdelen. Nu foutenpropagatie op iets natuurkundigs. Even naar de experimenten bij NP kijken </span>
+Een student voert een experiment uit met een bal op een helling. De student is vergeten om op te schrijven wat de beginhoogte van de bal was. Gelukkig kan dit nog bepaald worden uit de meetgegevens. Uit de meetgegevens blijkt dat de bal een afstand van $$x = 0.56 \pm 0.04\,\text{m}$$ heeft afgelegd op de helling. De student meet de hoek $$\alpha$$ die de helling maakt met de grond, en schrijft de volgende waarde op: $$\alpha = 30 \pm 4\,^{\circ}$$. 
+
+> 1. Schrijf de formule op om de beginhoogte van de bal te bepalen aan de hand van de afgelegde afstand $$x$$ op de helling en de hoek $$\alpha$$ die de helling met de grond maakt.
+> 2. Bereken de beginhoogte van de bal en geef het resultaat samen met de absolute fout weer, afgerond op het juiste aantal significantie cijfers. Gebruik hiervoor de rekenregel m.b.t. foutenpropagatie voor een functie van meerdere variabelen.  
+
+Een wetenschapper meet een grootheid $$x$$ en $$y$$ en wil daarmee de grootheid $$z$$ bepalen. De grootheid $$z$$ hangt van $$x$$ en $$y$$ af op de volgende manier:
+
+$$z = xy^2 + 3xy$$
+
+> 3. Bereken de waarde van de grootheid $$z$$ met de bijbehorende absolute fout. Geef het resultaat weer met het juiste aantal significante cijfers.
 
 
 
