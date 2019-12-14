@@ -40,3 +40,4 @@ set_gauss = ds.DataSetGroteAantallen()
 #N, means = maakSetGemiddeldes(set_gauss) 
 
 
+

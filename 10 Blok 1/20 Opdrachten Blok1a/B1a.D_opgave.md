@@ -25,7 +25,7 @@ Eerst kijken we naar de regel
 
 	set_gauss = ds.DataSetGroteAantallen() 
 	
-Hier wordt de dataset met de kogel gewichten aangemaakt waarbij de elementen dus een normaal verdeling volgen. We gaan eerst kijken naar de gehele dataset.
+Hier wordt de dataset met de **gemeten kogel gewichten (in grammen)** aangemaakt waarbij de elementen dus een normaal verdeling volgen. We gaan eerst kijken naar de gehele dataset.
 
 > 1. Laat zien dat de waardes in de dataset een Normaal verdeling volgen. Doe dit door de waardes te plotten in een *histogram* (gebruik dus nog even _niet_ de maakGrafiek functie). Zorg dat het histogram er netjes uitziet en dat je de as-labels ook aanmaakt. Kijk eventueel naar de code van opgave B1a.A om te zien hoe je dat moet doen.
 > 2. Reken het gemiddelde, $$\mu$$, en de standaard deviatie, $$\sigma$$, uit van de gehele set metingen. Programmeer dit zelf uit (en maak dus geen gebruik van functies in python libraries die dit voor je kunnen doen).
