@@ -19,9 +19,7 @@ en $$0.000271$$ s.
 
 Gegeven de volgende meetwaarden:
 
-- $$a = 2.05 \pm 0.07$$
-- $$b = 30.7612 \pm 0.0020$$
-- $$c = -0.66 \pm 0.11$$
+$$\begin{aligned} a &=  2.05 \pm 0.07 \\ b &= 30.7612 \pm 0.0020 \\ c &= -0.66 \pm 0.11\end{aligned}$$
 
 > Bereken van onderstaande uitdrukkingen steeds het resultaat, de bijbehorende absolute fout en rond af op het juiste aantal  significante cijfers. Gebruik hiervoor de rekenregels m.b.t. foutenpropagatie en de afronding van meetonzekerheden.
 >
