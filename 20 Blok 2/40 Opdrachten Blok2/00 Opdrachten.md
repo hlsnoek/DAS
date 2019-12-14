@@ -50,7 +50,7 @@ Een wetenschapper meet een grootheid $$x$$ en $$y$$ en wil daarmee de grootheid 
 
 $$z = xy^2 + 3xy$$
 
-> 3. Bereken de waarde van de grootheid $$z$$ met de bijbehorende absolute fout. Geef het resultaat weer met het juiste aantal significante cijfers.
+> Bereken de waarde van de grootheid $$z$$ met de bijbehorende absolute fout. Geef het resultaat weer met het juiste aantal significante cijfers.
 
 
 
