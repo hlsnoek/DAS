@@ -8,8 +8,10 @@
 
 <span style="color:red">IDEE: oefenen met significantie.</span>
 >  1. Hoeveel significante cijfers heeft de meetwaarde $$3,0123$$ kg? Hoeveel significante cijfers heeft de meetwaarde $$10.05\,\text{m}^2$$?  
+
 >  2. Hoeveel significante cijfers heeft de meetwaarde $$0.0673$$ m? Schrijf deze meetwaarde in de wetenschappelijke notatie
 met twee significante cijfers.
+
 >  3. Schrijf de volgende getallen steeds in de wetenschappelijke notatie met twee significante cijfers:
 
 - $$10.034$$ kg
