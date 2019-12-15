@@ -6,7 +6,7 @@
 
 ## Variantie en covariantie
 
-De variantie geeft zoals eerder besproken ( onder ['Basisbegrippen'](/blok-1/theorie-basisbegrippen)) een maat voor
+De variantie geeft zoals eerder besproken (onder ['Basisbegrippen'](/blok-1/theorie-basisbegrippen)) een maat voor
 de spreiding van een dataset aan. Bij een 2D dataset waarbij een variabele wordt aangegeven op de $$x$$-as en een andere
 variabelen op de $$y$$-as wordt de mate van spreiding o.a. aangegeven met de *covariantie*.
 
@@ -41,9 +41,9 @@ de samenhang tussen de variabelen is wordt de *correlatie* genoemd.
 De correlatie van een 2D dataset geeft aan in hoeverre de variabele weergegeven op
 de $$x$$-as **lineair** afhangt van de variabele weergegeven op de $$y$$-as (en andersom).
 
-De mate van correlatie wordt aangegeven met de *correlatiecoëfficient* $$\rho_{x,y}$$.
+De mate van correlatie wordt aangegeven met de *correlatiecoëfficiënt* $$\rho_{x,y}$$.
 
-De correlatiecoëfficient is gedefinieerd als:
+De correlatiecoëfficiënt is gedefinieerd als:
 
 $$\rho_{x,y} = \frac{cov_{x,y}}{\sigma_x \sigma_y}$$  
 
@@ -51,38 +51,38 @@ Hierbij is $$cov_{x,y}$$ de covariantie tussen variabele $$x$$ en variabele $$y$
 $$\sigma_y$$ de standaardafwijkingen van variabele $$x$$ en $$y$$ respectievelijk.
 
 Als er geen correlatie is tussen de twee variabelen van de 2D dataset, dan zijn
-de twee variabelen niet lineair afhankelijk van elkaar en is de correlatiecoëfficient
-gelijk aan nul. Is de correlatiecoëfficient tussen de twee variabelen gelijk aan $$1$$ of aan $$-1$$ dan zijn de twee
-variabelen perfect lineair afhankelijk van elkaar. In het geval van een correlatiecoëfficient gelijk
-aan $$1$$ is dit een positief lineair verband, in het geval van een correlatiecoëfficient gelijk
+de twee variabelen niet lineair afhankelijk van elkaar en is de correlatiecoëfficiënt
+gelijk aan nul. Is de correlatiecoëfficiënt tussen de twee variabelen gelijk aan $$1$$ of aan $$-1$$ dan zijn de twee
+variabelen perfect lineair afhankelijk van elkaar. In het geval van een correlatiecoëfficiënt gelijk
+aan $$1$$ is dit een positief lineair verband, in het geval van een correlatiecoëfficiënt gelijk
 aan $$-1$$ is dit een lineair verband met negatieve helling. 
 
-Hieronder zijn een aantal 2D datasets weergegeven met verschillende correlatiecoëfficienten:
+Hieronder zijn een aantal 2D datasets weergegeven met verschillende correlatiecoëfficiënten:
 
-Dataset met een correlatiecoëfficient $$\rho_{x,y} = 0 $$:
+Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 0 $$:
 
 <p align="center">![higgs](Plot1_Correlatie_0.png){:width="60%"}</p>
 
-Dataset met een correlatiecoëfficient $$\rho_{x,y} = 1 $$:
+Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 1 $$:
 
 <p align="center">![higgs](Plot1_Correlatie1.png){:width="60%"}</p>
 
-Dataset met een correlatiecoëfficient $$\rho_{x,y} = -1 $$:
+Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = -1 $$:
 
 <p align="center">![higgs](Plot1_Correlatie_min1.png){:width="60%"}</p>
 
-Datasets met een correlatiecoëfficient $$\rho_{x,y} = -0.8, \rho_{x,y} = -0.3, \rho_{x,y} = 0.3 \text{ en } \rho_{x,y} = 0.8$$:
+Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.8, \rho_{x,y} = -0.3, \rho_{x,y} = 0.3 \text{ en } \rho_{x,y} = 0.8$$:
 
 <p align="center">![higgs](Plot1_Correlatie_min0punt8.png){:width="40%"}</p><p align="center">![higgs](Plot1_Correlatie_min0punt3.png){:width="40%"}</p>
 
 <p align="center">![higgs](Plot1_Correlatie_0punt3.png){:width="40%"}</p><p align="center">![higgs](Plot1_Correlatie_0punt8.png){:width="40%"}</p>
 
 
-Hoe dichter de correlatiecoëfficient bij een waarde van $$1$$ of $$-1$$ zit des te groter
-is de lineaire afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficient bij nul zit
+Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter
+is de lineaire afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit
 des te minder is de correlatie tussen de variabelen.
 
-Er zijn meerdere 'spelletjes' op internet waarbij je kunt oefenen met het herkennen ne raden van de correlatiecoëfficient
+Er zijn meerdere 'spelletjes' op internet waarbij je kunt oefenen met het herkennen ne raden van de correlatiecoëfficiënt
 van een 2D dataset. Kijk bijvoorbeeld eens bij [Geogebra-Correlatie game](https://www.geogebra.org/m/KE6JfuF9) of 
 [Guess the correlation](http://guessthecorrelation.com/)
 

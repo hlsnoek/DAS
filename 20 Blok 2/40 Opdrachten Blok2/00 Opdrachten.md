@@ -26,10 +26,14 @@ Bereken van onderstaande uitdrukkingen steeds het resultaat, de bijbehorende abs
 > 1. De uitdrukking: $$a+b$$  
 > 2. De uitdrukking: $$b-c$$
 > 3. De uitdrukking: $$a\cdot b \cdot c$$
-> 4. De uitdrukking: $$\frac{b\cdot c}{a}$$
+> 4. De uitdrukking: $$\displaystyle\frac{b\cdot c}{a}$$
 
 
 ## Opdracht 4 - Foutenpropagatie partieel
+
+Gegeven de volgende meetwaarden:
+
+$$\begin{aligned} x &=  10.1 \pm 0.4 \\ y &= 2.334 \pm 0.006 \\ z &= 0.121 \pm 0.023\end{aligned}$$
 
 Bereken van onderstaande uitdrukkingen steeds het resultaat, de bijbehorende absolute fout en rond af op het juiste aantal  significante cijfers. Gebruik hiervoor de rekenregel m.b.t. foutenpropagatie voor een functie van meerdere variabelen.  
 

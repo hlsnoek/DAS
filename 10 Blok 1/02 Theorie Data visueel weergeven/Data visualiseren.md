@@ -22,9 +22,9 @@ Vanuit de scatterplot zien we dat er inderdaad sprake is van veel meer datapunte
 
 <p align="center">![higgs](plot3_scatter_aslabels_NoTopBot_monthscorrect.png){:width="40%"}</p>
 
-Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, tenzij de data dan onvolledig of onleesbaar wordt**. In het geval van het weergeven van de temperaturen van 1981 t/m 2014 wordt de data bijvoorbeeld onvolledig als we de temperatuur bij nul laten beginnen, we hebben immers ook temparaturen onder het vriespunt. Daarnaast wordt de data onleesbaar als we het jaartal vanaf het jaar nul laten lopen, de datapunten voor de jaren waarin we geïntereseerd zijn zullen dan over elkaar vallen. In het huidige geval is het dus niet van toepassing om in de oorsprong te beginnen, maar dit is bij elke dataset wel het uitgangspunt.
+Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, tenzij de data dan onvolledig of onleesbaar wordt**. In het geval van het weergeven van de temperaturen van 1981 t/m 2014 wordt de data bijvoorbeeld onvolledig als we de temperatuur bij nul laten beginnen, we hebben immers ook temperaturen onder het vriespunt. Daarnaast wordt de data onleesbaar als we het jaartal vanaf het jaar nul laten lopen, de datapunten voor de jaren waarin we geïnteresseerd zijn zullen dan over elkaar vallen. In het huidige geval is het dus niet van toepassing om in de oorsprong te beginnen, maar dit is bij elke dataset wel het uitgangspunt.
 
-De assen kunnen nog wat netter. Zo eindigd de $$x$$-as *na* de waarde $$20$$, maar het is niet helemaal duidelijk bij welke waarde precies. De $$y$$-as begint een klein stukje voor 1980 en eindigd een klein stukje na 2015. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**. Daarnaast willen we niet te veel maatstreepjes maar ook niet te weinig. In het algemeen worden **zeven maatstreepjes** aangehouden voor de goede leesbaarheid (eentje meer of minder is niet erg). In ons geval laten we het jaartal beginnen op 1980 en eindigen op 2015, daarnaast laten we de temperatuur beginnen op $$-5$$ C&deg; en eindigen op $$25$$ C&deg;. Op de $$x$$-as hebben we 8 maatstreepjes en op de $$y$$-as hebben we 7 maatstreepjes:
+De assen kunnen nog wat netter. Zo eindigt de $$x$$-as *na* de waarde $$20$$, maar het is niet helemaal duidelijk bij welke waarde precies. De $$y$$-as begint een klein stukje voor 1980 en eindigt een klein stukje na 2015. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**. Daarnaast willen we niet te veel maatstreepjes maar ook niet te weinig. In het algemeen worden **zeven maatstreepjes** aangehouden voor de goede leesbaarheid (eentje meer of minder is niet erg). In ons geval laten we het jaartal beginnen op 1980 en eindigen op 2015, daarnaast laten we de temperatuur beginnen op $$-5$$ C&deg; en eindigen op $$25$$ C&deg;. Op de $$x$$-as hebben we 8 maatstreepjes en op de $$y$$-as hebben we 7 maatstreepjes:
 
 <p align="center">![higgs](plot4_scatter_aslabels_startendMayorTick_NoTopBot_monthscorrect.png){:width="40%"}</p>
 
@@ -43,10 +43,10 @@ Samengevat:
 - Een grafiek van een dataset wordt geplot met punten (een 'scatter plot'). 
 - Het resultaat van een fit of een theoretisch verband wordt met een lijn geplot.
 - Bij een enkele dataset wordt geen legenda gebruikt. Als er meerdere datasets in één grafiek worden weergegeven dan is een legenda noodzakelijk.
-- Aslabels geven weer wat elke as representeerd (inclusief eenheden).
+- Aslabels geven weer wat elke as representeert (inclusief eenheden).
 - Assen beginnen in de oorsprong. Een uitzondering kan zijn als de data heel erg ver van de oorsprong af zit.
 - Op elke as staan $$\pm$$ 7 maatstreepjes ('ticks').
-- Een as begint en eindigd op een groot maatstreepje met een waarde ('major tick') en niet op een klein maatstreepje of een maatstreep zonder getal.
+- Een as begint en eindigt op een groot maatstreepje met een waarde ('major tick') en niet op een klein maatstreepje of een maatstreep zonder getal.
 - Een grafiek voor een wetenschappelijk artikel of een verslag heeft geen titel. Een grafiek voor webteksten of lesmateriaal heeft over het algemeen wel een titel.
 
 ### Staafdiagrammen & Histogrammen
@@ -55,7 +55,7 @@ Staafdiagrammen en histogrammen lijken grafisch gezien op elkaar. Er is echter e
 
 Een staafdiagram wordt gebruikt om de frequentie bij een *discrete* verdeling aan de geven. Een voorbeeld van een discrete verdeling is het aantal keer dat er kop of munt gegooid wordt met een muntstuk. De discrete waarden zijn in dit geval 'kop' en 'munt'. Een ander voorbeeld van een discrete verdeling is het aantal inwoners in 'Europa', 'Amerika' en 'Azië'. 
 
-Een histogram wordt gebruikt om het resultaat van een *continue* verdeling mee weer te geven. Dit houdt in dat alle tussenligende waarden aangenomen mogen worden. Een voorbeeld van een continue verdeling is het genereren van random kommagetallen tussen de 0 en de 1. Elke tussenliggende waarde kan aangenomen worden. Een ander voorbeeld van een continue verdeling is het gewicht van elke persoon in Nederland. 
+Een histogram wordt gebruikt om het resultaat van een *continue* verdeling mee weer te geven. Dit houdt in dat alle tussenliggende waarden aangenomen mogen worden. Een voorbeeld van een continue verdeling is het genereren van random kommagetallen tussen de 0 en de 1. Elke tussenliggende waarde kan aangenomen worden. Een ander voorbeeld van een continue verdeling is het gewicht van elke persoon in Nederland. 
 
 Hieronder aan de linkerkant het resultaat van 100 keer kop/munt gooien met een muntstuk weergegeven in een staafdiagram. Aan de rechterkant het resultaat van het genereren van 1000 random kommagetallen tussen de 0 en de 100:
 
@@ -63,11 +63,11 @@ Hieronder aan de linkerkant het resultaat van 100 keer kop/munt gooien met een m
 
 Bij een staafdiagram heeft elke groep een staaf die de frequentie aangeeft. Zo is er bij het bovenstaande voorbeeld een staaf voor de groep 'kop' waaruit we kunnen aflezen dat er 60 keer kop is gegooid. Daarnaast kunnen we vanuit de staaf bij de groep 'munt' aflezen dat er 40 keer munt is gegooid. 
 
-Bij het weergeven van data in een histogram wordt de data gegroepeerd in categoriën. De breedte van de staven (in het vervolg 'bins' genoemd), geeft de breedte van een categorie aan. Zo zijn de categoriën bij het histogram hierboven bijvoorbeeld de getallen van: 0-9, 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99. Vanuit het histogram kunnen we bijvoorbeeld aflezen dat er 100 keer een getal tussen de 60 en 69 en tussen de 80 en 89 voorkomt. Daarnaast kunnen we zien dat getallen tussen de 70 en 80 het minst vaak in de dataset voorkomen en dat getallen tussen de 90 en 99 het meeste voorkomen in de dataset.
+Bij het weergeven van data in een histogram wordt de data gegroepeerd in categorieën. De breedte van de staven (in het vervolg 'bins' genoemd), geeft de breedte van een categorie aan. Zo zijn de categorieën bij het histogram hierboven bijvoorbeeld de getallen van: 0-9, 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99. Vanuit het histogram kunnen we bijvoorbeeld aflezen dat er 100 keer een getal tussen de 60 en 69 en tussen de 80 en 89 voorkomt. Daarnaast kunnen we zien dat getallen tussen de 70 en 80 het minst vaak in de dataset voorkomen en dat getallen tussen de 90 en 99 het meeste voorkomen in de dataset.
 
 #### Breedte van de bins bij een histogram
 
-Voor een histogram is de breedte van de categoriën van belang. Als we te weinig bins kiezen dan worden de categoriën erg groot (/breed) en is er minder te zeggen over het gedrag van de data. Als we te veel bins kiezen dan fluctueerd de hoogte van de (smalle) bins onderling erg en kan er ook minder over het gedrag van de data gezegd worden.  
+Voor een histogram is de breedte van de categorieën van belang. Als we te weinig bins kiezen dan worden de categorieën erg groot (/breed) en is er minder te zeggen over het gedrag van de data. Als we te veel bins kiezen dan fluctueerd de hoogte van de (smalle) bins onderling erg en kan er ook minder over het gedrag van de data gezegd worden.  
 
 Dit bekijken we aan de hand van een voorbeeld. Zo zou het kunnen zijn dat het ideale plaatje bij een gegeven dataset het volgende is:
 
@@ -77,7 +77,7 @@ Als we te weinig bins kiezen dan wordt de data afgevlakt en kunnen we het bovens
 
 <p align="center">![higgs](Plot12_RandNorm_Hist_TeWeinigBins.png){:width="40%"}</p>
 
-Kiezen we juist te veel bins, dan kunnen we het gedrag van de data nog wel herkennen (in dit geval) maar er is veel fluctatie in de hoogte van de bins: 
+Kiezen we juist te veel bins, dan kunnen we het gedrag van de data nog wel herkennen (in dit geval) maar er is veel fluctuatie in de hoogte van de bins: 
 
 <p align="center">![higgs](Plot13_RandNorm_Hist_TeVeelBins.png){:width="40%"}</p>
 
@@ -101,7 +101,7 @@ $$\text{Aantal bins} = \text{ceil}(\log_2(n)+1)$$
 
 $$\text{binbreedte} = \frac{\text{max}(\text{waarden})-\text{min}(\text{waarden})}{ceil\left(\log_2(n)\right)+1}$$
 
-Nogmaals, bij dit vak vinden we het belangrijker dat je een gevoelg krijgt voor het optimale aantal bin en de binbreedte, dan dat je de formules kunt toepassen. De formules zijn wel handig als een leidraad.
+Nogmaals, bij dit vak vinden we het belangrijker dat je een gevoel krijgt voor het optimale aantal bin en de binbreedte, dan dat je de formules kunt toepassen. De formules zijn wel handig als een leidraad.
 
 #### Interval van de bins bij een histogram
 
@@ -110,14 +110,14 @@ Naast het aantal bins en de binbreedte is de grens van de bins ook van belang. E
 1. Alle bins hebben links een open interval en rechts een gesloten interval. 
 
 Bijvoorbeeld $$(0,10]$$, $$(10,20]$$, $$(20,30]$$, $$\dots$$, $$(90,100]$$ 
-Deze intervals geven aan dat de eerste bin de getallen 1 t/m 10 bevat. De 2e bin bevat de getallen 11 t/m 20, de derde bin bevat de getallen 21 t/m 30, de laatste bin bevat de getallen 91 t/m 100. Je ziet dat het eerste getal, in dit geval de $$0$$ daarbuiten valt.
+Deze intervallen geven aan dat de eerste bin de getallen 1 t/m 10 bevat. De 2e bin bevat de getallen 11 t/m 20, de derde bin bevat de getallen 21 t/m 30, de laatste bin bevat de getallen 91 t/m 100. Je ziet dat het eerste getal, in dit geval de $$0$$ daarbuiten valt.
 
 2. Alle bins hebben links een gesloten interval en rechts een open interval.
 
 Bijvoorbeeld $$[0,10)$$, $$[10,20)$$, $$[20,30)$$, $$\dots$$, $$[90,100)$$ 
-Deze intervals geven aan dat de eerste bin de getallen 1 t/m 10 bevat. De 2e bin bevat de getallen 11 t/m 20, de derde bin bevat de getallen 21 t/m 30, de laatste bin bevat de getallen 91 t/m 100. Je ziet dat nu het laatste getal, in dit geval de $$100$$ daarbuiten valt.
+Deze intervallen geven aan dat de eerste bin de getallen 1 t/m 10 bevat. De 2e bin bevat de getallen 11 t/m 20, de derde bin bevat de getallen 21 t/m 30, de laatste bin bevat de getallen 91 t/m 100. Je ziet dat nu het laatste getal, in dit geval de $$100$$ daarbuiten valt.
 
-Je ziet dat er bij beide opties een datapunt buiten het histogram valt. Over het algmeen wordt er gekozen voor de tweede optie waarbij de intervallen aan de linkerkant gesloten zijn en aan de rechterkant open. Om ervoor te zorgen dat het laatste datapunt ook wordt wergegeven in het histogram wordt er dan voor gekozen om de laatste bin aan beide kanten gesloten te maken. In ons geval zouden de intervallen dan als volgt zijn: 
+Je ziet dat er bij beide opties een datapunt buiten het histogram valt. Over het algemeen wordt er gekozen voor de tweede optie waarbij de intervallen aan de linkerkant gesloten zijn en aan de rechterkant open. Om ervoor te zorgen dat het laatste datapunt ook wordt weergegeven in het histogram wordt er dan voor gekozen om de laatste bin aan beide kanten gesloten te maken. In ons geval zouden de intervallen dan als volgt zijn: 
 
 $$[0,10)$$, $$[10,20)$$, $$[20,30)$$, $$\dots$$, $$[90,100]$$ 
 

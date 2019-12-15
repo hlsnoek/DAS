@@ -1,6 +1,6 @@
 # Werkcollege 1
 
-Vandaag gaan we aan de slag met het gemiddelde, de mediaan, de modus, de varantie, de standaardafwijking en de coëfficient van variatie. Daarnaast zullen we data als histogram plotten en hierbij een conclusie trekken over het optimale aantal bins.
+Vandaag gaan we aan de slag met het gemiddelde, de mediaan, de modus, de variantie, de standaardafwijking en de coëfficiënt van variatie. Daarnaast zullen we data als histogram plotten en hierbij een conclusie trekken over het optimale aantal bins.
 
 ## Opdracht 1 - waarden berekenen kleine dataset
 
@@ -18,7 +18,7 @@ Bepaal van deze dataset met de hand:
 - De range
 - De variantie
 - De standaardafwijking
-- De coëfficient van variatie
+- De coëfficiënt van variatie
 
 #### Onderdeel b
 
@@ -46,9 +46,9 @@ Bepaal met behulp van Python:
 - De range
 - De variantie
 - De standaardafwijking
-- De coëfficient van variatie
+- De coëfficiënt van variatie
 
-Definieer ZELF de benodigde functies in Python. Gebruik hierbij de formules voor het gemiddelde, de mediaan etcetera zoals deze zij gegeven in de lesstof ['Basisbegrippen'](/blok-1/theorie-basisbegrippen)
+Definieer ZELF de benodigde functies in Python. Gebruik hierbij de formules voor het gemiddelde, de mediaan et cetera zoals deze zijn gegeven in de lesstof ['Basisbegrippen'](/blok-1/theorie-basisbegrippen)
 
 
 Opdracht B1a.A : ['B1a.A_MooiPlotten'](B1a.A_MooiPlotten) 

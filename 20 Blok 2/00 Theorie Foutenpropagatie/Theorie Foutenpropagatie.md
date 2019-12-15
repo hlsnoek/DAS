@@ -39,12 +39,12 @@ Wetenschappelijke notatie
 ## Meetonzekerheden
 
 Zodra je een meting verricht heb je te maken met meetonzekerheden. Denk bijvoorbeeld aan het 
-meten van de lengte van een blokje. Hier zou je bijvoorbeeld een lineaal voor kunnen gebruiken.
+meten van de lengte van een blokje. Hier zou je bijvoorbeeld een liniaal voor kunnen gebruiken.
 
 <p align="center">![higgs](lineaal_v1.png){:width="80%"}</p>
 
 Als we naar de bovenstaande situatie kijken dan zou het blokje 7.6 cm lang kunnen zijn. Maar het is niet helemaal goed
-af te lezen. Zo zou het blokje ook 7.7 cm lang kunnen zijn als we de linkerkant van het blokje aan de binnenkant van deeerste zwarte streep 
+af te lezen. Zo zou het blokje ook 7.7 cm lang kunnen zijn als we de linkerkant van het blokje aan de binnenkant van de eerste zwarte streep 
 leggen, en het kan 7.5 cm zijn als we het blokje aan de buitenkant van de eerste zwarte streep leggen. 
 Omdat er geen streepjes tussen de rode streepjes zijn kunnen we slechts op een mm nauwkeurig zeggen wat de lengte is van het blokje. Er is dus sprake van een meetonzekerheid.
 In dit geval zouden we bijvoorbeeld noteren dat het blokje een lengte heeft van $$7.6 \pm 0.1$$ cm. het is heel
@@ -54,9 +54,9 @@ instrument we de lengte ook meten, er is altijd sprake van een meetonzekerheid (
 Bij elke meting die gedaan wordt is er sprake van een meetonzekerheid. Hoe nauwkeuriger er gemeten kan worden des te kleiner is de meetonzekerheid. Zo 
 zouden we de lengte van het blokje met behulp van een schuifmaat kunnen meten. In dat geval is de meetonzekerheid in de orde van een tiende mm.
 
-Er zijn verschillende maten waarin een meetonzekerheid wordt aangegeven. Zo is de onzekerhied die we hierboven hebben weergegeven een zogenoemde
+Er zijn verschillende maten waarin een meetonzekerheid wordt aangegeven. Zo is de onzekerheid die we hierboven hebben weergegeven een zogenoemde
 *absolute fout*. De absolute fout $$\Delta x$$ is de meetonzekerheid op een waarde $$x$$ zoals deze direct wordt afgelezen op de meetapparatuur. Ook een afronding die plaatsvindt in bijvoorbeeld een
-computerprogramma resulteerd in een absolute fout. De beste schatting van de waarde noemen we $$x_{best}$$ en de meetwaarde wordt dan aangegeven als:
+computerprogramma resulteert in een absolute fout. De beste schatting van de waarde noemen we $$x_{best}$$ en de meetwaarde wordt dan aangegeven als:
 
 $$\text{gemeten waarde van }x = x_{best} \pm \Delta x$$
 
@@ -64,7 +64,7 @@ De waarde $$x_{best} + \Delta x$$ is altijd de hoogst mogelijke waarde voor de g
 altijd de laagst mogelijke waarde voor de gemeten grootheid. 
 
 De zogenoemde *relatieve fout* van een meetwaarde $$x$$ wordt gegeven door de waarde van de absolute fout gedeeld door de waarde van de grootheid. Omdat we deze waarde  
-niet weten wordt er vaka gedeelt door de beste schatting van de gemeten waarde:
+niet weten wordt er vaak gedeeld door de beste schatting van de gemeten waarde:
 
 $$\text{relatieve fout} = \frac{\Delta x}{x_{best}}$$
 
@@ -75,7 +75,7 @@ $$v_{hardloper} = 18.3 \pm 0.2$$ km/h. Welk van de metingen heeft met een groter
 
 Dit is niet direct uit de absolute fout te zien, maar wel vanuit de relatieve fout. De relatieve fout behorende bij de snelheid van het vliegtuig is 
 $$\frac{3}{803} = 0.004$$. De relatieve fout behorende bij de snelheidsmeting van de hardloper is $$\frac{0.2}{18.3} = 0.01$$. Dit betekend dat
-de snelheidsmeting van de harloper met een grotere precisie heeft plaatsgevonden.
+de snelheidsmeting van de hardloper met een grotere precisie heeft plaatsgevonden.
 
 ### Meetonzekerheden noteren
 
@@ -85,7 +85,7 @@ de snelheidsmeting van de harloper met een grotere precisie heeft plaatsgevonden
 ## Foutenpropagatie
 
 Vaak moeten we nog berekeningen uitvoeren met een gemeten waarde. Zo zouden we bijvoorbeeld de lengte, breedte
-en hoogte van het blokje kunnen bepalen om daarna uit te rekenen wat het folume is. Elk van de gemeten waarden
+en hoogte van het blokje kunnen bepalen om daarna uit te rekenen wat het volume is. Elk van de gemeten waarden
 heeft een eigen meetonzekerheid. Als we het volume van het blokje uitrekenen dan werken deze meetonzekerheden door 
 in de fout die we uiteindelijk hebben op het volume van het blokje. We noemen dit het propageren van fouten oftewel 'foutenpropagatie'.
 
@@ -136,9 +136,9 @@ $$0.12367$$ afgerond op twee decimalen tot $$0.12$$. Is de meetonzekerheid gelij
 - Is het getal groter of gelijk aan $$3\cdot 10^n$$ met $$n\,\varepsilon\, \mathbb{Z}$$ dan wordt  
 de meetonzekerheid afgerond op één significant cijfer. Zo wordt de meetonzekerheid $$0.6321$$ bijvoorbeeld afgerond tot $$0.6$$.  
 
-Bij foutenpropagatie bepaald de afronding van de doorberekende (absolute) fout op hoeveel decimalen het doorberekende resultaat wordt afgerond. Is het doorberekende resultaat (onafgerond) bijvoorbeeld $$8.956$$ en de doorberekende (onafgeronde) absolute fout is $$0.68$$ dan wordt de absolute fout afgerond tot $$0.7$$ volgens bovenstande regels. Dit betekent dan ook dat het doorberekende resultaat wordt afgerond tot een getal met één decimaal, namelijk $$9.0$$. De doorberekende waarde met bijbehorende fout wordt dan weergegeven als $$9.0 \pm 0.7$$ of als $$9.0(7)$$.
+Bij foutenpropagatie bepaald de afronding van de doorberekende (absolute) fout op hoeveel decimalen het doorberekende resultaat wordt afgerond. Is het doorberekende resultaat (onafgerond) bijvoorbeeld $$8.956$$ en de doorberekende (onafgeronde) absolute fout is $$0.68$$ dan wordt de absolute fout afgerond tot $$0.7$$ volgens bovenstaande regels. Dit betekent dan ook dat het doorberekende resultaat wordt afgerond tot een getal met één decimaal, namelijk $$9.0$$. De doorberekende waarde met bijbehorende fout wordt dan weergegeven als $$9.0 \pm 0.7$$ of als $$9.0(7)$$.
 
-Stel we hebben als (onafgeronde) doorberekende waarde bijvoorbeeld $$45.326$$, met de bijbehorende absolute fout $$0.123$$. Ondat de absolute fout volgens bovenstaande regels wordt afgerond op twee decimalen, noteren dit resultaat dan als $$45.33 \pm 0.12$$. 
+Stel we hebben als (onafgeronde) doorberekende waarde bijvoorbeeld $$45.326$$, met de bijbehorende absolute fout $$0.123$$. Omdat de absolute fout volgens bovenstaande regels wordt afgerond op twee decimalen, noteren dit resultaat dan als $$45.33 \pm 0.12$$. 
 
 
 **Voorbeeld foutenpropagatie en afronding**
@@ -177,7 +177,7 @@ Het gemeten volume van het blokje is dus $$V = 62.3 \pm 0.8 \text{ cm}^3$$
 
 Zoals eerder gezegd weten we de echte exacte waarde van en grootheid nooit. Wel kunnen we deze zo goed mogelijk 
 benaderen. Als een meting herhaald wordt dan krijgen we een steeds betere schatting van de waarde, maar we zullen de waarde zelf nooit
-helemaal precies weten. In het geval van het blokje zou de lengte bijvoorbeeld door jouzelf en al je medestudenten gemeten kunnen worden. Iedereen leest de waarde op de lineaal
+helemaal precies weten. In het geval van het blokje zou de lengte bijvoorbeeld door jouzelf en al je medestudenten gemeten kunnen worden. Iedereen leest de waarde op de liniaal
 net wat anders af en daardoor verkrijgen we een collectie van meetwaarden, elk met een eigen meetonzekerheid.
 
 Ook hierbij kan voor de foutenpropagatie de absolute fout genomen worden om tot een 
