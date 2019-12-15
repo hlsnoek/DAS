@@ -35,7 +35,7 @@ $$20.0, 21.0, 21.0, 27.0, 31.0, 38.0$$
 
 We bekijken het effect op de eigenschappen als we de dataset met een factor $$2$$ vermenigvuldigen en als we de dataset met een factor $$\frac{1}{2}$$ vermenigvuldigen:
 
-|Eigenschap| Dataset | Dataset maal 2 | Dataset maal \frac{1}{2}|
+|Eigenschap| Dataset | Dataset maal 2 | Dataset maal $$\frac{1}{2}$$|
 |---|---|---|---|
 |Gemiddelde|26.3|52.7|13.2|
 |Mediaan|24|48|12|
