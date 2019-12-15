@@ -14,7 +14,7 @@ We bekijken het effect op de eigenschappen als we bij alle elementen een waarde 
 
 |Eigenschap| Dataset | Dataset plus 6 | Dataset min 10|
 |---|---|---|---|
-|Gemiddelde|9.8|15.8|-0.17|
+|Gemiddelde|9.8|15.8|-0.2|
 |Mediaan|10|16|0|
 |Modus|11|17|1|
 |Range|10|10|10|
@@ -26,7 +26,8 @@ Je ziet dat het gemiddelde, de variantie en de modus evenveel omhoog/omlaag gaan
 
 ### Data vermenigvuldigen
 
-Bij het vermenigvuldigen of delen van data met een bepaalde factor $$c$$ blijven het gemiddelde, de mediaan, de modus, de range, variantie, standaarddeviatie en de coëfficiënt van variatie met dezelfde factor $$c$$.
+Bij het vermenigvuldigen van data met een bepaalde factor $$c$$ worden het gemiddelde, de mediaan, de modus, de range en de standaarddeviatie met dezelfde factor $$c$$ vermenigvuldigd. De coëfficiënt van variatie blijft hetzelfde. Dit is immers de verhouding tussen de standaarddeviatie en het gemiddelde, en deze verhouding blijft gelijk. De variantie veranderd met een factor $$c^2$$.
+
 
 Neem als dataset bijvoorbeeld de waarden:
 
@@ -36,13 +37,15 @@ We bekijken het effect op de eigenschappen als we de dataset met een factor $$2$
 
 |Eigenschap| Dataset | Dataset maal 2 | Dataset maal \frac{1}{2}|
 |---|---|---|---|
-|Gemiddelde|26.3|52.7|-0.17|
-|Mediaan|10|16|0|
-|Modus|11|17|1|
-|Range|10|10|10|
-|Variantie|11.4|11.4|11.4|
-|Standaarddeviatie|3.4|3.4|3.4|
-|Coeff. var.|~ 0.35|~ 0.26|~ -20|
+|Gemiddelde|26.3|52.7|13.2|
+|Mediaan|24|48|12|
+|Modus|21|42|10.5|
+|Range|18|32|9|
+|Variantie|51.1|204.|12.8|
+|Standaarddeviatie|7.15|14.3|3.57|
+|Coeff. var.|~ 0.27|~ 0.27|~ 0.27|
+
+Je ziet dus dat het gemiddelde, de mediaan, modus, range en standaarddeviatie allen veranderen met een factor $$2$$ respectievelijk $$\frac{1}{2}$$. De variantie veranderd met een factor $$2=2^2$$ en $$\frac{1}{4}=\left(\frac{1}{2}\right)^2$$ respectievelijk. De coëfficiënt van variatie blijft hetzelfde.
 
 ### Data verwijderen of aanvullen
 
