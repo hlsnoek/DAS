@@ -4,8 +4,6 @@
 
 > Tijdens dit vak worden vaardigheden ontwikkeld op het gebied van statistische data-analyse in combinatie met programmeren in Python. Aan de hand van een realistische data-set brengen studenten hun nieuw verworven theoretische kennis ook gelijk in de praktijk.
 
-Deze studiewijzer is een ingekorte versie. Als je inlogt en registreert op de website krijg je toegang tot de volledige studiewijzer voor fulltime of parttime. Wil je meer informatie over dit vak? Kijk op <https://mprog.nl/> of stuur een e-mail naar <help@mprog.nl>.
-
 
 ## Activiteiten
 
@@ -30,10 +28,13 @@ Aanwezigheid is verplicht.
 ## Tussentoetsen
 Na het hoorcollge vinden in week 2, 3 en 4 een tussentoets plaats. Deze toetsen moet je met een voldoende afronden om het vak te halen.
 
+## Voorbereiding
+Bereid je vast voor op dit vak door te zorgen dat python goed geïnstalleerd is. Volg hiervoor deze [instructies](/Start/Installatie).
+
 ## Boeken
 Er zijn geen boeken benodigd voor deze cursus. Wil je de stof een keer op een andere manier benaderen, dan vind je in de volgende boeken wellicht wat je zoekt:
 
-J.R. Taylor, 1997, 'An introduction to error analysis', University Science Books, Sausalito, 2, 1997, ISBN 978 0935 702 750. Dit boek is gratis beschikbaar op https://archive.org/details/TaylorJ.R.IntroductionToErrorAnalysis2ed/.
+J.R. Taylor, 1997, 'An introduction to error analysis', University Science Books, Sausalito, 2, 1997, ISBN 978 0935 702 750. Dit boek is gratis beschikbaar op [deze website](https://archive.org/details/TaylorJ.R.IntroductionToErrorAnalysis2ed/).
 
 
 ## Herkansingen
