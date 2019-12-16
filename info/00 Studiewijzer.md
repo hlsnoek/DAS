@@ -29,7 +29,7 @@ Aanwezigheid is verplicht.
 Na het hoorcollge vinden in week 2, 3 en 4 een tussentoets plaats. Deze toetsen moet je met een voldoende afronden om het vak te halen.
 
 ## Voorbereiding
-Bereid je vast voor op dit vak door te zorgen dat python goed geïnstalleerd is. Volg hiervoor deze [instructies](/Start/Installatie).
+Bereid je vast voor op dit vak door te zorgen dat python goed geïnstalleerd is. Volg hiervoor deze [instructies](/start/installatie).
 
 ## Boeken
 Er zijn geen boeken benodigd voor deze cursus. Wil je de stof een keer op een andere manier benaderen, dan vind je in de volgende boeken wellicht wat je zoekt:
