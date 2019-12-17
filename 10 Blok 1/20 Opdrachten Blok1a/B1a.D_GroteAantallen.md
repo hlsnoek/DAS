@@ -1,6 +1,6 @@
 ## Opdracht B1a.D - Grote Aantallen ****
 
-We hebben een enorme ton kogeltjes en we willen weten hoe zwaar een kogel is. De kogels zijn echter niet allemaal precies even zwaar. Het gewicht van de kogels zijn **normaal** ofwel **Gaussisch** verdeeld. We willen graag weten wat het ***typische*** gewicht is van een kogel uit deze ton. 
+We hebben een enorme ton kogeltjes en we willen weten hoe zwaar een enkele kogel uit de ton is. De kogels zijn echter niet allemaal precies even zwaar. Het gewicht van de kogels zijn **normaal** ofwel **Gaussisch** verdeeld. We willen graag weten wat het ***typische*** gewicht is van een kogel uit deze ton. 
 Er zit ook een onzekerheid op de meting, maar die is kleiner dat de variatie in de kogelgewichten.
 
 Het is teveel werk om alle kogels apart te wegen, dus we doen een steekproef. We nemen eerst een enkele kogel en wegen die. Omdat we niet weten wat de spreiding is in het gewicht van de kogels, kunnen we nu ook nog niet weten hoe representatief het gewicht van deze enkele kogel is voor het gemiddelde gewicht.

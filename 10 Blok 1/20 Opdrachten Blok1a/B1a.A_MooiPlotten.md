@@ -5,7 +5,7 @@
 We gaan in deze opdracht een histogram maken van een gegeven dataset. <br>
 Je krijgt hiervoor een python programmaatje dat je moet aanpassen. <br>
 We gaan ervan uit dat je Anaconda en Visual Studio Code (VSC) hebt geïnstalleerd. <br>
-Zo niet zie dan hier XX de instructies.<br>
+Zo niet zie dan [hier](XX) de instructies.<br>
 
 
 >Installeer de volgende twee bestanden naar een werkfolder op je computer:<br>
@@ -27,9 +27,7 @@ Om dit bestand te kunnen runnnen moet je eerst je studentnummer invoeren in dit 
 > 1. Open *DAS_DatasetGenerator.py*, vind de student_nummer variabele en  voer hier je studentnummer in.
 2. Nu kun je het bestand *B1a.A_MooiPlotten.py* runnen. Kijk goed naar je output.
 
-Je hebt nu je eerste histogram gemaakt van jouw eigen dataset *x*. Een histogram is een manier om data te presenteren. Er bestaan 1-dimensionale, 2- en 3- dimensionale histogrammen. 
-
-> Lees hier XX meer over histogrammen. 
+Je hebt nu je eerste histogram gemaakt van jouw eigen dataset *x*. Een histogram is een manier om data te presenteren. Er bestaan 1-dimensionale, 2- en 3- dimensionale histogrammen. Lees [hier](XX link) meer over histogrammen. 
 
 We gaan nu het histogram zo maken dat de dataset *x* ook goed 'leesbaar' is. Vooralsnog is van het histogram niet heel duidelijk hoe de distributie van *x* eruit ziet. De bedoeling is dat als we naar het histogram kijken, we meteen een goed idee krijgen van de distributie van *x*. 
 
@@ -56,17 +54,19 @@ Ook in dit geval is de representatie van de dataset niet optimaal. We gaan dus d
 Valt er iets op aan de distributie?
 <br> **TIP**: Het is makkelijker om eerst de range goed af te stellen en dan pas de binning waarde te veranderen.
 
-Als je een goede binning en range combinatie hebt gevonden waarin de kenmerken van de distributie goed zichtbaar zijn, is het goed om nog een keer te kijken naar de leesbaarheid van de *x*-as. Het is prettig als de bins een eenvoudig te lezen fractie hebben van de streepjes op de *x*-as. Dus als je een range hebt van 0 tot 10, is het onhandig om die in 13 stukjes op te delen. Prettiger is bijvoorbeeld 2, 4, 5 of 10. Dat is het histogram eenvoudiger leesbaar.
+Als je een goede binning en range combinatie hebt gevonden waarin de kenmerken van de distributie goed zichtbaar zijn, is het goed om nog een keer te kijken naar de leesbaarheid van de *x*-as. Het is prettig als de bins een eenvoudig te lezen fractie hebben van de streepjes op de *x*-as. Dus als je een range hebt van 2 tot 12, is het onhandig om die in 13 stukjes op te delen. Prettiger is bijvoorbeeld 2, 4, 5 of 10. Dat is het histogram eenvoudiger leesbaar. Misschien heb jij wel veel meer bins nodig, of een grotere range.
 
 > Pas als laatste nog de binning aan zodat ook de bin-breedtes eenvoudig zijn af te lezen - maar zorg dat de kenmerken van de distributie van *x* ook goed zichtbaar blijven. 
+
+**TIP**: Als je het lastig vindt om te begrijpen wat 'kenmerken' zijn van de distributie is het het handigste om even te spelen met de waardes en goed naar de data te kijken. Het is nooit voorspelbaar hoe een dataset eruit ziet (en dus wat de belangrijke kenmerken zijn). Typisch wil je wel weten hoe breed de verdeling is, waar hij begint en waar hij ophoudt. Ook als deze bijvoorbeeld a-symmetrisch is, is het wel belangrijk dat dat zichtbaar is in het histogram.
 
 Als je tevreden bent met het resultaat kun je het histogram opslaan door de laatste regel code te activeren: 
 
 	plt.savefig('B1a.A_MooiPlotten.png')   
 
-Je resultaten moet je inleveren via ANS en worden beoordeeld. Kijk hier XX voor de deadlines van de inleveropdrachten. 
-Download hier een inlevertemplate voor blok 1a: 
-[InlevertemplateBlok1a.docx](InlevertemplateBlok1a.docx)
+Je resultaten moet je inleveren via ANS en worden beoordeeld. Kijk [hier](XX link) voor de deadlines van de inleveropdrachten. 
+Download hier een inlevertemplate voor de opdrachten in blok 1a: 
+[InlevertemplateBlok1a.docx](InlevertemplateBlok1a.docx XX)
 
 > Kopieer nu je **histogram** en je **code** in het document. <br>
 Is je iets opgevallen aan de distributie? - Schrijf dit dan ook op.
@@ -75,4 +75,3 @@ Is je iets opgevallen aan de distributie? - Schrijf dit dan ook op.
 Je moet expliciet de bin en range opties gebruiken in je code.
 
 
-**TIP**: Als je het lastig vindt om te begrijpen wat 'kenmerken' zijn van de distributie is het het handigste om even te spelen met de waardes en goed naar de data te kijken. Het is nooit voorspelbaar hoe een dataset eruit ziet (en dus wat de belangrijke kenmerken zijn). Typisch wil je wel weten hoe breed de verdeling is, waar hij begint en waar hij ophoudt. Ook als deze bijvoorbeeld a-symmetrisch is, is het wel belangrijk dat dat zichtbaar is in het histogram.
