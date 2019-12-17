@@ -10,46 +10,38 @@ from random import random
 import math as math
 
 def poisson(k, lamda) :
-    kans = math.pow(lamda,k)* math.exp(-lamda) / math.factorial(k)
+    kans = #math.pow(lamda,k)* math.exp(-lamda) / math.factorial(k)
     return kans
 
-# Print hier de resultaten voor l=3, k=1:
-print(poisson(1,3),poisson(2,3),poisson(3,3))
+##  Print hier de resultaten voor k=1 en lambda=3:
+print(poisson(1,3))
 
-x = [i for i in range(1,40)]
-yp_3 = [poisson(xi,2) for xi in x]
-yp_5 = [poisson(xi,5) for xi in x]
-yp_10 = [poisson(xi,10) for xi in x]
-yp_20 = [poisson(xi,20) for xi in x]
+##  Genereer nu eerst een lijst met 40 punten van 1 t/40:
+#x = [i for i in range(1,40)]
 
-# Door eerst expliciet een figure aan te maken kunnen we meerdere plotjes maken.
-fig_d1 = plt.figure('Poisson Distributies')
-plt.plot(x,yp_3,'-o',label='3')
-plt.plot(x,yp_5,'-o',label='5')
-plt.plot(x,yp_10,'-o',label='10')
-plt.plot(x,yp_20,'-o',label='20')
-plt.legend()
-fig_d1.show()
+##  Vul de lijst met punten je voor elke punt P(k=i, lambda =3) berekend:
+yp_3 = [poisson(i,3) for i in x]
+
+##  Door eerst expliciet een figure aan te maken kunnen we meerdere plotjes maken.
+#fig_d1 = plt.figure('Poisson Distributies')
+
+##  maak een grafiek van de data, geef hiervoor de lijsten met x en y waardes:
+##  de optie -o zorgt ervoor dat de punten zelf worden getekend en verbonden met een lijn.
+##  de optie label maakt een referentie aan voor de legende
+#plt.plot(x,yp_3,'-o',label='3')
+
+##  Als je meerder grafieken wilt plotten kun je die toevoegen.
+#plt.plot(x,yp_5,'-o',label='5')
+
+##  Hiermee maak je de legende aan
+#plt.legend()
+
+##  Hiermee laat je de grafiek uiteindelijk zien.
+#fig_d1.show()
 
 
-## Deel twee Uniforme distributies:
-#xu_r = [i for i in range(1,7)]
-#yu = [30/6 for xu in xu_r]
+### ---  Deel twee Uniforme distributies:
 
-np.random.seed(1)
-rand = np.random.uniform()
-xu = [(int)(0.5 + np.random.uniform()*6) for r in range(0,30)]
-
-fig_du = plt.figure('uniforme distributie')
-plt.hist(xu, range=(0.5,6.5), bins=6)
-#plt.plot(xu_r,yu,'-o')
-fig_du.show()
-
-#fig_d4 = plt.figure('variatie per bin')
-#po = [0  for i in range(1,7)]
-#for xi in xr_3 :
-#    po[xi-1] += 1
-#    
-#plt.hist(po, range=(0.5,10.5), bins=10)
-#fig_d4.show()
+#fig_du = plt.figure('Uniforme Distributie')
+#fig_du.show()
 

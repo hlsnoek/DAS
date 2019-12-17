@@ -1,4 +1,4 @@
-## B1a.B Kansdichtheidsdistributies **
+## B1a.B Kansdichtheid distributies **
 
 We gaan in deze opgave kijken naar kansdichtheid distributies. Lees [hier](XX link maken) meer over kansdichtheid distributies. Er zijn een paar belangrijke, en bekende, distributies. We gaan in deze opgave aan de slag met de [poisson](XX link maken) en [uniforme](XX link maken) distributies.
 
@@ -10,11 +10,11 @@ We gaan in deze opgave kijken naar kansdichtheid distributies. Lees [hier](XX li
 We gaan nu poisson distributies met python grafisch weergeven. Download het bestand [B1a.B_Distributies.py](B1a.B_Distributies.py). De poisson distributie is één van de belangrijke distributies. We zullen hem vaak tegen gaan komen.
 
 > 1. Maak een functie die de poisson kans uitrekent. De bedoeling is dat je de functie $$k$$ en $$\lambda$$ meegeeft en deze de poisson kans teruggeeft. In het bestand vindt je al een lege functie die je kunt invullen.<br> 
-> **TIP** De macht, de expontieel en de faculteit die in de formule voorkomen kun je makkelijk uitrekenen met het math pakket in python. 
+> **TIP** De macht, de exponentieel en de faculteit die in de formule voorkomen kun je makkelijk uitrekenen met het math pakket in python. 
 > 
 > 		import math as math
 > 		
-> 		math.pow(lambda,k) ##lambdadit geeft lambda^k
+> 		math.pow(lambda,k) ## dit geeft lambda^k
 > 		math.exp(-lambda)  ## geeft e^lambda
 > 		math.factorial(k) ## geeft k!
 > 
@@ -42,7 +42,7 @@ We gaan dit experiment nu simuleren. Om stochastische (ook wel toevallige of ran
 	import numpy as np
 	from random import random
 	from random import seed
-	np.random.seed(1)                 # dit zet de seed in de randomgenerator op 1.
+	np.random.seed(1)                 # dit zet de seed in de random generator op 1.
 	getal = np.random.uniform()       # genereer een random getal tussen 0 en 1
 	getallen = np.random.uniform(0,6,30) # genereer 30 getallen tussen 0 en 6
 

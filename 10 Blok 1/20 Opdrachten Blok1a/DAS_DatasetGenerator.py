@@ -32,6 +32,22 @@ def DataSetMooiPlotten() :
     x = np.append(x1,x2)
     return x
 
+def genereerDistributieDG(n=500) :
+    checkSD()
+    mu = student_nummer%10 
+    sigma = (student_nummer%100)/100 + 1
+    np.random.seed(1)
+    set_gauss = np.random.normal(mu,sigma,size = n)
+    return set_gauss
+
+def genereerDistributieDP(n=500) :
+    checkSD()
+    mu = student_nummer%10+1 
+    np.random.seed(1)
+    set_pois = np.random.poisson(mu,size = n)
+    return set_pois
+
+
 def DataSetGroteAantallen(s=1) :
     checkSD()
     mu = student_nummer%100 + 100
@@ -61,12 +77,6 @@ def DataSetHalfwaardeDikte(s=1) :
         metingen.append(meting_i)
     return metingen,diktes
 
-
-        diktes.append(lood_dikte*i)
-        mu = BerekenExponent(lood_dikte*i, d_half,I_0)
-        meting_i = np.random.poisson(mu)
-        metingen.append(meting_i)
-    return metingen,diktes
 
 def DataSetHalfwaardeDikteVariatie(s=1,frac=1.) :
     checkSD()
