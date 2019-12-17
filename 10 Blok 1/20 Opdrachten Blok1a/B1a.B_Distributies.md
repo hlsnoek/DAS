@@ -56,4 +56,4 @@ We gaan dit experiment nu simuleren. Om stochastische (ook wel toevallige of ran
 >
 > 3.  Waarschijnlijk komt niet elke mogelijke uitkomst evenveel keer voor in je dataset. Hoe verwacht je dat de uitkomsten verdeeld zijn? Als je het experiment opnieuw zou doen, wat is dan de kans dat je maar 1 keer een 6 zult gooien (deze kans moet je berekenen en kun je niet aflezen uit je histogram). 
 >
-> 4. Verzamel al je antwoorden en vul deze in op je inlever template.
+> 4. Verzamel al je antwoorden en vul deze, samen met je code, in op je inlever template.

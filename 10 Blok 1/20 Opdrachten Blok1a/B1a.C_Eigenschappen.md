@@ -62,4 +62,5 @@ Nu gaan we kijken naar het effect van een multiplicatie van x.
 > 3. Welke van de eigenschappen verwacht je dat er veranderen? Controleer dit door voor de originele en getransleerde dataset alle variabelen uit te rekenen.
 
 Tot slot: 
-> Voeg al je resultaten in op 
+
+> Voeg al je resultaten en je code toe aan het inlevertemplate.
