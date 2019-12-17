@@ -5,7 +5,7 @@ We gaan in deze opgave kijken naar kansdichtheid distributies. Lees [hier](XX li
 
 ###Poisson distributie
 
-> Reken (met de hand) de volgende poisson kansen uit: $$P(\lamda=3, k=1)$$, $$P(\lamda =3, k=2)$$ en $$P(\lamda=3, k=3)$$. Kijk goed wat $$\lamda$$ en $$k$$ eigenlijk betekenen. Wat is de verwachtingswaarde en wat is de geobserveerde waarde?
+> Reken (met de hand) de volgende poisson kansen uit: $$P(\lambda=3, k=1)$$, $$P(\lambda =3, k=2)$$ en $$P(\lambda=3, k=3)$$. Kijk goed wat $$\lambda$$ en $$k$$ eigenlijk betekenen. Wat is de verwachtingswaarde en wat is de geobserveerde waarde?
 
 We gaan nu poisson distributies met python grafisch weergeven. Download het bestand [B1a.B_Distributies.py](B1a.B_Distributies.py). De poisson distributie is één van de belangrijke distributies. We zullen hem vaak tegen komen.
 
