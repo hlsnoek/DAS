@@ -73,7 +73,7 @@ Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = -1 $$:
 
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.8$$ en $$\rho_{x,y} = 0.8$$:
 
-<p align="center">![higgs](Plot1_Correlatie_min0punt8.png){:width="35%"}</p><p align="center">![higgs](Plot1_Correlatie_0punt8.png){:width="35%"}</p>
+<p align="center">![higgs](Plot1_Correlatie_min0punt8.png){:width="35%"}![higgs](Plot1_Correlatie_0punt8.png){:width="35%"}</p>
 
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} = 0.3$$:
 
