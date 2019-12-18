@@ -77,7 +77,7 @@ Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.8$$ en $$\rho_{x,y} =
 
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} = 0.3$$:
 
-<p align="center">![higgs](Plot1_Correlatie_min0punt3.png){:width="35%"}</p><p align="center">![higgs](Plot1_Correlatie_0punt3.png){:width="35%"}</p>
+<p align="center">![higgs](Plot1_Correlatie_min0punt3.png){:width="35%"}![higgs](Plot1_Correlatie_0punt3.png){:width="35%"}</p>
 
 
 Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter
