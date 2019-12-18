@@ -250,6 +250,7 @@ Stel we gooien met een zes zijdige dobbelsteen (afgekort tot D6). De kans om bij
 $$P(\text{we gooien 4 met een D6}) = \frac{\text{Aantal mogelijkheden waarbij de gebeurtenis optreedt}}{\text{Het totale aantal mogelijkheden}} \frac{1}{6}$$
 
 <>### De EN-regel, de OF-regel en de complementregel
+
 ### Rekenregels
 De EN-regel en de OF-regel vertellen ons hoe we met gecombineerde kansen moeten omgaan. 
 
