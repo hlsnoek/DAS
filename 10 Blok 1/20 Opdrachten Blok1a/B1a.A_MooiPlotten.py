@@ -1,6 +1,7 @@
-# Author: Hella Snoek
-# Date: Nov 2019
-# Code for Data Analyse en Statistiek course
+# Author: Hella Snoek and ...
+# Studentnummer: 
+# Date: Dec 2019
+# Code for UvA/VU Data Analyse en Statistiek course
 
 import numpy as np
 import matplotlib.pyplot as plt

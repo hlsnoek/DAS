@@ -24,7 +24,7 @@ def checkSD() :
         
 def DataSetMooiPlotten() :
     checkSD()
-    mu = student_nummer%10 + 100
+    mu = student_nummer%10 
     sigma = ((student_nummer)%100)/10 + 1
     np.random.seed(1)
     x1 = np.random.normal(mu, sigma, size = 1000)
