@@ -158,6 +158,10 @@ in de fout die we uiteindelijk hebben op het volume van het blokje. We noemen di
 Hieronder staat hoe de fouten propageren in het geval van het optellen, aftrekken, delen en vermenigvuldigen van gemeten waarden.
 Hierbij wordt ervan uitgegaan dat de meetwaarden (en fouten) onafhankelijk zijn van elkaar.
 
+Bij een telexperiment met $$N$$ 'counts' wordt de meetfout gegeven door 
+
+$$\sqrt{N}$$
+
 Als $$q = x + y + \dots$$ of $$q = x - y - \dots$$ dan:
 
 $$\Delta q = \sqrt{\left(\Delta x\right)^2+\left(\Delta y\right)^2+\dots}$$
