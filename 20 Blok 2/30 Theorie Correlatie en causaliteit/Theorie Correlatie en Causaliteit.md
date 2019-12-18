@@ -71,11 +71,13 @@ Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = -1 $$:
 
 <p align="center">![higgs](Plot1_Correlatie_min1.png){:width="60%"}</p>
 
-Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.8, \rho_{x,y} = -0.3, \rho_{x,y} = 0.3 \text{ en } \rho_{x,y} = 0.8$$:
+Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.8$$ en $$\rho_{x,y} = 0.8$$:
 
-<p align="center">![higgs](Plot1_Correlatie_min0punt8.png){:width="40%"}</p><p align="center">![higgs](Plot1_Correlatie_min0punt3.png){:width="40%"}</p>
+<p align="center">![higgs](Plot1_Correlatie_min0punt8.png){:width="35%"}</p><p align="center">![higgs](Plot1_Correlatie_0punt8.png){:width="35%"}</p>
 
-<p align="center">![higgs](Plot1_Correlatie_0punt3.png){:width="40%"}</p><p align="center">![higgs](Plot1_Correlatie_0punt8.png){:width="40%"}</p>
+Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} = 0.3$$:
+
+<p align="center">![higgs](Plot1_Correlatie_min0punt3.png){:width="35%"}</p><p align="center">![higgs](Plot1_Correlatie_0punt3.png){:width="35%"}</p>
 
 
 Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter
