@@ -38,3 +38,5 @@ Nu je zowel Anaconda als Visual Studio Code hebt geïnstalleerd, kunnen we gaan 
 
 In Visual Studio Code kun je de terminal openen met de toetscombinatie **ctrl**+**\`**. Dat is dus tegelijkertijd de **ctrl** en **\`** (deze toets vind je meestal naast de 1 of naast de Z op je toetsenbord).
 
+## Testfile
+Voor de opdrachten heb je verschillende pakketten nodig. Kijk of je ze allemaal hebt geïnstalleerd door [dit](AllePakketten.py) bestandje te draaien.
