@@ -47,7 +47,31 @@ We bekijken het effect op de eigenschappen als we de dataset met een factor $$2$
 
 Je ziet dus dat het gemiddelde, de mediaan, modus, range en standaarddeviatie allen veranderen met een factor $$2$$ respectievelijk $$\frac{1}{2}$$. De variantie veranderd met een factor $$2=2^2$$ en $$\frac{1}{4}=\left(\frac{1}{2}\right)^2$$ respectievelijk. De coëfficiënt van variatie blijft hetzelfde.
 
-### Data verwijderen of aanvullen
+### Datapunten verwijderen of toevoegen
+
+Asl we een datapunt verwijderen uit een dataset of toevoegen aan een dataset, dan heeft dit gevolgen voor de waarde van het gemiddelde, mediaan, variantie, standaarddeviatie en coëfficiënt van variatie. Afhankelijk van het punt dat toegevoegd of verwijderd wordt kan het gevolgen hebben voor de modus en de range.
+
+Als we als dataset bijvoorbeeld nogmaals de volgende waarde nemen:
+
+$$20.0, 21.0, 21.0, 27.0, 31.0, 38.0$$
+
+En we verwijderen één van de datapunten met waarde $$21.0$$ dan worden de eigenschappen van deze nieuwe dataset als volgt:
+
+|Eigenschap| Dataset | Dataset punt verwijderd  |
+|---|---|---|---|
+|Gemiddelde|26.3|27.4|
+|Mediaan|24|27|
+|Modus|21|geen|
+|Range|18|18|
+|Variantie|51.1|55.3|
+|Standaarddeviatie|7.15|7.4|
+|Coeff. var.|~ 0.2713|~ 0.2714|
+
+*Opmerking: De coëfficiënt van variatie is hiet niet met het juiste aantal significante cijfers weergegeven, zodat te zien is dat het verwijderen van een punt ook hier effect op heeft.*
+
+Als we een datapunt met een andere waarde verwijderen uit deze dataset dan heeft dit wel effect op het gemiddelde, de mediaan, variantie, standaarddeviatie en coëfficiënt van variatie maar niet op de modus. Verwijderen we de randwaarden $$20.0$$ of $$38.0$$ of voegen we juist een grotere danwel kleinere waarde toe, dan veranderd de range van de dataset. 
+
+
 
 
 
