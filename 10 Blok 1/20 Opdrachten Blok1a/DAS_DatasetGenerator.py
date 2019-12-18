@@ -15,7 +15,7 @@ random_getal = 9378
 def checkSD() :
     if  student_nummer<10000 :
         print('\n ********************************************************************************************')
-        print('\n !!!!!!!! Je moet nog je student_nummer aanpassen in de B1_DatasetGenerator.py file !!!!!!!!')
+        print('\n !!!!!!!! Je moet nog je student_nummer aanpassen in de DAS_DatasetGenerator.py file !!!!!!!!')
         print('********************************************************************************************\n \n')
         os._exit(1)
     else :

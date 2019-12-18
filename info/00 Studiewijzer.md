@@ -18,7 +18,7 @@ Om de cursus tot een goed einde te brengen, verwachten we dat je:
 
 ## Hoorcolleges
 
-In hoorcolleges bespreekt Hella Snoek de theorie van Data analyse en Statistiek waarmee je de werkcollege opgaven kunt oplossen en die je voorbereidt op de toetsjes. 
+In hoorcolleges bespreekt de docent de theorie van Data analyse en Statistiek waarmee je de werkcollege opgaven kunt oplossen en die je voorbereidt op de toetsjes. 
 
 
 ## Werkcolleges
@@ -38,9 +38,9 @@ J.R. Taylor, 1997, 'An introduction to error analysis', University Science Books
 
 
 ## Herkansingen
-Het opnieuw insturen van modules is niet meer mogelijk na de deadline of zodra deze zijn nagekeken.
+Het opnieuw insturen van opdrachten is niet meer mogelijk na de deadline of zodra deze zijn nagekeken.
 
-Als je geen voldoende hebt voor zowel de inlevertoetsen als voor de tussentoetsen kun je het vak herkansen met een tentamen statistiek.
+Als je niet zowel een voldoende hebt voor (het gewogen gemiddelde van) de inlevertoetsen als voor de tussentoetsen kun je het vak herkansen met een tentamen statistiek. Toegang aan het hertentamen wordt alleen verleend als je **alle** opdrachten hebt ingeleverd.
 Pas op - dit hertentamen zal niet makkelijker zijn dat de toetsen en de opdrachten. 
 
 
