@@ -80,12 +80,25 @@ Ook binomiale verdelingen worden beschreven met een vaasmodel. We zullen het lat
 ## Probability distribution functions
 
 Een propability distribution function (PDF) ...
+eventueel P-waarden nu hier al.
+Dus gewoon wat uitleg, plaatje en de formule erbij. (Zie sullabus Hella)
+
+algemeen PDF
+kans altijd positief. integraal = 1.
 
 ### Binomiale verdeling
 
+per verdeling uitleg, de formule, gemiddelde etc.
+
 ### Poisson verdeling
 
+
+Poisson formule
+poisson wordt gauss bij hoge waarden van lambda. De breedte is dan gedefinieerd. voor lage waarden van lambda is de verdeling niet-symmetrisch. Normaal ga je op symmetrische data een gauss toepassen en geen poisson (gauss is makkelijker).
+
 ### Normale verdeling 
+
+### Uniforme verdeling
 
 ## P-value berekenen bij PDF's
 
@@ -94,6 +107,8 @@ Een propability distribution function (PDF) ...
 ### Poisson
 
 ### Normale verdeling 
+
+### Uniforme verdeling
 
 
 
