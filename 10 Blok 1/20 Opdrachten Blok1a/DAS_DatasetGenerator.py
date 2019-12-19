@@ -24,7 +24,7 @@ def checkSD() :
         
 def DataSetMooiPlotten() :
     checkSD()
-    mu = student_nummer%10 
+    mu = student_nummer%10
     sigma = ((student_nummer)%100)/10 + 1
     np.random.seed(1)
     x1 = np.random.normal(mu, sigma, size = 1000)
@@ -51,7 +51,7 @@ def genereerDistributieDP(n=500) :
 def DataSetGroteAantallen(s=1) :
     checkSD()
     mu = student_nummer%100 + 100
-    sigma = (student_nummer%100)/10 + 1
+    sigma = (student_nummer%100)/10. + 1
     np.random.seed(s)
     set_gauss = np.random.normal(mu,sigma,size = 80)
     return set_gauss
@@ -64,7 +64,7 @@ def BerekenExponent(dikte, d_half,I_0) :
 def DataSetHalfwaardeDikte(s=1) :
     checkSD()
     I_0 = random_getal%100 + 100
-    d_half = (random_getal%100)/1000 + 1.5
+    d_half = (random_getal%100)/1000. + 1.5
     print(d_half)
     np.random.seed(s)
     lood_dikte = 0.3 #(cm)
@@ -78,10 +78,10 @@ def DataSetHalfwaardeDikte(s=1) :
     return metingen,diktes
 
 
-def DataSetHalfwaardeDikteVariatie(s=1,frac=1.) :
+def DataSetHalfwaardeDikteVariatie(s=1,frac=1.,lood_dikte=0.3,meettijd=120,N=16) :
     checkSD()
     I_0 = (random_getal%100 + 100) * meettijd/120.
-    d_half = frac*((random_getal%100)/1000 + 1.5)
+    d_half = frac*((random_getal%100)/1000. + 1.5)
     print(d_half)
     np.random.seed(s)
     metingen = []

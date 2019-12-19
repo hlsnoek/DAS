@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def berekenGemiddelde(dataset, n) :
-    # schrijf hier je code die uit dataset het gemiddelde
+    # schrijf hier je code die uit de dataset het gemiddelde
     # uitrekent over de eerste n punten
     som =0
     gemiddelde = -1
