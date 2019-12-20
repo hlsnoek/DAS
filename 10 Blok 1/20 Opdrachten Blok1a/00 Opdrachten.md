@@ -3,10 +3,10 @@
 Tijdens werkcolleges 1 en 2 werken we aan het eerste blok 1a.
 In dit blok gaan we werken aan vier opdrachten. 
 
-* [B1a.A *](B1a.A_MooiPlotten.md)
-* [B1a.B **](/blok-1/opdrachten-blok1a/B1a.B_Distributies.md)
-* [B1a.C **]()
-* <a href="#B1a.D">B1a.D **</a>[B1a.D **]()
+* <a href="#B1a.A">B1a.A *</a>
+* <a href="#B1a.B">B1a.B **</a>
+* <a href="#B1a.C">B1a.C **</a>
+* <a href="#B1a.D">B1a.D **</a>
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 
@@ -18,5 +18,4 @@ Als je vragen hebt, stel deze dan aan de assistent of stuur een email naar de co
 
 Veel succes! 
 
-*****
 *****
