@@ -72,7 +72,7 @@ Omdat het bij deze situatie om een klein aantal gaat kunnen we ook al meteen ber
 
 Dit kunnen we ook berekenen met de formule voor het aantal manieren om $$n$$ objecten t ordenen waarbij er groepjes $$k_1$$, $$k_2$$, etc. niet van elkaar te onderscheiden objecten zijn. In dit geval bestaat de eerste groep van niet van elkaar te onderscheiden objecten uit de twee witte ballen. Of we nu W1W2 of W2W1 trekken maakt niet uit, in beide gevallen hebben we twee witte ballen. De tweede groep van niet van elkaar te onderscheiden objecten bestaat uit de ene rode bal.
 
-$$\Text{Aantal mogelijke volgordes} = \frac{3!}{2!1!} = 3$$
+$$\text{Aantal mogelijke volgordes} = \frac{3!}{2!1!} = 3$$
 
 Nu moeten we de kans op één volgorde bepalen. Kies bijvoorbeeld de volgorde 'WWR', nu hebben we de EN-regel nodig:
 
@@ -112,7 +112,7 @@ $$P(1R \text{ en } 1W \text{ en }1B) = \text{Aantal mogelijke volgordes}\cdot P(
 
 Het aantal mogelijke volgordes op 1 rode, 1 witten en 1 bruine bal op te leggen is gelijk aan:
 
-$$\Text{Aantal mogelijke volgordes}=\frac{3!}{1!1!1!} = 3!=6$$
+$$\text{Aantal mogelijke volgordes}=\frac{3!}{1!1!1!} = 3!=6$$
 
 Nu moeten we de kans op één volgorde bepalen. Kies bijvoorbeeld de volgorde 'RWB', nu hebben we de EN-regel nodig:
 
