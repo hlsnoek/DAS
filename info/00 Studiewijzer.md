@@ -21,9 +21,8 @@ Om de cursus tot een goed einde te brengen, verwachten we dat je:
 In hoorcolleges bespreekt de docent de theorie van Data analyse en Statistiek waarmee je de werkcollege opgaven kunt oplossen en die je voorbereidt op de toetsjes. 
 
 
-## Werkcolleges
-Tijdens de werkcolleges werk je aan de opdrachten die horen bij dit vak. Sommige opdrachten moet je ook inleveren voor een cijfer.
-Aanwezigheid is verplicht.
+## Inleveropdrachten
+Tijdens de werkcolleges werk je aan de inlever opdrachten die horen bij dit vak. Deze opdrachten moet je ook inleveren voor een cijfer. Voor elke blok opdrachten is een deadline. Als je deze deadline niet haalt trekken we **2 punten per dag af**. Aanwezigheid op de werkcolleges is verplicht, tenzij het werk voor dat blok al is ingeleverd via ANS.
 
 ## Tussentoetsen
 Na het hoorcollge vinden in week 2, 3 en 4 een tussentoets plaats. Deze toetsen moet je met een voldoende afronden om het vak te halen.
