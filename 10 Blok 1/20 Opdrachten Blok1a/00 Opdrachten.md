@@ -6,7 +6,7 @@ In dit blok gaan we werken aan vier opdrachten.
 * [B1a.A *](B1a.A_MooiPlotten.md)
 * [B1a.B **](/blok-1/opdrachten-blok1a/B1a.B_Distributies.md)
 * [B1a.C **]()
-* [B1a.D **]()
+* <a href="#B1a.D">B1a.D **</a>[B1a.D **]()
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 
