@@ -1,3 +1,4 @@
+
 # Author: Hella Snoek
 # Date: Nov 2019
 # Code for Data Analyse en Statistiek course
@@ -23,21 +24,9 @@ def maakSetGemiddeldes(dataset) :
         gemiddeldes.append(berekenGemiddelde(dataset,i))
     return N, gemiddeldes
 
-def maakGrafiek(x,y) :
-    graph = plt.plot(x, y, '-o')
-    return graph
 
 set_gauss = ds.DataSetGroteAantallen() 
 
-# Schrijf hieronder je code om een histogram te maken van de set_gauss dataset.
-
-
-# Schrijf hieronder je code om het gemiddelde over de eerste n punten uit te rekenen.
-#mu = berekenGemiddelde(set_gauss, 2)
-#print('mu')
-
-# Schrijf hieronder de code om automatisch de gemiddeldes uit te rekenen 
-#N, means = maakSetGemiddeldes(set_gauss) 
 
 
 

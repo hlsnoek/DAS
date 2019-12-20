@@ -11,3 +11,5 @@ Tijdens de werkcolleges werken we aan verschillende opdrachten. Hieronder vind j
 
 ### Inleveren werkcollege opdrachten
 Voor het inleveren van de opgaves maak je gebruik van templates. Hier kun je alle resultaten en code invullen. Het werk kun je vervolgens op [ANS](https://secure.ans-delft.nl/users/sign_in) inleveren. 
+
+**NB** Zoals ook in de [Studiewijzer](/Studiewijzer) vermeldt staat: Alle opdrachten moeten worden ingeleverd. Als je niet alle opdrachten hebt ingeleverd krijg je geen cijfer voor dit vak en kun je ook niet meedoen aan het hertentamen. **Als je een deadline niet haalt trekken we 2 punten per dag af**.
