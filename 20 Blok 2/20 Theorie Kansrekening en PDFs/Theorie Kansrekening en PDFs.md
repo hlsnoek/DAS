@@ -7,6 +7,8 @@ In de eerdere stof hebben we het al gehad over de kansdefinitie en de 'EN-regel'
 
 ## Kansrekening vervolg
 
+Heel kort de formules voor tellen, ordenen en kiezen.
+
 ### Tellen
 
 ### Ordenen
