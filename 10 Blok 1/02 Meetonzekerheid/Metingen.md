@@ -14,9 +14,10 @@ Als we iets meten is dat meestal omdat we een bepaalde grootheid willen meten. V
 
 We doen ook metingen om bepaalde hypothesis te ontkrachten of juist bevestigen. Maar ook als we een hypothese testen zijn er onderliggende grootheden (vaak meerdere tegelijk) die we meten en vergelijken met voorspelde waardes. 
 
-Het is belangrijk om te begrijpen dat we meestal te maken hebben met een fout op de gemeten grootheid. Hoe groot die fout is kunnen we niet weten, wel kunnen we de meetonzekerheid in kaart proberen te brengen. Die onzekerheid kan grofweg twee oorzaken hebben. 
+Het is belangrijk om te begrijpen dat we meestal te maken hebben met een fout op de gemeten grootheid. Hoe groot die fout is kunnen we niet weten, wel kunnen we de meetonzekerheid in kaart proberen te brengen. Die onzekerheid kan grofweg twee oorzaken hebben. Onzekerheden die komen door de meetmethode en onzekerheden met een natuurlijke oorzaak.
 
-De eerste oorzaak is dat we een fout maken bij de meting. Dit hangt natuurlijk af van de meetmethode. Voorbeelden hiervan zijn: 
+###Meetfouten
+De eerste oorzaak is dat we een fout maken bij de meting. Een fout betekend hier niet dat we iets verkeerds doen. Het betekend dat we met onze meting een waarde vinden die afwijkt van de echte waarde. Dit noemen we een meetfout. Helaas weten we nooit hoe groot de meetfout is, maar soms kunnen we hem wel inschatten. De meetfout hangt natuurlijk af van de meetmethode. Voorbeelden hiervan zijn: 
 
 * **Het aantal knikkers in een pot.** Stel dat we de pot leegkieperen en we tellen ze allemaal met de hand, dan kan het zo zijn dat we een knikker kwijtraken of een telfout maken. Als we het netjes doen en we doen verschillende hertellingen is de kans groot dat we hierbij geen meetfout maken (zeker als het maar een paar knikkers zijn).
 
@@ -63,14 +64,14 @@ Statistische onzekerheden zijn reduceerbaar door meer metingen te nemen. Bijvoor
 Theoretische onzekerheden kunnen voorkomen als we gebruik maken van aannames met theoretische grondslag. Als we de onzekerheden in deze aannames kunnen kwantificeren hebben we een maat voor de theoretische onzekerheid. Soms kunnen theoretische onzekerheden worden verkleind door bijvoorbeeld meer berekeningen uit te voeren. 
 
 
-## Verdelingen
+### Verdelingen
 
 Je begrijpt nu dat veel metingen wel herhaalbaar zijn, maar dat je niet altijd precies dezelfde resultaten kunt verwachten. Het gevolg hiervan is dat je een verdeling, of distributie, krijgt van je meetresultaten. 
 Van deze verdeling kunnen we bepaalde eigenschappen uitrekenen. Meer hierover kun je vinden onder het kopje [basisbegrippen](link XX).
 Het is belangrijk om de verdelingen goed te presenteren, meer daarover kun je [hier](link XX) lezen. 
 
 
-## Significantie en notatie
+### Significantie en notatie
 
 Voordat we nu kunnen uitleggen hoe we een meetfout noteren moeten we eerst even stilstaan bij het begrip *significantie*.
 
@@ -115,7 +116,7 @@ dan het gegeven met het minste aantal cijfers achter de decimale punt. Tellen we
 $$1.23 + 0.1 = 1.3 $$. 
 
 
-## Wetenschappelijke notatie
+### Wetenschappelijke notatie
 
 Een veel gebruikte manier om getallen en meetresultaten weer te geven is met behulp van de wetenschappelijke notatie. Bij de wetenschappelijke notatie wordt elk getal in de vorm $$a\cdot 10^n$$ opgeschreven. Hierbij is $$1<|a|<10$$ en $$n$$ een geheel getal ongelijk aan nul. 
 Een voordeel van deze notatie is dat je hiermee ook hele kleine getallen en hele grote getallen op een makkelijke manier op kunt schrijven. We geven een voorbeeld:
