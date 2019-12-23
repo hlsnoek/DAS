@@ -70,7 +70,7 @@ Hebben we een set met een even aantal datapunten, bijvoorbeeld
 
 $$ 8,9,10,11,12,13,14,15$$ 
 
-dan zitten het 4e en het 5e element in het midden. De mediaan is nu gelijk aan de gemiddelde waarde van deze elementen. De elementen hebben waarde $$11$$ en $$12$$, wat betekent dat de mediaan gelijk is aan $$\frac{11+12}{2} = 11.5$$.
+dan zitten het 4e en het 5e element in het midden. De mediaan ligt nu tussen de waarde van deze twee elementen. De elementen hebben waarde $$11$$ en $$12$$, wat betekent dat de mediaan gelijk is aan $$\frac{11+12}{2} = 11.5$$.
 
 Voor symmetrische datasets zijn het gemiddelde en de mediaan gelijk aan elkaar.
 
@@ -92,7 +92,7 @@ $$1,2,3,3,4,4,4,5,6,11,11,11,15$$
 
 zowel het getal 4 als het getal 11 komen drie keer voor in de set. De set is dus bimodaal met modus 4 en modus 11.
 
-Bij sommige soorten dataverdelingen is het gebruikelijker om over de modus te praten dan over het gemiddelde of de mediaan. Een voorbeeld hiervan is de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie die een slecht gedefinïeerd gemiddelde of mediaan kent door een lange staart in de distributie.
+Bij sommige soorten dataverdelingen is het gebruikelijker om over de modus te praten dan over het gemiddelde of de mediaan. Een voorbeeld hiervan is de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie die een slecht gedefinieerd gemiddelde of mediaan kent door een lange staart in de distributie.
 
 
 
@@ -127,33 +127,34 @@ De standaard deviatie (ook wel de standaardafwijking) geeft aan in welke mate de
 
 De variantie, *var*, is direct gerelateerd aan de standaard deviatie, namelijk de variantie is gelijk aan de standaard deviatie in het kwadraat.
 
-De variantie en standaard deviatie kunnne worden berekend met de volgende formule:
+De variantie en standaard deviatie kunnen worden berekend met de volgende formule:
 
 $$\sigma^2 = \displaystyle \frac{\displaystyle \sum_{i=1}^{N}(x_i - \mu)^2}{N}$$
 
 Het verschil tussen de standaardafwijking en de variantie is de eenheid. De standaardafwijking heeft dezelfde eenheid als het gemiddelde terwijl de variantie de eenheid in het kwadraat heeft. Bij het rapporteren van resultaten wordt daarom vaak de standaarddeviatie van een verdeling of steekproef gegeven in plaats van de variantie. In het werken met een dataset maakt het echter niet uit welk van de twee je gebruikt. Bij een meer wiskundige benadering kan het eenvoudiger zijn om met de variantie te werken omdat er dan geen sprake is van een wortel. 
 
 
-#### Coëfficiënt van variatie
+#### Variatiecoëfficient
 
-De coëfficiënt van variatie wordt ook wel de relatieve standaardafwijking genoemd. De coëfficiënt van variatie geeft, net zoals de standaardafwijking en de variantie, een maat voor de spreiding van de populatie of dataset. 
+De variatiecoëfficiënt wordt ook wel de relatieve standaardafwijking genoemd. De coëfficiënt van variatie geeft, net zoals de standaardafwijking en de variantie, een maat voor de spreiding van de populatie of dataset. 
 
-De coëfficiënt van variatie wordt gegeven door de verhouding tussen de standaardafwijking en het gemiddelde.
+De variatiecoëfficiënt wordt gegeven door de verhouding tussen de standaardafwijking en het gemiddelde.
 Voor een populatie is de coëfficiënt van variantie $$c_v$$ dan:
 
 $$c_{v} = \frac{\sigma}{\mu}$$
 
 Met $$\sigma$$ de standaardafwijking van de populatie en $$\mu$$ het populatiegemiddelde.
 
-De steekproefvariatie $$\hat{c_v}$$ wordt gegeven door:
+De steekproefvariantie $$\hat{c_v}$$ wordt gegeven door:
 
 $$\hat{c_v} = \frac{s}{\overline{x}}$$
 
 Met $$s$$ de standaardafwijking van de steekproef en $$\overline{x}$$ het steekproefgemiddelde.
 
-Het verschil met de variantie en de standaardafwijking is dat de coëfficiënt van variatie dimensieloos is. Dit is bijvoorbeeld handig als er meerdere datasets vergeleken moeten worden die verschillende eenheden hebben. Ook als de gemiddelde waarden van verschillende datasets erg uiteen liggen is het beter om de coëfficiënt van variatie te gebruiken i.p.v. de standaardafwijking.
+Het verschil met de variantie en de standaardafwijking is dat de variatiecoëfficiënt dimensieloos is. Dit is bijvoorbeeld handig als er meerdere datasets vergeleken moeten worden die verschillende eenheden hebben. Ook als de gemiddelde waarden van verschillende datasets erg uiteen liggen is het beter om de variatiecoëfficiënt te gebruiken i.p.v. de standaardafwijking.
 
-Een nadeel van het gebruik van de coëfficiënt van variatie is dat er gedeeld wordt door het gemiddelde. Als dit gemiddelde vlak bij nul ligt dan gaat de coëfficiënt van variatie richting oneindig. Als het gemiddelde dan een klein beetje veranderd heeft dit een groot effect op de coëfficiënt. Als het gemiddelde van een dataset dus dicht bij nul ligt dan is het beter om de standaardafwijking of de variantie te gebruiken. 
+Een nadeel van het gebruik van de variatiecoëfficiënt is dat er gedeeld wordt door het gemiddelde. Als dit gemiddelde een heel kleine waarde heeft, dicht bij nul, dan is de variatiecoëfficiënt slecht gedefinieerd.
+
 
 
 

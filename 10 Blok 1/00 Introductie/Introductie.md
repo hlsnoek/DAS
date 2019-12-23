@@ -7,8 +7,8 @@ Wanneer heb je eigenlijk genoeg data verzameld? Hoe kun je een zo experiment ont
 
 
 Alle kennis die we tot nu toe hebben over de Natuur- en Sterrenkunde is tot stand gekomen met het uitvoeren van experimenten en het analyseren van de uitkomsten.
-Voor het bestuderen van Natuurkundige en Sterrenkundige theoriën is geen echter geen kennis nodig van statistiek en data analyse technieken. 
-Voor het uitvoeren van de wetenschap, het vinden van bewijzen voor nieuwe theoriën is kennis hiervan echter essentieel. 
+Voor het bestuderen van Natuurkundige en Sterrenkundige theorieën is geen echter geen kennis nodig van statistiek en data analyse technieken. 
+Voor het uitvoeren van de wetenschap, het vinden van bewijzen voor nieuwe theorieën is kennis hiervan echter essentieel. 
 
 
 <!--Denk bijvoorbeeld eens terug aan het moment waarop aan de wereld kenbaar werd gemaakt dat, met grote waarschijnlijkheid, het Higgs deeltje was gevonden (ATLAS en CMS teams op CERN in 2012). In 1964 is het bestaan van dit deeltje al voorspeld om de massa van de elementaire deeltjes zoals elektronen, muonen en quarks te kunnen verklaren (deze voorspelling is trouwens niet alleen door Peter Higgs gedaan maar ook (iets) eerder al door Robert Brout en François Englert).
