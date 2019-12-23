@@ -23,9 +23,7 @@ De eerste oorzaak is dat we een fout maken bij de meting. Dit hangt natuurlijk a
 
 * **De lengte van een blokje hout.** 
 Hier zou je bijvoorbeeld een liniaal voor kunnen gebruiken. Allereerst moeten we het blokje netjes langs de lineaal leggen. Zie hieronder een schets van de opstelling. Ligt de 0 wel echt netjes langs de rand?
-
 <p align="center">![](lineaal_v1.png){:inline}{:width="80%"}</p>
-
 Dan moeten we de waarde op de lineaal afmeten. Als we naar de bovenstaande situatie kijken dan zou het blokje 7.6 cm lang kunnen zijn. Maar het is niet helemaal goed af te lezen. Zo zou het blokje ook 7.7 cm lang kunnen zijn als we de linkerkant van het blokje aan de binnenkant van de eerste zwarte streep leggen, en het kan 7.5 cm zijn als we het blokje aan de buitenkant van de eerste zwarte streep leggen. Omdat er geen streepjes tussen de rode streepjes zijn kunnen we slechts op een mm nauwkeurig zeggen wat de lengte is van het blokje. Er is dus sprake van een meetonzekerheid. In dit geval zouden we bijvoorbeeld noteren dat het blokje een lengte heeft van $$7.6 \pm 0.1$$ cm.
 
 * **De levensduur van Cesium-131.** Meestal meten we dit met behulp van een Geiger-Möller telbuis. Bijvoorbeeld we meten het aantal telling in 5 minuten en deze metingen herhalen we een paar keer met een tijdsinterval. Meetfouten komen door de nauwkeurigheid van de twee soorten intervallen, het meetinterval en de tussenliggende periode. Ook zullen er, hopelijk veel kleinere, onzekerheden komen doordat de telbuisen niet altijd precies hetzelfde functioneren.
