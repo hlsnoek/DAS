@@ -3,6 +3,7 @@
 1. Ordered TOC
 {:toc}
 
+##Fouten en onzekerheden
 
 Als we iets meten is dat meestal omdat we een bepaalde grootheid willen meten. Voorbeelden hiervan zijn 
 
