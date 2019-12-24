@@ -1,4 +1,8 @@
-## Data visueel weergeven
+# Data visueel weergeven
+
+1. Ordered TOC
+{:toc}
+
 
 In dit deel bekijken we de verschillende manieren om data visueel te representeren. Aan bod komen grafieken, staafdiagrammen en histogrammen. Daarnaast zullen we deze gaan plotten met behulp van Python.
 
