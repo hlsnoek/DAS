@@ -24,20 +24,20 @@ De waardes worden als punten of 'markers' in de grafiek of scatterplot neergezet
 
 Stel bijvoorbeeld dat we naar de gemiddelde temperatuur per maand van 1981 t/m 2014 in de Bilt willen kijken. Hieronder een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
 
-[](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){:width=100px}<br>
+[](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){:width=100px;}<br>
 
 Je ziet dat dit niet erg duidelijk is. Het is bijvoorbeeld niet precies te zien waar de gemeten punten zitten, we hebben wel een vermoeden voor de plaatsen waarop de lijn abrupt van richting veranderd, maar wie weet zitten er nog wel meer datapunten tussen.
 
 Laten we dezelfde data eens plotten zonder lijnen maar alleen met punten: <br>
 
-![](plot2_scatter_geenOpmaak_NoTopBot_monthscorrect.png{:width="40%"}
+![](plot2_scatter_geenOpmaak_NoTopBot_monthscorrect.png{:width="40%";}
 <br>
 
 Vanuit deze grafiek zien we dat er inderdaad veel meer datapunten zijn. Dat konden we in de lijnplot niet goed zien.
 
 De plot kan echter netter. Zo staan er geen labels op de assen. Nu kunnen we in dit geval wel raden welke as het jaar aangeeft en welke as de temperatuur, maar in veel gevallen is dat niet zo duidelijk. Om die reden moeten er altijd **labels op de assen** staan, zie het figuur hieronder:
 
-![](plot3_scatter_aslabels_NoTopBot_monthscorrect.png){:width="40%"}<br>
+![](plot3_scatter_aslabels_NoTopBot_monthscorrect.png){:width="20%";}<br>
 
 Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, tenzij de data dan onvolledig of onleesbaar wordt**. In het geval van het weergeven van de temperaturen van 1981 t/m 2014 wordt de data bijvoorbeeld onvolledig als we de temperatuur bij nul laten beginnen, we hebben immers ook temperaturen onder het vriespunt. Daarnaast wordt de data onleesbaar als we het jaartal vanaf het jaar nul laten lopen, de datapunten voor de jaren waarin we geïnteresseerd zijn zullen dan over elkaar vallen. In het huidige geval is het dus niet van toepassing om in de oorsprong te beginnen, maar dit is bij elke dataset wel het uitgangspunt.
 
