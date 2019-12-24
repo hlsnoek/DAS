@@ -28,9 +28,9 @@ Stel bijvoorbeeld dat we naar de gemiddelde temperatuur per maand van 1981 t/m 2
 
 ![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: style ="width=200px"}<br>
 
-![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: style ="width=10%"}<br>
+![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: width="10%"}<br>
 
-![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: style ="width=20%"}<br>
+![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: width="20%"}<br>
 
 Je ziet dat dit niet erg duidelijk is. Het is bijvoorbeeld niet precies te zien waar de gemeten punten zitten, we hebben wel een vermoeden voor de plaatsen waarop de lijn abrupt van richting veranderd, maar wie weet zitten er nog wel meer datapunten tussen.
 
