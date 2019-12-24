@@ -24,9 +24,9 @@ De waardes worden als punten of 'markers' in de grafiek of scatterplot neergezet
 
 Stel bijvoorbeeld dat we naar de gemiddelde temperatuur per maand van 1981 t/m 2014 in de Bilt willen kijken. Hieronder een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
 
-![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: style ="width=100px"}<br>
+![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: width="100px"}<br>
 
-![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: style ="width=200px"}<br>
+![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: width="200px"}<br>
 
 ![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: width="10%"}<br>
 
