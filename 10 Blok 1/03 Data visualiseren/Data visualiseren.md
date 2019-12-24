@@ -1,4 +1,4 @@
-# Datasets visualiseren
+## Datasets visualiseren
 
 1. Ordered TOC
 {:toc}
@@ -8,7 +8,7 @@ In dit deel bekijken we de verschillende manieren om data visueel te presenteren
 
 Als je data visualiseert dan is het de bedoeling dat iemand anders deze direct goed begrijpt. Er zijn wel een aantal vuistregels, maar het meest belangrijke is dat de data overzichtelijk is. Dat trends, of juist afwijkingen daarvan, goed zichtbaar worden gemaakt. 
 
-## Grafieken & Scatterplots
+### Grafieken & Scatterplots
 Een grafiek laat het verband zien tussen twee (of meer) variabelen. 
 Een grafiek heeft meestal een beperkt aantal punten, als er veel data is geven we dit vaak in een scatter plot weer. 
 
