@@ -24,8 +24,6 @@ De waardes worden als punten of 'markers' in de grafiek of scatterplot neergezet
 
 Stel bijvoorbeeld dat we naar de gemiddelde temperatuur per maand van 1981 t/m 2014 in de Bilt willen kijken. Hieronder een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
 
-![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: width="500px"}<br>
-
 ![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: width="400px"}<br>
 
 
@@ -33,27 +31,27 @@ Je ziet dat dit niet erg duidelijk is. Het is bijvoorbeeld niet precies te zien 
 
 Laten we dezelfde data eens plotten zonder lijnen maar alleen met punten: <br>
 
-![](plot2_scatter_geenOpmaak_NoTopBot_monthscorrect.png){:width ="40px"}<br>
+![](plot2_scatter_geenOpmaak_NoTopBot_monthscorrect.png){: width ="400px"}<br>
 
 Vanuit deze grafiek zien we dat er inderdaad veel meer datapunten zijn. Dat konden we in de lijnplot niet goed zien.
 
 De plot kan echter netter. Zo staan er geen labels op de assen. Nu kunnen we in dit geval wel raden welke as het jaar aangeeft en welke as de temperatuur, maar in veel gevallen is dat niet zo duidelijk. Om die reden moeten er altijd **labels op de assen** staan, zie het figuur hieronder:
 
-![](plot3_scatter_aslabels_NoTopBot_monthscorrect.png){:width="30%"}<br>
+![](plot3_scatter_aslabels_NoTopBot_monthscorrect.png){: width="400px"}<br>
 
 Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, tenzij de data dan onvolledig of onleesbaar wordt**. In het geval van het weergeven van de temperaturen van 1981 t/m 2014 wordt de data bijvoorbeeld onvolledig als we de temperatuur bij nul laten beginnen, we hebben immers ook temperaturen onder het vriespunt. Daarnaast wordt de data onleesbaar als we het jaartal vanaf het jaar nul laten lopen, de datapunten voor de jaren waarin we geïnteresseerd zijn zullen dan over elkaar vallen. In het huidige geval is het dus niet van toepassing om in de oorsprong te beginnen, maar dit is bij elke dataset wel het uitgangspunt.
 
 De assen kunnen nog wat netter. Zo eindigt de $$x$$-as *na* de waarde $$20$$, maar het is niet helemaal duidelijk bij welke waarde precies. De $$y$$-as begint een klein stukje voor 1980 en eindigt een klein stukje na 2015. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**. Daarnaast willen we niet te veel maatstreepjes maar ook niet te weinig. In het algemeen worden **zeven maatstreepjes** aangehouden voor de goede leesbaarheid (eentje meer of minder is niet erg). In ons geval laten we het jaartal beginnen op 1980 en eindigen op 2015, daarnaast laten we de temperatuur beginnen op $$-5$$ C&deg; en eindigen op $$25$$ C&deg;. Op de $$x$$-as hebben we 8 maatstreepjes en op de $$y$$-as hebben we 7 maatstreepjes:
 
-![](plot4_scatter_aslabels_startendMayorTick_NoTopBot_monthscorrect.png){:width="40%"}<br>
+![](plot4_scatter_aslabels_startendMayorTick_NoTopBot_monthscorrect.png){: width="400px"}<br>
 
 Stel we willen de temperatuur in de Bilt nu weergeven t.o.v. de 'Centraal Nederland Temperatuur' (CNT). De CNT is een combinatie van vijf weerstations representatief voor het gebied tussen de steden Utrecht, Arnhem, Breda en Eindhoven. De plot ziet er als volgt uit:
 
-![](plot5_scatter_samen.png){:width="40%"}<br>
+![](plot5_scatter_samen.png){: width="400px"}<br>
 
 De kleuren zijn aangepast t.o.v. eerder. Welk van de twee series hoort bij 'de Bilt' en welke hoort bij 'Centraal Nederland'? Dat is lastig te zien vanuit de plot. Om deze reden wordt er, bij twee of meer series, een **legenda** aan de plot toegevoegd. Bovenstaande plot ziet er met legenda als volgt uit:
 
-![](plot6_scatter_samen_metLegenda.png){:width="50%"}<br>
+![](plot6_scatter_samen_metLegenda.png){: width="400px"}<br>
 
 Tot nu toe hebben we nog geen titels toegevoegd aan de plots. Dit komt omdat dat voor verslagen en wetenschappelijke artikelen ongebruikelijk is, daar moet het onderschrift namelijk al vertellen wat er te zien is in de grafiek. In webteksten, lesteksten en presentaties kan het echter voorkomen dat een grafiek wel een titel heeft, omdat er in die context vaak geen onderschrift toegevoegd kan worden. 
 
@@ -75,11 +73,11 @@ Staafdiagrammen en histogrammen worden allebei typisch gebruikt om frequenties a
 
 Hieronder zie je voorbeelden van een staafdiagram en een histogram.
 
-![](autos-in-nederland.png){:width="40%"}<br>
+![](autos-in-nederland.png){: width="400px"}<br>
 
 Hierboven zie je een **staafdiagram** die de hoeveelheid autos in Nederland laat zien over drie verschillende jaren opgesplitst naar drie auto categorieën. 
 
-![](verdeling-van-inkomens-2.png){:width="40%"}<br>
+![](verdeling-van-inkomens-2.png){: width="400px"}<br>
 
 Hierboven zie je een **histogram** die de inkomensverdeling in Nederland laat zien. 
 
@@ -96,15 +94,15 @@ Voor een histogram is de breedte van de intervallen van belang. Als we te weinig
 
 Dit bekijken we aan de hand van een voorbeeld. Zo zou het kunnen zijn dat het ideale plaatje bij een gegeven dataset het volgende is:
 
-![](Plot11_RandNorm_Hist_GoedeBins.png){:width=100px;}
+![](Plot11_RandNorm_Hist_GoedeBins.png){: width="400px"}<br>
 
 Als we te brede bins kiezen dan wordt de data afgevlakt en kunnen we het bovenstaande gedrag niet meer herkennen:
 
-![](Plot12_RandNorm_Hist_TeWeinigBins.png){:width="40%"}
+![](Plot12_RandNorm_Hist_TeWeinigBins.png){: width="400px"}<br>
 
 Kiezen we juist te smalle bins, dan kunnen we het gedrag van de data nog wel herkennen (in dit geval) maar er is veel fluctuatie in de hoogte van de bins: 
 
-![](Plot13_RandNorm_Hist_TeVeelBins.png){:width="40%"}
+![](Plot13_RandNorm_Hist_TeVeelBins.png){: width="400px"}<br>
 
 Met het kiezen van te veel bins hebben we dus visuele ruis geïntroduceerd, dit maakt het moeilijker om het gedrag op het oog te herkennen.
 
