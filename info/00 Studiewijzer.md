@@ -1,6 +1,7 @@
-# Data analyse en statistiek
+# Studiewijzer, January 2020<br><small>Data Analyse en Statistiek</small>
 
-## Studiewijzer, January 2020<br><small>Data Analyse en Statistiek</small>
+1. Ordered TOC
+{:toc}
 
 > Tijdens dit vak worden vaardigheden ontwikkeld op het gebied van statistische data-analyse in combinatie met programmeren in Python. Aan de hand van een realistische data-set brengen studenten hun nieuw verworven theoretische kennis ook gelijk in de praktijk.
 
