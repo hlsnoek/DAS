@@ -94,11 +94,11 @@ Voor een histogram is de breedte van de intervallen van belang. Als we te weinig
 
 Dit bekijken we aan de hand van een voorbeeld. Zo zou het kunnen zijn dat het ideale plaatje bij een gegeven dataset het volgende is:
 
-![](Plot11_RandNorm_Hist_GoedeBins.png){:width="40%"}
+![](Plot11_RandNorm_Hist_GoedeBins.png){:width=100px;}
 
 Als we te brede bins kiezen dan wordt de data afgevlakt en kunnen we het bovenstaande gedrag niet meer herkennen:
 
-![](Plot12_RandNorm_Hist_TeWeinigBins.png){:width="40%"}
+![](Plot12_RandNorm_Hist_TeWeinigBins.png){:width="40%";}
 
 Kiezen we juist te smalle bins, dan kunnen we het gedrag van de data nog wel herkennen (in dit geval) maar er is veel fluctuatie in de hoogte van de bins: 
 
@@ -264,7 +264,11 @@ De bijbehorende plot:
 ![](PLOT17_MeerdereLijnen_legenda.png){:width="40%"}<br>
 
 ###Voorbeeld: een histogram plotten
-In de allereerste opgave B1a.A ga je een histogram plotten. In die opgave staat stap voor stap uitgelegd hoe je dat moet doen. Succes!
+In de allereerste opgave B1a.A ga je een histogram plotten. In die opgave staat stap voor stap uitgelegd hoe je dat moet doen. 
+
+Maar kijk vooral ook in de [online manual](https://matplotlib.org/3.1.1/tutorials/introductory/pyplot.html) van matplotlib.
+
+Succes!
 
 
 
