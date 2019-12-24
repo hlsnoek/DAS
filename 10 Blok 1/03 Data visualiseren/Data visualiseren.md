@@ -24,7 +24,7 @@ De waardes worden als punten of 'markers' in de grafiek of scatterplot neergezet
 
 Stel bijvoorbeeld dat we naar de gemiddelde temperatuur per maand van 1981 t/m 2014 in de Bilt willen kijken. Hieronder een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
 
-[](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){:width="40%"}<br>
+[](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){:width=100px}<br>
 
 Je ziet dat dit niet erg duidelijk is. Het is bijvoorbeeld niet precies te zien waar de gemeten punten zitten, we hebben wel een vermoeden voor de plaatsen waarop de lijn abrupt van richting veranderd, maar wie weet zitten er nog wel meer datapunten tussen.
 
@@ -98,7 +98,7 @@ Dit bekijken we aan de hand van een voorbeeld. Zo zou het kunnen zijn dat het id
 
 Als we te brede bins kiezen dan wordt de data afgevlakt en kunnen we het bovenstaande gedrag niet meer herkennen:
 
-![](Plot12_RandNorm_Hist_TeWeinigBins.png){:width="40%";}
+![](Plot12_RandNorm_Hist_TeWeinigBins.png){:width="40%"}
 
 Kiezen we juist te smalle bins, dan kunnen we het gedrag van de data nog wel herkennen (in dit geval) maar er is veel fluctuatie in de hoogte van de bins: 
 
