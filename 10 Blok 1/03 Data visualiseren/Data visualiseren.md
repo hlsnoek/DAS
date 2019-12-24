@@ -73,11 +73,11 @@ Staafdiagrammen en histogrammen worden allebei typisch gebruikt om frequenties a
 
 Hieronder zie je voorbeelden van een staafdiagram en een histogram.
 
-![](autos-in-nederland.png){: width="400px"}<br>
+![](autos-in-nederland.png){: width="80%"}<br>
 
 Hierboven zie je een **staafdiagram** die de hoeveelheid autos in Nederland laat zien over drie verschillende jaren opgesplitst naar drie auto categorieën. 
 
-![](verdeling-van-inkomens-2.png){: width="400px"}<br>
+![](verdeling-van-inkomens-2.png){: width="80%"}<br>
 
 Hierboven zie je een **histogram** die de inkomensverdeling in Nederland laat zien. 
 
@@ -150,7 +150,7 @@ Daarna roepen we het `plot` commando uit matplotlib.pyplot aan:
 
 Met `'ro'` geven we aan dat we rode gevulde punten in de plot willen. De plot ziet er nu als volgt uit:
 
-![](Plot14_Vallenbal_PlotOnopgemaakt.png){:width="40%"}<br>
+![](Plot14_Vallenbal_PlotOnopgemaakt.png){:width="400px"}<br>
 
 Je ziet dat de assen automatisch vanaf de laagste waarde tot aan de hoogste waarden gaan, en hierbij niet eindigen op een maatstreepje. Daarnaast willen we graag labels op de assen.
 
@@ -166,7 +166,7 @@ Labels voor de assen kunnen we als volgt specificeren:
     
 Het resultaat is:
 
-![](Plot15_Vallenbal_PlotOpgemaakt.png){:width="40%"}
+![](Plot15_Vallenbal_PlotOpgemaakt.png){: width="400px"}<br>
 
 De volledige code tot nu toe is:    
 
@@ -201,7 +201,7 @@ Daarna gebruiken we weer dezelfde eigenschappen voor de as-limieten en de as-lab
     
 De plot ziet er dan als volgt uit:<br>
 
-![](PLOT16_MeerdereScatter.png){:width="40%"}<br>
+![](PLOT16_MeerdereScatter.png){: width ="400px"}<br>
 
 Omdat er meerdere datasets in één grafiek zijn weergegeven is het noodzakelijk om hier een legenda bij te plaatsen. Een legenda kan op meerdere plaatsen in de figuur neergezet worden. Voordat we de legenda kunnen toevoegen moeten we de plots eerst labelen dit doen we door `label = "naam"` achteraan in de `plot` commando's toe te voegen:
 
@@ -214,7 +214,7 @@ Nu kunnen we de legenda als volgt toevoegen (hier kiezen we ervoor om de legenda
 
 De grafiek is nu als volgt:
 
-![](PLOT18_MeerdereScatter_legenda.png){:width="40%"}<br>
+![](PLOT18_MeerdereScatter_legenda.png){: width ="400px"}<br>
 
 De volledige code tot nu toe is:    
 
@@ -261,7 +261,7 @@ Dit kan je als volgt doen:
     
 De bijbehorende plot:
 
-![](PLOT17_MeerdereLijnen_legenda.png){:width="40%"}<br>
+![](PLOT17_MeerdereLijnen_legenda.png){: width="400px"}<br>
 
 ###Voorbeeld: een histogram plotten
 In de allereerste opgave B1a.A ga je een histogram plotten. In die opgave staat stap voor stap uitgelegd hoe je dat moet doen. 
