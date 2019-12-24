@@ -30,7 +30,7 @@ Je ziet dat dit niet erg duidelijk is. Het is bijvoorbeeld niet precies te zien 
 
 Laten we dezelfde data eens plotten zonder lijnen maar alleen met punten: <br>
 
-![](plot2_scatter_geenOpmaak_NoTopBot_monthscorrect.png =200x100)<br>
+![](plot2_scatter_geenOpmaak_NoTopBot_monthscorrect.png){:width =400px}<br>
 
 Vanuit deze grafiek zien we dat er inderdaad veel meer datapunten zijn. Dat konden we in de lijnplot niet goed zien.
 
