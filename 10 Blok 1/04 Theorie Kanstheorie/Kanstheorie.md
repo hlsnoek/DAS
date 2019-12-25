@@ -1,8 +1,10 @@
-## Kanstheorie
+# Kanstheorie en kansdichtheidsverdelingen
 
 
 1. Ordered TOC
 {:toc}
+
+## Kanstheorie
 
 Een kans is een getal tussen de $$0$$ en de $$1$$ die aangeeft hoe waarschijnlijk het is dat een bepaalde gebeurtenis zal plaatsvinden.
 Een kans van $$1$$ zegt dat het **zeker** zal gebeuren en een kans van $$0$$ dat het **zeker niet** zal gebeuren. Een kans van $$0.5$$ geeft aan dat in $$50\%$$ van de gevallen de gebeurtenis zal plaatsvinden.
@@ -48,7 +50,7 @@ Wat in elk geval altijd belangrijk is, is om altijd heel precies te vermelden wa
 
 Er zijn een paar basisregels waar kansen aan voldoen. 
 
-1. **Behoud van kansen**: Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekend dat: <br>
+1. **Behoud van kans**: Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekend dat: <br>
 $$ P(A) + P(\text{niet A}) = 1$$<br>
 Een direct gevolg hiervan is dat $$P(\text{niet A})$$ het complement is van $$P(A)$$ ofwel:<br>
 $$ P(\text{niet A}) = 1 - P(A) $$.<br>
@@ -66,7 +68,7 @@ De uitkomstenverzameling van een kaartendek is: <br>
 {<span style="color:red">1♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,H♥,D♥,K♥,A♥,1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,</span><br>1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,A♠,1♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,H♣,D♣,K♣,A♣}<br>
 Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. 
 
-**Voorbeeld 1, behouden van kansen:** <br>
+**Voorbeeld 1, behoud van kans:** <br>
 * De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
 * De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een rode kaart te trekken (1-1/2 = 1/2)
 
@@ -82,6 +84,7 @@ Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart.
 $$P(\text{rood en }3) = P(\text{rood}) \cdot P(3) =  1/2 \cdot 4/52 = 2/52$$<br>
 Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rode drie kaarten als zwarte 3 kaarten en daarom mag je ze in dit geval vermenigvulden. De uitkomsten zijn onafhankelijk. <br>
 * De kans dat je een <span style="color:red">9♥</span> en een A♣ trekt. Deze kansen zijn niet onafhankelijk. Als je een <span style="color:red">9♥</span> trekt, zegt dat al direct iets over de kans dat deze kaart ook een A♣ is (die is namelijk gereduceerd tot 0).
+
 
 ## Stochastische variabelen en verdelingsfuncties
 
@@ -109,7 +112,7 @@ $$P({i}) = 1/N$$<br>
 Waar N de hoeveelheid mogelijke uitkomsten is.
 
 Voor een **continue uniforme** verdeling geldt: <br>
-$$f(x;a,b) = \frac{1}{b-a}$$ voor $$a\leq x \leq b$.
+$$f(x;a,b) = \frac{1}{b-a}$$ voor $$a\leq x \leq b$$.
 Hier bij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
 De functie $$f(x)$$ wordt ook wel een **kansdichtheidsfunctie** genoemd.
 
