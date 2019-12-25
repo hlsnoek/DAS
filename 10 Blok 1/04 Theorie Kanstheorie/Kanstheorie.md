@@ -1,5 +1,26 @@
 ## Kanstheorie
 
+
+Definitie kans
+Behouden kans                                                                                                                                               	
+frequentist kans
+
+Eerste rekenregels van kansen
+
+
+Distributies van kansen met random waardes
+
+Bekende distributies: 
+Uniform
+Binomiaal 
+Poisson
+Gauss
+
+
+
+
+
+
 Een kans is een waarde tussen de $$0$$ en de $$1$$ die aangeeft hoe waarschijnlijk een gebeurtenis is.
 Een kans van $$0$$ geeft aan dat iets *niet kan* gebeuren en een kans van $$1$$ geeft aan dat iets *altijd* gebeurt. Een kans van $$\frac{1}{2}$$ geeft aan dat iets naar verwachting de helft van de tijd zal gebeuren.
 

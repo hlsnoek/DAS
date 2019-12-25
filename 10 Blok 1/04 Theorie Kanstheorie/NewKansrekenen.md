@@ -17,7 +17,7 @@ $$P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{Het 
 
 Dit is de kans voor een normale eerlijke dobbelsteen. Met eerlijk bedoelen we hier dat de dobbelsteen niet gemanipuleerd is en dat elk vlak van de dobbelsteen evenveel kans heeft om boven te eindigen. 
 
-Stel nu dat we een speciale eerlijke dobbelsteen zouden hebben met de volgende vlakken: {1,2,2,3,4,4}. De kans om nu een $$4$$ te gooien is groter dan met een normale eerlijke dobbelsteen, namelijk: 
+Stel nu dat we een speciale eerlijke dobbelsteen zouden hebben met de volgende vlakken: {1,2,2,3,4,4}. De mogelijke uitkomsten bij een dobbelsteenworp zijn nu: {1,2,3,4}. Dit noemen we ook de **uitkomstenverzameling** waarbij alle elementen uniek zijn, en dus maar 1 keer voorkomt. De kans om nu een $$4$$ te gooien is groter dan met een normale eerlijke dobbelsteen, namelijk: 
 
 $$P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{Totale aantal uitkomsten}} = \frac{2}{6}$$. 
 
@@ -50,66 +50,45 @@ Wat heel belangrijk is voor beide methodes, is om altijd heel precies te vermeld
 Beide methodes worden dus gebruikt, maar de Bayesiaanse methode, of zelfs een hybride methode vindt vooral zijn toepassing in heel complexe modellen en voorspellingen. In dit college zullen we vooral werken met de frequentist methode.
 
 
-### Kans 
+### Rekenen met kansen
+
+Er zijn een paar basisregels waar kansen aan voldoen. 
+
+1. **Behoud van kansen**: Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekend dat: <br>
+$$ P(A) + P(\text{niet A}) = 1$$<br>
+Een direct gevolg hiervan is dat $$P(\text{niet A})$$ het complement is van $$P(A)$$ ofwel:<br>
+$$ P(\text{niet A}) = 1 - P(A) $$.<br>
+Dit wordt ook wel de **complementregel** genoemd.
+2. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> $$0 < P(B) \leq 1$$. Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
+3. **De *of* regel**: Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan vindt $$B$$ niet plaats, dan geldt:<br>
+$$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B)$$.<br>
+We mogen in de geval de kansen dus optellen.
+4. **De *en* regel**: Als de uitkomsten $$A$$ en $$B$$ onafhankelijk zijn, dus als je $$A$$ een uitkomst is dan zegt dat niets over de kans op $$B$$, dan geldt: <br>
+$$P(A\text{ en }B) = P(A) \cdot P(B)$$<br>
+
+
+We gaan voor elk van deze regels een voorbeeld geven. We kijken hiervoor naar een kaartendek.
+De uitkomstenverzameling van een kaartendek is: <br>
+{<span style="color:red">1♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,H♥,D♥,K♥,A♥,1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,</span><br>1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,A♠,1♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,H♣,D♣,K♣,A♣}<br>
+Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. 
+
+Voorbeeld 1, behouden van kansen: <br>
+* De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
+* De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een rode kaart te trekken (1-1/2 = 1/2)
+
+Voorbeeld 2, groter dan nul: <br>
+* Voor elke kaart in het dek is er een kans dat je hem trekt. 
+
+Voorbeeld 3, de of-regel: <br>
+* De kans dat je een 3 of een 5 trekt is gelijk aan P(3)+(P(5) = 1/13+1/13 = 2/13. <br>
+* De kans dat je een 3 of een rode kaart trekt kunnen we niet zomaar optellen. Er bestaan ook rode kaarten met een 3. 
+
+Voorbeeld 4, de en-regel: <br>
+* De kans dat je een 3 en een rode kaart trekt kunnen we uitrekenen met:<br>
+$$P(\text{rood en }3) = P(\text{rood}) \cdot P(3) =  1/2 \cdot 4/52 = 2/52$$<br>
+Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rode drie kaarten als zwarte 3 kaarten en daarom mag je ze in dit geval vermenigvulden. De uitkomsten zijn onafhankelijk. <br>
+* De kans dat je een <span style="color:red">9♥</span> en een A♣ trekt. Deze kansen zijn niet onafhankelijk. Als je een <span style="color:red">9♥</span> trekt, zegt dat al direct iets over de kans dat deze kaart ook een A♣ is (die is namelijk gereduceerd tot 0).
 
 
 
-De kansen op alle mogelijke uitkomsten bij elkaar opgeteld zijn gelijk aan 1.
-
-Als er $$n$$ mogelijke uitkomsten zijn, die allemaal even waarschijnlijk zijn dan is de kans op elke uitkomst gelijk aan 
-
-$$P(\text{gebeurtenis}) = \frac{1}{n}$$
-
-Stel we gooien met een zes zijdige dobbelsteen (afgekort tot D6). De kans om bijvoorbeeld 4 te gooien is gelijk aan:
-
-$$P(\text{we gooien 4 met een D6}) = \frac{\text{Aantal mogelijkheden waarbij de gebeurtenis optreedt}}{\text{Het totale aantal mogelijkheden}} \frac{1}{6}$$
-
-
-
-
-
-## Kansrekening - start
-
-In dit onderdeel maken we een start met de kansrekening.
-
-<>### De EN-regel, de OF-regel en de complementregel
-
-### Rekenregels
-De EN-regel en de OF-regel vertellen ons hoe we met gecombineerde kansen moeten omgaan. 
-
-#### EN-regel
-Als we de kans willen weten dat gebeurtenis A plaatsvindt en gebeurtenis B, dan moeten we de kans op gebeurtenis A vermenigvuldigen met de kans op gebeurtenis B, dit heet de EN-regel:
-
-$$P(A\text{ en }B) = P(A)\cdot P(B)$$
-
-Hierbij zijn A en B onafhankelijke gebeurtenissen.
-Als we bijvoorbeeld willen weten wat de kans is op het gooien van 2 en 4 met twee dobbelstenen dan is deze gelijk aan:
-
-$$P(\text{we gooien }2\text{ en }4) = P(2\text{ gooien}\cdot P(4\text{ gooien})) = \frac{1}{6} \cdot \frac{1}{6} = \frac{1}{36}$$
-
-#### OF-regel
-
-We kunnen ons ook afvragen wat de kans is dat we met één dobbelsteen 2 of 4 gooien. Hierbij krijgen we te maken met de OF-regel. We willen namelijk weten wat de kans is op gebeurtenis A of gebeurtenis B. Deze kans is gelijk aan de kans op gebeurtenis A plus de kans op gebeurtenis B:
-
-$$P(A\text{ of }B) = P(A) + P(B)$$
-
-Hierbij zijn A en B gebeurtenissen die elkaar uitsluiten.
-In het geval van de dobbelsteen waarbij we willen weten wat de kans is om 2 of 4 te gooien wordt dit:
-
-$$P(\text{we gooien }2\text{ of }4) = P(2\text{ gooien} + P(4\text{ gooien})) = \frac{1}{6} + \frac{1}{6} = \frac{1}{3}$$
-
-#### Complementregel
-
-Stel we willen de kans weten dat we met een dobbelsteen $$1$$, $$2$$, $$3$$, $$4$$ of $$5$$ gooien en geen $$6$$. 
-Dan kunnen we natuurlijk de kans $$P(1\text{ of }2\text{ of }3\text{ of }4\text{ of }5)$$ bepalen. Omdat dit nog vrij weinig gebeurtenissen zijn is dit nog te doen. Maar in vele gevallen is dit niet zo handig om te doen omdat het heel veel tijd kan kosten.
-
-Omdat alle kansen bij elkaar opgeteld gelijk zijn aan $$1$$ is de kans op een gebeurtenis A ook gelijk aan:
-
-$$P(A)=1-P(\text{niet }A)$$
-
-Dit wordt de complementregel genoemd. 
-
-Bij bovenstaand voorbeeld is de kans $$P(1\text{ of }2\text{ of }3\text{ of }4\text{ of }5)$$ dus ook gelijk aan:
-
-$$P(1\text{ of }2\text{ of }3\text{ of }4\text{ of }5) = 1-P(\text{niet }1,\text{niet }2,\text{niet }3,\text{niet }4,\text{niet }5) = 1-P(6\text{ gooien}) = 1-\frac{1}{6} = \frac{5}{6}$$
 
