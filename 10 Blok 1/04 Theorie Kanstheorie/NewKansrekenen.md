@@ -1,9 +1,12 @@
 ## Kanstheorie
 
 
+1. Ordered TOC
+{:toc}
+
 Een kans is een getal tussen de $$0$$ en de $$1$$ die aangeeft hoe waarschijnlijk het is dat een bepaalde gebeurtenis zal plaatsvinden.
 
-Een kans van $$1$$ zegt dat het **zeker** zal gebeuren en een kans van $$0$$ dat het **zeker niet** zal gebeuren. Een kans van $$\frac{1}{2}$$ geeft aan dat in $$50\%$$ van de gevallen de gebeurtenis zal plaatsvinden.
+Een kans van $$1$$ zegt dat het **zeker** zal gebeuren en een kans van $$0$$ dat het **zeker niet** zal gebeuren. Een kans van $$0.5$$ geeft aan dat in $$50\%$$ van de gevallen de gebeurtenis zal plaatsvinden.
 
 Als voorbeeld nemen kijken we naar een dobbelsteen. 
 Wat is de kans dat je een $$4$$ gooit als je de dobbelsteen 1 keer gooit? 
@@ -20,7 +23,7 @@ $$P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{Tota
 
 En stel nu dat we een normale dobbelsteen hebben die gemanipuleerd is? Dan zal de kans om een 4 te gooien anders zijn. Een goede manier om dan de kans te bepalen is met behulp van de $$Frequentist$$ formule: 
 
-$$P(4) = lim_{n \to \infty} \frac{uitkomst is 4}{totaal aantal worpen}$$.
+$$P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}$$.
 
 De frequentist kans is een goede manier om kansen te berekenen. Het kent echter twee grote beperkingen. De eerste is dat we eigenlijk nooit een oneindig aantal metingen kunnen doen. Dit is goed te benaderen door gewoon een heel groot aantal metingen te doen. De tweede beperking is dat niet alle experimenten herhaalbaar zijn. 
 
@@ -47,7 +50,9 @@ Wat heel belangrijk is voor beide methodes, is om altijd heel precies te vermeld
 Beide methodes worden dus gebruikt, maar de Bayesiaanse methode, of zelfs een hybride methode vindt vooral zijn toepassing in heel complexe modellen en voorspellingen. In dit college zullen we vooral werken met de frequentist methode.
 
 
-###
+### Kans 
+
+
 
 De kansen op alle mogelijke uitkomsten bij elkaar opgeteld zijn gelijk aan 1.
 
@@ -58,6 +63,9 @@ $$P(\text{gebeurtenis}) = \frac{1}{n}$$
 Stel we gooien met een zes zijdige dobbelsteen (afgekort tot D6). De kans om bijvoorbeeld 4 te gooien is gelijk aan:
 
 $$P(\text{we gooien 4 met een D6}) = \frac{\text{Aantal mogelijkheden waarbij de gebeurtenis optreedt}}{\text{Het totale aantal mogelijkheden}} \frac{1}{6}$$
+
+
+
 
 
 ## Kansrekening - start
