@@ -121,10 +121,12 @@ De functie $$f(x)$$ wordt ook wel een **kansdichtheidsfunctie** genoemd.
 
 
 ### Binomiaal verdeling
+![](BinomiaalDistributie.png){:width="60%"}
+
 
 ### Poisson verdeling
 ![](PoissonDistributie.png){:width="60%"}
 
 ### Normale verdeling of Gaussische verdeling
-
+![](NormaleDistributie.png){:width="60%"}
 
