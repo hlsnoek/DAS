@@ -98,45 +98,65 @@ Deze distributies noemen we $$kansdichtheidsfuncties$$ (Engels: probability dens
 De kans dat we $$x$$ terugvinden in een interval $$[a,b]$$ is gelijk aan: <br>
 $${\displaystyle P(a\leq x \leq b) = \int_a^b f(x) dx}$$.
 
-Er zijn twee belangrijke voorwaardes aan een kansdichtheidsdistributies die je misschien bekend zullen voorkomen: <br>
+Er zijn twee belangrijke voorwaardes aan een kansdichtheidsfuncties die je misschien bekend zullen voorkomen: <br>
 1. De kans kan nergens kleiner dan nul zijn in het uitkomstengebied. <br>
 2. De kansdichtheidsdistributie moet genormaliseerd zijn op 1. <br>
 In formule notatie: $$f(x) \geq 0$$ en $$\int^\infty_{-\infty} f(x) dx =1$$.
 
-Misschien komt dit allemaal wat abstract over en wellicht helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsdistributies (ook wel PDFs).
+Misschien komt dit allemaal wat abstract over en wellicht helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsfuncties (ook wel PDFs). Er zijn veel meer kansdichtheidsfuncties gedefinieerd, kijk bijvoorbeeld maar eens naar [deze](https://en.wikipedia.org/wiki/List_of_probability_distributions) lijst op wikipedia.
 
 Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaard deviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](XX link). Voor kansdichtheidsfuncties
 
 ### Verwachtingswaarde en standaard deviatie
 Voor **discrete** verdelingen kun je in principe dezelfde vergelijkingen gebruiken.  Namelijk:<br>
-de verwachtingswaarde: $${\displaystyle &lt x &gt = E(x) = { \sum_i x_i P(x_i) } }$$<br>
-de standaard deviatie: $${\displaystyle \sigma^2 = \sum_i (x_i - &lt x &gt)^2 P(x_i)}$$.<br>
+
+* de verwachtingswaarde: $${\displaystyle &lt x &gt = E(x) = { \sum_i x_i P(x_i) } }$$<br>
+* de standaard deviatie: $${\displaystyle \sigma^2 = \sum_i (x_i - &lt x &gt)^2 P(x_i)}$$.<br>
 
 Voor **continue** verdelingen maak je gebruik van de volgende functies:<br>
-de verwachtingswaarde: $$ &lt x &gt = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx}$$<br>
-de standaard deviatie: $${\displaystyle \sigma^2 = &lt x^2 &gt - {&lt x &gt}^2 = \int^{\infty}_{-\infty} (x - &lt x &gt)^2 f(x) dx }$$
+
+* de verwachtingswaarde: $$ &lt x &gt = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx}$$<br>
+* de standaard deviatie: $${\displaystyle \sigma^2 = &lt x^2 &gt - {&lt x &gt}^2 = \int^{\infty}_{-\infty} (x - &lt x &gt)^2 f(x) dx }$$
 
 ### Uniforme verdelingsfunctie
-De uniforme distributie is vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast *i*, $$P({i})$$, gevonden kan worden met de relatie:<br>
+De uniforme distributie is een vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast $$i$$, $$P({i})$$, gevonden kan worden met de relatie:<br>
 $$P({i}) = 1/N$$<br>
 Waar N de hoeveelheid mogelijke uitkomsten is.
 ![](UniformeDistributieDobbelsteen.png){:width="60%"}
 
 
-Voor een **continue uniforme** verdeling geldt: <br>
-$$f(x;a,b) = \frac{1}{b-a}$$ voor $$a\leq x \leq b$$.
+Een algemene formule voor een **continue uniforme** verdeling is: <br>
+$${\displaystyle f(x;a,b) = \frac{1}{b-a}$$ voor $$a\leq x \leq b}$$.<br>
 Hier bij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
 De functie $$f(x)$$ wordt ook wel een **kansdichtheidsfunctie** genoemd.
 ![](UniformeDistributieAlgemeen.png){:width="60%"}
 
 
-### Binomiaal verdeling
+### Binomiaal verdelingsfunctie
+which describes the number of successes in a series of independent Yes/No experiments all with the same probability of success. 
+Single experiment is bernouilli trial. Coin flip or taking marble out of jar.
+
+De binomiaal verdelingsfunctie heeft twee parameters. Discreet
+
 ![](BinomiaalDistributie.png){:width="60%"}
+Bernouilli experiment. Twee mogelijke uitkomsten ja of nee.
+
+Onafhankelijke kansen. Dus de eerdere meting heeft geen effect op de vorige meting.
 
 
-### Poisson verdeling
+### Poisson verdelingsfunctie
+Speciaal geval van de binomiaal
+de Poisson kent, in tegenstelling tot de binomiaal maar 1 parameter.
+Discreet
+
 ![](PoissonDistributie.png){:width="60%"}
 
 ### Normale verdeling of Gaussische verdeling
 ![](NormaleDistributie.png){:width="60%"}
+The normal distribution is the most important probability distribution in statistics because it fits many natural phenomena. For example, heights, blood pressure, measurement error, and IQ scores follow the normal distribution. It is also known as the Gaussian distribution and the bell curve.
 
+The normal distribution is a probability function that describes how the values of a variable are distributed. It is a symmetric distribution where most of the observations cluster around the central peak and the probabilities for values further away from the mean taper off equally in both directions. Extreme values in both tails of the distribution are similarly unlikely.
+
+De reden waarom deze functie zo vaak voorkomt in de natuur zullen wel later uitleggen. 
+
+Continue functie, symmetrisch,
