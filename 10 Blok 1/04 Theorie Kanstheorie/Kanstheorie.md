@@ -110,15 +110,20 @@ Misschien komt dit allemaal wat abstract over en wellicht helpt het om wat concr
 De uniforme distributie is vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast *i*, $$P({i})$$, gevonden kan worden met de relatie:<br>
 $$P({i}) = 1/N$$<br>
 Waar N de hoeveelheid mogelijke uitkomsten is.
+![](UniformeDistributieDobbelsteen.png){:width="60%"}
+
 
 Voor een **continue uniforme** verdeling geldt: <br>
 $$f(x;a,b) = \frac{1}{b-a}$$ voor $$a\leq x \leq b$$.
 Hier bij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
 De functie $$f(x)$$ wordt ook wel een **kansdichtheidsfunctie** genoemd.
+![](UniformeDistributieAlgemeen.png){:width="60%"}
+
 
 ### Binomiaal verdeling
 
 ### Poisson verdeling
+![](PoissonDistributie.png){:width="60%"}
 
 ### Normale verdeling of Gaussische verdeling
 
