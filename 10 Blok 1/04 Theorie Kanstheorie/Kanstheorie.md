@@ -109,12 +109,12 @@ Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de
 
 ### Verwachtingswaarde en standaard deviatie
 Voor **discrete** verdelingen kun je in principe dezelfde vergelijkingen gebruiken.  Namelijk:<br>
-de verwachtingswaarde: $$ &lt x &gt = E(x) = { \sum_i x_i P(x_i) } $$<br>
-de standaard deviatie: $${\displaystyle \sigma^2 = \frac{\sum_{i}(x_i - <x>)^2P(x_{i})}$$.<br>
+de verwachtingswaarde: $${\displaystyle &lt x &gt = E(x) = { \sum_i x_i P(x_i) } }$$<br>
+de standaard deviatie: $${\displaystyle \sigma^2 = \frac{\sum_{i}(x_i - &lt x &gt)^2P(x_{i})}$$.<br>
 
 Voor **continue** verdelingen maak je gebruik van de volgende functies:<br>
-de verwachtingswaarde: $$<x> = E(x) = {\displaystyle \int_\infty_{-\infty} x f(x) dx}$$<br>
-de standaard deviatie: $${\displaystyle \sigma^2 = <x^2>-<x>^2 = \int^{\infty}_{-\infty} (x-<x>)^2 f(x) dx }$$
+de verwachtingswaarde: $$&lt x &gt = E(x) = {\displaystyle \int_\infty_{-\infty} x f(x) dx}$$<br>
+de standaard deviatie: $${\displaystyle \sigma^2 = &lt x^2 &gt - &lt x &gt^2 = \int^{\infty}_{-\infty} (x- &lt x &gt)^2 f(x) dx }$$
 
 ### Uniforme verdelingsfunctie
 De uniforme distributie is vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast *i*, $$P({i})$$, gevonden kan worden met de relatie:<br>
