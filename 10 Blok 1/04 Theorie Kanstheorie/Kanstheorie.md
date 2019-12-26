@@ -109,7 +109,7 @@ Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de
 
 ### Verwachtingswaarde en standaard deviatie
 Voor **discrete** verdelingen kun je in principe dezelfde vergelijkingen gebruiken.  Namelijk:<br>
-de verwachtingswaarde: $$ \<x\> = E(x) = { \sum_i x_i P(x_i) } $$<br>
+de verwachtingswaarde: $$  = E(x) = { \sum_i x_i P(x_i) } $$<br>
 de standaard deviatie: $${\displaystyle \sigma^2 = \frac{\sum_{i}(x_i - <x>)^2P(x_{i})}$$.<br>
 
 Voor **continue** verdelingen maak je gebruik van de volgende functies:<br>
