@@ -96,7 +96,7 @@ Of als je een met een dobbelsteen gooit dan is de uitkomst van de worp een stoch
 Stochasten zijn een handig middel bij het beschrijven van experimenten. We gaan hieronder een aantal distributies van stochastische variabelen bekijken die vaak voorkomen.
 Deze distributies noemen we $$kansdichtheidsfuncties$$ (Engels: probability density function of pdf). Een kansdichtheidsfunctie, $$f(x)$$, zegt dat de kans dat een variabele $$x$$ gevonden wordt in een gebied $$[x,x+dx]$$ gelijk is aan $$f(x)dx$$. <br>
 De kans dat we $$x$$ terugvinden in een interval $$[a,b]$$ is gelijk aan: <br>
-$$P(a\leq x \leq b) = \int_a^b f(x) dx$$.
+$${\displaystyle P(a\leq x \leq b) = \int_a^b f(x) dx}$$.
 
 Er zijn twee belangrijke voorwaardes aan een kansdichtheidsdistributies die je misschien bekend zullen voorkomen: <br>
 1. De kans kan nergens kleiner dan nul zijn in het uitkomstengebied. <br>
@@ -109,7 +109,7 @@ Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de
 
 ### Verwachtingswaarde en standaard deviatie
 Voor **discrete** verdelingen kun je in principe dezelfde vergelijkingen gebruiken.  Namelijk:<br>
-de verwachtingswaarde: $$<x> = E(x) = {\displaystyle \sum_{i} x_{i} P(x_{i})}$$<br>
+de verwachtingswaarde: $$ <x> = E(x) = {\displaystyle \sum_i x_i P(x_i) } $$<br>
 de standaard deviatie: $${\displaystyle \sigma^2 = \frac{\sum_{i}(x_i - <x>)^2P(x_{i})}$$.<br>
 
 Voor **continue** verdelingen maak je gebruik van de volgende functies:<br>
