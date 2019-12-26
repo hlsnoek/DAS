@@ -110,7 +110,7 @@ Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de
 ### Verwachtingswaarde en standaard deviatie
 Voor **discrete** verdelingen kun je in principe dezelfde vergelijkingen gebruiken.  Namelijk:<br>
 de verwachtingswaarde: $${\displaystyle &lt x &gt = E(x) = { \sum_i x_i P(x_i) } }$$<br>
-de standaard deviatie: $${\displaystyle \sigma^2 = \frac{\sum_i (x_i - &lt x &gt)^2 P(x_i)}$$.<br>
+de standaard deviatie: $${\displaystyle \sigma^2 = \sum_i (x_i - &lt x &gt)^2 P(x_i)}$$.<br>
 
 Voor **continue** verdelingen maak je gebruik van de volgende functies:<br>
 de verwachtingswaarde: $$ &lt x &gt = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx}$$<br>
