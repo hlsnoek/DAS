@@ -1,4 +1,4 @@
-# Kanstheorie en kansdichtheidsverdelingen
+# Kanstheorie en kansdichtheidsfuncties
 
 
 1. Ordered TOC
@@ -33,15 +33,15 @@ Het zal je daarom niet verbazen dat er nog een andere methode bestaat die wel we
 
 De frequentist methode wordt in het algemeen als objectieve methode gezien en de Bayesiaanse methode een subjectieve manier. Het geeft aan wat je denkt dat de waarschijnlijkheid is. Dat klinkt misschien niet erg wetenschappelijk maar in de praktijk is dit misschien wel de meest gebruikte methode. Vooral omdat je hem ook kan gebruiken als het experiment niet herhaalbaar is. 
 
-Een voorbeeld. In een wielerronde staat een bergklassieker op het programma van vandaag. De wedstrijd is nog niet gestart. Er staan twee sterke renners,  Lauda en Onana, op de gedeelde eerste plaats van het klassement en de voorsprong met de derde wielrenner is meer dan 20 minuten. Het lijkt dus waarschijnlijk dat aan het einde van de dag Lauda of Onana op de eerste plaats in het klassement staat. Op bergetappes wint Onana 9 van de 10 keer met een flinke voorsprong van Lauda. Wie denk je dat er wint? 
+Een voorbeeld. In een wielerronde staat een bergklassieker op het programma van vandaag. De wedstrijd is nog niet gestart. Er staan twee sterke renners,  Verstappen en Onana, op de gedeelde eerste plaats van het klassement en de voorsprong met de derde wielrenner is meer dan 20 minuten. Het lijkt dus waarschijnlijk dat aan het einde van de dag Verstappen of Onana op de eerste plaats in het klassement staat. Op bergetappes wint Onana 9 van de 10 keer met een flinke voorsprong van Verstappen. Wie denk je dat er wint? 
 
 We kunnen het experiment natuurlijk niet herhalen maar het lijkt zeer waarschijnlijk dat Onana aan het einde van de dag op nummer 1 zal eindigen. 
 Hier maken we gebruik van de subjectieve methode van Bayes. Om het te quantificeren kunnen we misschien zelfs wel zeggen dat de kans 0.9 is.
 
-Maar nu zitten we aan ontbijt en we zien dat Onana geen hap door zijn keel krijgt. Hij is duidelijk erg ziet. Lauda daarentegen ziet er fris en sterk uit. 
+Maar nu zitten we aan ontbijt en we zien dat Onana geen hap door zijn keel krijgt. Hij is duidelijk erg ziek. Verstappen daarentegen ziet er fris en sterk uit. 
 Hoe waarschijnlijk denk je nu dat het is dat Onana zal winnen?
 
-Het lijkt nu toch een stuk minder waarschijnlijk dat Onana zal winnen. In elk geval heeft het een lagere waarschijnlijkheid dan de 0.9 waarmee wee eerste werkten.Misschien heb je zelfs wel informatie uit het verleden waaruit je weet hoeveel langzamer renners zijn als ze er zo ziek uitzien als Onanan. Wat voor impact dat heeft op hun performance. Dan zouden we ons kans van 0.9 kunnen 'updaten' met de nieuwe informatie. Dat is typisch een Bayesiaanse methode om kansen uit te rekenen.
+Het lijkt nu toch een stuk minder waarschijnlijk dat Onana zal winnen. Misschien schat je nu de kansen lager in dan de 0.9 waarmee je begon. Misschien heb je zelfs wel informatie uit het verleden waaruit je weet hoeveel langzamer renners zijn als ze er zo ziek uitzien als Onana. Wat voor impact dat heeft op hun performance. Dan zouden we ons kans van 0.9 kunnen 'updaten' met de nieuwe informatie. Dat is typisch een Bayesiaanse methode om kansen uit te rekenen.
 
 Beide methodes worden dus gebruikt, maar de Bayesiaanse methode, of zelfs een hybride methode vindt vooral zijn toepassing in heel complexe modellen en voorspellingen. In dit college zullen we vooral werken met de frequentist methode.
 Wat in elk geval altijd belangrijk is, is om altijd heel precies te vermelden wat de voorwaardes zijn geweest waaronder de kans is uitgerekend. 
@@ -105,8 +105,18 @@ In formule notatie: $$f(x) \geq 0$$ en $$\int^\infty_{-\infty} f(x) dx =1$$.
 
 Misschien komt dit allemaal wat abstract over en wellicht helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsdistributies (ook wel PDFs).
 
+Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaard deviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](XX link). Voor kansdichtheidsfuncties
 
-### Uniforme verdeling
+### Verwachtingswaarde en standaard deviatie
+Voor **discrete** verdelingen kun je in principe dezelfde vergelijkingen gebruiken.  Namelijk:<br>
+de verwachtingswaarde: $$<x> = E(x) = {\displaystyle \sum_{i} x_{i} P(x_{i})}$$<br>
+de standaard deviatie: $${\displaystyle \sigma^2 = \frac{\sum_{i}(x_i - <x>)^2P(x_{i})}$$.<br>
+
+Voor **continue** verdelingen maak je gebruik van de volgende functies:<br>
+de verwachtingswaarde: $$<x> = E(x) = {\displaystyle \int_\infty_{-\infty} x f(x) dx}$$<br>
+de standaard deviatie: $${\displaystyle \sigma^2 = <x^2>-<x>^2 = \int^{\infty}_{-\infty} (x-<x>)^2 f(x) dx }$$
+
+### Uniforme verdelingsfunctie
 De uniforme distributie is vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast *i*, $$P({i})$$, gevonden kan worden met de relatie:<br>
 $$P({i}) = 1/N$$<br>
 Waar N de hoeveelheid mogelijke uitkomsten is.
