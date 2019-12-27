@@ -5,16 +5,21 @@ metingen steeds kleiner wordt als we meer data gebruiken om het gemiddelde te be
 Dit is een belangrijke observatie. Het geeft aan dat hoe meer data we hebben, hoe nauwkeuriger de uitkomst. Je voelt misschien al aan dat dit misschien niet altijd op gaat. Wanneer dit wel en wanneer dit niet opgaat zullen we hier bespreken. 
 
 ## De $$\sqrt{n}$$-wet
-We kijken naar twee stochasten, $$X$$ en $$Y$$. De verwachtingswaarde van $$X+Y$$ is gelijk aan $$E(X+Y)= E(X)+E(Y)$$. Als $$X$$ en $$Y$$ onafhankelijk zijn dan geldt ook $$Var(X+Y)= Var(X)+Var(Y)$$.
+We kijken naar twee stochasten, $$X$$ en $$Y$$. De verwachtingswaarde van $$X+Y$$ is gelijk aan $$E(X+Y)= E(X)+E(Y)$$. <br>
+Als $$X$$ en $$Y$$ onafhankelijk zijn dan geldt ook $$Var(X+Y)= Var(X)+Var(Y)$$.
 
 Het klinkt misschien ingewikkeld, maar het enige wat we doen is een nieuwe variabele definiëren die de som is van twee variabelen. De variantie vinden we via de gewone fouten propagatie regels (XX link). 
 
 Stel nu dat we dit uitbreiden. En we nemen de som van $$N$$ onafhankelijk stochasten, $$X_1,X_2,...,X_N$$  die elk dezelfde onderliggende verdeling kennen. Dat wil zeggen dat ze allemaal dezelfde verwachtingswaarde en dezelfde variantie hebben. 
 (NB. de verwachtingswaarde is niet gelijk aan de gemeten waarde. Kijk voor dit verschil nog eens naar [basisbegrippen](/blok-1/basisbegrippen) in blok 1.) 
 
-De formule voor deze som kunnen we nu schrijven als $$S_N = X_1 + X_2 + ... + X_N$$. 
-En het gemiddelde kunnen we schrijven als $$E( &lt X_N &gt) = S_n/N$$. 
-Als de verwachtingswaarde van een enkele stochast $$E(X_i)$$ gelijk is aan $$\mu$$ en de variantie gelijk is aan $$Var(X_i) = \sigma^2$$. Dan geldt nu voor de verwachtingswaarde van de som $$E(S_N)= \mu N$$ en voor het gemiddelde $$E( &lt X_N &gt) = \mu$$. En dan geldt voor de variantie $$Var(S_N) = N \sigma^2$$ en $$Var( &lt X_N &gt) = \sigma^2/N$$. 
+De formule voor deze som kunnen we nu schrijven als:<br>
+ $$S_N = X_1 + X_2 + ... + X_N$$. <br>
+En het gemiddelde kunnen we schrijven als <br>
+$$E( &lt X_N &gt) = S_n/N$$. <br>
+Als de verwachtingswaarde van een enkele stochast $$E(X_i)$$ gelijk is aan $$\mu$$ en de variantie gelijk is aan <br>
+$$Var(X_i) = \sigma^2$$.<br>
+ Dan geldt nu voor de verwachtingswaarde van de som $$E(S_N)= \mu N$$ en voor het gemiddelde $$E( &lt X_N &gt) = \mu$$. En dan geldt voor de variantie $$Var(S_N) = N \sigma^2$$ en $$Var( &lt X_N &gt) = \sigma^2/N$$. 
 Dit betekend dat de standaard deviatie van de som van de stochasten gelijk is aan $$\sigma \sqrt{N}$$ en de standaard deviatie van het gemiddelde $$\sigma / \sqrt{N}$$. 
 
 Dit betekend dus dat als het gemiddelde van de massa van N aantal kogels nemen waarbij de kogels een Normale distributie hebben met een gemiddelde $$\mu$$ en een standaard deviatie van $$\sigma$$, de onzekerheid op de bepaalde massa gelijk is aan $$\sigma/\sqrt{N}$$: de standaard deviatie van de distributie gedeeld door het aantal kogels die meegenomen zijn in de meting. Hoe meer kogels we wegen en meenemen in ons gemiddelde, hoe nauwkeuriger we dit gemiddelde kennen. 
