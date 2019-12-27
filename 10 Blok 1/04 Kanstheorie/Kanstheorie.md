@@ -124,7 +124,7 @@ Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br
 ## Bekende kansdichtheidsfuncties
 
 ### Uniform
-<a name="uniform"></a>
+<a name="Uniform"></a>
 De uniforme distributie is een vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast $$i$$, $$P({i})$$, gevonden kan worden met de relatie: $$P({i}) = 1/N$$<br>
 Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt uit:
 
@@ -142,7 +142,7 @@ Het gemiddelde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = 
 
 
 ### Binomiaal
-<a name="binomiaal"></a>
+<a name="Binomiaal"></a>
 Om de binomiale verdelingsfunctie uit te leggen beginnen we eerst met het Bernoulli-experiment. Dit is een experiment met maar twee uitkomsten, 'succes' en 'mislukking'. De kans op succes is $$p$$ en de kans op mislukking $$q$$ is dus $$q=1-p$$. 
 
 Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de kans op een totaal aantal malen succes uit deze $$n$$ experiment gedefinieerd als $$k$$. Dit wordt beschreven door de binomiale verdeling: <br>
@@ -169,7 +169,7 @@ Het voorbeeld van daarnet is uitgedrukt in de gele lijn. Kijk ook eens goed naar
 
 
 ### Poisson
-<a name="poisson"></a>
+<a name="Poisson"></a>
 De Poisson is discrete verdelingsfunctie die, in veel gevallen, de onzekerheid weergeeft op telexperimenten. Het aantal geobserveerde gebeurtenissen, $$k$$, is gerelateerd aan het verwachte aantal gebeurtenissen, $$\lambda$$ via de Poissonverdeling: <br>
 $${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}$$.
 
@@ -185,7 +185,7 @@ Dat is ook geen toeval, de Poisson vergelijking is een speciale vorm van de Bino
 
 
 ### Normaal (ofwel Gauss)
-<a name="normaal"></a>
+<a name="Normaal"></a>
 Stochastische variabelen zijn normaal verdeeld (ook wel Gaussisch) als ze door de volgende functie worden beschreven: <br>
 $${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e {\frac{1}{2}\frac{x-\mu}{\sigma}}^2 }$$.<br>
 De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaard deviatie is precies $$\sigma$$. Dat is zeker geen toevalligheid. 
