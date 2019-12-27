@@ -9,7 +9,7 @@
 Een kans is een getal tussen de $$0$$ en de $$1$$ die aangeeft hoe waarschijnlijk het is dat een bepaalde gebeurtenis zal plaatsvinden.
 Een kans van $$1$$ zegt dat het **zeker** zal gebeuren en een kans van $$0$$ dat het **zeker niet** zal gebeuren. Een kans van $$0.5$$ geeft aan dat in $$50\%$$ van de gevallen de gebeurtenis zal plaatsvinden.
 
-Als voorbeeld nemen kijken we naar een dobbelsteen. 
+> <span class="badge badge-warning">Voorbeeld</span> We kijken naar een dobbelsteen. 
 Wat is de kans dat je een $$4$$ gooit als je de dobbelsteen 1 keer gooit? 
 Voor een normale dobbelsteen kunnen deze kans uitrekenen met behulp van de volgende formule: 
 
@@ -33,15 +33,15 @@ Het zal je daarom niet verbazen dat er nog een andere methode bestaat die wel we
 
 De frequentist methode wordt in het algemeen als objectieve methode gezien en de Bayesiaanse methode een subjectieve manier. Het geeft aan wat je denkt dat de waarschijnlijkheid is. Dat klinkt misschien niet erg wetenschappelijk maar in de praktijk is dit misschien wel de meest gebruikte methode. Vooral omdat je hem ook kan gebruiken als het experiment niet herhaalbaar is. 
 
-Een voorbeeld. In een wielerronde staat een bergklassieker op het programma van vandaag. De wedstrijd is nog niet gestart. Er staan twee sterke renners,  Verstappen en Onana, op de gedeelde eerste plaats van het klassement en de voorsprong met de derde wielrenner is meer dan 20 minuten. Het lijkt dus waarschijnlijk dat aan het einde van de dag Verstappen of Onana op de eerste plaats in het klassement zal staan. Op bergetappes wint Onana 9 van de 10 keer met een flinke voorsprong van Verstappen. Wie denk je dat er vandaag wint? 
-
-We kunnen het experiment natuurlijk niet herhalen maar het lijkt zeer waarschijnlijk dat Onana aan het einde van de dag op nummer 1 zal eindigen. 
+> <span class="badge badge-warning">Een voorbeeld</span> In een wielerronde staat een bergklassieker op het programma van vandaag. De wedstrijd is nog niet gestart. Er staan twee sterke renners,  Verstappen en Onana, op de gedeelde eerste plaats van het klassement en de voorsprong met de derde wielrenner is meer dan 20 minuten. Het lijkt dus waarschijnlijk dat aan het einde van de dag Verstappen of Onana op de eerste plaats in het klassement zal staan. Op bergetappes wint Onana 9 van de 10 keer met een flinke voorsprong van Verstappen. Wie denk je dat er vandaag wint? 
+>
+> We kunnen het experiment natuurlijk niet herhalen maar het lijkt zeer waarschijnlijk dat Onana aan het einde van de dag op nummer 1 zal eindigen. 
 Hier maken we gebruik van de subjectieve methode van Bayes. Om het te quantificeren kunnen we misschien zelfs wel zeggen dat de kans 0.9 is.
-
-Maar nu zitten we aan ontbijt en we zien dat Onana geen hap door zijn keel krijgt. Hij is duidelijk erg ziek. Verstappen daarentegen ziet er fris en sterk uit. 
+>
+> Maar nu zitten we aan ontbijt en we zien dat Onana geen hap door zijn keel krijgt. Hij is duidelijk erg ziek. Verstappen daarentegen ziet er fris en sterk uit. 
 Hoe waarschijnlijk denk je nu dat het is dat Onana zal winnen?
-
-Het lijkt nu toch een stuk minder waarschijnlijk dat Onana zal winnen. Misschien schat je nu de kansen lager in dan de 0.9 waarmee je begon. Misschien heb je zelfs wel informatie uit het verleden waaruit je weet hoeveel langzamer renners zijn als ze er zo ziek uitzien als Onana. Wat voor impact dat heeft op hun performance. Dan zouden we ons kans van 0.9 kunnen 'updaten' met de nieuwe informatie. Dat is typisch een Bayesiaanse methode om kansen uit te rekenen.
+> 
+> Het lijkt nu toch een stuk minder waarschijnlijk dat Onana zal winnen. Misschien schat je nu de kansen lager in dan de 0.9 waarmee je begon. Misschien heb je zelfs wel informatie uit het verleden waaruit je weet hoeveel langzamer renners zijn als ze er zo ziek uitzien als Onana. Wat voor impact dat heeft op hun performance. Dan zouden we ons kans van 0.9 kunnen 'updaten' met de nieuwe informatie. Dat is typisch een Bayesiaanse methode om kansen uit te rekenen.
 
 Beide methodes worden dus gebruikt, maar de Bayesiaanse methode, of zelfs een hybride methode vindt vooral zijn toepassing in heel complexe modellen en voorspellingen. In dit college zullen we vooral werken met de frequentist methode.
 Wat in elk geval altijd belangrijk is, is om altijd heel precies te vermelden wat de voorwaardes zijn geweest waaronder de kans is uitgerekend. 
@@ -68,18 +68,18 @@ De uitkomstenverzameling van een kaartendek is: <br>
 {<span style="color:red">1♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,H♥,D♥,K♥,A♥,1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,</span><br>1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,A♠,1♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,H♣,D♣,K♣,A♣}<br>
 Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. 
 
-**Voorbeeld 1, behoud van kans:** <br>
+> <span class="badge badge-warning">Voorbeeld 1</span>**, behoud van kans:** <br>
 * De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
 * De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een rode kaart te trekken (1-1/2 = 1/2)
 
-**Voorbeeld 2, groter dan nul:** <br>
+> <span class="badge badge-warning">Voorbeeld 2</span>**groter dan nul: <br>
 * Voor elke kaart in het dek is er een kans dat je hem trekt. 
 
-**Voorbeeld 3, de of-regel:** <br>
+> <span class="badge badge-warning">Voorbeeld 3</span>, **de of-regel:** <br>
 * De kans dat je een 3 of een 5 trekt is gelijk aan P(3)+(P(5) = 1/13+1/13 = 2/13. <br>
 * De kans dat je een 3 of een rode kaart trekt kunnen we niet zomaar optellen. Er bestaan ook rode kaarten met een 3. 
 
-**Voorbeeld 4, de en-regel:** <br>
+>  <span class="badge badge-warning">Voorbeeld 4</span>, **de en-regel:** <br>
 * De kans dat je een 3 en een rode kaart trekt kunnen we uitrekenen met:<br>
 $$P(\text{rood en }3) = P(\text{rood}) \cdot P(3) =  1/2 \cdot 4/52 = 2/52$$<br>
 Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rode drie kaarten als zwarte drie kaarten en daarom mag je ze in dit geval vermenigvuldigen. De uitkomsten zijn onafhankelijk. <br>
@@ -176,14 +176,16 @@ Dat is ook geen toeval, de Poisson vergelijking is een speciale vorm van de Bino
 
 
 
-### Normale (ofwel Gauss)
+### Normaal (ofwel Gauss)
 Stochastische variabelen zijn normaal verdeeld (ook wel Gaussisch) als ze door de volgende functie worden beschreven: <br>
-$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} \exp{\frac{1}{2}\frac{x-\mu}{\sigma}}^2 }$$.
-De functie heeft twee parameters, $$\mu$$ en $$\sigma$$. Dit is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaard deviatie is precies $$\sigma$$. Dat is zeker geen toevalligheid. Over de mathematische beginselen van de Normale verdelingsfunctie gaan we hier verder niet in. Het is wel al goed om te weten dat de Normale verdelingsfunctie zonder twijfel de meest belangrijke functie is in de statische data analyse. De verdelingsfunctie komt erg vaak voor. Dat is geen toevalligheid, we zullen later in blok 3 zien waarom dit zo is.
+$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} \e {\frac{1}{2}\frac{x-\mu}{\sigma}}^2 }$$.<br>
+De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaard deviatie is precies $$\sigma$$. Dat is zeker geen toevalligheid. 
+
+Over de mathematische beginselen van de Normale verdelingsfunctie gaan we hier verder niet in. Het is wel goed om te weten dat de Normale verdelingsfunctie zonder twijfel de meest belangrijke functie is in de statische data analyse. De verdelingsfunctie komt erg vaak voor. Dat is geen toevalligheid, we zullen later in blok 3 zien waarom dit zo is.
 
 
 
-Hieronder zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$mu$$ en $$\sigma$$. 
+Hieronder zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$\mu$$ en $$\sigma$$. 
 
 ![](NormaleDistributie.png){:width="80%"}
 
