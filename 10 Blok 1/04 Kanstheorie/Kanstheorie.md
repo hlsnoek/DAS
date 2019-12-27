@@ -118,22 +118,24 @@ Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br
 * de verwachtingswaarde: $$ &lt x &gt = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx}$$,<br>
 * de standaard deviatie: $${\displaystyle \sigma^2 = &lt x^2 &gt - {&lt x &gt}^2 = \int^{\infty}_{-\infty} (x - &lt x &gt)^2 f(x) dx }$$.
 
-### Uniforme verdelingsfunctie
+### Uniform
 De uniforme distributie is een vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast $$i$$, $$P({i})$$, gevonden kan worden met de relatie: $$P({i}) = 1/N$$<br>
 Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt uit:
-![](UniformeDistributieDobbelsteen.png){:width="60%"}
+
+![](UniformeDistributieDobbelsteen.png){:width="80%"}
 
 
 Een algemene formule voor een **continue uniforme** verdeling is: <br>
 $${\displaystyle f(x;a,b) = \frac{1}{b-a}}$$ voor $$a \leq x \leq b$$.<br>
 Hier bij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
 Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
-![](UniformeDistributieAlgemeen.png){:width="60%"}
+
+![](UniformeDistributieAlgemeen.png){:width="80%"}
 
 Het gemiddelde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. Deze kan je zelf narekenen met de algemene vergelijkingen.
 
 
-### Binomiaal verdelingsfunctie
+### Binomiaal
 Om de binomiale verdelingsfunctie uit te leggen beginnen we eerst met het Bernoulli-experiment. Dit is een experiment met maar twee uitkomsten, 'succes' en 'mislukking'. De kans op succes is $$p$$ en de kans op mislukking $$q$$ is dus $$q=1-p$$. 
 
 Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de kans op een totaal aantal malen succes uit deze $$n$$ experiment gedefinieerd als $$k$$. Dit wordt beschreven door de binomiale verdeling: <br>
@@ -142,7 +144,7 @@ $${\displaystyle p(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^
 Het gemiddelde en de standaard deviatie van de Binomiale verdeling zijn
 $$E(k) = np$$ en $$\sigma = \sqrt{npq}$$.
 
-> <span class="badge badge-warning">Voorbeeld</span> Stel dat we een oneindige grote verzameling knikkers hebben waarvan  30\% gele knikkers, alle andere knikkers zijn rood gekleurd. Als we een enkele knikker trekken hebben we dus precies 30\% kans ($$p=0.3$$) dat dit een gele knikker is. Als we twee knikkers trekken hebben we een kans van $$0.3\cdot 0.3 = 0.09$$ dat we twee gele knikkers hebben getrokken. Immers, omdat de verzameling oneindig groot is, heeft de eerste trekking geen invloed op de tweede trekking en zijn de twee trekking onafhankelijk. We mogen dus de ['en'-regel](XX link) gebruiken. 
+> <span class="badge badge-warning">Voorbeeld</span>  Stel dat we een oneindige grote verzameling knikkers hebben waarvan  30\% gele knikkers, alle andere knikkers zijn rood gekleurd. Als we een enkele knikker trekken hebben we dus precies 30\% kans ($$p=0.3$$) dat dit een gele knikker is. Als we twee knikkers trekken hebben we een kans van $$0.3\cdot 0.3 = 0.09$$ dat we twee gele knikkers hebben getrokken. Immers, omdat de verzameling oneindig groot is, heeft de eerste trekking geen invloed op de tweede trekking en zijn de twee trekking onafhankelijk. We mogen dus de ['en'-regel](XX link) gebruiken. 
 We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat minstens 1 rode knikker hebben, hier gebruiken we de [complement regel](XX link). De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. 
 We kunnen deze getallen ook met de Binomiaal vergelijking uitrekenen:<br>
 2 trekkingen, 0 gele knikkers: $$p(k;n,p) = p(0;2,0.3) = \frac{2!}{(0! \cdot 2!)} 0.3^0 \cdot 0.7^2 =  0.49 $$<br>
@@ -153,34 +155,37 @@ Deze kansen staan ook uitgerukt in de gele lijn in het plaatje hieronder.
 De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet toepassen op fractionele waardes. Dat is ook logisch want het Bernoulli experiment kunnen niet een fractionele keer uitvoeren. De functie is asymetrisch voor lage waardes van $$n$$ en wordt voor grotere waardes van $$n$$ steeds meer symmetrisch.
 
 Hieronder zie je een aantal verdelingen voor de Binomiaal distributie.
-![](BinomiaalDistributie.png){:width="60%"}
+
+![](BinomiaalDistributie.png){:width="80%"}
 
 Het voorbeeld van daarnet is uitgedrukt in de gele lijn. Kijk ook eens goed naar de blauwe lijn. De kans $$p=1$$ zegt dat een de uitkomst altijd succes is. Als je het experiment twee keer uitvoert, zijn ze dus gegarandeerd allebei succesvol. En de kans is 0 dat je maar 1 uit 2 $$(n=2,k=1)$$ positieve uitslagen hebt. Dat kan immers ook niet, je kan alleen maar succes hebben, er bestaan geen andere uitslagen van het experiment.
 
 
-### Poisson verdelingsfunctie
+### Poisson
 De Poisson is discrete verdelingsfunctie die, in veel gevallen, de onzekerheid weergeeft op telexperimenten. Het aantal geobserveerde gebeurtenissen, $$k$$, is gerelateerd aan het verwachte aantal gebeurtenissen, $$\lambda$$ via de Poissonverdeling: <br>
 $${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}$$.
 
 De Poisson kent, in tegenstelling tot de binomiaal dus maar 1 parameter.
 De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de standaard deviatie is ook $$\lambda$$. Het is dus een bijzondere vergelijking!
 Hieronder zie hoe de Poisson distributie eruit ziet voor verschillende waardes van $$\lambda$$.
-![](PoissonDistributie.png){:width="60%"}
+
+![](PoissonDistributie.png){:width="80%"}
 
 De Poisson verdeling is, net als de Binomiaal vergelijking asymmetrisch voor lage waardes van $$\lambda$$ en wordt voor steeds meer symmetrisch voor hogere waardes van $$\lambda$$. 
 Dat is ook geen toeval, de Poisson vergelijking is een speciale vorm van de Binomiaal. Als je hier meer over wilt weten kun je [dit](https://www.youtube.com/watch?v=eexQyHj6hEA) filmpje bekijken.
 
 
 
-### Normale verdelingsfunctie of Gaussische verdeling
+### Normale (ofwel Gauss)
 Stochastische variabelen zijn normaal verdeeld (ook wel Gaussisch) als ze door de volgende functie worden beschreven: <br>
-$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp{\frac{1}{2}\frac{x-\mu}{\sigma}^2 }$$.
+$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} \exp{\frac{1}{2}\frac{x-\mu}{\sigma}}^2 }$$.
 De functie heeft twee parameters, $$\mu$$ en $$\sigma$$. Dit is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaard deviatie is precies $$\sigma$$. Dat is zeker geen toevalligheid. Over de mathematische beginselen van de Normale verdelingsfunctie gaan we hier verder niet in. Het is wel al goed om te weten dat de Normale verdelingsfunctie zonder twijfel de meest belangrijke functie is in de statische data analyse. De verdelingsfunctie komt erg vaak voor. Dat is geen toevalligheid, we zullen later in blok 3 zien waarom dit zo is.
 
 
 
 Hieronder zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$mu$$ en $$\sigma$$. 
-![](NormaleDistributie.png){:width="60%"}
+
+![](NormaleDistributie.png){:width="80%"}
 
 Het is goed om op te merken dat de Normale verdeling een symmetrische continue verdeling is. De meeste stochasten zijn gegroepeerd rond het gemiddelde en hoe meer we van het gemiddelde afwijken, hoe kleiner de kans is dat we een stochast aantreffen.
 
