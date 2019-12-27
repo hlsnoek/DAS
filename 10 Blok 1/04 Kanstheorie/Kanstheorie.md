@@ -33,7 +33,7 @@ Het zal je daarom niet verbazen dat er nog een andere methode bestaat die wel we
 
 De frequentist methode wordt in het algemeen als objectieve methode gezien en de Bayesiaanse methode een subjectieve manier. Het geeft aan wat je denkt dat de waarschijnlijkheid is. Dat klinkt misschien niet erg wetenschappelijk maar in de praktijk is dit misschien wel de meest gebruikte methode. Vooral omdat je hem ook kan gebruiken als het experiment niet herhaalbaar is. 
 
-Een voorbeeld. In een wielerronde staat een bergklassieker op het programma van vandaag. De wedstrijd is nog niet gestart. Er staan twee sterke renners,  Verstappen en Onana, op de gedeelde eerste plaats van het klassement en de voorsprong met de derde wielrenner is meer dan 20 minuten. Het lijkt dus waarschijnlijk dat aan het einde van de dag Verstappen of Onana op de eerste plaats in het klassement staat. Op bergetappes wint Onana 9 van de 10 keer met een flinke voorsprong van Verstappen. Wie denk je dat er wint? 
+Een voorbeeld. In een wielerronde staat een bergklassieker op het programma van vandaag. De wedstrijd is nog niet gestart. Er staan twee sterke renners,  Verstappen en Onana, op de gedeelde eerste plaats van het klassement en de voorsprong met de derde wielrenner is meer dan 20 minuten. Het lijkt dus waarschijnlijk dat aan het einde van de dag Verstappen of Onana op de eerste plaats in het klassement zal staan. Op bergetappes wint Onana 9 van de 10 keer met een flinke voorsprong van Verstappen. Wie denk je dat er vandaag wint? 
 
 We kunnen het experiment natuurlijk niet herhalen maar het lijkt zeer waarschijnlijk dat Onana aan het einde van de dag op nummer 1 zal eindigen. 
 Hier maken we gebruik van de subjectieve methode van Bayes. Om het te quantificeren kunnen we misschien zelfs wel zeggen dat de kans 0.9 is.
@@ -51,16 +51,16 @@ Wat in elk geval altijd belangrijk is, is om altijd heel precies te vermelden wa
 Er zijn een paar basisregels waar kansen aan voldoen. 
 
 1. **Behoud van kans**: Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekend dat: <br>
-$$ P(A) + P(\text{niet A}) = 1$$<br>
+$$ P(A) + P(\text{niet A}) = 1$$.<br>
 Een direct gevolg hiervan is dat $$P(\text{niet A})$$ het complement is van $$P(A)$$ ofwel:<br>
 $$ P(\text{niet A}) = 1 - P(A) $$.<br>
-Dit wordt ook wel de **complementregel** genoemd.
+Dit wordt ook wel de **complementregel** genoemd.<br>
 2. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> $$0 < P(B) \leq 1$$. Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
 3. **De *of* regel**: Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan vindt $$B$$ niet plaats, dan geldt:<br>
 $$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B)$$.<br>
-We mogen in de geval de kansen dus optellen.
+We mogen in dit geval de kansen dus optellen.
 4. **De *en* regel**: Als de uitkomsten $$A$$ en $$B$$ onafhankelijk zijn, dus als je $$A$$ een uitkomst is dan zegt dat niets over de kans op $$B$$, dan geldt: <br>
-$$P(A\text{ en }B) = P(A) \cdot P(B)$$<br>
+$$P(A\text{ en }B) = P(A) \cdot P(B)$$.<br>
 
 
 We gaan voor elk van deze regels een voorbeeld geven. We kijken hiervoor naar een kaartendek.
@@ -82,7 +82,7 @@ Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart.
 **Voorbeeld 4, de en-regel:** <br>
 * De kans dat je een 3 en een rode kaart trekt kunnen we uitrekenen met:<br>
 $$P(\text{rood en }3) = P(\text{rood}) \cdot P(3) =  1/2 \cdot 4/52 = 2/52$$<br>
-Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rode drie kaarten als zwarte 3 kaarten en daarom mag je ze in dit geval vermenigvuldigen. De uitkomsten zijn onafhankelijk. <br>
+Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rode drie kaarten als zwarte drie kaarten en daarom mag je ze in dit geval vermenigvuldigen. De uitkomsten zijn onafhankelijk. <br>
 * De kans dat je een <span style="color:red">9♥</span> en een A♣ trekt. Deze kansen zijn niet onafhankelijk. Als je een <span style="color:red">9♥</span> trekt, zegt dat al direct iets over de kans dat deze kaart ook een A♣ is (die is namelijk gereduceerd tot 0).
 
 
@@ -94,7 +94,7 @@ Of als je een met een dobbelsteen gooit dan is de uitkomst van de worp een stoch
 
 ### Kansdichtheidsfuncties
 Stochasten zijn een handig middel bij het beschrijven van experimenten. We gaan hieronder een aantal distributies van stochastische variabelen bekijken die vaak voorkomen.
-Deze distributies noemen we $$kansdichtheidsfuncties$$ (Engels: probability density function of pdf). Een kansdichtheidsfunctie, $$f(x)$$, zegt dat de kans dat een variabele $$x$$ gevonden wordt in een gebied $$[x,x+dx]$$ gelijk is aan $$f(x)dx$$. <br>
+Deze distributies noemen we **kansdichtheidsfuncties** (Engels: probability density function of pdf). Een kansdichtheidsfunctie, $$f(x)$$, zegt dat de kans dat een variabele $$x$$ gevonden wordt in een gebied $$[x,x+dx]$$ gelijk is aan $$f(x)dx$$. <br>
 De kans dat we $$x$$ terugvinden in een interval $$[a,b]$$ is gelijk aan: <br>
 $${\displaystyle P(a\leq x \leq b) = \int_a^b f(x) dx}$$.
 
@@ -108,25 +108,24 @@ Misschien komt dit allemaal wat abstract over en wellicht helpt het om wat concr
 Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaard deviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](XX link). Voor kansdichtheidsfuncties
 
 ### Verwachtingswaarde en standaard deviatie
-Voor **discrete** verdelingen kun je in principe dezelfde vergelijkingen gebruiken.  Namelijk:<br>
+Voor **discrete** verdelingen gelden de volgende vergelijkingen:
 
-* de verwachtingswaarde: $${\displaystyle &lt x &gt = E(x) = { \sum_i x_i P(x_i) } }$$<br>
+* de verwachtingswaarde: $${\displaystyle &lt x &gt = E(x) = { \sum_i x_i P(x_i) } }$$,<br>
 * de standaard deviatie: $${\displaystyle \sigma^2 = \sum_i (x_i - &lt x &gt)^2 P(x_i)}$$.<br>
 
-Voor **continue** verdelingen maak je gebruik van de volgende functies:<br>
+Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br>
 
-* de verwachtingswaarde: $$ &lt x &gt = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx}$$<br>
-* de standaard deviatie: $${\displaystyle \sigma^2 = &lt x^2 &gt - {&lt x &gt}^2 = \int^{\infty}_{-\infty} (x - &lt x &gt)^2 f(x) dx }$$
+* de verwachtingswaarde: $$ &lt x &gt = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx}$$,<br>
+* de standaard deviatie: $${\displaystyle \sigma^2 = &lt x^2 &gt - {&lt x &gt}^2 = \int^{\infty}_{-\infty} (x - &lt x &gt)^2 f(x) dx }$$.
 
 ### Uniforme verdelingsfunctie
-De uniforme distributie is een vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast $$i$$, $$P({i})$$, gevonden kan worden met de relatie:<br>
-$$P({i}) = 1/N$$<br>
-Waar N de hoeveelheid mogelijke uitkomsten is.
+De uniforme distributie is een vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast $$i$$, $$P({i})$$, gevonden kan worden met de relatie: $$P({i}) = 1/N$$<br>
+Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt uit:
 ![](UniformeDistributieDobbelsteen.png){:width="60%"}
 
 
 Een algemene formule voor een **continue uniforme** verdeling is: <br>
-$${\displaystyle f(x;a,b) = \frac{1}{b-a}$$ voor $$a\leq x \leq b}$$.<br>
+$${\displaystyle f(x;a,b) = \frac{1}{b-a}}$$ voor $$a\leq x \leq b}$$.<br>
 Hier bij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
 De functie $$f(x)$$ wordt ook wel een **kansdichtheidsfunctie** genoemd.
 Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
