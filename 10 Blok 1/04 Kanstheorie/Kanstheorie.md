@@ -183,7 +183,7 @@ Dat is ook geen toeval, de Poisson vergelijking is een speciale vorm van de Bino
 
 ### Normaal (ofwel Gauss)
 Stochastische variabelen zijn normaal verdeeld (ook wel Gaussisch) als ze door de volgende functie worden beschreven: <br>
-$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} \e {\frac{1}{2}\frac{x-\mu}{\sigma}}^2 }$$.<br>
+$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e {\frac{1}{2}\frac{x-\mu}{\sigma}}^2 }$$.<br>
 De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaard deviatie is precies $$\sigma$$. Dat is zeker geen toevalligheid. 
 
 Over de mathematische beginselen van de Normale verdelingsfunctie gaan we hier verder niet in. Het is wel goed om te weten dat de Normale verdelingsfunctie zonder twijfel de meest belangrijke functie is in de statische data analyse. De verdelingsfunctie komt erg vaak voor. Dat is geen toevalligheid, we zullen later in blok 3 zien waarom dit zo is.
