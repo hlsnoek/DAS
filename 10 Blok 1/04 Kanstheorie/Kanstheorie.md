@@ -140,14 +140,15 @@ Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de k
 $${\displaystyle p(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } $$
 
 Het gemiddelde en de standaard deviatie van de Binomiale verdeling zijn
-$$\E(k) = np$$ en $$\sigma = \sqrt{npq}$$.
+$$E(k) = np$$ en $$\sigma = \sqrt{npq}$$.
 
-**Voorbeeld:** Stel dat we een oneindige grote verzameling knikkers hebben waarvan  30\% gele knikkers, alle andere knikkers zijn rood gekleurd. Als we een enkele knikker trekken hebben we dus precies 30\% kans ($$p=0.3$$) dat dit een gele knikker is. Als we twee knikkers trekken hebben we een kans van $$0.3\cdot 0.3 = 0.09$$ dat we twee gele knikkers hebben getrokken. Immers, omdat de verzameling oneindig groot is, heeft de eerste trekking geen invloed op de tweede trekking en zijn de twee trekking onafhankelijk. We mogen dus de ['en'-regel](XX link) gebruiken. 
-We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat minstens 1 rode knikker hebben, hier gebruiken we de [complement regel](XX link). De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. (Deze kansen staan ook uitgerukt in de gele lijn in het plaatje hieronder.)<br>
+> **Voorbeeld:** Stel dat we een oneindige grote verzameling knikkers hebben waarvan  30\% gele knikkers, alle andere knikkers zijn rood gekleurd. Als we een enkele knikker trekken hebben we dus precies 30\% kans ($$p=0.3$$) dat dit een gele knikker is. Als we twee knikkers trekken hebben we een kans van $$0.3\cdot 0.3 = 0.09$$ dat we twee gele knikkers hebben getrokken. Immers, omdat de verzameling oneindig groot is, heeft de eerste trekking geen invloed op de tweede trekking en zijn de twee trekking onafhankelijk. We mogen dus de ['en'-regel](XX link) gebruiken. 
+We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat minstens 1 rode knikker hebben, hier gebruiken we de [complement regel](XX link). De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. 
 We kunnen deze getallen ook met de Binomiaal vergelijking uitrekenen:<br>
 2 trekkingen, 0 gele knikkers: $$p(k;n,p) = p(0;2,0.3) = \frac{2!}{(0! \cdot 2!)} 0.3^0 \cdot 0.7^2 =  0.49 $$<br>
 2 trekkingen, 1 gele knikkers: $$p(k;n,p) = p(1;2,0.3) = \frac{2!}{1!\cdot 1!} 0.3^1 \cdot 0.7^1 = 0.42 $$<br>
 2 trekkingen, 2 gele knikkers: $$p(k;n,p) = p(2;2,0.3) = \frac{2!}{2! \cdot 0!} 0.3^2 \cdot 0.7^0 = 0.09$$<br>
+Deze kansen staan ook uitgerukt in de gele lijn in het plaatje hieronder.
 
 De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet toepassen op fractionele waardes. Dat is ook logisch want het Bernoulli experiment kunnen niet een fractionele keer uitvoeren. De functie is asymetrisch voor lage waardes van $$n$$ en wordt voor grotere waardes van $$n$$ steeds meer symmetrisch.
 
