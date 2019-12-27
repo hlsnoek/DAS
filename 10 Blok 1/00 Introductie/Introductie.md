@@ -32,8 +32,8 @@ Vaak maken we hierbij gebruik van histogrammen, grafieken en tabellen. Om een hy
 
 In deze cursus zullen we gaan vaardigheden leren van data analyse en statistiek. 
 
-Deze week beginnen we met een aantal [basisbegrippen](blok-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over [verdelingen](blok-1/meetonzekerheid), metingen en het juist [presenteren](blok-1/data-visualiseren) van resultaten.  
-Ook maken we een begin met [kansrekening](blok-1/kanstheorie).
+Deze week beginnen we met een aantal [basisbegrippen](/blok-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over [verdelingen](/blok-1/meetonzekerheid), metingen en het juist [presenteren](/blok-1/data-visualiseren) van resultaten.  
+Ook maken we een begin met [kansrekening](/blok-1/kanstheorie).
 
-We werken in de werkcolleges aan de opdrachten van dit blok [B1a](blok-1/opdrachten-blok1a) en [B1b](blok-1/opdrachten-blok1b).
-Vergeet ook niet te kijken naar het [oefenmateriaal](XX link) voor de tussentoetsen. De eerste tussentoets volgt na het tweede werkcollege.
+We werken in de werkcolleges aan de opdrachten van dit blok [B1a](/blok-1/opdrachten-blok1a) en [B1b](/blok-1/opdrachten-blok1b).
+Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-info/tussentoets-1) voor de eerste tussentoets. De eerste tussentoets volgt na het tweede werkcollege.
