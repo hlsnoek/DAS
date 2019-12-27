@@ -137,7 +137,7 @@ Het gemiddelde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = 
 Om de binomiale verdelingsfunctie uit te leggen beginnen we eerst met het Bernoulli-experiment. Dit is een experiment met maar twee uitkomsten, 'succes' en 'mislukking'. De kans op succes is $$p$$ en de kans op mislukking $$q$$ is dus $$q=1-p$$. 
 
 Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de kans op een totaal aantal malen succes uit deze $$n$$ experiment gedefinieerd als $$k$$. Dit wordt beschreven door de binomiale verdeling: <br>
-$${\displaystyle p(k;n,p) = \left( \begin{array}{c}{n\\ k\\}\end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } $$
+$${\displaystyle p(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } $$
 
 Het gemiddelde en de standaard deviatie van de Binomiale verdeling zijn
 $$\E(k) = np$$ en $$\sigma = \sqrt{npq}$$.
