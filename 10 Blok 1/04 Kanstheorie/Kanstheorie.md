@@ -125,9 +125,8 @@ Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt
 
 
 Een algemene formule voor een **continue uniforme** verdeling is: <br>
-$${\displaystyle f(x;a,b) = \frac{1}{b-a}}$$ voor $$a\leq x \leq b}$$.<br>
+$${\displaystyle f(x;a,b) = \frac{1}{b-a}}$$ voor $$a \leq x \leq b$$.<br>
 Hier bij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
-De functie $$f(x)$$ wordt ook wel een **kansdichtheidsfunctie** genoemd.
 Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
 ![](UniformeDistributieAlgemeen.png){:width="60%"}
 
@@ -138,7 +137,7 @@ Het gemiddelde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = 
 Om de binomiale verdelingsfunctie uit te leggen beginnen we eerst met het Bernoulli-experiment. Dit is een experiment met maar twee uitkomsten, 'succes' en 'mislukking'. De kans op succes is $$p$$ en de kans op mislukking $$q$$ is dus $$q=1-p$$. 
 
 Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de kans op een totaal aantal malen succes uit deze $$n$$ experiment gedefinieerd als $$k$$. Dit wordt beschreven door de binomiale verdeling: <br>
-$${\displaystyle p(k;n,p) = \rowvec{n,k} p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } $$
+$${\displaystyle p(k;n,p) = \left( \begin{array}{c}{n\\ k\\}\end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } $$
 
 Het gemiddelde en de standaard deviatie van de Binomiale verdeling zijn
 $$\E(k) = np$$ en $$\sigma = \sqrt{npq}$$.
