@@ -10,17 +10,20 @@ In deze sectie bespreken we het effect van translatie (verschuiving), vermenigvu
 Als alle stochasten worden opgehoogd of verlaagd met een constante waarde $$a$$, dan verandert het gemiddelde met diezelfde waarde $$a$$. De variantie en de standaard deviatie blijven gelijk.
 
 
-> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie. De originele kansdichtheid functie $$f(x)$$ is na translatie $$x \mapsto x + a$$ beschreven door een nieuwe functie $$g(x)$$. :<br>
-> 
-> $$ g(x) = f(x + a;\mu) = \frac{1}{\sigma \sqrt{2 \pi}} e^{\frac{-1}{2}\frac{(x+a)-\mu}{\sigma}}^2} = f(x;\mu+a$$.
->
-> We zien dat de $$g(x)$$ gelijk is aan een Normaal verdeling rond $$\mu+a$$. Let wel op, dit geldt voor de Normaal verdeling, en niet zomaar voor alle functies. <br>
-> We zien hieronder de originele Normaal verdeling en de transleerde verdeling grafisch verbeeld. 
-> 
-> ![](NormaleDistributieTranslatie.png){:width=
+We bekijken wat er gebeurd de Normaal verdeling onder een translatie. De originele kansdichtheid functie $$f(x)$$ is na translatie $$x \mapsto x - a$$ beschreven door een nieuwe functie $$g(x)$$. :<br>
+ 
+$$ g(x) = f(x + a;\mu) = \frac{1}{\sigma \sqrt{2 \pi}} e^{\frac{-1}{2}\frac{(x-a)-\mu}{\sigma}}^2} = f(x;\mu+a$$.
 
+We zien dat de $$g(x)$$ gelijk is aan een Normaal verdeling rond $$\mu+a$$. Let wel op, dit geldt voor de Normaal verdeling, en niet zomaar voor alle functies. <br>
+We zien hieronder de originele Normaal verdeling en de getransleerde verdeling grafisch verbeeld. 
 
-NB voor de poisson gaat dit niet op. 
+![](NormaleDistributieTranslatie.png){:width=80}
+
+Dat dit niet voor alle functies opgaat illustreren we met de Poisson distributie. We zien dat de translatie van de Poisson de functie zodanig verandert dat we het niet kunnen beschrijven met een Poisson vergelijking.
+Wel zien we dat de translatie van $$a$$ de verwachtingswaarde verandert met precies $$a$$ en dat de standaard deviatie niet veranderd is onder de translatie.
+
+![](PoissonDistributieTranslatie.png){:width=80}
+
 
 
 Dit bekijken we eens aan de hand van een voorbeeld. Als dataset nemen we de waarden:
