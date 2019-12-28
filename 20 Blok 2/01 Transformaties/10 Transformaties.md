@@ -12,7 +12,7 @@ Als alle stochasten worden opgehoogd of verlaagd met een constante waarde $$a$$,
 
 > <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie. De originele kansdichtheid functie $$f(x)$$ is na translatie $$x \mapsto x + a$$ beschreven door een nieuwe functie $$g(x)$$. :<br>
 > 
-> $$ g(x) = f(x + a;\mu) = \frac{1}{\sigma \sqrt{2 \pi}} e^{\frac{-1}{2}\frac{(x+a)-\mu}{\sigma}}^2 = f(x;\mu+a$$.
+> $$ g(x) = f(x + a;\mu) = \frac{1}{\sigma \sqrt{2 \pi}} e^{\frac{-1}{2}\frac{(x+a)-\mu}{\sigma}}^2} = f(x;\mu+a$$.
 >
 > We zien dat de $$g(x)$$ gelijk is aan een Normaal verdeling rond $$\mu+a$$. Let wel op, dit geldt voor de Normaal verdeling, en niet zomaar voor alle functies. <br>
 > We zien hieronder de originele Normaal verdeling en de transleerde verdeling grafisch verbeeld. 
