@@ -9,20 +9,18 @@ In deze sectie bespreken we het effect van translatie (verschuiving), vermenigvu
 ### Translatie
 Als alle stochasten worden opgehoogd of verlaagd met een constante waarde $$a$$, dan verandert het gemiddelde met diezelfde waarde $$a$$. De variantie en de standaard deviatie blijven gelijk. 
 
-> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:
+> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:<br>
 > $${\displaystyle x=1}$$
 
-> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:
-> $$display x=1$$
+> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:<br>
+> 
+> $$ x=1$$
 
-> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:
-> \[ x=1 \]
+> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:<br>
 
-> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:
-> \( display x =1\)
+> $$ X = 1 $$
 
-> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:
-> \(  x =1\)
+
 
 NB voor de poisson gaat dit niet op. 
 
