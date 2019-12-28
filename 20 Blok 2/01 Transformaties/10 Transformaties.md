@@ -4,11 +4,28 @@
 {:toc}
 
 
-In deze sectie bespreken we het effect van translatie (verschuiving), vermenigvuldiging en het verwijderen of toevoegen van datapunten op het gemiddelde, de mediaan, de modus, de range, de variantie, de standaarddeviatie en de coëfficiënt van variatie.
+In deze sectie bespreken we het effect van translatie (verschuiving), vermenigvuldiging en het verwijderen of toevoegen van stochasten op het gemiddelde, de variantie en de standaarddeviatie. Je hebt in opdracht B1a.C al gezien wat er gebeurd met een Normale en een Poisson verdeling. 
 
-### Data verschuiven
+### Translatie
+Als alle stochasten worden opgehoogd of verlaagd met een constante waarde $$a$$, dan verandert het gemiddelde met diezelfde waarde $$a$$. De variantie en de standaard deviatie blijven gelijk. 
 
-Als alle waarden in een dataset worden opgehoogd of verlaagd met een constante waarde $$b$$, dan veranderen het gemiddelde, de mediaan en de modus met diezelfde waarde $$b$$. De range, variantie en standaarddeviatie blijven gelijk. De coëfficiënt van variatie verandert proportioneel met $$b$$.
+> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:
+> $${\displaystyle x=1}$$
+
+> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:
+> $$display x=1$$
+
+> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:
+> \[ x=1 \]
+
+> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:
+> \( display x =1\)
+
+> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:
+> \(  x =1\)
+
+NB voor de poisson gaat dit niet op. 
+
 
 Dit bekijken we eens aan de hand van een voorbeeld. Als dataset nemen we de waarden:
 
@@ -16,7 +33,7 @@ $$5.0, 8.0, 9.0, 11.0, 11.0, 15.0$$
 
 We bekijken het effect op de eigenschappen als we bij alle elementen een waarde van $$6$$ optellen of als we bij alle elementen een waarde $$10$$ af halen:
 
-|Eigenschap| Dataset | Dataset plus 6 | Dataset min 10|
+|Eigenschap| Stochast | + 6 | - 10|
 |---|---|---|---|
 |Gemiddelde|9.8|15.8|-0.2|
 |Mediaan|10|16|0|

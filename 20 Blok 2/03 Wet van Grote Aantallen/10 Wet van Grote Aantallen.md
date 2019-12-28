@@ -2,7 +2,7 @@
 
 In opgave B1a.D hebben we gezien hoe de spreiding van een gemeten gemiddelde 
 metingen steeds kleiner wordt als we meer data gebruiken om het gemiddelde te bepalen. 
-Dit is een belangrijke observatie. Het geeft aan dat hoe meer data we hebben, hoe nauwkeuriger de uitkomst. Je voelt misschien al aan dat dit misschien niet altijd op gaat. Wanneer dit wel en wanneer dit niet opgaat zullen we hier bespreken. 
+Dit is een belangrijke observatie. Het geeft aan dat hoe meer data we hebben, hoe nauwkeuriger de uitkomst. Je voelt misschien al aan dat dit niet altijd op gaat. Wanneer dit wel en wanneer dit niet opgaat zullen we hier bespreken. 
 
 ## De $$\sqrt{n}$$-wet
 We kijken naar twee stochasten, $$X$$ en $$Y$$. De verwachtingswaarde van $$X+Y$$ is gelijk aan $$E(X+Y)= E(X)+E(Y)$$. <br>
@@ -35,9 +35,9 @@ Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan  on
 
 Tip: In deze [video](https://www.youtube.com/watch?v=MntX3zWNWec) wordt de wet van grote aantallen duidelijk uitgelegd. 
 
-Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk de variantie van de stochast eindig moet zijn, en dat dus de verwachtingswaarde van de stochast bepaald is. Er bestaan distributies, zoals de [Cauchy](https://nl.wikipedia.org/wiki/Cauchy-verdeling) of de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie waarvoor dit dus niet geldt. Deze distributies hebben oneindig lange staarten. 
+Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk de variantie van de stochast eindig moet zijn, en dat dus de verwachtingswaarde van de stochast bepaald is. Er bestaan distributies, zoals de [Cauchy](https://nl.wikipedia.org/wiki/Cauchy-verdeling) of de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie waarvoor dit dus niet geldt. Deze distributies hebben oneindig lange staarten. Hieronder zie je hoe de Cauchy distributie eruit ziet.
 
-
+![](CauchyDistributie.png){:width="80%"} 
 
 Wiskundig kan de wet van de grote aantallen dus weleens voor problemen zorgen. In Natuurkundige experimenten zijn verdelingen uiteindelijk vaak beknot door bijvoorbeeld de eindigheid van energie in een botsing. Voor Natuurkundige experimenten gaat de wet van grote aantallen dus vaak wel op.
 
