@@ -7,19 +7,17 @@
 In deze sectie bespreken we het effect van translatie (verschuiving), vermenigvuldiging en het verwijderen of toevoegen van stochasten op het gemiddelde, de variantie en de standaarddeviatie. Je hebt in opdracht B1a.C al gezien wat er gebeurd met een Normale en een Poisson verdeling. 
 
 ### Translatie
-Als alle stochasten worden opgehoogd of verlaagd met een constante waarde $$a$$, dan verandert het gemiddelde met diezelfde waarde $$a$$. De variantie en de standaard deviatie blijven gelijk. 
+Als alle stochasten worden opgehoogd of verlaagd met een constante waarde $$a$$, dan verandert het gemiddelde met diezelfde waarde $$a$$. De variantie en de standaard deviatie blijven gelijk.
 
-> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:<br>
-> $${\displaystyle x=1}$$
 
-> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:<br>
+> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie. De originele kansdichtheid functie $$f(x)$$ is na translatie $$x \mapsto x + a$$ beschreven door een nieuwe functie $$g(x)$$. :<br>
 > 
-> $$ x=1$$
-
-> <span class="badge badge-warning">Een voorbeeld</span> We bekijken wat er gebeurd de Normaal verdeling onder een translatie $$x \mapsto x' + a$$:<br>
-
-> $$ X = 1 $$
-
+> $$ g(x) = f(x + a;\mu) = \frac{1}{\sigma \sqrt{2 \pi}} e {\frac{-1}{2}\frac{(x+a)-\mu}{\sigma}}^2 = f(x;\mu+a$$.
+>
+> We zien dat de $$g(x)$$ gelijk is aan een Normaal verdeling rond $$\mu+a$$. Let wel op, dit geldt voor de Normaal verdeling, en niet zomaar voor alle functies. <br>
+> We zien hieronder de originele Normaal verdeling en de transleerde verdeling grafisch verbeeld. 
+> 
+> ![](NormaleDistributieTranslatie.png){:width=
 
 
 NB voor de poisson gaat dit niet op. 
