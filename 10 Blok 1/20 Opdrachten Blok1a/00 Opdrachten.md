@@ -3,10 +3,10 @@
 Tijdens werkcolleges 1 en 2 werken we aan het eerste blok 1a.
 In dit blok gaan we werken aan vier opdrachten. 
 
-* <a href="#B1a.A">B1a.A *</a>
-* <a href="#B1a.B">B1a.B **</a>
-* <a href="#B1a.C">B1a.C **</a>
-* <a href="#B1a.D">B1a.D **</a>
+* <a href="#B1a.A">B1a.A Mooi Plotten *</a>
+* <a href="#B1a.B">B1a.B Kansdichtheid distributies **</a>
+* <a href="#B1a.C">B1a.C Eigenschappen van distributies **</a>
+* <a href="#B1a.D">B1a.D Grote Aantallen **</a>
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 
