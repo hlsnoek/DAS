@@ -2,16 +2,14 @@
 
 Vaak kunnen we de grootheid die we willen weten niet direct meten, maar meten we observabelen die zich, via een bepaalde functie, verhouden tot de grootheid. Of zelfs meten we twee of meer variabelen die we nodig hebben om de gewilde grootheid te bepalen. 
 
-Bijvoorbeeld als we een gemiddelde snelheid van een auto willen bepalen. Dit zouden we kunnen doen door de tijd te meten die de auto nodig heeft om een bepaald traject af te leggen. We meten dan de tijd en de lengte en die zetten we dan om in snelheid via de bekende formule $$v=\Delta l/\Delta t$$. 
+Bijvoorbeeld als we een gemiddelde snelheid van een auto willen bepalen. Dit zouden we kunnen doen door de tijd te meten die de auto nodig heeft om een bepaald traject af te leggen. We meten dan de door de auto gebruikte tijd, $$T$$ en de lengte van het traject, $$L$$, en die zetten we dan om in snelheid via de bekende formule $$v=L\T$$. Of we bepalen bijvoorbeeld de massa van een elementair deeltje (in rust) en willen dit omzetten naar de energie van het deeltje via de formule $$E=mc^2$$. 
 
-Of we bepalen de massa van een elementair deeltje (in rust) en willen dit omzetten naar de energie van het deeltje via de formule $$E=mc^2$$. 
-
-Als we de onzekerheid weten op de gemeten observabelen dan willen we deze propagaren naar de grootheid die we eigenlijk willen bepalen. Dit noemen we het propageren van fouten. Voor het propageren van fouten zijn regels die je kunt volgen. In dit hoofdstuk leren we je de basisregels voor het propageren van **ongecorreleerde** fouten. Dat wil zeggen dat als er meerder onzekerheden worden gepropageerd deze onafhankelijk zijn. Later zullen we nog de regel voor gecorreleerde fouten geven. 
+Als we de onzekerheid weten op de gemeten observabelen dan willen we deze omzetten naar de grootheid die we eigenlijk willen bepalen. Dit noemen we het propageren van fouten. In dit hoofdstuk leren we je de basisregels voor het propageren van **ongecorreleerde** fouten. Dat wil zeggen dat als er meerdere onzekerheden worden gepropageerd deze onzekerheden onafhankelijk zijn; De meting van de ene observabele heeft geen invloed op de meting van de andere observabele. Later zullen we nog de regel voor gecorreleerde fouten geven. 
 
 
 ### Basisregel
-We beginnen met de algemene regel voor het propageren van ongecorreleerde fouten. Daarna zullen we laten zien hoe deze regel eruit ziet voor eenvoudige relaties. Deze zou je apart kunnen leren, maar je kunt ook altijd de basisregel gebruiken. Het resultaat behoort hetzelfde te zijn. 
-We noteren de onzekerheid in dit hoofdstuk met $$\Delta x$$ waar we eerder ook wel $$\sigma_x$$ hebben gezien. 
+We beginnen met de **algemene regel voor het propageren van ongecorreleerde fouten**. Daarna zullen we laten zien hoe deze regel eruit ziet voor eenvoudige relaties. Deze zou je apart kunnen leren, maar je kunt ook altijd de basisregel gebruiken. Het resultaat behoort hetzelfde te zijn. 
+We noteren de onzekerheid op variabele $$x$$ in dit hoofdstuk met $$\Delta x$$ waar we eerder ook wel $$\sigma_x$$ hebben gebruikt. 
 
 Als $$q = q(x,y,z,\dots)$$ een functie is met meerdere ongecorreleerde variabelen, dan wordt de onzekerheid op $$q$$ gegeven door:
 
@@ -19,47 +17,34 @@ $$\Delta q = \sqrt{\left(\frac{\delta q}{\delta x}\Delta x  \right)^2+\left(\fra
 
 Hierbij zijn $$\frac{\delta q}{\delta x}$$, $$\frac{\delta q}{\delta y}$$ etc. de partiële afgeleiden van $$q$$ naar de betreffende variabele.
 
-Deze algemene regel kan eenvoudig worden uitgeschreven naar de 
+> <span class="badge badge-warning">Voorbeeld </span> Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$ ($$\Delta y$$) gelijk aan: <br> $$\Delta y = \sqrt{(\frac{\delta y}{\delta x} \Delta x)^2} = (a + 2bx) \Delta x$$.
 
 
-----
+### Som en verschil 
+Deze **algemene regel** kan eenvoudig worden uitgeschreven naar de regels voor regel voor som en verschil. 
+Als $$q = x + y$$ of $$q = x - y $$ dan wordt de onzekerheid op $$q$$ gegeven door: 
+
+$$\Delta q = \sqrt{\left(\frac{\delta q}{\delta x} \Delta x \right)^2 + \left( \frac{\delta q}{\delta y} \right)^2} = \sqrt{\left(\Delta x\right)^2+\left(\Delta y\right)^2}$$.
+
+We mogen de varianties ($$\Delta x ^2$$) in het geval vergelijking met som of verschillen dus optellen.
+
+### Vermenigvuldigen met constante
+Als $$q$$ een exact veelvoud $$c$$ is van de gemeten waarde $$x$$, dus $$q = c \cdot x$$, dan geldt:
+
+$$\Delta q = \sqrt{(\frac{\delta q}{\delta x} \Delta x)^2} = |c| \Delta x$$. 
 
 
+### Vermenigvuldigen met variabelen
+Als $$q$$ een vermenigvuldiging is van meerdere variabelen, dus bijvoorbeeld  $$q = x\cdot y \cdot z$$ dan geldt: 
 
-Hieronder staat hoe de fouten propageren in het geval van het optellen, aftrekken, delen en vermenigvuldigen van gemeten waarden.
-Hierbij wordt ervan uitgegaan dat de meetwaarden (en fouten) onafhankelijk zijn van elkaar.
+$$\Delta q = \sqrt{\left( \frac{\delta q}{\delta x} \Delta x \right)^2 +\left( \frac{\delta q}{\delta y} \Delta y \right)^2 +\left( \frac{\delta q}{\delta z} \Delta z \right)^2} = \sqrt{\left( (\frac{q}{x} \Delta x\right)^2 + \left( (\frac{q}{y} \Delta y\right)^2 +\left( (\frac{q}{z} \Delta z \right)^2 }$$.
 
-Bij een telexperiment met $$N$$ 'counts' wordt de meetfout gegeven door 
+Dit kan je eenvoudiger schrijven als: <br>
 
-$$\sqrt{N}$$
+$$\frac{\Delta q}{q} = \sqrt{\frac{\Delta x}{x}^2 + \frac{\Delta z}{z}^2 + \frac{\Delta z}{z}^2} $$.
 
-Als $$q = x + y + \dots$$ of $$q = x - y - \dots$$ dan:
-
-$$\Delta q = \sqrt{\left(\Delta x\right)^2+\left(\Delta y\right)^2+\dots}$$
-
-Als $$q = x\cdot y\cdot \cdot u \ cdot w \cdot \dots$$ of $$q = \frac{x\cdot u \cdot \dots}{y \cdot w \cdot \dots}$$ dan: 
-
-$$\frac{\Delta q}{|q|} = \sqrt{\left(\frac{\Delta x}{x}\right)^2+\left(\frac{\Delta y}{y}\right)^2+\left(\frac{\Delta u}{u}\right)^2+\left(\frac{\Delta w}{w}\right)^2} $$
-
-Als $$q$$ een exact veelvoud $$c$$ is van de gemeten data, dus $$q = c \cdot x$$, dan:
-
-$$\Delta q = |c|x$$ 
-
-Daarnaast is de relatieve fout in $$q$$ dan gelijk aan de relatieve fout in $$x$$.
-
-Als $$q=x^n$$ dan:
-
-$$\frac{\Delta q}{|q|} = |n| \frac{\Delta x}{|x|}$$
-
-Als $$q=q(x)$$ een functie van $$x$$ is dan:
-
-$$\Delta q = \left|\frac{dq}{dx}\right|\Delta x$$
-
-Hierbij is $$\frac{dq}{dx}$$ de afgeleide van de functie naar $$x$$.
-
-
-
-Met bovenstaande rekenregels kan de propagatie van fouten bepaald worden. 
+Ofwel de relatieve fout $$\frac{\Delta q}{q}$$ is gelijk aan de kwadratische som van de variabelen.
+ 
 
 ### Afronding meetonzekerheden en meetwaarden bij foutenpropagatie
 

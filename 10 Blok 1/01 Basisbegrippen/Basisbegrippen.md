@@ -95,12 +95,12 @@ zowel het getal 4 als het getal 11 komen drie keer voor in de set. De set is dus
 Bij sommige soorten dataverdelingen is het gebruikelijker om over de modus te praten dan over het gemiddelde of de mediaan. Een voorbeeld hiervan is de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie die een slecht gedefinieerd gemiddelde of mediaan kent door een lange staart in de distributie.
 
 
-### Spreiding van data
+## Spreiding van data
 ---
 
 De spreiding geeft een beeld van de mate waarin datapunten in een set verspreid zijn. Er zijn verschillende maten om de spreiding van een dataset mee aan te geven. Hieronder zullen we de range, variantie, coëfficiënt van variantie en de standaardafwijking bespreken. 
 
-#### Range (spreidingsbreedte)
+### Range (spreidingsbreedte)
 
 De range is de afstand tussen de hoogste en de laagste waarde in een dataset. Hebben we bijvoorbeeld de dataset
 
@@ -119,20 +119,21 @@ $$1,2,3,4,5,5,5,6,6,6,7,7,10,30$$
 De range wordt nu $$30-1=29$$. Dus onder invloed van één foutief datapunt geeft de range nu een veel grotere mate van spreiding aan. 
 
 
-#### Standaard deviatie en variantie
+### Standaard deviatie en variantie
 
-De standaard deviatie (ook wel de standaardafwijking) geeft aan in welke mate de data verspreid is rondom het gemiddelde van de dataset. Dit geeft met name ook een maat voor de spreiding van de datapunten onderling. Hoe groter de standaard deviatie des te groter is de spreiding tussen de afzonderlijke punten. De standaard deviatie wordt aangeduid met $$\sigma$$.
+De standaard deviatie (ook wel de standaardafwijking) geeft aan in welke mate de data verspreid is rondom het gemiddelde van de dataset. Dit geeft met name ook een maat voor de spreiding van de datapunten onderling. Hoe groter de standaard deviatie des te groter is de spreiding tussen de afzonderlijke punten. De standaard deviatie wordt aangeduid met $$\sigma$$, of ook wel met $$\Delta$$ of $$s$$.
 
-De variantie, *var*, is direct gerelateerd aan de standaard deviatie, namelijk de variantie is gelijk aan de standaard deviatie in het kwadraat.
+De variantie, *var*, is direct gerelateerd aan de standaard deviatie, namelijk de variantie is gelijk aan de standaard deviatie in het kwadraat:
+$$\sigma = \sqrt{var}$$.
 
 De variantie en standaard deviatie kunnen worden berekend met de volgende formule:
 
-$$\sigma^2 = \displaystyle \frac{\displaystyle \sum_{i=1}^{N}(x_i - \mu)^2}{N}$$
+$$var = \sigma^2 = \displaystyle \frac{1}{N} \sum_{i=1}^{N}(x_i - \mu)^2$$
 
 Het verschil tussen de standaardafwijking en de variantie is de eenheid. De standaardafwijking heeft dezelfde eenheid als het gemiddelde terwijl de variantie de eenheid in het kwadraat heeft. Bij het rapporteren van resultaten wordt daarom vaak de standaard deviatie van een verdeling of steekproef gegeven in plaats van de variantie. In het werken met een dataset maakt het echter niet uit welk van de twee je gebruikt. Bij een meer wiskundige benadering kan het eenvoudiger zijn om met de variantie te werken omdat er dan geen sprake is van een wortel. 
 
 
-#### Variatiecoëfficiënt
+### Variatiecoëfficiënt
 
 De variatiecoëfficiënt wordt ook wel de relatieve standaardafwijking genoemd. De coëfficiënt van variatie geeft, net zoals de standaardafwijking en de variantie, een maat voor de spreiding van de populatie of dataset. 
 
