@@ -36,7 +36,7 @@ Hierbij zijn $$\frac{\delta q}{\delta x}$$, $$\frac{\delta q}{\delta y}$$ etc. d
 > $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{(a \Delta x)^2 + (2y \Delta y)^2}$$.
 
 > <span class="badge badge-warning">Voorbeeld 6</span> Stel we hebben een vergelijking $$z = ax + y^2 + 2xy$$ met een standaard deviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaard deviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
-> $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{\left((a + 2y) \cdot\Delta x\right)^2 + \left((2y + 2x)\cdot  \Delta y\right)^}$$.
+> $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{\left( (a + 2y) \cdot \Delta x \right)^2 + \left( (2y + 2x)\cdot  \Delta y \right)^}$$.
 
 
 ### Som en verschil 
