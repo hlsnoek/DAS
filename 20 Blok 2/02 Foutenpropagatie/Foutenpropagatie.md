@@ -1,5 +1,8 @@
 ## Foutenpropagatie
 
+1. Ordered TOC
+{:toc}
+
 Vaak kunnen we de grootheid die we willen weten niet direct meten, maar meten we observabelen die zich, via een bepaalde functie, verhouden tot de grootheid. Of zelfs meten we twee of meer variabelen die we nodig hebben om de gewilde grootheid te bepalen. 
 
 Bijvoorbeeld als we een gemiddelde snelheid van een auto willen bepalen. Dit zouden we kunnen doen door de tijd te meten die de auto nodig heeft om een bepaald traject af te leggen. We meten dan de door de auto gebruikte tijd, $$T$$ en de lengte van het traject, $$L$$, en die zetten we dan om in snelheid via de bekende formule $$v=L/T$$. Of we bepalen bijvoorbeeld de massa van een elementair deeltje (in rust) en willen dit omzetten naar de energie van het deeltje via de formule $$E=mc^2$$. 
@@ -17,7 +20,13 @@ $$\Delta q = \sqrt{\left(\frac{\delta q}{\delta x}\Delta x  \right)^2+\left(\fra
 
 Hierbij zijn $$\frac{\delta q}{\delta x}$$, $$\frac{\delta q}{\delta y}$$ etc. de partiële afgeleiden van $$q$$ naar de betreffende variabele.
 
-> <span class="badge badge-warning">Voorbeeld </span> Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x$$.
+> <span class="badge badge-warning">Voorbeeld 1</span> Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x$$.
+
+> <span class="badge badge-warning">Voorbeeld 2</span> Stel we hebben een vergelijking $$z = ax + y^2$$ met een standaard deviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaard deviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
+> $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{(a \Delta x)^2 + (2y \Delta y)2}$$.
+
+> <span class="badge badge-warning">Voorbeeld 3</span> Stel we hebben een vergelijking $$z = ax + y^2 + 2xy$$ met een standaard deviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaard deviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
+> $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{((a + 2y) \cdot\Delta x)^2 + ((2y + 2x)\cdot  \Delta y)2}$$.
 
 
 ### Som en verschil 
@@ -91,23 +100,5 @@ $$\begin{aligned} \Delta V &= \frac{\Delta V}{|V|} \cdot |V| \\
 &\approx 0.8\end{aligned}$$
 
 Het gemeten volume van het blokje is dus $$V = 62.3 \pm 0.8 \text{ cm}^3$$
-
-### Foutenpropagatie bij herhaalde metingen
-
-Zoals eerder gezegd weten we de echte exacte waarde van en grootheid nooit. Wel kunnen we deze zo goed mogelijk 
-benaderen. Als een meting herhaald wordt dan krijgen we een steeds betere schatting van de waarde, maar we zullen de waarde zelf nooit
-helemaal precies weten. In het geval van het blokje zou de lengte bijvoorbeeld door jouzelf en al je medestudenten gemeten kunnen worden. Iedereen leest de waarde op de liniaal
-net wat anders af en daardoor verkrijgen we een collectie van meetwaarden, elk met een eigen meetonzekerheid.
-
-Ook hierbij kan voor de foutenpropagatie de absolute fout genomen worden om tot een 
-waarde met meetonzekerheid te komen. De absolute fout geeft echter een te grote waarde van de meetonzekerheid. 
-Daarom wordt er bij herhaaldelijke metingen vaak gebruik gemaakt van de *standaardafwijking* als fout op de waarde. 
-In de eerdere lesstof onder ['Basisbegrippen'](/blok-1/theorie-basisbegrippen) hebben we het al over de standaardafwijking gehad.
-Bij de lengte van het blokje zouden we dan de gemiddelde meetwaarde bepalen en hier de standaardafwijking als meetfout bij optellen/aftrekken:
-
-$$\text{lengte l} = l_{gemiddeld} \pm \sigma_{lengte}$$
-
-De eerdere formules voor de foutenpropagatie zijn ook van toepassing op meetwaarden met de standaardafwijking als meetfout. Hierbij vul je de standaardafwijking in op de plekken waar de absolute fout staat.
-
 
  
