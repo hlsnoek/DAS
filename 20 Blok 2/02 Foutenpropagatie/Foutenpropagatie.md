@@ -20,12 +20,22 @@ $$\Delta q = \sqrt{\left(\frac{\delta q}{\delta x}\Delta x  \right)^2+\left(\fra
 
 Hierbij zijn $$\frac{\delta q}{\delta x}$$, $$\frac{\delta q}{\delta y}$$ etc. de partiële afgeleiden van $$q$$ naar de betreffende variabele.
 
-> <span class="badge badge-warning">Voorbeeld 1</span> Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x$$.
+> <span class="badge badge-warning">Voorbeeld 1</span> Stel we hebben een vergelijking $$y = c\cdot x$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = c \cdot \Delta x$$.
+> ![](Foutenpropagatie_const.png){:width="40%",:inline}
 
-> <span class="badge badge-warning">Voorbeeld 2</span> Stel we hebben een vergelijking $$z = ax + y^2$$ met een standaard deviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaard deviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
+> <span class="badge badge-warning">Voorbeeld 2</span> Stel we hebben een vergelijking $$y = x + a$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = \Delta x$$.
+> ![](Foutenpropagatie_trans.png){:width="40%",:inline}
+
+> <span class="badge badge-warning">Voorbeeld 3</span> Stel we hebben een vergelijking $$y = x^3$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = 3x^2 \cdot \Delta x$$.
+> ![](Foutenpropagatie_cube.png){:width="40%",:inline}
+ 
+> <span class="badge badge-warning">Voorbeeld 4</span> Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x$$.
+> ![](Foutenpropagatie_func.png){:width="40%",:inline}
+
+> <span class="badge badge-warning">Voorbeeld 5</span> Stel we hebben een vergelijking $$z = ax + y^2$$ met een standaard deviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaard deviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
 > $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{(a \Delta x)^2 + (2y \Delta y)^2}$$.
 
-> <span class="badge badge-warning">Voorbeeld 3</span> Stel we hebben een vergelijking $$z = ax + y^2 + 2xy$$ met een standaard deviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaard deviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
+> <span class="badge badge-warning">Voorbeeld 6</span> Stel we hebben een vergelijking $$z = ax + y^2 + 2xy$$ met een standaard deviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaard deviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
 > $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{\left((a + 2y) \cdot\Delta x\right)^2 + \left((2y + 2x)\cdot  \Delta y\right)^}$$.
 
 
