@@ -17,7 +17,7 @@ $$\Delta q = \sqrt{\left(\frac{\delta q}{\delta x}\Delta x  \right)^2+\left(\fra
 
 Hierbij zijn $$\frac{\delta q}{\delta x}$$, $$\frac{\delta q}{\delta y}$$ etc. de partiële afgeleiden van $$q$$ naar de betreffende variabele.
 
-> <span class="badge badge-warning">Voorbeeld </span> Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$ ($$\Delta y$$) gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{(\frac{\delta y}{\delta x} \Delta x)^2} = (a + 2bx) \Delta x$$.
+> <span class="badge badge-warning">Voorbeeld </span> Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$ ($$\Delta y$$) gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x$$.
 
 
 ### Som en verschil 
