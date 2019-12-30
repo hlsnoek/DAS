@@ -36,11 +36,11 @@ $$\displaystyle \Delta q = \sqrt{\left( \frac{\delta q}{\delta x} \Delta x \righ
 ### Vermenigvuldigen met variabelen
 Als $$q$$ een vermenigvuldiging is van meerdere variabelen, dus bijvoorbeeld  $$q = x\cdot y \cdot z$$ dan geldt: 
 
-$$\displaystyle \Delta q = \sqrt{\left( \frac{\delta q}{\delta x} \Delta x \right)^2 +\left( \frac{\delta q}{\delta y} \Delta y \right)^2 +\left( \frac{\delta q}{\delta z} \Delta z \right)^2} = \sqrt{\left( (\frac{q}{x} \Delta x\right)^2 + \left( (\frac{q}{y} \Delta y\right)^2 +\left( (\frac{q}{z} \Delta z \right)^2 }$$.
+$$\displaystyle \Delta q = \sqrt{\left( \frac{\delta q}{\delta x} \Delta x \right)^2 +\left( \frac{\delta q}{\delta y} \Delta y \right)^2 +\left( \frac{\delta q}{\delta z} \Delta z \right)^2} = \sqrt{\left( \frac{q}{x} \Delta x\right)^2 + \left( \frac{q}{y} \Delta y\right)^2 +\left( \frac{q}{z} \Delta z \right)^2 }$$.
 
 Dit kan je eenvoudiger schrijven als: <br>
 
-$$\frac{\Delta q}{q} = \sqrt{\frac{\Delta x}{x}^2 + \frac{\Delta z}{z}^2 + \frac{\Delta z}{z}^2} $$.
+$$\displaystyle \frac{\Delta q}{q} = \sqrt{\frac{\Delta x}{x}^2 + \frac{\Delta z}{z}^2 + \frac{\Delta z}{z}^2} $$.
 
 Ofwel de relatieve fout $$\frac{\Delta q}{q}$$ is gelijk aan de kwadratische som van de variabelen.
  
