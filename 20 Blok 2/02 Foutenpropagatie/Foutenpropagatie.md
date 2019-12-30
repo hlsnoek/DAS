@@ -17,21 +17,20 @@ $$\Delta q = \sqrt{\left(\frac{\delta q}{\delta x}\Delta x  \right)^2+\left(\fra
 
 Hierbij zijn $$\frac{\delta q}{\delta x}$$, $$\frac{\delta q}{\delta y}$$ etc. de partiële afgeleiden van $$q$$ naar de betreffende variabele.
 
-> <span class="badge badge-warning">Voorbeeld </span> Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$ ($$\Delta y$$) gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x$$.
+> <span class="badge badge-warning">Voorbeeld </span> Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x$$.
 
 
 ### Som en verschil 
-Deze **algemene regel** kan eenvoudig worden uitgeschreven naar de regels voor regel voor som en verschil. 
+De algemene regel kan eenvoudig worden uitgeschreven naar de regels voor regel voor som en verschil. 
 Als $$q = x + y$$ of $$q = x - y $$ dan wordt de onzekerheid op $$q$$ gegeven door: 
 
-$$\Delta q = \sqrt{\left(\frac{\delta q}{\delta x} \Delta x \right)^2 + \left( \frac{\delta q}{\delta y} \right)^2} = \sqrt{\left(\Delta x\right)^2+\left(\Delta y\right)^2}$$.
+$$\displaystyle \Delta q = \sqrt{\left(\frac{\delta q}{\delta x} \Delta x \right)^2 + \left( \frac{\delta q}{\delta y} \right)^2} = \sqrt{\left(\Delta x\right)^2+\left(\Delta y\right)^2}$$.
 
-We mogen de varianties ($$\Delta x ^2$$) in het geval vergelijking met som of verschillen dus optellen.
+We mogen de varianties ($$\Delta x ^2$$) in het geval in een vergelijking met enkel sommen en/of verschillen dus optellen.
 
 ### Vermenigvuldigen met constante
-Als $$q$$ een exact veelvoud $$c$$ is van de gemeten waarde $$x$$, dus $$q = c \cdot x$$, dan geldt:
-
-$$\Delta q = \sqrt{(\frac{\delta q}{\delta x} \Delta x)^2} = |c| \Delta x$$. 
+Als $$q$$ een exact veelvoud $$c$$ is van de gemeten waarde $$x$$, dus $$q = c \cdot x$$, dan geldt:<br>
+$$\displaystyle \Delta q = \sqrt{\left( \frac{\delta q}{\delta x} \Delta x \right) ^2} = |c| \Delta x$$. 
 
 
 ### Vermenigvuldigen met variabelen
