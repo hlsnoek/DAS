@@ -40,7 +40,7 @@ $$\displaystyle \Delta q = \sqrt{\left( \frac{\delta q}{\delta x} \Delta x \righ
 
 Dit kan je eenvoudiger schrijven als: <br>
 
-$$\displaystyle \frac{\Delta q}{q} = \sqrt{\frac{\Delta x}{x}^2 + \frac{\Delta z}{z}^2 + \frac{\Delta z}{z}^2} $$.
+$$\displaystyle \frac{\Delta q}{q} = \sqrt{\left( \frac{\Delta x}{x}\right)^2 + \left(\frac{\Delta z}{z}\right)^2 + \left(\frac{\Delta z}{z}\right)^2} $$.
 
 Ofwel de relatieve fout $$\frac{\Delta q}{q}$$ is gelijk aan de kwadratische som van de variabelen.
  
