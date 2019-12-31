@@ -15,10 +15,10 @@ Als we iets meten is dat meestal omdat we een bepaalde grootheid willen meten. V
 
 We doen ook metingen om bepaalde hypothesis te ontkrachten of juist bevestigen. Maar ook als we een hypothese testen zijn er onderliggende grootheden (vaak meerdere tegelijk) die we meten en vergelijken met voorspelde waardes. 
 
-Het is belangrijk om te begrijpen dat we meestal te maken hebben met een fout op de gemeten grootheid. Hoe groot die fout is kunnen we niet weten, wel kunnen we de meetonzekerheid in kaart proberen te brengen. Die onzekerheid kan grofweg twee oorzaken hebben. Onzekerheden die komen door de meetmethode en onzekerheden met een natuurlijke oorzaak.
+Het is belangrijk om te begrijpen dat we meestal te maken hebben met een fout op de gemeten grootheid. **Hoe groot die fout is kunnen we niet weten, wel kunnen we de meetonzekerheid in kaart proberen te brengen.** Die onzekerheid kan grofweg twee oorzaken hebben. Onzekerheden die komen door de meetmethode en onzekerheden met een natuurlijke oorzaak.
 
 ###Meetfouten
-De eerste oorzaak is dat we een fout maken bij de meting. Een fout betekend hier niet dat we iets verkeerds doen. Het betekend dat we met onze meting een waarde vinden die afwijkt van de echte waarde. Dit noemen we een meetfout. Helaas weten we nooit hoe groot de meetfout is, maar soms kunnen we hem wel inschatten. De meetfout hangt natuurlijk af van de meetmethode. Voorbeelden hiervan zijn: 
+De eerste oorzaak is dat we een fout maken bij de meting. Een fout betekend hier niet dat we iets verkeerds doen. Het betekend dat we met onze meting een waarde vinden die afwijkt van de echte waarde. De afwijking noemen we een meetfout. Helaas weten we nooit hoe groot de meetfout exact is, maar vaak kunnen we hem wel goed inschatten. De meetfout wordt beïvloedt door de meetmethode. Voorbeelden hiervan zijn: 
 
 * **Het aantal knikkers in een pot.** Stel dat we de pot leegkieperen en we tellen ze allemaal met de hand, dan kan het zo zijn dat we een knikker kwijtraken of een telfout maken. Als we het netjes doen en we doen verschillende hertellingen is de kans groot dat we hierbij geen meetfout maken (zeker als het maar een paar knikkers zijn).
 
@@ -38,7 +38,7 @@ Dan moeten we de waarde op de lineaal afmeten. Als we naar de bovenstaande situa
 
 De tweede categorie onzekerheden hebben een andere oorzaak. De grootheid zelf kan ook een spreiding kennen. Je kan hierbij denken aan toevalligheden in een productieproces maar ook door bijvoorbeeld kansprocessen in de quantummechanica. We bekijken nogmaals de voorbeelden.
 
-* **Het aantal knikkers in een pot.** Stel dat de pot een onnemelijk aantal knikkers heeft. Dan wordt het een monnikenwerk om ze allemaal met de hand te tellen. Een goede methode zou dan zijn om de pot te wegen. Als we nu het gewicht van de pot en het gewicht van een knikker weten dan kunnen we uitrekenen hoeveel knikkers er in de pot zitten. Behalve de meetfouten die maken bij de weging kan er ook een onzekerheid komen in de meting van het aantal doordat er een spreiding is knikkergewichten. Niet ieder knikker is precies even zwaar.
+* **Het aantal knikkers in een pot.** Stel dat de pot een onnemelijk aantal knikkers heeft. Dan wordt het een monnikenwerk om ze allemaal met de hand te tellen. Een goede methode zou dan zijn om de pot te wegen. Als we nu het gewicht van de pot en het gewicht van een knikker weten dan kunnen we uitrekenen hoeveel knikkers er in de pot zitten. Behalve de meetfouten die maken bij de weging kan er ook een onzekerheid komen in de meting van het aantal doordat er een spreiding is knikkergewichten. Niet iedere knikker is precies even zwaar.
 
 * **De lengte van een blokje hout.** Stel dat we de nauwkeurigheid van de lengtemeting helemaal onder controle hebben, dan kan het nog steeds zo zijn dat het blokje zelf niet overal precies dezelfde lengte heeft. Vooral bij houten blokjes zal er zo nu en dan variaties inzitten door nerven en knoesten.
 
@@ -50,7 +50,7 @@ De tweede categorie onzekerheden hebben een andere oorzaak. De grootheid zelf ka
 
 
 ### Reduceren van meet-onnauwkeurigheden
-Goed nadenken van het opzetten van een experiment is belangrijk en kan grote onnauwkeurigheden voorkomen. Nog belangrijker is het om alle onzekerheden goed in kaart te brengen. Alleen zo kun je zien wat de waarde is van een meting. 
+Goed nadenken over de opzet van een experiment is belangrijk en kan grote onnauwkeurigheden voorkomen. Nog belangrijker is het om alle onzekerheden goed in kaart te brengen. Alleen zo kun je inschatten wat de waarde is van een meting. 
 
 Een voorbeeld is een keukeninstallateur die een werkblad voor een keuken moet opleveren. De installateur zal een goede meting moeten doen van de lengte van het werkblad die hij nodig heeft. Als hij een werkblad aanlevert dat uiteindelijk 2 cm te kort is is dat teveel op te vullen met een kitrandje, als hij 3 mm te lang is zal hij ook niet passen. 
 
@@ -58,54 +58,59 @@ Zo werkt het natuurlijk ook bij natuurkundige experimenten. Als je een meting wi
 
 We onderscheiden meestal **systematische onzekerheid**, **statistische onzekerheid** en **theoretische onzekerheid**. 
 
-Systematische onzekerheden hangen af van de meetopstelling en zijn niet te voorkomen, tenzij we de meetopstelling verbeteren. Vaak zijn ze eenzijdig, dat wil zeggen dat de gemeten waarde consequent te hoog of te laag uitvalt door calibratie fouten van de meetinstrumenten. Systematische onzekerheden zijn lastig te vinden in analyses en zijn vooral te voorkomen door kritisch te kijken naar de meetopstelling. Een systematische fout kunnen we bijvoorbeeld verbeteren door het blokje hout uit het voorbeeld met een schuifmaat te meten, zo kunnen we de meetonzekerheid verkleinen tot een tiende van een millimeter. We kunnen zorgen dat de tanden van de radartjes uit het voorbeeld van de meting van de lichtsnelheid, heel gelijk zijn. 
+**Systematische onzekerheden** hangen af van de meetopstelling en zijn niet te voorkomen, tenzij we de meetopstelling verbeteren. Vaak zijn ze eenzijdig, dat wil zeggen dat de gemeten waarde consequent te hoog of te laag uitvalt door calibratie fouten van de meetinstrumenten. Systematische onzekerheden zijn lastig te vinden in analyses en zijn vooral te voorkomen door kritisch te kijken naar de meetopstelling. Een systematische fout kunnen we bijvoorbeeld verbeteren door het blokje hout uit het voorbeeld met een schuifmaat te meten, zo kunnen we de meetonzekerheid verkleinen tot een tiende van een millimeter. We kunnen zorgen dat de tanden van de radartjes uit het voorbeeld van de meting van de lichtsnelheid, heel gelijk zijn. 
 
-Statistische onzekerheden zijn reduceerbaar door het experiment te herhalen. Bijvoorbeeld kunnen we tijdens een langer interval het aantal telling meten in het levensduur van Cesium-131 experiment. De relatieve fout op de telling zal dan kleiner worden en daarmee ook de uiteindelijk onzekerheid op de levensduur meting. 
+**Statistische onzekerheden** zijn reduceerbaar door het experiment te herhalen. Bijvoorbeeld kunnen we tijdens een langer interval het aantal telling meten in het levensduur van Cesium-131 experiment. De relatieve fout op de telling zal dan kleiner worden en daarmee ook de uiteindelijk onzekerheid op de levensduur meting. 
 
-Theoretische onzekerheden kunnen voorkomen als we gebruik maken van aannames met theoretische grondslag. Als we de onzekerheden in deze aannames kunnen kwantificeren hebben we een maat voor de theoretische onzekerheid. Soms kunnen theoretische onzekerheden worden verkleind door bijvoorbeeld meer berekeningen uit te voeren. 
+**Theoretische onzekerheden** kunnen voorkomen als we gebruik maken van aannames met theoretische grondslag. Als we de onzekerheden in deze aannames kunnen kwantificeren hebben we een maat voor de theoretische onzekerheid. Soms kunnen theoretische onzekerheden worden verkleind door bijvoorbeeld meer berekeningen uit te voeren. 
 
 
 ### Verdelingen
 
 Je begrijpt nu dat veel metingen wel herhaalbaar zijn, maar dat je niet altijd precies dezelfde resultaten kunt verwachten. Het gevolg hiervan is dat je een verdeling, of distributie, krijgt van je meetresultaten. 
-Van deze verdeling kunnen we bepaalde eigenschappen uitrekenen. Meer hierover kun je vinden onder het kopje [basisbegrippen](link XX).
-Het is belangrijk om de verdelingen goed te presenteren, meer daarover kun je [hier](link XX) lezen. 
+Van deze verdeling kunnen we bepaalde eigenschappen uitrekenen. Meer hierover kun je vinden onder het kopje [basisbegrippen](/blok-1/basisbegrippen).
+Het is belangrijk om de verdelingen goed te presenteren, meer daarover kun je [hier](/blok-1/data-visualiseren) lezen. 
 
 
 ### Significantie en notatie
 
-Voordat we nu kunnen uitleggen hoe we een meetfout noteren moeten we eerst even stilstaan bij het begrip *significantie*.
-
+Meetwaardes moeten met de juiste **significantie** worden genoteerd. 
 De *significantie* is de nauwkeurigheid waarmee een getal/waarde wordt weergegeven. Vaak wordt gedacht dat het aantal decimale cijfers de nauwkeurigheid aangeeft, maar dit is technisch gezien de *precisie* waarmee de (meet)waarde wordt aangegeven. De nauwkeurigheid (significantie) van een getal zegt welke cijfers in het getal er toe doen. Cijfers zonder betekenis tellen we niet mee bij de significantie.
 
-Een aantal voorbeelden:
+Het is dus belangrijk om niet teveel en niet te weinig  **aantal significante getallen** dat je gebruiken als je een resultaat noteert. 
+**De richtlijn is dat de standaard deviatie met 2 (op zijn meest 3) significante cijfers wordt weergegeven, en dat het meetresultaat zelf wordt aangepast zodat het dezelfde aantal decimale waarden heeft.**
+In het geval de standaard deviatie niet bekend is, of nog niet bepaald, is de stelregel dat voor de gemeten waarde tussen de 1 en 3 significante cijfers te noteren. 
 
-- Het getal $$7.134$$ heeft in totaal 4 significante cijfers, de precisie is 3.
-- Het getal $$0.576$$ heeft 3 significante cijfers, de precisie is ook 3.
-- $$0.001$$ heeft 1 significant cijfer, de precisie is 3.
-- $$1.001$$ heeft 4 significante cijfers, de precisie is 3.
-- $$2.4500$$ heeft 5 significante cijfers, de precisie is 4.
 
-Zo zie je dat de getallen (bijna) allemaal dezelfde precisie hebben, maar een variatie aan significante cijfers. Hier kun je misschien al een patroon in ontdekken. Er zijn namelijk een aantal regels m.b.t. de nullen in een getal bij de significantie:
+
+> <span class="badge badge-warning">Een aantal voorbeelden</span>
+>
+> - Het getal $$7.134$$ heeft in totaal 4 significante cijfers, de precisie is 3.
+> - Het getal $$0.576$$ heeft 3 significante cijfers, de precisie is ook 3.
+> - $$0.001$$ heeft 1 significant cijfer, de precisie is 3.
+> - $$1.001$$ heeft 4 significante cijfers, de precisie is 3.
+> - $$2.4500$$ heeft 5 significante cijfers, de precisie is 4.
+
+In het voobeeld hierboven zie je dat de getallen (bijna) allemaal dezelfde precisie hebben, maar een variatie aan significante cijfers. Hier kun je misschien al een patroon in ontdekken. Er zijn namelijk een aantal regels m.b.t. de nullen in een getal bij de significantie.
 
 - Nullen aan de linkerkant doen niet mee met de significantie. Het getal $$0.0056$$ heeft bijvoorbeeld twee significante cijfers.
 - Nullen aan de linkerkant voorafgegaan door een getal doen wel mee met de significantie. Het getal $$100.004$$ heeft zes significante cijfers.
 - Nullen aan de rechterkant doen wel mee met de significantie. Zo heeft $$10.34000$$ zeven significante cijfers. 
 - Een uitzondering op de tweede regel zijn getallen zoals $$300$$, $$4000$$, $$570$$ etc. Deze getallen zijn weergeven zonder decimalen waardoor het onduidelijk is of daadwerkelijk de waarde van $$300$$ respectievelijk $$4000$$ en $$570$$ is gemeten, of dat dit met een hogere of juist lagere precisie is gebeurd. De afspraak is dat als een getal op deze manier wordt weergegeven met nullen rechts, deze nullen niet meedoen met de nauwkeurigheid. De getallen $$300$$ en $$4000$$ hebben bijvoorbeeld allebei een significantie van 1. Het getal $$570$$ heeft twee significante cijfers. Om deze getallen met een ander aantal significante cijfers weer te geven wordt vaak de *wetenschappelijke notatie* gebruikt. Hier komen we later op terug.  
 
-Hieronder nog een aantal voorbeelden die de significantie en precisie illustreren van diverse getallen:
-
-| Getal | Significantie | Precisie |
-| --- | --- | --- |
-| 1.203 | 4 significante cijfers | 3 decimalen |
-| 12.03  | 4 significante cijfers | 2 decimalen |
-| 0.0121 | 3 significante cijfers | 4 decimalen |
-| 300 | 1 significant cijfer | honderdtallen |
-| 300. | 3 significante cijfers | honderdtallen |
-| 300.0 | 4 significante cijfers | 1 decimaal |
-| 310 | 2 significante cijfers | honderdtallen |
-| 0.310 | 3 significante cijfers | 3 decimalen |
-| 0.0027 | 2 significante cijfers | 4 decimalen |
+> <span class="badge badge-warning">Voorbeeld</span> Hieronder nog een aantal voorbeelden die de significantie en precisie illustreren van diverse getallen:
+>
+> | Getal | Significantie | Precisie |
+> | --- | --- | --- |
+> | 1.203 | 4 significante cijfers | 3 decimalen |
+> | 12.03  | 4 significante cijfers | 2 decimalen |
+> | 0.0121 | 3 significante cijfers | 4 decimalen |
+> | 300 | 1 significant cijfer | honderdtallen |
+> | 300. | 3 significante cijfers | honderdtallen |
+> | 300.0 | 4 significante cijfers | 1 decimaal |
+> | 310 | 2 significante cijfers | honderdtallen |
+> | 0.310 | 3 significante cijfers | 3 decimalen |
+> | 0.0027 | 2 significante cijfers | 4 decimalen |
 
 Voor het afronden van getallen, na een bewerking, op het juiste aantal significante cijfers zijn er een aantal regels:
 
@@ -115,6 +120,8 @@ resultaat gelijk aan $$2.00 \cdot 3.5 = 7.0$$ (twee significante cijfers).
 - Bij het optellen of aftrekken van getallen heeft het resultaat niet meer cijfers achter de decimale punt 
 dan het gegeven met het minste aantal cijfers achter de decimale punt. Tellen we bijvoorbeeld $$1.23$$ op bij $$0.1$$ dan is het resultaat 
 $$1.23 + 0.1 = 1.3 $$. 
+
+
 
 
 ### Wetenschappelijke notatie
