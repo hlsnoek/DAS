@@ -23,11 +23,13 @@ Hieronder vindt je een lijstje met de stof die je moet kennen. Gebruik deze om t
 
 
 ### (Data Visualiseren)[/blok-1/data-visualiseren]
-
+- Het verschil kennen tussen een grafiek en een histogram. 
+- Correct kunnen aflezen en kunnen maken van een grafiek/histogram.
 
 ### (Kanstheorie)[/blok-1/Kanstheorie]
-
-
+- Definitie van het begrip kans.
+- Het kennen en kunnen gebruiken van de Frequentist definitie van kans.
+- 
 
 
 
