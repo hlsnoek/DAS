@@ -6,24 +6,28 @@ Hieronder vindt je een lijstje met de stof die je moet kennen. Gebruik deze om t
 
 ## Stof checklist
 
-### (Basisbegrippen)[/blok-1/basisbegrippen]
+### Basisbegrippen
+(link)[/blok-1/basisbegrippen]
 - Het verschil tussen de populatie en een steekproef.
 - De definities (en eventueel formules) van: het gemiddelde, de mediaan, de modus.
 - De definities (en eventueel formules) van: de range, de standaard deviatie, de variantie, de variatiecoëfficient.
 
 
-### (Meetonzekerheid)[/blok-1/meetonzekerheid]
+### Meetonzekerheid
+(link)[/blok-1/meetonzekerheid]
 - Verschil weten tussen een fout een en onzekerheid. 
 - Oorzaken van onzekerheden kunnen aanwijzen in een experiment. 
 - Het verschil weten tussen **systematische onzekerheid**, **statistische onzekerheid** en **theoretische onzekerheid**. 
 - Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet noteren. 
 
 
-### (Data Visualiseren)[/blok-1/data-visualiseren]
+### Data Visualiseren
+(link)[/blok-1/data-visualiseren]
 - Het verschil kennen tussen een grafiek en een histogram. 
 - Correct kunnen aflezen en kunnen maken van een grafiek/histogram.
 
-### (Kanstheorie)[/blok-1/Kanstheorie]
+### Kanstheorie
+(link)[/blok-1/Kanstheorie]
 - Definitie van het begrip kans.
 - Het kennen en kunnen gebruiken van de Frequentist definitie van kans.
 - Het kennen en kunnen gebruiken van vier gepresenteerde rekenregels voor kans: behoud, complement, of-regel, en-regel. 
