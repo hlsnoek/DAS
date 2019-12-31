@@ -1,8 +1,5 @@
 #Voorbereiding op tussentoets 1
 
-1. Ordered TOC
-{:toc}
-
 De eerste tussentoets vindt plaats na het tweede college. 
 Voor de tussentoets krijg je een half uur de tijd, het werk wordt gemaakt op een ANS tentamenformulier. Kijk ook nog even naar het filmpje dat je [hier](https://www.youtube.com/watch?v=jWgdlNEHN2A) vindt.
 Hieronder vindt je een lijstje met de stof die je moet kennen. Gebruik deze om te kijken of je alle stof hebt bestudeerd die wordt getoetst op de eerste tussentoets. Kijk ook naar de [oefenopgaves](tussentoets-I/oefenopgaves) die bij deze tussentoets horen.
@@ -29,14 +26,9 @@ Hieronder vindt je een lijstje met de stof die je moet kennen. Gebruik deze om t
 ### (Kanstheorie)[/blok-1/Kanstheorie]
 - Definitie van het begrip kans.
 - Het kennen en kunnen gebruiken van de Frequentist definitie van kans.
-- 
+- Het kennen en kunnen gebruiken van vier gepresenteerde rekenregels voor kans: behoud, complement, of-regel, en-regel. 
+- Weten wat een stochast is. 
+- De definitie en de voorwaardes kennen van de kansdichtheidsdistributie.
+- Het kunnen uitrekenen van het gemiddelde en de standaarddeviatie voor discrete en continue kansdichtheidsdistributies.
+- De Uniforme, de Binomiale, de Poisson en de normale distributie kunnen herkennen en kansen kunnen berekenen met deze functies.
 
-
-
-## Oefenopgaves Basisbegrippen
-
-## Oefenopgaves Meetonzekerheid
-
-## Oefenopgaves Data visualiseren
-
-## Oefenopgaves Kanstheorie
