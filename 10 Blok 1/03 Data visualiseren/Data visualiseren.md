@@ -8,6 +8,7 @@ In dit deel bekijken we de verschillende manieren om data visueel te presenteren
 
 Als je data visualiseert dan is het de bedoeling dat iemand anders deze direct goed begrijpt. Er zijn wel een aantal vuistregels, maar het meest belangrijke is dat de data overzichtelijk is. Dat trends, of juist afwijkingen daarvan, goed zichtbaar worden gemaakt. 
 
+
 ### Grafieken & Scatterplots
 Een grafiek laat het verband zien tussen twee (of meer) variabelen. 
 Een grafiek heeft meestal een beperkt aantal punten, als er veel data is geven we dit vaak in een scatter plot weer. 
@@ -33,7 +34,8 @@ Laten we dezelfde data eens plotten zonder lijnen maar alleen met punten: <br>
 
 ![](plot2_scatter_geenOpmaak_NoTopBot_monthscorrect.png){: width ="400px"}<br>
 
-Vanuit deze grafiek zien we dat er inderdaad veel meer datapunten zijn. Dat konden we in de lijnplot niet goed zien.
+Vanuit deze grafiek zien we dat er inderdaad veel meer datapunten zijn. Dat konden we in de lijnplot niet goed zien. We kunnen nu helaas de trend niet meer goed waarnemen. Gezien voor elke waarde van x maar 1 waarde van y kan bestaan (immers, op een bepaald tijdstip kan maar 1 temperatuur bestaan op het meetstation), is het toch beter deze als een grafiek weer te geven. 
+(XX dit plaatje fixen)
 
 De plot kan echter netter. Zo staan er geen labels op de assen. Nu kunnen we in dit geval wel raden welke as het jaar aangeeft en welke as de temperatuur, maar in veel gevallen is dat niet zo duidelijk. Om die reden moeten er altijd **labels op de assen** staan, zie het figuur hieronder:
 

@@ -19,6 +19,7 @@ Hieronder vindt je een lijstje met de stof die je moet kennen. Gebruik deze om t
 - Verschil weten tussen een fout een en onzekerheid. 
 - Oorzaken van onzekerheden kunnen aanwijzen in een experiment. 
 - Het verschil weten tussen **systematische onzekerheid**, **statistische onzekerheid** en **theoretische onzekerheid**. 
+- Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet noteren. 
 
 
 ### (Data Visualiseren)[/blok-1/data-visualiseren]

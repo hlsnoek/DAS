@@ -77,7 +77,7 @@ Het is belangrijk om de verdelingen goed te presenteren, meer daarover kun je [h
 Meetwaardes moeten met de juiste **significantie** worden genoteerd. 
 De *significantie* is de nauwkeurigheid waarmee een getal/waarde wordt weergegeven. Vaak wordt gedacht dat het aantal decimale cijfers de nauwkeurigheid aangeeft, maar dit is technisch gezien de *precisie* waarmee de (meet)waarde wordt aangegeven. De nauwkeurigheid (significantie) van een getal zegt welke cijfers in het getal er toe doen. Cijfers zonder betekenis tellen we niet mee bij de significantie.
 
-Het is dus belangrijk om niet teveel en niet te weinig  **aantal significante getallen** dat je gebruiken als je een resultaat noteert. 
+Het is dus belangrijk om niet teveel en niet te weinig  **significante getallen** gebruiken als je een resultaat noteert. 
 **De richtlijn is dat de standaard deviatie met 2 (op zijn meest 3) significante cijfers wordt weergegeven, en dat het meetresultaat zelf wordt aangepast zodat het dezelfde aantal decimale waarden heeft.**
 In het geval de standaard deviatie niet bekend is, of nog niet bepaald, is de stelregel dat voor de gemeten waarde tussen de 1 en 3 significante cijfers te noteren. 
 
