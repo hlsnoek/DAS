@@ -2,7 +2,7 @@
 
 **1** De leeftijdsverdeling van een groep studenten is:<br>
 
-<div style="text-align:center">18.3 19.7 20.4 19.2 18.7 19.4 17.6 20.6 18.5 20.2</div><br>
+<center>18.3 19.7 20.4 19.2 18.7 19.4 17.6 20.6 18.5 20.2</center>
 
 **a**  Bereken het gemiddelde, de mediaan, de standaard deviatie en de variantie.<br>
 <span style = "color:blue"> Het gemiddelde is 19.26 jaar, de mediaan is 19.3 jaar, de standaard deviatie is 0.94 jaar, variantie is 0.88 jaar$$^2$$.</span><br>
