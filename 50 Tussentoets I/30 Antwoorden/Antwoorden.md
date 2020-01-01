@@ -5,7 +5,7 @@
 <center>18.3 19.7 20.4 19.2 18.7 19.4 17.6 20.6 18.5 20.2</center>
 
 **a**  Bereken het gemiddelde, de mediaan, de standaard deviatie en de variantie.<br>
-<span style = "color:blue"> Het gemiddelde is 19.26 jaar, de mediaan is 19.3 jaar, de standaard deviatie is 0.94 jaar, variantie is 0.88 jaar$$^2$$.</span><br>
+<span style = "color:blue"> Het gemiddelde is 19.26 jaar, de mediaan is 19.3 jaar, de standaard deviatie is 0.94 jaar, de variantie is 0.88 jaar$$^2$$.</span><br>
 **b** De docent van de groep is 44.5 jaar oud. Bereken nu het gemiddelde, de standaard deviatie en de variantie waarbij je de leeftijd van de docent ook meeneemt. <Br>
 <span style = "color: blue"> Het gemiddelde is 21.6 jaar, de mediaan is 19.4 jaar, de standaard deviatie is 7.3 jaar en de variantie is 53.4 jaar$$^2$$. NB Zie je dat het gemiddelde niet veel groter is geworden maar de standaard deviatie en de variantie wel?</span>
 
@@ -59,7 +59,7 @@ $${\displaystyle P(k=6;n=10,p=1/6) = \frac{10!}{6!(4)!} (1/6)^6 (5/6)^{4} = 0.00
 
 **10** Een raketschild houdt 99% van de raketten tegen. <br>
 **a** Als de tegenstander 20 raketten worden afgevuurd, wat is dan de kans dat het raketschild alle 20 tegen houdt? <br>
-<span style= 'color:blue'> $$P = 0.99^20 =  0.817$$</span><br>
+<span style= 'color:blue'> $$P = 0.99^{20} =  0.817$$</span><br>
 **b** Als er 50 raketten worden afgevuurd door de tegenstander, hoeveel raketten worden er dan gemiddeld tegengehouden? <br>
 <span style = 'color:blue'> $$E = 50\cdot 0.99 = 49.5$$ </span>
 
@@ -68,7 +68,7 @@ $${\displaystyle P(k=6;n=10,p=1/6) = \frac{10!}{6!(4)!} (1/6)^6 (5/6)^{4} = 0.00
 **a** Wat is de verwachte onzekerheid op het aantal telefoontjes per dag?<br>
 <span style = 'color:blue'> Gebruik de Poisson verdeling: $$\sigma = \sqrt{100} = 10$$.</span><br>
 **b** Als er op een dag 70 telefoontjes binnenkomen. Is dat gek?<br>
-<span style = 'color:blue'> 100-70/10 = 3 $$ \sigma $$ Het is zeker uitzonderlijk het ligt $$3\sigma$$ van het gemiddelde af.<\span>
+<span style = 'color:blue'> 100-70/10 = 3 $$ \sigma $$ Het is zeker uitzonderlijk het ligt $$3\sigma$$ van het gemiddelde af.</span>
 
 **12** In een stad gebeuren jaarlijks 1020 ongelukken. Het afgelopen jaar zijn er maar 900 ongelukken geweest. De authoriteiten claimen dat dit komt door nieuwe regels in het verkeer. <br>
 **a** Denk je dat deze verklaring klopt?<br>
@@ -78,8 +78,8 @@ $${\displaystyle P(k=6;n=10,p=1/6) = \frac{10!}{6!(4)!} (1/6)^6 (5/6)^{4} = 0.00
 
 
 **13** We verwachten op een dag gemiddeld 4.3 poststukken bij een klein bedrijf. <br>
-**a**Op een dag komen er wel 7 binnen. Reken de kans uit dat dit gebeurt. <br>
+**a** Op een dag komen er wel 7 binnen. Reken de kans uit dat dit gebeurt. <br>
 <span style = 'color:blue'>$$P(k=7;\lambda=4.3) =0.073$$</span><br>
-**b**Reken de kans uit dat er 0 binnenkomen. <br>
+**b** Reken de kans uit dat er 0 binnenkomen. <br>
 <span style = 'color:blue'>$$P(k=0;\lambda=4.3) =0.014$$</span><br>
 
