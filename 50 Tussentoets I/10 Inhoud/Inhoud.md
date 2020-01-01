@@ -2,6 +2,8 @@
 
 De eerste tussentoets vindt plaats na het tweede college. 
 Voor de tussentoets krijg je een half uur de tijd, het werk wordt gemaakt op een ANS tentamenformulier. Kijk ook nog even naar het filmpje dat je [hier](https://www.youtube.com/watch?v=jWgdlNEHN2A) vindt.
+Tijdens de tussentoets mag je een gewone rekenmachine gebruiken. 
+
 Hieronder vindt je een lijstje met de stof die je moet kennen. Gebruik deze om te kijken of je alle stof hebt bestudeerd die wordt getoetst op de eerste tussentoets. Kijk ook naar de [oefenopgaves](/tussentoets-i/oefenopgaves) die bij deze tussentoets horen.
 
 ## Stof checklist

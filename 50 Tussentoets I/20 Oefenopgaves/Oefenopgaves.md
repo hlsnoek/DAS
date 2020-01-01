@@ -4,6 +4,12 @@ Lees goed het (lijstje)[/tussentoets-1/inhoud] door ter voorbereiding voor de tu
 
 ## Oefenopgaves Basisbegrippen
 
+
+
+
+
+
+
 ## Oefenopgaves Meetonzekerheid
 
 ## Oefenopgaves Data visualiseren

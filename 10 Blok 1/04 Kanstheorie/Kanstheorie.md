@@ -96,8 +96,7 @@ Een **stochast** is een variable waarvan de waarde van een toevalsproces afhangt
 Of als je een met een dobbelsteen gooit dan is de uitkomst van de worp een stochast. Het engelse woord (random variable) is misschien bekender. 
 
 ### Kansdichtheidsfuncties
-Stochasten zijn een handig middel bij het beschrijven van experimenten. We gaan hieronder een aantal distributies van stochastische variabelen bekijken die vaak voorkomen.
-Deze distributies noemen we **kansdichtheidsfuncties** (Engels: probability density function of pdf). Een kansdichtheidsfunctie, $$f(x)$$, zegt dat de kans dat een variabele $$x$$ gevonden wordt in een gebied $$[x,x+dx]$$ gelijk is aan $$f(x)dx$$. <br>
+Stochasten zijn een handig middel bij het beschrijven van experimenten. We gaan hieronder een aantal vaak voorkomende distributies van stochastische variabelen bekijken. De distributies laten zien wat de kans is dat een bepaalde stochastishe waarde wordt gevonden. Het is dus een verdeling van kansen. Deze verdelingen noemen we **kansdichtheidsfuncties** (Engels: probability density function of pdf). Een kansdichtheidsfunctie, $$f(x)$$, zegt dat de kans dat een variabele $$x$$ gevonden wordt in een gebied $$[x,x+dx]$$ gelijk is aan $$f(x)dx$$. <br>
 De kans dat we $$x$$ terugvinden in een interval $$[a,b]$$ is gelijk aan: <br>
 $${\displaystyle P(a\leq x \leq b) = \int_a^b f(x) dx}$$.
 
@@ -106,9 +105,9 @@ Er zijn twee belangrijke voorwaardes aan een kansdichtheidsfuncties die je missc
 2. De kansdichtheidsdistributie moet genormaliseerd zijn op 1. <br>
 In formule notatie: $$f(x) \geq 0$$ en $$\int^\infty_{-\infty} f(x) dx =1$$.
 
-Misschien komt dit allemaal wat abstract over en wellicht helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsfuncties (ook wel PDFs). Er zijn veel meer kansdichtheidsfuncties gedefinieerd, kijk bijvoorbeeld maar eens naar [deze](https://en.wikipedia.org/wiki/List_of_probability_distributions) lijst op wikipedia.
+Wellicht komt dit allemaal wat abstract over en helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsfuncties (ook wel PDFs). Er zijn veel meer kansdichtheidsfuncties gedefinieerd, kijk bijvoorbeeld maar eens naar [deze](https://en.wikipedia.org/wiki/List_of_probability_distributions) lijst op wikipedia. 
 
-Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaard deviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](/blok-1/basisbegrippen). Voor kansdichtheidsfuncties
+Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaard deviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](/blok-1/basisbegrippen). 
 
 ### Verwachtingswaarde en standaard deviatie
 Voor **discrete** verdelingen gelden de volgende vergelijkingen:
@@ -146,7 +145,7 @@ Het gemiddelde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = 
 Om de binomiale verdelingsfunctie uit te leggen beginnen we eerst met het Bernoulli-experiment. Dit is een experiment met maar twee uitkomsten, 'succes' en 'mislukking'. De kans op succes is $$p$$ en de kans op mislukking $$q$$ is dus $$q=1-p$$. 
 
 Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de kans op een totaal aantal malen succes uit deze $$n$$ experiment gedefinieerd als $$k$$. Dit wordt beschreven door de binomiale verdeling: <br>
-$${\displaystyle p(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } $$
+$${\displaystyle P(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } $$
 
 Het gemiddelde en de standaard deviatie van de Binomiale verdeling zijn
 $$E(k) = np$$ en $$\sigma = \sqrt{npq}$$.
@@ -154,9 +153,9 @@ $$E(k) = np$$ en $$\sigma = \sqrt{npq}$$.
 > <span class="badge badge-warning">Voorbeeld</span>  Stel dat we een oneindige grote verzameling knikkers hebben waarvan  30\% gele knikkers, alle andere knikkers zijn rood gekleurd. Als we een enkele knikker trekken hebben we dus precies 30\% kans ($$p=0.3$$) dat dit een gele knikker is. Als we twee knikkers trekken hebben we een kans van $$0.3\cdot 0.3 = 0.09$$ dat we twee gele knikkers hebben getrokken. Immers, omdat de verzameling oneindig groot is, heeft de eerste trekking geen invloed op de tweede trekking en zijn de twee trekking onafhankelijk. We mogen dus de <a href="#EnRegel">'en'-regel</a> gebruiken. 
 We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat minstens 1 rode knikker hebben, hier gebruiken we de <a href="#ComplementRegel">complement regel</a>. De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. 
 We kunnen deze getallen ook met de Binomiaal vergelijking uitrekenen:<br>
-2 trekkingen, 0 gele knikkers: $$p(k;n,p) = p(0;2,0.3) = \frac{2!}{(0! \cdot 2!)} 0.3^0 \cdot 0.7^2 =  0.49 $$<br>
-2 trekkingen, 1 gele knikkers: $$p(k;n,p) = p(1;2,0.3) = \frac{2!}{1!\cdot 1!} 0.3^1 \cdot 0.7^1 = 0.42 $$<br>
-2 trekkingen, 2 gele knikkers: $$p(k;n,p) = p(2;2,0.3) = \frac{2!}{2! \cdot 0!} 0.3^2 \cdot 0.7^0 = 0.09$$<br>
+2 trekkingen, 0 gele knikkers: $$P(k;n,p) = p(0;2,0.3) = \frac{2!}{(0! \cdot 2!)} 0.3^0 \cdot 0.7^2 =  0.49 $$<br>
+2 trekkingen, 1 gele knikkers: $$P(k;n,p) = p(1;2,0.3) = \frac{2!}{1!\cdot 1!} 0.3^1 \cdot 0.7^1 = 0.42 $$<br>
+2 trekkingen, 2 gele knikkers: $$P(k;n,p) = p(2;2,0.3) = \frac{2!}{2! \cdot 0!} 0.3^2 \cdot 0.7^0 = 0.09$$<br>
 Deze kansen staan ook uitgerukt in de gele lijn in het plaatje hieronder.
 
 De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet toepassen op fractionele waardes. Dat is ook logisch want het Bernoulli experiment kunnen niet een fractionele keer uitvoeren. De functie is asymetrisch voor lage waardes van $$n$$ en wordt voor grotere waardes van $$n$$ steeds meer symmetrisch.
