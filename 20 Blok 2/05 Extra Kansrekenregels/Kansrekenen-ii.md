@@ -36,4 +36,4 @@ De noemer in deze vergelijking, $$P(B)$$, noemen we ook wel een normalisatie  te
 ### Bayes theorema
 Met behulp van de conditionele kans formule kunnen we nu Bayes theorema afleiden. <br>
 <center>$$\displaystyle P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$</center><br>
-Dit theorema maakt het mogelijk om nieuwe informatie toe te voegen aan de kennis van de kans. In [blok 1](/blok-1/kansrekenen) hebben we het kort over Bayesiaanse kans definitie gehad. Dit theorema staat centraal in Bayesiaanse kans. Het is wel belangrijk om te weten dat deze wiskundige vergelijking ook opgaat in de Frequentist benadering van kans.  
+Dit theorema maakt het mogelijk om nieuwe informatie toe te voegen aan de kennis van de kans. In [blok 1](/blok-1/kanstheorie) hebben we het kort over Bayesiaanse kans definitie gehad. Dit theorema staat centraal in Bayesiaanse kans. Het is wel belangrijk om te weten dat deze wiskundige vergelijking ook opgaat in de Frequentist benadering van kans.  
