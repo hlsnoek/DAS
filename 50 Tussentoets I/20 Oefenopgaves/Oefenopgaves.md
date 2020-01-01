@@ -52,7 +52,7 @@ Lees goed het (lijstje)[/tussentoets-1/inhoud] door ter voorbereiding voor de tu
 **a** Wat is de verwachte onzekerheid op het aantal telefoontjes per dag?<br>
 **b** Als er op een dag 70 telefoontjes binnenkomen. Is dat gek?<br>
 
-**12** In een stad gebeuren jaarlijks 1020 ongelukken. Het afgelopen jaar zijn er maar 900 ongelukken geweest. De authoriteiten claimen dat dit komt door nieuwe regels in het verkeer. <br>
+**12** In een stad gebeuren jaarlijks 1020 ongelukken. Het afgelopen jaar zijn er maar 900 ongelukken geweest. De autoriteiten claimen dat dit komt door nieuwe regels in het verkeer. <br>
 **a** Denk je dat deze verklaring klopt?<br>
 **b** Als de getallen tien keer zo klein zouden zijn (102 en 90), zou je denken dat de verklaring dan nog klopt?<br>
 
