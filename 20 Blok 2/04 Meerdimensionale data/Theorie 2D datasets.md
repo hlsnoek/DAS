@@ -58,11 +58,11 @@ Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = -1 $$:
 
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.8$$ en $$\rho_{x,y} = 0.8$$:
 
-<p align="center">![](Plot1_Correlatie_min0punt8.png){:width="35%"}![higgs](Plot1_Correlatie_0punt8.png){:width="35%"}</p>
+<p align="center">![](Plot1_Correlatie_min0punt8.png){:width="45%"}![](Plot1_Correlatie_0punt8.png){:width="45%"}</p>
 
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} = 0.3$$:
 
-<p align="center">![](Plot1_Correlatie_min0punt3.png){:width="35%"}![higgs](Plot1_Correlatie_0punt3.png){:width="35%"}</p>
+<p align="center">![](Plot1_Correlatie_min0punt3.png){:width="45%"}![](Plot1_Correlatie_0punt3.png){:width="45%"}</p>
 
 
 Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groteris de afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit des te kleiner is de correlatie tussen de variabelen.
