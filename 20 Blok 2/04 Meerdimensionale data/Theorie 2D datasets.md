@@ -3,7 +3,7 @@
 1. Ordered TOC
 {:toc}
 
-Het komt vaak voor dat we datasets hebben waarbij we meerdere variabelen tegelijkertijd hebben gemeten. Bijvoorbeeld als een steekproef doen onder de bevolking waarbij we allerlei gegevens tegelijkertijd opvragen zoals leeftijd, inkomen, gezinssamenstelling etc. Ook in natuurkundige experimenten komen multidimensionele datasets veel voor. 
+Het komt vaak voor dat we datasets hebben waarbij we meerdere variabelen tegelijkertijd hebben gemeten. Bijvoorbeeld als een steekproef doen onder de bevolking waarbij we allerlei gegevens tegelijkertijd opvragen zoals leeftijd, inkomen, gezinssamenstelling etc. Ook in natuurkundige experimenten komen multidimensionale datasets veel voor. 
 
 Voor elke variabelen kunnen we het gemiddelde en de standaard deviatie meten met behulp van de formules die we in ['Basisbegrippen'](/blok-1/theorie-basisbegrippen) hebben geïntroduceerd. Echter we kunnen nu ook kijken naar hoe en of de waarde van een variable afhangt van een andere variabel in de dataset. Dit noemen we correlatie. Ook kunnen we bereken of een spreiding in een variable afhangt van de waarde van een andere variabele. We noemen die co-variantie. Hieronder introduceren we eerst co-variantie, daaronder komt correlatie aan bod.
 
@@ -25,6 +25,8 @@ $$x$$ en $$y$$ worden respectievelijk aangegeven met $$E_x$$ en $$E_y$$. De form
 
 Als voor waardes $$x$$ die bovengemiddeld zijn, overwegend samen gaan met relatief hoge waardes van $$y$$, dan hebben we te maken met een positieve 
 waarde voor de covariantie. Als de waarden voor relatief hoge waardes van $$x$$ de waardes van $$y$$ voornamelijk onder de verwachtingswaarde liggen, dan is de covariantie ook negatief.
+Als de covariantie gelijk is aan nul dan is er, gemiddeld over de hele dataset, geen afhankelijkheid. Het kan zijn dat voor delen van de dataset wel degelijk een positieve covariantie bestaat, deze wordt dan opgeheven door een ander gedeelte met een negatieve covariantie. 
+
 
 De covariantie geeft dus aan in hoeverre waarden van de ene variabele toenemen/afnemen bij toenemende waarden van de andere variabele. De co-variantie is een heel nuttige maat maar lastig te interpreteren vanwege de dimensies die, net als bij de variantie, niet dezelfde zijn als de variabelen zelf. Eenvoudiger is om naar de correlatie co-efficient te kijken. 
 
@@ -65,9 +67,9 @@ Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} =
 <p align="center">![](Plot1_Correlatie_min0punt3.png){:width="45%"}![](Plot1_Correlatie_0punt3.png){:width="45%"}</p>
 
 
-Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groteris de afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit des te kleiner is de correlatie tussen de variabelen.
+Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter is de afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit des te kleiner is de correlatie tussen de variabelen.
 
-Er zijn meerdere 'spelletjes' op internet waarbij je kunt oefenen met het herkennen ne raden van de correlatiecoëfficiënt
+Er zijn meerdere 'spelletjes' op internet waarbij je kunt oefenen met het herkennen en raden van de correlatiecoëfficiënt
 van twee variabelen. Kijk bijvoorbeeld eens bij [Geogebra-Correlatie game](https://www.geogebra.org/m/KE6JfuF9) of 
 [Guess the correlation](http://guessthecorrelation.com/)
 
