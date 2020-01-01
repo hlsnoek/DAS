@@ -30,7 +30,7 @@ En zo kun je ook het complement van A laten zien: <br>
 
 ### Conditionele kans
 Een conditionele kans wordt geschreven als $$P(A|B)$$ en kun je lezen als "Wat is de kans op meting A gegeven dat B is gemeten.". De conditionele kans kunnen we berekenen met: <br>
-<center> $$\displaystyle{\frac{P(A \cap B)}{P(B)}}$$.</center><br>
+<center> $$\displaystyle{\frac{P(A \cap B)}{P(B)}}.$$</center><br>
 De noemer in deze vergelijking, $$P(B)$$, noemen we ook wel een normalisatie  term. De kans $$P(A \cap B)$$ moet genormaliseerd worden naar de kans $$P(B)$$, immers het is al een gegeven dat $$B$$ waar is. 
 
 ### Bayes theorema
