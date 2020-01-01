@@ -26,6 +26,7 @@ De vereniging van $$A$$ en $$B$$ wordt genoteerd met $$A \cup B$$ en is de verza
 
 En zo kun je ook het complement van A laten zien: <br>
 ![](180px-Venn1010.svg.png "complement van A (bron wikipedia)")
+*"complement van A (bron wikipedia)"*
 
 ### Conditionele kans
 Een conditionele kans wordt geschreven als $$P(A|B)$$ en kun je lezen als "Wat is de kans op meting A gegeven dat B is gemeten.". De conditionele kans kunnen we berekenen met: <br>
