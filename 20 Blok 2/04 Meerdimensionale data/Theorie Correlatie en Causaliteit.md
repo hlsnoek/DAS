@@ -89,7 +89,6 @@ van een 2D dataset. Kijk bijvoorbeeld eens bij [Geogebra-Correlatie game](https:
 [Guess the correlation](http://guessthecorrelation.com/)
 
 
-## Causaliteit
 
 
 
