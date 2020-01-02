@@ -38,11 +38,11 @@ Dan moeten we de waarde op de lineaal afmeten. Als we naar de bovenstaande situa
 
 De tweede categorie onzekerheden hebben een andere oorzaak. De grootheid zelf kan ook een spreiding kennen. Je kan hierbij denken aan toevalligheden in een productieproces maar ook door bijvoorbeeld kansprocessen in de quantummechanica. We bekijken nogmaals de voorbeelden.
 
-* **Het aantal knikkers in een pot.** Stel dat de pot een onnemelijk aantal knikkers heeft. Dan wordt het een monnikenwerk om ze allemaal met de hand te tellen. Een goede methode zou dan zijn om de pot te wegen. Als we nu het gewicht van de pot en het gewicht van een knikker weten dan kunnen we uitrekenen hoeveel knikkers er in de pot zitten. Behalve de meetfouten die maken bij de weging kan er ook een onzekerheid komen in de meting van het aantal doordat er een spreiding is knikkergewichten. Niet iedere knikker is precies even zwaar.
+* **Het aantal knikkers in een pot.** Stel dat de pot een onnemelijk aantal knikkers heeft. Dan wordt het een monnikenwerk om ze allemaal met de hand te tellen. Een goede methode zou dan zijn om de pot te wegen. Als we nu het gewicht van de pot en het gewicht van een knikker weten dan kunnen we uitrekenen hoeveel knikkers er in de pot zitten. Behalve de meetfouten die we maken bij de weging kan er ook een onzekerheid komen in de meting van het aantal, doordat er een spreiding is in knikkergewichten. Niet iedere knikker is precies even zwaar.
 
-* **De lengte van een blokje hout.** Stel dat we de nauwkeurigheid van de lengtemeting helemaal onder controle hebben, dan kan het nog steeds zo zijn dat het blokje zelf niet overal precies dezelfde lengte heeft. Vooral bij houten blokjes zal er zo nu en dan variaties inzitten door nerven en knoesten.
+* **De lengte van een blokje hout.** Stel dat we de nauwkeurigheid van de lengtemeting helemaal onder controle hebben, dan kan het nog steeds zo zijn dat het blokje zelf niet overal precies dezelfde lengte heeft. Vooral bij houten blokjes zal er zo nu en dan variatie in zitten door nerven en knoesten.
 
-* **De levensduur van Cesium-131.** Kwantum mechanische kansprocessen spelen hier een grote rol. De kans dat een Cesium-131 vervalt binnen een bepaalde tijd is volkomen gedreven door de kwantum-mechanica (anders zouden ze natuurlijk allemaal tegelijk vervallen). Deze onzekerheid resulteert uiteindelijk in variatie in het aantal telling dat je in een van de tijdsintervallen meet. Deze onzekerheid volgt de Poisson statistiek, waar we later meer over zullen lezen.
+* **De levensduur van Cesium-131.** Kwantum mechanische kansprocessen spelen hier een grote rol. De kans dat een Cesium-131 vervalt binnen een bepaalde tijd is volkomen gedreven door de kwantum-mechanica (anders zouden ze natuurlijk allemaal tegelijk vervallen). Deze onzekerheid resulteert uiteindelijk in variatie in het aantal tellingen dat je in een van de tijdsintervallen meet. Deze onzekerheid volgt de Poisson statistiek, waar we later meer over zullen lezen.
 
 * **Het aantal sterren in een bolhoop.** Een van de methodes om het aantal sterren te meten in een bolhoop berust op het meten van de dichtheid. Deze dichtheid neemt meestal af over de straal van de bolhoop. In de berekeningen ga je er meestal van uit dat dit homogeen afneemt. Dat wil zeggen dat op een afstand *r* van het centrum van de bolhoop overal dezelfde dichtheid voorkomt. In echt zijn er fluctuaties in de dichtheid. De fluctuaties zorgen uiteindelijk ook voor een onzekerheid in de telling.
 
@@ -52,7 +52,7 @@ De tweede categorie onzekerheden hebben een andere oorzaak. De grootheid zelf ka
 ### Reduceren van meet-onnauwkeurigheden
 Goed nadenken over de opzet van een experiment is belangrijk en kan grote onnauwkeurigheden voorkomen. Nog belangrijker is het om alle onzekerheden goed in kaart te brengen. Alleen zo kun je inschatten wat de waarde is van een meting. 
 
-Een voorbeeld is een keukeninstallateur die een werkblad voor een keuken moet opleveren. De installateur zal een goede meting moeten doen van de lengte van het werkblad die hij nodig heeft. Als hij een werkblad aanlevert dat uiteindelijk 2 cm te kort is is dat teveel op te vullen met een kitrandje, als hij 3 mm te lang is zal hij ook niet passen. 
+Een voorbeeld is een keukeninstallateur die een werkblad voor een keuken moet opleveren. De installateur zal een goede meting moeten doen van de lengte van het werkblad die hij nodig heeft. Als hij een werkblad aanlevert dat uiteindelijk 2 cm te kort is past het blad niet, maar is de ruimte op te vullen met een kitrandje. Als het keukenblad 3 mm te lang is zal het ook niet passen, en moet het keukenblad weer op maat gemaakt worden. In beide gevallen is er extra werk nodig om de keuken goed op te leveren.
 
 Zo werkt het natuurlijk ook bij natuurkundige experimenten. Als je een meting wilt doen zul je eerst goed moeten kijken hoe nauwkeurig het resultaat moet zijn. Wil je een hypothese weerleggen die voorspelt dat een hyperfijn structuur in de spectraallijn van een atoom 1nm vergroot, dan zul je ook de gevoeligheid moeten halen om dat te kunnen meten. 
 
@@ -60,7 +60,7 @@ We onderscheiden meestal **systematische onzekerheid**, **statistische onzekerhe
 
 **Systematische onzekerheden** hangen af van de meetopstelling en zijn niet te voorkomen, tenzij we de meetopstelling verbeteren. Een enkele bron van een systematische fout is eenzijdig, dat wil zeggen dat de gemeten waarde consequent te hoog of te laag uitvalt door calibratie fouten van de meetinstrumenten. Vaak zijn er in een experiment combinaties van systematische onzekerheden waardoor de gemeten waarde zowel te hoog als te laag kan uitvallen. Systematische onzekerheden zijn lastig te vinden in analyses en zijn vooral te voorkomen door kritisch te kijken naar de meetopstelling. Een systematische fout kunnen we bijvoorbeeld verbeteren door het blokje hout uit het voorbeeld met een schuifmaat te meten, zo kunnen we de meetonzekerheid verkleinen tot een tiende van een millimeter. We kunnen zorgen dat de tanden van de radartjes uit het voorbeeld van de meting van de lichtsnelheid, heel gelijk zijn. 
 
-**Statistische onzekerheden** zijn reduceerbaar door het experiment te herhalen. Bijvoorbeeld kunnen we tijdens een langer interval het aantal telling meten in het levensduur van Cesium-131 experiment. De relatieve fout op de telling zal dan kleiner worden en daarmee ook de uiteindelijk onzekerheid op de levensduur meting. 
+**Statistische onzekerheden** zijn reduceerbaar door het experiment te herhalen. Bijvoorbeeld kunnen we tijdens een langer interval het aantal tellingen meten in het levensduur van Cesium-131 experiment. De relatieve fout op de telling zal dan kleiner worden en daarmee ook de uiteindelijk onzekerheid op de levensduur meting. 
 
 **Theoretische onzekerheden** kunnen voorkomen als we gebruik maken van aannames met theoretische grondslag. Als we de onzekerheden in deze aannames kunnen kwantificeren hebben we een maat voor de theoretische onzekerheid. Soms kunnen theoretische onzekerheden worden verkleind door bijvoorbeeld meer berekeningen uit te voeren. 
 
@@ -91,7 +91,7 @@ In het geval de standaard deviatie niet bekend is, of nog niet bepaald, is de st
 > - $$1.001$$ heeft 4 significante cijfers, de precisie is 3.
 > - $$2.4500$$ heeft 5 significante cijfers, de precisie is 4.
 
-In het voobeeld hierboven zie je dat de getallen (bijna) allemaal dezelfde precisie hebben, maar een variatie aan significante cijfers. Hier kun je misschien al een patroon in ontdekken. Er zijn namelijk een aantal regels m.b.t. de nullen in een getal bij de significantie.
+In het voorbeeld hierboven zie je dat de getallen (bijna) allemaal dezelfde precisie hebben, maar een variatie aan significante cijfers. Hier kun je misschien al een patroon in ontdekken. Er zijn namelijk een aantal regels m.b.t. de nullen in een getal bij de significantie.
 
 - Nullen aan de linkerkant doen niet mee met de significantie. Het getal $$0.0056$$ heeft bijvoorbeeld twee significante cijfers.
 - Nullen aan de linkerkant voorafgegaan door een getal doen wel mee met de significantie. Het getal $$100.004$$ heeft zes significante cijfers.
@@ -129,9 +129,10 @@ $$1.23 + 0.1 = 1.3 $$.
 Een veel gebruikte manier om getallen en meetresultaten weer te geven is met behulp van de wetenschappelijke notatie. Bij de wetenschappelijke notatie wordt elk getal in de vorm $$a\cdot 10^n$$ opgeschreven. Hierbij is $$1<|a|<10$$ en $$n$$ een geheel getal ongelijk aan nul. 
 Een voordeel van deze notatie is dat je hiermee ook hele kleine getallen en hele grote getallen op een makkelijke manier op kunt schrijven. We geven een voorbeeld:
 
-We willen het getal $$0.000000000004563$$ opschrijven met twee significante cijfers. Nu kunnen we natuurlijk $$0.0000000000046$$ opschrijven maar als we dat vaak moeten doen kost dat veel ruimte (en werk). In de wetenschappelijke notatie ziet dit getal met twee significante cijfers er als volgt uit:
+> <span class="badge badge-warning">Voorbeeld</span>
+> We willen het getal $$0.000000000004563$$ opschrijven met twee significante cijfers. Nu kunnen we natuurlijk $$0.0000000000046$$ opschrijven maar als we dat vaak moeten doen kost dat veel ruimte (en werk). In de wetenschappelijke notatie ziet dit getal met twee significante cijfers er als volgt uit:
 
-$$0.000000000004563 = 4.6\cdot 10^{-12}$$
+> $$0.000000000004563 = 4.6\cdot 10^{-12}$$
 
 In het algemeen geldt voor de wetenschappelijke notatie het volgende:
 
