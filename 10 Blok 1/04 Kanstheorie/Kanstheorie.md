@@ -145,15 +145,14 @@ Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdelin
 De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. 
  
 > De verwachtingswaarde kunnen we uitrekenen met behulp van de algemene formule:
-
+>
 > $${\displaystyle E(x) = \int^{\infty}_{-\infty} { x f(x) dx} = \int^b_a x\cdot \frac{1}{b-a}  dx }$$ 
 >
 > $${\displaystyle \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a  = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}}$$ 
 >
 > De standaard deviatie berekenen we met de formule:
 > 
-> $${\begin{aligned}\displaystyle \sigma^2 &= \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx }\\  {\displaystyle &= \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx }\\ 
-> {\displaystyle &= \frac{1}{12} \cdot \frac{(b-a)^3}{b-a}} = {\displaystyle \frac{(b-a)^2}{12}}\end{aligned}$$
+> $$\begin{aligned}\displaystyle \sigma^2 &= \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx \\ &= \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx \\ &= \frac{1}{12} \cdot \frac{(b-a)^3}{b-a}}\\ &= \frac{(b-a)^2}{12}\end{aligned}$$
 >
 > Dit geeft de vergelijking voor de standaard deviatie: $$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
 
