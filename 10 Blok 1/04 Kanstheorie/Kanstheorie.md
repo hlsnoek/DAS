@@ -146,14 +146,14 @@ De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$
  
 > De verwachtingswaarde kunnen we uitrekenen met behulp van de algemene formule:<br>
 > <center> $${\displaystyle E(x) = \int^{\infty}_{-\infty} { x f(x) dx} = \int^b_a x\cdot \frac{1}{b-a}  dx }$$ <br>
-> $${\displaystyle = \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a  = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}}$$ 
+> $${\displaystyle \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a  = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}}$$ 
 > </center>
 > De standaard deviatie berekenen we met de formule: <br>
 > <center>
 > $${\displaystyle \sigma^2 = \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx } = {\displaystyle = \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx }$$ <br>
-> $${\displaystyle = \frac{1}{12} \cdot \frac{(b-a)^3}{b-a}} = {\displaystyle = \frac{(b-a)^2}{12}}$$<br>
+> $${\displaystyle = \frac{1}{12} \cdot \frac{(b-a)^3}{b-a}} = {\displaystyle \frac{(b-a)^2}{12}}$$<br>
 > </center>
-> Dit geeft:$$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
+> Dit geeft de vergelijking voor de standaard deviatie: $$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
 
 
 
@@ -162,18 +162,19 @@ De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$
 Om de binomiale verdelingsfunctie uit te leggen beginnen we eerst met het Bernoulli-experiment. Dit is een experiment met maar twee uitkomsten, 'succes' en 'mislukking'. De kans op succes is $$p$$ en de kans op mislukking $$q$$ is dus $$q=1-p$$. 
 
 Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de kans op een totaal aantal malen succes uit deze $$n$$ experiment gedefinieerd als $$k$$. Dit wordt beschreven door de binomiale verdeling: <br>
-$${\displaystyle P(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } $$
+<center>$${\displaystyle P(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } $$</center>
 
-Het gemiddelde en de standaard deviatie van de Binomiale verdeling zijn
+Het gemiddelde en de standaard deviatie van de Binomiale verdeling zijn: <br>
 $$E(k) = np$$ en $$\sigma = \sqrt{npq}$$.
 
 > <span class="badge badge-warning">Voorbeeld</span>  Stel dat we een oneindige grote verzameling knikkers hebben waarvan  30% gele knikkers, alle andere knikkers zijn rood gekleurd. Als we een enkele knikker trekken hebben we dus precies 30% kans ($$p=0.3$$) dat dit een gele knikker is. Als we twee knikkers trekken hebben we een kans van $$0.3\cdot 0.3 = 0.09$$ dat we twee gele knikkers hebben getrokken. Immers, omdat de verzameling oneindig groot is, heeft de eerste trekking geen invloed op de tweede trekking en zijn de twee trekkingen onafhankelijk. We mogen dus de <a href="#EnRegel">'en'-regel</a> gebruiken. 
-We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat we minstens 1 rode knikker hebben, hier gebruiken we de <a href="#ComplementRegel">complement regel</a>. De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. 
+We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat we minstens 1 rode knikker hebben, hier gebruiken we de <a href="#ComplementRegel">complement regel</a>. De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. <br>
 We kunnen deze getallen ook met de Binomiaal vergelijking uitrekenen:<br>
 2 trekkingen, 0 gele knikkers: $$P(k;n,p) = p(0;2,0.3) = \frac{2!}{(0! \cdot 2!)} 0.3^0 \cdot 0.7^2 =  0.49 $$<br>
 2 trekkingen, 1 gele knikkers: $$P(k;n,p) = p(1;2,0.3) = \frac{2!}{1!\cdot 1!} 0.3^1 \cdot 0.7^1 = 0.42 $$<br>
-2 trekkingen, 2 gele knikkers: $$P(k;n,p) = p(2;2,0.3) = \frac{2!}{2! \cdot 0!} 0.3^2 \cdot 0.7^0 = 0.09$$<br>
+2 trekkingen, 2 gele knikkers: $$P(k;n,p) = p(2;2,0.3) = \frac{2!}{2! \cdot 0!} 0.3^2 \cdot 0.7^0 = 0.09$$<br><br>
 Deze kansen staan ook uitgerukt in de gele lijn in het plaatje hieronder.
+
 
 De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet toepassen op fractionele waardes. Dat is ook logisch want het Bernoulli experiment kunnen we niet een fractioneel aantal keer uitvoeren. De functie is asymetrisch voor lage waardes van $$n$$ en wordt voor grotere waardes van $$n$$ steeds meer symmetrisch.
 
@@ -188,7 +189,7 @@ Het voorbeeld van daarnet is uitgedrukt in de gele lijn. Kijk ook eens goed naar
 <a name="Poisson"></a>
 De Poisson is discrete verdelingsfunctie die, in veel gevallen, de onzekerheid weergeeft op telexperimenten. Het aantal geobserveerde gebeurtenissen, $$k$$, is gerelateerd aan het verwachte aantal gebeurtenissen, $$\lambda$$ via de Poissonverdeling: 
 
-$${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}$$
+$${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}.$$
 
 De Poisson kent, in tegenstelling tot de binomiaal dus maar 1 parameter.
 De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de standaard deviatie is ook $$\lambda$$. Het is dus een bijzondere vergelijking!
@@ -205,7 +206,7 @@ Dat is ook geen toeval, de Poisson vergelijking is een speciale vorm van de Bino
 <a name="Normaal"></a>
 Stochastische variabelen zijn normaal verdeeld (ook wel Gaussisch) als ze door de volgende functie worden beschreven:
 
-$$ f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\frac{x-\mu}{\sigma}^2} $$.
+<center>$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\frac{x-\mu}{\sigma}^2} }.$$</center>
 
 De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaard deviatie is precies $$\sigma$$. <!--Dat is zeker geen toevalligheid.--> 
 
