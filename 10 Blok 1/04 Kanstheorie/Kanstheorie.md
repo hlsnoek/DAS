@@ -131,7 +131,9 @@ Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt
 
 
 Een algemene formule voor een **continue uniforme** verdeling is: <br>
+
 $${\displaystyle f(x;a,b) = \frac{1}{b-a}}$$ voor $$a \leq x \leq b$$.<br>
+
 Hier bij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
 Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
 
