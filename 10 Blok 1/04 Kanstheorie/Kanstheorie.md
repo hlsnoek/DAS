@@ -13,7 +13,7 @@ Een kans van $$1$$ zegt dat het **zeker** zal gebeuren en een kans van $$0$$ dat
 Wat is de kans dat je een $$4$$ gooit als je de dobbelsteen 1 keer gooit? 
 Voor een normale dobbelsteen kunnen deze kans uitrekenen met behulp van de volgende formule: <br>
 ><br>
-> $${\displaystyle P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{Het totale aantal uitkomsten.}} = \frac{1}{6}}$$ <br>
+> $${\displaystyle P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{Het totale aantal uitkomsten}} = \frac{1}{6}}.$$ <br>
 ><br>
 > Dit is de kans voor een normale eerlijke dobbelsteen. Met eerlijk bedoelen we hier dat de dobbelsteen niet gemanipuleerd is en dat elk vlak van de dobbelsteen evenveel kans heeft om boven te eindigen. 
 ><br><br>
@@ -53,37 +53,39 @@ Wat in elk geval altijd belangrijk is, is om altijd heel precies te vermelden wa
 
 Er zijn een paar basisregels waar kansen aan voldoen. 
 
-1. <a name="ComplementRegel"></a> **Behoud van kans**: Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekend dat: <br>
-$$ P(A) + P(\text{niet A}) = 1$$.<br>
+1. <a name="ComplementRegel"></a> **Behoud van kans**: Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekent dat: <br>
+$$ P(A) + P(\text{niet A}) = 1.$$<br>
 Een direct gevolg hiervan is dat $$P(\text{niet A})$$ het complement is van $$P(A)$$ ofwel:<br>
-$$ P(\text{niet A}) = 1 - P(A) $$.<br>
+$$ P(\text{niet A}) = 1 - P(A) .$$<br>
 Dit wordt ook wel de **complementregel** genoemd.<br>
-2. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> $$0 < P(B) \leq 1$$. Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
+2. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> 
+$$0 < P(B) \leq 1.$$<br>
+Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
 3. <a name="OfRegel"></a> **De *of* regel**: Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan vindt $$B$$ niet plaats, dan geldt:<br>
-$$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B)$$.<br>
+$$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B).$$<br>
 We mogen in dit geval de kansen dus optellen.
 4. <a name="EnRegel"></a> **De *en* regel**: Als de uitkomsten $$A$$ en $$B$$ onafhankelijk zijn, dus als je $$A$$ een uitkomst is dan zegt dat niets over de kans op $$B$$, dan geldt: <br>
-$$P(A\text{ en }B) = P(A) \cdot P(B)$$.<br>
+$$P(A\text{ en }B) = P(A) \cdot P(B).$$<br>
 
 
 We gaan voor elk van deze regels een voorbeeld geven. We kijken hiervoor naar een kaartendek.
 De uitkomstenverzameling van een kaartendek is: <br><br>
 {<span style="color:red">1♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,H♥,D♥,K♥,A♥,1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,</span><br>1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,A♠,1♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,H♣,D♣,K♣,A♣}<br><br>
-Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. 
+Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. We trekken in de volgende voorbeelden steeds 1 kaart.
 
-> <span class="badge badge-warning">Voorbeeld 1</span>**, behoud van kans:** <br>
+> <span class="badge badge-warning">Voorbeeld 1</span>** behoud van kans:** <br>
 * De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
 * De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een rode kaart te trekken (1-1/2 = 1/2)
 
-> <span class="badge badge-warning">Voorbeeld 2</span>**groter dan nul: <br>
+> <span class="badge badge-warning">Voorbeeld 2</span> **groter dan nul:** <br>
 * Voor elke kaart in het dek is er een kans dat je hem trekt. 
 
-> <span class="badge badge-warning">Voorbeeld 3</span>, **de of-regel:** <br>
+> <span class="badge badge-warning">Voorbeeld 3</span> **de of-regel:** <br>
 * De kans dat je een 3 of een 5 trekt is gelijk aan P(3)+(P(5) = 1/13+1/13 = 2/13. <br>
 * De kans dat je een 3 of een rode kaart trekt kunnen we niet zomaar optellen. Er bestaan ook rode kaarten met een 3. 
 
->  <span class="badge badge-warning">Voorbeeld 4</span>, **de en-regel:** <br>
-* De kans dat je een 3 en een rode kaart trekt kunnen we uitrekenen met:<br>
+>  <span class="badge badge-warning">Voorbeeld 4</span> **de en-regel:** <br>
+* De kans dat je een 3 trekt die ook een rode kaart is kunnen we uitrekenen met: <br>
 $$P(\text{rood en }3) = P(\text{rood}) \cdot P(3) =  1/2 \cdot 4/52 = 2/52$$<br>
 Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rode drie kaarten als zwarte drie kaarten en daarom mag je ze in dit geval vermenigvuldigen. De uitkomsten zijn onafhankelijk. <br>
 * De kans dat je een <span style="color:red">9♥</span> en een A♣ trekt. Deze kansen zijn niet onafhankelijk. Als je een <span style="color:red">9♥</span> trekt, zegt dat al direct iets over de kans dat deze kaart ook een A♣ is (die is namelijk gereduceerd tot 0).
@@ -100,7 +102,7 @@ Stochasten zijn een handig middel bij het beschrijven van experimenten. We gaan 
 De kans dat we $$x$$ terugvinden in een interval $$[a,b]$$ is gelijk aan: <br>
 $${\displaystyle P(a\leq x \leq b) = \int_a^b f(x) dx}$$.
 
-Er zijn twee belangrijke voorwaardes aan een kansdichtheidsfuncties die je misschien bekend zullen voorkomen: <br>
+Er zijn **twee belangrijke voorwaardes** aan een kansdichtheidsfuncties die je misschien bekend zullen voorkomen: <br>
 1. De kans kan nergens kleiner dan nul zijn in het uitkomstengebied. <br>
 2. De kansdichtheidsdistributie moet genormaliseerd zijn op 1. <br>
 In formule notatie: $$f(x) \geq 0$$ en $$\int^\infty_{-\infty} f(x) dx =1$$.
@@ -120,8 +122,6 @@ Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br
 * de verwachtingswaarde: $$ &lt\! x\! &gt = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx}$$,<br>
 * de standaard deviatie: $${\displaystyle \sigma^2 = &lt\! x^2\! &gt - {&lt\! x\! &gt}^2 = \int^{\infty}_{-\infty} (x - &lt\! x\! &gt)^2 f(x) dx }$$.
 
-**NB** Hier gebruiken we de notatie <x> voor het gemiddelde. 
-
 
 ## Bekende kansdichtheidsfuncties
 
@@ -132,18 +132,19 @@ Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt
 
 ![](UniformeDistributieDobbelsteen.png){:width="80%"}
 
-
+<br>
 Een algemene formule voor een **continue uniforme** verdeling is: 
 
-$${\displaystyle f(x;a,b) = \frac{1}{b-a}} \quad\text{voor}\quad a \leq x \leq b$$
+<center>$${\displaystyle f(x;a,b) = \frac{1}{b-a}} \quad\text{voor}\quad a \leq x \leq b.$$</center>
 
-Hier bij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
+Hierbij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
 Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
 
 ![](UniformeDistributieAlgemeen.png){:width="80%"}
 
 De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. 
  
+<<<<<<< HEAD
 > De verwachtingswaarde kunnen we uitrekenen met de formule:<br>
 > <center> $${ \displaystyle E(x) = \int^b_a{ x f(x) dx} = \int^b_a \frac{1}{b-a} x dx }$$ <br>
 > $${\displaystyle = \frac{1}{2} (b-a) x^2 |^b_a  = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}}$$ 
@@ -157,6 +158,17 @@ De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$
 > </center>
 > Dit geeft $$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
 
+=======
+> De verwachtingswaarde kunnen we uitrekenen met behulp van de algemene formule:
+>
+> $$\begin{aligned}\displaystyle E(x) &= \int^{\infty}_{-\infty} { x f(x) dx}\\ &= \int^b_a x\cdot \frac{1}{b-a}  dx\\ &= \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a\\ &= \frac{b^2-a^2}{2(b-a)}\\ &= \frac{a+b}{2}\end{aligned}$$ 
+>
+> De standaard deviatie berekenen we met de formule:
+> 
+> $$\begin{aligned}\displaystyle \sigma^2 &= \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx \\ &= \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx \\ &= \frac{1}{12} \cdot \frac{(b-a)^3}{b-a}\\ &= \frac{(b-a)^2}{12}\end{aligned}$$
+>
+> Dit geeft de vergelijking voor de standaard deviatie: $$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
+>>>>>>> 766db11d8bdd41a8114fe2e3230c69f9c744949b
 
 
 ### Binomiaal
@@ -164,18 +176,19 @@ De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$
 Om de binomiale verdelingsfunctie uit te leggen beginnen we eerst met het Bernoulli-experiment. Dit is een experiment met maar twee uitkomsten, 'succes' en 'mislukking'. De kans op succes is $$p$$ en de kans op mislukking $$q$$ is dus $$q=1-p$$. 
 
 Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de kans op een totaal aantal malen succes uit deze $$n$$ experiment gedefinieerd als $$k$$. Dit wordt beschreven door de binomiale verdeling: <br>
-$${\displaystyle P(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } $$
+<center>$${\displaystyle P(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } $$</center>
 
-Het gemiddelde en de standaard deviatie van de Binomiale verdeling zijn
+Het gemiddelde en de standaard deviatie van de Binomiale verdeling zijn: <br>
 $$E(k) = np$$ en $$\sigma = \sqrt{npq}$$.
 
 > <span class="badge badge-warning">Voorbeeld</span>  Stel dat we een oneindige grote verzameling knikkers hebben waarvan  30% gele knikkers, alle andere knikkers zijn rood gekleurd. Als we een enkele knikker trekken hebben we dus precies 30% kans ($$p=0.3$$) dat dit een gele knikker is. Als we twee knikkers trekken hebben we een kans van $$0.3\cdot 0.3 = 0.09$$ dat we twee gele knikkers hebben getrokken. Immers, omdat de verzameling oneindig groot is, heeft de eerste trekking geen invloed op de tweede trekking en zijn de twee trekkingen onafhankelijk. We mogen dus de <a href="#EnRegel">'en'-regel</a> gebruiken. 
-We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat we minstens 1 rode knikker hebben, hier gebruiken we de <a href="#ComplementRegel">complement regel</a>. De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. 
+We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat we minstens 1 rode knikker hebben, hier gebruiken we de <a href="#ComplementRegel">complement regel</a>. De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. <br>
 We kunnen deze getallen ook met de Binomiaal vergelijking uitrekenen:<br>
 2 trekkingen, 0 gele knikkers: $$P(k;n,p) = p(0;2,0.3) = \frac{2!}{(0! \cdot 2!)} 0.3^0 \cdot 0.7^2 =  0.49 $$<br>
 2 trekkingen, 1 gele knikkers: $$P(k;n,p) = p(1;2,0.3) = \frac{2!}{1!\cdot 1!} 0.3^1 \cdot 0.7^1 = 0.42 $$<br>
-2 trekkingen, 2 gele knikkers: $$P(k;n,p) = p(2;2,0.3) = \frac{2!}{2! \cdot 0!} 0.3^2 \cdot 0.7^0 = 0.09$$<br>
+2 trekkingen, 2 gele knikkers: $$P(k;n,p) = p(2;2,0.3) = \frac{2!}{2! \cdot 0!} 0.3^2 \cdot 0.7^0 = 0.09$$<br><br>
 Deze kansen staan ook uitgerukt in de gele lijn in het plaatje hieronder.
+
 
 De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet toepassen op fractionele waardes. Dat is ook logisch want het Bernoulli experiment kunnen we niet een fractioneel aantal keer uitvoeren. De functie is asymetrisch voor lage waardes van $$n$$ en wordt voor grotere waardes van $$n$$ steeds meer symmetrisch.
 
@@ -190,7 +203,7 @@ Het voorbeeld van daarnet is uitgedrukt in de gele lijn. Kijk ook eens goed naar
 <a name="Poisson"></a>
 De Poisson is discrete verdelingsfunctie die, in veel gevallen, de onzekerheid weergeeft op telexperimenten. Het aantal geobserveerde gebeurtenissen, $$k$$, is gerelateerd aan het verwachte aantal gebeurtenissen, $$\lambda$$ via de Poissonverdeling: 
 
-$${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}$$
+$${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}.$$
 
 De Poisson kent, in tegenstelling tot de binomiaal dus maar 1 parameter.
 De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de standaard deviatie is ook $$\lambda$$. Het is dus een bijzondere vergelijking!
@@ -207,7 +220,7 @@ Dat is ook geen toeval, de Poisson vergelijking is een speciale vorm van de Bino
 <a name="Normaal"></a>
 Stochastische variabelen zijn normaal verdeeld (ook wel Gaussisch) als ze door de volgende functie worden beschreven:
 
-$$ f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\frac{x-\mu}{\sigma}^2} $$.
+<center>$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\frac{x-\mu}{\sigma}^2} }.$$</center>
 
 De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaard deviatie is precies $$\sigma$$. <!--Dat is zeker geen toevalligheid.--> 
 
