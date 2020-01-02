@@ -19,7 +19,7 @@ plt.ylabel('aantal metingen')
 plt.xlabel('waardes')
 
 #sla het histogram op als een plaatje:
-#plt.savefig('B1aA_MooiPlotten.png')
+#plt.savefig('B1a.A_MooiPlotten.png')
 
 # Laat het plaatje zien
 plt.show()
