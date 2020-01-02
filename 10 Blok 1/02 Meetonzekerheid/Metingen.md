@@ -131,7 +131,7 @@ Een voordeel van deze notatie is dat je hiermee ook hele kleine getallen en hele
 
 > <span class="badge badge-warning">Voorbeeld</span>
 > We willen het getal $$0.000000000004563$$ opschrijven met twee significante cijfers. Nu kunnen we natuurlijk $$0.0000000000046$$ opschrijven maar als we dat vaak moeten doen kost dat veel ruimte (en werk). In de wetenschappelijke notatie ziet dit getal met twee significante cijfers er als volgt uit:
-
+>
 > $$0.000000000004563 = 4.6\cdot 10^{-12}$$
 
 In het algemeen geldt voor de wetenschappelijke notatie het volgende:
