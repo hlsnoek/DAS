@@ -153,7 +153,7 @@ De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$
 > De standaard deviatie berekenen we met de formule:
 > 
 > $${\begin{aligned}\displaystyle \sigma^2 &= \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx }\\  {\displaystyle &= \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx }\\ 
-> {\displaystyle &= \frac{1}{12} \cdot \frac{(b-a)^3}{b-a}} = {\displaystyle \frac{(b-a)^2}{12}}$$
+> {\displaystyle &= \frac{1}{12} \cdot \frac{(b-a)^3}{b-a}} = {\displaystyle \frac{(b-a)^2}{12}}\end{aligned}$$
 >
 > Dit geeft de vergelijking voor de standaard deviatie: $$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
 
