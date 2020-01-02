@@ -107,7 +107,7 @@ In formule notatie: $$f(x) \geq 0$$ en $$\int^\infty_{-\infty} f(x) dx =1$$.
 
 Wellicht komt dit allemaal wat abstract over en helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsfuncties (ook wel PDFs). Er zijn veel meer kansdichtheidsfuncties gedefinieerd, kijk bijvoorbeeld maar eens naar [deze](https://en.wikipedia.org/wiki/List_of_probability_distributions) lijst op wikipedia. 
 
-Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaard deviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](/blok-1/basisbegrippen). 
+Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaard deviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](/blok-1/basisbegrippen), voor dichtheidsfuncties zien ze er net iets anders uit dan voor datasets. 
 
 ### Verwachtingswaarde en standaard deviatie
 Voor **discrete** verdelingen gelden de volgende vergelijkingen:
@@ -119,6 +119,9 @@ Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br
 
 * de verwachtingswaarde: $$ &lt\! x\! &gt = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx}$$,<br>
 * de standaard deviatie: $${\displaystyle \sigma^2 = &lt\! x^2\! &gt - {&lt\! x\! &gt}^2 = \int^{\infty}_{-\infty} (x - &lt\! x\! &gt)^2 f(x) dx }$$.
+
+**NB** Hier gebruiken we de notatie <x> voor het gemiddelde. 
+
 
 ## Bekende kansdichtheidsfuncties
 
@@ -139,7 +142,21 @@ Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdelin
 
 ![](UniformeDistributieAlgemeen.png){:width="80%"}
 
-Het gemiddelde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. Deze kan je zelf narekenen met de algemene vergelijkingen.
+De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. 
+ 
+> De verwachtingswaarde kunnen we uitrekenen met de formule:<br>
+> <center> $$\displaystyle E(x) = \int^b_a{ x f(x) dx}} = \int^b_a \frac{1}{b-a} x dx $$ <br>
+> $$\displaystyle= \frac{1}{2} (b-a) x^2 |^b_a  = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}$$ 
+> </center>
+> De standaard deviatie berekenen we met de formule: <br>
+> <center>
+> $$\displaystyle \sigma^2 = \int^b_a{\left( x-E(x) \right)^2 f(x) dx $$<br>
+> $$\displaystyle = \int^b_a (x-\frac{a+b}{2}) \cdot \frac{1}{b-a} dx $$ <br>
+> $$\displaystyle = \frac{1}{12} \cdot \frac{(b-a)^3}{b-a}$$ <br>
+> $$\displaystyle = \frac{(b-a)^2}{12}$$<br>
+> </center>
+> Dit geeft $$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
+
 
 
 ### Binomiaal
