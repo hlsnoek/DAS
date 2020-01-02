@@ -18,7 +18,7 @@ Stel nu dat we dit uitbreiden. En we nemen de som van $$N$$ onafhankelijk stocha
 De formule voor deze som kunnen we nu schrijven als:<br>
 <center> $$S_N = X_1 + X_2 + ... + X_N$$. <br></center>
 En het gemiddelde kunnen we schrijven als <br>
-<center>$$E( &lt X_N &gt) = S_n/N$$. <br></center>
+<center>$$E( \lt X_N \gt) = S_n/N$$. <br></center>
 Als de verwachtingswaarde van een enkele stochast $$E(X_i)$$ gelijk is aan $$\mu$$ en de variantie gelijk is aan <br>
 <center>$$Var(X_i) = \sigma^2$$.<br></center>
  Dan geldt nu voor de verwachtingswaarde van de som $$E(S_N)= \mu N$$ en voor het gemiddelde $$E( &lt X_N &gt) = \mu$$. En dan geldt voor de variantie $$Var(S_N) = N \sigma^2$$ en $$Var( &lt X_N &gt) = \sigma^2/N$$. 
