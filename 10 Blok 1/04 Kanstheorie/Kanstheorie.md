@@ -73,18 +73,18 @@ De uitkomstenverzameling van een kaartendek is: <br><br>
 {<span style="color:red">1♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,H♥,D♥,K♥,A♥,1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,</span><br>1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,A♠,1♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,H♣,D♣,K♣,A♣}<br><br>
 Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. 
 
-> <span class="badge badge-warning">Voorbeeld 1</span>**, behoud van kans:** <br>
+> <span class="badge badge-warning">Voorbeeld 1</span>** behoud van kans:** <br>
 * De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
 * De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een rode kaart te trekken (1-1/2 = 1/2)
 
-> <span class="badge badge-warning">Voorbeeld 2</span>**groter dan nul:** <br>
+> <span class="badge badge-warning">Voorbeeld 2</span> **groter dan nul:** <br>
 * Voor elke kaart in het dek is er een kans dat je hem trekt. 
 
-> <span class="badge badge-warning">Voorbeeld 3</span>, **de of-regel:** <br>
+> <span class="badge badge-warning">Voorbeeld 3</span> **de of-regel:** <br>
 * De kans dat je een 3 of een 5 trekt is gelijk aan P(3)+(P(5) = 1/13+1/13 = 2/13. <br>
 * De kans dat je een 3 of een rode kaart trekt kunnen we niet zomaar optellen. Er bestaan ook rode kaarten met een 3. 
 
->  <span class="badge badge-warning">Voorbeeld 4</span>, **de en-regel:** <br>
+>  <span class="badge badge-warning">Voorbeeld 4</span> **de en-regel:** <br>
 * De kans dat je een 3 en een rode kaart trekt kunnen we uitrekenen met:<br>
 $$P(\text{rood en }3) = P(\text{rood}) \cdot P(3) =  1/2 \cdot 4/52 = 2/52$$<br>
 Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rode drie kaarten als zwarte drie kaarten en daarom mag je ze in dit geval vermenigvuldigen. De uitkomsten zijn onafhankelijk. <br>
@@ -135,7 +135,7 @@ Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt
 <br>
 Een algemene formule voor een **continue uniforme** verdeling is: 
 
-<center>$${\displaystyle f(x;a,b) = \frac{1}{b-a}} \quad\text{voor}\quad a \leq x \leq b$$.</center>
+<center>$${\displaystyle f(x;a,b) = \frac{1}{b-a}} \quad\text{voor}\quad a \leq x \leq b.$$</center>
 
 Hierbij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
 Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
@@ -145,13 +145,13 @@ Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdelin
 De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. 
  
 > De verwachtingswaarde kunnen we uitrekenen met behulp van de algemene formule:<br>
-> <center> $${\displaystyle E(x) = \int^{\infty}_{\infty} { x f(x) dx} = \int^b_a x\cdot \frac{1}{b-a}  dx }$$ <br>
+> <center> $${\displaystyle E(x) = \int^{\infty}_{-\infty} { x f(x) dx} = \int^b_a x\cdot \frac{1}{b-a}  dx }$$ <br>
 > $${\displaystyle = \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a  = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}}$$ 
 > </center>
 > De standaard deviatie berekenen we met de formule: <br>
 > <center>
-> $${\displaystyle \sigma^2 = \int^{\infty}_{\infty} \left( x-E(x) \right) ^2 f(x) dx }$$<br>
-> $${\displaystyle = \int^b_a (x-\frac{a+b}{2})^2 \cdot \frac{1}{b-a} dx }$$ <br>
+> $${\displaystyle \sigma^2 = \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx }$$<br>
+> $${\displaystyle = \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx }$$ <br>
 > $${\displaystyle = \frac{1}{12} \cdot \frac{(b-a)^3}{b-a}}$$ <br>
 > $${\displaystyle = \frac{(b-a)^2}{12}}$$<br>
 > </center>
