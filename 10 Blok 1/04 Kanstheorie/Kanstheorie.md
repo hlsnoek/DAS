@@ -145,7 +145,7 @@ Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdelin
 De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. 
  
 > De verwachtingswaarde kunnen we uitrekenen met de formule:<br>
-> <center> $$\displaystyle E(x) = \int^b_a{ x f(x) dx}} = \int^b_a \frac{1}{b-a} x dx $$ <br>
+> <center> $$\displaystyle{ E(x) = \int^b_a{ x f(x) dx} = \int^b_a \frac{1}{b-a} x dx $$ <br>
 > $$\displaystyle= \frac{1}{2} (b-a) x^2 |^b_a  = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}$$ 
 > </center>
 > De standaard deviatie berekenen we met de formule: <br>
