@@ -71,7 +71,7 @@ $$P(A\text{ en }B) = P(A) \cdot P(B).$$<br>
 We gaan voor elk van deze regels een voorbeeld geven. We kijken hiervoor naar een kaartendek.
 De uitkomstenverzameling van een kaartendek is: <br><br>
 {<span style="color:red">1♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,H♥,D♥,K♥,A♥,1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,</span><br>1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,A♠,1♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,H♣,D♣,K♣,A♣}<br><br>
-Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. 
+Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. We trekken in de volgende voorbeelden steeds 1 kaart.
 
 > <span class="badge badge-warning">Voorbeeld 1</span>** behoud van kans:** <br>
 * De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
@@ -85,7 +85,7 @@ Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart.
 * De kans dat je een 3 of een rode kaart trekt kunnen we niet zomaar optellen. Er bestaan ook rode kaarten met een 3. 
 
 >  <span class="badge badge-warning">Voorbeeld 4</span> **de en-regel:** <br>
-* De kans dat je een 3 en een rode kaart trekt kunnen we uitrekenen met:<br>
+* De kans dat je een 3 trekt die ook een rode kaart is kunnen we uitrekenen met: <br>
 $$P(\text{rood en }3) = P(\text{rood}) \cdot P(3) =  1/2 \cdot 4/52 = 2/52$$<br>
 Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rode drie kaarten als zwarte drie kaarten en daarom mag je ze in dit geval vermenigvuldigen. De uitkomsten zijn onafhankelijk. <br>
 * De kans dat je een <span style="color:red">9♥</span> en een A♣ trekt. Deze kansen zijn niet onafhankelijk. Als je een <span style="color:red">9♥</span> trekt, zegt dat al direct iets over de kans dat deze kaart ook een A♣ is (die is namelijk gereduceerd tot 0).

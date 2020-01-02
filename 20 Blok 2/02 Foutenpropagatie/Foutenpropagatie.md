@@ -79,7 +79,7 @@ Is het doorberekende resultaat (onafgerond) bijvoorbeeld $$8.956$$ en de doorber
 Stel we hebben als (onafgeronde) doorberekende waarde bijvoorbeeld $$45.326$$, met de bijbehorende absolute fout $$0.123$$. Omdat de absolute fout volgens bovenstaande regels wordt afgerond op twee decimalen, noteren dit resultaat dan als $$45.33 \pm 0.12$$. 
 
 
-**Voorbeeld foutenpropagatie en afronding**
+<span class="badge badge-warning">Voorbeeld foutenpropagatie en afronding</span>
 
 Stel dat we de lengte van het blokje hebben gemeten en we lezen de volgende waarde af:
 

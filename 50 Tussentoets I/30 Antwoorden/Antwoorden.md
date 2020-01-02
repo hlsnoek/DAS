@@ -43,7 +43,7 @@
 
 **6** Uit een experiment zijn 3 uitkomsten mogelijk voor de gedefinieerde stochast X: {0,1,2}. De kans op uitkomst 0 is: P(0)= 0.56. De kans op uitkomst 2 is P(2) = 0.34.<br>
 **a** Wat is de uitkomstenverzameling van X?<br>
-<span style = "color: blue">De uitkomstenverzameling is {0,1,2}</span>
+<span style = "color: blue">De uitkomstenverzameling is {0,1,2}</span><br>
 **b** Wat is de kans op uitkomst P(1)?<br>
 <span style = "color: blue">P(1) = 1 - P(0) - P(2) = 0.10 </span>
 
