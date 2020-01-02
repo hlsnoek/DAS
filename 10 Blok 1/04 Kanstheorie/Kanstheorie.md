@@ -54,18 +54,18 @@ Wat in elk geval altijd belangrijk is, is om altijd heel precies te vermelden wa
 Er zijn een paar basisregels waar kansen aan voldoen. 
 
 1. <a name="ComplementRegel"></a> **Behoud van kans**: Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekent dat: <br>
-<center>$$ P(A) + P(\text{niet A}) = 1.$$</center><br>
+$$ P(A) + P(\text{niet A}) = 1.$$<br>
 Een direct gevolg hiervan is dat $$P(\text{niet A})$$ het complement is van $$P(A)$$ ofwel:<br>
-<center>$$ P(\text{niet A}) = 1 - P(A) .$$</center><br>
+$$ P(\text{niet A}) = 1 - P(A) .$$<br>
 Dit wordt ook wel de **complementregel** genoemd.<br>
 2. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> 
-<center>$$0 < P(B) \leq 1.$$</center><br>
+$$0 < P(B) \leq 1.$$<br>
 Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
 3. <a name="OfRegel"></a> **De *of* regel**: Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan vindt $$B$$ niet plaats, dan geldt:<br>
-<center>$$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B).$$</center><br>
+$$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B).$$<br>
 We mogen in dit geval de kansen dus optellen.
 4. <a name="EnRegel"></a> **De *en* regel**: Als de uitkomsten $$A$$ en $$B$$ onafhankelijk zijn, dus als je $$A$$ een uitkomst is dan zegt dat niets over de kans op $$B$$, dan geldt: <br>
-<center>$$P(A\text{ en }B) = P(A) \cdot P(B).$$</center><br>
+$$P(A\text{ en }B) = P(A) \cdot P(B).$$<br>
 
 
 We gaan voor elk van deze regels een voorbeeld geven. We kijken hiervoor naar een kaartendek.
