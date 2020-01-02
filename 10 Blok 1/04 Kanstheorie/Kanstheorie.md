@@ -122,6 +122,9 @@ Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br
 * de verwachtingswaarde: $$ &lt\! x\! &gt = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx}$$,<br>
 * de standaard deviatie: $${\displaystyle \sigma^2 = &lt\! x^2\! &gt - {&lt\! x\! &gt}^2 = \int^{\infty}_{-\infty} (x - &lt\! x\! &gt)^2 f(x) dx }$$.
 
+**NB** Er zijn verschillende schrijfwijze voor het gemiddelde $$\mu, &lt\! x \! &gt$$ en $$E(x)$$. Het symbool $$\mu$$ is meestal voorbehouden aan het gemiddelde van de populatie, dat wil zeggen het *echte* gemiddelde. Het gemiddelde van de steekproef is $$&lt\! x\! &gt$$, je hoopt dus dat die dicht bij het populatiegemiddelde $$\mu$$ ligt. De verwachtingswaarde $$E(x)$$ is de waarde die je verwacht te gaan meten. Deze kan je met simulaties benaderen. De verschillen worden pas echt duidelijk als je er al een tijdje mee werkt. We zullen het niet fout rekenen als je een vergissing maakt in de notatie, maar we proberen het hier wel netjes op te schrijven. 
+In deze vergelijkingen is het in elk geval ook handig om $$E(x)$$ of $$&lt\! x \! &gt$$ te schrijven.  $$E(x)^2$$ is, net als $$ &lt\! x \! &gt^2$$, het kwadraat van de verwachtingswaarde van $$x$$. $$E(x^2)$$ is, net als $$ &lt\! x^2 \! &gt$$ de verwachtingswaarde van $$x^2$$. 
+
 
 ## Bekende kansdichtheidsfuncties
 
