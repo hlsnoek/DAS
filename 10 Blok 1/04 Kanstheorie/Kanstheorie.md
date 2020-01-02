@@ -54,16 +54,18 @@ Wat in elk geval altijd belangrijk is, is om altijd heel precies te vermelden wa
 Er zijn een paar basisregels waar kansen aan voldoen. 
 
 1. <a name="ComplementRegel"></a> **Behoud van kans**: Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekend dat: <br>
-$$ P(A) + P(\text{niet A}) = 1$$.<br>
+<center>$$ P(A) + P(\text{niet A}) = 1$$.</center><br>
 Een direct gevolg hiervan is dat $$P(\text{niet A})$$ het complement is van $$P(A)$$ ofwel:<br>
-$$ P(\text{niet A}) = 1 - P(A) $$.<br>
+<center>$$ P(\text{niet A}) = 1 - P(A) $$.</center><br>
 Dit wordt ook wel de **complementregel** genoemd.<br>
-2. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> $$0 < P(B) \leq 1$$. Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
+2. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> 
+<center>$$0 < P(B) \leq 1$$.</center><br>
+Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
 3. <a name="OfRegel"></a> **De *of* regel**: Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan vindt $$B$$ niet plaats, dan geldt:<br>
-$$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B)$$.<br>
+<center>$$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B)$$.</center><br>
 We mogen in dit geval de kansen dus optellen.
 4. <a name="EnRegel"></a> **De *en* regel**: Als de uitkomsten $$A$$ en $$B$$ onafhankelijk zijn, dus als je $$A$$ een uitkomst is dan zegt dat niets over de kans op $$B$$, dan geldt: <br>
-$$P(A\text{ en }B) = P(A) \cdot P(B)$$.<br>
+<center>$$P(A\text{ en }B) = P(A) \cdot P(B)$$.</center><br>
 
 
 We gaan voor elk van deze regels een voorbeeld geven. We kijken hiervoor naar een kaartendek.
@@ -120,8 +122,6 @@ Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br
 * de verwachtingswaarde: $$ &lt\! x\! &gt = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx}$$,<br>
 * de standaard deviatie: $${\displaystyle \sigma^2 = &lt\! x^2\! &gt - {&lt\! x\! &gt}^2 = \int^{\infty}_{-\infty} (x - &lt\! x\! &gt)^2 f(x) dx }$$.
 
-**NB** Hier gebruiken we de notatie <x> voor het gemiddelde. 
-
 
 ## Bekende kansdichtheidsfuncties
 
@@ -132,25 +132,25 @@ Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt
 
 ![](UniformeDistributieDobbelsteen.png){:width="80%"}
 
-
+<br>
 Een algemene formule voor een **continue uniforme** verdeling is: 
 
-$${\displaystyle f(x;a,b) = \frac{1}{b-a}} \quad\text{voor}\quad a \leq x \leq b$$
+<center>$${\displaystyle f(x;a,b) = \frac{1}{b-a}} \quad\text{voor}\quad a \leq x \leq b$$.</center>
 
-Hier bij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
+Hierbij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
 Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
 
 ![](UniformeDistributieAlgemeen.png){:width="80%"}
 
 De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. 
  
-> De verwachtingswaarde kunnen we uitrekenen met de formule:<br>
-> <center> $${\displaystyle E(x) = \int^b_a{ x f(x) dx} = \int^b_a x\cdot \frac{1}{b-a}  dx }$$ <br>
+> De verwachtingswaarde kunnen we uitrekenen met behulp van de algemene formule:<br>
+> <center> $${\displaystyle E(x) = \int^{\infty}_{\infty} { x f(x) dx} = \int^b_a x\cdot \frac{1}{b-a}  dx }$$ <br>
 > $${\displaystyle = \left{ \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a  = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}}$$ 
 > </center>
 > De standaard deviatie berekenen we met de formule: <br>
 > <center>
-> $${\displaystyle \sigma^2 = \int^b_a \left( x-E(x) \right) ^2 f(x) dx }$$<br>
+> $${\displaystyle \sigma^2 = \int^{\infty}_{\infty} \left( x-E(x) \right) ^2 f(x) dx }$$<br>
 > $${\displaystyle = \int^b_a (x-\frac{a+b}{2})^2 \cdot \frac{1}{b-a} dx }$$ <br>
 > $${\displaystyle = \frac{1}{12} \cdot \frac{(b-a)^3}{b-a}}$$ <br>
 > $${\displaystyle = \frac{(b-a)^2}{12}}$$<br>
