@@ -79,36 +79,36 @@ Is het doorberekende resultaat (onafgerond) bijvoorbeeld $$8.956$$ en de doorber
 Stel we hebben als (onafgeronde) doorberekende waarde bijvoorbeeld $$45.326$$, met de bijbehorende absolute fout $$0.123$$. Omdat de absolute fout volgens bovenstaande regels wordt afgerond op twee decimalen, noteren dit resultaat dan als $$45.33 \pm 0.12$$. 
 
 
-<span class="badge badge-warning">Voorbeeld foutenpropagatie en afronding</span>
-
-Stel dat we de lengte van het blokje hebben gemeten en we lezen de volgende waarde af:
-
-- De $$\text{lengte = l} = 7.6 \pm 0.1 \text{ cm}$$
-- De $$\text{breedte = b} = 4.1 \pm 0.2 \text{ cm}$$ 
-- De $$\text{hoogte = h} = 2.0 \pm 0.2 \text{ cm}$$ 
-
-Het volume van het blokje wordt gegeven door:
-
-$$V = l\cdot b\cdot h = 7.6 \cdot 4.1 \cdot 2.0 = 62.32 \approx 62.3 \text{ cm}^3$$
-
-We gebruiken de regel dat als $$q = x\cdot y\cdot \dots$$ dan: 
-
-$$\frac{\Delta q}{|q|} = \sqrt{\left(\frac{\Delta x}{x}\right)^2+\left(\frac{\Delta y}{y}\right)^2+\left(\frac{\Delta u}{u}\right)^2+\left(\frac{\Delta w}{w}\right)^2} $$
-
-Dus:
-
-$$\begin{aligned}\frac{\Delta V}{|V|} &= \sqrt{\left(\frac{\Delta l}{l}\right)^2+\left(\frac{\Delta b}{b}\right)^2+\left(\frac{\Delta h}{h}\right)^2} \\ 
+> <span class="badge badge-warning">Voorbeeld foutenpropagatie en afronding</span>
+>
+>Stel dat we de lengte van het blokje hebben gemeten en we lezen de volgende waarde af:
+>
+>- De $$\text{lengte = l} = 7.6 \pm 0.1 \text{ cm}$$
+>- De $$\text{breedte = b} = 4.1 \pm 0.2 \text{ cm}$$ 
+>- De $$\text{hoogte = h} = 2.0 \pm 0.2 \text{ cm}$$ 
+>
+>Het volume van het blokje wordt gegeven door:
+>
+>$$V = l\cdot b\cdot h = 7.6 \cdot 4.1 \cdot 2.0 = 62.32 \approx 62.3 \text{ cm}^3$$
+>
+>We gebruiken de regel dat als $$q = x\cdot y\cdot \dots$$ dan: 
+>
+>$$\frac{\Delta q}{|q|} = \sqrt{\left(\frac{\Delta x}{x}\right)^2+\left(\frac{\Delta y}{y}\right)^2+\left(\frac{\Delta u}{u}\right)^2+\left(\frac{\Delta w}{w}\right)^2} $$
+>
+>Dus:
+>
+>$$\begin{aligned}\frac{\Delta V}{|V|} &= \sqrt{\left(\frac{\Delta l}{l}\right)^2+\left(\frac{\Delta b}{b}\right)^2+\left(\frac{\Delta h}{h}\right)^2} \\ 
 &= \sqrt{\left(\frac{0.1}{7.6}\right)^2+\left(\frac{0.2}{4.1}\right)^2+\left(\frac{0.2}{2.0}\right)^2}\\
 &= 0.01255 \dots
 \end{aligned}$$
-
-We ronden dit nog niet af, dat doen we pas als we de absolute fout hebben:
-
-$$\begin{aligned} \Delta V &= \frac{\Delta V}{|V|} \cdot |V| \\
+>
+>We ronden dit nog niet af, dat doen we pas als we de absolute fout hebben:
+>
+>$$\begin{aligned} \Delta V &= \frac{\Delta V}{|V|} \cdot |V| \\
 &= 0.01255\dots \cdot 62.32 \\
 &= 0.78228 \dots \\
 &\approx 0.8\end{aligned}$$
-
-Het gemeten volume van het blokje is dus $$V = 62.3 \pm 0.8 \text{ cm}^3$$
+>
+>Het gemeten volume van het blokje is dus $$V = 62.3 \pm 0.8 \text{ cm}^3$$
 
  
