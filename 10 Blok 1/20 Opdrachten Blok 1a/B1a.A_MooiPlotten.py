@@ -22,5 +22,5 @@ plt.xlabel('waardes')
 plt.show()
 
 #sla het histogram op als een plaatje:
-#plt.savefig('B1a.A_MooiPlotten.png')
+#plt.savefig('B1aA_MooiPlotten.png')
 
