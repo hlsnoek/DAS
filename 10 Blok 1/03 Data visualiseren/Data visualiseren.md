@@ -113,14 +113,14 @@ Bij het bepalen van het optimale aantal bins en de optimale binbreedte is het be
 **Bij het maken van een histogram moet je goed letten op het volgende:**
 
 * Het bereik (de range) die je kiest op de horizontale as. Van waar tot waar plot je de data? Meestal wil je de gehele dataset laten zien, maar soms wil je juist inzoomen op een kleiner stukje. 
-* De binbreedte. Meestal kies je voor het hele histogram dezelfde binbreedte, in sommige gevallen kun je verschillende binbreedtes kiezen. In elk geval geldt dat het histogram goed 'leesbaar' moet zien. Het moet duidelijk blijven hoe de data gedistribueerd is. Wat is de trend? Zijn er afwijkingen van die trend.
+* De binbreedte. Meestal kies je voor het hele histogram dezelfde binbreedte, in sommige gevallen kun je verschillende binbreedtes kiezen. In elk geval geldt dat het histogram goed 'leesbaar' moet zijn. Het moet duidelijk blijven hoe de data gedistribueerd is. Wat is de trend? Zijn er afwijkingen van die trend.
 * Let bij histogrammen erg goed op waar de grens van een bin ligt. Vooral als je een dataset met natuurlijke getallen weergeeft is het belangrijk dat de bingrenzen netjes *tussen* de natuurlijke getallen ligt. Anders kan de distributie van de data verkeerd gerepresenteerd worden.
 * Het histogram is makkelijker leesbaar als de bins een natuurlijk interval hebben. Als je range van 0 tot 10 loopt is het heel gek om deze te verdelen in 7 bins.
 
 **Voor zowel histogrammen als staafdiagrammen geldt:**
 
 * Natuurlijk moeten bij histogrammen en staafdiagrammen ook netjes aslabels worden gebruikt.
-* Als je meer dan één dataset laat zien maak dan gebruik van een legende.
+* Als je meer dan één dataset laat zien maak dan gebruik van een legenda.
 
 
 ## Data plotten met Python
@@ -143,7 +143,7 @@ Stel we hebben de hoogte van een vallende bal gemeten als functie van de tijd. I
 
 Nu maken we een lijst `t_data` aan voor de tijd en een lijst `h_data` voor de hoogte van de bal:
 
-    t_data = [,,,]
+    t_data = [0.0,0.5,1.0,1.5,2.0,2.5,3.0,3.5,4.0,4.5,5.0,5.5,6.0]
     h_data = [,,,]
 
 Daarna roepen we het `plot` commando uit matplotlib.pyplot aan:
