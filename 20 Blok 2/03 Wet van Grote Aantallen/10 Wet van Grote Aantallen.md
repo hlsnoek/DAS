@@ -10,7 +10,7 @@ We kijken naar twee stochasten, $$X$$ en $$Y$$. De verwachtingswaarde van $$X+Y$
 Als $$X$$ en $$Y$$ onafhankelijk zijn dan geldt ook:<br>
 <center> $$Var(X+Y)= Var(X)+Var(Y)$$</center>
 
-Het klinkt misschien ingewikkeld, maar het enige wat we doen is een nieuwe variabele definiëren die de som is van twee variabelen. De variantie vinden we via de gewone fouten propagatie regels (XX link). 
+Het klinkt misschien ingewikkeld, maar het enige wat we doen is een nieuwe variabele definiëren die de som is van twee variabelen. De variantie vinden we via de gewone fouten propagatie [regels](/blok-2/foutenpropagatie). 
 
 Stel nu dat we dit uitbreiden. En we nemen de som van $$N$$ onafhankelijk stochasten, $$X_1,X_2,...,X_N$$  die elk dezelfde onderliggende verdeling kennen. Dat wil zeggen dat ze allemaal dezelfde verwachtingswaarde en dezelfde variantie hebben. 
 (NB. de verwachtingswaarde is niet gelijk aan de gemeten waarde. Kijk voor dit verschil nog eens naar [basisbegrippen](/blok-1/basisbegrippen) in blok 1.) 
