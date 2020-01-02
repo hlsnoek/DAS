@@ -15,7 +15,7 @@ Een grafiek heeft meestal een beperkt aantal punten, als er veel data is geven w
 
 Er zijn twee grote verschillen tussen grafieken en scatterplots: 
 
-* In scatterplots kunnen voor een ingestelde/gekozen waarde meer dan gemeten waarde bestaan. Een voorbeeld zou zijn als je een meting doet waarbij je de lengte van mensen opmeet en tegen hun leeftijd uitzet. 
+* In scatterplots kunnen voor een ingestelde/gekozen waarde meer dan één gemeten waarden bestaan. Een voorbeeld zou zijn als je een meting doet waarbij je de lengte van mensen opmeet en tegen hun leeftijd uitzet. 
 * In scatterplots verbind je *nooit* punten met lijnen. Dat zou ook erg verwarrend zijn omdat je de dataset niet altijd logisch kan ordenen. In grafieken is dat meestal ook onwenselijk. 
 
 Meestal is de waarde van de twee variabelen van te voren gekozen of ingesteld en de andere variabele gemeten. De gemeten waarde laten we zien op de verticale as en de gekozen waarde op de horizontale as. Bij grafieken kun je meestal deze stelregel gebruiken, bij scatterplots is het vaak niet zo duidelijk en moet je gewoon een keuze maken.
