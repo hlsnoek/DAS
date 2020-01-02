@@ -169,15 +169,15 @@ $${\displaystyle P(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^
 Het gemiddelde en de standaard deviatie van de Binomiale verdeling zijn
 $$E(k) = np$$ en $$\sigma = \sqrt{npq}$$.
 
-> <span class="badge badge-warning">Voorbeeld</span>  Stel dat we een oneindige grote verzameling knikkers hebben waarvan  30% gele knikkers, alle andere knikkers zijn rood gekleurd. Als we een enkele knikker trekken hebben we dus precies 30% kans ($$p=0.3$$) dat dit een gele knikker is. Als we twee knikkers trekken hebben we een kans van $$0.3\cdot 0.3 = 0.09$$ dat we twee gele knikkers hebben getrokken. Immers, omdat de verzameling oneindig groot is, heeft de eerste trekking geen invloed op de tweede trekking en zijn de twee trekking onafhankelijk. We mogen dus de <a href="#EnRegel">'en'-regel</a> gebruiken. 
-We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat minstens 1 rode knikker hebben, hier gebruiken we de <a href="#ComplementRegel">complement regel</a>. De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. 
+> <span class="badge badge-warning">Voorbeeld</span>  Stel dat we een oneindige grote verzameling knikkers hebben waarvan  30% gele knikkers, alle andere knikkers zijn rood gekleurd. Als we een enkele knikker trekken hebben we dus precies 30% kans ($$p=0.3$$) dat dit een gele knikker is. Als we twee knikkers trekken hebben we een kans van $$0.3\cdot 0.3 = 0.09$$ dat we twee gele knikkers hebben getrokken. Immers, omdat de verzameling oneindig groot is, heeft de eerste trekking geen invloed op de tweede trekking en zijn de twee trekkingen onafhankelijk. We mogen dus de <a href="#EnRegel">'en'-regel</a> gebruiken. 
+We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat we minstens 1 rode knikker hebben, hier gebruiken we de <a href="#ComplementRegel">complement regel</a>. De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. 
 We kunnen deze getallen ook met de Binomiaal vergelijking uitrekenen:<br>
 2 trekkingen, 0 gele knikkers: $$P(k;n,p) = p(0;2,0.3) = \frac{2!}{(0! \cdot 2!)} 0.3^0 \cdot 0.7^2 =  0.49 $$<br>
 2 trekkingen, 1 gele knikkers: $$P(k;n,p) = p(1;2,0.3) = \frac{2!}{1!\cdot 1!} 0.3^1 \cdot 0.7^1 = 0.42 $$<br>
 2 trekkingen, 2 gele knikkers: $$P(k;n,p) = p(2;2,0.3) = \frac{2!}{2! \cdot 0!} 0.3^2 \cdot 0.7^0 = 0.09$$<br>
 Deze kansen staan ook uitgerukt in de gele lijn in het plaatje hieronder.
 
-De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet toepassen op fractionele waardes. Dat is ook logisch want het Bernoulli experiment kunnen niet een fractionele keer uitvoeren. De functie is asymetrisch voor lage waardes van $$n$$ en wordt voor grotere waardes van $$n$$ steeds meer symmetrisch.
+De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet toepassen op fractionele waardes. Dat is ook logisch want het Bernoulli experiment kunnen we niet een fractioneel aantal keer uitvoeren. De functie is asymetrisch voor lage waardes van $$n$$ en wordt voor grotere waardes van $$n$$ steeds meer symmetrisch.
 
 Hieronder zie je een aantal verdelingen voor de Binomiaal distributie.
 
@@ -188,8 +188,9 @@ Het voorbeeld van daarnet is uitgedrukt in de gele lijn. Kijk ook eens goed naar
 
 ### Poisson
 <a name="Poisson"></a>
-De Poisson is discrete verdelingsfunctie die, in veel gevallen, de onzekerheid weergeeft op telexperimenten. Het aantal geobserveerde gebeurtenissen, $$k$$, is gerelateerd aan het verwachte aantal gebeurtenissen, $$\lambda$$ via de Poissonverdeling: <br>
-$${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}$$.
+De Poisson is discrete verdelingsfunctie die, in veel gevallen, de onzekerheid weergeeft op telexperimenten. Het aantal geobserveerde gebeurtenissen, $$k$$, is gerelateerd aan het verwachte aantal gebeurtenissen, $$\lambda$$ via de Poissonverdeling: 
+
+$${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}$$
 
 De Poisson kent, in tegenstelling tot de binomiaal dus maar 1 parameter.
 De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de standaard deviatie is ook $$\lambda$$. Het is dus een bijzondere vergelijking!
@@ -208,7 +209,7 @@ Stochastische variabelen zijn normaal verdeeld (ook wel Gaussisch) als ze door d
 
 $$ f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\frac{x-\mu}{\sigma}^2} $$.
 
-De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaard deviatie is precies $$\sigma$$. Dat is zeker geen toevalligheid. 
+De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaard deviatie is precies $$\sigma$$. <!--Dat is zeker geen toevalligheid.--> 
 
 Over de mathematische beginselen van de Normale verdelingsfunctie gaan we hier verder niet in. Het is wel goed om te weten dat de Normale verdelingsfunctie zonder twijfel de meest belangrijke functie is in de statische data analyse. De verdelingsfunctie komt erg vaak voor. Dat is geen toevalligheid, we zullen later in blok 3 zien waarom dit zo is.
 
