@@ -143,8 +143,8 @@ Stel we hebben de hoogte van een vallende bal gemeten als functie van de tijd. I
 
 Nu maken we een lijst `t_data` aan voor de tijd en een lijst `h_data` voor de hoogte van de bal:
 
-    t_data = [0.0,0.5,1.0,1.5,2.0,2.5,3.0,3.5,4.0,4.5,5.0,5.5,6.0]
-    h_data = [,,,]
+    t_data = [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0]
+    h_data = [180.0, 178.8, 175.1, 169.0, 160.4, 149.3, 135.9, 120.0, 102.0, 80.7, 57.4, 31.6, 3.4]
 
 Daarna roepen we het `plot` commando uit matplotlib.pyplot aan:
 
