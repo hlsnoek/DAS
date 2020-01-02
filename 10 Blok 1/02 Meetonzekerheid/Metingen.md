@@ -157,7 +157,7 @@ Tot nu toe hebben we het gehad over losstaande (meet)waarden zonder meetonzekerh
 
 
 ### Meetonzekerheden noteren
-Er zijn verschillende maten waarin een meetonzekerheid wordt aangegeven. Zo is de onzekerheid die we hierboven hebben weergegeven een zogenoemde
+Er zijn verschillende maten waarin een meetonzekerheid wordt aangegeven. Zo is de onzekerheid die we eerder hebben weergegeven een zogenoemde
 *absolute fout*. De absolute fout $$\Delta x$$ is de meetonzekerheid op een waarde $$x$$ zoals deze direct wordt afgelezen op de meetapparatuur. Ook een afronding die plaatsvindt in bijvoorbeeld een
 computerprogramma resulteert in een absolute fout. De beste schatting van de waarde noemen we $$x_{best}$$ en de meetwaarde wordt dan aangegeven als:
 
