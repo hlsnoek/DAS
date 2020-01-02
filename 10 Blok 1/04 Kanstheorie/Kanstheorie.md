@@ -156,6 +156,7 @@ De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$
 >
 > Dit geeft de vergelijking voor de standaard deviatie: $$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
 
+$$\begin{aligned}\sigma^2 &= \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx \\ &= \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx\end{aligned}$$
 
 
 ### Binomiaal
