@@ -16,6 +16,8 @@ De antwoorden van de opdrachten moet je invoeren in [dit](InlevertemplateBlok1a.
 
 Als je vragen hebt, stel deze dan aan de assistent of stuur een email naar de coördinator.
 
+Vergeet niet om ook even te kijken naar de [oefen opgaves](/tussentoets-i/oefenopgaves) ter voorbereiding van de eerste tussentoets die na het tweede werkcollege plaats vindt.
+
 Veel succes! 
 
 *****
