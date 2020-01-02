@@ -155,7 +155,7 @@ De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$
 > $${\displaystyle = \frac{1}{12} \cdot \frac{(b-a)^3}{b-a}}$$ <br>
 > $${\displaystyle = \frac{(b-a)^2}{12}}$$<br>
 > </center>
-> Dit geeft $$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
+> Dit geeft:  <center>$$\sigma = \frac{(b-a)}{\sqrt{12}}$$.</center>
 
 
 
