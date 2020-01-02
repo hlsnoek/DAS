@@ -18,9 +18,13 @@ plt.hist(x, bins=31, range=(-100,100))
 plt.ylabel('aantal metingen')
 plt.xlabel('waardes')
 
+#sla het histogram op als een plaatje:
+#plt.savefig('B1aA_MooiPlotten.png')
+
 # Laat het plaatje zien
 plt.show()
 
-#sla het histogram op als een plaatje:
-#plt.savefig('B1aA_MooiPlotten.png')
+# Opmerking: plt.savefig moet vòòr plot.show() aangeroepen
+# worden. Na plt.show() wordt het plaatje namelijk
+# verwijderd uit het geheugen.
 
