@@ -53,19 +53,19 @@ Wat in elk geval altijd belangrijk is, is om altijd heel precies te vermelden wa
 
 Er zijn een paar basisregels waar kansen aan voldoen. 
 
-1. <a name="ComplementRegel"></a> **Behoud van kans**: Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekend dat: <br>
-<center>$$ P(A) + P(\text{niet A}) = 1$$.</center><br>
+1. <a name="ComplementRegel"></a> **Behoud van kans**: Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekent dat: <br>
+<center>$$ P(A) + P(\text{niet A}) = 1.$$</center><br>
 Een direct gevolg hiervan is dat $$P(\text{niet A})$$ het complement is van $$P(A)$$ ofwel:<br>
-<center>$$ P(\text{niet A}) = 1 - P(A) $$.</center><br>
+<center>$$ P(\text{niet A}) = 1 - P(A) .$$</center><br>
 Dit wordt ook wel de **complementregel** genoemd.<br>
 2. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> 
-<center>$$0 < P(B) \leq 1$$.</center><br>
+<center>$$0 < P(B) \leq 1.$$</center><br>
 Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
 3. <a name="OfRegel"></a> **De *of* regel**: Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan vindt $$B$$ niet plaats, dan geldt:<br>
-<center>$$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B)$$.</center><br>
+<center>$$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B).$$</center><br>
 We mogen in dit geval de kansen dus optellen.
 4. <a name="EnRegel"></a> **De *en* regel**: Als de uitkomsten $$A$$ en $$B$$ onafhankelijk zijn, dus als je $$A$$ een uitkomst is dan zegt dat niets over de kans op $$B$$, dan geldt: <br>
-<center>$$P(A\text{ en }B) = P(A) \cdot P(B)$$.</center><br>
+<center>$$P(A\text{ en }B) = P(A) \cdot P(B).$$</center><br>
 
 
 We gaan voor elk van deze regels een voorbeeld geven. We kijken hiervoor naar een kaartendek.
@@ -77,7 +77,7 @@ Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart.
 * De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
 * De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een rode kaart te trekken (1-1/2 = 1/2)
 
-> <span class="badge badge-warning">Voorbeeld 2</span>**groter dan nul: <br>
+> <span class="badge badge-warning">Voorbeeld 2</span>**groter dan nul:** <br>
 * Voor elke kaart in het dek is er een kans dat je hem trekt. 
 
 > <span class="badge badge-warning">Voorbeeld 3</span>, **de of-regel:** <br>
@@ -102,7 +102,7 @@ Stochasten zijn een handig middel bij het beschrijven van experimenten. We gaan 
 De kans dat we $$x$$ terugvinden in een interval $$[a,b]$$ is gelijk aan: <br>
 $${\displaystyle P(a\leq x \leq b) = \int_a^b f(x) dx}$$.
 
-Er zijn twee belangrijke voorwaardes aan een kansdichtheidsfuncties die je misschien bekend zullen voorkomen: <br>
+Er zijn **twee belangrijke voorwaardes** aan een kansdichtheidsfuncties die je misschien bekend zullen voorkomen: <br>
 1. De kans kan nergens kleiner dan nul zijn in het uitkomstengebied. <br>
 2. De kansdichtheidsdistributie moet genormaliseerd zijn op 1. <br>
 In formule notatie: $$f(x) \geq 0$$ en $$\int^\infty_{-\infty} f(x) dx =1$$.
@@ -146,7 +146,7 @@ De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$
  
 > De verwachtingswaarde kunnen we uitrekenen met behulp van de algemene formule:<br>
 > <center> $${\displaystyle E(x) = \int^{\infty}_{\infty} { x f(x) dx} = \int^b_a x\cdot \frac{1}{b-a}  dx }$$ <br>
-> $${\displaystyle = \left{ \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a  = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}}$$ 
+> $${\displaystyle = \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a  = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}}$$ 
 > </center>
 > De standaard deviatie berekenen we met de formule: <br>
 > <center>
