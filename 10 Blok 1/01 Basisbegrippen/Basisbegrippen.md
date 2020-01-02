@@ -14,13 +14,11 @@ In de secties hieronder behandelen we verschillende veelvoorkomende begrippen.
 
 
 ### Populatie en steekproef
----
 
 Een *populatie* bestaat uit alle personen/dieren/objecten binnen de groep waarin we geïnteresseerd zijn. Dit zouden bijvoorbeeld *alle* mensen in Nederland kunnen zijn tussen de 30 en 40 jaar, of *alle* lieveheersbeestjes die in Noorwegen leven. Nu is het zo dat het vaak lastig is om van *alle* personen/dieren/objecten (hierna uniform aangeduid met 'elementen') in een groep data te verzamelen. Het kost bijvoorbeeld erg veel tijd (en geld) om data te verzamelen over alle personen tussen de 30 en 40 jaar in Nederland (of om alle lieveheersbeestjes in Noorwegen te vangen). Het is dan veel makkelijker om data over een deel van deze groep te verzamelen en om zo iets te zeggen over de gehele doelgroep. Zo zouden we bijvoorbeeld data kunnen verzamelen van een willekeurige selectie van 200 personen in Nederland tussen de 30 en 40 jaar. Dit wordt een *steekproef* genoemd, de deelgroep wordt in het Engels vaak aangeduid met een *sample*. Een steekproef is dus een gedeelte van de populatie.
 
 
 ### Het gemiddelde
----
 
 Het gemiddelde van een dataset geeft een maat voor het centrum van de waarden die de dataset aanneemt. We onderscheiden het populatiegemiddelde en het steekproef gemiddelde. Hoe groter de steekproef hoe meer het gemiddelde van de steekproef overeenkomt met het populatiegemiddelde.
 
@@ -55,7 +53,6 @@ Je ziet dat het steekproef gemiddelde erg lijkt op de uitdrukking voor het popul
 
 
 ### De mediaan
----
 
 De mediaan is een maat voor het midden van de elementen in een gesorteerde dataset of verdeling. In een dataset heb je exact 50% kans om een waarde te vinden die lager is dan de mediaan en 50% kans om een waarde te vinden die hoger is dan de mediaan.
 
@@ -76,7 +73,6 @@ Voor symmetrische datasets zijn het gemiddelde en de mediaan gelijk aan elkaar.
 
 
 ### De modus
----
 
 De modus van een dataset is de waarde die met de grootste frequentie in de dataset voorkomt. Hebben we bijvoorbeeld de dataset 
 
@@ -96,7 +92,6 @@ Bij sommige soorten dataverdelingen is het gebruikelijker om over de modus te pr
 
 
 ## Spreiding van data
----
 
 De spreiding geeft een beeld van de mate waarin datapunten in een set verspreid zijn. Er zijn verschillende maten om de spreiding van een dataset mee aan te geven. Hieronder zullen we de range, variantie, coëfficiënt van variantie en de standaardafwijking bespreken. 
 
