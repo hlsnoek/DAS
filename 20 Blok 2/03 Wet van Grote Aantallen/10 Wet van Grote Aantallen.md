@@ -6,9 +6,9 @@ Dit is een belangrijke observatie. Het geeft aan dat hoe meer data we hebben, ho
 
 ## De $$\sqrt{n}$$-wet
 We kijken naar twee stochasten, $$X$$ en $$Y$$. De verwachtingswaarde van $$X+Y$$ is gelijk aan:<br>
-<center> $$E(X+Y)= E(X)+E(Y)$$. </center><br>
+<center> $$E(X+Y)= E(X)+E(Y)$$ </center><br>
 Als $$X$$ en $$Y$$ onafhankelijk zijn dan geldt ook:<br>
-<center> $$Var(X+Y)= Var(X)+Var(Y)$$.</center>
+<center> $$Var(X+Y)= Var(X)+Var(Y)$$</center>
 
 Het klinkt misschien ingewikkeld, maar het enige wat we doen is een nieuwe variabele definiëren die de som is van twee variabelen. De variantie vinden we via de gewone fouten propagatie regels (XX link). 
 
@@ -16,11 +16,11 @@ Stel nu dat we dit uitbreiden. En we nemen de som van $$N$$ onafhankelijk stocha
 (NB. de verwachtingswaarde is niet gelijk aan de gemeten waarde. Kijk voor dit verschil nog eens naar [basisbegrippen](/blok-1/basisbegrippen) in blok 1.) 
 
 De formule voor deze som kunnen we nu schrijven als:<br>
-<center> $$S_N = X_1 + X_2 + ... + X_N$$. <br></center>
+<center> $$S_N = X_1 + X_2 + ... + X_N$$ <br></center>
 En het gemiddelde kunnen we schrijven als <br>
-<center>$$E( \lt X_N \gt) = S_n/N$$. <br></center>
+<center>$$E( \lt X_N \gt) = S_n/N$$ <br></center>
 Als de verwachtingswaarde van een enkele stochast $$E(X_i)$$ gelijk is aan $$\mu$$ en de variantie gelijk is aan <br>
-<center>$$Var(X_i) = \sigma^2$$.<br></center>
+<center>$$Var(X_i) = \sigma^2$$<br></center>
  Dan geldt nu voor de verwachtingswaarde van de som $$E(S_N)= \mu N$$ en voor het gemiddelde $$E( &lt X_N &gt) = \mu$$. En dan geldt voor de variantie $$Var(S_N) = N \sigma^2$$ en $$Var( &lt X_N &gt) = \sigma^2/N$$. 
 Dit betekend dat de standaard deviatie van de som van de stochasten gelijk is aan $$\sigma \sqrt{N}$$ en de standaard deviatie van het gemiddelde $$\sigma / \sqrt{N}$$. 
 
