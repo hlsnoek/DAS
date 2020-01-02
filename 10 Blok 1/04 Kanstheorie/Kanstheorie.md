@@ -146,7 +146,7 @@ De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$
  
 > De verwachtingswaarde kunnen we uitrekenen met behulp van de algemene formule:
 >
-> $$\begin{aligned}\displaystyle E(x) &= \int^{\infty}_{-\infty} { x f(x) dx}\\ &= \int^b_a x\cdot \frac{1}{b-a}  dx\\ &= \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a\\ &= \frac{b^2-a^2}{2(b-a)}\\ &= \frac{a+b}{2}}\end{aligned}$$ 
+> $$\begin{aligned}\displaystyle E(x) &= \int^{\infty}_{-\infty} { x f(x) dx}\\ &= \int^b_a x\cdot \frac{1}{b-a}  dx\\ &= \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a\\ &= \frac{b^2-a^2}{2(b-a)}\\ &= \frac{a+b}{2}\end{aligned}$$ 
 >
 > De standaard deviatie berekenen we met de formule:
 > 
