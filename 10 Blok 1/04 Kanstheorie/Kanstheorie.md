@@ -13,7 +13,7 @@ Een kans van $$1$$ zegt dat het **zeker** zal gebeuren en een kans van $$0$$ dat
 Wat is de kans dat je een $$4$$ gooit als je de dobbelsteen 1 keer gooit? 
 Voor een normale dobbelsteen kunnen deze kans uitrekenen met behulp van de volgende formule: <br>
 ><br>
-> $${\displaystyle P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{Het totale aantal uitkomsten.}} = \frac{1}{6}}$$ <br>
+> $${\displaystyle P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{Het totale aantal uitkomsten}} = \frac{1}{6}}.$$ <br>
 ><br>
 > Dit is de kans voor een normale eerlijke dobbelsteen. Met eerlijk bedoelen we hier dat de dobbelsteen niet gemanipuleerd is en dat elk vlak van de dobbelsteen evenveel kans heeft om boven te eindigen. 
 ><br><br>
