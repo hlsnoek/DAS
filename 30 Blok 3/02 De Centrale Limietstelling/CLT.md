@@ -18,7 +18,7 @@ Het bewijs van deze stelling is bijzonder ingewikkeld en zullen we hier niet beh
 
 Als je goed leest staat er dat de stochasten zelf een verdeling kennen met een gemiddelde $$\mu$$ en een variantie $$\sigma^2$$. Dat is een belangrijke voorwaarde. Wiskundig kun je laten zien dat bijvoorbeeld stochasten die volgens de Cauchy of Landau verdeeld bij combinatie geen Normaal verdeling opleveren. Toch is die beperking niet heel groot. In de natuur zijn praktisch alle stochastische verdelingen beperkt en voldoen dus aan de Centrale Limietstelling.
 
-Twee leuke videos die de Centrale Limietstelling illusteren vindt kun je <a href="https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-mean/v/central-limit-theorem">hier</a> en <a href="https://www.youtube.com/watch?v=jvoxEYmQHNM">hier</a> vinden. 
+Twee leuke videos die de Centrale Limietstelling illusteren vindt kun je  <a href="https://www.youtube.com/watch?v=jvoxEYmQHNM">hier</a> en <a href="https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-mean/v/central-limit-theorem">hier</a>vinden. 
 
 De convergentie van de distributie naar de Normaal verdeling hangt af van de onderliggende stochastishe verdelingen. De ene zal eerder Normaal verdeeld zijn dan de andere.
 
