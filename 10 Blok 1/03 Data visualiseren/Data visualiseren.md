@@ -23,44 +23,44 @@ Meestal is de waarde van de twee variabelen van te voren gekozen of ingesteld en
 De waardes worden als punten of 'markers' in de grafiek of scatterplot neergezet. 
 
 
-Stel bijvoorbeeld dat we naar de gemiddelde temperatuur per maand van 1981 t/m 2014 in de Bilt willen kijken. Hieronder een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
+Stel bijvoorbeeld dat we naar de gemiddelde dagtemperatuur in de maand Decemter 2019 in de Bilt. Hieronder een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
 
-![](plot1_lijn_geenOpmaak_NoTopBot_monthscorrect.png){: width="400px"}<br>
+![](plot1_lijn_geenOpmaak.png){: width="400px"}<br>
 
 
 Je ziet dat dit niet erg duidelijk is. Het is bijvoorbeeld niet precies te zien waar de gemeten punten zitten, we hebben wel een vermoeden voor de plaatsen waarop de lijn abrupt van richting veranderd, maar wie weet zitten er nog wel meer datapunten tussen.
 
 Laten we dezelfde data eens plotten zonder lijnen maar alleen met punten: <br>
 
-![](plot2_scatter_geenOpmaak_NoTopBot_monthscorrect.png){: width ="400px"}<br>
+![](plot2_scatter_geenOpmaak.png){: width ="400px"}<br>
 
-Vanuit deze grafiek zien we dat er inderdaad veel meer datapunten zijn. Dat konden we in de lijnplot niet goed zien. We kunnen nu helaas de trend niet meer goed waarnemen. Gezien voor elke waarde van x maar 1 waarde van y kan bestaan (immers, op een bepaald tijdstip kan maar 1 temperatuur bestaan op het meetstation), is het toch beter deze als een grafiek weer te geven. 
-(XX dit plaatje fixen)
+Vanuit deze grafiek zien we waar de datapunten zijn. Dat konden we in de lijnplot niet goed zien. We kunnen nu helaas de trend niet meer goed waarnemen. Gezien voor elke waarde van x maar 1 waarde van y kan bestaan (immers, op een bepaald tijdstip kan maar 1 temperatuur bestaan op het meetstation), is het toch beter deze als een grafiek weer te geven. 
+We kiezen ervoor om zowel een lijn als markers te gebruiken. 
 
 De plot kan echter netter. Zo staan er geen labels op de assen. Nu kunnen we in dit geval wel raden welke as het jaar aangeeft en welke as de temperatuur, maar in veel gevallen is dat niet zo duidelijk. Om die reden moeten er altijd **labels op de assen** staan, zie het figuur hieronder:
 
-![](plot3_scatter_aslabels_NoTopBot_monthscorrect.png){: width="400px"}<br>
+![](plot3_grafiek_aslabel.png){: width="400px"}<br>
 
-Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, tenzij de data dan onvolledig of onleesbaar wordt**. In het geval van het weergeven van de temperaturen van 1981 t/m 2014 wordt de data bijvoorbeeld onvolledig als we de temperatuur bij nul laten beginnen, we hebben immers ook temperaturen onder het vriespunt. Daarnaast wordt de data onleesbaar als we het jaartal vanaf het jaar nul laten lopen, de datapunten voor de jaren waarin we geïnteresseerd zijn zullen dan over elkaar vallen. In het huidige geval is het dus niet van toepassing om in de oorsprong te beginnen, maar dit is bij elke dataset wel het uitgangspunt.
+Zoals je ziet hebben we het formaat van de grafiek ook aangepast zodat de distributie iets natuurlijk overkomt.
 
-De assen kunnen nog wat netter. Zo eindigt de $$x$$-as *na* de waarde $$20$$, maar het is niet helemaal duidelijk bij welke waarde precies. De $$y$$-as begint een klein stukje voor 1980 en eindigt een klein stukje na 2015. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**. Daarnaast willen we niet te veel maatstreepjes maar ook niet te weinig. In het algemeen worden **zeven maatstreepjes** aangehouden voor de goede leesbaarheid (eentje meer of minder is niet erg). In ons geval laten we het jaartal beginnen op 1980 en eindigen op 2015, daarnaast laten we de temperatuur beginnen op $$-5$$ C&deg; en eindigen op $$25$$ C&deg;. Op de $$x$$-as hebben we 8 maatstreepjes en op de $$y$$-as hebben we 7 maatstreepjes:
+Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, tenzij de data dan onvolledig of onleesbaar wordt**. In het geval van het weergeven van de temperaturen wordt de data bijvoorbeeld onvolledig als we de temperatuur bij nul laten beginnen, we hebben immers ook temperaturen onder het vriespunt. In dit geval kunnen we de horizontale as wel bij nul laten beginnen, al is dat voor datums meestal anders. 
 
-![](plot4_scatter_aslabels_startendMayorTick_NoTopBot_monthscorrect.png){: width="400px"}<br>
+De assen kunnen nog wat netter. Zo eindigt de verticale as net voor de waarde $$0$$, maar het is niet helemaal duidelijk bij welke waarde precies. De horizontale as begint een klein stukje voor 0 en eindigt een klein stukje na 30. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**.  In ons geval laten we het beginnen op de eerste dag van de maand en de laatste dag, daarnaast laten we de temperatuur beginnen op $$-2$$ C&deg; en eindigen op $$15$$ C&deg;. 
 
-Stel we willen de temperatuur in de Bilt nu weergeven t.o.v. de 'Centraal Nederland Temperatuur' (CNT). De CNT is een combinatie van vijf weerstations representatief voor het gebied tussen de steden Utrecht, Arnhem, Breda en Eindhoven. De plot ziet er als volgt uit:
+![](plot4_grafiek_aslabel_lim.png){: width="400px"}<br>
 
-![](plot5_scatter_samen.png){: width="400px"}<br>
+Stel we willen de temperatuur in de Bilt nu weergeven naast de temperaturen gemeten in Vlissingen en Maastricht . De CNT is een combinatie van vijf weerstations representatief voor het gebied tussen de steden Utrecht, Arnhem, Breda en Eindhoven. De plot ziet er als volgt uit:
 
-De kleuren zijn aangepast t.o.v. eerder. Welk van de twee series hoort bij 'de Bilt' en welke hoort bij 'Centraal Nederland'? Dat is lastig te zien vanuit de plot. Om deze reden wordt er, bij twee of meer series, een **legenda** aan de plot toegevoegd. Bovenstaande plot ziet er met legenda als volgt uit:
+![](plot5_grafieken_aslabel_lim.png){: width="400px"}<br>
 
-![](plot6_scatter_samen_metLegenda.png){: width="400px"}<br>
+We hebben ook een legenda toegevoegd zodat duidelijk is welke lijn bij welk weerstation hoort. 
 
 Tot nu toe hebben we nog geen titels toegevoegd aan de plots. Dit komt omdat dat voor verslagen en wetenschappelijke artikelen ongebruikelijk is, daar moet het onderschrift namelijk al vertellen wat er te zien is in de grafiek. In webteksten, lesteksten en presentaties kan het echter voorkomen dat een grafiek wel een titel heeft, omdat er in die context vaak geen onderschrift toegevoegd kan worden. 
 
 **Samengevat**:
 
-- Een grafiek van een dataset wordt geplot met punten. 
-- Het resultaat van een fit of een theoretisch verband wordt met een lijn geplot.
+- Een grafiek van een dataset wordt geplot met punten en evenuteel lijnen. 
+- Het resultaat van een fit of een theoretisch verband wordt met een gladde lijn geplot.
 - Bij een enkele dataset wordt geen legenda gebruikt. Als er meerdere datasets in één grafiek worden weergegeven dan is een legenda noodzakelijk.
 - Aslabels geven weer wat elke as representeert (inclusief eenheden).
 - Assen beginnen in de oorsprong. Een uitzondering kan zijn als de data heel erg ver van de oorsprong af zit.
