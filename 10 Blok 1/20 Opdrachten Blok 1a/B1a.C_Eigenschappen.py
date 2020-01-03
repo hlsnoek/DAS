@@ -14,9 +14,9 @@ def berekenEigenschappen(dataset) :
     # Bereken hier de eigenschappen
     # tip voor het vinden van de mediaan:
     #      De mediaan bevindt zich precies op helf van een gesorteerde list. ;)
-    return avg, median, var, std, skew
+    return avg, median, var, std
 
 dg = ds.genereerDistributieDG(500) 
-mean, median, var, std, skew = berekenEigenschappen(dg)
-print(mean, median, var, std,skew)
+mean, median, var, std = berekenEigenschappen(dg)
+print(mean, median, var, std)
 

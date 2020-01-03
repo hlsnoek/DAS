@@ -3,7 +3,7 @@
 De Centrale Limietstelling (Engels: Central Limit Theorem of CLT) is zonder meer de meest belangrijke stelling in de statistiek en in data analyses. 
 
 
-De **Centrale Limietstelling** zegt dat als je $$n$$ onafhankelijk stochasten $$x_i$$ hebt, waarvan elke stochast zijn eigen verdeling heeft met gemiddelde  $$\mu_i$$ en variantie $$\sigma^2_i$$ (die niet persé dezelfde hoeven te zijn) de som van deze stochasten $$\sum_j x_j$$ een normale verdeling zal volgen met het gemiddelde $$\sum_j \mu_j$$ en de variantie $$\sum_j \sigma^2_j$$. 
+>De **Centrale Limietstelling** zegt dat als je $$n$$ onafhankelijk stochasten $$x_i$$ hebt, waarvan elke stochast zijn eigen verdeling heeft met gemiddelde  $$\mu_i$$ en variantie $$\sigma^2_i$$ (die niet persé dezelfde hoeven te zijn) de som van deze stochasten $$\sum_j x_j$$ een normale verdeling zal volgen met het gemiddelde $$\sum_j \mu_j$$ en de variantie $$\sum_j \sigma^2_j$$. 
 
 
 En als de som een normale verdeling volgt, dat geldt dat ook voor het gemiddelde! 
@@ -20,6 +20,6 @@ Als je goed leest staat er dat de stochasten zelf een verdeling kennen met een g
 
 **Twee leuke videos die de Centrale Limietstelling illusteren vindt kun je  <a href="https://www.youtube.com/watch?v=jvoxEYmQHNM">hier</a> en <a href="https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-mean/v/central-limit-theorem">hier</a> vinden.** 
 
-De convergentie van de distributie naar de Normaal verdeling hangt af van de onderliggende stochastishe verdelingen. De ene zal eerder Normaal verdeeld zijn dan de andere.
+De convergentie van de distributie naar de Normaal verdeling hangt af van de onderliggende stochastishe verdelingen. 
 
 <!--XX als het lukt nog een video maken-->
