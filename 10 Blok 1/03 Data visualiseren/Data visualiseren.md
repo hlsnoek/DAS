@@ -25,21 +25,21 @@ De waardes worden als punten of 'markers' in de grafiek of scatterplot neergezet
 
 Stel bijvoorbeeld dat we naar de gemiddelde dagtemperatuur in de maand Decemter 2019 in de Bilt. Hieronder een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
 
-![](plot1_lijn_geenOpmaak.png){: width="400px"}<br>
+![](plot1_lijn_geenOpmaak.png){: width="60%"}<br>
 
 
 Je ziet dat dit niet erg duidelijk is. Het is bijvoorbeeld niet precies te zien waar de gemeten punten zitten, we hebben wel een vermoeden voor de plaatsen waarop de lijn abrupt van richting veranderd, maar wie weet zitten er nog wel meer datapunten tussen.
 
 Laten we dezelfde data eens plotten zonder lijnen maar alleen met punten: <br>
 
-![](plot2_scatter_geenOpmaak.png){: width ="400px"}<br>
+![](plot2_scatter_geenOpmaak.png){: width ="60%"}<br>
 
 Vanuit deze grafiek zien we waar de datapunten zijn. Dat konden we in de lijnplot niet goed zien. We kunnen nu helaas de trend niet meer goed waarnemen. Gezien voor elke waarde van x maar 1 waarde van y kan bestaan (immers, op een bepaald tijdstip kan maar 1 temperatuur bestaan op het meetstation), is het toch beter deze als een grafiek weer te geven. 
 We kiezen ervoor om zowel een lijn als markers te gebruiken. 
 
 De plot kan echter netter. Zo staan er geen labels op de assen. Nu kunnen we in dit geval wel raden welke as het jaar aangeeft en welke as de temperatuur, maar in veel gevallen is dat niet zo duidelijk. Om die reden moeten er altijd **labels op de assen** staan, zie het figuur hieronder:
 
-![](plot3_grafiek_aslabel.png){: width="400px"}<br>
+![](plot3_grafiek_aslabel.png){: width="90%"}<br>
 
 Zoals je ziet hebben we het formaat van de grafiek ook aangepast zodat de distributie iets natuurlijk overkomt.
 
@@ -47,11 +47,11 @@ Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, ten
 
 De assen kunnen nog wat netter. Zo eindigt de verticale as net voor de waarde $$0$$, maar het is niet helemaal duidelijk bij welke waarde precies. De horizontale as begint een klein stukje voor 0 en eindigt een klein stukje na 30. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**.  In ons geval laten we het beginnen op de eerste dag van de maand en de laatste dag, daarnaast laten we de temperatuur beginnen op $$-2$$ C&deg; en eindigen op $$15$$ C&deg;. 
 
-![](plot4_grafiek_aslabel_lim.png){: width="400px"}<br>
+![](plot4_grafiek_aslabel_lim.png){: width="90%"}<br>
 
 Stel we willen de temperatuur in de Bilt nu weergeven naast de temperaturen gemeten in Vlissingen en Maastricht . De CNT is een combinatie van vijf weerstations representatief voor het gebied tussen de steden Utrecht, Arnhem, Breda en Eindhoven. De plot ziet er als volgt uit:
 
-![](plot5_grafieken_aslabel_lim.png){: width="400px"}<br>
+![](plot5_grafieken_aslabel_lim.png){: width="90%"}<br>
 
 We hebben ook een legenda toegevoegd zodat duidelijk is welke lijn bij welk weerstation hoort. 
 
