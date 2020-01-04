@@ -16,6 +16,7 @@ In de secties hieronder behandelen we verschillende veelvoorkomende begrippen.
 ### Populatie en steekproef
 
 Een *populatie* bestaat uit alle personen/dieren/objecten binnen de groep waarin we geïnteresseerd zijn. Dit zouden bijvoorbeeld *alle* mensen in Nederland kunnen zijn tussen de 30 en 40 jaar, of *alle* lieveheersbeestjes die in Noorwegen leven. Nu is het zo dat het vaak lastig is om van *alle* personen/dieren/objecten (hierna uniform aangeduid met 'elementen') in een groep data te verzamelen. Het kost bijvoorbeeld erg veel tijd (en geld) om data te verzamelen over alle personen tussen de 30 en 40 jaar in Nederland (of om alle lieveheersbeestjes in Noorwegen te vangen). Het is dan veel makkelijker om data over een deel van deze groep te verzamelen en om zo iets te zeggen over de gehele doelgroep. Zo zouden we bijvoorbeeld data kunnen verzamelen van een willekeurige selectie van 200 personen in Nederland tussen de 30 en 40 jaar. Dit wordt een *steekproef* genoemd, de deelgroep wordt in het Engels vaak aangeduid met een *sample*. Een steekproef is dus een gedeelte van de populatie.
+Vaak is het trouwens ook niet mogenlijk om de hele populatie te meten. Denk bijvoorbeeld maar eens aan de gemiddelde massa van een ster. Dan zouden we deze meting moeten verrichten voor alle sterren in het universum.
 
 
 ### Het gemiddelde
@@ -26,9 +27,9 @@ Het gemiddelde van een dataset geeft een maat voor het centrum van de waarden di
 #### Steekproef gemiddelde
 Het is vaak onmogelijk om metingen te doen van een gehele populatie. Daarom wordt er vaak een steekproef gedaan waarbij er aselect (willekeurig) elementen uit de gewenste doelgroep worden gekozen. Uiteindelijk wordt deze steekproef dan gebruikt om iets te kunnen zeggen over de gehele populatie. Hierbij is het echter wel opletten, want de steekproef moet een representatieve doorsnede zijn van de hele populatie. De steekproef moet groot genoeg zijn en de elementen van de steekproef moeten aselect gekozen worden. Je kunt je voorstellen dat als we de lengte van drie mensen in Nederland meten, we nog niet zoveel kunnen zeggen over de lengte van de gehele populatie die bestaat uit alle mensen in Nederland. Als we de lengte van 1000 mensen zouden meten dan krijgen we al een beter beeld van de verdeling van lichaamslengte in Nederland, en kiezen we 100000 mensen dan krijgen we een nog veel beter beeld van de verdeling.
 
-Het steekproef gemiddelde $$\overline{x}$$ van een dataset is de som van de waarden $$x_1,\dots,x_n$$ in de set gedeeld door het aantal datapunten $$n$$:
+Het steekproef gemiddelde $$<{x}>$$ van een dataset is de som van de waarden $$x_1,\dots,x_n$$ in de set gedeeld door het aantal datapunten $$n$$:
 
-$$\overline{x}=\frac{1}{n}{\displaystyle \sum_{i=1}^{n}x_{i}}$$
+$$<{x}>=\frac{1}{n}{\displaystyle \sum_{i=1}^{n}x_{i}}$$
 
 Het steekproef gemiddelde wordt zo vaak gebruikt dat dit veelal wordt aangeduid als 'het gemiddelde'. 
 
@@ -37,17 +38,13 @@ Het steekproef gemiddelde wordt zo vaak gebruikt dat dit veelal wordt aangeduid 
 
 Als we metingen kunnen doen voor een **gehele populatie**, en we bepalen het gemiddelde, dan spreken we van het *populatiegemiddelde*. populatiegemiddelde wordt ook wel de *verwachtingswaarde* genoemd, deze wordt aangegeven met $$E(X)$$. 
 
-<!--Als de dataset *discreet* verdeeld is (d.w.z. dat de uitkomsten alleen 'losse' waarden aan kunnen nemen en niet alle tussenwaarden in een interval) dan wordt het populatiegemiddelde/ de verwachtingswaarde gegeven door:-->
-
-$$\mu=E(X)={\displaystyle \sum_{i=1}^{N}x_{i}\,p(x_i)} $$
-
-Hierbij is $$N$$ het aantal elementen in de populatie, $$x_i,\dots,x_n$$ zijn de uitkomsten en $$p(x_i)$$ is de kans op elke uitkomst. 
 
 Is de kans op elke uitkomst gelijk dan wordt het populatiegemiddelde gegeven door:
 
 $$\mu=E(X)= \frac{1}{N}{\displaystyle \sum_{i=1}^{N}x_{i}}$$
 
-De kans op elke uitkomst is dan immers gelijk aan $$\frac{1}{N}$$.
+
+Hierbij is $$N$$ het aantal elementen in de populatie, $$x_i,\dots,x_n$$ zijn de uitkomsten en $$p(x_i)$$ is de kans op elke uitkomst. 
 
 Je ziet dat het steekproef gemiddelde erg lijkt op de uitdrukking voor het populatiegemiddelde. Het verschil is dat het steeksproefgemiddelde niet gelijk is aan de verwachtingswaarde van de populatie. Het is wel zo dat, hoe beter de steekproef overeenkomt met de populatie, des te dichter komt het steekproef gemiddelde bij de verwachtingswaarde van de populatie. Dit geldt zowel voor steekproeven. Met behulp van een goed uitgevoerde steekproef kan het statistische gedrag van een populatie dus benaderd worden.
 
@@ -123,7 +120,7 @@ $$\sigma = \sqrt{var}$$.
 
 De variantie en standaard deviatie kunnen worden berekend met de volgende formule:
 
-$$var = \sigma^2 = \displaystyle \frac{1}{N} \sum_{i=1}^{N}(x_i - \mu)^2$$
+$$var = \sigma^2 = \displaystyle \frac{1}{N} \sum_{i=1}^{N}(x_i - <x>)^2$$
 
 Het verschil tussen de standaardafwijking en de variantie is de eenheid. De standaardafwijking heeft dezelfde eenheid als het gemiddelde terwijl de variantie de eenheid in het kwadraat heeft. Bij het rapporteren van resultaten wordt daarom vaak de standaard deviatie van een verdeling of steekproef gegeven in plaats van de variantie. In het werken met een dataset maakt het echter niet uit welk van de twee je gebruikt. Bij een meer wiskundige benadering kan het eenvoudiger zijn om met de variantie te werken omdat er dan geen sprake is van een wortel. 
 
@@ -141,9 +138,9 @@ Met $$\sigma$$ de standaardafwijking van de populatie en $$\mu$$ het populatiege
 
 De steekproef variantie $$\hat{c_v}$$ wordt gegeven door:
 
-$$\hat{c_v} = \frac{s}{\overline{x}}$$
+$$\hat{c_v} = \frac{s}{<x>}$$
 
-Met $$s$$ de standaardafwijking van de steekproef en $$\overline{x}$$ het steekproef gemiddelde.
+Met $$s$$ de standaardafwijking van de steekproef en $$<{x}>$$ het steekproef gemiddelde.
 
 Het verschil met de variantie en de standaardafwijking is dat de variatiecoëfficiënt dimensieloos is. Dit is bijvoorbeeld handig als er meerdere datasets vergeleken moeten worden die verschillende eenheden hebben. Ook als de gemiddelde waarden van verschillende datasets erg uiteen liggen is het beter om de variatiecoëfficiënt te gebruiken i.p.v. de standaardafwijking.
 
