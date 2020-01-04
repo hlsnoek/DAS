@@ -195,7 +195,9 @@ De Poisson is discrete verdelingsfunctie die, in veel gevallen, de onzekerheid w
 $${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}.$$
 
 De Poisson kent, in tegenstelling tot de binomiaal dus maar 1 parameter.
-De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de standaard deviatie is ook $$\lambda$$. Het is dus een bijzondere vergelijking!
+De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de standaard deviatie is ook $$\lambda$$. De onzekerheid op een stochast, als deze de Poisson statistiek volgt, is gelijk aan de standaard deviatie: $$\sigma = \sqrt{\text{var}} = 1/\sqrt{\lamda}$$.
+
+Het is dus een bijzondere vergelijking!
 Hieronder zie hoe de Poisson distributie eruit ziet voor verschillende waardes van $$\lambda$$.
 
 ![](PoissonDistributie.png){:width="80%"}

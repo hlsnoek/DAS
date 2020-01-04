@@ -3,7 +3,7 @@
 # Code for Data Analyse en Statistiek course
 
 from random import seed
-from random import random
+import random
 import os
 import math
 import numpy as np

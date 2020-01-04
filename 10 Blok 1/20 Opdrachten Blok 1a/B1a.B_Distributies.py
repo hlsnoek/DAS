@@ -5,8 +5,8 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
+import random
 from random import seed
-from random import random
 import math as math
 
 def poisson(k, lamda) :

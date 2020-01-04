@@ -11,7 +11,7 @@ In dit blok gaan we werken aan vier opdrachten.
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 
 
-De antwoorden van de opdrachten moet je invoeren in [dit](InlevertemplateBlok1a.docx) template en als **pdf** bestand inleveren via ANS. De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/start/inleveropdrachten) vinden.
+De antwoorden van de opdrachten moet je invoeren in [dit template](InlevertemplateBlok1a.docx) en als **pdf** bestand inleveren via ANS. De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/start/inleveropdrachten) vinden.
 
 
 Als je vragen hebt, stel deze dan aan de assistent of stuur een email naar de coördinator.

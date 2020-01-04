@@ -6,7 +6,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from random import seed
-from random import random
+import random
 import math as math
 import DAS_DatasetGenerator as ds
 

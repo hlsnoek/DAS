@@ -36,8 +36,8 @@
 **5** We hebben een zak met gekleurde snoepjes met een tekst erop. Er zijn 6 blauwe snoepjes en 4 rode. Er bestaan drie teksten: "Joepie", "Hoera!" en "Gefeliciteerd". De kans verdeling onder de rode snoepjes is P(Joepie) = 0.5 en P(Hoera) = 0.5. Er zijn geen rode snoepjes met gefeliciteerd. <br>
 **a** Als je een snoepje uit de zak pakt, wat is de kans dat je een rood snoepje pakt?<br>
 <span style = "color: blue">4/10 = 0.4 </span><br>
-**b** Als je een snoepje uit de zak pakt, wat is dan de kans dat je een rood snoepje pakt met de tekst Gefeliciteerd?<br>
-<span style = "color: blue">P(rood,gefeliciteerd) = 0.4 x 0.5 = 0.2 </span>
+**b** Als je een snoepje uit de zak pakt, wat is dan de kans dat je een rood snoepje pakt met de tekst Joepie?<br>
+<span style = "color: blue">P(rood,joepie) = 0.4 x 0.5 = 0.2 </span>
 
 -----
 

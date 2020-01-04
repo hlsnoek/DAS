@@ -31,7 +31,7 @@ Lees goed het [lijstje](/tussentoets-i/inhoud) door ter voorbereiding voor de tu
 
 **5** We hebben een zak met gekleurde snoepjes met een tekst erop. Er zijn 6 blauwe snoepjes en 4 rode. Er bestaan drie teksten: "Joepie", "Hoera!" en "Gefeliciteerd". De kans verdeling onder de rode snoepjes is P(Joepie) = 0.5 en P(Hoera) = 0.5. Er zijn geen rode snoepjes met gefeliciteerd. <br>
 **a** Als je een snoepje uit de zak pakt, wat is de kans dat je een rood snoepje pakt?<br>
-**b** Als je een snoepje uit de zak pakt, wat is dan de kans dat je een rood snoepje pakt met de tekst Gefeliciteerd?<br>
+**b** Als je een snoepje uit de zak pakt, wat is dan de kans dat je een rood snoepje pakt met de tekst Joepie?<br>
 
 -----
 
