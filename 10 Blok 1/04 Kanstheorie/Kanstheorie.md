@@ -28,7 +28,7 @@ Voor een normale dobbelsteen kunnen deze kans uitrekenen met behulp van de volge
 ><br>
 > $${\displaystyle P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}}$$.
 
-De algemene formule voor de **Frequentist definitie** van kans is: <br>
+De algemene formule voor de **Frequentist definitie** van kans is: <br><br>
 $${\displaystyle P(\text{uitkomst A}) = \lim_{n \to \infty} \frac{\text{uitkomst A}}{n}}.$$<br><br>
 Waarbij we n metingen hebben verricht. 
 
