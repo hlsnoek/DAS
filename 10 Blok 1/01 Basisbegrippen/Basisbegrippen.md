@@ -120,7 +120,7 @@ $$\sigma = \sqrt{var}$$.
 
 De variantie en standaard deviatie kunnen worden berekend met de volgende formule:
 
-$$var = \sigma^2 = \displaystyle \frac{1}{N} \sum_{i=1}^{N}(x_i - <x>)^2$$
+$$var = \sigma^2 = \displaystyle \frac{1}{N} \sum_{i=1}^{N}(x_i - <{x}>)^2$$
 
 Het verschil tussen de standaardafwijking en de variantie is de eenheid. De standaardafwijking heeft dezelfde eenheid als het gemiddelde terwijl de variantie de eenheid in het kwadraat heeft. Bij het rapporteren van resultaten wordt daarom vaak de standaard deviatie van een verdeling of steekproef gegeven in plaats van de variantie. In het werken met een dataset maakt het echter niet uit welk van de twee je gebruikt. Bij een meer wiskundige benadering kan het eenvoudiger zijn om met de variantie te werken omdat er dan geen sprake is van een wortel. 
 
@@ -138,7 +138,7 @@ Met $$\sigma$$ de standaardafwijking van de populatie en $$\mu$$ het populatiege
 
 De steekproef variantie $$\hat{c_v}$$ wordt gegeven door:
 
-$$\hat{c_v} = \frac{s}{<x>}$$
+$$\hat{c_v} = \frac{s}{<{x}>}$$
 
 Met $$s$$ de standaardafwijking van de steekproef en $$<{x}>$$ het steekproef gemiddelde.
 
