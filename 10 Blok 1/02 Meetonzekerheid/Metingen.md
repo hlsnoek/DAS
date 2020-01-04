@@ -16,6 +16,8 @@ Als we iets meten is dat meestal omdat we een bepaalde grootheid willen meten. V
 We doen ook metingen om bepaalde hypothesis te ontkrachten of juist bevestigen. Maar ook als we een hypothese testen zijn er onderliggende grootheden (vaak meerdere tegelijk) die we meten en vergelijken met voorspelde waardes. 
 
 Het is belangrijk om te begrijpen dat we meestal te maken hebben met een fout op de gemeten grootheid. **Hoe groot die fout is kunnen we niet weten, wel kunnen we de meetonzekerheid in kaart proberen te brengen.** Die onzekerheid kan grofweg twee oorzaken hebben. Onzekerheden die komen door de meetmethode en onzekerheden met een natuurlijke oorzaak.
+Technisch gezien is er dus een verschil tussen de fout en de onzekerheid van de meting. In de praktijk gebruiken we vaak het woord fout ook voor de onzekerheid. Toch is het goed om even stil te staan bij het technishe verschil.
+
 
 ###Meetfouten
 De eerste oorzaak is dat we een fout maken bij de meting. Een fout betekend hier niet dat we iets verkeerds doen. Het betekend dat we met onze meting een waarde vinden die afwijkt van de echte waarde. De afwijking noemen we een meetfout. Helaas weten we nooit hoe groot de meetfout exact is, maar vaak kunnen we hem wel goed inschatten. De meetfout wordt beïvloedt door de meetmethode. Voorbeelden hiervan zijn: 
