@@ -75,7 +75,7 @@ Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. We trekken
 
 > <span class="badge badge-warning">Voorbeeld 1</span>** behoud van kans:** <br>
 * De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
-* De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een rode kaart te trekken (1-1/2 = 1/2)
+* De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een rode kaart te trekken (1-1/2 = 1/2).
 
 > <span class="badge badge-warning">Voorbeeld 2</span> **groter dan nul:** <br>
 * Voor elke kaart in het dek is er een kans dat je hem trekt. 
@@ -98,29 +98,29 @@ Een **stochast** is een variable waarvan de waarde van een toevalsproces afhangt
 Of als je een met een dobbelsteen gooit dan is de uitkomst van de worp een stochast. Het engelse woord (random variable) is misschien bekender. 
 
 ### Kansdichtheidsfuncties
-Stochasten zijn een handig middel bij het beschrijven van experimenten. We gaan hieronder een aantal vaak voorkomende distributies van stochastische variabelen bekijken. De distributies laten zien wat de kans is dat een bepaalde stochastishe waarde wordt gevonden. Het is dus een verdeling van kansen. Deze verdelingen noemen we **kansdichtheidsfuncties** (Engels: probability density function of pdf). Een kansdichtheidsfunctie, $$f(x)$$, zegt dat de kans dat een variabele $$x$$ gevonden wordt in een gebied $$[x,x+dx]$$ gelijk is aan $$f(x)dx$$. <br>
+Stochasten zijn een handig middel bij het beschrijven van experimenten. We gaan hieronder een aantal vaak voorkomende distributies van stochastische variabelen bekijken. De distributies laten zien wat de kans is dat een bepaalde stochastishe waarde wordt gevonden. Het is dus een verdeling van kansen. Deze verdelingen noemen we **kansdichtheidsfuncties** (Engels: probability density function of PDF). Een kansdichtheidsfunctie, $$f(x)$$, zegt dat de kans dat een variabele $$x$$ gevonden wordt in een gebied $$[x,x+dx]$$ gelijk is aan $$f(x)dx$$. <br>
 De kans dat we $$x$$ terugvinden in een interval $$[a,b]$$ is gelijk aan: <br>
-$${\displaystyle P(a\leq x \leq b) = \int_a^b f(x) dx}$$.
+$${\displaystyle P(a\leq x \leq b) = \int_a^b f(x) dx}.$$
 
 Er zijn **twee belangrijke voorwaardes** aan een kansdichtheidsfuncties die je misschien bekend zullen voorkomen: <br>
 1. De kans kan nergens kleiner dan nul zijn in het uitkomstengebied. <br>
 2. De kansdichtheidsdistributie moet genormaliseerd zijn op 1. <br>
 In formule notatie: $$f(x) \geq 0$$ en $$\int^\infty_{-\infty} f(x) dx =1$$.
 
-Wellicht komt dit allemaal wat abstract over en helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsfuncties (ook wel PDFs). Er zijn veel meer kansdichtheidsfuncties gedefinieerd, kijk bijvoorbeeld maar eens naar [deze](https://en.wikipedia.org/wiki/List_of_probability_distributions) lijst op wikipedia. 
+Wellicht komt dit allemaal wat abstract over en helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsfuncties (ook wel PDFs). Er zijn veel meer kansdichtheidsfuncties gedefinieerd, kijk bijvoorbeeld maar eens naar [deze](https://en.wikipedia.org/wiki/List_of_probability_distributions) lijst op Wikipedia. 
 
 Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaard deviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](/blok-1/basisbegrippen), voor dichtheidsfuncties zien ze er net iets anders uit dan voor datasets. 
 
 ### Verwachtingswaarde en standaard deviatie
 Voor **discrete** verdelingen gelden de volgende vergelijkingen:
 
-* de verwachtingswaarde: $${\displaystyle &lt\!x\! &gt = E(x) = { \sum_i x_i P(x_i) } }$$,<br>
-* de standaard deviatie: $${\displaystyle \sigma^2 = \sum_i (x_i - &lt\! x\! &gt)^2 P(x_i)}$$.<br>
+* de verwachtingswaarde: $${\displaystyle &lt\!x\! &gt = E(x) = { \sum_i x_i P(x_i) } },$$<br>
+* de standaard deviatie: $${\displaystyle \sigma^2 = \sum_i (x_i - &lt\! x\! &gt)^2 P(x_i)}.$$<br>
 
 Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br>
 
-* de verwachtingswaarde: $$ &lt\! x\! &gt = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx}$$,<br>
-* de standaard deviatie: $${\displaystyle \sigma^2 = &lt\! x^2\! &gt - {&lt\! x\! &gt}^2 = \int^{\infty}_{-\infty} (x - &lt\! x\! &gt)^2 f(x) dx }$$.
+* de verwachtingswaarde: $$ &lt\! x\! &gt = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx},$$<br>
+* de standaard deviatie: $${\displaystyle \sigma^2 = &lt\! x^2\! &gt - {&lt\! x\! &gt}^2 = \int^{\infty}_{-\infty} (x - &lt\! x\! &gt)^2 f(x) dx }.$$
 
 **NB** Er zijn verschillende schrijfwijze voor het gemiddelde $$\mu, &lt\! x \! &gt$$ en $$E(x)$$. Het symbool $$\mu$$ is meestal voorbehouden aan het gemiddelde van de populatie, dat wil zeggen het *echte* gemiddelde. Het gemiddelde van de steekproef is $$&lt\! x\! &gt$$, je hoopt dus dat die dicht bij het populatiegemiddelde $$\mu$$ ligt. De verwachtingswaarde $$E(x)$$ is de waarde die je verwacht te gaan meten. Deze kan je met simulaties benaderen. De verschillen worden pas echt duidelijk als je er al een tijdje mee werkt. We zullen het niet fout rekenen als je een vergissing maakt in de notatie, maar we proberen het hier wel netjes op te schrijven. 
 In deze vergelijkingen is het in elk geval ook handig om $$E(x)$$ of $$&lt\! x \! &gt$$ te schrijven.  $$E(x)^2$$ is, net als $$ &lt\! x \! &gt^2$$, het kwadraat van de verwachtingswaarde van $$x$$. $$E(x^2)$$ is, net als $$ &lt\! x^2 \! &gt$$ de verwachtingswaarde van $$x^2$$. 
@@ -130,7 +130,7 @@ In deze vergelijkingen is het in elk geval ook handig om $$E(x)$$ of $$&lt\! x \
 
 ### Uniform
 <a name="Uniform"></a>
-De uniforme distributie is een vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast $$i$$, $$P({i})$$, gevonden kan worden met de relatie: $$P({i}) = 1/N$$<br>
+De uniforme distributie is een vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast $$i$$, $$P({i})$$, gevonden kan worden met de relatie: $$P({i}) = 1/N$$.<br>
 Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt uit:
 
 ![](UniformeDistributieDobbelsteen.png){:width="80%"}
@@ -149,11 +149,11 @@ De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$
  
 > De verwachtingswaarde kunnen we uitrekenen met behulp van de algemene formule:
 >
-> $$\begin{aligned}\displaystyle E(x) &= \int^{\infty}_{-\infty} { x f(x) dx}\\ &= \int^b_a x\cdot \frac{1}{b-a}  dx\\ &= \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a\\ &= \frac{b^2-a^2}{2(b-a)}\\ &= \frac{a+b}{2}\end{aligned}$$ 
+> $$\begin{aligned}\displaystyle { E(x) &= \int^{\infty}_{-\infty} { x f(x) dx} =  \int^b_a x\cdot \frac{1}{b-a}  dx\\ &= \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a = \frac{b^2-a^2}{2(b-a)}\\ &= \frac{a+b}{2} }\end{aligned}.$$ 
 >
 > De standaard deviatie berekenen we met de formule:
 > 
-> $$\begin{aligned}\displaystyle \sigma^2 &= \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx \\ &= \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx \\ &= \frac{1}{12} \cdot \frac{(b-a)^3}{b-a}\\ &= \frac{(b-a)^2}{12}\end{aligned}$$
+> $$\begin{aligned}\displaystyle{ \sigma^2 &= \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx = \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx \\ &= \frac{1}{12} \cdot \frac{(b-a)^3}{b-a} = \frac{(b-a)^2}{12} }\end{aligned}.$$
 >
 > Dit geeft de vergelijking voor de standaard deviatie: $$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
 

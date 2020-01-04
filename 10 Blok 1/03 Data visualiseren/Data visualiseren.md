@@ -45,11 +45,11 @@ Zoals je ziet hebben we het formaat van de grafiek ook aangepast zodat de distri
 
 Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, tenzij de data dan onvolledig of onleesbaar wordt**. In het geval van het weergeven van de temperaturen wordt de data bijvoorbeeld onvolledig als we de temperatuur bij nul laten beginnen, we hebben immers ook temperaturen onder het vriespunt. In dit geval kunnen we de horizontale as wel bij nul laten beginnen, al is dat voor datums meestal anders. 
 
-De assen kunnen nog wat netter. Zo eindigt de verticale as net voor de waarde $$0$$, maar het is niet helemaal duidelijk bij welke waarde precies. De horizontale as begint een klein stukje voor 0 en eindigt een klein stukje na 30. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**.  In ons geval laten we het beginnen op de eerste dag van de maand en de laatste dag, daarnaast laten we de temperatuur beginnen op $$-2$$ C&deg; en eindigen op $$15$$ C&deg;. 
+De assen kunnen nog wat netter. Zo eindigt de verticale as net voor de waarde $$0$$, maar het is niet helemaal duidelijk bij welke waarde precies. De horizontale as begint een klein stukje voor 0 en eindigt een klein stukje na 30. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**.  In ons geval laten we het beginnen op de eerste dag van de maand en de laatste dag, daarnaast laten we de temperatuur beginnen op $$-2$$ C&deg; en eindigen op $$16$$ C&deg;. 
 
 ![](plot4_grafiek_aslabel_lim.png){: width="100%"}<br>
 
-Stel we willen de temperatuur in de Bilt nu weergeven naast de temperaturen gemeten in Vlissingen en Maastricht . De CNT is een combinatie van vijf weerstations representatief voor het gebied tussen de steden Utrecht, Arnhem, Breda en Eindhoven. De plot ziet er als volgt uit:
+Stel we willen de temperatuur in de Bilt nu weergeven naast de temperaturen gemeten in Vlissingen en Maastricht. De grafiek ziet er dan zo uit:
 
 ![](plot5_grafieken_aslabel_lim.png){: width="100%"}<br>
 
@@ -64,7 +64,7 @@ Tot nu toe hebben we nog geen titels toegevoegd aan de plots. Dit komt omdat dat
 - Bij een enkele dataset wordt geen legenda gebruikt. Als er meerdere datasets in één grafiek worden weergegeven dan is een legenda noodzakelijk.
 - Aslabels geven weer wat elke as representeert (inclusief eenheden).
 - Assen beginnen in de oorsprong. Een uitzondering kan zijn als de data heel erg ver van de oorsprong af zit.
-- Een as begint en eindigt op een groot maatstreepje met een waarde ('major tick') en niet op een klein maatstreepje of een maatstreep zonder getal.
+- Een as begint en eindigt op een groot maatstreepje met een waarde ('major tick') en niet op een klein maatstreepje of een maatstreep zonder getal. Tenzij er een heel goede reden is om hiervan af te wijken. (Zoals in het geval hierboven.) 
 - Een grafiek voor een wetenschappelijk artikel of een verslag heeft geen titel. Een grafiek voor webteksten of lesmateriaal heeft over het algemeen wel een titel.
 - Als je de onzekerheid weet op de variabelen dan is het goed om deze ook weer te geven in je plot. Tenzij deze heel onoverzichtelijk wordt (zoals in een scatterplot met heel veel punten).
 
@@ -136,7 +136,7 @@ De naamgeving 'plt' met het commando `as plt` is optioneel, maar wel handig omda
 ###Voorbeeld: een grafiek plotten
 Stel we hebben de hoogte van een vallende bal gemeten als functie van de tijd. In de tabel hieronder is de gemeten data weergegeven:
 
-| t(s) | 0.0 | 0.5 | 1.0 | 1.5 | 2.0 | 2.5 | 3.0 | 3.5 | 4.0 | 4.5 | 5.0 | 5.5 | 6.0 |
+| t (s) | 0.0 | 0.5 | 1.0 | 1.5 | 2.0 | 2.5 | 3.0 | 3.5 | 4.0 | 4.5 | 5.0 | 5.5 | 6.0 |
 | --- | ---| --- |--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | h(cm) | 180.0 | 178.8 | 175.1 | 169.0 | 160.4 | 149.3 | 135.9 | 120.0 | 102.0 | 80.7 | 57.4 | 31.6 | 3.4 |
 
@@ -163,7 +163,7 @@ De limiet van de assen kunnen we aangeven met de commando's `plt.xlim` en `plt.y
 
 Labels voor de assen kunnen we als volgt specificeren:
 
-    plt.xlabel('t(s)')
+    plt.xlabel('t (s)')
     plt.ylabel('h (cm)')
     
 Het resultaat is:
@@ -180,7 +180,7 @@ De volledige code tot nu toe is:
     plt.plot(t_data, h_data, 'ro')    
     plt.xlim(0,7)
     plt.ylim(0,200)
-    plt.xlabel('t(s)')
+    plt.xlabel('t (s)')
     plt.ylabel('h (cm)')
 
 Als we nu nog een dataset hebben, bijvoorbeeld van dezelfde bal die vanaf een hoogte van 160 cm valt in plaats van een hoogte van 180 cm:
@@ -233,7 +233,7 @@ De volledige code tot nu toe is:
     plt.plot(t_data2, h_data2, 'bo', label='h(0) = 160 cm')
     plt.xlim(0,7)
     plt.ylim(0,200)
-    plt.xlabel('t(s)')
+    plt.xlabel('t (s)')
     plt.ylabel('h (cm)')
     
     # legenda toevoegen

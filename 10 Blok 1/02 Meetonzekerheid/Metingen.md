@@ -34,9 +34,9 @@ Dan moeten we de waarde op de lineaal afmeten. Als we naar de bovenstaande situa
 
 * **De snelheid van het licht.** De lichtsnelheid kun je op verschillende manieren meten. Maar hoe je het ook meet, je zult zeer nauwkeurige tijds- en lengte metingen nodig hebben. Als je de lichtsnelheid in vacuum wilt bepalen zul je ook nog eens zeer goede conditie van je vacuum nodig hebben òf hiervoor moeten corrigeren. Er zijn vele bronnen van onnauwkeurigheid in dit experiment die je goed zult moeten controleren.
 
-###Onzekerheden met natuurlijk oorzaak
+###Onzekerheden met natuurlijke oorzaak
 
-De tweede categorie onzekerheden hebben een andere oorzaak. De grootheid zelf kan ook een spreiding kennen. Je kan hierbij denken aan toevalligheden in een productieproces maar ook door bijvoorbeeld kansprocessen in de quantummechanica. We bekijken nogmaals de voorbeelden.
+De tweede categorie onzekerheden hebben een andere oorzaak. De grootheid zelf kan ook een spreiding kennen. Je kan hierbij denken aan toevalligheden in een productieproces maar ook door bijvoorbeeld kansprocessen in de kwantummechanica. We bekijken nogmaals de voorbeelden.
 
 * **Het aantal knikkers in een pot.** Stel dat de pot een onnemelijk aantal knikkers heeft. Dan wordt het een monnikenwerk om ze allemaal met de hand te tellen. Een goede methode zou dan zijn om de pot te wegen. Als we nu het gewicht van de pot en het gewicht van een knikker weten dan kunnen we uitrekenen hoeveel knikkers er in de pot zitten. Behalve de meetfouten die we maken bij de weging kan er ook een onzekerheid komen in de meting van het aantal, doordat er een spreiding is in knikkergewichten. Niet iedere knikker is precies even zwaar.
 
@@ -54,11 +54,11 @@ Goed nadenken over de opzet van een experiment is belangrijk en kan grote onnauw
 
 Een voorbeeld is een keukeninstallateur die een werkblad voor een keuken moet opleveren. De installateur zal een goede meting moeten doen van de lengte van het werkblad die hij nodig heeft. Als hij een werkblad aanlevert dat uiteindelijk 2 cm te kort is past het blad niet, maar is de ruimte op te vullen met een kitrandje. Als het keukenblad 3 mm te lang is zal het ook niet passen, en moet het keukenblad weer op maat gemaakt worden. In beide gevallen is er extra werk nodig om de keuken goed op te leveren.
 
-Zo werkt het natuurlijk ook bij natuurkundige experimenten. Als je een meting wilt doen zul je eerst goed moeten kijken hoe nauwkeurig het resultaat moet zijn. Wil je een hypothese weerleggen die voorspelt dat een hyperfijn structuur in de spectraallijn van een atoom 1nm vergroot, dan zul je ook de gevoeligheid moeten halen om dat te kunnen meten. 
+Zo werkt het natuurlijk ook bij natuurkundige experimenten. Als je een meting wilt doen zul je eerst goed moeten kijken hoe nauwkeurig het resultaat moet zijn. Wil je een hypothese weerleggen die voorspelt dat een hyperfijn structuur in de spectraallijn van een atoom 1 nm vergroot, dan zul je ook de gevoeligheid moeten halen om dat te kunnen meten. 
 
 We onderscheiden meestal **systematische onzekerheid**, **statistische onzekerheid** en **theoretische onzekerheid**. 
 
-**Systematische onzekerheden** hangen af van de meetopstelling en zijn niet te voorkomen, tenzij we de meetopstelling verbeteren. Een enkele bron van een systematische fout is eenzijdig, dat wil zeggen dat de gemeten waarde consequent te hoog of te laag uitvalt door calibratie fouten van de meetinstrumenten. Vaak zijn er in een experiment combinaties van systematische onzekerheden waardoor de gemeten waarde zowel te hoog als te laag kan uitvallen. Systematische onzekerheden zijn lastig te vinden in analyses en zijn vooral te voorkomen door kritisch te kijken naar de meetopstelling. Een systematische fout kunnen we bijvoorbeeld verbeteren door het blokje hout uit het voorbeeld met een schuifmaat te meten, zo kunnen we de meetonzekerheid verkleinen tot een tiende van een millimeter. We kunnen zorgen dat de tanden van de radartjes uit het voorbeeld van de meting van de lichtsnelheid, heel gelijk zijn. 
+**Systematische onzekerheden** hangen af van de meetopstelling en zijn niet te voorkomen, tenzij we de meetopstelling verbeteren. Een enkele bron van een systematische fout is eenzijdig, dat wil zeggen dat de gemeten waarde consequent te hoog of te laag uitvalt door calibratie fouten van de meetinstrumenten. Vaak zijn er in een experiment combinaties van systematische onzekerheden waardoor de gemeten waarde zowel te hoog als te laag kan uitvallen. Systematische onzekerheden zijn lastig te vinden in analyses en zijn vooral te voorkomen door kritisch te kijken naar de meetopstelling. Een systematische fout kunnen we bijvoorbeeld verbeteren door het blokje hout uit het voorbeeld met een schuifmaat te meten, zo kunnen we de meetonzekerheid verkleinen tot een tiende van een millimeter. We kunnen zorgen dat de tanden van de radartjes uit het voorbeeld van de meting van de lichtsnelheid heel gelijk zijn. 
 
 **Statistische onzekerheden** zijn reduceerbaar door het experiment te herhalen. Bijvoorbeeld kunnen we tijdens een langer interval het aantal tellingen meten in het levensduur van Cesium-131 experiment. De relatieve fout op de telling zal dan kleiner worden en daarmee ook de uiteindelijk onzekerheid op de levensduur meting. 
 
@@ -165,7 +165,7 @@ $$\text{gemeten waarde van }x = x_{best} \pm \Delta x$$
 
 Wat je ook tegen kunt komen is dat de fout tussen haakjes wordt gezet achter de decimalen waar de fout van invloed op is. Hebben we bijvoorbeeld 
 
-$$ 1.456 \pm 0.04$$
+$$ 1.456 \pm 0.004$$
 
 dan kunnen we dit ook noteren als:
 
