@@ -29,7 +29,7 @@ Voor een normale dobbelsteen kunnen deze kans uitrekenen met behulp van de volge
 > $${\displaystyle P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}}$$.
 
 De algemene formule voor de Frequentist definitie van kans is: 
-$${\displaystyle P(\text{uitkomst A}) = \lim_{n \to \infty} \frac{\text{uitkomst A}}{n}}.$$
+$${\displaystyle P(\text{uitkomst A}) = \lim_{n \to \infty} \frac{\text{uitkomst A}}{n}}.$$<br>
 Waarbij we n metingen hebben verricht. 
 
 De Frequentist definitie voor kans is een goede manier om kansen te berekenen. Het kent echter twee grote beperkingen. De eerste is dat we eigenlijk nooit een oneindig aantal metingen kunnen doen. Dit is goed te benaderen door gewoon een heel groot aantal metingen te doen. De tweede beperking is dat niet alle experimenten herhaalbaar zijn. 
