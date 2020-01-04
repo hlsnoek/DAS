@@ -14,7 +14,7 @@ Om de cursus tot een goed einde te brengen, verwachten we dat je:
 - alle werkgroepen bijwoont,
 - alle uren aanwezig bent in het lab,
 - alle opdrachten volledig uitgewerkt instuurt,
-- alle drie de tussentoetsen maakt en haalt.
+- alle drie de tussentoetsen maakt.
 
 
 ## Hoorcolleges

@@ -7,6 +7,7 @@ Tijdens de werkcolleges werken we aan verschillende opdrachten. Hieronder vind j
 |------|-------|------|------|-------|------|------|-------|
 |werkcolleges | WC1, WC2 | WC 3 | WC 4, WC 5 | WC 6, WC 7 | WC 8 |
 |deadlines | za 11 jan 20:00 | wo 15 jan 24:00 | za 18 jan 20:00 | za 25 jan 20:00 | za 1 feb 20:00 |
+|gewicht| 2 | 1 | 2 | 2 | 1 |
 
 
 ### Inleveren werkcollege opdrachten
