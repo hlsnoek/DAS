@@ -34,14 +34,14 @@ Laten we dezelfde data eens plotten zonder lijnen maar alleen met punten: <br>
 
 ![](plot2_scatter_geenOpmaak.png){: width="60%"}
 
-Vanuit deze grafiek zien we waar de datapunten zijn. Dat konden we in de lijnplot niet goed zien. We kunnen nu helaas de trend niet meer goed waarnemen. Gezien voor elke waarde van x maar 1 waarde van y kan bestaan (immers, op een bepaald tijdstip kan maar 1 temperatuur bestaan op het meetstation), is het toch beter deze als een grafiek weer te geven. 
+Vanuit deze grafiek zien we waar de datapunten zijn. Dat konden we in de lijnplot niet goed zien. We kunnen nu helaas de trend niet meer goed waarnemen. Omdat er op een dag maar één gemiddelde gemeten temperatuur kan bestaan, is het toch beter deze als een grafiek weer te geven. 
 We kiezen ervoor om zowel een lijn als markers te gebruiken. 
 
 De plot kan echter netter. Zo staan er geen labels op de assen. Nu kunnen we in dit geval wel raden welke as het jaar aangeeft en welke as de temperatuur, maar in veel gevallen is dat niet zo duidelijk. Om die reden moeten er altijd **labels op de assen** staan, zie het figuur hieronder:
 
 ![](plot3_grafiek_aslabel.png){: width="100%"}<br>
 
-Zoals je ziet hebben we het formaat van de grafiek ook aangepast zodat de distributie iets natuurlijk overkomt.
+Zoals je ziet hebben we het formaat van de grafiek ook aangepast zodat de distributie iets natuurlijker overkomt.
 
 Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, tenzij de data dan onvolledig of onleesbaar wordt**. In het geval van het weergeven van de temperaturen wordt de data bijvoorbeeld onvolledig als we de temperatuur bij nul laten beginnen, we hebben immers ook temperaturen onder het vriespunt. In dit geval kunnen we de horizontale as wel bij nul laten beginnen, al is dat voor datums meestal anders. 
 
@@ -83,12 +83,11 @@ Hierboven zie je een **staafdiagram** die de hoeveelheid autos in Nederland laat
 
 Hierboven zie je een **histogram** die de inkomensverdeling in Nederland laat zien. 
 
-Er is een belangrijk verschil tussen een staafdiagram en een histogram. Een staafdiagram laat de frequentie zien voor *discrete* verdelingen. Een histogram wordt gebruikt om het resultaat van een *continue* verdeling mee weer te geven.
+Er is een belangrijk verschil tussen een staafdiagram en een histogram. Een staafdiagram laat de frequentie zien voor *gecategoriseerde* verdelingen. Een histogram wordt gebruikt om het resultaat van een *numeriek sorteerbare* verdeling mee weer te geven.
 
 Bij het weergeven van data in een histogram wordt de data gegroepeerd in intervallen. De breedte van de staven (in het vervolg 'bins' genoemd) geeft de breedte van de intervallen. 
 
-Bij een staafdiagram kun je de frequentie direct aflezen; voor één categorie lees je op de as af hoe vaak deze voorkomt. Voor een histogram lees je de frequentie af voor de gesommeerde data in een interval, het interval is de breedte van de bin. 
-
+Bij een staafdiagram kun je de frequentie direct aflezen; voor één categorie lees je op de as af hoe vaak deze voorkomt. Voor een histogram is de frequentie gelijk aan het oppervlakte van de balken, en dus afhankelijk van de binbreedte.
 
 #### Breedte van de bins bij een histogram
 
@@ -129,7 +128,7 @@ Bij het bepalen van het optimale aantal bins en de optimale binbreedte is het be
 	* Een histogram gebruik je voor variabelen die numeriek geordend kunnen worden, zoals bijvoorbeeld variabelen met integer of continue waardes.
 
 2.  Als je de relatie tussen twee variabelen wilt tonen kies je voor een grafiek of een scatter plot. 
-	*	Je gebruikt een grafiek als de afhankelijke variabele (meestal de langs de x-as) unieke waardes kent. Dus voor een bepaalde waarde van x is maar één uitkomst van y mogelijk. Andersom zijn er wellicht meerdere waardes voor x voor een bepaalde gemeten grootheid y. Bijvoorbeeld de gemeten temperatuur om 12 uur 's middags op een bepaalde lokatie. Er kan maar 1 Temperatuur bestaan.
+	*	Je gebruikt een grafiek als de afhankelijke variabele (meestal de langs de x-as) unieke waardes kent. Dus voor een bepaalde waarde van x is maar één uitkomst van y mogelijk. Andersom zijn er wellicht meerdere waardes voor x voor een bepaalde gemeten grootheid y. Bijvoorbeeld de gemeten temperatuur om 12 uur 's middags op een bepaalde lokatie. Er kan maar 1 gemeten temperatuur bestaan.
 	*  Je gebruikt een scatterplot als er geen unieke waarde is per afhankelijke variabele. Bijvoorbeeld als je de lengte van een student meet in relatie met de leeftijd. Er zijn waarschijnlijk meerdere studenten met dezelfde leeftijd in de groep die hoogstwaarschijnlijk in lengte van elkaar verschillen.
 
 	
