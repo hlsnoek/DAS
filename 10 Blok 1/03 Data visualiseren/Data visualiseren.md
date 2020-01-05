@@ -122,6 +122,18 @@ Bij het bepalen van het optimale aantal bins en de optimale binbreedte is het be
 * Natuurlijk moeten bij histogrammen en staafdiagrammen ook netjes aslabels worden gebruikt.
 * Als je meer dan één dataset laat zien maak dan gebruik van een legenda.
 
+### Wanneer gebruik je wat?
+
+1. Als je de incidentie (of frequentie) van meetwaarden wil laten zien dan gebruik je een histogram of staafdiagram. 
+	* Een staafdiagram gebruik je als de meetwaarden discreet zijn gecategoriseerd, bijvoorbeeld in het soort auto of per kleur. 
+	* Een histogram gebruik je voor variabelen die numeriek geordend kunnen worden, zoals bijvoorbeeld variabelen met integer of continue waardes.
+
+2.  Als je de relatie tussen twee variabelen wilt tonen kies je voor een grafiek of een scatter plot. 
+	*	Je gebruikt een grafiek als de afhankelijke variabele (meestal de langs de x-as) unieke waardes kent. Dus voor een bepaalde waarde van x is maar één uitkomst van y mogelijk. Andersom zijn er wellicht meerdere waardes voor x voor een bepaalde gemeten grootheid y. Bijvoorbeeld de gemeten temperatuur om 12 uur 's middags op een bepaalde lokatie. Er kan maar 1 Temperatuur bestaan.
+	*  Je gebruikt een scatterplot als er geen unieke waarde is per afhankelijke variabele. Bijvoorbeeld als je de lengte van een student meet in relatie met de leeftijd. Er zijn waarschijnlijk meerdere studenten met dezelfde leeftijd in de groep die hoogstwaarschijnlijk in lengte van elkaar verschillen.
+
+	
+
 
 ## Data plotten met Python
 
