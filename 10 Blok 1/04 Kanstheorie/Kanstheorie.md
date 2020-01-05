@@ -51,13 +51,13 @@ Hoe waarschijnlijk denk je nu dat het is dat Onana zal winnen?
 > Het lijkt nu toch een stuk minder waarschijnlijk dat Onana zal winnen. Misschien schat je nu de kansen lager in dan de 0.9 waarmee je begon. Misschien heb je zelfs wel informatie uit het verleden waaruit je weet hoeveel langzamer renners zijn als ze er zo ziek uitzien als Onana. Wat voor impact dat heeft op hun performance. Dan zouden we ons kans van 0.9 kunnen 'updaten' met de nieuwe informatie. Dat is typisch een Bayesiaanse methode om kansen uit te rekenen.
 
 Beide methodes worden dus gebruikt, maar de Bayesiaanse methode, of zelfs een hybride methode vindt vooral zijn toepassing in heel complexe modellen en voorspellingen. In dit college zullen we vooral werken met de frequentist methode.
-Wat in elk geval altijd belangrijk is, is om altijd heel precies te vermelden wat de voorwaardes zijn geweest waaronder de kans is uitgerekend. 
+Wat in elk geval belangrijk is, is om altijd heel precies te vermelden wat de voorwaardes zijn geweest waaronder de kans is uitgerekend. 
 
 ### Rekenen met kansen
 
 Er zijn een paar basisregels waar kansen aan voldoen. 
 
-1. <a name="ComplementRegel"></a> **Behoud van kans**: Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekent dat: <br>
+1. <a name="ComplementRegel"></a> **Behoud van kans** : Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekent dat: <br>
 $$ P(A) + P(\text{niet A}) = 1.$$<br>
 Een direct gevolg hiervan is dat $$P(\text{niet A})$$ het complement is van $$P(A)$$ ofwel:<br>
 $$ P(\text{niet A}) = 1 - P(A) .$$<br>
@@ -65,7 +65,7 @@ Dit wordt ook wel de **complementregel** genoemd.<br>
 2. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> 
 $$0 < P(B) \leq 1.$$<br>
 Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
-3. <a name="OfRegel"></a> **De *of* regel**: Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan vindt $$B$$ niet plaats, dan geldt:<br>
+3. <a name="OfRegel"></a> **De *of* regel**: Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan kan $$B$$ nooit plaats vinden, dan geldt:<br>
 $$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B).$$<br>
 We mogen in dit geval de kansen dus optellen.
 4. <a name="EnRegel"></a> **De *en* regel**: Als de uitkomsten $$A$$ en $$B$$ onafhankelijk zijn, dus als je $$A$$ een uitkomst is dan zegt dat niets over de kans op $$B$$, dan geldt: <br>
@@ -113,7 +113,7 @@ In formule notatie: $$f(x) \geq 0$$ en $$\int^\infty_{-\infty} f(x) dx =1$$.
 
 Wellicht komt dit allemaal wat abstract over en helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsfuncties (ook wel PDFs). Er zijn veel meer kansdichtheidsfuncties gedefinieerd, kijk bijvoorbeeld maar eens naar [deze](https://en.wikipedia.org/wiki/List_of_probability_distributions) lijst op Wikipedia. 
 
-Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaard deviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](/blok-1/basisbegrippen), voor dichtheidsfuncties zien ze er net iets anders uit dan voor datasets. 
+Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaard deviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](/blok-1/basisbegrippen), voor dichtheidsfuncties zien de formules er net iets anders uit dan voor datasets. 
 
 ### Verwachtingswaarde en standaard deviatie
 Voor **discrete** verdelingen gelden de volgende vergelijkingen:
@@ -127,7 +127,8 @@ Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br
 * de standaard deviatie: $${\displaystyle \sigma^2 = <{x^2}> - <{x}>^2 = \int^{\infty}_{-\infty} (x - <{x}>)^2 f(x) dx }.$$
 
 **NB** Er zijn verschillende schrijfwijze voor het gemiddelde $$\mu, <{x}>$$ en $$E(x)$$. Het symbool $$\mu$$ is meestal voorbehouden aan het gemiddelde van de populatie, dat wil zeggen het *echte* gemiddelde. Het gemiddelde van de steekproef is $$<{x}>$$, je hoopt dus dat die dicht bij het populatiegemiddelde $$\mu$$ ligt. De verwachtingswaarde $$E(x)$$ is de waarde die je verwacht te gaan meten. Deze kan je met simulaties benaderen. De verschillen worden pas echt duidelijk als je er al een tijdje mee werkt. We zullen het niet fout rekenen als je een vergissing maakt in de notatie, maar we proberen het hier wel netjes op te schrijven. 
-In deze vergelijkingen is het in elk geval ook handig om $$E(x)$$ of $$<{x}> $$ te schrijven.  $$E(x)^2$$ is, net als $$<{x}>^2$$, het kwadraat van de verwachtingswaarde van $$x$$. $$E(x^2)$$ is, net als $$<x^2>$$ de verwachtingswaarde van $$x^2$$. 
+In deze vergelijkingen is het in elk geval ook gewoon handiger om $$E(x)$$ of $$<{x}> $$ te schrijven.  $$E(x)^2$$ is, net als $$<{x}>^2$$, het kwadraat van de verwachtingswaarde van $$x$$. $$E(x^2)$$ is, net als 
+$$<{x^2}>$$ de verwachtingswaarde van $$x^2$$. 
 
 
 ## Bekende kansdichtheidsfuncties
@@ -151,13 +152,13 @@ Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdelin
 
 De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. 
  
-> De verwachtingswaarde kunnen we uitrekenen met behulp van de algemene formule:
+> De **verwachtingswaarde** kunnen we uitrekenen met behulp van de algemene formule:
 >
 > $$\begin{aligned}\displaystyle 
 > E(x) & = \int^{\infty}_{-\infty} { x f(x) dx} =  \int^b_a x\cdot \frac{1}{b-a}  dx\\ 
 > & = \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}. \end{aligned}$$ 
 >
-> De standaard deviatie berekenen we met de formule:
+> De **standaard deviatie** berekenen we met de formule:
 > 
 > $$\begin{aligned}\displaystyle \sigma^2 &= \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx = \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx \\ &= \frac{1}{12} \cdot \frac{(b-a)^3}{b-a} = \frac{(b-a)^2}{12}. \end{aligned}$$
 >
@@ -199,7 +200,7 @@ De Poisson is discrete verdelingsfunctie die, in veel gevallen, de onzekerheid w
 $${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}.$$
 
 De Poisson kent, in tegenstelling tot de binomiaal dus maar 1 parameter.
-De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de standaard deviatie is ook $$\lambda$$. De onzekerheid op een stochast, als deze de Poisson statistiek volgt, is gelijk aan de standaard deviatie: $$\sigma = \sqrt{\text{var}} = 1/\sqrt{\lamda}$$.
+De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de standaard deviatie is ook $$\lambda$$. De onzekerheid op een stochast, als deze de Poisson statistiek volgt, is gelijk aan de standaard deviatie: $$\sigma = \sqrt{\text{var}} = 1/\sqrt{\lambda}$$.
 
 Het is dus een bijzondere vergelijking!
 Hieronder zie hoe de Poisson distributie eruit ziet voor verschillende waardes van $$\lambda$$.
