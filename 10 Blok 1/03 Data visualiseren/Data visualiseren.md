@@ -23,7 +23,7 @@ Meestal is de waarde van de twee variabelen van te voren gekozen of ingesteld en
 De waardes worden als punten of 'markers' in de grafiek of scatterplot neergezet. 
 
 
-Stel bijvoorbeeld dat we naar de gemiddelde dagtemperatuur in de maand Decemter 2019 in de Bilt. Hieronder een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
+Stel bijvoorbeeld dat we naar de gemiddelde dagtemperatuur in de maand December 2019 in de Bilt. Hieronder een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
 
 ![](plot1_lijn_geenOpmaak.png){: width="60%"}
 
@@ -59,7 +59,7 @@ Tot nu toe hebben we nog geen titels toegevoegd aan de plots. Dit komt omdat dat
 
 **Samengevat**:
 
-- Een grafiek van een dataset wordt geplot met punten en evenuteel lijnen. 
+- Een grafiek van een dataset wordt geplot met punten en eventueel lijnen. 
 - Het resultaat van een fit of een theoretisch verband wordt met een gladde lijn geplot.
 - Bij een enkele dataset wordt geen legenda gebruikt. Als er meerdere datasets in één grafiek worden weergegeven dan is een legenda noodzakelijk.
 - Aslabels geven weer wat elke as representeert (inclusief eenheden).
@@ -87,7 +87,7 @@ Er is een belangrijk verschil tussen een staafdiagram en een histogram. Een staa
 
 Bij het weergeven van data in een histogram wordt de data gegroepeerd in intervallen. De breedte van de staven (in het vervolg 'bins' genoemd) geeft de breedte van de intervallen. 
 
-Bij een staafdiagram kun je de frequentie direct aflezen; voor één categorie lees je op de as af hoe vaak deze voorkomt. Voor een histogram is de frequentie gelijk aan het oppervlakte van de balken, en dus afhankelijk van de binbreedte.
+Bij een staafdiagram kun je de frequentie direct aflezen; voor één categorie lees je op de as af hoe vaak deze voorkomt. Voor een histogram is de frequentie gelijk aan het oppervlakte van de balken, en dus afhankelijk van de bin breedte.
 
 #### Breedte van de bins bij een histogram
 
@@ -107,13 +107,13 @@ Kiezen we juist te smalle bins, dan kunnen we het gedrag van de data nog wel her
 
 Met het kiezen van te veel bins hebben we dus visuele ruis geïntroduceerd, dit maakt het moeilijker om het gedrag op het oog te herkennen.
 
-Bij het bepalen van het optimale aantal bins en de optimale binbreedte is het belangrijkste dat het gedrag van de data goed zichtbaar is. Er zijn verschillende formules (bijvoorbeeld de square of de Sturges formule) ontwikkeld waarmee je het aantal bins dat je nodig hebt kunt berekenen. Echter, geen van die formules kun je blind toepassen. Het is veel beter om gewoon goed naar je dataset te kijken en een inschatting te maken van de binbreedte. 
+Bij het bepalen van het optimale aantal bins en de optimale bin breedte is het belangrijkste dat het gedrag van de data goed zichtbaar is. Er zijn verschillende formules (bijvoorbeeld de square of de Sturges formule) ontwikkeld waarmee je het aantal bins dat je nodig hebt kunt berekenen. Echter, geen van die formules kun je blind toepassen. Het is veel beter om gewoon goed naar je dataset te kijken en een inschatting te maken van de bin breedte. 
 
 **Bij het maken van een histogram moet je goed letten op het volgende:**
 
 * Het bereik (de range) die je kiest op de horizontale as. Van waar tot waar plot je de data? Meestal wil je de gehele dataset laten zien, maar soms wil je juist inzoomen op een kleiner stukje. 
-* De binbreedte. Meestal kies je voor het hele histogram dezelfde binbreedte, in sommige gevallen kun je verschillende binbreedtes kiezen. In elk geval geldt dat het histogram goed 'leesbaar' moet zijn. Het moet duidelijk blijven hoe de data gedistribueerd is. Wat is de trend? Zijn er afwijkingen van die trend.
-* Let bij histogrammen erg goed op waar de grens van een bin ligt. Vooral als je een dataset met natuurlijke getallen weergeeft is het belangrijk dat de bingrenzen netjes *tussen* de natuurlijke getallen ligt. Anders kan de distributie van de data verkeerd gerepresenteerd worden.
+* De bin breedte. Meestal kies je voor het hele histogram dezelfde bin breedte, in sommige gevallen kun je verschillende bin breedtes kiezen. In elk geval geldt dat het histogram goed 'leesbaar' moet zijn. Het moet duidelijk blijven hoe de data gedistribueerd is. Wat is de trend? Zijn er afwijkingen van die trend.
+* Let bij histogrammen erg goed op waar de grens van een bin ligt. Vooral als je een dataset met natuurlijke getallen weergeeft is het belangrijk dat de bin grenzen netjes *tussen* de natuurlijke getallen ligt. Anders kan de distributie van de data verkeerd gerepresenteerd worden.
 * Het histogram is makkelijker leesbaar als de bins een natuurlijk interval hebben. Als je range van 0 tot 10 loopt is het heel gek om deze te verdelen in 7 bins.
 
 **Voor zowel histogrammen als staafdiagrammen geldt:**
