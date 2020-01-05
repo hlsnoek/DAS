@@ -36,12 +36,12 @@ Het steekproef gemiddelde wordt zo vaak gebruikt dat dit veelal wordt aangeduid 
 
 #### Populatiegemiddelde
 
-Als we metingen kunnen doen voor een **gehele populatie**, en we bepalen het gemiddelde, dan spreken we van het *populatiegemiddelde*. populatiegemiddelde wordt ook wel de *verwachtingswaarde* genoemd, deze wordt aangegeven met $$E(X)$$. 
+Als we met een bepaalde variabele $$x$$ definieren waarmee we een meetbare grootheid beschijven voor een **gehele populatie**, en we bepalen het gemiddelde van de waardes $$x$$, dan spreken we van het *populatiegemiddelde*. Het populatiegemiddelde wordt ook wel de *verwachtingswaarde* genoemd, deze wordt aangegeven met $$E(X)$$. 
 
 $$\mu=E(X)= \frac{1}{N}{\displaystyle \sum_{i=1}^{N}x_{i}}$$
 
 
-Hierbij is $$N$$ het aantal elementen in de populatie, en zijn $$x_i,\dots,x_n$$ de waardes in de populaties. 
+Hierbij is $$N$$ het aantal elementen in de populatie, en zijn $$x_i,\dots,x_n$$ de waardes van de grootheid in de populatie. 
 
 Je ziet dat het steekproef gemiddelde erg lijkt op de uitdrukking voor het populatiegemiddelde. Het verschil is dat het steeksproefgemiddelde niet gelijk is aan de verwachtingswaarde van de populatie. Het is wel zo dat, hoe beter de steekproef overeenkomt met de populatie, des te dichter komt het steekproef gemiddelde bij de verwachtingswaarde van de populatie. Dit geldt zowel voor steekproeven. Met behulp van een goed uitgevoerde steekproef kan het statistische gedrag van een populatie dus benaderd worden.
 
