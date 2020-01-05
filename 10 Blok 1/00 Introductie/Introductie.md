@@ -1,9 +1,9 @@
 ## Introductie Blok 1
 
 Statistische data analyse is een belangrijk onderdeel in vele werkvelden.
-Als wetenschapper zul je later te maken krijgen met het verzamelen van interpreteren van data bij het onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
+Als wetenschapper zul je later te maken krijgen met het verzamelen en interpreteren van data bij het onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
 Wanneer kun je zeggen dat een hypothese moet worden verworpen of bewijs je juist dat deze correct is?
-Wanneer heb je eigenlijk genoeg data verzameld? Hoe kun je een zo experiment ontwerpen dat je een hypothese kunt onderzoeken. Hoe kom je erachter wat jouw hypothese testbaar maakt - in welke observabele onderscheidt zij zich voldoende?
+Wanneer heb je eigenlijk genoeg data verzameld? Hoe kun je een zo experiment ontwerpen dat je een hypothese kunt onderzoeken. Hoe kom je erachter wat jouw hypothese testbaar maakt - in welke observabele onderscheidt zij zich voldoende van andere hypotheses?
 
 
 Alle kennis die we tot nu toe hebben over de Natuur- en Sterrenkunde is tot stand gekomen met het uitvoeren van experimenten en het analyseren van de uitkomsten.
@@ -26,7 +26,7 @@ Dat klinkt heel omslachtig, maar het is belangrijk in de wetenschap om heel prec
 
 
 
-Bij het presenteren van onderzoeksresultaten is het belangrijk om helder uit te leggen hoe het onderzoek precies is uitgevoerd, hoe de metingen zijn genomen en wat de resultaten zijn. 
+Bij het presenteren van onderzoeksresultaten is het belangrijk om helder uit te kunnen leggen hoe het onderzoek precies is uitgevoerd, hoe de metingen zijn genomen en wat de resultaten zijn. 
 Vaak maken we hierbij gebruik van histogrammen, grafieken en tabellen. Om een hypothese te toetsen moeten we de metingen ook interpreteren. Daarvoor zijn verschillende methodes, bijvoorbeeld kunnen we de data proberen te 'fitten' met een functie. Bij al deze methodes speelt statistiek een belangrijke rol.  
 
 
@@ -36,4 +36,4 @@ Deze week beginnen we met een aantal [basisbegrippen](/blok-1/basisbegrippen) in
 Ook maken we een begin met [kansrekening](/blok-1/kanstheorie).
 
 We werken in de werkcolleges aan de opdrachten van dit blok [B1a](/blok-1/opdrachten-blok-1a) en [B1b](/blok-1/opdrachten-blok-1b). Je vindt in het [schema](/start/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
-Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-info/tussentoets-1) voor de eerste tussentoets. De eerste tussentoets volgt na het tweede werkcollege.
+Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-info/tussentoets-1) voor de eerste tussentoets. De eerste tussentoets volgt direct na het tweede werkcollege.
