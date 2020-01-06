@@ -35,5 +35,5 @@ In deze cursus zullen we gaan vaardigheden leren van data analyse en statistiek.
 Deze week beginnen we met een aantal [basisbegrippen](/blok-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over [verdelingen](/blok-1/meetonzekerheid), metingen en het juist [presenteren](/blok-1/data-visualiseren) van resultaten.  
 Ook maken we een begin met [kansrekening](/blok-1/kanstheorie).
 
-We werken in de werkcolleges aan de opdrachten van dit blok [B1a](/blok-1/opdrachten-blok-1a) en [B1b](/blok-1/XXopdrachten-blok-1b). Je vindt in het [schema](/start/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
+We werken in de werkcolleges aan de opdrachten van dit blok [B1a](/blok-1/opdrachten-blok-1a) en [B1b](/blok-1/opdrachten-blok-1b). Je vindt in het [schema](/start/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
 Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-info/tussentoets-1) voor de eerste tussentoets. De eerste tussentoets volgt direct na het tweede werkcollege.
