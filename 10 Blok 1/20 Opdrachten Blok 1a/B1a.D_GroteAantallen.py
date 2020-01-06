@@ -18,10 +18,7 @@ def berekenGemiddelde(dataset, n) :
 def maakSetGemiddeldes(dataset) :
     N = []
     gemiddeldes = []
-#    for i in range(1,len(dataset)+1) :
-    for i in range(1,4) :
-        N.append(i)
-        gemiddeldes.append(berekenGemiddelde(dataset,i))
+
     return N, gemiddeldes
 
 

@@ -37,6 +37,6 @@ Hieronder vindt je een lijstje met de stof die je moet kennen. Gebruik deze om t
 - Het kennen en kunnen gebruiken van vier gepresenteerde rekenregels voor kans: behoud, complement, of-regel, en-regel. 
 - Weten wat een stochast is. 
 - De definitie en de voorwaardes kennen van de kansdichtheidsdistributie.
-- Het kunnen uitrekenen van het gemiddelde en de standaarddeviatie voor eenvoudige discrete en continue kansdichtheidsdistributies (dit wordt niet gevraagd voor de Binomiaal, de Poisson en de Normaal).
+- Het kunnen berekenen van het gemiddelde en de standaarddeviatie voor eenvoudige discrete en continue kansdichtheidsdistributies (de afleiding voor de formules zelf van het gemiddelde en de standaard deviatie wordt niet gevraagd voor de Binomiaal, de Poisson en de Normaal verdeling).
 - De Uniforme, de Binomiale, de Poisson en de normale distributie kunnen herkennen en kansen kunnen berekenen met deze functies.
 
