@@ -18,7 +18,7 @@ Hieronder vindt je een lijstje met de stof die je moet kennen. Gebruik deze om t
 
 ### Meetonzekerheid [link](/blok-1/meetonzekerheid)
 
-- Verschil weten tussen een fout een en onzekerheid. 
+- Verschil weten tussen een fout en een onzekerheid. 
 - Oorzaken van onzekerheden kunnen aanwijzen in een experiment. 
 - Het verschil weten tussen **systematische onzekerheid**, **statistische onzekerheid** en **theoretische onzekerheid**. 
 - Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet noteren. 
