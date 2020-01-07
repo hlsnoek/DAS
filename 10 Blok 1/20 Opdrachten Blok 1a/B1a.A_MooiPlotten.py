@@ -24,7 +24,7 @@ plt.xlabel('waardes')
 # Laat het plaatje zien
 plt.show()
 
-# Opmerking: plt.savefig moet vòòr plot.show() aangeroepen
+# Opmerking: plt.savefig moet voor plot.show() aangeroepen
 # worden. Na plt.show() wordt het plaatje namelijk
 # verwijderd uit het geheugen.
 
