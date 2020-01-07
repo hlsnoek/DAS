@@ -27,9 +27,15 @@ Als voor waardes $$x$$ die bovengemiddeld zijn, overwegend samen gaan met relati
 waarde voor de covariantie. Als de waarden voor relatief hoge waardes van $$x$$ de waardes van $$y$$ voornamelijk onder de verwachtingswaarde liggen, dan is de covariantie ook negatief.
 Als de covariantie gelijk is aan nul dan is er, gemiddeld over de hele dataset, geen afhankelijkheid. Het kan zijn dat voor delen van de dataset wel degelijk een positieve covariantie bestaat, deze wordt dan opgeheven door een ander gedeelte met een negatieve covariantie. 
 
+De covariantie geeft dus aan in hoeverre waarden van de ene variabele toenemen/afnemen bij toenemende waarden van de andere variabele. De co-variantie is een heel nuttige maat maar lastig te interpreteren vanwege de dimensies die, net als bij de variantie, niet dezelfde zijn als de variabelen zelf. <a href="https://www.youtube.com/watch?v=KDw3hC2YNFc"> Hier</a> kun je een filmpje zien die co-variantie uitlegt. Eenvoudiger is om naar de correlatie co-efficient te kijken. 
 
-De covariantie geeft dus aan in hoeverre waarden van de ene variabele toenemen/afnemen bij toenemende waarden van de andere variabele. De co-variantie is een heel nuttige maat maar lastig te interpreteren vanwege de dimensies die, net als bij de variantie, niet dezelfde zijn als de variabelen zelf. Eenvoudiger is om naar de correlatie co-efficient te kijken. 
+Met de volgende formules kun je de covariantie van een dataset uitrekenen: 
 
+* Voor discrete verdelingen geldt : 
+$${\displaystyle cov(x,y) = \sum_n (x-<{x}>)\cdot (y-<{y}>)}.$$
+
+* Voor continue verdelingen geldt: 
+$${\displaystyle cov(x,y) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}xy \cdot f(x,y) dy dx }$$
 
 
 ## Correlatie 
@@ -67,11 +73,11 @@ Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} =
 <p align="center">![](Plot1_Correlatie_min0punt3.png){:width="45%"}![](Plot1_Correlatie_0punt3.png){:width="45%"}</p>
 
 
-Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter is de afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit des te kleiner is de correlatie tussen de variabelen.
+Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter is de afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit des te kleiner is de correlatie tussen de variabelen. Je kunt <a href="https://www.youtube.com/watch?v=ugd4k3dC_8Y">hier</a> een filmpje vinden waarin correlatie ook wordt uitgelegd.
 
 Er zijn meerdere 'spelletjes' op internet waarbij je kunt oefenen met het herkennen en raden van de correlatiecoëfficiënt
 van twee variabelen. Kijk bijvoorbeeld eens bij [Geogebra-Correlatie game](https://www.geogebra.org/m/KE6JfuF9) of 
-[Guess the correlation](http://guessthecorrelation.com/)
+[Guess the correlation](http://guessthecorrelation.com/).
 
 
 
