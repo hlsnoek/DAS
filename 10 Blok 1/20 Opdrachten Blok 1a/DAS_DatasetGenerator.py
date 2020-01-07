@@ -92,3 +92,37 @@ def DataSetHalfwaardeDikteVariatie(s=1,frac=1.,lood_dikte=0.3,meettijd=120,N=16)
         meting_i = np.random.poisson(mu)
         metingen.append(meting_i)
     return metingen,diktes,d_half
+
+def datasetVogeltjes() :
+    span_km = (25.5+22.5)/2
+    span_km_s = (25.5-22.5)/2
+    span_km_v = m.pow((span_km_s),2)
+
+    m_km = (14+22)/2 
+    m_km_s = (22-14)/2
+    m_km_v = m.pow((m_km_s),2)
+
+    span_pm = (20+17)/2
+    span_pm_s = (20-17)/2
+    span_pm_v = m.pow(span_pm_s,2)
+
+    m_pm = (12+15)/2
+    m_pm_s = (15-12)/2
+    m_pm_v = m.pow(m_pm_s,2)
+
+    np.random.seed(1)
+    
+    mu_km = [span_km, m_km]
+    cov_km = [[span_km_v,0.3*span_km_s*m_km_s],[0.3*span_km_s*m_km_s,m_km_v]]
+    span_km,m_km = np.random.multivariate_normal(mu_km,cov_km,30000).T
+
+    mu_pm = [span_pm, m_pm]
+    cov_pm = [[span_pm_v,0.3*span_pm_s*m_pm_s],[0.3*span_pm_s*m_pm_s,m_pm_v]]
+    span_pm,m_pm = np.random.multivariate_normal(mu_pm,cov_pm,30000).T
+    return m_km,span_km, m_pm, span_pm
+
+def meetMassaMees() :
+    return (16,17)
+
+def meetLengteMees() :
+    return (21,22)
