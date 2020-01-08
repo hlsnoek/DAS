@@ -1,11 +1,11 @@
 #Extra kans rekenregels
 
-In [blok 1](/blok-1/kanstheorie) hebben we de complement, de en-regel en de of-regel geleerd voor het rekenen met kansen. Aan deze regels waren enkele voorwaardes verbonden. 
+In [blok 1](/blok-1/kanstheorie) hebben we de complement, de en-regel en de of-regel geleerd voor het rekenen met kansen. Aan deze regels waren enkele voorwaarden verbonden. 
 
-De of-regel geldt alleen als de metingen A B wederzijds exclusief zijn. Dat betekent dat een meting A niet kan voorkomen als B gemeten is. 
+De of-regel geldt alleen als de metingen A en B wederzijds exclusief zijn. Dat betekent dat een meting A niet kan voorkomen als B gemeten is. 
 
 
-> Een voorbeeld van kansen die niet wederzijds exclusief zijn is als we weer kijken naar een set kaarten waar A bijvoorbeeld de kleur rood is en B het getal 4. Er bestaan rode kaarten met getal vier en in dit geval mogen we de kansen dus niet optellen. <br>
+> Een voorbeeld van kansen die niet wederzijds exclusief zijn is, als we weer kijken naar een set kaarten waar A bijvoorbeeld de kleur rood is en B het getal 4. Er bestaan rode kaarten met getal vier en in dit geval mogen we de kansen dus niet optellen. <br>
 > <center> $$P(\text{rood of 4}) \neq P(\text{rood}) + P(4)$$</center>
 
 ###De of regel wanneer A en B niet wederzijds exclusief zijn:
