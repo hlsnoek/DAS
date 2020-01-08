@@ -43,9 +43,9 @@ Hierbij zijn $$\frac{\delta q}{\delta x}$$, $$\frac{\delta q}{\delta y}$$ etc. d
 De algemene regel kan eenvoudig worden uitgeschreven naar de regel voor som en verschil. 
 Als $$q = x + y$$ of $$q = x - y $$ dan wordt de onzekerheid op $$q$$ gegeven door: 
 
-$$\displaystyle \Delta q = \sqrt{\left(\frac{\delta q}{\delta x} \Delta x \right)^2 + \left( \frac{\delta q}{\delta y} \right)^2} = \sqrt{\left(\Delta x\right)^2+\left(\Delta y\right)^2}$$.
+$$\displaystyle \Delta q = \sqrt{\left(\frac{\delta q}{\delta x} \Delta x \right)^2 + \left( \frac{\delta q}{\delta y} \Delta y \right)^2} = \sqrt{\left(\Delta x\right)^2+\left(\Delta y\right)^2}$$.
 
-We mogen de varianties $$(\Delta x)^2 $$ in het geval in een vergelijking met enkel sommen en/of verschillen dus optellen.
+We mogen de varianties $$(\Delta x)^2 $$ en $$(\Delta y)^2 in het geval in een vergelijking met enkel sommen en/of verschillen dus optellen.
 
 ### Vermenigvuldigen met constante
 Als $$q$$ een exact veelvoud $$c$$ is van de gemeten waarde $$x$$, dus $$q = c \cdot x$$, dan geldt:<br>
