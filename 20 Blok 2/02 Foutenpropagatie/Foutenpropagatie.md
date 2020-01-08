@@ -45,7 +45,7 @@ Als $$q = x + y$$ of $$q = x - y $$ dan wordt de onzekerheid op $$q$$ gegeven do
 
 $$\displaystyle \Delta q = \sqrt{\left(\frac{\delta q}{\delta x} \Delta x \right)^2 + \left( \frac{\delta q}{\delta y} \Delta y \right)^2} = \sqrt{\left(\Delta x\right)^2+\left(\Delta y\right)^2}$$.
 
-We mogen de varianties $$(\Delta x)^2 $$ en $$(\Delta y)^2 in het geval in een vergelijking met enkel sommen en/of verschillen dus optellen.
+We mogen de varianties $$(\Delta x)^2 $$ en $$(\Delta y)^2$$ in het geval in een vergelijking met enkel sommen en/of verschillen dus optellen.
 
 ### Vermenigvuldigen met constante
 Als $$q$$ een exact veelvoud $$c$$ is van de gemeten waarde $$x$$, dus $$q = c \cdot x$$, dan geldt:<br>
