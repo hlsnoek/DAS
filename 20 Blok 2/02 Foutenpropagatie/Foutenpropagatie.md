@@ -3,9 +3,9 @@
 1. Ordered TOC
 {:toc}
 
-Vaak kunnen we de grootheid die we willen weten niet direct meten, maar meten we een of meer observabele die zich, via een bepaalde functie, verhouden tot de grootheid. Of zelfs meten we twee of meer variabelen die we nodig hebben om de gewilde grootheid te bepalen. 
+Vaak kunnen we de grootheid die we willen weten niet direct meten, maar meten we een of meer observabele die zich, via een bepaalde functie, verhouden tot de grootheid. Of meten we zelfs twee of meer variabelen die we nodig hebben om de gewilde grootheid te bepalen. 
 
-Bijvoorbeeld als we een gemiddelde snelheid van een auto willen bepalen. Dit zouden we kunnen doen door de tijd te meten die de auto nodig heeft om een bepaald traject af te leggen. We meten dan de door de auto gebruikte tijd, $$T$$ en de lengte van het traject, $$L$$, en die zetten we dan om in snelheid via de bekende formule $$v=L/T$$. Of we bepalen bijvoorbeeld de massa van een elementair deeltje (in rust) en willen dit omzetten naar de energie van het deeltje via de formule $$E=mc^2$$. 
+Dit is bijvoorbeeld het geval als we de gemiddelde snelheid van een auto willen bepalen. Dit zouden we kunnen doen door de tijd te meten die de auto nodig heeft om een bepaald traject af te leggen. We meten dan de door de auto gebruikte tijd, $$T$$ en de lengte van het traject, $$L$$, en die zetten we dan om in snelheid via de bekende formule $$v=L/T$$. Of we bepalen bijvoorbeeld de massa van een elementair deeltje (in rust) en willen dit omzetten naar de energie van het deeltje via de formule $$E=mc^2$$. 
 
 Als we de onzekerheid weten op de gemeten observabele dan willen we deze omzetten naar de grootheid die we eigenlijk willen bepalen. Dit noemen we het propageren van fouten. In dit hoofdstuk leren we je de basisregels voor het propageren van **ongecorreleerde** fouten. Dat wil zeggen dat als er meerdere onzekerheden worden gepropageerd deze onzekerheden onafhankelijk zijn; De meting van de ene observabele heeft geen invloed op de meting van de andere observabele. Later zullen we nog de regel voor gecorreleerde fouten geven. 
 
