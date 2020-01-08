@@ -42,9 +42,9 @@ $${\displaystyle cov(x,y) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}xy \cd
 
 De correlatiecoëfficiënt $$\rho$$ is gedefinieerd als:
 
-$$\rho_{x,y} = \frac{cov_{x,y}}{\sigma_x \sigma_y}$$  
+$$\rho_{x,y} = \frac{cov(x,y)}{\sigma_x \sigma_y}$$  
 
-Hierbij is $$cov_{x,y}$$ de covariantie tussen variabele $$x$$ en variabele $$y$$, en zijn $$\sigma_x$$ en $$\sigma_y$$ de standaardafwijkingen van variabele $$x$$ en $$y$$ respectievelijk.
+Hierbij is $$cov(x,y)$$ de covariantie tussen variabele $$x$$ en variabele $$y$$, en zijn $$\sigma_x$$ en $$\sigma_y$$ de standaardafwijkingen van variabele $$x$$ en $$y$$ respectievelijk.
 
 Als er geen correlatie is tussen de twee variabelen, dan is
 correlatiecoëfficiënt gelijk aan nul. Is de correlatiecoëfficiënt tussen de twee variabelen gelijk aan $$1$$ of aan $$-1$$ dan zijn de twee
