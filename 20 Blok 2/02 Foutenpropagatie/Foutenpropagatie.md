@@ -69,7 +69,7 @@ Ofwel de relatieve fout $$\frac{\Delta q}{q}$$ is gelijk aan de kwadratische som
 Voor het afronden van meetonzekerheden op het juiste aantal significante cijfers geldt het volgende:
 
 - Is de meetonzekerheid kleiner dan $$3\cdot 10^n$$ met $$n\,\varepsilon\, \mathbb{Z}$$ dan wordt de meetonzekerheid afgerond op twee significante cijfers. Zo wordt de meetonzekerheid 
-$$0.12367$$ afgerond op twee decimalen tot $$0.12$$. Is de meetonzekerheid gelijk aan 23.4 dan wordt dit afgerond op $$23$$.
+$$0.12367$$ afgerond op twee decimalen tot $$0.12$$. Is de meetonzekerheid gelijk aan $$23.4$$ dan wordt dit afgerond op $$23$$.
 - Is de meetonzekerheid groter of gelijk aan $$3\cdot 10^n$$ met $$n\,\varepsilon\, \mathbb{Z}$$ dan wordt  
 de meetonzekerheid afgerond op één significant cijfer. Zo wordt de meetonzekerheid $$0.6321$$ bijvoorbeeld afgerond tot $$0.6$$.  
 
@@ -93,7 +93,7 @@ Stel we hebben als (onafgeronde) doorberekende waarde bijvoorbeeld $$45.326$$, m
 >
 >We gebruiken de regel dat als $$q = x\cdot y\cdot \dots$$ dan: 
 >
->$$\frac{\Delta q}{|q|} = \sqrt{\left(\frac{\Delta x}{x}\right)^2+\left(\frac{\Delta y}{y}\right)^2+\left(\frac{\Delta u}{u}\right)^2+\left(\frac{\Delta w}{w}\right)^2} $$
+>$$\frac{\Delta q}{|q|} = \sqrt{\left(\frac{\Delta x}{x}\right)^2+\left(\frac{\Delta y}{y}\right)^2+\left(\frac{\Delta z}{z}\right)^2} $$
 >
 >Dus:
 >
