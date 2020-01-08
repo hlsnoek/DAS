@@ -32,10 +32,10 @@ Hierbij zijn $$\frac{\delta q}{\delta x}$$, $$\frac{\delta q}{\delta y}$$ etc. d
 > <span class="badge badge-warning">Voorbeeld 4</span> Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x$$.
 > ![](Foutenpropagatie_func.png){:width="40%",:inline}
 
-> <span class="badge badge-warning">Voorbeeld 5</span> Stel we hebben een vergelijking $$z = ax + y^2$$ met een standaard deviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaard deviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
+> <span class="badge badge-warning">Voorbeeld 5</span> Stel we hebben een vergelijking $$z = ax + y^2$$ met standaard deviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaard deviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
 > $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{(a \Delta x)^2 + (2y \Delta y)^2}$$.
 
-> <span class="badge badge-warning">Voorbeeld 6</span> Stel we hebben een vergelijking $$z = ax + y^2 + 2xy$$ met een standaard deviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaard deviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
+> <span class="badge badge-warning">Voorbeeld 6</span> Stel we hebben een vergelijking $$z = ax + y^2 + 2xy$$ met standaard deviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaard deviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
 > $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{\left( (a + 2y) \cdot \Delta x \right)^2 + \left( (2y + 2x)\cdot  \Delta y \right)^2}$$.
 
 
