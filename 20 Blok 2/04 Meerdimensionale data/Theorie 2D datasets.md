@@ -5,7 +5,7 @@
 
 Het komt vaak voor dat we datasets hebben waarbij we meerdere variabelen tegelijkertijd hebben gemeten. Bijvoorbeeld als een steekproef doen onder de bevolking waarbij we allerlei gegevens tegelijkertijd opvragen zoals leeftijd, inkomen, gezinssamenstelling etc. Ook in natuurkundige experimenten komen multidimensionale datasets veel voor. 
 
-Voor elke variabelen kunnen we het gemiddelde en de standaard deviatie meten met behulp van de formules die we in ['Basisbegrippen'](/blok-1/theorie-basisbegrippen) hebben geïntroduceerd. Echter we kunnen nu ook kijken naar hoe en of de waarde van een variable afhangt van een andere variabel in de dataset. Dit noemen we correlatie. Ook kunnen we bereken of een spreiding in een variable afhangt van de waarde van een andere variabele. We noemen die co-variantie. Hieronder introduceren we eerst co-variantie, daaronder komt correlatie aan bod.
+Voor elke variabelen kunnen we het gemiddelde en de standaard deviatie meten met behulp van de formules die we in ['Basisbegrippen'](/blok-1/theorie-basisbegrippen) hebben geïntroduceerd. Echter we kunnen nu ook kijken naar hoe en of de waarde van een variable afhangt van een andere variabel in de dataset. Dit noemen we correlatie. Ook kunnen we berekenen of een spreiding in een variable afhangt van de waarde van een andere variabele. We noemen die co-variantie. Hieronder introduceren we eerst co-variantie, daaronder komt correlatie aan bod.
 
 
 ## Variantie en covariantie
@@ -24,7 +24,7 @@ Hier staat $$E$$ voor de *verwachtingswaarde*. De verwachtingswaarde voor
 $$x$$ en $$y$$ worden respectievelijk aangegeven met $$E_x$$ en $$E_y$$. De formule geeft dus aan dat de covariantie gelijk is aan de verwachtingswaarde van het verschil tussen de waarde van de variabele $$x$$ en de verwachtingswaarde van $$x$$ vermenigvuldigd met het verschil tussen de variabele $$y$$ en de verwachtingswaarde van $$y$$.
 
 Als voor waardes $$x$$ die bovengemiddeld zijn, overwegend samen gaan met relatief hoge waardes van $$y$$, dan hebben we te maken met een positieve 
-waarde voor de covariantie. Als de waarden voor relatief hoge waardes van $$x$$ de waardes van $$y$$ voornamelijk onder de verwachtingswaarde liggen, dan is de covariantie ook negatief.
+waarde voor de covariantie. Als bij de waarden voor relatief hoge waardes van $$x$$ de waardes van $$y$$ voornamelijk onder de verwachtingswaarde liggen, dan is de covariantie negatief.
 Als de covariantie gelijk is aan nul dan is er, gemiddeld over de hele dataset, geen afhankelijkheid. Het kan zijn dat voor delen van de dataset wel degelijk een positieve covariantie bestaat, deze wordt dan opgeheven door een ander gedeelte met een negatieve covariantie. 
 
 De covariantie geeft dus aan in hoeverre waarden van de ene variabele toenemen/afnemen bij toenemende waarden van de andere variabele. De co-variantie is een heel nuttige maat maar lastig te interpreteren vanwege de dimensies die, net als bij de variantie, niet dezelfde zijn als de variabelen zelf. <a href="https://www.youtube.com/watch?v=KDw3hC2YNFc"> Hier</a> kun je een filmpje zien die co-variantie uitlegt. Eenvoudiger is om naar de correlatie co-efficient te kijken. 
