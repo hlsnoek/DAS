@@ -1,7 +1,7 @@
+# Opdrachten blok 2
+
 1. Ordered TOC
 {:toc}
-
-# Opdrachten blok 2
 
 Tijdens werkcolleges 4 en 5 werken we aan het de opdrachten in blok 2. 
 In dit blok gaan we werken aan drie opdrachten. 
