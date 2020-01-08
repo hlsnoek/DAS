@@ -33,7 +33,7 @@ De **wet van grote aantallen** zegt dat het berekende steekproef gemiddelde, $$<
 <center>$${\displaystyle lim_{N \to \infty} P( | \lt X \gt - \mu| \gt \epsilon) = 0 } $$</center>
 
 Ofwel de kans dat het steekproef gemiddelde meer afwijkt van het populatie gemiddelde dan een heel klein getal convergeert naar 0 voor oneindig grote steekproeven. 
-Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan  oneindig grote, of nagenoeg oneindig grote populaties, zoals bijvoorbeeld als je de gemiddelde massa van het electron wil bepalen. 
+Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan  oneindig grote, of nagenoeg oneindig grote populaties, zoals bijvoorbeeld als je de gemiddelde massa van het electron wilt bepalen. 
 
 Tip: In deze [video](https://www.youtube.com/watch?v=MntX3zWNWec) wordt de wet van grote aantallen duidelijk uitgelegd. 
 
