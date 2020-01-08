@@ -1,29 +1,26 @@
-# Werkcollege 3
+1. Ordered TOC
+{:toc}
 
-## Opdracht 1 - Dataset weergeven
+# Opdrachten blok 2
 
-<span style="color:red">IDEE: een gegeven dataset plotten en een vermoeden uitspreken over of het een normale verdeling is of poisson</span>
+Tijdens werkcolleges 4 en 5 werken we aan het de opdrachten in blok 2. 
+In dit blok gaan we werken aan drie opdrachten. 
 
-## Opdracht 2 - Significantie
-
-<span style="color:red">IDEE: oefenen met significantie.</span>
-
-## Opdracht 3 - Foutenpropagatie
-
-<span style="color:red">IDEE: gegeven meetwaarden. Uitrekenen wat de fout is als je de meetwaarden bij elkaar opteld, deelt en combinaties daarvan.
-Hierbij ook letten op de significantie.</span>
-
-#### Onderdeel a
-
-## Opdracht 4 - Foutenpropagatie partieel
-
-<span style="color:red">IDEE: oefenen met partieel op een formule </span>
-
-## Opdracht 5 - Foutenpropagatie partieel
-
-<span style="color:red">IDEE: in onderdelen verdelen. Nu foutenpropagatie op iets natuurkundigs. Even naar de experimenten bij NP kijken </span>
+* <a href="#B2.A">B2.A Grote Aantallen II ***</a>
+* <a href="#B2.B">B2.B Meesjes *** </a>
+* <a href="#B2.C">B2.C Halfwaardedikte II ***</a>
 
 
+De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 
 
+De antwoorden van de opdrachten moet je invoeren in [dit template](InlevertemplateBlok2.docx) en als **pdf** bestand inleveren via ANS. De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/start/inleveropdrachten) vinden.
 
+
+Als je vragen hebt, stel deze dan aan de assistent of stuur een email naar de coördinator.
+
+Vergeet niet om ook even te kijken naar de [oefen opgaves](/tussentoets-ii/oefenopgaves) ter voorbereiding van de eerste tussentoets die na het tweede werkcollege plaats vindt.
+
+Veel succes! 
+
+*****
