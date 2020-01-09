@@ -22,7 +22,7 @@ Hierbij zijn $$\frac{\delta q}{\delta x}$$, $$\frac{\delta q}{\delta y}$$ etc. d
 
 > <span class="badge badge-warning">Voorbeeld 1</span> Stel we hebben een vergelijking $$y = c\cdot x$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
 $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = c \cdot \Delta x$$.<br>
-> Dit wordt visueel weergegeven in het plaatje hieronder waar voor een willekeurige waarde $$x_i$$ het effect van de propagatie van $$\Delta x$$ wordt weergegeven op de variabele $$y$$. 
+> Dit wordt visueel weergegeven in het plaatje hieronder waar voor een willekeurige waarde $$x_i$$ het effect van de propagatie van $$\Delta x$$ rond de waarde $$x_i$$ naar de fout $$\Delta y$$ rond $$y_i$$ wordt hier visueel weergegeven.<br>
 > ![](Foutenpropagatie_const.png){:width="40%",:inline}
 
 > <span class="badge badge-warning">Voorbeeld 2</span> Stel we hebben een vergelijking $$y = x + a$$ met een standaard deviatie op $$x$$ van $$\Delta x$$. Dan is de standaard deviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = \Delta x$$.
