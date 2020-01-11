@@ -5,7 +5,7 @@
 from random import seed
 import random
 import os
-import math
+import math as m
 import numpy as np
 
 #Vul hier je studentnummer in
@@ -65,7 +65,6 @@ def DataSetHalfwaardeDikte(s=1) :
     checkSD()
     I_0 = random_getal%100 + 100
     d_half = (random_getal%100)/1000. + 1.5
-    print(d_half)
     np.random.seed(s)
     lood_dikte = 0.3 #(cm)
     metingen = []
@@ -82,7 +81,6 @@ def DataSetHalfwaardeDikteVariatie(s=1,frac=1.,lood_dikte=0.3,meettijd=120,N=16)
     checkSD()
     I_0 = (random_getal%100 + 100) * meettijd/120.
     d_half = frac*((random_getal%100)/1000. + 1.5)
-    print(d_half)
     np.random.seed(s)
     metingen = []
     diktes = []
