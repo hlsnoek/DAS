@@ -34,7 +34,8 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 
 ### Extra kansrekenregels [link](/blok-2/extra-kansrekenregels)
 * Alle kansrekenregels (ook uit blok 1) paraat hebben en kunnen toepassen.
-* De wiskundige notaties $$(A \cap B)$$, $$(A \cup B)$$ en $$(A|B)$$ begrijpen.
+* De wiskundige notaties $$(A \cap B)$$, $$(A \cup B)$$ en $$(A
+|B)$$ begrijpen.
 * Begrijpen wanneer je welke regel moet toepassen.
 * Bayes theorema kennen en kunnen toepassen.
 
