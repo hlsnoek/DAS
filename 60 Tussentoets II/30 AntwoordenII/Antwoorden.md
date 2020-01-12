@@ -68,7 +68,6 @@ Onder welke voorwaarde mogen we aannemen dat de onzekerheid op het berekende gem
 We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten. Het gemiddelde waarde van $$\mu = 22$$ met een standaard deviatie van $$\sigma = 4 $$. <br>
 **a.** Wat is de onzekerheid op het gemiddelde van deze dataset?<br>
 <span style = 'color:blue'>De onzekerheid is: $$\sigma_\mu (=\Delta \mu)= \frac{\sigma}{\sqrt{N}} = 4/\sqrt{16} = 1 $$</span><br>
-
 **b.** We voegen nog 9 extra waardes aan onze dataset toe. Wat is de onzekerheid op het gemiddelde nu?<br>
 <span style = 'color:blue'>De onzekerheid is: $$\sigma_\mu (=\Delta \mu)= \frac{\sigma}{\sqrt{N}} = 4/\sqrt{25} = 0.8 $$</span><br>
 
@@ -76,3 +75,6 @@ We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten
 **12.**
 <span style = 'color'blue'> </span><br>
 
+### Extra kansrekenregels 
+
+<span style = 'color'blue'> </span><br>
