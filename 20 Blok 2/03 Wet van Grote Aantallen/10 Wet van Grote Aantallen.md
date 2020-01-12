@@ -25,7 +25,7 @@ Als de verwachtingswaarde van een enkele stochast $$E(X_i)$$ gelijk is aan $$\mu
  En dan geldt voor de variantie $$Var(S_N) = N \sigma^2$$ en $$Var(<{X_N}>) = \sigma^2/N$$. <br>
 Dit betekent dat de standaard deviatie van de som van de stochasten gelijk is aan $$\sigma \sqrt{N}$$ en de standaard deviatie van het gemiddelde $$\sigma / \sqrt{N}$$. 
 
-Dit betekent dus dat als we het gemiddelde van de massa van N aantal kogels nemen waarbij de kogels een Normale distributie hebben met een gemiddelde $$\mu$$ en een standaard deviatie van $$\sigma$$, de onzekerheid op de bepaalde massa gelijk is aan $$\sigma/\sqrt{N}$$: de standaard deviatie van de distributie gedeeld door het aantal kogels dat is meegenomen in de meting. Hoe meer kogels we wegen en meenemen in ons gemiddelde, hoe nauwkeuriger we dit gemiddelde kennen. 
+Dit betekent dus dat als we het gemiddelde van de massa van N aantal kogels nemen waarbij de kogels een Normale distributie hebben met een gemiddelde $$\mu$$ en een standaard deviatie van $$\sigma$$, de onzekerheid op de bepaalde gemiddelde massa gelijk is aan $$\sigma/\sqrt{N}$$: de standaard deviatie van de distributie gedeeld door het aantal kogels dat is meegenomen in de meting. Hoe meer kogels we wegen en meenemen in ons gemiddelde, hoe nauwkeuriger we dit gemiddelde kennen. 
 
 ## De wet van Grote Aantallen
 Intuïtief voelen we aan dat hoe meer metingen we doen, hoe meer informatie we hebben, en hoe nauwkeuriger ons resultaat is. 
@@ -36,13 +36,13 @@ De **wet van grote aantallen** zegt dat het berekende steekproef gemiddelde, $$<
 Ofwel de kans dat het steekproef gemiddelde meer afwijkt van het populatie gemiddelde dan een heel klein getal convergeert naar 0 voor oneindig grote steekproeven. 
 Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan  oneindig grote, of nagenoeg oneindig grote populaties, zoals bijvoorbeeld als je de gemiddelde massa van het electron wilt bepalen. 
 
-Tip: In deze [video](https://www.youtube.com/watch?v=MntX3zWNWec) wordt de wet van grote aantallen duidelijk uitgelegd. 
+**Tip:** In deze [video](https://www.youtube.com/watch?v=MntX3zWNWec) wordt de wet van grote aantallen nogmaals duidelijk uitgelegd. 
 
 Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk dat de variantie van de stochast eindig moet zijn, en dat dus de verwachtingswaarde van de stochast bepaald is. Er bestaan distributies, zoals de [Cauchy](https://nl.wikipedia.org/wiki/Cauchy-verdeling) of de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie waarvoor dit dus niet geldt. Deze distributies hebben oneindig lange staarten. Hieronder zie je hoe de Cauchy distributie eruit ziet.
 
 ![](CauchyDistributie.png){:width="80%"} 
 
-Wiskundig kan de wet van de grote aantallen dus weleens voor problemen zorgen. In Natuurkundige experimenten zijn verdelingen uiteindelijk vaak beknot door bijvoorbeeld de eindigheid van energie in een botsing. Voor Natuurkundige experimenten gaat de wet van grote aantallen dus vaak wel op.
+Wiskundig kan de wet van de grote aantallen dus weleens voor problemen zorgen. In Natuurkundige experimenten zijn verdelingen uiteindelijk vaak beknot door bijvoorbeeld de eindigheid van energie. Voor Natuurkundige experimenten gaat de wet van grote aantallen dus vaak wel op.
 
 Overigens noemen we deze wet van grote aantallen de *zwakke* wet van grote aantallen, er bestaat ook een *sterke* wet. We gaan hier niet in op de kleine verschillen tussen deze twee wetten, online kun je er eventueel genoeg over vinden.
  
