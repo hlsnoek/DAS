@@ -25,6 +25,8 @@ Alle kansrekenregels (ook uit blok 1) paraat hebben en kunnen toepassen.
 De wiskundige notaties $$(A \cap B)$$, $$(A \cup B)$$ en $$(A|B)$$ begrijpen.
 Bayes theorema kennen en kunnen toepassen
 
+Definitie van Schatter (vind je in B2.C)
+<a href="B2.C"></a>
 
 <span style = "color:blue"> </span><br>
 
