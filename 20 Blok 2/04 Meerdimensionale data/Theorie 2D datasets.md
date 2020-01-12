@@ -32,7 +32,7 @@ Als de covariantie gelijk is aan nul dan is er, gemiddeld over de hele dataset, 
 Met de volgende formules kun je de covariantie van een dataset uitrekenen: 
 
 * Voor discrete verdelingen geldt : 
-$${\displaystyle cov(x,y) = \sum_n (x-<{x}>)\cdot (y-<{y}>)}.$$
+$${\displaystyle cov(x,y) = \frac{1}{n}\sum_n (x-<{x}>)\cdot (y-<{y}>)}.$$
 
 * Voor continue verdelingen geldt: 
 $${\displaystyle cov(x,y) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}xy \cdot f(x,y) dy dx }$$
