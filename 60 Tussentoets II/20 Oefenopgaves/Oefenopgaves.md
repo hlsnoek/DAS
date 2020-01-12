@@ -50,7 +50,7 @@ Wat is het gemiddelde van de gecombineerde dataset T?<br>
 ----
 **10.**
 Onder welke voorwaarde mogen we aannemen dat de onzekerheid op het berekende gemiddelde van een dataset kleiner wordt als we datapunten toevoegen?<br>
-<span style = 'color:blue'> Dat mogen we doen als voor de onderliggende verdeling van de dataset een goed gedefinieerde variantie bestaat.</span>
+
 
 ---
 **11.**
