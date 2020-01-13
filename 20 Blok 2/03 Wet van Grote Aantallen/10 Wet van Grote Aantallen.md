@@ -21,8 +21,12 @@ En het gemiddelde kunnen we schrijven als <br>
 <center>$$E(<{X_1 ... X_N}>) = S_n/N.$$ <br></center>
 Als de verwachtingswaarde van een enkele stochast $$E(X_i)$$ gelijk is aan $$\mu$$ en de variantie gelijk is aan <br>
 <center>$$Var(X_i) = \sigma^2$$<br></center>
- Dan geldt nu voor de verwachtingswaarde van de som $$E(S_N)= \mu N$$ en voor het gemiddelde $$E(<{X_N}>) = \mu$$. <br>
- En dan geldt voor de variantie $$Var(S_N) = N \sigma^2$$ en $$Var(<{X_N}>) = \sigma^2/N$$. <br>
+ Dan geldt nu voor de verwachtingswaarde van de som <br>
+ <center>$$E(S_N)= \mu N$$</center> <br>
+ en voor het gemiddelde <br>
+ <center>$$E(<{X_1 ... X_N}>) = \mu.$$</center> <br>
+ En dan geldt voor de variantie <br>
+<center> $$Var(S_N) = N \sigma^2$$ en $$Var(<{X_1 ... X_N}>) = \sigma^2/N.$$ </center><br>
 Dit betekent dat de standaard deviatie van de som van de stochasten gelijk is aan $$\sigma \sqrt{N}$$ en de standaard deviatie van het gemiddelde $$\sigma / \sqrt{N}$$. 
 
 Dit betekent dus dat als we het gemiddelde van de massa van N aantal kogels nemen waarbij de kogels een Normale distributie hebben met een gemiddelde $$\mu$$ en een standaard deviatie van $$\sigma$$, de onzekerheid op de bepaalde gemiddelde massa gelijk is aan $$\sigma/\sqrt{N}$$: de standaard deviatie van de distributie gedeeld door het aantal kogels dat is meegenomen in de meting. Hoe meer kogels we wegen en meenemen in ons gemiddelde, hoe nauwkeuriger we dit gemiddelde kennen. 
