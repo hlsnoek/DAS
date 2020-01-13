@@ -10,7 +10,7 @@ De of-regel geldt alleen als de metingen A en B wederzijds exclusief zijn. Dat b
 
 ###De of regel wanneer A en B niet wederzijds exclusief zijn:
 In het geval A en B niet wederzijds exclusief zijn dan:<br>
-<center>$$P(\text{A en B}) \equiv P(A \cup B) = P(A) + P(B) >0.$$</center><br>
+<center>$$P(\text{A en B}) \equiv P(A \cap B) >0.$$</center><br>
 De kans dat A of B gemeten wordt is dan:
 <center>$$P(\text{A of B}) = P(A) + P(B) - P(\text{A en B}).$$</center>
 
