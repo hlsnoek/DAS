@@ -74,5 +74,3 @@ Je hebt de volgende dataset met waardes van x en y: <br>
 **a.** Bereken de covariantie.<br>
 **b.** Bereken de correlatie.<br>
 
-
-### Extra kansrekenregels 
