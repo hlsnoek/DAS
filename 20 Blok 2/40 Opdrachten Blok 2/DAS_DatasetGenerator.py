@@ -77,10 +77,12 @@ def DataSetHalfwaardeDikte(s=1) :
     return metingen,diktes
 
 
-def DataSetHalfwaardeDikteVariatie(s=1,frac=1.,lood_dikte=0.3,meettijd=120,N=16) :
+def DataSetHalfwaardeDikteVariatie(s=1,dtrue=-1,lood_dikte=0.3,meettijd=120,N=16) :
     checkSD()
     I_0 = (random_getal%100 + 100) * meettijd/120.
-    d_half = frac*((random_getal%100)/1000. + 1.5)
+    if dtrue==-1 :
+        d_half = ((random_getal%100)/1000. + 1.5)
+    else d_half = dtrue
     np.random.seed(s)
     metingen = []
     diktes = []
