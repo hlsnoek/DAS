@@ -50,7 +50,7 @@ Je ziet dat het steekproef gemiddelde erg lijkt op de uitdrukking voor het popul
 
 De mediaan is een maat voor het midden van de elementen in een gesorteerde dataset of verdeling. In een dataset heb je exact 50% kans om een waarde te vinden die lager is dan de mediaan en 50% kans om een waarde te vinden die hoger is dan de mediaan.
 
-Als we alle datapunten in een dataset sorteren van lage naar hoge waarde, dan is de mediaan de waarde van het element in het midden van de set. Is er sprake van een oneven aantal elementen dan is de mediaan de gemiddelde waarde van de twee elementen in het midden van de set.
+Als we alle datapunten in een dataset sorteren van lage naar hoge waarde, dan is de mediaan de waarde van het element in het midden van de set. Is er sprake van een even aantal elementen dan is de mediaan de gemiddelde waarde van de twee elementen in het midden van de set.
 
 Neem bijvoorbeeld de volgende datapunten: 
 
