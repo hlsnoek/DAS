@@ -110,5 +110,12 @@ $$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{2.75}{1.118\times 2.9
 
 ### Extra kansrekenregels 
 **14.** 
+Op een zomerse avond zie je rook en waar rook is is vuur. Op een zomerse avond is de kans dat je rook ziet (10%), meestal door gebruik van barbeques. Gevaarlijke branden zijn heel zeldzaam (1%) de kans dat rook bij een gevaarlijke brand vrijkomt is groot (90%). Wat is de kans dat de rook die je ziet van een een gevaarlijk brand afkomt?<br>
+<span style = 'color=blue'>
+Gebruik Bayes theorema om dit uit te rekenen.<br>
+$${\displaystyle \text{P(gevaarlijke brand|rook)} = \frac{\text{P(rook|gevaarlijke brand)}\cdot{\text{P(gevaarlijke brand)}}}{\text{P(rook)}} = \frac{0.9 \times 0.01}{0.10} = 0.09}$$<br>
+</span>
+
+**15.**
 
 <span style = 'color:blue'> </span><br>
