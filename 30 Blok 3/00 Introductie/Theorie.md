@@ -145,13 +145,15 @@ Hebben we bijvoorbeeld de nulhypothese dat het percentage mensen met blauwe ogen
 Zoals eerder vermeld geeft de p-waarde de kans dat waargenomen uitkomst gevonden kan worden onder de aanname dat de nulhypothese correct is. 
 De p-waarde is dus gelijk aan een zeker oppervlak onder de normaalkromme. 
 
-De kans om een waarde $$X< x$$ te vinden is gelijkend aan het oppervlak onder de normaalkromme zoals hieronder getoond:
+Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, is hieronder schematisch weergegeven:
 
-PLAATJE
+![](NormaleVerdeling_1.png){:width="80%"}
+![](NormaleVerdeling_2.png){:width="80%"}
 
-De kans om een waarde $$X>x$$ te vinden is gelijkend aan het oppervlak onder de normaalkromme zoals hieronder getoond:
+Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X> x$$ te vinden, is hieronder schematisch weergegeven:
 
-PLAATJE
+![](NormaleVerdeling_3.png){:width="80%"}
+![](NormaleVerdeling_4.png){:width="80%"}
 
 Om dit oppervlak uit te rekenen gebruiken we de zogenoemde *Z-toets*. Stel een dataset met $$N > 30$$ datapunten is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. De $$Z-score$$, voor een bepaalde observatiewaarde $$x$$, is dan gelijk aan:
 
@@ -183,7 +185,10 @@ Dit kun je zelf nagaan door schetsen te maken van de bijbehorende oppervlakken o
 
 Bij de tweezijdige overschijdingskans wordt de kans op een waarde groter dan de gestelde waarde opgeteld bij de kans op een waarde kleiner dan de gestelde waarde:
 
-$$\begin{aligned}P(X=x) &= P(Z<\frac{x-\mu}{\sigma}) + P(Z>\frac{x-\mu}{\sigma})\\ &= P(Z<\frac{x-\mu}{\sigma}) + \left(1 - P(Z<\frac{x-\mu}{\sigma})\right) \\ &= 2\cdot P(Z<\frac{x-\mu}{\sigma}) - 1 \end{alinged}$$ 
+$$\begin{aligned}P(X=x) &= P(Z<\frac{x-\mu}{\sigma}) + P(Z>\frac{x-\mu}{\sigma})\\ &= P(Z<\frac{x-\mu}{\sigma}) + \left(1 - P(Z<\frac{x-\mu}{\sigma})\right) \\ &= 2\cdot P(Z<\frac{x-\mu}{\sigma}) - 1 \end{aligned}$$
+
+
+$$\begin{aligned} P(X=x) &= P(Z<\frac{x-\mu}{\sigma}) + P(Z>\frac{x-\mu}{\sigma})\\ &= P(Z<\frac{x-\mu}{\sigma}) + \left(1 - P(Z<\frac{x-\mu}{\sigma})\right) \\ &= 2\cdot P(Z<\frac{x-\mu}{\sigma}) - 1 \end{alinged}$$ 
 
 
 Als je de z-score hebt berekent kun je uit de z-waarden [tabel](https://www.ztable.net/) aflezen wat $$P(Z<\frac{x-\mu}{\sigma})$$ is. 
@@ -238,8 +243,8 @@ Dit bekijken we aan de hand van een paar voorbeelden:
 
 > Voorbeeld: We onderzoeken de staartlengte van volgroeide lapjeskatten in Nederland, en stellen de volgende hypotheses op:
 >
->$$H_{\alpha}$$: De lengte van de staart van een volgroeide lapjeskat in Nederland is groter dan 10 cm.
->$$H_0$$: De lengte van de staart van een volgroeide lapjeskat in Nederland is kleiner of gelijk aan 10 cm.
+>- $$H_{\alpha}$$: De lengte van de staart van een volgroeide lapjeskat in Nederland is groter dan 10 cm.
+>- $$H_0$$: De lengte van de staart van een volgroeide lapjeskat in Nederland is kleiner of gelijk aan 10 cm.
 >
 >Bij voorbaat kiezen we als significantielevel $$\alpha=5%$$.
 >
@@ -261,8 +266,8 @@ Het is goed om te beseffen dat we **niet** kunnen zeggen dat onze alternatieve h
 
 > Voorbeeld: We onderzoeken de gemiddelde lengte van alle vrouwen ($$> 18$$ jaar) in Nederland, en stellen de volgende hypotheses op:
 >
->$$H_{\alpha}$$: De gemiddelde lengte van alle vrouwen boven de 18 jaar is hoger dan 180 cm.
->>$$H_{\alpha}$$: De gemiddelde lengte van alle vrouwen boven de 18 jaar is lager dan of gelijk aan 180 cm. 
+>- $$H_{\alpha}$$: De gemiddelde lengte van alle vrouwen boven de 18 jaar is hoger dan 180 cm.
+>- $$H_{0}$$: De gemiddelde lengte van alle vrouwen boven de 18 jaar is lager dan of gelijk aan 180 cm. 
 >
 >Bij voorbaat kiezen we als significantielevel $$\alpha=5%$$.
 >
