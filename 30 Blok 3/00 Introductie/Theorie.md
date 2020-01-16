@@ -153,13 +153,13 @@ De kans om een waarde $$X>x$$ te vinden is gelijkend aan het oppervlak onder de 
 
 PLAATJE
 
-Om dit oppervlak uit te rekenen gebruiken we de zogenoemde *Z-toets*. Stel een dataset met $$N > 30$$ datapunten is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigmas$$. De $$Z-score$$, voor een bepaalde observatiewaarde $$x$$, is dan gelijk aan:
+Om dit oppervlak uit te rekenen gebruiken we de zogenoemde *Z-toets*. Stel een dataset met $$N > 30$$ datapunten is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. De $$Z-score$$, voor een bepaalde observatiewaarde $$x$$, is dan gelijk aan:
 
 $$Z = \frac{x-\mu}{\sigma}$$  
 
 <!--De p-waarde, oftewel de kans op de geobserveerde uitkomst met de gegeven dataset-->
 
-Stel een stochastische variabele $$X$$, met $$N > 30$$ datapunten, is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigmas$$. 
+Stel een stochastische variabele $$X$$, met $$N > 30$$ datapunten, is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. 
 
 <!--Dan wordt de Z-score voor een waarde $$x$$ van de stochast $$X$$ gegeven door:
 
