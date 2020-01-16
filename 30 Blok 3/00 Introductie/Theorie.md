@@ -12,7 +12,7 @@ Als je een steekproef hebt genomen en je wilt hiermee iets kunnen zeggen over de
 Dit wordt hypothese toetsen genoemd. Bij hypothese toetsen doorloop je de volgende stappen:
 
 1. Hypothese opstellen
-2. Significantielevel bepalen 
+2. Significantielevel kiezen 
     - Let op! Dit is iets anders dan de significantie waarin je een meetwaarde noteert.
 3. p-waarde bepalen
 4. Conclusie trekken
@@ -24,6 +24,7 @@ Deze stappen worden hieronder toegelicht.
 Een hypothese is een uitspraak over een bepaalde eigenschap van een populatie. Je weet nog niet of deze uitspraak correct is. Een hypothese wordt geformuleerd als stelling.  
 
 > Voorbeelden van hypotheses:
+>
 >- 20% van de auto's in Nederland is blauw.
 >- 50% van de Nederlanders heeft blauwe ogen
 >- De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}$$
@@ -48,8 +49,8 @@ Onderstaand de eerdere hypothesen met bijbehorende nulhypothesen:
 >- $$H_{\alpha}$$: Meer dan 20% van de auto's in Nederland is blauw.
 >- $$H_0$$: Minder dan 20% van de auto's in Nederland is blauw.
 
->- $$H_{\alpha}$$: 50% van de Nederlanders heeft blauwe ogen
->- $$H_0$$: Het percentage Nederlanders met blauwe ogen is geen 50%.
+>- $$H_{\alpha}$$: Het percentage Nederlanders met blauwe ogen is geen 50%.
+>- $$H_0$$: Het percentage Nederlanders met blauwe ogen is 50%.
 
 >- $$H_{\alpha}$$: De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}$$.
 >- $$H_0$$: De valversnelling in Nederland is niet gelijk aan $$9.81 \text{ ms}^{-2}$$.
@@ -57,11 +58,19 @@ Onderstaand de eerdere hypothesen met bijbehorende nulhypothesen:
 >- $$H_{\alpha}$$: Studenten in Amsterdam halen hogere cijfers dan studenten in Groningen 
 >- $$H_0$$: De studenten in Amsterdam halen lagere cijfers dan de studenten in Groningen.
 
+>- $$H_{\alpha}$$: Het aantal katten in Nederland is groter dan 20 000
+>- $$H_0$$: Het aantal katten in Nederland is kleiner of gelijk aan 20 000
+
+>- $$H_{\alpha}$$: Het percentage mensen over de gehele wereld met een hond is kleiner dan 40%
+>- $$H_0$$: Het percentage mensen over de gehele wereld met een hond is groter of gelijk aan 40%
+
 In alle bovenstaande gevallen is het dus de procedure om te kijken of we genoeg bewijs hebben om de nulhypothese te kunnen verwerpen zodat we de alternatieve hypothese kunnen aannemen.
 
-### Significantielevel bepalen
+>Extra opmerking: De term nulhypothese komt van het engels 'null hypothesis' en de naamgeving slaat op de hypothese die verworpen (oftewel 'nullified') moet worden.
 
-De volgende stap in hypothese toetsen is het bepalen van het significantielevel. Dit houdt in dat we bekijken of de steekproef een goede representatie is van de totale populatie.
+### Significantielevel kiezen
+
+De volgende stap in hypothese toetsen is het kiezen van het significantielevel. Dit houdt in dat we bepalen hoe zeker we ervan willen zijn dat we de correcte conclusie trekken, zonder precisie te verliezen.
 
 Niet elke steekproef zal daadwerkelijk iets kunnen zeggen over de bijbehorende populatie. Als we bijvoorbeeld willen weten of het klopt dat 20% van de auto's in Nederland de kleur blauw heeft, maar in de steekproef kiezen we toevallig alleen auto's met een andere kleur, dan zouden we als conclusie kunnen trekken dat er in Nederland geen blauwe auto's rondrijden. Dit klopt echter niet met de daadwerkelijke populatie. Als je op de weg rijdt zie je namelijk wel degelijk blauwe auto's voorbij komen.
 
@@ -95,6 +104,120 @@ Hoe kleiner de kans is op de nulhypothese des te zekerder we ervan kunnen zijn d
 
 ### p-waarde bepalen
 
+Na het kiezen van het significantielevel, bepalen we de *p-waarde* behorende bij de nulhypothese. De p-waarde is de kans om de geobserveerde meetwaarden te vinden onder de aanname dat de nulhypothese correct is.
+
+> Stel we hebben de nulhypothese dat het percentage blauwe auto's in Nederland geen 20% is. 
+> We doen een meting waarbij we gedurende een dag het aantal blauwe auto's tellen die op de A6 voorbij komen. De kans dat we een uitkomst kunnen hebben van 25% blauwe auto's, **onder de aanname dat de nulhypothese correct is** (geen 20% blauwe auto's), is de p-waarde. Hoe kleiner de p-waarde die we vinden des te meer grond we hebben om de nulhypothese te verwerpen.  
+
+<!--De p-waarde is dus eigenlijk het laagste level van significantie waarop de nulhypothese verworpen kan worden. vinden we bijvoorbeeld een p-waarde van 10%-->   
+
+Er zijn verscheidene methodes voor het hypothese toetsen. In deze sectie behandelen we het bepalen van de p-waarde voor een normaal verdeelde dataset, middels de zogenoemde 
+*z-toets*. 
+
+Ook voor data met een andere distributie kan de p-waarde bepaald worden via de z-toets voor een normale verdeling. Wel moet er dan een voldoende aantal metingen gedaan zijn zodat de **wet van grote aantallen** toegepast kan worden, en de data benaderd kan worden met een normale verdeling.
+
+Afhankelijk van de manier waarop de nulhypothese en alternatieve hypothese opgesteld zijn, bepalen we de *eenzijdige overschrijdingskans* of de *tweezijdige overschrijdingskans*. Is de nulhopothese opgesteld met de formulering 'is gelijk aan' of 'is ongelijk aan', dan bepalen we de tweezijdige overschrijdingskans. Is de nulhypothese opgesteld met de formulering 'groter/kleiner dan' of 'groter/kleiner of gelijk aan' dan is het noodzakelijk om de eenzijdige overschrijdingskans te bepalen. Dus:
+
+|$$H_0$$ met | $$H_{\alpha}$$ met  |type overschrijding|
+|---|---|---|
+|$$=$$|$$\neq$$|tweezijdig|
+|$$\neq$$|$$=$$|tweezijdig|
+|$$\leq$$ | $$>$$ | eenzijdig|
+|$$\geq$$|$$<$$|eenzijdig|
+
+> Voorbeelden van nulhypothesen waarbij er sprake is van het bepalen van de tweezijdige overschrijdingskans:
+>
+>- $$H_0$$: Het percentage blauwe auto's in Nederland is geen 20%.
+>- $$H_0$$: Het percentage Nederlanders met blauwe ogen is 50%.
+
+> Voorbeelden van nulhypothesen waarbij er sprake is van het bepalen van de eenzijdige overschrijdingskans:
+>
+>- $$H_0$$: De studenten in Amsterdam halen lagere cijfers dan de studenten in Groningen.
+>- $$H_0$$: Het aantal katten in Nederland is kleiner of gelijk aan 20 000
+>- $$H_0$$: Het percentage mensen over de gehele wereld met een hond, is groter of gelijk aan 40%
+
+<!--De eenzijdige en tweezijdige overschreidignskansen kun je als volgt zien. Als we in de nulhypothese stellen dat een eigenschap gelijk is aan een bepaalde waarde,   
+Hebben we bijvoorbeeld de nulhypothese dat het percentage mensen met blauwe ogen geen 50% is, dan -->
+
+Zoals eerder vermeld geeft de p-waarde de kans dat waargenomen uitkomst gevonden kan worden onder de aanname dat de nulhypothese correct is. 
+De p-waarde is dus gelijk aan een zeker oppervlak onder de normaalkromme. 
+
+De kans om een waarde $$X<x$$ te vinden is gelijkend aan het oppervlak onder de normaalkromme zoals hieronder getoond:
+
+PLAATJE
+
+De kans om een waarde $$X>x$$ te vinden is gelijkend aan het oppervlak onder de normaalkromme zoals hieronder getoond:
+
+PLAATJE
+
+Om dit oppervlak uit te rekenen gebruiken we de zogenoemde *Z-toets*. Stel een dataset met $$N > 30$$ datapunten is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigmas$$. De $$Z-score$$, voor een bepaalde observatiewaarde $$x$$, is dan gelijk aan:
+
+$$Z = \frac{x-\mu}{\sigma}$$  
+
+<!--De p-waarde, oftewel de kans op de geobserveerde uitkomst met de gegeven dataset-->
+
+Stel een stochastische variabele $$X$$, met $$N > 30$$ datapunten, is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigmas$$. 
+
+<!--Dan wordt de Z-score voor een waarde $$x$$ van de stochast $$X$$ gegeven door:
+
+$$Z = \frac{x-\mu}{\sigma}$$-->
+
+
+<!--In onderstaand overzicht staat bij elke gewenste kans de bijbehorende Z-score -->
+
+Het oppervlak onder de normaalkromme, behorende bij de kans op een bepaalde waarde, hangt op de volgende manier van de z-score af.
+
+De éénzijdige overschrijdingskans om een waarde $$X<x$$ te vinden is gelijk aan:
+
+$$P(X<x) = P(Z<\frac{x-\mu}{\sigma})$$
+
+De éénzijdige overschrijdingskans om een waarde $$X>x$$ te vinden is gelijk aan:
+
+$$P(X>x) = 1 - P(X<x>) = 
+1-P(Z<\frac{x-\mu}{\sigma})$$
+
+Dit kun je zelf nagaan door schetsen te maken van de bijbehorende oppervlakken onder de normaalkromme.
+
+Bij de tweezijdige overschijdingskans wordt de kans op een waarde groter dan de gestelde waarde opgeteld bij de kans op een waarde kleiner dan de gestelde waarde:
+
+$$\begin{aligned}P(X=x) &= P(Z<\frac{x-\mu}{\sigma}) + P(Z>\frac{x-\mu}{\sigma})\\ &= P(Z<\frac{x-\mu}{\sigma}) + \left(1 - P(Z<\frac{x-\mu}{\sigma})\right) \\ &= 2\cdot P(Z<\frac{x-\mu}{\sigma}) - 1 \end{alinged}$$ 
+
+
+Als je de z-score hebt berekent kun je uit de z-waarden [tabel](https://www.ztable.net/) aflezen wat $$P(Z<\frac{x-\mu}{\sigma})$$ is. 
+
+> Voorbeeld: Een stochast $$X$$ is normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$. Bereken de kans op een waarde $$X<16$$.
+> 
+> Uitwerking: Het gaat hier om een eenzijdige overschijdingskans. Nu:
+>
+>$$\begin{aligned}P(X<16) &= P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= P\left(Z<\frac{16-20}{2} \\ &= P(Z<-2)\right)\end{aligned}$$
+>
+> Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.02275$$ bij deze Z-score.
+>
+> Dus 
+>
+>$$P(X<16) = P\left(Z<\frac{x-\mu}{\sigma}\right) = 0.02275$$
+>
+> Er is in dit geval dus een kans van 2% dat we bij de gegeven dataset een waarde onder de 15 zullen vinden.
+
+> Voorbeeld: Een stochast $$X$$ is normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$. Bereken de kans op een waarde $$X>22$$.
+> 
+> Uitwerking: Het gaat hier om een eenzijdige overschijdingskans. Nu:
+>
+>$$\begin{aligned}P(X>22) &= 1-P(X<22>) \\ &=
+1-P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= 1 - P\left(Z<\frac{22-20}{2} \\ &= 1 - P(Z<1)\right)\end{aligned}$$
+>
+> Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.84134$$ bij deze Z-score.
+>
+> Dus 
+>
+>$$P(X>22) = 1 - P\left(Z<\frac{x-\mu}{\sigma}\right) = 1-0.84134 = 0.15866$$
+>
+> Er is in dit geval dus een kans van 15% dat we bij de gegeven dataset een waarde boven de 22 zullen vinden.
+
+
+<!--De p-waarde is de kans dat  de gevonden uitkomst mogelijk is ervanuitgaande dat de nulhypothese klopt. 
+
+
 
 Om de kans te berekenen op een toestand 
 
@@ -102,15 +225,56 @@ Om de kans te berekenen op een toestand
 - one tailed (alleen als je een goed idee hebt van de directionality < of >)
 - two tailed (altijd bij =, en ook als je geen goed idee hebt van de directionality)
 - z waarde
-- p waarde (+ tabel https://www.ztable.net/) ook wel student's t-distributie genoemd
-
-
-
-### Kritieke waarden vinden
+- p waarde (+ tabel https://www.ztable.net/) ook wel student's t-distributie genoemd-->
 
 ### Conclusie trekken
 
-We hebben geen bewijs maar wel 'support'
+Tot nu toe hebben we de nulhypothese en de alternatieve hypothese opgesteld. Daarna hebben we bepaald welk significantielevel we zullen aanhouden. Vervolgens hebben we de z-score en daarmee de p-waarde bepaald. Maar hoe trek je aan de hand hiervan nu een conclusie over de nulhypothese? 
+
+Dit bekijken we aan de hand van een paar voorbeelden:
+
+> Voorbeeld: We onderzoeken de staartlengte van volgroeide lapjeskatten in Nederland, en stellen de volgende hypotheses op:
+>
+>$$H_{\alpha}$$: De lengte van de staart van een volgroeide lapjeskat in Nederland is groter dan 10 cm.
+>$$H_0$$: De lengte van de staart van een volgroeide lapjeskat in Nederland is kleiner of gelijk aan 10 cm.
+>
+>Bij voorbaat kiezen we als significantielevel $$\alpha=5%$$.
+>
+>We meten de staartlengte van 300 lapjeskatten in Nederland (met alle gevolgen van dien voor de onderzoekers), en zetten het resultaat uit in een histogram. Dit resulteert in een normale verdeling met gemiddelde $$\mu=25$$ cm en een standaardafwijking $$5$$ cm.
+>
+>De nulhypothese stelde dat de lengte van de staart van een volgroeide lapjeskat kleiner of gelijk is aan 10 cm. We bepalen dus de p-waarde die hierbij hoort:
+>
+> $$\begin{aligned}P(X<10) &= P(Z<\frac{10-25}{5})\\ &= P(Z<-3) \end{aligned}$$
+>
+>Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.00135$$ bij deze Z-score. Dus:
+>
+>$$P(X<10) = P(Z<-3) = 0.00135$$
+> 
+>De p-waarde is dus 0.14%. Op grond van het eerder gekozen significantielevel van 5% verwerpen we de nulhypothese. In dit geval is het zo dat we de nulhypothese ook hadden verworpen als we $$\alpha=10%$$ of $$\alpha=1%$$ hadden gekozen.
+
+Is de p-waarde kleiner dan het gekozen significantielevel dan verwerpen we de nulhypothese. Is de p-waarde groter dan het gekozen significantielevel dan verwerpen we de nulhypothese niet.
+
+Het is goed om te beseffen dat we **niet** kunnen zeggen dat onze alternatieve hypothese correct is of dat de nulhypothese fout is. De p-waarde geeft namelijk geen bewijs. Wel hebben we met de p-waarde een onderbouwing om de nulhypothese, met inachtname van het gekozen significantielevel, wel/niet te verwerpen.
+
+> Voorbeeld: We onderzoeken de gemiddelde lengte van alle vrouwen ($$> 18$$ jaar) in Nederland, en stellen de volgende hypotheses op:
+>
+>$$H_{\alpha}$$: De gemiddelde lengte van alle vrouwen boven de 18 jaar is hoger dan 180 cm.
+>>$$H_{\alpha}$$: De gemiddelde lengte van alle vrouwen boven de 18 jaar is lager dan of gelijk aan 180 cm. 
+>
+>Bij voorbaat kiezen we als significantielevel $$\alpha=5%$$.
+>
+>We meten de lengte van 500 nederlandse vrouwen boven de 18 jaar. De resultaten volgen een normale verdeling met gemiddelde $$\mu=165$$ cm en een standaardafwijking $$10$$ cm.
+>
+>De nulhypothese stelde dat de gemiddelde lengte van de nederlandse vrouwen hoger is dan 180 cm. We bepalen dus de p-waarde die hierbij hoort:
+>
+> $$\begin{aligned}P(X>180) &= 1-P(X<180) \\ &= 1-P(Z<\frac{180-165}{10})\\ &= 1-P(Z<1.5) \end{aligned}$$
+>
+>Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.93319$$ bij deze Z-score. Dus:
+>
+>$$P(X>180) = 1-P(Z<1.5) = 0.06681$$
+> 
+>De p-waarde is dus 6.7%. Op grond van het $$\alpha=5%$$ significantielevel verwerpen we de nulhypothese dus niet. 
+
 
 
 
