@@ -147,13 +147,13 @@ De p-waarde is dus gelijk aan een zeker oppervlak onder de normaalkromme.
 
 Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, is hieronder schematisch weergegeven:
 
-![](NormaleVerdeling_1.png){:width="80%"}
-![](NormaleVerdeling_2.png){:width="80%"}
+![](NormaleVerdeling_1.png){:width="60%"}
+![](NormaleVerdeling_2.png){:width="60%"}
 
 Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X> x$$ te vinden, is hieronder schematisch weergegeven:
 
-![](NormaleVerdeling_3.png){:width="80%"}
-![](NormaleVerdeling_4.png){:width="80%"}
+![](NormaleVerdeling_3.png){:width="60%"}
+![](NormaleVerdeling_4.png){:width="60%"}
 
 Om dit oppervlak uit te rekenen gebruiken we de zogenoemde *Z-toets*. Stel een dataset met $$N > 30$$ datapunten is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. De $$Z-score$$, voor een bepaalde observatiewaarde $$x$$, is dan gelijk aan:
 
@@ -187,10 +187,6 @@ Bij de tweezijdige overschijdingskans wordt de kans op een waarde groter dan de 
 
 $$\begin{aligned}P(X=x) &= P(Z<\frac{x-\mu}{\sigma}) + P(Z>\frac{x-\mu}{\sigma})\\ &= P(Z<\frac{x-\mu}{\sigma}) + \left(1 - P(Z<\frac{x-\mu}{\sigma})\right) \\ &= 2\cdot P(Z<\frac{x-\mu}{\sigma}) - 1 \end{aligned}$$
 
-
-$$\begin{aligned} P(X=x) &= P(Z<\frac{x-\mu}{\sigma}) + P(Z>\frac{x-\mu}{\sigma})\\ &= P(Z<\frac{x-\mu}{\sigma}) + \left(1 - P(Z<\frac{x-\mu}{\sigma})\right) \\ &= 2\cdot P(Z<\frac{x-\mu}{\sigma}) - 1 \end{alinged}$$ 
-
-
 Als je de z-score hebt berekent kun je uit de z-waarden [tabel](https://www.ztable.net/) aflezen wat $$P(Z<\frac{x-\mu}{\sigma})$$ is. 
 
 > Voorbeeld: Een stochast $$X$$ is normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$. Bereken de kans op een waarde $$X<16$$.
@@ -207,12 +203,14 @@ Als je de z-score hebt berekent kun je uit de z-waarden [tabel](https://www.ztab
 >
 > Er is in dit geval dus een kans van 2% dat we bij de gegeven dataset een waarde onder de 15 zullen vinden.
 
+</br>
+</br>
+
 > Voorbeeld: Een stochast $$X$$ is normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$. Bereken de kans op een waarde $$X>22$$.
-> 
+> </br>
 > Uitwerking: Het gaat hier om een eenzijdige overschijdingskans. Nu:
->
->$$\begin{aligned}P(X>22) &= 1-P(X<22>) \\ &=
-1-P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= 1 - P\left(Z<\frac{22-20}{2} \\ &= 1 - P(Z<1)\right)\end{aligned}$$
+></br>
+> $$\begin{aligned}P(X>22) &= 1-P(X<22>) \\ &= 1-P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= 1 - P\left(Z<\frac{22-20}{2} \\ &= 1 - P(Z<1)\right)\end{aligned}$$
 >
 > Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.84134$$ bij deze Z-score.
 >
