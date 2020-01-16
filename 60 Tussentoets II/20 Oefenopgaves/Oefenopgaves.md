@@ -74,3 +74,8 @@ Je hebt de volgende dataset met waardes van x en y: <br>
 **a.** Bereken de covariantie.<br>
 **b.** Bereken de correlatie.<br>
 
+### Extra kansrekenregels 
+**14.** 
+Op een zomerse avond zie je rook en waar rook is is vuur. Op een zomerse avond is de kans dat je rook ziet (10%), meestal door gebruik van barbeques. Gevaarlijke branden zijn heel zeldzaam (1%) de kans dat rook bij een gevaarlijke brand vrijkomt is groot (90%). Wat is de kans dat de rook die je ziet van een een gevaarlijk brand afkomt?<br>
+<span style = 'color=blue'>
+Gebruik Bayes theorema om dit uit te rekenen.<br>
