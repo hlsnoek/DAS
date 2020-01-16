@@ -37,8 +37,9 @@ Bij hypothese toetsen wordt eerst aangenomen dat de eigenschap die onderzocht wo
 De procedure bij hypothese toetsen is dat je in eerste instantie aanneemt dat de eigenschap niet waar is (dus je houdt de nulhypothese aan) en dan onderzoekt of dit standhoudt in het kader van de gevonden resultaten. Uiteindelijk hoop je dat je de nulhypothese kunt verwerpen waardoor de alternatieve hypothese (en dus de gewenste waarde van de eigenschap) kunt aannemen.  
 
 Dus:
+
 - Alternatieve hypothese $$H_{\alpha}$$: De hypothese die zegt wat je verwacht te vinden in de dataset 
-- Nulhypothese: Het omgekeerde van de nulhypothese 
+- Nulhypothese: Het omgekeerde van de alternatieve hypothese.
 
 Onderstaand de eerdere hypothesen met bijbehorende nulhypothesen:
 
@@ -79,6 +80,7 @@ In het bovenstaande geval is de nulhypothese dat 20% van de Auto's in Nederland 
 Er bestaat dus de kans dat we de berekeningen en statistiek op de juiste manier uitvoeren, maar alsnog de verkeerde conclusie trekken doordat de steekproef niet representatief is.
 
 Er zijn twee manieren waarop de juiste conclusie wordt getrokken:
+
 - De nulhypothese is correct en we concluderen ook daadwerkelijk vanuit de data dat deze correct is.
 - De nulhypothese is niet correct en we concluderen ook daadwerkelijk vanuit de data dat we deze mogen verwerpen.
 
@@ -88,6 +90,7 @@ Het zogenoemde *significantielevel* $$\alpha$$ geeft aan welk risico we willen l
 <!--Een maat die aangeeft in hoeverre we er zeker van zijn dat we de nulhypothese op de juiste grond verwerpen wordt gegeven met het significantielevel $$\alpha$$. -->
 
 Doorgaans wordt er voor het significantielevel gekozen uit de volgende drie waarden:
+
 - $$\alpha = 10%$$
 - $$\alpha = 5%$$
 - $$\alpha = 1%$$
@@ -142,7 +145,7 @@ Hebben we bijvoorbeeld de nulhypothese dat het percentage mensen met blauwe ogen
 Zoals eerder vermeld geeft de p-waarde de kans dat waargenomen uitkomst gevonden kan worden onder de aanname dat de nulhypothese correct is. 
 De p-waarde is dus gelijk aan een zeker oppervlak onder de normaalkromme. 
 
-De kans om een waarde $$X<x$$ te vinden is gelijkend aan het oppervlak onder de normaalkromme zoals hieronder getoond:
+De kans om een waarde $$X< x$$ te vinden is gelijkend aan het oppervlak onder de normaalkromme zoals hieronder getoond:
 
 PLAATJE
 
@@ -167,13 +170,13 @@ $$Z = \frac{x-\mu}{\sigma}$$-->
 
 Het oppervlak onder de normaalkromme, behorende bij de kans op een bepaalde waarde, hangt op de volgende manier van de z-score af.
 
-De éénzijdige overschrijdingskans om een waarde $$X<x$$ te vinden is gelijk aan:
+De éénzijdige overschrijdingskans om een waarde $$X< x$$ te vinden is gelijk aan:
 
-$$P(X<x) = P(Z<\frac{x-\mu}{\sigma})$$
+$$P(X< x) = P(Z<\frac{x-\mu}{\sigma})$$
 
 De éénzijdige overschrijdingskans om een waarde $$X>x$$ te vinden is gelijk aan:
 
-$$P(X>x) = 1 - P(X<x>) = 
+$$P(X>x) = 1 - P(X< x>) = 
 1-P(Z<\frac{x-\mu}{\sigma})$$
 
 Dit kun je zelf nagaan door schetsen te maken van de bijbehorende oppervlakken onder de normaalkromme.
