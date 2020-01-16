@@ -44,6 +44,7 @@ Dus:
 Onderstaand de eerdere hypothesen met bijbehorende nulhypothesen:
 
 > Voorbeelden van alternatieve hypothese en nulhypothese:
+
 >- $$H_{\alpha}$$: 20% van de auto's in Nederland is blauw.
 >- $$H_0$$: Het percentage blauwe auto's in Nederland is geen 20%.
 
