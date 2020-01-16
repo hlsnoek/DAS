@@ -6,8 +6,8 @@
 Tijdens werkcolleges 4 en 5 werken we aan het de opdrachten in blok 2. 
 In dit blok gaan we werken aan drie opdrachten. 
 
-* <a href="#B2.A">B3.A Grote Aantallen III ****</a>
-* <a href="#B2.C">B3.B Halfwaardedikte III ***</a>
+* <a href="#B3.A">B3.A Grote Aantallen III ****</a>
+* <a href="#B3.B">B3.B Halfwaardedikte III ***</a>
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 
