@@ -91,13 +91,13 @@ Het zogenoemde *significantielevel* $$\alpha$$ geeft aan welk risico we willen l
 
 Doorgaans wordt er voor het significantielevel gekozen uit de volgende drie waarden:
 
-- $$\alpha = 10%$$
-- $$\alpha = 5%$$
-- $$\alpha = 1%$$
+- $$\alpha = 10\%$$
+- $$\alpha = 5\%$$
+- $$\alpha = 1\%$$
 
 Als de waargenomen kans (zie p-waarde hierna) kleiner is of gelijk aan het gekozen significantielevel $$a$$  dan verwerpen we de nulhypothese. Is de waargenomen kans groter dan $$\alpha$$ dan verwerpen we de nulhypothese niet. 
 
-Kiezen we bijvoorbeeld een significantielevel van $$\alpha=5%$$ dan verwerpen we de nulhypothese zodra de waargenomen kans kleiner is dan $$5%$$. Is de waargenomen kans groter dan $$5%$$, dan verwerpen we de nulhypothese niet. 
+Kiezen we bijvoorbeeld een significantielevel van $$\alpha=5\%$$ dan verwerpen we de nulhypothese zodra de waargenomen kans kleiner is dan $$5\%$$. Is de waargenomen kans groter dan $$5\%$$, dan verwerpen we de nulhypothese niet. 
 
 <!--Hoe kleiner de waarde van het significantielevel des te zekerder zijn we ervan dat we de nulhypothese mogen verwerpen.-->
 Hoe kleiner de kans is op de nulhypothese des te zekerder we ervan kunnen zijn dat we deze rechtmatig verwerpen. In principe wil je het significantieleven daarom zo laag mogelijk kiezen. Maar het kiezen van $$\alpha=1%$$ heeft een nadeel. Hoe kleiner het significantielevel des te groter de meetonzekerheid op de gemeten eigenschap. Het is dus altijd een afweging tussen het zo zeker mogelijk zijn van correctheid van het verwerpen van de nulhypothese, en het zo klein mogelijk houden van de meetonzekerheid op de waarde van de eigenschap.
@@ -243,7 +243,7 @@ Dit bekijken we aan de hand van een paar voorbeelden:
 >- $$H_{\alpha}$$: De lengte van de staart van een volgroeide lapjeskat in Nederland is groter dan 10 cm.
 >- $$H_0$$: De lengte van de staart van een volgroeide lapjeskat in Nederland is kleiner of gelijk aan 10 cm.
 >
->Bij voorbaat kiezen we als significantielevel $$\alpha=5%$$.
+>Bij voorbaat kiezen we als significantielevel $$\alpha=5\%$$.
 >
 >We meten de staartlengte van 300 lapjeskatten in Nederland (met alle gevolgen van dien voor de onderzoekers), en zetten het resultaat uit in een histogram. Dit resulteert in een normale verdeling met gemiddelde $$\mu=25$$ cm en een standaardafwijking $$5$$ cm.
 >
@@ -255,7 +255,7 @@ Dit bekijken we aan de hand van een paar voorbeelden:
 >
 >$$P(X<10) = P(Z<-3) = 0.00135$$
 > 
->De p-waarde is dus 0.14%. Op grond van het eerder gekozen significantielevel van 5% verwerpen we de nulhypothese. In dit geval is het zo dat we de nulhypothese ook hadden verworpen als we $$\alpha=10%$$ of $$\alpha=1%$$ hadden gekozen.
+>De p-waarde is dus 0.14%. Op grond van het eerder gekozen significantielevel van 5% verwerpen we de nulhypothese. In dit geval is het zo dat we de nulhypothese ook hadden verworpen als we $$\alpha=10\%$$ of $$\alpha=1\%$$ hadden gekozen.
 
 Is de p-waarde kleiner dan het gekozen significantielevel dan verwerpen we de nulhypothese. Is de p-waarde groter dan het gekozen significantielevel dan verwerpen we de nulhypothese niet.
 
@@ -266,7 +266,7 @@ Het is goed om te beseffen dat we **niet** kunnen zeggen dat onze alternatieve h
 >- $$H_{\alpha}$$: De gemiddelde lengte van alle vrouwen boven de 18 jaar is hoger dan 180 cm.
 >- $$H_{0}$$: De gemiddelde lengte van alle vrouwen boven de 18 jaar is lager dan of gelijk aan 180 cm. 
 >
->Bij voorbaat kiezen we als significantielevel $$\alpha=5%$$.
+>Bij voorbaat kiezen we als significantielevel $$\alpha=5\%$$.
 >
 >We meten de lengte van 500 nederlandse vrouwen boven de 18 jaar. De resultaten volgen een normale verdeling met gemiddelde $$\mu=165$$ cm en een standaardafwijking $$10$$ cm.
 >
