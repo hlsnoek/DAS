@@ -51,8 +51,8 @@ Onderstaand de eerdere hypothesen met bijbehorende nulhypothesen:
 >- $$H_{\alpha}$$: Meer dan 20% van de auto's in Nederland is blauw.
 >- $$H_0$$: Minder dan 20% van de auto's in Nederland is blauw.
 
->- $$H_{\alpha}$$: Het percentage Nederlanders met blauwe ogen is geen 50%.
->- $$H_0$$: Het percentage Nederlanders met blauwe ogen is 50%.
+>- $$H_{\alpha}$$: Het percentage Nederlanders met blauwe ogen is 50%.
+>- $$H_0$$: Het percentage Nederlanders met blauwe ogen is geen 50%.
 
 >- $$H_{\alpha}$$: De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}$$.
 >- $$H_0$$: De valversnelling in Nederland is niet gelijk aan $$9.81 \text{ ms}^{-2}$$.
