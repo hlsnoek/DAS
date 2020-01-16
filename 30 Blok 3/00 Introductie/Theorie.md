@@ -193,7 +193,7 @@ Als je de z-score hebt berekent kun je uit de z-waarden [tabel](https://www.ztab
 > 
 > Uitwerking: Het gaat hier om een eenzijdige overschijdingskans. Nu:
 >
->$$\begin{aligned}P(X<16) &= P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= P\left(Z<\frac{16-20}{2} \\ &= P(Z<-2)\right)\end{aligned}$$
+>$$\begin{aligned} P(X<16) &= P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= P\left(Z<\frac{16-20}{2}\right) \\ &= P(Z<-2) \end{aligned}$$
 >
 > Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.02275$$ bij deze Z-score.
 >
@@ -203,14 +203,13 @@ Als je de z-score hebt berekent kun je uit de z-waarden [tabel](https://www.ztab
 >
 > Er is in dit geval dus een kans van 2% dat we bij de gegeven dataset een waarde onder de 15 zullen vinden.
 
-</br>
-</br>
+
 
 > Voorbeeld: Een stochast $$X$$ is normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$. Bereken de kans op een waarde $$X>22$$.
-> </br>
+> 
 > Uitwerking: Het gaat hier om een eenzijdige overschijdingskans. Nu:
-></br>
-> $$\begin{aligned}P(X>22) &= 1-P(X<22>) \\ &= 1-P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= 1 - P\left(Z<\frac{22-20}{2} \\ &= 1 - P(Z<1)\right)\end{aligned}$$
+>
+> $$\begin{aligned}P(X>22) &= 1-P(X<22>) \\ &= 1-P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= 1 - P\left(Z<\frac{22-20}{2}\right) \\ &= 1 - P(Z<1)\end{aligned}$$
 >
 > Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.84134$$ bij deze Z-score.
 >
