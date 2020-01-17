@@ -15,9 +15,11 @@ Lees goed het [lijstje](/tussentoets-iii/inhoud) door ter voorbereiding voor de 
 **a.** $$H_{\alpha:} $$De gemiddelde dikte van een vel papier is groter dan $$0.1$$ mm.
 <br><br>
 <span style = "color:blue"> $$H_0:$$ De gemiddelde dikte van een vel papier is kleiner of gelijk aan $$0.1$$ mm</span><br>
+
 **b.** $$H_{\alpha:}$$ Het gemiddelde aantal kinderen per huishouden in Nederland is gelijk aan $$1.2$$.
 <br><br>
 <span style = "color:blue"> $$H_0:$$ Het gemiddelde aantal kinderen per huishouden in Nederland is niet gelijk aan $$1.2$$</span><br>
+
 **c.** $$H_{\alpha:}$$ Het gewicht van een pingpongbal is kleiner of gelijk aan $$2.77$$ gram. 
 <br><br>
 <span style = "color:blue"> $$H_0:$$ Het gewicht van een pingpongbal is groter dan $$2.77$$ gram.</span><br>
@@ -42,9 +44,11 @@ Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met ee
 **a.** Stel de alternatieve hypothese op behorende bij dit probleem
 <br><br>
 <span style = "color:blue"> $$H_{\alpha}:$$ De gemiddelde lengte van kleurpotloden die wordt afgeleverd door de machines is groter of gelijk aan 177 cm</span><br>
+
 **b.** Stel nu de nulhypothese op.
 <br><br>
-<span style = "color:blue"> $$H_{\0}:$$ De gemiddelde lengte van kleurpotloden die wordt afgeleverd door de machines is kleiner dan 177 cm</span><br>
+<span style = "color:blue"> $$H_{0}:$$ De gemiddelde lengte van kleurpotloden die wordt afgeleverd door de machines is kleiner dan 177 cm</span><br>
+
 **c.** Bereken de z-waarde behorende bij 177 mm.
 <br><br>
 <span style = "color:blue"> $$z=\frac{x-\mu}{\sigma} = \frac{177-176}{1} = 1$$</span><br>
@@ -54,9 +58,8 @@ Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met ee
 
 $$P(X< 177) = P(Z< 1) = 0.84134$$ 
 
-Dus de p-waarde is 84%.
+Dus de p-waarde is 84%. </span><br>
 
-</span><br>
 **e.** Als we een significantielevel van $$\alpha=5%$$ aannemen. Kun je op grond hiervan de nulhypothese dan verwerpen of niet?
 <br><br>
 <span style = "color:blue"> De gevonden p-waarde is 84%, dit is groter dan het gekozen significantielevel van 5%. Om deze reden verwerpen we de nulhypothese niet, op grond van het significantielevel van $$\alpha=5\%$$. Hoogstwaarschijnlijk zijn de machines dus niet aan vervanging toe. </span><br>
@@ -84,7 +87,7 @@ $$\begin{aligned}P(X>660) &= 1-P(X< 660) \\ &= 1-P(Z<1.33) \\ &= 1-0.90824 \\ &=
 
 Er is dus een kans van 9.2% dat het vliegtuig zijn reservetank nodig zal hebben.
 
-</span><br>
+</span>
 
 
 
