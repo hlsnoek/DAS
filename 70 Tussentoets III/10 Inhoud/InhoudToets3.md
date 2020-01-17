@@ -1,47 +1,29 @@
 
-#Voorbereiding op tussentoets 2
+#Voorbereiding op tussentoets 3
 
-De tweede tussentoets vindt plaats na het derde college. 
+De derde tussentoets vindt plaats na het vierde college. 
 Voor de tussentoets krijg je een half uur de tijd, het werk wordt gemaakt op een ANS tentamenformulier. Kijk ook nog even naar het filmpje dat je [hier](https://www.youtube.com/watch?v=jWgdlNEHN2A) vindt.
 Tijdens de tussentoets mag je een gewone rekenmachine gebruiken. 
 
-Hieronder vindt je een lijstje met de stof die je moet kennen. Gebruik deze om te kijken of je alle stof hebt bestudeerd die wordt getoetst op de eerste tussentoets. Kijk ook naar de [oefenopgaves](/tussentoets-ii/oefenopgaves) die bij deze tussentoets horen.
+Hieronder vindt je een lijstje met de stof die je moet kennen. Gebruik deze om te kijken of je alle stof hebt bestudeerd die wordt getoetst op de derde tussentoets. Kijk ook naar de [oefenopgaves](/tussentoets-iii/oefenopgaves) die bij deze tussentoets horen.
 
 **Vergeet niet uit de opmerking uit de eerste week: 
 Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet noteren.**
 
-## Stof checklist
+## Stof checklist 
 
-### Foutenpropagatie [link](/blok-2/foutenpropagatie) 
+### De centrale limietstelling [link](/blok-3/de-centrale-limietstelling) 
 
-* Het kennen en kunnen toepassen van de algemene regel voor foutenpropagatie.
+### Kleinste kwadraten [link](/blok-3/kleinste-kwadraten) 
 
-* Afronden van getallen bij foutenpropagatie
+### Chi-2 [link](/blok-3/chi-2) 
 
+### Hypothese toetsen [link](/blok-3/hypothese-toetsen) 
 
-### De Wet van Grote aantallen [link](/blok-2/wet-van-grote-aantallen)
-* De afleiding kennen van de wortel N wet.
-* De voorwaardes kennen van de wet van grote aantallen.
-* De wortel N wet kunnen toepassen.
-* De wet van grote aantallen kennen en kunnen toepassen.
+* Weten wat de nulhypothese en alternatieve hypothese zijn en deze kunnen opstellen
 
+* De formule voor de z-waarde kennen en deze kunnen toepassen
 
-### Meerdimensionale data [link](/blok-2/meerdimensionale-data)
-* De covariantie definitie kennen.
-* De covariantie van een dataset met twee variabelen kunnen uitrekenen.
-* De formule van de correlatie kennen.
-* De correlatie tussen twee variabelen in een dataset kunnen uitrekenen.
+* De p-waarde berekenen voor een gegeven normaalverdeling
 
-### Extra kansrekenregels [link](/blok-2/extra-kansrekenregels)
-* Alle kansrekenregels (ook uit blok 1) paraat hebben en kunnen toepassen.
-* De wiskundige notaties $$(A \cap B)$$, $$(A \cup B)$$ en $$(A
-|B)$$ kennen en begrijpen.
-* Begrijpen wanneer je welke regel moet toepassen.
-* Bayes theorema kennen en kunnen toepassen.
-
-### Overig
-* De definitie van een schatter kennen. Deze vind je <a href="https://das.mprog.nl/blok-2/opdrachten-blok-2#B2.C"> hier </a>.
-
-
-
-
+* Een conclusie kunnen trekken m.b.t. de nulhypothese gegeven een significantielevel en p-waarde.

@@ -1,121 +1,94 @@
-#Oefenopgaves als voorbereiding voor tussentoets 2
-Lees goed het [lijstje](/tussentoets-ii/inhoud) door ter voorbereiding voor de tussentoets. Niet voor alle element op het lijstje zijn oefenopgaves.
+#Oefenopgaves als voorbereiding voor tussentoets 3
+Lees goed het [lijstje](/tussentoets-iii/inhoud) door ter voorbereiding voor de tussentoets. Niet voor alle elementen op het lijstje zijn oefenopgaves.
 
 **Let op:** Voor alle opgaven in dit vak geldt dat je bij het noteren van resultaten je moet houden aan de regels. Kijk hiervoor goed naar het stukje 'significantie en notatie' in het hoofdstuk [Meetonzekerheid](/blok-1/meetonzekerheid).
 
-### Foutenpropagatie 
+### De centrale limietstelling
 
-**1.**
-Als $$y = 2 x + 0.6$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
-<span style = "color:blue"> $${\displaystyle \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{4 (\Delta x)^2}=2\Delta x}$$</span><br>
+### Kleinste kwadraten
+
+### Chi-2
+
+### Hypothese toetsen
+
+**1.** Stel de nulhypothese op bij de gegeven alternatieve hypotheses:
+**a.** $$H_{\alpha:} $$De gemiddelde dikte van een vel papier is groter dan $$0.1$$ mm.
+<br><br>
+<span style = "color:blue"> $$H_0:$$ De gemiddelde dikte van een vel papier is kleiner of gelijk aan $$0.1$$ mm</span><br>
+**b.** $$H_{\alpha:}$$ Het gemiddelde aantal kinderen per huishouden in Nederland is gelijk aan $$1.2$$.
+<br><br>
+<span style = "color:blue"> $$H_0:$$ Het gemiddelde aantal kinderen per huishouden in Nederland is niet gelijk aan $$1.2$$</span><br>
+**c.** $$H_{\alpha:}$$ Het gewicht van een pingpongbal is kleiner of gelijk aan $$2.77$$ gram. 
+<br><br>
+<span style = "color:blue"> $$H_0:$$ Het gewicht van een pingpongbal is groter dan $$2.77$$ gram.</span><br>
 
 -----
 
-**2.**
-Als $$y = -3 x + 2  x^2$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
-<span style = "color:blue"> $${\displaystyle \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{(-3+4x)^2 (\Delta x)^2}= |{-3+4x}| \cdot \Delta x}.$$</span><br>
+**2.** 
+Bij een zekere stochast vinden we een p-waarde van 3% en we hebben een significantielevel gekozen van 5%.
+**a.** Is de conclusie 'De nulhypothese is niet correct' een juiste conclusie? is de conclusie 'De alternatieve hypothese is correct' een juiste conclusie? Leg uit waarom wel/niet. Zo niet: hoe zou je deze hypothese anders kunnen formuleren?
+<br><br>
+<span style = "color:blue"> We weten niet wat de echte toestand is van de populatie die onderzocht wordt. Met een steekproef kunnen we de waarde van de eigenschap alleen benaderen. Om deze reden kunnen we nooit zeggen dat de nulhypothese correct dan wel incorrect is. Er bestaat altijd de kans dat de nulhypothese toch correct is zelfs als we hem hebben verworpen op basis van de p-waarde. De conclusie die we in dit geval wel kunnen trekken is dat we de nulhypothese verwerpen op basis van een significantielevel van $$\alpha=5\%$$ </span><br>
 
-----
+**b.** Hoe veranderd je conclusie als je een significantielevel van 10% had gekozen of van 1%?
+<span style = "color:blue"> Als $$\alpha=10\%$$ dan is nog steeds $$p<\alpha$$. De conclusie blijft dat we de nulhypothese verwerpen maar nu op basis van het significantielevel van $$10\%$$. Als $$\alpha=1\%$$ dan is $$p>\alpha$$. Nu trekken we de conclusie dat we de nulhypothese niet verwerpen, op basis van een significantielevel van $$1\%$$.  </span><br>
 
-**3.**
-Als $$y = \sin(x)$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
-<span style = "color:blue"> $${\displaystyle \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{(\cos x)^2 (\Delta x)^2}= \cos x \cdot \Delta x}.$$</span><br>
+-----
 
-----
+**3.** De productiechef bij een kleurpotlodenfabrikant heeft het vermoeden dat de zaagmachines niet meer zo goed werken. Als de gemiddelde lengte die wordt afgeleverd door de zaagmachines groter of gelijk is aan 177 mm dan zijn de machines aan vervanging toe.
+
+Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met een gemiddelde lengte van 176 mm en een standaardafwijking van 1 mm. 
+
+**a.** Stel de alternatieve hypothese op behorende bij dit probleem
+<br><br>
+<span style = "color:blue"> $$H_{\alpha}:$$ De gemiddelde lengte van kleurpotloden die wordt afgeleverd door de machines is groter of gelijk aan 177 cm</span><br>
+**b.** Stel nu de nulhypothese op.
+<br><br>
+<span style = "color:blue"> $$H_{\0}:$$ De gemiddelde lengte van kleurpotloden die wordt afgeleverd door de machines is kleiner dan 177 cm</span><br>
+**c.** Bereken de z-waarde behorende bij 177 mm.
+<br><br>
+<span style = "color:blue"> $$z=\frac{x-\mu}{\sigma} = \frac{177-176}{1} = 1$$</span><br>
+**d.** Bereken de p-waarde en noteer je antwoord als een percentage met het juiste aantal significante cijfers. De tabel met z-waarden kun je [hier](https://www.ztable.net/) vinden.
+<br><br>
+<span style = "color:blue"> 
+
+$$P(X< 177) = P(Z< 1) = 0.84134$$ 
+
+Dus de p-waarde is 84%.
+
+</span><br>
+**e.** Als we een significantielevel van $$\alpha=5%$$ aannemen. Kun je op grond hiervan de nulhypothese dan verwerpen of niet?
+<br><br>
+<span style = "color:blue"> De gevonden p-waarde is 84%, dit is groter dan het gekozen significantielevel van 5%. Om deze reden verwerpen we de nulhypothese niet, op grond van het significantielevel van $$\alpha=5\%$$. Hoogstwaarschijnlijk zijn de machines dus niet aan vervanging toe. </span><br>
+
+-----
+
 **4.**
-Als $$y = \frac{1}{x^2}$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
-<span style = "color:blue"> $${\displaystyle \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{\left( -\frac{2}{x^3} \right)^2 (\Delta x)^2}= \frac{2}{x^3} \cdot \Delta x}.$$</span><br>
+Een vliegtuig heeft op een bepaalde vlucht een gemiddeld brandstofverbruikt van 640 liter. Het brandstofverbruik is normaal verdeeld met een standaardafwijking van 15 liter. De eerste brandstoftank van het vliegtuig bevat 660 liter. Er is ook een reservetank. Bereken de kans dat het vliegtuig tijdens de vlucht brandstof uit de reservetank nodig heeft.
+<br><br>
+<span style = "color:blue"> De z-waarde behorende bij 660 Liter is:
 
-----
-**5.**
-Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$), wat is dan de fout op $$E$$? <br><br>
-<span style = "color:blue"> $${\displaystyle \Delta E = \sqrt{\left(\frac{\partial E}{\partial m}\right)^2 (\Delta m)^2 + \left(\frac{\partial E}{\partial c}\right)^2 (\Delta c)^2 } = \sqrt{(c)^2(\Delta m)^2 + (2mc)^2 (\Delta c)^2}}.$$</span>
+$$Z=\frac{660-640}{15} = 1.33$$
 
-----
-**6.**
-Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$), wat is dan de fout op $$E$$? <br><br>
-<span style = "color:blue"> $${\displaystyle \Delta E = \sqrt{\left(\frac{\partial E}{\partial m}\right)^2 (\Delta m)^2 + \left(\frac{\partial E}{\partial c}\right)^2 (\Delta c)^2 } = \sqrt{(c)^2(\Delta m)^2 + (2mc)^2 (\Delta c)^2}}.$$</span>
+Wat wordt gevraagd is de kans $$P(X>660)$$ dit is gelijk aan de kans:
 
-----
-**7.** 
-Stel je wil de kinetische energie berekenen van een object. De formule is $$E_k = 1/2 m \cdot v^2$$. Je meet de massa van het object, deze is $$m=2.3 \pm 0.2$$ kg. De snelheid is $$v=0.20 \pm 0.05$$ m/s. <br>
-Bereken de kinetische energie.<br>
-<span style = 'color:blue'> $$\displaystyle{E_k = 1/2 m \cdot v^2 = 0.046}$$ J<br>
-$$\displaystyle{ \Delta E_k = \sqrt{\left(\frac{\partial E_k}{\partial m}\right)^2 \left( \Delta m\right)^2 + \left(\frac{\partial E_k}{\partial v}\right)^2 \left( \Delta v \right)^2} = \sqrt{\left( \frac{1}{2}v^2 \Delta m\right)^2 + \left( mv \Delta m \right)^2 } = 0.02}$$<br>
-$$E_k =  0.046 \pm 0.02$$ J</span>
+$$P(X>660)= 1-P(X< 660) = 1-P(Z<1.33)$$
 
-### De Wet van Grote aantallen
+In de [tabel](https://www.ztable.net/) lezen we $$P(Z<1.33>)$$ af. Hiervoor kijken we in de rij bij '+1.3' en in de kolom '0.03'. Daaruit volgt dat 
 
-**8.**
-We hebben een dataset met de gemeten massa van 80 kogels. Het gemiddelde van de massa-distributie is bepaald op 108.2 kg. De standaard deviatie van de massa-distributie is 11.2 kg. Wat is de fout op het berekende gemiddelde?<br>
-<span style = 'color:blue'> De fout (onzekerheid) op het bepaalde gemiddelde is gelijk aan:<br>
-$${\displaystyle \Delta \mu = \frac{\sigma}{\sqrt{N}} = \frac{11.2}{\sqrt{80}}} \text{ kg} = 1.25\text{ kg}$$ </span>
+$$P(Z<1.33>) = 0.90824$$
 
------
-**9.**
-We combineren onafhankelijke datasets waarbij de spanwijdte van koolmeesjes zijn gemeten. Dataset A heeft informatie over 1100 koolmeesjes met een gemiddelde spanwijdte van 13.4 cm met een standaard deviatie van 2.0 cm. Dataset B heeft informatie over 2000 koolmeesjes met gemiddelde van 14.0 cm en een standaard deviatie van 1.8 cm.<br>
-Wat is het gemiddelde van de gecombineerde dataset T?<br>
-<span style = 'color:blue'> $${\displaystyle \mu_A = \sum_a^{N_A=1100} \frac{x_a}{N_A} \text{ en } \mu_B = \sum_b^{N_B=2000} \frac{x_b}{N_B} \text{ ook geldt: }  \mu_T = \frac{\sum^{N_A} x_a + \sum^{N_B} x_b}{N_T}}$$<br>
-$${\displaystyle \mu_T =  \frac{N_A \cdot \mu_A + N_B \cdot \mu_B}{N_A + N_B}} = 13.79 \text{ kg}$$  </span><br>
+Dus
 
-----
-**10.**
-Onder welke voorwaarde mogen we aannemen dat de onzekerheid op het berekende gemiddelde van een dataset kleiner wordt als we datapunten toevoegen?<br>
-<span style = 'color:blue'> Dat mogen we doen als voor de onderliggende verdeling van de dataset een goed gedefinieerde variantie bestaat.</span>
+$$\begin{aligned}P(X>660) &= 1-P(X< 660) \\ &= 1-P(Z<1.33) \\ &= 1-0.90824 \\ &= 0.09176\end{aligned}$$
 
----
-**11.**
-We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten. Het gemiddelde waarde van $$\mu = 22$$ met een standaard deviatie van $$\sigma = 4 $$. <br>
-**a.** Wat is de onzekerheid op het gemiddelde van deze dataset?<br>
-<span style = 'color:blue'>De onzekerheid is: $$\sigma_\mu (=\Delta \mu)= \frac{\sigma}{\sqrt{N}} = 4/\sqrt{16} = 1 $$</span><br>
-**b.** We voegen nog 9 extra waardes aan onze dataset toe. Wat is de onzekerheid op het gemiddelde nu?<br>
-<span style = 'color:blue'>De onzekerheid is: $$\sigma_\mu (=\Delta \mu)= \frac{\sigma}{\sqrt{N}} = 4/\sqrt{25} = 0.8 $$</span><br>
+Er is dus een kans van 9.2% dat het vliegtuig zijn reservetank nodig zal hebben.
 
-### Meerdimensionale data
-**12.**
-Je hebt de volgende dataset met waardes van x en y: <br>
-<center>{2,5}, {1,4}, {5,2}, {3,0} </center><br>
-**a.** Bereken de covariantie.<br>
-<span style = 'color:blue'> $$<x> = (2+1+5+3)/4 = 2.75$$ <br>
-$$<y> = (5+4+2+0)/4 = 2.75$$<br>
-$$\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<x>)\cdot (y_i - <y>) = $$<br>
-$$\frac{1}{4}\times\left((2-2.75)\cdot(5-2.75) +(1-2.75)\cdot(4-2.75)+(5-2.75)\cdot(2-2.75) + (3-2.75)\cdot(0-2.75)\right) $$ <br>
-$$ = -1.5625$$
-</span><br>
-**b.** Bereken de correlatie.<br>
-<span style = 'color:blue'> 
-$$\sigma_x^2 = <x^2>-<x>^2 = (4+1+25+9)/4 - 2.75^2 = 2.1875$$ <br>
-$$\sigma_y^2 = <y^2>-<y>^2 = (25+16+4+0)/4 - 2.75^2 = 3.6875$$ <br>
-$$\sigma_x = 1.479$$, $$\sigma_y = 1.479$$
-$$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{-1.56}{1.48\times 1.92} = -0.55$$
-</span><br>
-
----
-
-**13.**
-Je hebt de volgende dataset met waardes van x en y: <br>
-<center>{1,0}, {3,4}, {2,6}, {4,8} </center><br>
-**a.** Bereken de covariantie.<br>
-<span style = 'color:blue'> $$<x> = 2.5$$ <br>
-$$<y> = 4.5$$<br>
-$$\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<x>)\cdot (y_i - <y>) = 2.75$$<br>
-</span><br>
-**b.** Bereken de correlatie.<br>
-<span style = 'color:blue'> 
-$$\sigma_x^2 = <x^2>-<x>^2 = 1.118^2$$<br>
-$$\sigma_y^2 = <y^2>-<y>^2 = 2.958^2$$<br>
-$$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{2.75}{1.118\times 2.958} = 0.83$$
 </span><br>
 
 
-### Extra kansrekenregels 
-**14.** 
-Op een zomerse avond zie je rook en waar rook is is vuur. Op een zomerse avond is de kans dat je rook ziet (10%), meestal door gebruik van barbeques. Gevaarlijke branden zijn heel zeldzaam (1%) de kans dat rook bij een gevaarlijke brand vrijkomt is groot (90%). Wat is de kans dat de rook die je ziet van een een gevaarlijk brand afkomt?<br>
-<span style = 'color=blue'>
-Gebruik Bayes theorema om dit uit te rekenen.<br>
-$${\displaystyle \text{P(gevaarlijke brand|rook)} = \frac{\text{P(rook|gevaarlijke brand)}\cdot{\text{P(gevaarlijke brand)}}}{\text{P(rook)}} = \frac{0.9 \times 0.01}{0.10} = 0.09}$$<br>
-</span>
 
-**15.**
 
-<span style = 'color:blue'> </span><br>
+
+
+

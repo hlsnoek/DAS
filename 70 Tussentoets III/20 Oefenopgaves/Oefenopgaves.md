@@ -1,81 +1,49 @@
-#Oefenopgaves als voorbereiding voor tussentoets 2
-Lees goed het [lijstje](/tussentoets-ii/inhoud) door ter voorbereiding voor de tussentoets. Niet voor alle element op het lijstje zijn oefenopgaves.
+#Oefenopgaves als voorbereiding voor tussentoets 3
+Lees goed het [lijstje](/tussentoets-iii/inhoud) door ter voorbereiding voor de tussentoets. Niet voor alle elementen op het lijstje zijn oefenopgaves.
 
 **Let op:** Voor alle opgaven in dit vak geldt dat je bij het noteren van resultaten je moet houden aan de regels. Kijk hiervoor goed naar het stukje 'significantie en notatie' in het hoofdstuk [Meetonzekerheid](/blok-1/meetonzekerheid).
 
-### Foutenpropagatie 
+### De centrale limietstelling
 
-**1.**
-Als $$y = 2 x + 0.6$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
+### Kleinste kwadraten
+
+### Chi-2
+
+### Hypothese toetsen
+
+**1.** Stel de nulhypothese op bij de gegeven alternatieve hypotheses:
+**a.** De gemiddelde dikte van een vel papier is groter dan 0.1 mm.
+**b.** Het gemiddelde aantal kinderen per huishouden in Nederland is gelijk aan $$1.2$$.
+**c.** Het gewicht van een pingpongbal is kleiner of gelijk aan 2.77 gram. 
 
 -----
 
-**2.**
-Als $$y = -3 x + 2  x^2$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
+**2.** De productiechef bij een kleurpotlodenfabrikant heeft het vermoeden dat de zaagmachines niet meer zo goed werken. Als de gemiddelde lengte die wordt afgeleverd door de zaagmachines groter of gelijk is aan 177 mm dan zijn de machines aan vervanging toe.
 
-----
+Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met een gemiddelde lengte van 176 mm en een standaardafwijking van 1 mm. 
 
-**3.**
-Als $$y = \sin(x)$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
+**a.** Stel de alternatieve hypothese op behorende bij dit probleem
+<br>
+**b.** Stel nu de nulhypothese op.
+<br>
+**c.** Bereken de z-waarde behorende bij 177 mm.
+<br>
+**d.** Bereken de p-waarde. De tabel met z-waarden kun je [hier](https://www.ztable.net/) vinden.
+<br>
+**e.** Als we een significantielevel van $$\alpha=5%$$ aannemen. Kun je op grond hiervan de nulhypothese dan verwerpen of niet?
 
-----
+
+-----
+
+**3.** 
+Bij een zekere stochast vinden we een p-waarde vinden 3% en we hebben een significantielevel gekozen van 5%.
+**a.** Is de conclusie 'De nulhypothese is niet correct' een juiste conclusie? is de conclusie 'De alternatieve hypothese is correct' een juiste conclusie? Leg uit waarom wel/niet. Zo niet: hoe zou je deze hypothese anders kunnen formuleren?
+**b.** 
+
+-----
+
 **4.**
-Als $$y = \frac{1}{x^2}$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
-
-----
-**5.**
-Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$), wat is dan de fout op $$E$$? <br><br>
-
-----
-**6.**
-Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$), wat is dan de fout op $$E$$? <br><br>
-
-----
-**7.** 
-Stel je wil de kinetische energie berekenen van een object. De formule is $$E_k = 1/2 m \cdot v^2$$. Je meet de massa van het object, deze is $$m=2.3 \pm 0.2$$ kg. De snelheid is $$v=0.20 \pm 0.05$$ m/s. <br>
-Bereken de kinetische energie.<br>
+Een vliegtuig heeft op een bepaalde vlucht een gemiddeld brandstofverbruikt van 640 liter. Het brandstofverbruik is normaal verdeeld met een standaardafwijking van 15 liter. De eerste brandstoftank van het vliegtuig bevat 660 liter. Er is ook een reservetank. Bereken de kans dat het vliegtuig tijdens de vlucht brandstof uit de reservetank nodig heeft.
 
 
-### De Wet van Grote aantallen
 
-**8.**
-We hebben een dataset met de gemeten massa van 80 kogels. Het gemiddelde van de massa-distributie is bepaald op 108.2 kg. De standaard deviatie van de massa-distributie is 11.2 kg. Wat is de fout op het berekende gemiddelde?<br>
-
-
------
-**9.**
-We combineren onafhankelijke datasets waarbij de spanwijdte van koolmeesjes zijn gemeten. Dataset A heeft informatie over 1100 koolmeesjes met een gemiddelde spanwijdte van 13.4 cm met een standaard deviatie van 2.0 cm. Dataset B heeft informatie over 2000 koolmeesjes met gemiddelde van 14.0 cm en een standaard deviatie van 1.8 cm.<br>
-Wat is het gemiddelde van de gecombineerde dataset T?<br>
-
-----
-**10.**
-Onder welke voorwaarde mogen we aannemen dat de onzekerheid op het berekende gemiddelde van een dataset kleiner wordt als we datapunten toevoegen?<br>
-
-
----
-**11.**
-We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten. Het gemiddelde waarde van $$\mu = 22$$ met een standaard deviatie van $$\sigma = 4 $$. <br>
-**a.** Wat is de onzekerheid op het gemiddelde van deze dataset?<br>
-**b.** We voegen nog 9 extra waardes aan onze dataset toe. Wat is de onzekerheid op het gemiddelde nu?<br>
-
-
-### Meerdimensionale data
-**12.**
-Je hebt de volgende dataset met waardes van x en y: <br>
-<center>{2,5}, {1,4}, {5,2}, {3,0} </center><br>
-**a.** Bereken de covariantie.<br>
-**b.** Bereken de correlatie.<br>
-
----
-
-**13.**
-Je hebt de volgende dataset met waardes van x en y: <br>
-<center>{1,0}, {3,4}, {2,6}, {4,8} </center><br>
-**a.** Bereken de covariantie.<br>
-**b.** Bereken de correlatie.<br>
-
-### Extra kansrekenregels 
-**14.** 
-Op een zomerse avond zie je rook en waar rook is is vuur. Op een zomerse avond is de kans dat je rook ziet (10%), meestal door gebruik van barbeques. Gevaarlijke branden zijn heel zeldzaam (1%) de kans dat rook bij een gevaarlijke brand vrijkomt is groot (90%). Wat is de kans dat de rook die je ziet van een een gevaarlijk brand afkomt?<br>
-<span style = 'color=blue'>
-Gebruik Bayes theorema om dit uit te rekenen.<br>
