@@ -68,17 +68,15 @@ Dus de p-waarde is 84%. </span><br>
 Een vliegtuig heeft op een bepaalde vlucht een gemiddeld brandstofverbruikt van 640 liter. Het brandstofverbruik is normaal verdeeld met een standaardafwijking van 15 liter. De eerste brandstoftank van het vliegtuig bevat 660 liter. Er is ook een reservetank. Bereken de kans dat het vliegtuig tijdens de vlucht brandstof uit de reservetank nodig heeft.
 <br><br>
 <span style = "color:blue"> De z-waarde behorende bij 660 Liter is:<br>
-$$Z=\frac{660-640}{15} = 1.33$$<br>
-Wat wordt gevraagd is de kans $$P(X>660)$$ dit is gelijk aan de kans:<br>
-$$P(X>660)= 1-P(X< 660) = 1-P(Z<1.33)$$<br>
-In de [tabel](https://www.ztable.net/) lezen we $$P(Z<1.33>)$$ af. Hiervoor kijken we in de rij bij '+1.3' en in de kolom '0.03'. Daaruit volgt dat <br>
-$$P(Z<1.33>) = 0.90824$$<br>
-Dus <br>
-$$\begin{aligned}P(X>660) &= 1-P(X< 660) \\ &= 1-P(Z<1.33) \\ &= 1-0.90824 \\ &= 0.09176\end{aligned}$$<br>
 <br>
-Er is dus een kans van 9.2% dat het vliegtuig zijn reservetank nodig zal hebben.
-
-</span>
+$$Z=\frac{660-640}{15} = 1.33$$<br><br>
+Wat wordt gevraagd is de kans $$P(X>660)$$ dit is gelijk aan de kans:<br><br>
+$$P(X>660)= 1-P(X< 660) = 1-P(Z<1.33)$$<br><br>
+In de [tabel](https://www.ztable.net/) lezen we $$P(Z<1.33>)$$ af. Hiervoor kijken we in de rij bij '+1.3' en in de kolom '0.03'. Daaruit volgt dat <br><br>
+$$P(Z<1.33>) = 0.90824$$<br><br>
+Dus <br><br>
+$$\begin{aligned}P(X>660) &= 1-P(X< 660) \\ &= 1-P(Z<1.33) \\ &= 1-0.90824 \\ &= 0.09176\end{aligned}$$<br><br>
+Er is dus een kans van 9.2% dat het vliegtuig zijn reservetank nodig zal hebben.</span>
 
 
 
