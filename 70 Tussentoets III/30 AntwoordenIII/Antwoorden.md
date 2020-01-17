@@ -33,6 +33,7 @@ Bij een zekere stochast vinden we een p-waarde van 3% en we hebben een significa
 <span style = "color:blue"> We weten niet wat de echte toestand is van de populatie die onderzocht wordt. Met een steekproef kunnen we de waarde van de eigenschap alleen benaderen. Om deze reden kunnen we nooit zeggen dat de nulhypothese correct dan wel incorrect is. Er bestaat altijd de kans dat de nulhypothese toch correct is zelfs als we hem hebben verworpen op basis van de p-waarde. De conclusie die we in dit geval wel kunnen trekken is dat we de nulhypothese verwerpen op basis van een significantielevel van $$\alpha=5\%$$ </span><br>
 
 **b.** Hoe veranderd je conclusie als je een significantielevel van 10% had gekozen of van 1%?
+<br><br>
 <span style = "color:blue"> Als $$\alpha=10\%$$ dan is nog steeds $$p<\alpha$$. De conclusie blijft dat we de nulhypothese verwerpen maar nu op basis van het significantielevel van $$10\%$$. Als $$\alpha=1\%$$ dan is $$p>\alpha$$. Nu trekken we de conclusie dat we de nulhypothese niet verwerpen, op basis van een significantielevel van $$1\%$$.  </span><br>
 
 -----
@@ -54,10 +55,7 @@ Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met ee
 <span style = "color:blue"> $$z=\frac{x-\mu}{\sigma} = \frac{177-176}{1} = 1$$</span><br>
 **d.** Bereken de p-waarde en noteer je antwoord als een percentage met het juiste aantal significante cijfers. De tabel met z-waarden kun je [hier](https://www.ztable.net/) vinden.
 <br><br>
-<span style = "color:blue"> 
-
-$$P(X< 177) = P(Z< 1) = 0.84134$$ 
-
+<span style = "color:blue"> $$P(X< 177) = P(Z< 1) = 0.84134$$ 
 Dus de p-waarde is 84%. </span><br>
 
 **e.** Als we een significantielevel van $$\alpha=5%$$ aannemen. Kun je op grond hiervan de nulhypothese dan verwerpen of niet?
