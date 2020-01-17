@@ -11,7 +11,7 @@ Lees goed het [lijstje](/tussentoets-iii/inhoud) door ter voorbereiding voor de 
 
 ### Hypothese toetsen
 
-**1.** Stel de nulhypothese op bij de gegeven alternatieve hypotheses:
+**1.** Stel de nulhypothese op bij de gegeven alternatieve hypotheses:<br>
 **a.** $$H_{\alpha:} $$De gemiddelde dikte van een vel papier is groter dan $$0.1$$ mm.
 <br><br>
 <span style = "color:blue"> $$H_0:$$ De gemiddelde dikte van een vel papier is kleiner of gelijk aan $$0.1$$ mm</span><br>
