@@ -11,16 +11,16 @@ Lees goed het [lijstje](/tussentoets-iii/inhoud) door ter voorbereiding voor de 
 
 ### Hypothese toetsen
 
-**1.** Stel de nulhypothese op bij de gegeven alternatieve hypotheses:
-**a.** De gemiddelde dikte van een vel papier is groter dan 0.1 mm.
-**b.** Het gemiddelde aantal kinderen per huishouden in Nederland is gelijk aan $$1.2$$.
+**1.** Stel de nulhypothese op bij de gegeven alternatieve hypotheses:<br><br>
+**a.** De gemiddelde dikte van een vel papier is groter dan 0.1 mm.<br>
+**b.** Het gemiddelde aantal kinderen per huishouden in Nederland is gelijk aan $$1.2$$.<br>
 **c.** Het gewicht van een pingpongbal is kleiner of gelijk aan 2.77 gram. 
 
 -----
 
 **2.** De productiechef bij een kleurpotlodenfabrikant heeft het vermoeden dat de zaagmachines niet meer zo goed werken. Als de gemiddelde lengte die wordt afgeleverd door de zaagmachines groter of gelijk is aan 177 mm dan zijn de machines aan vervanging toe.
 
-Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met een gemiddelde lengte van 176 mm en een standaardafwijking van 1 mm. 
+Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met een gemiddelde lengte van 176 mm en een standaardafwijking van 1 mm. <br><br>
 
 **a.** Stel de alternatieve hypothese op behorende bij dit probleem
 <br>
@@ -36,9 +36,9 @@ Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met ee
 -----
 
 **3.** 
-Bij een zekere stochast vinden we een p-waarde vinden 3% en we hebben een significantielevel gekozen van 5%.
-**a.** Is de conclusie 'De nulhypothese is niet correct' een juiste conclusie? is de conclusie 'De alternatieve hypothese is correct' een juiste conclusie? Leg uit waarom wel/niet. Zo niet: hoe zou je deze hypothese anders kunnen formuleren?
-**b.** 
+Bij een zekere stochast vinden we een p-waarde vinden 3% en we hebben een significantielevel gekozen van 5%.<br><br>
+**a.** Is de conclusie 'De nulhypothese is niet correct' een juiste conclusie? is de conclusie 'De alternatieve hypothese is correct' een juiste conclusie? Leg uit waarom wel/niet. Zo niet: hoe zou je deze hypothese anders kunnen formuleren?<br>
+**b.** Hoe veranderd je conclusie als je een significantielevel van 10% had gekozen of van 1%?
 
 -----
 
