@@ -1,5 +1,8 @@
 # Hypothese toetsen
 
+1. Ordered TOC
+{:toc}
+
 Als je een steekproef hebt genomen en je wilt hiermee iets kunnen zeggen over de populatie dan moet er ook nagegaan worden in hoeverre de steekproef ons idee over de populatie ondersteund. 
 
 Dit wordt hypothese toetsen genoemd. Bij hypothese toetsen doorloop je de volgende stappen:
