@@ -4,4 +4,4 @@ Deze week verdiepen we ons in het concept meetonzekerheid. We [leren](/blok-2/fo
 
 
 We werken in de werkcolleges aan de opdrachten van dit blok [B2](/blok-2/opdrachten-blok-2). Je vindt in het [schema](/start/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
-Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-ii/inhoud) voor de tweede tussentoets. De tweede tussentoets volgt na het derde werkcollege.
+Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-ii/inhoud) voor de tweede tussentoets. De tweede tussentoets volgt na het derde hoorcollege.

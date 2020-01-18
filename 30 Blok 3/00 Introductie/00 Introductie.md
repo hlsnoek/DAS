@@ -1,0 +1,8 @@
+##Introductie blok 3
+
+Deze week gaan we kijken naar het begrip lineaire regressie. Hoe kunnen we een functie fitten aan een set meetwaardes. Er komen verschillende concepten aan bod. 
+
+Allereerst gaan we kijken waarom we meeste verdelingen die we tegenkomen Normaal verdeeld zijn. Hiervoor behandelen we de [centrale limietstelling](/blok-3/de-centrale-limietstelling). Daarna gaan we kijken naar de de [kleinste kwadraten methode](/blok-3/kleinste-kwadraten) en de [$$\chi^2$$](/blok-3/chi-2) verdeling. Uiteindelijk introduceren we ook methodes om [hypotheses](/blok-3/hypothese-toetsen) te toetsen. 
+
+We werken in de werkcolleges aan de opdrachten van dit blok [B3](/blok-3/opdrachten-blok-3). Je vindt in het [schema](/start/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
+Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-iii/inhoud) voor de tweede tussentoets. De derde tussentoets volgt na het vierde hoorcollege.
