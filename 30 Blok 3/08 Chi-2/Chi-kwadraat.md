@@ -9,7 +9,20 @@ We hebben gezien in het hoofdstuk over de kleinste kwadraten methode, dat de $$\
 
 <center>$${\displaystyle  \chi^2 = \sum^N_{i=1} \left( \frac{y_i-f(x_i;\hat{a},\hat{b},..)}{\sigma_i} \right)^2.}$$ </center>
 
-Let op dat we hier de geoptimaliseerde parameters $$\hat{a}$$ van de functie hebben ingevuld. Deze waarde voor $$\chi^2$$ is dus al geminimaliseerd.
+Let op dat we hier de geoptimaliseerde parameters $$\hat{a}$$ van de functie hebben ingevuld. Deze waarde voor $$\chi^2$$ is dus al geminimaliseerd voor de paramaters van $$f$$.
 
+De $$\chi^2$$ verdeling is een kansdichtheidsverdeling, en voldoet dus ook aan de voorwaardes hiervan. De functie ziet er als volgt uit: <br>
+
+$${\displaystyle P(\chi^2;n) = \frac{2^{-n/2}}{\Gamma (n/2)} \chi^{n-2} e^{-\chi^2/2}.}$$
+
+Zoals je ziet hangt de $$\chi^2$$ kans af van een parameter $$n$$, dit is het aantal meetpunten in de som ($$N$$) gereduceerd met het aantal parameters van de functie $$f$$. We noemen $$n$$ het aantal *vrijheidsgraden*. 
+
+> <span class="badge badge-warning">Voorbeeld</span> Stel we hebben 10 meetwaardes en we gebruiken de kleinste kwadraten methode om 2 parameters van een functie $$f$$ te optimaliseren. We hebben dan $$n=10-2=8$$ vrijheidsgraden.
+
+Hieronder zie je hoe de $$\chi^2$$ eruit ziet voor verschillende waardes van $$n$$. <br>
+
+![](ChiSquareDistributie.png){:width="80%"}<br>
+
+De $$\chi^2$$ distributie heeft een gemiddelde $$\mu = n$$ en een variantie van $$var = 2n$$. We verwachten dus een $$chi^2$$ van ongeveer **1 per vrijheidsgraad**  te vinden. Als de $$\chi^2$$ per vrijheidsgraad veel kleiner of veel groter is dan 1 weten we dat er een probleem is, de functie $$f(x;\hat{a},\hat{b},...)$$ lijkt de data niet goed te beschrijven.
 
 
