@@ -4,7 +4,7 @@
 {:toc}
 
 Tijdens werkcolleges 4 en 5 werken we aan het de opdrachten in blok 2. 
-In dit blok gaan we werken aan drie opdrachten. 
+In dit blok gaan we werken aan twee opdrachten. 
 
 * <a href="#B3.A">B3.A Grote Aantallen III \*\*\*\*</a>
 * <a href="#B3.B">B3.B Halfwaardedikte III ***</a>
@@ -16,7 +16,7 @@ De antwoorden van de opdrachten moet je invoeren in [dit template](Inlevertempla
 
 Als je vragen hebt, stel deze dan aan de assistent of stuur een email naar de coördinator.
 
-Vergeet niet om ook even te kijken naar de [oefen opgaves](/tussentoets-iii/oefenopgaves) ter voorbereiding van de eerste tussentoets die na het tweede werkcollege plaats vindt.
+Vergeet niet om ook even te kijken naar de [oefen opgaves](/tussentoets-iii/oefenopgaves) ter voorbereiding van de derde tussentoets die na het vierde werkcollege plaats vindt.
 
 Veel succes! 
 
