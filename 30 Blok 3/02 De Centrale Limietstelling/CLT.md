@@ -3,7 +3,7 @@
 De Centrale Limietstelling (Engels: Central Limit Theorem of CLT) is zonder meer de meest belangrijke stelling in de statistiek en in data analyses. 
 
 
->De **Centrale Limietstelling** zegt dat als je $$n$$ onafhankelijk stochasten $$x_i$$ hebt, waarvan elke stochast zijn eigen verdeling heeft met gemiddelde  $$\mu_i$$ en variantie $$\sigma^2_i$$ (die niet persé dezelfde hoeven te zijn) de som van deze stochasten $$\sum_j x_j$$ een normale verdeling zal volgen met het gemiddelde $$\sum_j \mu_j$$ en de variantie $$\sum_j \sigma^2_j$$. 
+>De **Centrale Limietstelling** zegt dat als je $$n$$ onafhankelijk stochasten $$x_j$$ hebt, waarvan elke stochast zijn eigen verdeling heeft met gemiddelde  $$\mu_j$$ en variantie $$\sigma^2_j$$ (die niet persé dezelfde hoeven te zijn) de som van deze stochasten $$\sum_j x_j$$ een normale verdeling zal volgen met het gemiddelde $$\sum_j \mu_j$$ en de variantie $$\sum_j \sigma^2_j$$. 
 
 
 En als de som een normale verdeling volgt, dat geldt dat ook voor het gemiddelde! 
