@@ -24,6 +24,6 @@ Hieronder zie je hoe de $$\chi^2$$ eruit ziet voor verschillende waardes van $$n
 
 ![](ChiSquareDistributie.png){:width="80%"}<br>
 
-De $$\chi^2$$ distributie heeft een gemiddelde $$\mu = n$$ en een variantie van $$var = 2n$$. We verwachten dus een $$chi^2$$ van ongeveer **1 per vrijheidsgraad**  te vinden. Als de $$\chi^2$$ per vrijheidsgraad veel kleiner of veel groter is dan 1 weten we dat er een probleem is, de functie $$f(x;\hat{a},\hat{b},...)$$ lijkt de data niet goed te beschrijven.
+De $$\chi^2$$ distributie heeft een gemiddelde $$\mu = n$$ en een variantie van $$var = 2n$$. We verwachten dus een $$\chi^2$$ van ongeveer **1 per vrijheidsgraad**  te vinden. Als de $$\chi^2$$ per vrijheidsgraad veel kleiner of veel groter is dan 1 weten we dat er een probleem is, de functie $$f(x;\hat{a},\hat{b},...)$$ lijkt de data niet goed te beschrijven.
 
 
