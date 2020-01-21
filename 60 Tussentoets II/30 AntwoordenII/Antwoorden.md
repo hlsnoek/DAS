@@ -98,12 +98,12 @@ Je hebt de volgende dataset met waardes van x en y: <br>
 **a.** Bereken de covariantie.<br>
 <span style = 'color:blue'> $$<x> = 2.5$$ <br>
 $$<y> = 4.5$$<br>
-$$\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<x>)\cdot (y_i - <y>) = 2.75$$<br>
+$$\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = 2.75$$<br>
 </span><br>
 **b.** Bereken de correlatie.<br>
 <span style = 'color:blue'> 
-$$\sigma_x^2 = <x^2>-<x>^2 = 1.118^2$$<br>
-$$\sigma_y^2 = <y^2>-<y>^2 = 2.958^2$$<br>
+$$\sigma_x^2 = <{x^2}>-<{x}>^2 = 1.118^2$$<br>
+$$\sigma_y^2 = <{y^2}>-<{y}>^2 = 2.958^2$$<br>
 $$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{2.75}{1.118\times 2.958} = 0.83$$
 </span><br>
 
@@ -115,7 +115,3 @@ Op een zomerse avond zie je rook en waar rook is is vuur. Op een zomerse avond i
 Gebruik Bayes theorema om dit uit te rekenen.<br>
 $${\displaystyle \text{P(gevaarlijke brand|rook)} = \frac{\text{P(rook|gevaarlijke brand)}\cdot{\text{P(gevaarlijke brand)}}}{\text{P(rook)}} = \frac{0.9 \times 0.01}{0.10} = 0.09}$$<br>
 </span>
-
-**15.**
-
-<span style = 'color:blue'> </span><br>
