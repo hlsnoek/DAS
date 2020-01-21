@@ -13,17 +13,27 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 ## Stof checklist 
 
 ### De centrale limietstelling [link](/blok-3/de-centrale-limietstelling) 
+* Begrijpen wat de centrale limietstelling zegt.
 
-### Kleinste kwadraten [link](/blok-3/kleinste-kwadraten) 
+
+### Kleinste kwadraten methode [link](/blok-3/kleinste-kwadraten) 
+
+* De Kleinste kwadraten methode kennen. 
+* De formule kennen en kunnen toepassen waarmee je de $$\chi^2$$ van een dataset berekend. 
+* Begrijpen hoe je de $$\chi^2$$ wiskundig kunt minimaliseren.
 
 ### Chi-2 [link](/blok-3/chi-2) 
+* Weten wat de definitie is van het aantal vrijheidsgraden en deze kunnen bepalen. 
+* Begrijpen hoe je een $$\chi^2$$ kunt interpreteren en dit ook kunnen toepassen.
+
 
 ### Hypothese toetsen [link](/blok-3/hypothese-toetsen) 
 
 * Weten wat de nulhypothese en alternatieve hypothese zijn en deze kunnen opstellen
-
 * De formule voor de z-waarde kennen en deze kunnen toepassen
-
 * De p-waarde berekenen voor een gegeven normaalverdeling
-
 * Een conclusie kunnen trekken m.b.t. de nulhypothese gegeven een significantielevel en p-waarde.
+
+### Overig [link](/blok-2/opdrachten-blok-2)
+
+* Weten wat de definitie van een onzuivere schatter is.

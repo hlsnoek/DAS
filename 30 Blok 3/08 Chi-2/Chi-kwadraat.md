@@ -15,7 +15,7 @@ De $$\chi^2$$ verdeling is een kansdichtheidsverdeling, en voldoet dus ook aan d
 
 $${\displaystyle P(\chi^2;n) = \frac{2^{-n/2}}{\Gamma (n/2)} \chi^{n-2} e^{-\chi^2/2}.}$$
 
-Zoals je ziet hangt de $$\chi^2$$ kans af van een parameter $$n$$, dit is het aantal meetpunten in de som ($$N$$) gereduceerd met het aantal parameters van de functie $$f$$. We noemen $$n$$ het aantal *vrijheidsgraden*. De $$\Gamma$$ in de noemer is een speciale wiskundige functie. Deze zal pas in jullie tweede jaar volledig worden uitgelegd. Op dit moment kun je hem simpelweg interpreteren als een functie waar een normalisatie term uitkomt. Voorbeelden: $$Gamma(1/2) = \sqrt{\pi}$$, $$Gamma(1) = 1$$ en $$Gamma(3/2) = 1/2 \sqrt{\pi}$$.
+Zoals je ziet hangt de $$\chi^2$$ kans af van een parameter $$n$$, dit is het aantal meetpunten in de som ($$N$$) gereduceerd met het aantal parameters van de functie $$f$$. We noemen $$n$$ het aantal *vrijheidsgraden*. De $$\Gamma$$ in de noemer is een speciale wiskundige functie. Deze zal pas in jullie tweede jaar volledig worden uitgelegd. Op dit moment kun je hem simpelweg interpreteren als een functie waar een normalisatie term uitkomt. Voorbeelden: $$\Gamma(1/2) = \sqrt{\pi}$$, $$\Gamma(1) = 1$$ en $$\Gamma(3/2) = 1/2 \sqrt{\pi}$$.
 
 
 > <span class="badge badge-warning">Voorbeeld</span> Stel we hebben 10 meetwaardes en we gebruiken de kleinste kwadraten methode om 2 parameters van een functie $$f$$ te optimaliseren. We hebben dan $$n=10-2=8$$ vrijheidsgraden.
