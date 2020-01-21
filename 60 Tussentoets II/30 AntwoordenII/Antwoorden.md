@@ -84,8 +84,8 @@ $$ = -1.5625$$
 </span><br>
 **b.** Bereken de correlatie.<br>
 <span style = 'color:blue'> 
-$$\sigma_x^2 = <x^2>-<x>^2 = (4+1+25+9)/4 - 2.75^2 = 2.1875$$ <br>
-$$\sigma_y^2 = <y^2>-<y>^2 = (25+16+4+0)/4 - 2.75^2 = 3.6875$$ <br>
+$$\sigma_x^2 = <{x^2}>-<{x}>^2 = (4+1+25+9)/4 - 2.75^2 = 2.1875$$ <br>
+$$\sigma_y^2 = <{y^2}>-<{y}>^2 = (25+16+4+0)/4 - 2.75^2 = 3.6875$$ <br>
 $$\sigma_x = 1.479$$, $$\sigma_y = 1.479$$
 $$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{-1.56}{1.48\times 1.92} = -0.55$$
 </span><br>
