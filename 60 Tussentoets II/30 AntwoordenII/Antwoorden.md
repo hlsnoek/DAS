@@ -76,9 +76,9 @@ We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten
 Je hebt de volgende dataset met waardes van x en y: <br>
 <center>{2,5}, {1,4}, {5,2}, {3,0} </center><br>
 **a.** Bereken de covariantie.<br>
-<span style = 'color:blue'> $$<x> = (2+1+5+3)/4 = 2.75$$ <br>
-$$<y> = (5+4+2+0)/4 = 2.75$$<br>
-$$\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<x>)\cdot (y_i - <y>) = $$<br>
+<span style = 'color:blue'> $$<{x}> = (2+1+5+3)/4 = 2.75$$ <br>
+$$<{y}> = (5+4+2+0)/4 = 2.75$$<br>
+$$\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = $$<br>
 $$\frac{1}{4}\times\left((2-2.75)\cdot(5-2.75) +(1-2.75)\cdot(4-2.75)+(5-2.75)\cdot(2-2.75) + (3-2.75)\cdot(0-2.75)\right) $$ <br>
 $$ = -1.5625$$
 </span><br>
