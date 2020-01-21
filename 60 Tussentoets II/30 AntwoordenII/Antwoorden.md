@@ -96,8 +96,8 @@ $$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{-1.56}{1.48\times 1.9
 Je hebt de volgende dataset met waardes van x en y: <br>
 <center>{1,0}, {3,4}, {2,6}, {4,8} </center><br>
 **a.** Bereken de covariantie.<br>
-<span style = 'color:blue'> $$<x> = 2.5$$ <br>
-$$<y> = 4.5$$<br>
+<span style = 'color:blue'> $$<{x}> = 2.5$$ <br>
+$$<{y}> = 4.5$$<br>
 $$\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = 2.75$$<br>
 </span><br>
 **b.** Bereken de correlatie.<br>
