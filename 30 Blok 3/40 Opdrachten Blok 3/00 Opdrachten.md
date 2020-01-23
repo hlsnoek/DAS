@@ -3,7 +3,7 @@
 1. Ordered TOC
 {:toc}
 
-Tijdens werkcolleges 4 en 5 werken we aan het de opdrachten in blok 2. 
+Tijdens werkcolleges 6 en 7 werken we aan het de opdrachten in blok 3. 
 In dit blok gaan we werken aan twee opdrachten. 
 
 * <a href="#B3.A">B3.A Grote Aantallen III \*\*\*\*</a>
