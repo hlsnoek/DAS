@@ -7,7 +7,7 @@ Tijdens werkcollege 8 werken we aan het de opdrachten in blok 4.
 In dit blok gaan we werken aan twee opdrachten. 
 
 * <a href="#B4.A">B4.A Twee Functies **</a>
-* <a href="#B4.B">B4.B Higgs **</a>
+* <a href="#B4.B">B4.B Een nieuw deeltje **</a>
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 

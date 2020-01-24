@@ -158,3 +158,19 @@ def OnbekendeFunctieGenerator() :
     y = [np.random.poisson(onbekendeFunctie(xi)) for xi in x]
     yerr = np.sqrt(y)
     return x,y,yerr
+
+def normpdf(x, mean, sd):
+    var = float(sd)**2
+    denom = (2*m.pi*var)**.5
+    num = m.exp(-(float(x)-float(mean))**2/(2*var))
+    return num/denom
+
+def DeeltjesDataset() :
+    checkSD()
+    np.random.seed(1)
+    mu = 100+student_nummer%100
+    x = np.arange(80,220,5)
+    y1 = np.random.poisson(400* (0.5)**(x/100))
+    y2 = [np.random.poisson(50*normpdf(xi,mu,10)) for xi in x]
+    print(mu)
+    return x, y1+y2, np.sqrt(y1+y2)
