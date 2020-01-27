@@ -15,7 +15,7 @@ We gaan in dit blok bekijken hoe we de geminimaliseerde $$\chi^2$$ kunnen inzett
 
 
 ## Akaike Informatie Criterium
-Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze wordt beschreven. Je probeert twee functies uit, $$f_1$$ en $$f_2$$. En je minimaliseert voor beide functies de $$\chi^2$$, deze zijn dan $$\chi^2_1$$ en $$\chi^2_2$$. Als algemene stelregel geldt dat degene met de kleinste $$\chi^2$$ per vrijheidsgraad de beste is. Als in dat geval de betreffende $$\chi^2$$ dicht bij 1 ligt werkt deze stelregel goed. Als deze echter veel kleiner is dan 1 dan kun je betwijfelen of de bijbehorende functie wel echt de beste is. 
+Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze wordt beschreven. Je probeert twee functies uit, $$f_1$$ en $$f_2$$. En je minimaliseert voor beide functies de $$\chi^2$$, deze zijn dan $$\chi^2_1$$ en $$\chi^2_2$$. Als algemene vuistvuistregelregel geldt dat degene met de kleinste $$\chi^2$$ per vrijheidsgraad de beste is. Als in dat geval de betreffende $$\chi^2$$ dicht bij 1 ligt werkt deze vuistregel goed. Als deze echter veel kleiner is dan 1 dan kun je betwijfelen of de bijbehorende functie wel echt de beste is. 
 
 > <span class="badge badge-warning">Voorbeeld 2</span> Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
 > $$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$<br>
@@ -23,7 +23,7 @@ Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze 
 > De $$\chi^2$$ per vrijheidsgraad is voor de twee functies: <br>
 > $$\chi^2_1/\text{vrijheidsgraad} = 4.0/(10-2) = 0.5$$ en<br> 
 > $$\chi^2_2/\text{vrijheidsgraad} = 13.0/(10-1) = 1.44$$.<br>
-> Op basis van de stelregel zou je functie $$f_1$$ kiezen. 
+> Op basis van de vuistregel zou je functie $$f_1$$ kiezen. 
 
 
 > <span class="badge badge-warning">Voorbeeld 2</span> Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
@@ -32,7 +32,7 @@ Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze 
 > De $$\chi^2$$ per vrijheidsgraad is voor de twee functies: <br>
 > $$\chi^2_1/\text{vrijheidsgraad} = 6.0/(10-2) = 0.75$$ en<br> 
 > $$\chi^2_2/\text{vrijheidsgraad} = 9.0/(10-1) = 1.0$$.<br>
-> Op basis van de stelregel zou je functie $$f_1$$ kiezen. 
+> Op basis van de vuistregel zou je functie $$f_1$$ kiezen. 
 
 
 Beter is om dan het Akaike Informatie Criterium kun je gebruiken om uit te vinden welke functie het beste aan een dataset fit. Stel dat je een dataset hebt waarbij je $$N$$ meetwaardes hebt die je beschreven hebt met een functie met $$p$$ vrije parameters met een geminimaliseerde $$\chi^2$$. Dan heeft het Akaike Informatie Criterium de volgende waarde: 
@@ -58,7 +58,7 @@ Als we deze $$AIC$$ berekenen voor beide functies dan is de functie met de laags
 > De $$\chi^2$$ per vrijheidsgraad is voor de twee functies: <br>
 > $$AIC_1 = 6.0 + 4 + 12/7 = 11.8 $$<br>
 > $$AIC_2 = 9.0 + 2 + 4/8 = 11.5 $$<br>
-> Op basis van de stelregel zou je functie $$f_2$$ kiezen. 
+> Op basis van de vuistregel zou je functie $$f_2$$ kiezen. 
 
 
 ## Wald test
