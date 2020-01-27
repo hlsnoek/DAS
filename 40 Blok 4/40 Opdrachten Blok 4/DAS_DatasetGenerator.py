@@ -173,3 +173,7 @@ def DeeltjesDataset() :
     y1 = np.random.poisson(400* (0.5)**(x/100))
     y2 = [np.random.poisson(150*5*normpdf(xi,mu,5)) for xi in x]
     return x, y1+y2, np.sqrt(y1+y2)
+
+def SpiekenM0() :
+    checkSD()
+    return 100+student_nummer%100
