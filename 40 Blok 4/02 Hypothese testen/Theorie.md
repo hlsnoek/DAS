@@ -5,7 +5,7 @@
 
 
 
-We hebben in blok 3 gezien hoe we met behulp van de kleinste-kwadraten methode een $$\chi^2$$ kunnen minimaliseren. Hierbij gaan we ervan uit dat we een functie $$f$$ hebben gedefinieerd die één of meerdere vrije parameters hebben. De beste waarde voor de parameter(s) vinden we via het optimaliseren van de $$\chi^2$$. 
+We hebben in blok 3 gezien hoe we met behulp van de kleinste-kwadraten methode een $$\chi^2$$ kunnen minimaliseren. Hierbij gaan we ervan uit dat we een functie $$f$$ hebben gedefinieerd die één of meerdere vrije parameters heeft. De beste waarde voor de parameter(s) vinden we via het optimaliseren van de $$\chi^2$$. 
 
 We gaan in dit blok bekijken hoe we de geminimaliseerde $$\chi^2$$ kunnen inzetten om: 
 
@@ -66,20 +66,21 @@ De Wald test is een bijzondere test die kan worden gebruikt om met behulp van de
 
 Het idee is om aan een set meetwaardes twee functies te fitten. De eerste functie, $$f_0$$, beschrijft de dataset onder de hypothese $$H_0$$, de tweede functie, $$f_1$$, beschrijft de dataset onder de alternatieve hypothese $$H_1$$. Het verschil in de geminimaliseerde $$\chi^2$$ voor beide  functies wordt gedefinieerd als $$\Delta \chi^2 = \chi^2_1 - \chi^2_2$$. Deze $$\Delta \chi^2$$ kan direct worden gebruikt om een p-waarde te berekenen. 
 
-Er zijn hierbij strikte voorwaardes voor het opstellen van de twee functies. De functies mogen slechts in 1 parameter verschillen, verder moeten ze geheel identiek zijn. De $$H_0$$ hypothese wordt hierbij beschreven met het *minste* aantal vrije paramaters. 
+Er zijn hierbij strikte voorwaardes voor het opstellen van de twee functies. De functies mogen slechts in 1 parameter verschillen, verder moeten ze geheel identiek zijn. De $$H_0$$ hypothese wordt hierbij beschreven met het *minste* aantal vrije parameters. 
 
 > <span class="badge badge-warning">Voorbeeld</span> Als de nulhypothese wordt beschreven door een functie $$f_0(x;a,b)$$ dan wordt de alternatieve hypothese beschreven door een functie $$f_1(x;a,b,c)$$ waarde de parameters $$a$$ en $$b$$ identiek zijn en ook de relatie tussen $$x$$ en deze twee parameters gelijk is. 
 
 Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \chi^2$$ beschreven door een $$\chi^2$$ functie met vrijheidsgraad $$n=1$$. En zoals we in blok 3 hebben beschreven is de $$\chi^2$$ zelf een kansdichtheidsverdeling. We kunnen in dat geval de $$\Delta \chi^2$$ direct omrekenen naar een waarschijnlijkheid en deze is gelijk aan de p-waarde.
 
-> <span class="badge badge-warning">Voorbeeld Wald test</span> Stel dat we een chemisch element willen traceren en gebruik maken van een spectroscopie. Als het chemische element aanwezig is dan verwachten we een verhoogde intensiteit te zien bij de golflengte van de emissielijn van het specifieke element. We verwachten ook een achtergrond te zien. Dat wil zeggen we meten over alle golflengtes normaal gesproken een bepaalde intensiteit. We kunnen nu de twee functies opstellen. Stel dat de achtergrond een lineaire functie volgt: <br>
+> <span class="badge badge-warning">Voorbeeld Wald test</span> Stel dat we een chemisch element willen traceren en gebruik maken van een spectroscopie. Als het chemische element $$X$$ aanwezig is dan verwachten we een verhoogde intensiteit te zien bij de golflengte van de emissielijn van het specifieke element. We verwachten ook een achtergrond te zien. Dat wil zeggen we meten over alle golflengtes normaal gesproken een bepaalde intensiteit, ook zonder dat het chemische element aanwezig is. We kunnen nu de twee functies opstellen. Stel dat de achtergrond een lineaire functie volgt: <br>
 > $$ I_0(\lambda;a,b) = a+ b\cdot \lambda$$<br>
-> De emissielijn verwachten we rond 930nm en de resolutie van de spectroscoop is 5nm deze wordt dan beschreven door: <br>
+> Waarbij $$\lambda$$ de golflengte is. <br>
+> De emissielijn van $$X$$, verwachten we rond 930nm en de resolutie van de spectroscoop is 5nm deze wordt dan beschreven door: <br>
 > $$ I_1(\lambda;J,\mu=930nm,\sigma=5nm) = J \cdot \frac{1}{5nm \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{930nm-\lambda}{5})^2}$$<br>
 > We zien dat in principe er geen vrije parameters zijn in deze fit, behalve een schaalfactor $$J$$ die de hoeveelheid intensiteit van het signaal schaalt. <br>
 > De functie $$f_0$$ wordt in dit geval gelijk gesteld aan de functie die de achtergrond (of nulhypothese) beschrijft: $$f_0= I_0$$. De vrije parameters in deze fit zijn $$a$$ en $$b$$. <br>
 > De functie $$f_1$$ die de alternatieve hypothese beschrijft is nu gelijk aan de achtergrond, plus het signaal: $$f_1 = I_0 + I_1$$. De vrije parameters in deze fit zijn $$a,b$$ en $$J$$. We voldoen dus aan het criterium van de Wald methode. <br>
-> Het verschil in de geoptimaliseerde $$\chi^2$$'s voor de nul- en de alternatieve hypothese is gelijk aan $$\chi^2_0 - \chi^2_1$$. 
+> Het verschil in de geoptimaliseerde $$\chi^2$$'s voor de nul- en de alternatieve hypothese is gelijk aan $$\Delta \chi^2 = \chi^2_0 - \chi^2_1$$. 
 
 
 
