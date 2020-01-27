@@ -171,6 +171,5 @@ def DeeltjesDataset() :
     mu = 100+student_nummer%100
     x = np.arange(80,220,5)
     y1 = np.random.poisson(400* (0.5)**(x/100))
-    y2 = [np.random.poisson(50*normpdf(xi,mu,10)) for xi in x]
-    print(mu)
+    y2 = [np.random.poisson(250*normpdf(xi,mu,10)) for xi in x]
     return x, y1+y2, np.sqrt(y1+y2)
