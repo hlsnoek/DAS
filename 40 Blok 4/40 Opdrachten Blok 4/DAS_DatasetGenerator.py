@@ -148,7 +148,7 @@ def GroteAantallenFitSetGenerator() :
     return 1/np.sqrt(N),std,std_err
     
 def onbekendeFunctie(x) :
-    f = 40+5*m.sin((0.3*x)+5)
+    f = 40+5*m.sin((0.5*x)+5)
     return f
 
 def OnbekendeFunctieGenerator() :
