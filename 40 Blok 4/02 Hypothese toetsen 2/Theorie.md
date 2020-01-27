@@ -82,7 +82,7 @@ Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \
 > De functie $$f_1$$ die de alternatieve hypothese beschrijft is nu gelijk aan de achtergrond, plus het signaal: $$f_1 = I_0 + I_1$$. De vrije parameters in deze fit zijn $$a,b$$ en $$J$$. We voldoen dus aan het criterium van de Wald methode. <br>
 > Het verschil in de geoptimaliseerde $$\chi^2$$'s voor de nul- en de alternatieve hypothese is gelijk aan $$\Delta \chi^2 = \chi^2_0 - \chi^2_1$$. 
 > We gaan even naar de data kijken. We hebben het spectrum waargenomen dat hieronder wordt getoond. <br>
-> ![](Spectrum.png){width: '80%'}
+> ![](Spectrum.png){width="80%"}
 >
 > In de grafiek zien we een duidelijk piekje rond 930nm, precies waar we het signaal van het chemische element $$X$$ door $$H_1$$ voorspeld is. De fit resultaten van beide hypotheses zijn in het plaatje weergegeven. Met het verschil in $$\chi^2$$ kunnen we nu een p-waarde uitrekenen. Die is in dit geval gelijk aan $$1.62\cdot 10^{-8}$$ dit komt overeen met een z-waarde van 5.52 $$\sigma$$. Het is dus uitermate waarschijnlijk dat we het chemische element $$X$$ hebben aangetoond in de spectraal analyse.
 
@@ -90,9 +90,8 @@ In het voorbeeld hierboven is er een duidelijk stelling over de golflengte van d
 
 
 > <span class="badge badge-warning">Voorbeeld p-waarde scan</span> Hieronder zie je de spectraalfit waarbij we het spectrum hebben gefit met een centrale waarde van de spectraallijn op 932nm. Zoals je ziet is de waarde voor $$J$$ die de intensiteit van een eventuele emissielijn op 932nm beschrijft, erg klein: De gefitte functie voor $$H_1$$ wijkt nauwelijks af van de functie die de $$H_0$$ hypothese beschrijft. De berekende p-waarde zal voor deze golflengte dan ook klein zijn. <br>
->![](Spectrum932.png){width: '80%'}<br>
+>![](Spectrum932.png){width="80%"}<br>
 > Als we alle p-waardes van de scan nu grafisch weergeven dan krijgen we onderstaand resultaat.
-> ![](Emissiescan.png){width: '80%'}<br>
+> ![](Emissiescan.png){width="80%"}<br>
 > Je zit nu dat er op een aantal plekken in het spectrum een kleine afwijking van de $$H_0$$ hypothese te zien is. Op slecht 1 locatie is er een heel duidelijke afwijking zichtbaar. Precies bij 930nm.
-
 
