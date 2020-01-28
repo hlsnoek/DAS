@@ -28,7 +28,7 @@ De dataset fitten we met de functie $$y = a\cdot x^2$$. Bereken de optimale waar
 $${\displaystyle \frac{\partial \chi^2}{\partial a} = \sum_i^N \frac{1}{\sigma_y^2} \frac{\partial f(x_i;a)}{\partial a} \left(y_i - f(x_i;a)\right) = 0 }$$ <br>
 $$\frac{\partial f(x_i;a)}{\partial a} = x^2$$<br>
 geeft:<br>
-$${\displaystyle \sum_i^N \frac{1}{4} x^2_i(y_i - \hat{a} x_i ) = 0}$$<br>
+$${\displaystyle \sum_i^N \frac{1}{4} x^2_i(y_i - \hat{a} x_i^2 ) = 0}$$<br>
 Invullen:
 $$(1.0^2 \cdot 3.2 - \hat{b} \cdot 1.0^3)$$ +  $$(2.0^2 \cdot 13.3 - \hat{b} \cdot 2.0^3) + (3.0^2 \cdot 26.5 - \hat{b} \cdot 3.0^3) = 0$$ geeft $$\hat{b} = 3.0$$
 </span>
