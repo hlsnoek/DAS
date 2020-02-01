@@ -56,7 +56,7 @@ $${\displaystyle \Delta \mu = \frac{\sigma}{\sqrt{N}} = \frac{11.2}{\sqrt{80}}} 
 We combineren onafhankelijke datasets waarbij de spanwijdte van koolmeesjes zijn gemeten. Dataset A heeft informatie over 1100 koolmeesjes met een gemiddelde spanwijdte van 13.4 cm met een standaard deviatie van 2.0 cm. Dataset B heeft informatie over 2000 koolmeesjes met gemiddelde van 14.0 cm en een standaard deviatie van 1.8 cm.<br>
 Wat is het gemiddelde van de gecombineerde dataset T?<br>
 <span style = 'color:blue'> $${\displaystyle \mu_A = \sum_a^{N_A=1100} \frac{x_a}{N_A} \text{ en } \mu_B = \sum_b^{N_B=2000} \frac{x_b}{N_B} \text{ ook geldt: }  \mu_T = \frac{\sum^{N_A} x_a + \sum^{N_B} x_b}{N_T}}$$<br>
-$${\displaystyle \mu_T =  \frac{N_A \cdot \mu_A + N_B \cdot \mu_B}{N_A + N_B}} = 13.79 \text{ kg}$$  </span><br>
+$${\displaystyle \mu_T =  \frac{N_A \cdot \mu_A + N_B \cdot \mu_B}{N_A + N_B}} = 13.8 \text{ kg}$$  </span><br>
 
 ----
 **10.**
@@ -80,13 +80,13 @@ Je hebt de volgende dataset met waardes van x en y: <br>
 $$<{y}> = (5+4+2+0)/4 = 2.75$$<br>
 $$\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = $$<br>
 $$\frac{1}{4}\times\left((2-2.75)\cdot(5-2.75) +(1-2.75)\cdot(4-2.75)+(5-2.75)\cdot(2-2.75) + (3-2.75)\cdot(0-2.75)\right) $$ <br>
-$$ = -1.5625$$
+$$ = -1.6$$
 </span><br>
 **b.** Bereken de correlatie.<br>
 <span style = 'color:blue'> 
 $$\sigma_x^2 = <{x^2}>-<{x}>^2 = (4+1+25+9)/4 - 2.75^2 = 2.1875$$ <br>
 $$\sigma_y^2 = <{y^2}>-<{y}>^2 = (25+16+4+0)/4 - 2.75^2 = 3.6875$$ <br>
-$$\sigma_x = 1.479$$, $$\sigma_y = 1.479$$
+$$\sigma_x = 1.48$$, $$\sigma_y = 1.48$$
 $$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{-1.56}{1.48\times 1.92} = -0.55$$
 </span><br>
 
