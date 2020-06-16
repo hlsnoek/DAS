@@ -61,4 +61,4 @@ set onbekende voorwerpen. De lengte is steeds gegeven in meter, de massa in gram
 
 $$R = \frac{M}{L}$$ 
 
-en ik wil de gemiddelde van ratio,  $$\overline{R}$$ bepalen. Van een andere, vergelijkbare, dataset heb de volgende gemiddeldes bepaald: $$\overline{M} = 210 \pm 24$$ en $$\overline{L} = 25 \pm 8$$.  Bereken voor deze waardes de ratio $$\overline{R}$$ en de onzekerheid hierop $$\Delta \overline{R}$$.
+en ik wil de gemiddelde van ratio,  $$\overline{R}$$ bepalen. Van een andere, vergelijkbare, dataset heb de volgende gemiddeldes bepaald: $$\overline{M} = 210 \pm 24$$ gram en $$\overline{L} = 25 \pm 8$$ meter.  Bereken voor deze waardes de ratio $$\overline{R}$$ en de onzekerheid hierop $$\Delta \overline{R}$$.
