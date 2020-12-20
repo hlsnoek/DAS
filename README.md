@@ -1,4 +1,4 @@
-# Studiewijzer, January 2020<br><small>Data Analyse en Statistiek</small>
+# Studiewijzer, Januari 2021<br><small>Data Analyse en Statistiek</small>
 
 1. Ordered TOC
 {:toc}
