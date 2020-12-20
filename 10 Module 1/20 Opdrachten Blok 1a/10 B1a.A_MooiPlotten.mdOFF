@@ -7,7 +7,7 @@
 We gaan in deze opdracht een histogram maken van een gegeven dataset. <br>
 Je krijgt hiervoor een python programmaatje dat je moet aanpassen. <br>
 We gaan ervan uit dat je Anaconda en Visual Studio Code (VSC) hebt geïnstalleerd. <br>
-Zo niet zie dan [hier](/start/installatie) de instructies.<br>
+Zo niet zie dan [hier](/informatie/installatie) de instructies.<br>
 
 
 >Installeer de volgende twee bestanden naar een werkfolder op je computer:<br>
@@ -65,7 +65,7 @@ Als je tevreden bent met het resultaat kun je het histogram opslaan door de laat
 
 	plt.savefig('B1a.A_MooiPlotten.png')   
 
-Je resultaten moet je inleveren via ANS en worden beoordeeld. Kijk [hier](/start/inleveropdrachten) voor de deadlines van de inleveropdrachten. 
+Je resultaten moet je inleveren via ANS en worden beoordeeld. Kijk [hier](/informatie/inleveropdrachten) voor de deadlines van de inleveropdrachten. 
 Download hier een inlevertemplate voor de opdrachten in blok 1a: 
 [InlevertemplateBlok1a.docx](InlevertemplateBlok1a.docx)
 
