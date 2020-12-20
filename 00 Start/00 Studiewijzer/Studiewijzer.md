@@ -5,48 +5,44 @@
 1. Ordered TOC
 {:toc}
 
-> Tijdens dit vak worden vaardigheden ontwikkeld op het gebied van statistische data-analyse in combinatie met programmeren in Python. Aan de hand van een realistische data-set brengen studenten hun nieuw verworven theoretische kennis ook gelijk in de praktijk.
+Welkom bij het vak Data Analyse en Statistiek. In dit vak leer je de basisprincipes van statistiek en deze toe te passen op realistische gemodelleerde datasets. 
 
+Dit vak bestaat uit 4 hoorcolleges en 7 laptopcolleges. Voor het cijfer tellen de inleveropdrachten en de tussentoetsen mee. Voor het halen van dit vak moet je minimaal een 5,5 halen voor zowel het gemiddelde van de inleveropdrachten, als voor het gemiddelde van de tussentoetsen. 
 
-## Activiteiten
+### Voorbereiding
+Bereid je vast voor op dit vak door te zorgen dat python goed geïnstalleerd is. Volg hiervoor deze [instructies](/start/installatie).
+Zorg dat je ook even het testprogrammaatje draait die je aan het einde van deze instructies vindt, dan weet je zeker dat je meteen aan de slag kunt. 
 
-Om de cursus tot een goed einde te brengen, verwachten we dat je:
-
-- alle hoorcolleges volgt,
-- alle werkgroepen bijwoont,
-- alle uren aanwezig bent in het lab,
-- alle opdrachten volledig uitgewerkt instuurt,
-- alle drie de tussentoetsen maakt.
-
-
-## Hoorcolleges
+### Hoorcolleges
 
 In hoorcolleges bespreekt de docent de theorie van Data analyse en Statistiek waarmee je de werkcollege opgaven kunt oplossen en die je voorbereidt op de toetsjes. 
 
-## Inleveropdrachten
+### Inleveropdrachten
 Tijdens de werkcolleges werk je aan de inlever opdrachten die horen bij dit vak. Deze opdrachten moet je ook inleveren voor een cijfer. Voor elke blok opdrachten is een deadline. Als je deze deadline niet haalt trekken we **2 punten per dag af**. Aanwezigheid op de werkcolleges is verplicht, tenzij het werk voor dat blok al is ingeleverd via ANS.
 Informatie over de inleveropdrachten vind je [hier](/start/inleveropdrachten). Het gemiddelde van de inleveropdrachten tellen voor 80% mee aan het eindcijfer, je moet minimaal een 5,5 halen voor het gemiddelde van de opdrachten om het vak te halen. Om voor de herkansing in aanmerking te komen dienen alle inleveropdrachten te zijn ingeleverd.
 
-## Tussentoetsen
+### Tussentoetsen
 Aaan het einde van de hoorcolleges in week 2, 3 en 4 vindt een tussentoets plaats. Deze toetsen moet je met een voldoende (minimaal een 5,5) afronden om het vak te halen, het gemiddelde van de toetsen wegen voor 20% mee in het eindcijfer. Meer informatie over de tussentoetsen vind je [hier](/start/tussentoetsen). 
 
-## Voorbereiding
-Bereid je vast voor op dit vak door te zorgen dat python goed geïnstalleerd is. Volg hiervoor deze [instructies](/start/installatie).
 
-## Boeken
+### Boeken
 Er zijn geen boeken benodigd voor deze cursus. Wil je de stof een keer op een andere manier benaderen, dan vind je in de volgende boeken wellicht wat je zoekt:
 
 J.R. Taylor, 1997, 'An introduction to error analysis', University Science Books, Sausalito, 2, 1997, ISBN 978 0935 702 750. Dit boek is gratis beschikbaar op [deze website](https://archive.org/details/TaylorJ.R.IntroductionToErrorAnalysis2ed/).
 
 
-## Herkansingen
+### Herkansingen
 Het opnieuw insturen van opdrachten is niet meer mogelijk na de deadline of zodra deze zijn nagekeken.
+
+Let op! De toetsvorm van de herkansing staat voor dit jaar nog niet vast. Het zal afhangen van de Corona regels op dat moment en de hoeveelheid studenten die een herkansing wil. 
+
+Zorg wel dat je alle inleveropdrachten op tijd hebt ingeleverd, anders mag je niet meedoen aan de herkansing!
 
 Als je niet zowel een voldoende hebt voor (het gewogen gemiddelde van) de inlevertoetsen als voor de tussentoetsen kun je het vak herkansen met een tentamen statistiek. Toegang aan het hertentamen wordt alleen verleend als je **alle** opdrachten hebt ingeleverd.
 Pas op - dit hertentamen zal niet makkelijker zijn dat de toetsen en de opdrachten. 
 
 
-## Samenwerken, fraude en plagiaat
+### Samenwerken, fraude en plagiaat
 
 Verdenkingen van fraude en plagiaat zal ten alle tijden worden gemeld bij de examencommissie.
 
