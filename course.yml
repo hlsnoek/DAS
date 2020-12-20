@@ -6,4 +6,5 @@ links:
 #    '[book] Canvas': https://canvas.uva.nl/
 
 modules: 
-    "0. Start": /start/
+    "0. Start": /start/installatie
+    "1. Blok 1 ": /start/tussentoets
