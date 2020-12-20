@@ -1,14 +1,13 @@
-## Introductie Blok 1
+## Introductie Module 1
 
 Statistische data analyse is een belangrijk onderdeel in vele werkvelden.
-Als wetenschapper zul je later te maken krijgen met het verzamelen en interpreteren van data bij het onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
-Wanneer kun je zeggen dat een hypothese moet worden verworpen of bewijs je juist dat deze correct is?
-Wanneer heb je eigenlijk genoeg data verzameld? Hoe kun je een zo experiment ontwerpen dat je een hypothese kunt onderzoeken. Hoe kom je erachter wat jouw hypothese testbaar maakt - in welke observabele onderscheidt zij zich voldoende van andere hypotheses?
+Als student en later wellicht ook als wetenschapper zul je te maken krijgen met het verzamelen en interpreteren van data bij het het praktikum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
+Wanneer kun je zeggen dat een hypothese moet worden verworpen of bewijs je juist dat deze correct is? Hoe moet je inschatten of je meetnauwkeurigheid goed genoeg is?
+Wanneer heb je eigenlijk genoeg data verzameld? Hoe kun je een zo experiment ontwerpen dat je een hypothese kunt onderzoeken. Hoe kom je erachter wat jouw hypothese toetsbaar maakt - in welke observabele onderscheidt zij zich voldoende van andere hypotheses?
 
-
-Alle kennis die we tot nu toe hebben over de Natuur- en Sterrenkunde is tot stand gekomen met het uitvoeren van experimenten en het analyseren van de uitkomsten.
-Voor het bestuderen van Natuurkundige en Sterrenkundige theorieën is geen echter geen kennis nodig van statistiek en data analyse technieken. 
-Voor het uitvoeren van de wetenschap, het vinden van bewijzen voor nieuwe theorieën is kennis hiervan echter essentieel. 
+Alle kennis die we tot nu toe hebben over de Natuur- en Sterrenkunde is tot stand gekomen met het uitvoeren van experimenten en het analyseren van de uitkomsten hiervan.
+Voor het bestuderen van Natuurkundige en Sterrenkundige theorieën is niet persé kennis nodig van de statistiek en van data analyse technieken. 
+Voor het uitvoeren van wetenschap, het vinden van bewijzen voor nieuwe theorieën is kennis hiervan echter essentieel. 
 
 
 <!--Denk bijvoorbeeld eens terug aan het moment waarop aan de wereld kenbaar werd gemaakt dat, met grote waarschijnlijkheid, het Higgs deeltje was gevonden (ATLAS en CMS teams op CERN in 2012). In 1964 is het bestaan van dit deeltje al voorspeld om de massa van de elementaire deeltjes zoals elektronen, muonen en quarks te kunnen verklaren (deze voorspelling is trouwens niet alleen door Peter Higgs gedaan maar ook (iets) eerder al door Robert Brout en François Englert).
@@ -25,15 +24,14 @@ Dat klinkt heel omslachtig, maar het is belangrijk in de wetenschap om heel prec
 
 
 
+Bij het presenteren van onderzoeksresultaten is het belangrijk om helder uit te kunnen leggen hoe het onderzoek precies is uitgevoerd, hoe de metingen zijn verkregen en wat de resultaten zijn. 
+Vaak maken we hierbij gebruik van histogrammen, grafieken en tabellen. Om een hypothese te toetsen moeten we metingen ook kunnen interpreteren. Hiervoor zijn verschillende methodes, bijvoorbeeld kunnen we de data proberen te 'fitten' met een functie, een wiskundige vergelijking. Bij al deze methodes speelt statistiek een belangrijke rol.  
 
-Bij het presenteren van onderzoeksresultaten is het belangrijk om helder uit te kunnen leggen hoe het onderzoek precies is uitgevoerd, hoe de metingen zijn genomen en wat de resultaten zijn. 
-Vaak maken we hierbij gebruik van histogrammen, grafieken en tabellen. Om een hypothese te toetsen moeten we de metingen ook interpreteren. Daarvoor zijn verschillende methodes, bijvoorbeeld kunnen we de data proberen te 'fitten' met een functie. Bij al deze methodes speelt statistiek een belangrijke rol.  
 
+In deze cursus zullen we vaardigheden gaan leren van data analyse en statistiek. 
 
-In deze cursus zullen we gaan vaardigheden leren van data analyse en statistiek. 
+Deze week beginnen we met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over [verdelingen](/module-1/meetonzekerheid) van  metingen en het juist [presenteren](/module-1/data-visualiseren) van resultaten.  
+Ook maken we een begin met [kansrekening](/module-1/kanstheorie).
 
-Deze week beginnen we met een aantal [basisbegrippen](/blok-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over [verdelingen](/blok-1/meetonzekerheid), metingen en het juist [presenteren](/blok-1/data-visualiseren) van resultaten.  
-Ook maken we een begin met [kansrekening](/blok-1/kanstheorie).
-
-We werken in de werkcolleges aan de opdrachten van dit blok [B1a](/blok-1/opdrachten-blok-1a) en [B1b](/blok-1/opdrachten-blok-1b). Je vindt in het [schema](/start/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
-Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-info/tussentoets-1) voor de eerste tussentoets. De eerste tussentoets volgt direct na het tweede werkcollege.
+We werken in de werkcolleges aan de opdrachten van deze module [M1](/module-1/opdrachten-module-1). Je vindt in het [schema](/start/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
+Vergeet ook niet te kijken naar het [oefenmateriaal](/module-1/tussentoets-info) voor de eerste tussentoets. De eerste tussentoets volgt aan het einde van het tweede werkcollege.

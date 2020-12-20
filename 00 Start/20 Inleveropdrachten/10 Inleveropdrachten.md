@@ -1,9 +1,9 @@
 ## Werkcollege opdrachten 
-Tijdens de werkcolleges werken we aan verschillende opdrachten. Hieronder vind je een overzicht van wanneer er aan welke opdracht wordt gewerkt en wanneer de verschillende blokken moeten worden ingeleverd.
+Tijdens de werkcolleges werken we aan verschillende opdrachten. Hieronder vind je een overzicht van wanneer er aan welke module wordt  en wanneer deze moet worden ingeleverd.
 
 
 
-|  | Blok 1 | Blok 2 | Blok 3 | Blok 4 |
+|  | Module 1 | Module 2 | Module 3 | Module 4 |
 |------|-------|------|------|------|------|-------|
 |werkcolleges | WC1, WC2 | WC 3, WC 4 | WC 5, WC 6 | WC 7 | 
 |deadlines | za 9 jan 20:00 | za 16 jan 20:00 | za 23 jan 20:00 | za 30 jan 20:00 |
