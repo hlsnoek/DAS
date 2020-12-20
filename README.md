@@ -23,7 +23,7 @@ In hoorcolleges bespreekt de docent de theorie van Data analyse en Statistiek wa
 
 ## Inleveropdrachten
 Tijdens de werkcolleges werk je aan de inlever opdrachten die horen bij dit vak. Deze opdrachten moet je ook inleveren voor een cijfer. Voor elke blok opdrachten is een deadline. Als je deze deadline niet haalt trekken we **2 punten per dag af**. Aanwezigheid op de werkcolleges is verplicht, tenzij het werk voor dat blok al is ingeleverd via ANS.
-Informatie over de inleveropdrachten vind je [hier](/start/inleveropdrachten). Het gemiddelde van de inleveropdrachten tellen voor 80% mee aan het eindcijfer, je moet minimaal een 5,5 halen voor het gemiddelde van de opdrachten om het vak te halen.
+Informatie over de inleveropdrachten vind je [hier](/start/inleveropdrachten). Het gemiddelde van de inleveropdrachten tellen voor 80% mee aan het eindcijfer, je moet minimaal een 5,5 halen voor het gemiddelde van de opdrachten om het vak te halen. Om voor de herkansing in aanmerking te komen dienen alle inleveropdrachten te zijn ingeleverd.
 
 ## Tussentoetsen
 Aaan het einde van de hoorcolleges in week 2, 3 en 4 vindt een tussentoets plaats. Deze toetsen moet je met een voldoende (minimaal een 5,5) afronden om het vak te halen, het gemiddelde van de toetsen wegen voor 20% mee in het eindcijfer. Meer informatie over de tussentoetsen vind je [hier](/start/tussentoetsen). 
