@@ -10,26 +10,28 @@ Als je data visualiseert dan is het de bedoeling dat iemand anders deze goed kan
 
 De richtlijnen zijn geen regels. Er zijn altijd uitzonderlijke datasets die erom vragen om af te wijken van de richtlijnen. Blijf dus altijd goed nadenken over wat je doet en waarom. 
 
+Afhankelijk van wat voor soort metingen je hebt genomen kies je uit een grafiek, een scatterplot, een staaf diagram of een histogram. Elk van deze data visualisatie methodes worden hieronder besproken. 
 
+## Grafieken & Scatterplots
 
-### Grafieken & Scatterplots
-Een grafiek laat het verband zien tussen twee (of meer) variabelen. 
-Een grafiek heeft meestal een beperkt aantal punten, als er veel data is geven we dit vaak in een scatter plot weer. 
+Grafieken en scatterplots zijn twee vormen van een diagram die veel op elkaar lijken. Ze verschillen wel op een paar punten. 
 
-Er zijn twee grote verschillen tussen grafieken en scatterplots: 
+Bij **scattterplots**,
 
-* In scatterplots kunnen voor een ingestelde/gekozen waarde meer dan één gemeten waarden bestaan. Een voorbeeld zou zijn als je een meting doet waarbij je de lengte van mensen opmeet en tegen hun leeftijd uitzet. 
-* In scatterplots verbind je *nooit* punten met lijnen. Dat zou ook erg verwarrend zijn omdat je de dataset niet altijd logisch kan ordenen. In grafieken is dat vaak trouwens ook onwenselijk. 
+* kunnen voor een ingestelde/gekozen waarde meer dan één gemeten waarden bestaan. Een voorbeeld zou zijn als je een meting doet waarbij je de lengte van mensen opmeet en tegen hun leeftijd uitzet. 
+* verbind je *nooit* punten met lijnen. Dat zou ook erg verwarrend zijn omdat je de dataset niet altijd logisch kan ordenen. In grafieken is dat vaak trouwens ook onwenselijk. 
 
-Meestal is de waarde van de twee variabelen van te voren gekozen of ingesteld en de andere variabele gemeten. De gemeten waarde laten we zien op de verticale as en de gekozen waarde op de horizontale as. Bij grafieken kun je meestal deze stelregel gebruiken, bij scatterplots is het vaak niet zo duidelijk en moet je gewoon een keuze maken.
+Bij **grafieken**, 
 
-De waardes worden als punten of 'markers' in de grafiek of scatterplot neergezet. 
+* kies je meestal voor een van de twee variabelen een meetpunt of stel je een waarde in. De gemeten waarde laten we zien op de verticale as en de gekozen waarde op de horizontale as. 
 
+### Richtlijnen voor de opmaak van diagrammen
+
+Met behulp van voorbeelden laten we zien wat de richtlijnen zijn en waar je op moet letten. 
 
 Stel bijvoorbeeld dat we naar de gemiddelde dagtemperatuur in de maand December 2019 in de Bilt. Hieronder een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
 
 ![](plot1_lijn_geenOpmaak.png){: width="60%"}
-
 
 Je ziet dat dit niet erg duidelijk is. Het is bijvoorbeeld niet precies te zien waar de gemeten punten zitten, we hebben wel een vermoeden voor de plaatsen waarop de lijn abrupt van richting veranderd, maar wie weet zitten er nog wel meer datapunten tussen.
 
@@ -71,10 +73,12 @@ Tot nu toe hebben we nog geen titels toegevoegd aan de plots. Dit komt omdat dat
 - Een grafiek voor een wetenschappelijk artikel of een verslag heeft geen titel. Een grafiek voor webteksten of lesmateriaal heeft over het algemeen wel een titel.
 - Als je de onzekerheid weet op de variabelen dan is het goed om deze ook weer te geven in je plot. Tenzij deze heel onoverzichtelijk wordt (zoals in een scatterplot met heel veel punten).
 
+*Let op!* Dit zijn weer richtlijnen en geen regels. Denk altijd goed na over wat je doet en waarom. Het eindresultaat moet goed begrijpbaar zijn en daarvoor is het soms nodig om van de richtlijnen af te wijken.
 
-### Staafdiagrammen & Histogrammen
 
-Staafdiagrammen en histogrammen worden allebei typisch gebruikt om frequenties aan te geven. 
+## Staafdiagrammen & Histogrammen
+
+Staafdiagrammen en histogrammen worden allebei typisch gebruikt om frequenties van meetwaardes aan te geven. 
 
 Hieronder zie je voorbeelden van een staafdiagram en een histogram.
 
@@ -86,7 +90,7 @@ Hierboven zie je een **staafdiagram** die de hoeveelheid autos in Nederland laat
 
 Hierboven zie je een **histogram** die de inkomensverdeling in Nederland laat zien. 
 
-Er is een belangrijk verschil tussen een staafdiagram en een histogram. Een staafdiagram laat de frequentie zien voor *gecategoriseerde* verdelingen. Een histogram wordt gebruikt om het resultaat van een *numeriek sorteerbare* verdeling mee weer te geven.
+Er is een belangrijk verschil tussen een staafdiagram en een histogram. Een staafdiagram laat de frequentie zien voor *gecategoriseerde* verdelingen. Een histogram wordt gebruikt om het resultaat van een *numeriek sorteerbare* verdeling mee weer te geven. In het geval van een histogram gaat het vaak om data met een continue variabele, zoals bijvoorbeeld bij het opmeten van lengte of gewicht. In dat geval sorteer je de data per interval.
 
 Bij het weergeven van data in een histogram wordt de data gegroepeerd in intervallen. De breedte van de staven (in het vervolg 'bins' genoemd) geeft de breedte van de intervallen. 
 
@@ -124,7 +128,7 @@ Bij het bepalen van het optimale aantal bins en de optimale bin breedte is het b
 * Natuurlijk moeten bij histogrammen en staafdiagrammen ook netjes aslabels worden gebruikt.
 * Als je meer dan één dataset laat zien maak dan gebruik van een legenda.
 
-### Wanneer gebruik je wat?
+## Wanneer gebruik je wat?
 
 1. Als je de incidentie (of frequentie) van meetwaarden wil laten zien dan gebruik je een histogram of staafdiagram. 
 	* Een staafdiagram gebruik je als de meetwaarden discreet zijn gecategoriseerd, bijvoorbeeld in het soort auto of per kleur. 
