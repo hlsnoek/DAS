@@ -1,5 +1,8 @@
 # Python op je eigen computer
 
+Wellicht heb je bij Inleiding Programmeren of een ander vak al je eigen versie van python geïnstalleerd. Dan zijn onderstaande instructies waarschijnlijk voor het grootste deel onnodig. Controleer wel even of je alle pakketten hebt geïnstalleerd die je nodig hebt. Helemaal onderaan deze pagina kun je hiervoor een testfile vinden.
+
+
 ## Om te beginnen
 
 Om te kunnen programmeren op je eigen computer heb je twee verschillende programma's nodig: de taal zelf, en een goede editor:
