@@ -6,7 +6,10 @@
 
 In dit deel bekijken we de verschillende manieren om data visueel te presenteren. Aan bod komen grafieken en scatterplots, staafdiagrammen en histogrammen. We laten ook zien hoe je deze met behulp van python kan maken.
 
-Als je data visualiseert dan is het de bedoeling dat iemand anders deze direct goed begrijpt. Er zijn wel een aantal vuistregels, maar het meest belangrijke is dat de data overzichtelijk is. Dat trends, of juist afwijkingen daarvan, goed zichtbaar worden gemaakt. 
+Als je data visualiseert dan is het de bedoeling dat iemand anders deze goed kan begrijpen. Er zijn wel een aantal richtlijnen, maar het meest belangrijke is dat de data overzichtelijk is. Dat trends, of juist afwijkingen daarvan, goed zichtbaar worden gemaakt. 
+
+De richtlijnen zijn geen regels. Er zijn altijd uitzonderlijke datasets die erom vragen om af te wijken van de richtlijnen. Blijf dus altijd goed nadenken over wat je doet en waarom. 
+
 
 
 ### Grafieken & Scatterplots
@@ -16,7 +19,7 @@ Een grafiek heeft meestal een beperkt aantal punten, als er veel data is geven w
 Er zijn twee grote verschillen tussen grafieken en scatterplots: 
 
 * In scatterplots kunnen voor een ingestelde/gekozen waarde meer dan één gemeten waarden bestaan. Een voorbeeld zou zijn als je een meting doet waarbij je de lengte van mensen opmeet en tegen hun leeftijd uitzet. 
-* In scatterplots verbind je *nooit* punten met lijnen. Dat zou ook erg verwarrend zijn omdat je de dataset niet altijd logisch kan ordenen. In grafieken is dat meestal ook onwenselijk. 
+* In scatterplots verbind je *nooit* punten met lijnen. Dat zou ook erg verwarrend zijn omdat je de dataset niet altijd logisch kan ordenen. In grafieken is dat vaak trouwens ook onwenselijk. 
 
 Meestal is de waarde van de twee variabelen van te voren gekozen of ingesteld en de andere variabele gemeten. De gemeten waarde laten we zien op de verticale as en de gekozen waarde op de horizontale as. Bij grafieken kun je meestal deze stelregel gebruiken, bij scatterplots is het vaak niet zo duidelijk en moet je gewoon een keuze maken.
 
