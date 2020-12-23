@@ -32,7 +32,7 @@ Voor de **significantie** geldt:
 
 De **precisie** van een getal wordt gegeven door het aantal cijfers achter de punt. 
 
-> <span class="badge badge-warning">Een aantal voorbeelden</span>
+>**Een aantal voorbeelden**
 >
 > - Het getal $$7.134$$ heeft in totaal 4 significante cijfers, de precisie is 3.
 > - Het getal $$0.576$$ heeft 3 significante cijfers, de precisie is ook 3.
@@ -50,7 +50,7 @@ Een veel gebruikte manier om getallen en meetresultaten weer te geven is met beh
 \times 10^n$$ opgeschreven.
 Een voordeel van deze notatie is dat je hiermee ook hele kleine getallen en hele grote getallen op een makkelijke manier op kunt schrijven. We geven een voorbeeld:
 
-> <span class="badge badge-warning">Voorbeeld klein getal</span>
+> **Voorbeeld klein getal**
 > We willen het getal $$0.000000000004563$$ opschrijven met twee significante cijfers. Nu kunnen we natuurlijk $$0.0000000000046$$ opschrijven maar als we dat vaak moeten doen kost dat veel ruimte (en werk). In de wetenschappelijke notatie ziet dit getal met twee significante cijfers er als volgt uit:
 >
 > $$0.000000000004563 = 4.6\cdot 10^{-12}$$
@@ -59,7 +59,7 @@ In het voorbeeld hierboven mag je natuurlijk zowel $$4.6\cdot 10^{-12}$$ als $$4
 Bij grote ronde getallen is het vaak niet duidelijk hoe groot de significantie is. Met de wetenschappelijk notatie kunnen we dit duidelijk maken.
 
 
-> <span class="badge badge-warning">Voorbeeld groot getal</span>
+> **Voorbeeld groot getal**
 > Stel dat je het aantal knikkers in een pot hebt geschat op 2500. De onzekerheid is alleen in het laatste getal, maar dat kan je op deze manier niet zien. Je kan dit getal dan beter met de wetenschappelijk notatie schrijven. Bijvoorbeeld: 
 > $$ 2.50 \times 10^{3}$$ of $$25.0 \times 10^{2}$$<br>
 > Op zich mag je ook schrijven $$250 \times 10^{1}$$ maar in de praktijk doet niemand dit ($$10^{1}$$ gebruiken) en bovendien blijft bij dit voorbeeld dan nog steeds onduidelijk wat de significantie is.  
@@ -96,7 +96,7 @@ Voor het noteren van een meetresultaat hanteren we de volgende regel:
 - Als er **geen** meetonzekerheid op het resultaat bekend is dan noteren we het meetresultaat met 2 significante cijfers. 
 - Als er **wel** een meetonzekerheid op het resultaat bekend is, dan noteren we de onzekerheid met 2 significante cijfers en noteren we het meetresultaat met dezelfde precisie. 
 
-> <span class="badge badge-warning">Voorbeeld</span>
+> **Voorbeeld**
 > 
 > | Resultaat | Onzekerheid | Notatie |
 > |----|----|----|

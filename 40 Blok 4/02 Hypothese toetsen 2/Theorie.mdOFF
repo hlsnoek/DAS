@@ -17,7 +17,7 @@ We gaan in dit blok bekijken hoe we de geminimaliseerde $$\chi^2$$ kunnen inzett
 ## Akaike Informatie Criterium
 Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze wordt beschreven. Je probeert twee functies uit, $$f_1$$ en $$f_2$$. En je minimaliseert voor beide functies de $$\chi^2$$, deze zijn dan $$\chi^2_1$$ en $$\chi^2_2$$. Als algemene vuistvuistregelregel geldt dat degene met de kleinste $$\chi^2$$ per vrijheidsgraad de beste is. Als in dat geval de betreffende $$\chi^2$$ dicht bij 1 ligt werkt deze vuistregel goed. Als deze echter veel kleiner is dan 1 dan kun je betwijfelen of de bijbehorende functie wel echt de beste is. 
 
-> <span class="badge badge-warning">Voorbeeld 2</span> Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
+> **Voorbeeld 2** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
 > $$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$<br>
 > Als geminimaliseerde $$\chi^2$$ voor de twee functies vinden we: $$\chi^2_1 = 4.0$$ en $$\chi^2_2 = 13.0$$. <br>
 > De $$\chi^2$$ per vrijheidsgraad is voor de twee functies: <br>
@@ -26,7 +26,7 @@ Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze 
 > Op basis van de vuistregel zou je functie $$f_1$$ kiezen. 
 
 
-> <span class="badge badge-warning">Voorbeeld 2</span> Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
+> **Voorbeeld 2** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
 > $$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$<br>
 > Als geminimaliseerde $$\chi^2$$ voor de twee functies vinden we: $$\chi^2_1 = 6.0$$ en $$\chi^2_2 = 9.0$$. <br>
 > De $$\chi^2$$ per vrijheidsgraad is voor de twee functies: <br>
@@ -42,7 +42,7 @@ $${\displaystyle AIC  = \chi^2 + 2p + \frac{2p(p+1)}{N-p-1}.}$$
 Als we deze $$AIC$$ berekenen voor beide functies dan is de functie met de laagste $$AIC$$ de meest optimale.
 
 
-> <span class="badge badge-warning">Voorbeeld 1</span> Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
+> **Voorbeeld 1** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
 > $$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$<br>
 > Als geminimaliseerde $$\chi^2$$ voor de twee functies vinden we: $$\chi^2_1 = 4.0$$ en $$\chi^2_2 = 13.0$$. <br>
 > De AIC waarde voor de twee functies zijn nu: <br>
@@ -52,7 +52,7 @@ Als we deze $$AIC$$ berekenen voor beide functies dan is de functie met de laags
 
 
 
-> <span class="badge badge-warning">Voorbeeld 2</span> Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
+> **Voorbeeld 2** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
 > $$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$<br>
 > Als geminimaliseerde $$\chi^2$$ voor de twee functies vinden we: $$\chi^2_1 = 6.0$$ en $$\chi^2_2 = 9.0$$. <br>
 > De $$\chi^2$$ per vrijheidsgraad is voor de twee functies: <br>
@@ -68,11 +68,11 @@ Het idee is om aan een set meetwaardes twee functies te fitten. De eerste functi
 
 Er zijn hierbij strikte voorwaardes voor het opstellen van de twee functies. De functies mogen slechts in 1 parameter verschillen, verder moeten ze geheel identiek zijn. De $$H_0$$ hypothese wordt hierbij beschreven met het *minste* aantal vrije parameters. 
 
-> <span class="badge badge-warning">Voorbeeld</span> Als de nulhypothese wordt beschreven door een functie $$f_0(x;a,b)$$ dan wordt de alternatieve hypothese beschreven door een functie $$f_1(x;a,b,c)$$ waarde de parameters $$a$$ en $$b$$ identiek zijn en ook de relatie tussen $$x$$ en deze twee parameters gelijk is. 
+> **Voorbeeld** Als de nulhypothese wordt beschreven door een functie $$f_0(x;a,b)$$ dan wordt de alternatieve hypothese beschreven door een functie $$f_1(x;a,b,c)$$ waarde de parameters $$a$$ en $$b$$ identiek zijn en ook de relatie tussen $$x$$ en deze twee parameters gelijk is. 
 
 Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \chi^2$$ beschreven door een $$\chi^2$$ functie met vrijheidsgraad $$n=1$$. En zoals we in blok 3 hebben beschreven is de $$\chi^2$$ zelf een kansdichtheidsverdeling. We kunnen in dat geval de $$\Delta \chi^2$$ direct omrekenen naar een waarschijnlijkheid en deze is gelijk aan de p-waarde.
 
-> <span class="badge badge-warning">Voorbeeld Wald test</span> Stel dat we een chemisch element willen traceren en gebruik maken van een spectroscopie. Als het chemische element $$X$$ aanwezig is dan verwachten we een verhoogde intensiteit te zien bij de golflengte van de emissielijn van het specifieke element. We verwachten ook een achtergrond te zien. Dat wil zeggen we meten over alle golflengtes normaal gesproken een bepaalde intensiteit, ook zonder dat het chemische element aanwezig is. We kunnen nu de twee functies opstellen. Stel dat de achtergrond een lineaire functie volgt: <br>
+> **Voorbeeld Wald test** Stel dat we een chemisch element willen traceren en gebruik maken van een spectroscopie. Als het chemische element $$X$$ aanwezig is dan verwachten we een verhoogde intensiteit te zien bij de golflengte van de emissielijn van het specifieke element. We verwachten ook een achtergrond te zien. Dat wil zeggen we meten over alle golflengtes normaal gesproken een bepaalde intensiteit, ook zonder dat het chemische element aanwezig is. We kunnen nu de twee functies opstellen. Stel dat de achtergrond een lineaire functie volgt: <br>
 > $$ I_0(\lambda;a,b) = a+ b\cdot \lambda$$<br>
 > Waarbij $$\lambda$$ de golflengte is. <br>
 > De emissielijn van $$X$$, verwachten we rond 930nm en de resolutie van de spectroscoop is 1nm deze wordt dan beschreven door: <br>
@@ -89,7 +89,7 @@ Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \
 In het voorbeeld hierboven is er een duidelijk stelling over de golflengte van de emissielijn van het element $$X$$. Stel nu dat dat niet zo is, dan zouden we een extra vrije parameter hebben in de functie die $$H_1$$ beschrijft. In dat geval kunnen we de Wald methode niet toepassen. Wat we in dat geval wèl kunnen doen is een zogeheten p-waarde scan uitvoeren. We variëren dan telkens de waarde van de golflengte van de emissielijn en berekenen voor elk van deze golflengtes de p-waarde. Als er een emissielijn aanwezig is die sterk genoeg is zullen we op die locatie een dip zien in de p-waarde. 
 
 
-> <span class="badge badge-warning">Voorbeeld p-waarde scan</span> Hieronder zie je de spectraalfit waarbij we het spectrum hebben gefit met een centrale waarde van de spectraallijn op 932nm. Zoals je ziet is de waarde voor $$J$$ die de intensiteit van een eventuele emissielijn op 932nm beschrijft, erg klein: De gefitte functie voor $$H_1$$ wijkt nauwelijks af van de functie die de $$H_0$$ hypothese beschrijft. De berekende p-waarde zal voor deze golflengte dan ook klein zijn. <br>
+> **Voorbeeld p-waarde scan** Hieronder zie je de spectraalfit waarbij we het spectrum hebben gefit met een centrale waarde van de spectraallijn op 932nm. Zoals je ziet is de waarde voor $$J$$ die de intensiteit van een eventuele emissielijn op 932nm beschrijft, erg klein: De gefitte functie voor $$H_1$$ wijkt nauwelijks af van de functie die de $$H_0$$ hypothese beschrijft. De berekende p-waarde zal voor deze golflengte dan ook klein zijn. 5<br>
 >![](Spectrum932.png)<br>
 > Als we alle p-waardes van de scan nu grafisch weergeven dan krijgen we onderstaand resultaat.
 > ![](Emissiescan.png)<br>
