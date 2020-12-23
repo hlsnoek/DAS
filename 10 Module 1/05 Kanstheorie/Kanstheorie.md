@@ -26,7 +26,7 @@ Een kans van $$1$$ zegt dat het **zeker** zal gebeuren en een kans van $$0$$ dat
 
 
 
-> <span class="badge badge-warning">Voorbeeld</span> We kijken naar een dobbelsteen. 
+> <span class="badge badge-warning"></span> **Voorbeeld** We kijken naar een dobbelsteen. 
 Wat is de kans dat je een $$4$$ gooit als je de dobbelsteen 1 keer gooit? 
 Voor een normale dobbelsteen kunnen deze kans uitrekenen met behulp van de volgende formule: <br>
 ><br>
