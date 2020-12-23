@@ -154,12 +154,14 @@ Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de
 Voor **discrete** verdelingen gelden de volgende vergelijkingen:
 
 * de verwachtingswaarde: $$ <{x}> = E(x) = { \sum_i x_i P(x_i) } ,$$<br>
-* de standaard deviatie: $${\displaystyle \sigma^2 = \sum_i (x_i - <{x}>)^2 P(x_i)}.$$<br>
+* de standaard deviatie: $$\sigma^2 = \sum_i (x_i - <{x}>)^2 P(x_i).$$<br>
 
 Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br>
 
-* de verwachtingswaarde: $$<{x}> = E(x) = {\displaystyle \int^\infty_{-\infty} x f(x) dx},$$<br>
-* de standaard deviatie: $${\displaystyle \sigma^2 = <{x^2}> - <{x}>^2 = \int^{\infty}_{-\infty} (x - <{x}>)^2 f(x) dx }.$$
+* de verwachtingswaarde: $$<{x}> = E(x) =  \int^\infty_{-\infty} x f(x) dx,$$<br>
+* de standaard deviatie: $$\sigma^2 = <{x^2}> - <{x}>^2 = \int^{\infty}_{-\infty} (x - <{x}>)^2 f(x) dx .$$
+
+
 
 **NB** Er zijn verschillende schrijfwijze voor het gemiddelde $$\mu, <{x}>$$ en $$E(x)$$. Het symbool $$\mu$$ is meestal voorbehouden aan het gemiddelde van de populatie, dat wil zeggen het *echte* gemiddelde. Het gemiddelde van de steekproef is $$<{x}>$$, je hoopt dus dat die dicht bij het populatie gemiddelde $$\mu$$ ligt. De verwachtingswaarde $$E(x)$$ is de waarde die je verwacht te gaan meten. Deze kan je met simulaties benaderen. De verschillen worden pas echt duidelijk als je er al een tijdje mee werkt. We zullen het niet fout rekenen als je een vergissing maakt in de notatie, maar we proberen het hier wel netjes op te schrijven. 
 In deze vergelijkingen is het in elk geval ook gewoon handiger om $$E(x)$$ of $$<{x}> $$ te schrijven.  $$E(x)^2$$ is, net als $$<{x}>^2$$, het kwadraat van de verwachtingswaarde van $$x$$. $$E(x^2)$$ is, net als 
