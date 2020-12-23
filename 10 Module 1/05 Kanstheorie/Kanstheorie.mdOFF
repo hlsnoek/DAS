@@ -27,34 +27,36 @@ Een kans van 1 zegt dat het **zeker** zal gebeuren en een kans van 0 dat het **z
 
 
 >  **Voorbeeld** We kijken naar een dobbelsteen. 
-Wat is de kans dat je een $$4$$ gooit als je de dobbelsteen 1 keer gooit? 
+Wat is de kans dat je een 4 gooit als je de dobbelsteen 1 keer gooit? 
 Voor een normale dobbelsteen kunnen we deze kans uitrekenen met behulp van de volgende formule: <br>
 ><br>
-> $${ P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{Het totale aantal uitkomsten}} = \frac{1}{6}}$$ <br>
+> $$ P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totaal aantal uitkomsten}} = \frac{1}{6}$$ <br>
 ><br>
 > Dit is de kans voor een normale eerlijke dobbelsteen. Met eerlijk bedoelen we hier dat de dobbelsteen niet gemanipuleerd is en dat elk vlak van de dobbelsteen evenveel kans heeft om boven te eindigen. 
 ><br><br>
 > Stel nu dat we een speciale, waar wel eerlijke, dobbelsteen zouden hebben met de volgende vlakken: {1,2,2,3,4,4}. De mogelijke uitkomsten bij een dobbelsteenworp zijn nu: {1,2,3,4}. Dit noemen we ook de **uitkomstenverzameling** waarbij alle elementen uniek zijn, en dus maar 1 keer voorkomt. De kans om nu een 4 te gooien is groter dan met een normale eerlijke dobbelsteen, namelijk: 
 ><br>
 ><br>
-> $${\displaystyle P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{Totale aantal uitkomsten}} = \frac{2}{6}}$$ <br>
+> $$P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totale aantal uitkomsten}} = \frac{2}{6}$$ <br>
 ><br>
 >
 > En stel nu dat we een normale dobbelsteen hebben die gemanipuleerd is? Dan zal de kans om een 4 te gooien anders zijn. Een goede manier om dan de kans te bepalen is met behulp van de **Frequentist** formule: 
 ><br>
-> $${\displaystyle P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}}.$$
+> $$P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}$$<br>
 >
 
 
 De algemene formule voor de **Frequentist definitie** van kans is: <br><br>
-$${\displaystyle P(\text{uitkomst A}) = \lim_{n \to \infty} \frac{\text{uitkomst A}}{n}}.$$<br><br>
+$$P(\text{uitkomst A}) = \lim_{n \to \infty} \frac{\text{uitkomst A}}{n}.$$<br><br>
+
+
 Waarbij we $$n$$ metingen hebben verricht. 
 
 De Frequentist definitie voor kans is een goede manier om kansen te berekenen. Het kent echter twee grote beperkingen. De eerste is dat we eigenlijk nooit een oneindig aantal metingen kunnen doen. Dit is goed te benaderen door gewoon een heel groot aantal metingen te doen. De tweede beperking is dat niet alle experimenten herhaalbaar zijn. 
 
 
 ### Frequentist versus Bayesiaanse methode
-Het zal je daarom niet verbazen dat er nog een andere methode bestaat die beter werkt voor experimenten die niet herhaalbaar zijn of een beperkte statistiek hebben. Deze manier noemen we ook wel de Bayesiaanse (spreek uit: Beej-sie-jaanse) methode (engels: Bayesian). 
+Het zal je dan misschien niet verbazen dat er nog een andere methode bestaat die wel werkt voor experimenten die niet herhaalbaar zijn of een beperkte statistiek hebben. Deze manier noemen we ook wel de Bayesiaanse (spreek uit: Beej-sie-jaanse) methode (engels: Bayesian). 
 
 De frequentist methode wordt in het algemeen als objectieve methode gezien en de Bayesiaanse methode een subjectieve manier. Het geeft aan wat je denkt dat de waarschijnlijkheid is. Dat klinkt misschien niet erg wetenschappelijk maar in de praktijk is dit misschien wel de meest gebruikte methode. Vooral omdat je hem ook kan gebruiken als het experiment niet herhaalbaar is. De bayesiaanse methode zegt eigenlijk dat je het nooit helemaal zeker kunt stellen wat een kans is. Dat voelt
 misschien wat gek, maar het enige wat het zegt is dat ook bij een berekende kanswaarde
@@ -81,15 +83,17 @@ Wat in elk geval belangrijk is, is om altijd heel precies te vermelden wat de vo
 
 Er zijn een paar basisregels waar kansen aan voldoen. 
 
-1. **Behoud van kans** : Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekent dat: <br>
-$$ P(A) + P(\text{niet A}) = 1.$$<br>
+1. <a name =BehoudKans>**Behoud van kans:**</a> Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekent dat: <br>
+$$ P(A) + P(\text{niet A}) = 1$$<br>
+
+2. **Complementregel:** <a name="ComplementRegel"></a>
 Een direct gevolg hiervan is dat $$P(\text{niet A})$$ het complement is van $$P(A)$$ ofwel:<br>
-2. **Complementregel:** $$ P(\text{niet A}) = 1 - P(A) .$$<br>
-Dit wordt ook wel de **complementregel** genoemd.<br>
-2. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> 
+$$ P(\text{niet A}) = 1 - P(A) .$$<br>
+3. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> 
 $$0 < P(B) \leq 1.$$<br>
 Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
-3. **Of Regel**: De *of* regel**: Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan kan $$B$$ nooit plaats vinden, dan geldt:<br>
+3. <a name="OfRegel"></a> **De of Regel**:
+Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan kan $$B$$ nooit plaats vinden, dan geldt:<br>
 $$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B).$$<br>
 We mogen in dit geval de kansen dus optellen.
 4. <a name="EnRegel"></a> **De *en* regel**: Als de uitkomsten $$A$$ en $$B$$ onafhankelijk zijn, dus als je $$A$$ een uitkomst is dan zegt dat niets over de kans op $$B$$, dan geldt: <br>
