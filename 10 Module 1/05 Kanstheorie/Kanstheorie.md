@@ -42,6 +42,7 @@ Voor een normale dobbelsteen kunnen we deze kans uitrekenen met behulp van de vo
 >
 > En stel nu dat we een normale dobbelsteen hebben die gemanipuleerd is? Dan zal de kans om een 4 te gooien anders zijn. Een goede manier om dan de kans te bepalen is met behulp van de **Frequentist** formule: 
 ><br>
+><br>
 > $$P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}$$<br>
 >
 
@@ -102,10 +103,12 @@ $$P(A\text{ en }B) = P(A) \cdot P(B).$$<br>
 
 We gaan voor elk van deze regels een voorbeeld geven. We kijken hiervoor naar een kaartendek.
 De uitkomstenverzameling van een kaartendek is: <br><br>
-{<span style="color:red">1♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,H♥,D♥,K♥,A♥,1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,</span><br>1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,A♠,1♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,H♣,D♣,K♣,A♣}<br><br>
+{<span style="color:red">1♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,H♥,D♥,K♥,<br>
+A♥,1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,</span><br>1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,<br>
+A♠,1♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,H♣,D♣,K♣,A♣}<br><br>
 Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. We trekken in de volgende voorbeelden steeds 1 kaart.
 
-> **Voorbeeld 1 - behoud van kans:** <br>
+> **Voorbeeld 1 - behoud van kans/complement regel:** <br>
 * De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
 * De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een rode kaart te trekken (1-1/2 = 1/2).
 
@@ -125,8 +128,12 @@ Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rod
 
 ## Stochastische variabelen en verdelingsfuncties
 
+We gaan nu kijken naar kansverdelingen. In het voorbeeld van de simpele dobbelsteen zou je kunnen kijken hoe de kansen verdeeld zijn over de verschillende uitkomsten. Voor een normale dobbelsteen is dit misschien een beetje saai, voor elke uitkomst verwacht je een andere waarde. Voor de speciale dobbelsteen die we eerder beschreven ziet het er al wat interessanter uit. 
+
+Om wat over kansverdelingen te kunnen schrijven moeten we eerst weten wat stochasten zijn. 
+
 ### Wat is een stochast?
-Een **stochast** is een variable waarvan de waarde van een kansproces afhangt. Bijvoorbeeld de uitkomst van het trekken van een kaart, dan is het getrokken kaart (de uitkomst van de trekking) een stochast. Je weet van te voren niet welke kaart je gaat trekken en daarom is de uitkomst *stochastisch*.
+Een **stochast** is een variabele waarvan de waarde van een kansproces afhangt. Bijvoorbeeld de uitkomst van het trekken van een kaart, dan is het getrokken kaart (de uitkomst van de trekking) een stochast. Je weet van te voren niet welke kaart je gaat trekken en daarom is de uitkomst *stochastisch*.
 Of als je een met een dobbelsteen gooit dan is de uitkomst van de worp een stochast. Het engelse woord (random variable) is misschien bekender. 
 
 ### Kansdichtheidsfuncties
@@ -146,7 +153,7 @@ Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de
 ### Verwachtingswaarde en standaard deviatie
 Voor **discrete** verdelingen gelden de volgende vergelijkingen:
 
-* de verwachtingswaarde: $${\displaystyle <{x}> = E(x) = { \sum_i x_i P(x_i) } },$$<br>
+* de verwachtingswaarde: $$ <{x}> = E(x) = { \sum_i x_i P(x_i) } ,$$<br>
 * de standaard deviatie: $${\displaystyle \sigma^2 = \sum_i (x_i - <{x}>)^2 P(x_i)}.$$<br>
 
 Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br>
