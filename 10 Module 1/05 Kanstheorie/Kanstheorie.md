@@ -153,19 +153,18 @@ Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de
 ### Verwachtingswaarde en standaard deviatie
 Voor **discrete** verdelingen gelden de volgende vergelijkingen:
 
-* de verwachtingswaarde: $$ <{x}> = E(x) = { \sum_i x_i P(x_i) } ,$$<br>
-* de standaard deviatie: $$\sigma^2 = \sum_i (x_i - <{x}>)^2 P(x_i).$$<br>
+* de verwachtingswaarde: $$ \mu = E(x) = { \sum_i x_i P(x_i) } ,$$<br>
+* de standaard deviatie: $$\sigma^2 = \sum_i (x_i - E(x))^2 P(x_i).$$<br>
 
 Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br>
 
-* de verwachtingswaarde: $$<{x}> = E(x) =  \int^\infty_{-\infty} x f(x) dx,$$<br>
-* de standaard deviatie: $$\sigma^2 = <{x^2}> - <{x}>^2 = \int^{\infty}_{-\infty} (x - <{x}>)^2 f(x) dx .$$
+* de verwachtingswaarde: $$\mu = E(x) =  \int^\infty_{-\infty} x f(x) dx,$$<br>
+* de standaard deviatie: $$\sigma^2 = E(x^2) - E(x)^2 = \int^{\infty}_{-\infty} (x - E(x))^2 f(x) dx .$$
 
 
 
-**NB** Er zijn verschillende schrijfwijze voor het gemiddelde $$\mu, <{x}>$$ en $$E(x)$$. Het symbool $$\mu$$ is meestal voorbehouden aan het gemiddelde van de populatie, dat wil zeggen het *echte* gemiddelde. Het gemiddelde van de steekproef is $$<{x}>$$, je hoopt dus dat die dicht bij het populatie gemiddelde $$\mu$$ ligt. De verwachtingswaarde $$E(x)$$ is de waarde die je verwacht te gaan meten. Deze kan je met simulaties benaderen. De verschillen worden pas echt duidelijk als je er al een tijdje mee werkt. We zullen het niet fout rekenen als je een vergissing maakt in de notatie, maar we proberen het hier wel netjes op te schrijven. 
-In deze vergelijkingen is het in elk geval ook gewoon handiger om $$E(x)$$ of $$<{x}> $$ te schrijven.  $$E(x)^2$$ is, net als $$<{x}>^2$$, het kwadraat van de verwachtingswaarde van $$x$$. $$E(x^2)$$ is, net als 
-$$<{x^2}>$$ de verwachtingswaarde van $$x^2$$. 
+**NB** Herinner je nog het verschil tussen parameters (voor de kenmerken van een populatie) en statistieken (voor de kenmerken van een steekproef). Afhankelijk van wat we beschrijven zijn verschillende schrijfwijze voor het gemiddelde $$\mu, <{x}>$$ en $$E(x)$$. Het symbool $$\mu$$ is meestal voorbehouden aan het gemiddelde van de populatie, dat wil zeggen het *echte* gemiddelde. Het gemiddelde van de steekproef is $$<{x}>$$, je hoopt dus dat die dicht bij het populatie gemiddelde $$\mu$$ ligt. De verwachtingswaarde $$E(x)$$ is de waarde die je verwacht te gaan meten. Deze kan je met simulaties benaderen. De verschillen worden pas echt duidelijk als je er al een tijdje mee werkt. We zullen het niet fout rekenen als je een vergissing maakt in de notatie, maar we proberen het hier wel netjes op te schrijven. 
+In deze vergelijkingen is het in elk geval ook gewoon handiger om $$E(x)$$ of $$<{x}> $$ te schrijven.  $$E(x)^2$$ is, net als $$<{x}>^2$$, het kwadraat van de verwachtingswaarde van $$x$$. $$E(x^2)$$ is, net als $$<{x^2}>$$ de verwachtingswaarde van $$x^2$$. De kansdichtheidsverdeling.
 
 
 ## Bekende kansdichtheidsfuncties
@@ -204,7 +203,7 @@ De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$
 
 ### Binomiaal
 <a name="Binomiaal"></a>
-Om de binomiale verdelingsfunctie uit te leggen beginnen we eerst met het Bernoulli-experiment. Dit is een experiment met maar twee uitkomsten, 'succes' en 'mislukking'. De kans op succes is $$p$$ en de kans op mislukking $$q$$ is dus $$q=1-p$$. 
+Om de binomiale verdelingsfunctie uit te leggen beginnen we eerst met het Bernoulli-experiment. Dit is een experiment met maar twee uitkomsten, 'succes' en 'mislukking'. De kans op succes is $$p$$ en de kans op mislukking $$q$$, dan is dus $$q=1-p$$. 
 
 Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de kans op een totaal aantal malen succes uit deze $$n$$ experiment gedefinieerd als $$k$$. Dit wordt beschreven door de binomiale verdeling: <br>
 <center>$${\displaystyle P(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } .$$</center>
@@ -212,18 +211,20 @@ Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de k
 Het gemiddelde en de standaard deviatie van de Binomiale verdeling zijn: <br>
 $$E(k) = np$$ en $$\sigma = \sqrt{npq}$$.
 
-> **Voorbeeld** Stel dat we een oneindige grote verzameling knikkers hebben waarvan  30% gele knikkers, alle andere knikkers zijn rood gekleurd. Als we een enkele knikker trekken hebben we dus precies 30% kans ($$p=0.3$$) dat dit een gele knikker is. Als we twee knikkers trekken hebben we een kans van $$0.3\cdot 0.3 = 0.09$$ dat we twee gele knikkers hebben getrokken. Immers, omdat de verzameling oneindig groot is, heeft de eerste trekking geen invloed op de tweede trekking en zijn de twee trekkingen onafhankelijk. We mogen dus de <a href="#EnRegel">'en'-regel</a> gebruiken. 
-We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat we minstens 1 rode knikker hebben, hier gebruiken we de <a href="#ComplementRegel">complement regel</a>. De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. <br>
-We kunnen deze getallen ook met de Binomiaal vergelijking uitrekenen:<br>
+> **Voorbeeld** Stel dat we een oneindige grote verzameling knikkers hebben waarvan  30% gele knikkers, alle andere knikkers zijn rood gekleurd. Als we een enkele knikker trekken hebben we dus precies 30% kans ($$p=0.3$$) dat dit een gele knikker is. <br>
+> Als we twee knikkers trekken hebben we een kans van $$0.3\cdot 0.3 = 0.09$$ dat we precies twee gele knikkers hebben getrokken. Immers, omdat de verzameling oneindig groot is, heeft de eerste trekking geen invloed op de tweede trekking en zijn de twee trekkingen onafhankelijk. We mogen dus de <a href="#EnRegel">'en'-regel</a> gebruiken. <br>
+We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat we minstens 1 rode knikker hebben, hier gebruiken we de <a href="#ComplementRegel">complement regel</a>. 
+<br> De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. <br>
+<br> We kunnen deze kansen ook met de Binomiaal vergelijking uitrekenen:<br>
 2 trekkingen, 0 gele knikkers: $$P(k;n,p) = p(0;2,0.3) = \frac{2!}{(0! \cdot 2!)} 0.3^0 \cdot 0.7^2 =  0.49 $$<br>
 2 trekkingen, 1 gele knikkers: $$P(k;n,p) = p(1;2,0.3) = \frac{2!}{1!\cdot 1!} 0.3^1 \cdot 0.7^1 = 0.42 $$<br>
 2 trekkingen, 2 gele knikkers: $$P(k;n,p) = p(2;2,0.3) = \frac{2!}{2! \cdot 0!} 0.3^2 \cdot 0.7^0 = 0.09$$<br><br>
-Deze kansen staan ook uitgerukt in de gele lijn in het plaatje hieronder.
+Deze kansen staan ook uitgedrukt in de gele lijn in het plaatje hieronder.
 
 
-De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet toepassen op fractionele waardes. Dat is ook logisch want het Bernoulli experiment kunnen we niet een fractioneel aantal keer uitvoeren. De functie is asymmetrisch voor lage waardes van $$n$$ en wordt voor grotere waardes van $$n$$ steeds meer symmetrisch.
+De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet toepassen op fractionele waardes. Dat is ook logisch want het Bernoulli experiment kunnen we niet een fractioneel aantal keer uitvoeren. De kansverdeling is asymmetrisch voor lage waardes van $$n$$ en wordt voor grotere waardes van $$n$$ steeds meer symmetrisch.
 
-Hieronder zie je een aantal verdelingen voor de Binomiaal distributie.
+Hieronder zie je een aantal verdelingen voor de Binomiaal.
 
 ![](BinomiaalDistributie.png){:width="80%"}
 
