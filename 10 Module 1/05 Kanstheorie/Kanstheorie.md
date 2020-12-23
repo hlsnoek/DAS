@@ -4,10 +4,27 @@
 1. Ordered TOC
 {:toc}
 
+In dit hoofdstuk leren we over kanstheorie en kansdichtheidsfuncties. Kanstheorie
+speelt een belangrijke rol in het begrijpen en bepalen van meetonzekerheden. 
+Zoals in het hoofdstuk over [meetonzekerheden](/module-1/meetonzekerheid) is uitgelegd kunnen meetonzekerheden verschillende oorzaken hebben. Bij elk van die oorzaken hoort een bepaalde waarschijnlijkheidsverdeling en deze zijn verbonden aan kansprocessen. 
+
+Vaak willen we metingen gebruiken om voorspellingen te doen of hypotheses te toetsen. Als we
+een serie meetgegevens hiervoor willen gebruiken, dan is het belangrijk om te weten wat de
+meetonzekerheden zijn. Deze kunnen we vervolgens gebruiken om te kijken hoe goed ze passen bij een weerpatroon of hoe goed ze een theorie bevestigen of juist weerleggen. 
+
+Om die stap later te kunnen maken, moeten we eerst meer leren over kanstheorie en kansdichtheidsfuncties. In dit hoofdstuk maken we daar een begin mee. 
+
+          
+
 ## Kanstheorie
 
-Een kans is een getal tussen de $$0$$ en de $$1$$ die aangeeft hoe waarschijnlijk het is dat een bepaalde gebeurtenis zal plaatsvinden.
+Waarschijnlijk is iedereen wel bekend met het concept van kans. We gebruiken het vaak. 
+Wat is de kans dat het regent? Wat is de kans om de loterij te winnen? 
+
+In de wiskunde is een kans gedefinieerd als een getal tussen de $$0$$ en de $$1$$ dat aangeeft hoe waarschijnlijk het is dat een bepaalde gebeurtenis zal plaatsvinden.
 Een kans van $$1$$ zegt dat het **zeker** zal gebeuren en een kans van $$0$$ dat het **zeker niet** zal gebeuren. Een kans van $$0.5$$ geeft aan dat in $$50\%$$ van de gevallen de gebeurtenis zal plaatsvinden.
+
+
 
 > <span class="badge badge-warning">Voorbeeld</span> We kijken naar een dobbelsteen. 
 Wat is de kans dat je een $$4$$ gooit als je de dobbelsteen 1 keer gooit? 
@@ -17,7 +34,7 @@ Voor een normale dobbelsteen kunnen deze kans uitrekenen met behulp van de volge
 ><br>
 > Dit is de kans voor een normale eerlijke dobbelsteen. Met eerlijk bedoelen we hier dat de dobbelsteen niet gemanipuleerd is en dat elk vlak van de dobbelsteen evenveel kans heeft om boven te eindigen. 
 ><br><br>
-> Stel nu dat we een speciale eerlijke dobbelsteen zouden hebben met de volgende vlakken: {1,2,2,3,4,4}. De mogelijke uitkomsten bij een dobbelsteenworp zijn nu: {1,2,3,4}. Dit noemen we ook de **uitkomstenverzameling** waarbij alle elementen uniek zijn, en dus maar 1 keer voorkomt. De kans om nu een 4 te gooien is groter dan met een normale eerlijke dobbelsteen, namelijk: 
+> Stel nu dat we een speciale, waar wel eerlijke, dobbelsteen zouden hebben met de volgende vlakken: {1,2,2,3,4,4}. De mogelijke uitkomsten bij een dobbelsteenworp zijn nu: {1,2,3,4}. Dit noemen we ook de **uitkomstenverzameling** waarbij alle elementen uniek zijn, en dus maar 1 keer voorkomt. De kans om nu een 4 te gooien is groter dan met een normale eerlijke dobbelsteen, namelijk: 
 ><br>
 ><br>
 > $${\displaystyle P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{Totale aantal uitkomsten}} = \frac{2}{6}}.$$ <br>
@@ -36,9 +53,12 @@ De Frequentist definitie voor kans is een goede manier om kansen te berekenen. H
 
 
 ### Frequentist versus Bayesiaanse methode
-Het zal je daarom niet verbazen dat er nog een andere methode bestaat die wel werkt voor experimenten die niet herhaalbaar zijn of een beperkte statistiek. Deze manier noemen we ook wel de Bayesiaanse (spreek uit: Beej-sie-jaanse) methode (engels: Bayesian). 
+Het zal je daarom niet verbazen dat er nog een andere methode bestaat die beter werkt voor experimenten die niet herhaalbaar zijn of een beperkte statistiek hebben. Deze manier noemen we ook wel de Bayesiaanse (spreek uit: Beej-sie-jaanse) methode (engels: Bayesian). 
 
-De frequentist methode wordt in het algemeen als objectieve methode gezien en de Bayesiaanse methode een subjectieve manier. Het geeft aan wat je denkt dat de waarschijnlijkheid is. Dat klinkt misschien niet erg wetenschappelijk maar in de praktijk is dit misschien wel de meest gebruikte methode. Vooral omdat je hem ook kan gebruiken als het experiment niet herhaalbaar is. 
+De frequentist methode wordt in het algemeen als objectieve methode gezien en de Bayesiaanse methode een subjectieve manier. Het geeft aan wat je denkt dat de waarschijnlijkheid is. Dat klinkt misschien niet erg wetenschappelijk maar in de praktijk is dit misschien wel de meest gebruikte methode. Vooral omdat je hem ook kan gebruiken als het experiment niet herhaalbaar is. De bayesiaanse methode zegt eigenlijk dat je het nooit helemaal zeker kunt stellen wat een kans is. Dat voelt
+misschien wat gek, maar het enige wat het zegt is dat ook bij een berekende kanswaarde
+er een mate van onzekerheid is. Ook daar is er sprake van een 'meetonzekerheid'.
+
 
 > <span class="badge badge-warning">Een voorbeeld</span> In een wielerronde staat een bergklassieker op het programma van vandaag. De wedstrijd is nog niet gestart. Er staan twee sterke renners,  Verstappen en Onana, op de gedeelde eerste plaats van het klassement en de voorsprong met de derde wielrenner is meer dan 20 minuten. Het lijkt dus waarschijnlijk dat aan het einde van de dag Verstappen of Onana op de eerste plaats in het klassement zal staan. Op bergetappes wint Onana 9 van de 10 keer met een flinke voorsprong van Verstappen. Wie denk je dat er vandaag wint? <br><br>
 >
@@ -50,8 +70,11 @@ Hoe waarschijnlijk denk je nu dat het is dat Onana zal winnen?
 ><br><br> 
 > Het lijkt nu toch een stuk minder waarschijnlijk dat Onana zal winnen. Misschien schat je nu de kansen lager in dan de 0.9 waarmee je begon. Misschien heb je zelfs wel informatie uit het verleden waaruit je weet hoeveel langzamer renners zijn als ze er zo ziek uitzien als Onana. Wat voor impact dat heeft op hun performance. Dan zouden we ons kans van 0.9 kunnen 'updaten' met de nieuwe informatie. Dat is typisch een Bayesiaanse methode om kansen uit te rekenen.
 
-Beide methodes worden dus gebruikt, maar de Bayesiaanse methode, of zelfs een hybride methode vindt vooral zijn toepassing in heel complexe modellen en voorspellingen. In dit college zullen we vooral werken met de frequentist methode.
-Wat in elk geval belangrijk is, is om altijd heel precies te vermelden wat de voorwaardes zijn geweest waaronder de kans is uitgerekend. 
+Beide methodes worden dus gebruikt, maar de Bayesiaanse methode, of zelfs een hybride methode vindt vooral zijn toepassing in heel complexe modellen en voorspellingen. In dit vak zullen we echter vooral werken met de frequentist methode.
+Wat in elk geval belangrijk is, is om altijd heel precies te vermelden wat de voorwaardes zijn geweest waaronder de kans is uitgerekend. Ook bij de frequentist methode!
+
+
+
 
 ### Rekenen met kansen
 
