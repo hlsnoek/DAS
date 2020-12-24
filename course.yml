@@ -2,6 +2,10 @@ long_name: Data Analyse en Statistiek
 short_name: DAS
 language: nl
 
+acknowledgements:
+ - Hella Snoek
+
+
 links:
 #    '[book] Canvas': https://canvas.uva.nl/
 
