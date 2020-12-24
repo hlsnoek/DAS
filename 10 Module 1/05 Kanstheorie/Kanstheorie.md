@@ -15,7 +15,7 @@ Om die stap later te kunnen maken, moeten we eerst meer leren over kanstheorie e
 
           
 
-## Kanstheorie
+## Definitie van Kans
 
 Waarschijnlijk is iedereen wel bekend met het concept van kans. We gebruiken het vaak. 
 Wat is de kans dat het regent? Wat is de kans om de loterij te winnen? 
@@ -79,7 +79,7 @@ Wat in elk geval belangrijk is, is om altijd heel precies te vermelden wat de vo
 
 
 
-### Rekenen met kansen
+## Rekenen met kansen
 
 Er zijn een paar basisregels waar kansen aan voldoen. 
 

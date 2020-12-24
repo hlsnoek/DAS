@@ -1,8 +1,5 @@
 
-*****
-<a name="B1a.A"></a>
-
-## Opdracht B1a.A - Mooi Plotten *
+## Opdracht M1.A - Mooi Plotten *
 
 We gaan in deze opdracht een histogram maken van een gegeven dataset. <br>
 Je krijgt hiervoor een python programmaatje dat je moet aanpassen. <br>
@@ -11,11 +8,11 @@ Zo niet zie dan [hier](/informatie/installatie) de instructies.<br>
 
 
 >Installeer de volgende twee bestanden naar een werkfolder op je computer:<br>
- [B1a.A_MooiPlotten.py](B1a.A_MooiPlotten.py)
+ [M1.A_MooiPlotten.py](M1.A_MooiPlotten.py)
  en [DAS_DatasetGenerator.py](DAS_DatasetGenerator.py).
  Open de bestanden in het VSCode programma.
 
-In het *B1a.A_MooiPlotten.py* wordt eerst een dataset aangemaakt met de volgende regel:
+In het *M1.A_MooiPlotten.py* wordt eerst een dataset aangemaakt met de volgende regel:
 
 	x = ds.DataSetMooiPlotten()
 
@@ -26,13 +23,13 @@ Helemaal boven in de code vind je de regel:
 en zo weet je dat *DataSetMooiPlotten()* een functie is die in *DAS_DatasetGenerator.py* is gedefinieerd.
 Om dit bestand te kunnen runnen moet je eerst je studentnummer invoeren in dit bestand.
 
-> Open *DAS_DatasetGenerator.py*, vind de student_nummer variabele en  voer hier je studentnummer in. Nu kun je het bestand *B1a.A_MooiPlotten.py* runnen. Kijk goed naar je output.
+> Open *DAS_DatasetGenerator.py*, vind de student_nummer variabele en  voer hier je studentnummer in. Nu kun je het bestand *M1.A_MooiPlotten.py* runnen. Kijk goed naar je output.
 
-Je hebt nu je eerste histogram gemaakt van jouw eigen dataset *x*. Een histogram is een manier om data te presenteren. Er bestaan 1-dimensionale, 2- en 3- dimensionale histogrammen. Lees [hier](/blok-1/data-visualiseren) meer over histogrammen. 
+Je hebt nu je eerste histogram gemaakt van jouw eigen dataset *x*. Een histogram is een manier om data te presenteren. Er bestaan 1-dimensionale, 2- en 3- dimensionale histogrammen. Lees [hier](/module-1/data-visualiseren) meer over histogrammen. 
 
 We gaan nu het histogram zo maken dat de dataset *x* ook goed 'leesbaar' is. Vooralsnog is van het histogram niet heel duidelijk hoe de distributie van *x* eruit ziet. De bedoeling is dat als we naar het histogram kijken, we meteen een goed idee krijgen van de distributie van *x*. 
 
-De volgende regel code vind je in *B1a.A_MooiPlotten.py*:
+De volgende regel code vind je in *M1.A_MooiPlotten.py*:
 
 	plt.hist(x, bins=31, range=(-100,100))
 
@@ -63,11 +60,9 @@ Als je een goede binning en range combinatie hebt gevonden waarin de kenmerken v
 
 Als je tevreden bent met het resultaat kun je het histogram opslaan door de laatste regel code te activeren: 
 
-	plt.savefig('B1a.A_MooiPlotten.png')   
+	plt.savefig('M1.A_MooiPlotten.png')   
 
 Je resultaten moet je inleveren via ANS en worden beoordeeld. Kijk [hier](/informatie/inleveropdrachten) voor de deadlines van de inleveropdrachten. 
-Download hier een inlevertemplate voor de opdrachten in blok 1a: 
-[InlevertemplateBlok1a.docx](InlevertemplateBlok1a.docx)
 
 > Kopieer nu je **histogram** en je **code** in het document. <br>
 Is je iets opgevallen aan de distributie? - Schrijf dit dan ook op.

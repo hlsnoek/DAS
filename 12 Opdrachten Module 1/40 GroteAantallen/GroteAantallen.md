@@ -1,7 +1,4 @@
-*****
-<a name="B1a.D"></a>
-
-## Opdracht B1a.D - Grote Aantallen ****
+## Opdracht M1.D - Grote Aantallen \*\*\*
 
 
 We hebben een enorme ton kogeltjes en we willen weten hoe zwaar een enkele kogel uit de ton is. De kogels zijn, door variaties in het productieproces, echter niet allemaal precies even zwaar. Het gewicht van de kogels zijn **normaal** ofwel **Gaussisch** verdeeld. We willen graag weten wat het ***typische*** gewicht is van een kogel uit deze ton. 
@@ -20,19 +17,19 @@ De wet van de grote aantallen zegt dat als we een verdeling hebben van random (s
 
 We gaan dit nu simuleren om een gevoel te krijgen hoe de wet van grote aantallen werkt. <br>
 
-> Download het volgende bestand in je werkfolder op de computer: [B1a.D_GroteAantallen.py](B1a.D_GroteAantallen.py).
-Zorg dat dit bestand in dezelfde folder staat als de DAS_DatasetGenerator.py file die je in opgave B1a.A al hebt gebruikt.
+> Download het volgende bestand in je werkfolder op de computer: [M1.D_GroteAantallen.py](M1.D_GroteAantallen.py).
+Zorg dat dit bestand in dezelfde folder staat als de DAS_DatasetGenerator.py file die je in opgave M1.A al hebt gebruikt.
 
 
-In B1a.D_GroteAantallen.py bestand zie je eerst een aantal functies (*berekenGemiddelde()*, *maakSetGemiddelde()*) die gaan we **later pas** gebruiken. <br>
+In M1.D_GroteAantallen.py bestand zie je eerst een aantal functies (*berekenGemiddelde()*, *maakSetGemiddelde()*) die gaan we **later pas** gebruiken. <br>
 Eerst kijken we naar de regel
 
 	set_gauss = ds.DataSetGroteAantallen() 
 	
 Hier wordt de dataset met de **gemeten kogel gewichten (in grammen)** aangemaakt waarbij de elementen dus een normaal verdeling volgen. We gaan eerst kijken naar de gehele dataset.
 
-> * Laat zien dat de waardes in de dataset een Normaal verdeling volgen. Doe dit door de waardes te plotten in een *histogram*. Zorg dat het histogram er netjes uitziet en dat je de as-labels ook aanmaakt. Kijk eventueel naar de code van opgave B1a.A om te zien hoe je dat moet doen.
-> * Reken het gemiddelde, $$\mu$$, en de standaard deviatie, $$\sigma$$, uit van de gehele set metingen. Programmeer dit zelf uit (en maak dus geen gebruik van functies in python libraries die dit voor je kunnen doen). Je kan je functie uit opdracht B1a.C natuurlijk weer opnieuw gebruiken.
+> * Laat zien dat de waardes in de dataset een Normaal verdeling volgen. Doe dit door de waardes te plotten in een *histogram*. Zorg dat het histogram er netjes uitziet en dat je de as-labels ook aanmaakt. Kijk eventueel naar de code van opgave M1.A om te zien hoe je dat moet doen.
+> * Reken het gemiddelde, $$\mu$$, en de standaard deviatie, $$\sigma$$, uit van de gehele set metingen. Programmeer dit zelf uit (en maak dus geen gebruik van functies in python libraries die dit voor je kunnen doen). Je kan je functie uit opdracht M1.C natuurlijk weer opnieuw gebruiken.
 
 
 We gaan nu simuleren dat we steeds meer datapunten hebben in onze dataset. We willen weten wat het gevonden kogel gewicht is na $1, 2, 3 ... n$ metingen. Hoe verandert het gevonden gemiddelde van de dataset als we nog een extra kogel gewicht eraan toevoegen?
