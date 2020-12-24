@@ -1,7 +1,17 @@
-Welkom:
- studiewijzer: /informatie/studiewijzer
- python: /informatie/installatie
+Informatie:
+ Lees eerst even de studiewijzer door: /syllabus
+ Installeer de juiste pakketten: /informatie/installatie
+ Over de inleveropdrachten: /informatie/inleveropdrachten
+ Over de tussentoetsen: /informatie/tussentoetsen
 
 Module 1:
- Even een test: /module-1/kanstheorie
+  Introductie: /module-1/introductie
+ Theorie:
+  /module-1/basisbegrippen
+  /module-1/notatie
+  /module-1/data-visualiseren
+  /module-1/meetonzekerheid
+  /module-1/kanstheorie
+ Opdrachten:  
+
 
