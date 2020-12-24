@@ -1,6 +1,7 @@
-## Werkcollege opdrachten 
+## Inleveropdrachten 
 Tijdens de laptopcolleges werken we aan verschillende opdrachten. Hieronder vind je een overzicht van wanneer er aan welke module wordt  en wanneer deze moet worden ingeleverd.
 
+De inleveropdrachten tellen voor 80% mee voor je eindcijfer. Je moet een gemiddelde van een 5.5 halen voor de inlevertoetsen om het vak te halen.
 
 
 |     | Module 1 | Module 2 | Module 3 | Module 4 |

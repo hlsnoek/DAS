@@ -1,6 +1,6 @@
-# Studiewijzer<br>
+# Studiewijzer
 
-*Data Analyse en Statistiek, Januari 2021*
+###*Data Analyse en Statistiek, Januari 2021*
 
 1. Ordered TOC
 {:toc}
