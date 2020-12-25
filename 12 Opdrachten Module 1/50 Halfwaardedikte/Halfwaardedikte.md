@@ -1,4 +1,4 @@
-## Opdracht M1.A - Halfwaardedikte I *
+## Opdracht M1.E - Halfwaardedikte I *
 
 
 We voeren een experiment uit waarbij de halfwaardedikte van lood wordt bepaald bij een bepaalde gamma-bron. De bron produceert gamma straling met een onbekende, maar stabiele energie. De halfwaardedikte is precies de energie die je nodig hebt om de intensiteit van de bron te halveren. Dit is belangrijk om te weten als je bijvoorbeeld ziekenhuispersoneel wil beschermen tegen straling die bij het maken van een röntgenfoto vrijkomt.

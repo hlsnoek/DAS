@@ -7,7 +7,7 @@ In dit hoofdstuk leren we over kanstheorie en kansdichtheidsfuncties. Kanstheori
 speelt een belangrijke rol in het begrijpen en bepalen van meetonzekerheden. 
 Zoals in het hoofdstuk over [meetonzekerheden](/module-1/meetonzekerheid) is uitgelegd kunnen meetonzekerheden verschillende oorzaken hebben. Bij elk van die oorzaken hoort een bepaalde waarschijnlijkheidsverdeling en deze zijn verbonden aan kansprocessen. 
 
-> Vaak willen we metingen gebruiken om voorspellingen te doen of hypotheses te toetsen. Als we
+Vaak willen we metingen gebruiken om voorspellingen te doen of hypotheses te toetsen. Als we
 een serie meetgegevens hiervoor willen gebruiken, dan is het belangrijk om te weten wat de
 meetonzekerheden zijn. Deze kunnen we vervolgens gebruiken om te kijken hoe goed ze passen bij een weerpatroon of hoe goed ze een theorie bevestigen of juist weerleggen. 
 
@@ -31,19 +31,22 @@ Voor een normale dobbelsteen kunnen we deze kans uitrekenen met behulp van de vo
 ><br>
 > $$ P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totaal aantal uitkomsten}} = \frac{1}{6}$$ <br>
 ><br>
-> Dit is de kans voor een normale eerlijke dobbelsteen. Met eerlijk bedoelen we hier dat de dobbelsteen niet gemanipuleerd is en dat elk vlak van de dobbelsteen evenveel kans heeft om boven te eindigen. 
-><br><br>
-> Stel nu dat we een speciale, waar wel eerlijke, dobbelsteen zouden hebben met de volgende vlakken: {1,2,2,3,4,4}. De mogelijke uitkomsten bij een dobbelsteenworp zijn nu: {1,2,3,4}. Dit noemen we ook de **uitkomstenverzameling** waarbij alle elementen uniek zijn, en dus maar 1 keer voorkomt. De kans om nu een 4 te gooien is groter dan met een normale eerlijke dobbelsteen, namelijk: 
-><br>
-><br>
+
+Dit is de kans voor een normale eerlijke dobbelsteen. Met eerlijk bedoelen we hier dat de dobbelsteen niet gemanipuleerd is en dat elk vlak van de dobbelsteen evenveel kans heeft om boven te eindigen. 
+
+Stel nu dat we een speciale, waar wel eerlijke, dobbelsteen zouden hebben met de volgende vlakken: {1,2,2,3,4,4}. De mogelijke uitkomsten bij een dobbelsteenworp zijn nu: {1,2,3,4}. Dit noemen we ook de **uitkomstenverzameling** waarbij alle elementen uniek zijn, en dus maar 1 keer voorkomt. 
+
+De kans om nu een 4 te gooien is groter dan met een normale eerlijke dobbelsteen, namelijk. 
+
+> **Voorbeeld** Als we de kans nu berekenen voor de speciale dobbelsteen met vlakken {1,2,2,3,4,4} dan is de kans om vier te gooien: 
+> 
 > $$P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totale aantal uitkomsten}} = \frac{2}{6}$$ <br>
-><br>
 >
-> En stel nu dat we een normale dobbelsteen hebben die gemanipuleerd is? Dan zal de kans om een 4 te gooien anders zijn. Een goede manier om dan de kans te bepalen is met behulp van de **Frequentist** formule: 
-><br>
-><br>
-> $$P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}$$<br>
->
+
+En stel nu dat we een normale dobbelsteen hebben die gemanipuleerd is? Dan zal de kans om een 4 te gooien anders zijn. Een goede manier om dan de kans te bepalen is met behulp van de **Frequentist** formule: 
+
+$$P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}$$<br>
+
 
 
 De algemene formule voor de **Frequentist definitie** van kans is: <br><br>
@@ -92,7 +95,7 @@ $$ P(\text{niet A}) = 1 - P(A) .$$<br>
 3. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> 
 $$0 < P(B) \leq 1.$$<br>
 Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
-3. <a name="OfRegel"></a> **De of Regel**:
+3. <a name="OfRegel"></a> **De *of* Regel**:
 Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan kan $$B$$ nooit plaats vinden, dan geldt:<br>
 $$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B).$$<br>
 We mogen in dit geval de kansen dus optellen.
@@ -102,13 +105,14 @@ $$P(A\text{ en }B) = P(A) \cdot P(B).$$<br>
 
 We gaan voor elk van deze regels een voorbeeld geven. We kijken hiervoor naar een kaartendek.
 De uitkomstenverzameling van een kaartendek is: <br><br>
-{<span style="color:red">1♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,H♥,D♥,K♥,<br>
-A♥,1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,</span><br>1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,<br>
-A♠,1♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,H♣,D♣,K♣,A♣}<br><br>
+{<span style="color:red">1♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,H♥,D♥,K♥,A♥,<br>
+1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,</span><br>1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,A♠,<br>
+1♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,H♣,D♣,K♣,A♣}<br><br>
 Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. We trekken in de volgende voorbeelden steeds 1 kaart.
 
 > **Voorbeeld 1 - behoud van kans/complement regel:** <br>
-* De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
+* De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. <br>
+* De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
 * De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een rode kaart te trekken (1-1/2 = 1/2).
 
 > **Voorbeeld 2 - groter dan nul:** <br>

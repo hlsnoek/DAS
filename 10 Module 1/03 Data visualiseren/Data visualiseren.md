@@ -1,4 +1,4 @@
-## Datasets visualiseren
+# Datasets visualiseren
 
 1. Ordered TOC
 {:toc}
@@ -96,7 +96,7 @@ Bij het weergeven van data in een histogram wordt de data gegroepeerd in interva
 
 Bij een staafdiagram kun je de frequentie direct aflezen; voor één categorie lees je op de as af hoe vaak deze voorkomt. Voor een histogram is de frequentie gelijk aan het oppervlakte van de balken, en dus afhankelijk van de bin breedte.
 
-#### Breedte van de bins bij een histogram
+### Breedte van de bins bij een histogram
 
 Voor een histogram is de breedte van de intervallen van belang. Als we te weinig bins kiezen dan worden de intervallen erg groot (/breed) en is er minder te zeggen over het gedrag van de data. Als we te veel bins kiezen dan fluctueert de hoogte van de (smalle) bins onderling erg en is het ook lastiger om de trend in de data goed in te schatten.
 

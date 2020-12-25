@@ -9,13 +9,11 @@ We gaan nu kijken naar kansverdelingen. In het voorbeeld van de simpele dobbelst
 Om wat over kansverdelingen te kunnen schrijven moeten we eerst weten wat stochasten zijn. Daarna introduceren we enkele veelgebruikte kansdichtheidsverdelingen.
 
 
-## Stochastische variabelen en verdelingsfuncties
-
-### Wat is een stochast?
+## Wat is een stochast?
 Een **stochast** is een variabele waarvan de waarde van een kansproces afhangt. Bijvoorbeeld de uitkomst van het trekken van een kaart, dan is het getrokken kaart (de uitkomst van de trekking) een stochast. Je weet van te voren niet welke kaart je gaat trekken en daarom is de uitkomst *stochastisch*.
 Of als je een met een dobbelsteen gooit dan is de uitkomst van de worp een stochast. Het engelse woord (random variable) is misschien bekender. 
 
-### Kansdichtheidsfuncties
+## Kansdichtheidsfuncties
 Stochasten zijn een handig middel bij het beschrijven van experimenten. We gaan hieronder een aantal vaak voorkomende distributies van stochastische variabelen bekijken. De distributies laten zien wat de kans is dat een bepaalde stochastische waarde wordt gevonden. Het is dus een verdeling van kansen. Deze verdelingen noemen we **kansdichtheidsfuncties** (Engels: probability density function of PDF). Een kansdichtheidsfunctie, $$f(x)$$, zegt dat de kans dat een variabele $$x$$ gevonden wordt in een gebied $$[x,x+dx]$$ gelijk is aan $$f(x)dx$$. <br>
 De kans dat we $$x$$ terugvinden in een interval $$[a,b]$$ is gelijk aan: <br>
 $${\displaystyle P(a\leq x \leq b) = \int_a^b f(x) dx}.$$
@@ -29,7 +27,7 @@ Wellicht komt dit allemaal wat abstract over en helpt het om wat concrete voorbe
 
 Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaard deviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](/module-1/basisbegrippen), voor dichtheidsfuncties zien de formules er net iets anders uit dan voor datasets. 
 
-### Verwachtingswaarde en standaard deviatie
+## Verwachtingswaarde en standaard deviatie
 Voor **discrete** verdelingen gelden de volgende vergelijkingen:
 
 * de verwachtingswaarde: $$ \mu = E(x) = { \sum_i x_i P(x_i) } ,$$<br>
@@ -67,17 +65,16 @@ Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdelin
 
 De verwachtingswaarde en de standaard deviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. 
  
-> De **verwachtingswaarde** kunnen we uitrekenen met behulp van de algemene formule:
->
-> $$\begin{aligned}\displaystyle 
-> E(x) & = \int^{\infty}_{-\infty} { x f(x) dx} =  \int^b_a x\cdot \frac{1}{b-a}  dx\\ 
-> & = \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}. \end{aligned}$$ 
->
-> De **standaard deviatie** berekenen we met de formule:
-> 
-> $$\begin{aligned}\displaystyle \sigma^2 &= \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx = \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx \\ &= \frac{1}{12} \cdot \frac{(b-a)^3}{b-a} = \frac{(b-a)^2}{12}. \end{aligned}$$
->
-> Dit geeft de vergelijking voor de standaard deviatie: $$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
+De **verwachtingswaarde** kunnen we uitrekenen met behulp van de algemene formule:
+
+$$\begin{aligned}\displaystyle E(x) & = \int^{\infty}_{-\infty} { x f(x) dx} =  \int^b_a x\cdot \frac{1}{b-a}  dx\\ 
+& = \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}. \end{aligned}$$ 
+
+De **standaard deviatie** berekenen we met de formule:
+ 
+$$\begin{aligned}\displaystyle \sigma^2 &= \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx = \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx \\ &= \frac{1}{12} \cdot \frac{(b-a)^3}{b-a} = \frac{(b-a)^2}{12}. \end{aligned}$$
+
+Dit geeft de vergelijking voor de standaard deviatie: $$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
 
 
 ### Binomiaal

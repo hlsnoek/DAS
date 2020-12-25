@@ -1,4 +1,4 @@
-# Significantie en Wetenschappelijke notatie
+# Het correct noteren van resultaten
 
 1. Ordered TOC
 {:toc}

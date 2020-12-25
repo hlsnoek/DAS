@@ -31,7 +31,7 @@ Vaak maken we hierbij gebruik van histogrammen, grafieken en tabellen. Om een hy
 In deze cursus zullen we vaardigheden gaan leren van data analyse en statistiek. 
 
 Deze week beginnen we met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over hoe we meetresultaten moeten presenteren, het gebruik van de wetenschappelijke [notatie](/module-1/notatie) en hoe we ze kunnen [visualiseren](/module-1/data-visualiseren). We gaan in op het begrip [meetonzekerheid](/module-1/meetonzekerheid).  
-Ook maken we een begin met [kansrekening](/module-1/kanstheorie).
+Ook maken we een begin met [kansrekening](/module-1/kanstheorie) en [kansdichtheidsverdelingen](/module-1/verdelingsfuncties).
 
 Niet elk van deze onderwerpen is even moeilijk. Let goed op dat je genoeg tijd overhoud om de introductie van de kanstheorie te bestuderen.
 
