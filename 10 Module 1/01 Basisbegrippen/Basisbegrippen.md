@@ -184,7 +184,7 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 > De spreidingsbreedte is $$285- -20 = 305$$. <br>
 > Het gemiddelde $$\mu_Y = \frac{1}{7}\cdot (285-20+31+60+12+53+133) = 79.1 $$<br>
 > De standaard deviatie is:
->  $$\sigma_Y^2 = \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 + (31-79.1)^2 + (60-79.1)^2 + \rigth. $$<br> 
+>  $$\sigma_Y^2 = \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 + (31-79.1)^2 + (60-79.1)^2 + \right. $$<br> 
 > $$ \left. (12-79.1)^2 + (53-79.1)^2 + (133-79.1)^2 \right] = 8997.6 $$ geeft $$\sigma_Y = 94.9$$. <br>
 > De variantie $$var_Y$$ = 8997.6.  <br>
 > De variatiecoëfficiënt  $$c_{v} = 1.20$$.
