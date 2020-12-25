@@ -1,6 +1,6 @@
 ## Opdracht M1.B - Kansdichtheid distributies **
 
-We gaan in deze opgave kijken naar kansdichtheid distributies. Lees [hier](/module-1/kanstheorie) meer over kansdichtheid distributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/kanstheorie#Poisson">poisson</a> en <a href="/module-1/kanstheorie#Uniform">uniforme</a> distributies.
+We gaan in deze opgave kijken naar kansdichtheid distributies. Lees [hier](/module-1/verdelingsfuncties) meer over kansdichtheid distributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/verdelingsfuncties#Poisson">poisson</a> en <a href="/module-1/verdelingsfuncties#Uniform">uniforme</a> distributies.
 
 
 ###Poisson distributie
