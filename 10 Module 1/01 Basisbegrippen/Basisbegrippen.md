@@ -194,7 +194,8 @@ Het tweede voorbeeld gaat over een steekproef:
 > De spreidingsbreedte is $$1.90$$m-$$1.61$$ m $$= 39$$ cm. 
 > De mediaan ligt in het midden van de gesorteerde dataset. Dit is 1.79 m. <br>
 > Het gemiddelde $$\bar{L} = 1.77$$ m.<br>
-> De variantie is $$ s^2 = \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 + (1.61-1.77)^2 + 
-(1.84-1.77)^2 + (1.79-1.77)^2 \right] = 0.0100$$ m$$^2$$<br>
+> De variantie is:
+>  $${\displaystyle s^2 = \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 + (1.61-1.77)^2 + 
+(1.84-1.77)^2 + (1.79-1.77)^2 \right] = 0.0100 \text{m}^2$$<br>
 > De standaard deviatie is $$ s = 0.10$$ m. <br>
 > De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$.
