@@ -183,7 +183,9 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 > Om de mediaan te bepalen sorteren we eerste de datapunten van klein naar groot: -20,12,31,53,60,133,285. Het is een even aantal datapunten en de mediaan ligt tussen 53 en 60 in. Dit komt dan uit op 56.5 .<br>
 > De spreidingsbreedte is $$285- -20 = 305$$. <br>
 > Het gemiddelde $$\mu_Y = \frac{1}{7}\cdot (285-20+31+60+12+53+133) = 79.1 $$<br>
-> De standaard deviatie is $$\sigma_Y^2 = \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 + (31-79.1)^2 + (60-79.1)^2 + $$<br> $$(12-79.1)^2 + (53-79.1)^2 + (133-79.1)^2 \right] = 8997.6 $$ geeft $$\sigma_Y = 94.9$$. <br>
+> De standaard deviatie is:
+>  $$\sigma_Y^2 = \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 + (31-79.1)^2 + (60-79.1)^2 + \rigth. $$<br> 
+> $$ \left. (12-79.1)^2 + (53-79.1)^2 + (133-79.1)^2 \right] = 8997.6 $$ geeft $$\sigma_Y = 94.9$$. <br>
 > De variantie $$var_Y$$ = 8997.6.  <br>
 > De variatiecoëfficiënt  $$c_{v} = 1.20$$.
 
@@ -194,8 +196,8 @@ Het tweede voorbeeld gaat over een steekproef:
 > De spreidingsbreedte is $$1.90$$m-$$1.61$$ m $$= 39$$ cm. 
 > De mediaan ligt in het midden van de gesorteerde dataset. Dit is 1.79 m. <br>
 > Het gemiddelde $$\bar{L} = 1.77$$ m.<br>
-> De variantie is:
+> De variantie is:<br>
 >  $$  s^2 = \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 + (1.61-1.77)^2 + \right. $$<br>
-$$\left. (1.84-1.77)^2 + (1.79-1.77)^2 \right] = 0.0100 \text{m}^2 $$<br>
+          $$\left. (1.84-1.77)^2 + (1.79-1.77)^2 \right] = 0.0100 \text{m}^2 $$<br>
 > De standaard deviatie is $$ s = 0.10$$ m. <br>
 > De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$.
