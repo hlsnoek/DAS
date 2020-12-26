@@ -1,4 +1,4 @@
-## M1.B - Kansdichtheid distributies **
+## M1.2 - Kansdichtheid distributies **
 
 We gaan in deze opgave kijken naar kansdichtheid distributies. Lees [hier](/module-1/verdelingsfuncties) meer over kansdichtheid distributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/verdelingsfuncties#Poisson">poisson</a> en <a href="/module-1/verdelingsfuncties#Uniform">uniforme</a> distributies.
 
@@ -7,7 +7,7 @@ We gaan in deze opgave kijken naar kansdichtheid distributies. Lees [hier](/modu
 
 > Reken (met de hand) de volgende poisson kansen uit: $$P(k=1, \lambda=3)$$, $$P(k=2, \lambda =3)$$ en $$P(k=3, \lambda=3)$$. Kijk goed wat $$\lambda$$ en $$k$$ eigenlijk betekenen. Wat is de verwachtingswaarde en wat is de geobserveerde waarde?
 
-We gaan nu poisson distributies met python grafisch weergeven. Download het bestand [M1.B_Distributies.py](M1.B_Distributies.py). De poisson distributie is één van de belangrijkste distributies. We zullen hem vaak tegen gaan komen.
+We gaan nu poisson distributies met python grafisch weergeven. Download het bestand [M1.2_Distributies.py](M1.2_Distributies.py). De poisson distributie is één van de belangrijkste distributies. We zullen hem vaak tegen gaan komen.
 
 > * Maak eerst een functie die de poisson kans uitrekent. De bedoeling is dat je de functie $$k$$ en $$\lambda$$ meegeeft en deze de poisson kans teruggeeft. In het bestand vind je al een lege functie die je kunt invullen.<br> 
 > **TIP** De macht, de exponentieel en de faculteit die in de formule voorkomen kun je makkelijk uitrekenen met het math pakket in python. 
@@ -52,7 +52,7 @@ Er zijn verschillende functies die je kan gebruiken. Kijk eens naar de uniform()
 > * Genereer nu een dataset waarin je simuleert dat je 30 keer met een dobbelsteen gooit. <br>
 > **TIP** Als je het nodig hebt: gebruik **(int)** om naar een natuurlijk getal af te ronden. Controleer dat je alle getallen in de set {1,2,3,4,5,6} kunt maken. 
 >  
-> * Plot de waarden in je dataset in een histogram. Kijk naar de code in opgave M1.A om te zien hoe je een histogram maakt. <br>
+> * Plot de waarden in je dataset in een histogram. Kijk naar de code in opgave M1.1 om te zien hoe je een histogram maakt. <br>
 > Let goed op de binning en range van je histogram. Als deze niet in orde zijn krijg je de verkeerde indruk van de dataset. Controleer je histogram desnoods door je dataset uit te printen en met de hand te tellen of je de juiste hoeveelheid entries hebt in de juiste bin.
 > 
 > * Komt de distributie overeen met je verwachting?

@@ -1,4 +1,4 @@
-## M1.C - Eigenschappen van distributies **
+## M1.3 - Eigenschappen van distributies **
 
 In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen) van distributies en deze veranderen als een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en poisson distributies. <br>
 
@@ -7,7 +7,7 @@ Je krijgt een Gaussische dataset $$\text{dg}(x)$$ met 500 punten. <br>
 
  			dg = ds.genereerDistributieDG(500) 
 
-Download het bestand [M1.C_Eigenschappen.py](M1.C_Eigenschappen.py) zorg dat deze in dezelfde folder staat as het **DAS_DatasetGenerator.py** bestand. <br>
+Download het bestand [M1.3_Eigenschappen.py](M1.3_Eigenschappen.py) zorg dat deze in dezelfde folder staat as het **DAS_DatasetGenerator.py** bestand. <br>
 
 > * Schrijf nu een functie die de volgende punten uitrekent voor deze dataset:
 > 	* het gemiddelde

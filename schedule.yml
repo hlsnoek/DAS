@@ -15,11 +15,11 @@ Module 1:
      Kansdichtheidsfuncties: /module-1/verdelingsfuncties
    Inleveropdrachten:
      Overzicht en info: /opdrachten-module-1/opdrachten
-     M1.A Mooi Plotten: /opdrachten-module-1/mooiplotten
-     M1.B Kansdichtheids Distributies: /opdrachten-module-1/distributies
-     M1.C Eigenschappen van Distributies: /opdrachten-module-1/eigenschappen
-     M1.D Grote Aantallen I: /opdrachten-module-1/groteaantallen
-     M1.E Halfwaardedikte I: /opdrachten-module-1/halfwaardedikte
+     M1.1 Mooi Plotten: /opdrachten-module-1/mooiplotten
+     M1.2 Kansdichtheids Distributies: /opdrachten-module-1/distributies
+     M1.3 Eigenschappen van Distributies: /opdrachten-module-1/eigenschappen
+     M1.4 Grote Aantallen I: /opdrachten-module-1/groteaantallen
+     M1.5 Halfwaardedikte I: /opdrachten-module-1/halfwaardedikte
    Tussentoets I:
      Wat moet je weten?: /tussentoets-i/informatie
      Oefenopdrachten: /tussentoets-i/oefenopgaves
@@ -34,10 +34,10 @@ Module 2:
      Extra Kansrekenregels: /module-2/extra-kansrekenregels
    Inleveropdrachten:
      Overzicht en info: /opdrachten-module-2/opdrachten    
-     M2.A Grote Aantallen II: /opdrachten-module-2/grote-aantallen
-     M2.B Meesjes: /opdrachten-module-2/meesjes
-     M2.C Halfwaardedikte II: /opdrachten-module-2/halfwaardedikteii
-     M2.D Supermarktplaates: /opdrachten-module-2/supermakrtplaatjes
+     M2.1 Grote Aantallen II: /opdrachten-module-2/grote-aantallen
+     M2.2 Meesjes: /opdrachten-module-2/meesjes
+     M2.3 Halfwaardedikte II: /opdrachten-module-2/halfwaardedikteii
+     M2.4 Supermarktplaates: /opdrachten-module-2/supermakrtplaatjes
    Tussentoets II:
      Wat moet je weten?: /tussentoets-ii/informatie
      Oefenopdrachten: /tussentoets-ii/oefenopgaves
@@ -52,8 +52,8 @@ Module 3:
      Hypothese toetsen I: /module-3/hypothese-toetsen
    Inleveropdrachten:
      Overzicht en info: /opdrachten-module-3/opdrachten    
-     M3.A Grote Aantallen III: /opdrachten-module-3/grote-aantalleniii
-     M3.B Halfwaardedikte III: /opdrachten-module-3/halfwaardedikteiii
+     M3.1 Grote Aantallen III: /opdrachten-module-3/grote-aantalleniii
+     M3.2 Halfwaardedikte III: /opdrachten-module-3/halfwaardedikteiii
    Tussentoets III:
      Wat moet je weten?: /tussentoets-iii/informatie
      Oefenopdrachten: /tussentoets-iii/oefenopgaves
@@ -65,5 +65,5 @@ Module 4:
      Hypothese toetsen II: /module-4/hypothese-toetsen-ii
    Inleveropdrachten:
      Overzicht en info: /opdrachten-module-4/opdrachten    
-     M4.A Twee Functies: /opdrachten-module-4/tweefuncties
-     M4.B Een Nieuw Deeltje: /opdrachten-module-4/eennieuwdeeltje
+     M4.1 Twee Functies: /opdrachten-module-4/tweefuncties
+     M4.2 Een Nieuw Deeltje: /opdrachten-module-4/eennieuwdeeltje

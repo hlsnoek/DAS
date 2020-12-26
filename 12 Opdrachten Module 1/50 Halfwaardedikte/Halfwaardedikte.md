@@ -1,4 +1,4 @@
-## M1.E - Halfwaardedikte I *
+## M1.5 - Halfwaardedikte I *
 
 
 We voeren een experiment uit waarbij de halfwaardedikte van lood wordt bepaald bij een bepaalde gamma-bron. De bron produceert gamma straling met een onbekende, maar stabiele energie. De halfwaardedikte is precies de energie die je nodig hebt om de intensiteit van de bron te halveren. Dit is belangrijk om te weten als je bijvoorbeeld ziekenhuispersoneel wil beschermen tegen straling die bij het maken van een röntgenfoto vrijkomt.
@@ -20,7 +20,7 @@ Hierbij is de intensiteit $$I$$ gelijk aan het aantal counts per seconde:
 $$I = \frac{N}{\Delta T}$$
 
 
-We gaan het experiment nu simuleren. Download het bestand [M1.E_Halfwaardedikte.py](M1.E_Halfwaardedikte.py) en zorg dat deze in dezelfde folder staat als *DAS_DatasetGenerator.py*. Download ook het inlever template: [Inlevertemplate](InlevertemplateBlok1b.docx)
+We gaan het experiment nu simuleren. Download het bestand [M1.5_Halfwaardedikte.py](M1.5_Halfwaardedikte.py) en zorg dat deze in dezelfde folder staat als *DAS_DatasetGenerator.py*. Download ook het inlever template: [Inlevertemplate](InlevertemplateBlok1b.docx)
 
 De volgende regel maakt de dataset aan: 
 
@@ -28,7 +28,7 @@ De volgende regel maakt de dataset aan:
 
 Deze lijsten bevatten de meetwaardes (in counts) en de diktes lood die tussen de bron en de telbuis zijn geplaatst. We gaan eerst de distributie met foutenvlaggen plotten. <br>
 
-> * Maak eerst een gewoon grafiek met de datapunten. Kijk eventueel in de code van opgave M1.D hoe je een grafiek moet maken. <br>
+> * Maak eerst een gewoon grafiek met de datapunten. Kijk eventueel in de code van opgave M1.4 hoe je een grafiek moet maken. <br>
 > * Maak nu een lijst aan met voor elk punt de fout op de gemeten aantal counts. Je kan nu met de volgende code de foutenvlaggen plotten.
 >
 >         plt.errorbar(diktes,counts, yerr=fouten, fmt = 'o', label='"data"')

@@ -3,11 +3,11 @@
 Tijdens de laptopcolleges in de eerste week werken we aan de vijf opdrachten van de eerste module.
 
 
-* [M1.A Mooi Plotten *](/opdrachten-module-1/mooiplotten)
-* [M1.B Kansdichtheid-distributies **](/opdrachten-module-1/distributies)
-* [M1.C Eigenschappen van distributies **](/opdrachten-module-1/eigenschappen)
-* [M1.D Grote Aantallen I \*\*\*](/opdrachten-module-1/groteaantallen)
-* [M1.E Halfwaardedikte I *](/opdrachten-module-1/halfwaardedikte)
+* [M1.1 Mooi Plotten *](/opdrachten-module-1/mooiplotten)
+* [M1.2 Kansdichtheid-distributies **](/opdrachten-module-1/distributies)
+* [M1.3 Eigenschappen van distributies **](/opdrachten-module-1/eigenschappen)
+* [M1.4 Grote Aantallen I \*\*\*](/opdrachten-module-1/groteaantallen)
+* [M1.5 Halfwaardedikte I *](/opdrachten-module-1/halfwaardedikte)
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 
