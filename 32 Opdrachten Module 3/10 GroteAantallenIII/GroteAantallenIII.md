@@ -1,0 +1,56 @@
+#M3.1 Grote Aantallen III *\*\*
+
+In deze opdracht gaan we het eindresultaat van M2.1 'fitten' met de kleinste kwadraten methode. 
+
+We hebben gezien dat er verband is tussen de grootte van onze steekproef en de onzekerheid op het bepaalde gemiddelde. Deze volgt de $$\sqrt{N}$$-[wet](/module-2/wet-van-grote-aantallen). We gaan in deze opdracht een lineaire regressie (ofwel een fit) aan de data punten maken met behulp van de kleinste kwadraten methode. 
+
+Download allereerst een nieuwe [DAS_DatasetGenerator.py](DAS_DatasetGenerator.py) en voer weer je studentnummer in. 
+
+We gaan eerst datapunten fitten met gelijke fouten.
+Met de volgende instructie kun je de datapunten opvragen: 
+
+	inv_n_sqrt,std_n,std_err = ds.GroteAantallenFitSetGenerator() 
+
+De $$\text{inv_n_sqrt}$$ punten zijn de waardes van $$1/\sqrt{N}$$ waarbij $$N$$ de grootte is van de steekproef zoals je die in M2.1 hebt gedaan, $$\text{std_n}$$ is de onzekerheid $$\sigma_{\mu_n}$$ en $$\text{std_err}$$ zijn de onzekerheden op deze punten van $$\sigma_{\mu_n}$$. Voor deze dataset zijn ze allemaal gelijk, later in deze opdracht zullen we met meer reële onzekerheden gaan werken. Maar voor het opzetten van de fit beginnen we met deze dataset.
+
+> * Maak eerst een plotje waarbij je $$\text{std_n}$$ tegen $$\text{inv_n_sqrt}$$ uitzet met de foutenvlaggen. Gebruik hier niet de code voor uit M2.1 maar maak gebruik van de dataset die je met het commando dat hier boven beschreven staat verkrijgt.
+
+Naar aanleiding van de $$\sqrt{N}$$-wet verwachten dat de relatie tussen $$N$$ en $$\sigma_{\mu_n}$$ er als volgt uitziet:<br>
+<center>$${\displaystyle \sigma_{\mu_n} = \sigma/\sqrt{N}.}$$</center><br>
+
+Dit geeft de volgende relatie tussen 
+$$\text{inv_n_sqrt}$$ en $$\text{std_n}$$:<br>
+
+<center>$${\displaystyle \text{std_n} = s \cdot \text{inv_n_sqrt}.}$$</center><br>
+
+De variable $$s$$ is nu de standaard deviatie van de originele verdeling van de massa van de kogels.
+
+> * Vindt de meest optimale waarde van $$s$$ door gebruik te maken van [de kleinste-kwadraten](/module-3/kleinste-kwadraten) methode. <br>
+> **Tip 1:** Schrijf een loop die over verschillende waardes van $$s$$ loopt voor het optimalisatie process. Weet je zeker dat de juiste waarde van $$s$$  in het gebied ligt waar je probeert te optimaliseren?<br>
+> * Welke waarde voor $$s$$ geeft de beste fit? <br>
+> * Maak een grafiek met de datapunten, de foutenvlaggen en het fit resultaat. 
+> * Maak een grafiek waarin je de waarde voor $$\chi^2$$ uitzet tegen $$s$$.
+
+Met de functie:
+	
+	s_true = ds.GroteAantallenStdTrue()
+
+Kun je de werkelijke waarde voor de gesimuleerde waarde van $$s$$ terugvragen. 
+
+> * Controleer dat de gefitte waarde van $$\hat{s}$$ overeen komt met je uitkomst. Je verwacht altijd nog wel wat verschillen te zien. 
+
+We gaan de $$\chi^2$$ uitrekenen van de geoptimaliseerde waarde van $$s$$. 
+Schrijf hiervoor een functie die deze uitrekent. 
+
+> * Wat is de $$\chi^2$$ voor de fit?
+
+We gaan nu de fit uitvoeren met reële onzekerheden op de punten. Deze datapunten genereer je met de volgende functie: 
+
+	 inv_n_sqrt,std_n,std_err = ds.GroteAantallenStdGenerator()
+ 
+> * Vindt nu de meest optimale waarde van $$s$$ door gebruik te maken van de reële foutenvlaggen. 
+> * Wat is de geoptimaliseerde $$\hat{s}$$ die je vindt?
+> * Maak nu een grafiek met de datapunten, de foutenvlaggen en het fit resultaat voor de dataset met reële foutenvlaggen.  
+> **Tip:** De fitcurve kun je het makkelijkste plotten door een lijst van verschillende x waardes maakt, de bijbehorende y waardes kun je met de functie en de geoptimaliseerde parameters berekenen.
+> * Wat is de $$\chi^2$$ per vrijheidsgraad voor de fit?
+> * Wat vind je van deze waarde?

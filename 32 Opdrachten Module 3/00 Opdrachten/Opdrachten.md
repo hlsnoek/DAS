@@ -6,8 +6,8 @@
 Tijdens laptopcolleges 5 en 6 werken we aan het de opdrachten in module 3. 
 In deze module gaan we werken aan twee opdrachten. 
 
-* [M3.A Grote Aantallen III \*\*\*\*](/opdrachten-module-3/groteaantalleniii)
-* [M3.B Halfwaardedikte III \*\*\*](/opdrachten-module-3/halfwaardedikteiii)
+* [M3.1 Grote Aantallen III \*\*\*\*](/opdrachten-module-3/groteaantalleniii)
+* [M3.2 Halfwaardedikte III \*\*\*](/opdrachten-module-3/halfwaardedikteiii)
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 

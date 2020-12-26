@@ -1,6 +1,6 @@
-## Opdracht M2.1 Grote Aantallen II \*\*\*
-We gaan verder kijken naar de ton met kogels uit opgave M1.4. 
-We gaan het experiment een paar keer herhalen. Steeds nemen we een set van 80 kogels die we wegen. We berekenen we het gemiddelde, $$\mu_n$$ over de eerste $$n$$ kogels van deze set. Zo krijgen we een distributie van $$\mu_n$$ versus $$n$$. Net als in opgave M1.4 maar nu met steeds weer een nieuwe set met 80 kogelgewichten.
+## Opdracht M2.A Grote Aantallen II ***
+We gaan verder kijken naar de ton met kogels uit opgave M1.D. 
+We gaan het experiment een paar keer herhalen. Steeds nemen we een set van 80 kogels die we wegen. We berekenen we het gemiddelde, $$\mu_n$$ over de eerste $$n$$ kogels van deze set. Zo krijgen we een distributie van $$\mu_n$$ versus $$n$$. Net als in opgave M1.D maar nu met steeds weer een nieuwe set met 80 kogelgewichten.
 
  
 Maak 100 verschillende datasets. Dit kan je doen door steeds een andere seed mee te geven aan de datasetgenerator: 
