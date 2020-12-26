@@ -82,7 +82,7 @@ We kunnen de meetonzekerheden op verschillende manieren noteren.
 
 Het meetresultaat zelf noemen we de **centrale waarde** en de meetonzekerheid heet ook wel de **absolute fout**. We noteren dit als volgt: 
 
-$$\text{gemeten waarde van }x = x_{\text{centraa}} \pm \Delta x$$.
+$$\text{gemeten waarde van }x = x_{\text{centraal}} \pm \Delta x$$.
 
 Waarbij $$\Delta x$$ de meetonzekerheid is. 
 
@@ -102,7 +102,7 @@ $$4.51(27) \cdot 10^3$$
 
 Hieronder de verschillende schrijfwijzen naast elkaar gezet in een tabel voor diverse meetwaarden met meetonzekerheden.
 
-| Meetwaarde | Wetensch. not. met $$\pm$$ | Wetensch. not. met haakjes |
+| Meetwaarde | Notatie met $$\pm$$ | Notatie met haakjes |
 | --- | --- | --- |
 | $$100.5 \pm 1.8$$  | $$(1.005 \pm 0.018) \cdot 10^2$$ | $$1.005(18) \pm 10^2$$ |
 | $$0.0045 \pm 0.0006$$  | $$(4.5 \pm 0.6) \cdot 10^{-3}$$ | $$4.5(6) \pm 10^{-3}$$ |

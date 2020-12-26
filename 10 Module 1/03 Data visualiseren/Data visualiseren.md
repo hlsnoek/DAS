@@ -143,7 +143,7 @@ Bij het bepalen van het optimale aantal bins en de optimale bin breedte is het b
 
 ## Data plotten met Python
 
-Om in Python te kunnen plotten moeten we als eerste een library importeren die ingebouwde functies heeft voor het visueel weergeven van data. Een populair pakket is Matplotlib, deze zullen we in dit vak dan ook gebruiken (er zijn ook andere geschikte pakketten zoals Seaborn, ggplot en Plotly). 
+Om in Python te kunnen plotten moeten we als eerste een library importeren die ingebouwde functies heeft voor het visueel weergeven van data. Een populair pakket is Matplotlib, deze zullen we in dit vak dan ook gebruiken (er zijn ook andere geschikte pakketten zoals Seaborn, geplot en Plotly). 
 We importeren de `pyplot` functie vanuit Matplotlib en geven deze de naam 'plt' met het volgende commando:
 
     import matplotlib.pyplot as plt
