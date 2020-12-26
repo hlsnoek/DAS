@@ -50,20 +50,20 @@ We gaan dit experiment nu simuleren. Om stochastische (ook wel toevallige of ran
 	import random
 	from random import seed
 
-Zet nu de *seed* van de random nummer generator op 1. Zo is de simulatie herhaalbaar onder steeds dezelfde condities. 
+Zet nu de *seed* van de random nummer generator op 1. Zo is de simulatie herhaalbaar onder steeds dezelfde condities. Dat wil zeggen dat het programma steeds dezelfde random getallen genereert. 
 
 	np.random.seed(1)   # dit zet de seed in de random generator op 1.
 
-Er zijn verschillende functies die je kan gebruiken. Kijk eens naar de uniform() en de randint() functies van random en bedenk een manier om je simulatie te schrijven.
+Er zijn verschillende functies die je kan gebruiken. Kijk eens naar de **`uniform()`** en de **`randint()`** functies van random en bedenk een manier om je simulatie te schrijven.
 
-> * Genereer nu een dataset waarin je simuleert dat je 30 keer met een dobbelsteen gooit. <br>
-> **TIP** Als je het nodig hebt: gebruik `(int)` om naar een natuurlijk getal af te ronden. Controleer dat je alle getallen in de set {1,2,3,4,5,6} kunt maken. 
->  
-> * Plot de waarden in je dataset in een histogram. Kijk naar de code in opgave M1.1 om te zien hoe je een histogram maakt. <br>
-> Let goed op de binning en range van je histogram. Als deze niet in orde zijn krijg je de verkeerde indruk van de dataset. Controleer je histogram desnoods door je dataset uit te printen en met de hand te tellen of je de juiste hoeveelheid entries hebt in de juiste bin.
-> 
-> * Komt de distributie overeen met je verwachting?
->
-> * Waarschijnlijk komt niet elke mogelijke uitkomst evenveel keer voor in je dataset. Hoe verwacht je dat de uitkomsten verdeeld zijn? Als je het experiment opnieuw zou doen, wat is dan de kans dat je maar 1 keer een 6 zult gooien. Gebruik hiervoor de <a href="/module-1/verdelingsfuncties#Poisson">Poisson kans</a> (deze kans moet je berekenen en kun je niet aflezen uit je histogram). 
->
-> * Verzamel al je antwoorden en vul deze, samen met je code, in op je inlever template.
+> Genereer nu een dataset waarin je simuleert dat je 30 keer met een dobbelsteen gooit.  
+
+**TIP** Als je het nodig hebt: gebruik **`(int)`** om naar een natuurlijk getal af te ronden. Controleer dat je alle getallen in de set {1,2,3,4,5,6} kunt maken. 
+  
+**M1.2g) Plot de waarden in je dataset in een histogram. Kijk naar de code in opgave M1.1 om te zien hoe je een histogram maakt. Let goed op de binning en range van je histogram. Als deze niet in orde zijn krijg je de verkeerde indruk van de dataset. Controleer je histogram desnoods door je dataset uit te printen en met de hand te tellen of je de juiste hoeveelheid in de juiste bin hebt. Kijk goed naar de richtlijnen en maak je histogram helemaal netjes.**
+
+**M1.2h)  Komt de distributie overeen met je verwachting?**
+
+**M1.2i)  Waarschijnlijk komt niet elke mogelijke uitkomst evenveel keer voor in je dataset. Hoe verwacht je dat de uitkomsten verdeeld zijn? Als je het experiment opnieuw zou doen, wat is dan de kans dat je maar 1 keer een 6 zult gooien. Gebruik hiervoor de <a href="/module-1/verdelingsfuncties#Poisson">Poisson kans</a> (deze kans moet je berekenen en kun je niet aflezen uit je histogram).**
+
+Verzamel je antwoorden op het template voor module 1, zorg dat je de code ook bewaart, deze moet je later inleveren. 
