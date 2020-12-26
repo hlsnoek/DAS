@@ -6,8 +6,8 @@
 Tijdens het laatste laptopcollege werken we aan het de opdrachten in module 4. 
 In deze module gaan we werken aan twee opdrachten. 
 
-* [M4.A Twee Functies *](/opdrachten-module-4/tweefuncties)
-* [M4.B Een nieuw deeltje \*\*\*](/opdrachten-module-4/eennieuwdeeltje)
+* [M4.1 Twee Functies *](/opdrachten-module-4/tweefuncties)
+* [M4.2 Een nieuw deeltje \*\*\*](/opdrachten-module-4/eennieuwdeeltje)
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 

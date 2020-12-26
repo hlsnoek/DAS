@@ -1,7 +1,4 @@
-*****
-<a name="B4.B"></a>
-
-# B4.B Een Nieuw Deeltje ***
+# M4.2 Een Nieuw Deeltje \*\*\*
 
 We gaan op zoek naar een nieuw elementair deeltje $$X$$. Dit deeltje is gepostuleerd door een groep Natuurkundigen die daarmee het probleem van de Donkere Materie in het heelal denken op te lossen. 
 

@@ -1,4 +1,4 @@
-# M4.A Twee Functies *
+# M4.1 Twee Functies *
 
 We krijgen een dataset en we weten niet precies welke functie moet fitten aan de data. Er zijn twee theorieën. De eerste zegt dat er een lineair verband zou moeten bestaan. De tweede dat de meetwaardes Normaal verdeeld horen te zijn. We gaan de twee functies fitten aan de data en proberen te achterhalen welke van de twee functies het beste fit. 
 
@@ -19,7 +19,7 @@ en
 $${\displaystyle g(x;N,\mu,\sigma) = N\cdot \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}}$$
 
 
-> * Gebruik dezelfde fit methode als in opdracht B3.B en fit beide functies aan de dataset. 
+> * Gebruik dezelfde fit methode als in opdracht M3.2 en fit beide functies aan de dataset. 
 > * Maak een plotje waarin je de data laat zien en de twee gefitte functies $$f$$ en $$g$$. 
 > * Kun je iets zeggen over hoe goed $$f$$ fit. Wat is hier aan de hand?
 > * Kun je iets zeggen over hoe goed $$g$$ fit. Wat is hier aan de hand?

@@ -1,6 +1,6 @@
 #Wet van Grote Aantallen
 
-In opgave M1.D hebben we gezien hoe de spreiding van een gemeten gemiddelde van 
+In opgave M1.4 hebben we gezien hoe de spreiding van een gemeten gemiddelde van 
 metingen steeds kleiner wordt als we meer data gebruiken om het gemiddelde te bepalen. 
 Dit is een belangrijke observatie. Het geeft aan dat hoe meer data we hebben, hoe nauwkeuriger de uitkomst. Je voelt misschien al aan dat dit niet altijd op gaat. Wanneer dit wel en wanneer dit niet opgaat zullen we hier bespreken. 
 
