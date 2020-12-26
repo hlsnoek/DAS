@@ -1,5 +1,5 @@
 # Author: Hella Snoek
-# Date: Nov 2019
+# Date: Dec 2020
 # Code for Data Analyse en Statistiek course
 
 from random import seed
