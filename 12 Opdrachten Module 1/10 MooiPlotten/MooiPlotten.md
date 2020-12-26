@@ -2,9 +2,11 @@
 
 We beginnen dit vak met een eenvoudige opdracht. We gaan in deze opdracht een histogram goed leesbaar maken. Lees eerst het stuk je over [Data visualiseren](/module-1/data-visualiseren), daar vind je ook de richtlijnen waaraan een goed histogram voldoet.
 
-
 Je krijgt hiervoor een python programmaatje dat je moet aanpassen.  
 We gaan ervan uit dat je Anaconda en Visual Studio Code (VSC) hebt geïnstalleerd. Zo niet zie dan [hier](/informatie/installatie) de instructies.
+
+De dikgedrukte vragen die je in deze opdracht vindt moet je uiteindelijke ook invullen op het [inlevertemplate](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/InlevertemplateModule1.docx). De rest van de opdracht moet je uitvoeren om de vragen correct te kunnen beantwoorden dus sla de rest niet zomaar over! In deze opdracht zijn er twee dikgedrukte vragen en staan ze helemaal onderaan. In andere opdrachten vind je ze vaak tussendoor.
+
 
 
 > Installeer de volgende twee bestanden naar een werkfolder op je computer [M1.1_MooiPlotten.py](M1.1_MooiPlotten.py) en [DAS_DatasetGenerator.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py).
@@ -70,12 +72,13 @@ Als je tevreden bent met het resultaat kun je het histogram opslaan door de laat
 
 	plt.savefig('M1.1_MooiPlotten.png')   
 
-> Open nu het [inlevertemplate](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/InlevertemplateModule1.docx) voor Module 1.
+> Open nu het [inlevertemplate](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/InlevertemplateModule1.docx) voor Module 1 en beantwoord de volgende twee vragen:. 
 > 
-> **M1.1a** Plaats hier je histogram.  
-> **M1.1b** Valt je iets op aan de data?
+> **M1.1a)  Plaats hier je histogram.**    
+>   
+> **M1.1b) Valt je iets op aan de data?**
 
-Als je alle opdrachten voor module 1 hebt gemaakt kun je de opdrachten en code inleveren via de ANS website. Bij de laatste opgave voor module 1 vind je hier meer informatie over. Zorg in elk geval dat je de code die je hier gemaakt hebt bewaard.
+Als je alle andere opdrachten voor module 1 ook hebt gemaakt kun je de opdrachten en code inleveren via de ANS website. Bij de laatste opgave voor module 1 vind je hier meer informatie over. Zorg in elk geval dat je de code die je hier hebt gemaakt bewaard.
 
 **Let op!** Je mag dus niet de automatische binning gebruiken van `matplotlib`; Je moet expliciet de `bin` en `range` opties gebruiken in je code.
 

@@ -14,8 +14,7 @@ def poisson(k, lamda) :
     return kans
 
 ##  Print hier de resultaten voor k=1 en lambda=3:
-print(poisson(1,3))
-
+print('k is 1, l = 3, p = ', poisson(1,3))
 
 ##  Door eerst expliciet een figure aan te maken kunnen we meerdere plotjes maken.
 fig_d1 = plt.figure('Poisson Distributies')

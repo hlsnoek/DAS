@@ -1,30 +1,34 @@
 ## M1.2 - Kansdichtheid distributies **
 
-We gaan in deze opgave kijken naar kansdichtheid distributies. Lees [hier](/module-1/verdelingsfuncties) meer over kansdichtheid distributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/verdelingsfuncties#Poisson">poisson</a> en <a href="/module-1/verdelingsfuncties#Uniform">uniforme</a> distributies.
+We gaan in deze opgave kijken naar kansdichtheid distributie. Lees [hier](/module-1/verdelingsfuncties) meer over kansdichtheidsdistributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/verdelingsfuncties#Poisson">poisson</a> en <a href="/module-1/verdelingsfuncties#Uniform">uniforme</a> distributies.
 
 
 ###Poisson distributie
 
-> Reken (met de hand) de volgende poisson kansen uit: $$P(k=1, \lambda=3)$$, $$P(k=2, \lambda =3)$$ en $$P(k=3, \lambda=3)$$. Kijk goed wat $$\lambda$$ en $$k$$ eigenlijk betekenen. Wat is de verwachtingswaarde en wat is de geobserveerde waarde?
+**M1.2a Reken (met de hand) de volgende Poisson kansen uit: $$P(k=1, \lambda=3)$$, $$P(k=2, \lambda =3)$$ en $$P(k=3, \lambda=3)$$. Kijk goed wat $$\lambda$$ en $$k$$ eigenlijk betekenen en wat de verwachtingswaarde is, en wat de geobserveerde waarde. Schrijf niet alleen het antwoord op maar begin bij de formule en werk het dan uit. Let ook op de regels van de notatie. Bekijk hiervoor het stukje over significantie in het hoofdstuk [notatie](/module-1/notatie).**
 
-We gaan nu poisson distributies met python grafisch weergeven. Download het bestand [M1.2_Distributies.py](M1.2_Distributies.py). De poisson distributie is één van de belangrijkste distributies. We zullen hem vaak tegen gaan komen.
+We gaan nu Poisson distributies met python grafisch weergeven. Download het bestand [M1.2_Distributies.py](M1.2_Distributies.py). De Poisson distributie is één van de belangrijkste distributies. We zullen hem vaak tegen gaan komen.
 
-> * Maak eerst een functie die de poisson kans uitrekent. De bedoeling is dat je de functie $$k$$ en $$\lambda$$ meegeeft en deze de poisson kans teruggeeft. In het bestand vind je al een lege functie die je kunt invullen.<br> 
-> **TIP** De macht, de exponentieel en de faculteit die in de formule voorkomen kun je makkelijk uitrekenen met het math pakket in python. 
-> 
-> 		import math as math
-> 		
-> 		math.pow(lambda,k)  ## dit geeft lambda^k
-> 		math.exp(-lambda)   ## geeft e^{-lambda}
-> 		math.factorial(k)   ## geeft k!
-> 
-> *  Reken nu de kansen $$P(k=1,\lambda=3)$$, $$P(k=2,\lambda =3)$$ en $$P(k=3,\lambda=3)$$, uit met je python functie. Komt het overeen? Check het resultaat.
->
+> Maak eerst een functie die de Poisson kans uitrekent. De bedoeling is dat je de functie $$k$$ en $$\lambda$$ meegeeft en deze de Poisson kans teruggeeft. In het bestand vind je al een lege functie die je kunt invullen.  
+
+ **TIP** De macht, de exponentieel en de faculteit die in de formule voorkomen kun je makkelijk uitrekenen met het `math` pakket in python. 
+ 
+ 		import math as math
+ 		
+ 		math.pow(lambda,k)  ## dit geeft lambda^k
+ 		math.exp(-lambda)   ## geeft e^{-lambda} 
+ 		math.factorial(k)   ## geeft k!
+ 
+ 
+ 
+> Reken nu de kansen $$P(k=1,\lambda=3)$$, $$P(k=2,\lambda =3)$$ en $$P(k=3,\lambda=3)$$, uit met je python functie. Komt het overeen met de waardes die je eerder met de hand berekende? Check het resultaat.
+
+
 > *  Maak vervolgens een Poisson-kansdichtheidsdistributie voor $$\lambda = 5$$. Doe dit door eerst een lijst aan te maken met $$x$$ waardes tussen 1 en 40 (met stapjes van 1) en vervolgens voor elk punt de kans uit te rekenen met de functie en deze op te slaan in een lijst. Maak vervolgens een grafiek met de resultaten. Zorg dat je grafiek er netjes uitziet. Ziet de grafiek eruit zoals je had verwacht? 
-> 
-> * Herhaal dit nu en plot (over elkaar in 1 grafiek) de poisson distributies voor $$\lambda = 2, 5, 10$$ en $$20$$. 
->
-> * Lees af in je grafiek hoe groot de kans is om een waarde van 4 te vinden voor de vier verschillende verwachtingswaarden. NB je kan het natuurlijk ook uitrekenen met je functie.
+
+**M1.2b) Maak nu een grafiek waarin je de Poisson distributies voor $$\lambda = 2, 5, 10$$ en $$20$$ laat zien. Maak 1 grafiek met de 4 resultaten. Zorg dat je de grafiek leesbaar maakt, bekijk hiervoor de richtlijnen in het hoofdstuk [data visualisatie](/module-1/data-visualiseren).**
+
+**M1.2c) Lees af in je grafiek hoe groot de kans is om een waarde van 4 te vinden voor de vier verschillende verwachtingswaarden. NB je kan het natuurlijk ook uitrekenen met je functie.**
 
 
 

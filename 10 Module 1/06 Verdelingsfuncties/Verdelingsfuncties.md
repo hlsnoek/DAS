@@ -109,7 +109,7 @@ Het voorbeeld van daarnet is uitgedrukt in de gele lijn. Kijk ook eens goed naar
 
 ### Poisson
 <a name="Poisson"></a>
-De Poisson is discrete verdelingsfunctie die, in veel gevallen, de onzekerheid weergeeft op telexperimenten. Het aantal geobserveerde gebeurtenissen, $$k$$, is gerelateerd aan het verwachte aantal gebeurtenissen, $$\lambda$$ via de Poissonverdeling: 
+De Poisson is discrete verdelingsfunctie die, in veel gevallen, de onzekerheid weergeeft op telexperimenten. Het aantal geobserveerde gebeurtenissen ($$k$$) is gerelateerd aan het verwachte aantal gebeurtenissen ($$\lambda$$) via de Poissonverdeling: 
 
 $${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}.$$
 
