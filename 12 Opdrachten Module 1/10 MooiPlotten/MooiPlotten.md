@@ -7,7 +7,7 @@ Je krijgt hiervoor een python programmaatje dat je moet aanpassen.
 We gaan ervan uit dat je Anaconda en Visual Studio Code (VSC) hebt geïnstalleerd. Zo niet zie dan [hier](/informatie/installatie) de instructies.
 
 
-> Installeer de volgende twee bestanden naar een werkfolder op je computer [M1.1_MooiPlotten.py](M1.1_MooiPlotten.py)en [DAS_DatasetGenerator.py](/opdrachten-module-1/DAS_DatasetGenerator.py).
+> Installeer de volgende twee bestanden naar een werkfolder op je computer [M1.1_MooiPlotten.py](M1.1_MooiPlotten.py) en [DAS_DatasetGenerator.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/InlevertemplateModule1.docx).
 
 Open de bestanden in het VSCode programma en lees de code. We zullen hieronder wat uitleg over de code geven. 
 
