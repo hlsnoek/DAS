@@ -8,7 +8,7 @@ De inleveropdrachten tellen voor 80% mee voor je eindcijfer. Je moet een gemidde
 |------|-------|--------|--------|--------|
 | Werkcolleges | LC 1, LC 2 | LC 3, LC 4 | LC 5, LC 6 | LC 7 | 
 | Deadlines | za 9 jan 20:00 | za 16 jan 20:00 | za 23 jan 20:00 | za 30 jan 20:00 |
-| Gewicht| 2 | 2 | 2 | 2 |
+| Gewicht| 1 | 1 | 1 | 1 |
 
 
 
