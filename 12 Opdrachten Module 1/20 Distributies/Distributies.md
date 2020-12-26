@@ -11,7 +11,7 @@ We gaan nu Poisson distributies met python grafisch weergeven. Download het best
 
 > Maak eerst een functie die de Poisson kans uitrekent. De bedoeling is dat je de functie $$k$$ en $$\lambda$$ meegeeft en deze de Poisson kans teruggeeft. In het bestand vind je al een lege functie die je kunt invullen.  
 
- **TIP** De macht, de exponentieel en de faculteit die in de formule voorkomen kun je makkelijk uitrekenen met het `math` pakket in python. 
+ **TIP** De macht, de exponentieel en de faculteit die in de formule voorkomen kun je makkelijk uitrekenen met het **`math`** pakket in python. 
  
  		import math as math
  		

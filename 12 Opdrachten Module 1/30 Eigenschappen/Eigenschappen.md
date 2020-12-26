@@ -17,7 +17,7 @@ Download het bestand [M1.3_Eigenschappen.py](M1.3_Eigenschappen.py) zorg dat dez
 >
 > * Wat verwacht je dat er gebeurd met deze variabelen als je een dataset met 2 maal zoveel waardes (1000) krijgt? Quantificeer je resultaat. Probeer dit nu uit. Klopt het resultaat met je verwachting?<br> 
 > 
-> **NB:** Het is de bedoeling dat je de formules zelf programmeert. Je mag geen gebruik maken van standaard functies van python die dit direct voor je teruggeven. Uiteraard mag je wel gebruiken maken van functies als `len()` en `sort()`.
+> **NB:** Het is de bedoeling dat je de formules zelf programmeert. Je mag geen gebruik maken van standaard functies van python die dit direct voor je teruggeven. Uiteraard mag je wel gebruiken maken van functies als **`len()`** en **`sort()`**.
 
 We gaan nu kijken naar het effect van een translatie van de dataset.
 

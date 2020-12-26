@@ -144,11 +144,11 @@ Bij het bepalen van het optimale aantal bins en de optimale bin breedte is het b
 ## Data plotten met Python
 
 Om in Python te kunnen plotten moeten we als eerste een library importeren die ingebouwde functies heeft voor het visueel weergeven van data. Een populair pakket is Matplotlib, deze zullen we in dit vak dan ook gebruiken (er zijn ook andere geschikte pakketten zoals Seaborn, geplot en Plotly). 
-We importeren de `pyplot` functie vanuit Matplotlib en geven deze de naam 'plt' met het volgende commando:
+We importeren de **`pyplot`** functie vanuit Matplotlib en geven deze de naam 'plt' met het volgende commando:
 
     import matplotlib.pyplot as plt
 
-De naamgeving 'plt' met het commando `as plt` is optioneel, maar wel handig omdat we deze functie over het algemeen vaak zullen gebruiken (dat scheelt typen).
+De naamgeving **`plt`** met het commando **`as plt`** is optioneel, maar wel handig omdat we deze functie over het algemeen vaak zullen gebruiken (dat scheelt typen).
 
 
 ###Voorbeeld: een grafiek plotten
@@ -159,22 +159,22 @@ Stel we hebben de hoogte van een vallende bal gemeten als functie van de tijd. I
 | h(cm) | 180.0 | 178.8 | 175.1 | 169.0 | 160.4 | 149.3 | 135.9 | 120.0 | 102.0 | 80.7 | 57.4 | 31.6 | 3.4 |
 
 
-Nu maken we een lijst `t_data` aan voor de tijd en een lijst `h_data` voor de hoogte van de bal:
+Nu maken we een lijst **`t_data`** aan voor de tijd en een lijst **`h_data`** voor de hoogte van de bal:
 
     t_data = [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0]
     h_data = [180.0, 178.8, 175.1, 169.0, 160.4, 149.3, 135.9, 120.0, 102.0, 80.7, 57.4, 31.6, 3.4]
 
-Daarna roepen we het `plot` commando uit matplotlib.pyplot aan:
+Daarna roepen we het **`plot`** commando uit matplotlib.pyplot aan:
 
     plt.plot(t_data, h_data, 'ro')
 
-Met `'ro'` geven we aan dat we rode gevulde punten in de plot willen. De plot ziet er nu als volgt uit:
+Met **`'ro'`** geven we aan dat we rode gevulde punten in de plot willen. De plot ziet er nu als volgt uit:
 
 ![](Plot14_Vallenbal_PlotOnopgemaakt.png){:width="400px"}<br>
 
 Je ziet dat de assen automatisch vanaf de laagste waarde tot aan de hoogste waarden gaan, en hierbij niet eindigen op een maatstreepje. Daarnaast willen we graag labels op de assen.
 
-De limiet van de assen kunnen we aangeven met de commando's `plt.xlim` en `plt.ylim`:
+De limiet van de assen kunnen we aangeven met de commando's **`plt.xlim`** en **`plt.ylim`**:
 
     plt.xlim(0,7)
     plt.ylim(0,200)
@@ -223,7 +223,7 @@ De plot ziet er dan als volgt uit:<br>
 
 ![](PLOT16_MeerdereScatter.png){: width ="400px"}<br>
 
-Omdat er meerdere datasets in één grafiek zijn weergegeven is het noodzakelijk om hier een legenda bij te plaatsen. Een legenda kan op meerdere plaatsen in de figuur neergezet worden. Voordat we de legenda kunnen toevoegen moeten we de plots eerst labelen dit doen we door `label = "naam"` achteraan in de `plot` commando's toe te voegen:
+Omdat er meerdere datasets in één grafiek zijn weergegeven is het noodzakelijk om hier een legenda bij te plaatsen. Een legenda kan op meerdere plaatsen in de figuur neergezet worden. Voordat we de legenda kunnen toevoegen moeten we de plots eerst labelen dit doen we door **`label = "naam"`** achteraan in de **`plot`** commando's toe te voegen:
 
     plt.plot(t_data, h_data, 'ro' , label='h(0) = 180 cm')
     plt.plot(t_data2, h_data2, 'bo', label='h(0) = 160 cm')

@@ -21,7 +21,7 @@ Helemaal boven in de code vind je de regel:
 
 	import DAS_DatasetGenerator as ds	
 
-en zo weet je dat `DataSetMooiPlotten()` een functie is die in `DAS_DatasetGenerator.py` is gedefinieerd.
+en zo weet je dat **`DataSetMooiPlotten()`** een functie is die in **`DAS_DatasetGenerator.py`** is gedefinieerd.
 Om dit bestand te kunnen runnen moet je eerst je studentnummer invoeren in de DAS_DatasetGerator.
 
 > Open `DAS_DatasetGenerator.py`, vind de student_nummer variabele in regel 12 en voer hier je studentnummer in. 
@@ -46,21 +46,21 @@ Als je helemaal boven in de code kijkt zie je de volgende regel:
 
 	import matplotlib.pyplot as plt
 
-De `hist` functie wordt dus gedefinieerd in de `matplotlib` library. Dat is handig om te weten als je meer over deze library te weten wilt komen. Je kan bijvoorbeeld veel vinden over de verschillende plot mogelijkheden door op "matplotlib" en "hist" te zoeken op het web.
+De **`hist`** functie wordt dus gedefinieerd in de **`matplotlib`** library. Dat is handig om te weten als je meer over deze library te weten wilt komen. Je kan bijvoorbeeld veel vinden over de verschillende plot mogelijkheden door op "matplotlib" en "hist" te zoeken op het web.
 
 
-Je ziet dat behalve de dataset *x* er ook twee opties worden meegegeven (`bins` en `range`). De range geeft aan welk bereik de x-as van het histogram heeft. De andere variabele, bins, geeft aan in hoeveel delen deze x-as is opgedeeld.  
+Je ziet dat behalve de dataset *x* er ook twee opties worden meegegeven (**`bins`** en **`range`**). De range geeft aan welk bereik de x-as van het histogram heeft. De andere variabele, bins, geeft aan in hoeveel delen deze x-as is opgedeeld.  
 Deze twee opties kun je eventueel weglaten. In dat geval zoekt python zelf, met behulp van een algoritme een range en aantal bins uit. Je zult zien dat dat niet altijd optimaal werkt. 
 
-> Probeer nu de default binning van de hist functie uit door de `bins` en `range` opties weg te laten. Kijk goed naar de waardes op de x-as en waar de kolommen precies starten en ophouden. 
+> Probeer nu de default binning van de hist functie uit door de **`bins`** en **`range`** opties weg te laten. Kijk goed naar de waardes op de x-as en waar de kolommen precies starten en ophouden. 
 
 Ook in dit geval is de representatie van de dataset niet optimaal. We gaan dus de range en de binning zelf optimaliseren. De bedoeling is dat het histogram goed interpreteerbaar wordt. Door te fijne binning (veel bins in een kleine range) wordt de dataset heel grillig, het wordt dan lastig om de distributie te herkenen en trends goed te kunnen zien. Hetzelfde gebeurt als de binning te grof is. Er bestaat meestal niet een enkele goede instelling maar een gebied waarin het goed uitpakt. 
 
 > Pas nu de binning en de range aan zodat de distributie van *x* goed zichtbaar is. Let hierbij goed op of de binning niet te grof of te fijn is. 
 
-Het is makkelijker om eerst de range goed af te stellen en dan pas de binning waarde te veranderen. Als je meer controle wilt hebben over waar de assen beginnen en eindigen kun je gebruik maken van de `plt.xlim(min,max)` functie. 
+Het is makkelijker om eerst de range goed af te stellen en dan pas de binning waarde te veranderen. Als je meer controle wilt hebben over waar de assen beginnen en eindigen kun je gebruik maken van de **`plt.xlim(min,max)`** functie. 
 
-> Voeg de `plot.xlim(min,max)` functie toe aan je code (voor het `show` commando) en kies geschikte waardes. Stem hierna nogmaals de binning af. 
+> Voeg de **`plot.xlim(min,max)`** functie toe aan je code (voor het **`show`** commando) en kies geschikte waardes. Stem hierna nogmaals de binning af. 
 
 Als je een goede binning en range combinatie hebt gevonden waarin de kenmerken van de distributie goed zichtbaar zijn, is het goed om nog een keer te kijken naar de leesbaarheid van de *x*-as. Het is prettig als de bins een eenvoudig te lezen fractie hebben van de streepjes op de *x*-as. Dus als je een range hebt van 2 tot 12, is het onhandig om die in 13 stukjes op te delen. Prettiger is bijvoorbeeld 2, 4, 5 of 10. Dat is het histogram eenvoudiger leesbaar. Misschien heb jij wel veel meer bins nodig, of een grotere range.
 
@@ -80,6 +80,6 @@ Als je tevreden bent met het resultaat kun je het histogram opslaan door de laat
 
 Als je alle andere opdrachten voor module 1 ook hebt gemaakt kun je de opdrachten en code inleveren via de ANS website. Bij de laatste opgave voor module 1 vind je hier meer informatie over. Zorg in elk geval dat je de code die je hier hebt gemaakt bewaard.
 
-**Let op!** Je mag dus niet de automatische binning gebruiken van `matplotlib`; Je moet expliciet de `bin` en `range` opties gebruiken in je code.
+**Let op!** Je mag dus niet de automatische binning gebruiken van **`matplotlib`**; Je moet expliciet de **`bin`** en **`range`** opties gebruiken in je code.
 
 
