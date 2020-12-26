@@ -50,7 +50,7 @@ Zet nu de *seed* van de random nummer generator op 1. Zo is de simulatie herhaal
 Er zijn verschillende functies die je kan gebruiken. Kijk eens naar de uniform() en de randint() functies van random en bedenk een manier om je simulatie te schrijven.
 
 > * Genereer nu een dataset waarin je simuleert dat je 30 keer met een dobbelsteen gooit. <br>
-> **TIP** Als je het nodig hebt: gebruik **(int)** om naar een natuurlijk getal af te ronden. Controleer dat je alle getallen in de set {1,2,3,4,5,6} kunt maken. 
+> **TIP** Als je het nodig hebt: gebruik `(int)` om naar een natuurlijk getal af te ronden. Controleer dat je alle getallen in de set {1,2,3,4,5,6} kunt maken. 
 >  
 > * Plot de waarden in je dataset in een histogram. Kijk naar de code in opgave M1.1 om te zien hoe je een histogram maakt. <br>
 > Let goed op de binning en range van je histogram. Als deze niet in orde zijn krijg je de verkeerde indruk van de dataset. Controleer je histogram desnoods door je dataset uit te printen en met de hand te tellen of je de juiste hoeveelheid entries hebt in de juiste bin.

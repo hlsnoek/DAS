@@ -21,7 +21,7 @@ We gaan dit nu simuleren om een gevoel te krijgen hoe de wet van grote aantallen
 Zorg dat dit bestand in dezelfde folder staat als de DAS_DatasetGenerator.py file die je in opgave M1.1 al hebt gebruikt.
 
 
-In M1.4_GroteAantallen.py bestand zie je eerst een aantal functies (*berekenGemiddelde()*, *maakSetGemiddelde()*) die gaan we **later pas** gebruiken. <br>
+In M1.4_GroteAantallen.py bestand zie je eerst een aantal functies (`berekenGemiddelde()`, `maakSetGemiddelde()`) die gaan we **later pas** gebruiken. <br>
 Eerst kijken we naar de regel
 
 	set_gauss = ds.DataSetGroteAantallen() 
@@ -34,9 +34,9 @@ Hier wordt de dataset met de **gemeten kogel gewichten (in grammen)** aangemaakt
 
 We gaan nu simuleren dat we steeds meer datapunten hebben in onze dataset. We willen weten wat het gevonden kogel gewicht is na $1, 2, 3 ... n$ metingen. Hoe verandert het gevonden gemiddelde van de dataset als we nog een extra kogel gewicht eraan toevoegen?
 
-> * Voltooi nu eerst de functie *berekenGemiddelde(dataset,n)*. Als je de functie aanroept met n=2 dan is de bedoeling dat functie het gemiddelde uitrekent over de *eerste twee punten in de dataset*.<br>
+> * Voltooi nu eerst de functie `berekenGemiddelde(dataset,n)`. Als je de functie aanroept met n=2 dan is de bedoeling dat functie het gemiddelde uitrekent over de *eerste twee punten in de dataset*.<br>
 > **TIP:** Controleer de functie door het resultaat van bijvoorbeeld n=4 met de hand na te rekenen.
-> * Nu gaan we de functie *maakSetGemiddeldes()* afmaken. Deze functie geeft twee lijsten terug: ***N*** en ***gemiddeldes***. **N** loopt van 1 tot het aantal punten in de originele set_gauss dataset en  ***gemiddeldes*** waarin steeds het gemiddelde over de eerste **n** meetwaardes in de dataset wordt berekend. Controleer of de functie goed werkt door bijvoorbeeld de gevonden gemiddeldes uit te printen.
+> * Nu gaan we de functie `maakSetGemiddeldes()` afmaken. Deze functie geeft twee lijsten terug: ***N*** en ***gemiddeldes***. **N** loopt van 1 tot het aantal punten in de originele set_gauss dataset en  ***gemiddeldes*** waarin steeds het gemiddelde over de eerste **n** meetwaardes in de dataset wordt berekend. Controleer of de functie goed werkt door bijvoorbeeld de gevonden gemiddeldes uit te printen.
 > * Laat de resultaten nu in een grafiek zien. 
 > * Vergelijk je resultaten van de histogram en je grafiek. Is dit wat je verwacht hebt? 
 > * Voeg alle resultaten en je code toe aan je inlever document. Als je klaar bent met al je opdrachten lever dan je werk in via ANS.
