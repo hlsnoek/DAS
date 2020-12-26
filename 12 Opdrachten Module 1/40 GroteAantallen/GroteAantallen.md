@@ -1,4 +1,4 @@
-## Opdracht M1.D - Grote Aantallen \*\*\*
+## M1.D - Grote Aantallen \*\*\*
 
 
 We hebben een enorme ton kogeltjes en we willen weten hoe zwaar een enkele kogel uit de ton is. De kogels zijn, door variaties in het productieproces, echter niet allemaal precies even zwaar. Het gewicht van de kogels zijn **normaal** ofwel **Gaussisch** verdeeld. We willen graag weten wat het ***typische*** gewicht is van een kogel uit deze ton. 

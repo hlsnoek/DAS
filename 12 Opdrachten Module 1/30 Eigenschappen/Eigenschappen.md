@@ -1,4 +1,4 @@
-## Opdracht M1.C - Eigenschappen van distributies **
+## M1.C - Eigenschappen van distributies **
 
 In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen) van distributies en deze veranderen als een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en poisson distributies. <br>
 
