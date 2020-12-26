@@ -24,7 +24,7 @@ We gaan nu Poisson distributies met python grafisch weergeven. Download het best
 > Reken nu de kansen $$P(k=1,\lambda=3)$$, $$P(k=2,\lambda =3)$$ en $$P(k=3,\lambda=3)$$, uit met je python functie. Komt het overeen met de waardes die je eerder met de hand berekende? Check het resultaat.
 
 
-> *  Maak vervolgens een Poisson-kansdichtheidsdistributie voor $$\lambda = 5$$. Doe dit door eerst een lijst aan te maken met $$x$$ waardes tussen 1 en 40 (met stapjes van 1) en vervolgens voor elk punt de kans uit te rekenen met de functie en deze op te slaan in een lijst. Maak vervolgens een grafiek met de resultaten. Zorg dat je grafiek er netjes uitziet. Ziet de grafiek eruit zoals je had verwacht? 
+> Maak vervolgens een Poisson-kansdichtheidsdistributie voor $$\lambda = 5$$. Doe dit door eerst een lijst aan te maken met $$x$$ waardes tussen 1 en 40 (met stapjes van 1) en vervolgens voor elk punt de kans uit te rekenen met de functie en deze op te slaan in een lijst. Maak vervolgens een grafiek met de resultaten. Zorg dat je grafiek er netjes uitziet. Ziet de grafiek eruit zoals je had verwacht? 
 
 **M1.2b) Maak nu een grafiek waarin je de Poisson distributies voor $$\lambda = 2, 5, 10$$ en $$20$$ laat zien. Maak 1 grafiek met de 4 resultaten. Zorg dat je de grafiek leesbaar maakt, bekijk hiervoor de richtlijnen in het hoofdstuk [data visualisatie](/module-1/data-visualiseren).**
 
@@ -35,13 +35,16 @@ We gaan nu Poisson distributies met python grafisch weergeven. Download het best
 ###Uniforme distributie
 We gaan nu kijken naar de uniforme distributie en simuleren een experiment dobbelstenen gooien. We gaan er vanuit dat we een zuivere dobbelsteen hebben die precies gelijke kansen heeft om op een willekeurige vlak terecht te komen.
 
-> * Als je een dobbelsteen 1x gooit, wat is dan de kans dat je een 1 gooit?
-> En wat is de kans dat je een 4 of lager gooit?
->
-> * Stel dat je 30 keer met de dobbelsteen gooit. Wat is dan het verwachte aantal keren dat je 3 gooit? 
-> * Als je dit experiment doet en je gooit wel 10 keer een 3, kun je dan concluderen dat je een niet eerlijke dobbelsteen hebt?
+Beantwoord de volgende vragen:  
 
-We gaan dit experiment nu simuleren. Om stochastische (ook wel toevallige of random) getallen te genereren maken we gebruik van de random nummer generator in het numpy pakket. Er zijn verschillende manieren om een dataset te maken die het experiment simuleert. In elk geval heb je de volgende pakketten nodig: 
+**M1.2d) Als je een dobbelsteen 1x gooit, wat is dan de kans dat je een 1 gooit?   
+En wat is de kans dat je een 4 of lager gooit?**
+
+**M1.2e) Stel dat je 30 keer met de dobbelsteen gooit. Wat is dan het verwachte aantal keren dat je 3 gooit?**
+
+**M1.2f) Als je dit experiment doet en je gooit wel 10 keer een 3, kun je dan concluderen dat je een niet eerlijke dobbelsteen hebt?**
+
+We gaan dit experiment nu simuleren. Om stochastische (ook wel toevallige of random) getallen te genereren maken we gebruik van de random nummer generator in het **`numpy`** pakket. Er zijn verschillende manieren om een dataset te maken die het experiment simuleert. In elk geval heb je de volgende pakketten nodig: 
 
 	import numpy as np
 	import random
