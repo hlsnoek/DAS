@@ -5,9 +5,9 @@
 
 
 
-We hebben in blok 3 gezien hoe we met behulp van de kleinste-kwadraten methode een $$\chi^2$$ kunnen minimaliseren. Hierbij gaan we ervan uit dat we een functie $$f$$ hebben gedefinieerd die één of meerdere vrije parameters heeft. De beste waarde voor de parameter(s) vinden we via het optimaliseren van de $$\chi^2$$. 
+We hebben in module 3 gezien hoe we met behulp van de kleinste-kwadraten methode een $$\chi^2$$ kunnen minimaliseren. Hierbij gaan we ervan uit dat we een functie $$f$$ hebben gedefinieerd die één of meerdere vrije parameters heeft. De beste waarde voor de parameter(s) vinden we via het optimaliseren van de $$\chi^2$$. 
 
-We gaan in dit blok bekijken hoe we de geminimaliseerde $$\chi^2$$ kunnen inzetten om: 
+We gaan in deze module bekijken hoe we de geminimaliseerde $$\chi^2$$ kunnen inzetten om: 
 
 1. te bekijken welke functie een dataset beter beschrijft. Dit doen we met behulp van de Akaike Informatie Criterium.
 
@@ -70,7 +70,7 @@ Er zijn hierbij strikte voorwaardes voor het opstellen van de twee functies. De 
 
 > **Voorbeeld** Als de nulhypothese wordt beschreven door een functie $$f_0(x;a,b)$$ dan wordt de alternatieve hypothese beschreven door een functie $$f_1(x;a,b,c)$$ waarde de parameters $$a$$ en $$b$$ identiek zijn en ook de relatie tussen $$x$$ en deze twee parameters gelijk is. 
 
-Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \chi^2$$ beschreven door een $$\chi^2$$ functie met vrijheidsgraad $$n=1$$. En zoals we in blok 3 hebben beschreven is de $$\chi^2$$ zelf een kansdichtheidsverdeling. We kunnen in dat geval de $$\Delta \chi^2$$ direct omrekenen naar een waarschijnlijkheid en deze is gelijk aan de p-waarde.
+Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \chi^2$$ beschreven door een $$\chi^2$$ functie met vrijheidsgraad $$n=1$$. En zoals we in module 3 hebben beschreven is de $$\chi^2$$ zelf een kansdichtheidsverdeling. We kunnen in dat geval de $$\Delta \chi^2$$ direct omrekenen naar een waarschijnlijkheid en deze is gelijk aan de p-waarde.
 
 > **Voorbeeld Wald test** Stel dat we een chemisch element willen traceren en gebruik maken van een spectroscopie. Als het chemische element $$X$$ aanwezig is dan verwachten we een verhoogde intensiteit te zien bij de golflengte van de emissielijn van het specifieke element. We verwachten ook een achtergrond te zien. Dat wil zeggen we meten over alle golflengtes normaal gesproken een bepaalde intensiteit, ook zonder dat het chemische element aanwezig is. We kunnen nu de twee functies opstellen. Stel dat de achtergrond een lineaire functie volgt: <br>
 > $$ I_0(\lambda;a,b) = a+ b\cdot \lambda$$<br>

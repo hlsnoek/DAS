@@ -1,4 +1,3 @@
-
 #Voorbereiding op tussentoets 2
 
 De tweede tussentoets vindt plaats aan het einde van het derde college. 
@@ -40,7 +39,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 * Bayes theorema kennen en kunnen toepassen.
 
 ### Overig
-* De definitie van een schatter kennen. Deze vind je <a href="https://das.mprog.nl/module-2/opdrachten-module-2#B2.C"> hier </a>.
+* De definitie van een schatter kennen. Deze vind je in de opgave [M2.C](/opdrachten-module-2/halfwaardedikteii) hier </a>.
 
 
 

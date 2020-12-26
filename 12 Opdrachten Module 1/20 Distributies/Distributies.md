@@ -57,6 +57,6 @@ Er zijn verschillende functies die je kan gebruiken. Kijk eens naar de uniform()
 > 
 > * Komt de distributie overeen met je verwachting?
 >
-> * Waarschijnlijk komt niet elke mogelijke uitkomst evenveel keer voor in je dataset. Hoe verwacht je dat de uitkomsten verdeeld zijn? Als je het experiment opnieuw zou doen, wat is dan de kans dat je maar 1 keer een 6 zult gooien. Gebruik hiervoor de <a href="/module-1/kanstheorie#Poisson">Poisson kans</a> (deze kans moet je berekenen en kun je niet aflezen uit je histogram). 
+> * Waarschijnlijk komt niet elke mogelijke uitkomst evenveel keer voor in je dataset. Hoe verwacht je dat de uitkomsten verdeeld zijn? Als je het experiment opnieuw zou doen, wat is dan de kans dat je maar 1 keer een 6 zult gooien. Gebruik hiervoor de <a href="/module-1/verdelingsfuncties#Poisson">Poisson kans</a> (deze kans moet je berekenen en kun je niet aflezen uit je histogram). 
 >
 > * Verzamel al je antwoorden en vul deze, samen met je code, in op je inlever template.

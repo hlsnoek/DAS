@@ -29,7 +29,7 @@ In de vergelijkingen hierboven hebben we maar één afhankelijke parameter gezie
 Twee filmpjes die het principe van de kleinste kwadraten goed illustreren vind je <a href="https://www.youtube.com/watch?v=YwZYSTQs-Hk">hier</a> en <a href = "https://www.youtube.com/watch?v=0T0z8d0_aY4">hier</a>. 
 
 
-In opgave B3.A ga je het principe van de kleinste kwadraten toepassen.
+In opgave M3.A ga je het principe van de kleinste kwadraten toepassen.
 
 
 
