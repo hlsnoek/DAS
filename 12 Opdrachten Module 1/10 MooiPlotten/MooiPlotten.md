@@ -70,8 +70,10 @@ Als je tevreden bent met het resultaat kun je het histogram opslaan door de laat
 
 	plt.savefig('M1.1_MooiPlotten.png')   
 
-> Open nu het [inlevertemplate](/opdrachten-module-1/opdrachten/InlevertemplateModule1.docx) voor Module 1, kopieer daar je histogram en beantwoord de volgende vragen: 
+> Open nu het [inlevertemplate](/opdrachten-module-1/opdrachten/InlevertemplateModule1.docx) voor Module 1.
 > 
+> **M1.1a** Plaats hier je histogram.  
+> **M1.1b** Valt je iets op aan de data?
 
 Als je alle opdrachten voor module 1 hebt gemaakt kun je de opdrachten en code inleveren via de ANS website. Bij de laatste opgave voor module 1 vind je hier meer informatie over. Zorg in elk geval dat je de code die je hier gemaakt hebt bewaard.
 
