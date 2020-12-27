@@ -1,29 +1,34 @@
 ## M1.3 - Eigenschappen van distributies **
 
-In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen) van distributies en deze veranderen als een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en poisson distributies. <br>
+In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen) van distributies en deze veranderen als een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en poisson distributies. 
+
+Download voor deze opdracht het bestand [M1.3_Eigenschappen.py](M1.3_Eigenschappen.py) zorg dat deze in dezelfde folder staat as het `DAS_DatasetGenerator.py` bestand. 
 
 #### Normale distributie
-Je krijgt een Gaussische dataset $$\text{dg}(x)$$ met 500 punten. <br>
+We beginnen met het maken van een Gaussische dataset $$\text{dg}(x)$$ met 500 punten. Deze maken we aan met de functie **`genereerDistributieDG(N)`** waarbij **`N`** het aantal datapunten is die we willen genereren. We kiezen voor een dataset met 500 punten.
 
  			dg = ds.genereerDistributieDG(500) 
 
-Download het bestand [M1.3_Eigenschappen.py](M1.3_Eigenschappen.py) zorg dat deze in dezelfde folder staat as het `DAS_DatasetGenerator.py` bestand. <br>
+Deze regel code vind je in het `M1.3_Eigenschappen.py` bestand.
 
-> * Schrijf nu een functie die de volgende punten uitrekent voor deze dataset:
+> Schrijf nu een functie die de volgende statistieken uitrekent voor deze dataset:
+> 
 > 	* het gemiddelde
 > 	* de mediaan
 > 	* de variantie
 > 	* de standaard deviatie
->
-> * Wat verwacht je dat er gebeurd met deze variabelen als je een dataset met 2 maal zoveel waardes (1000) krijgt? Quantificeer je resultaat. Probeer dit nu uit. Klopt het resultaat met je verwachting?<br> 
-> 
+
+
+
+ Wat verwacht je dat er gebeurd met deze variabelen als je een dataset met 2 maal zoveel waardes (1000) krijgt? Quantificeer je resultaat. Probeer dit nu uit. Klopt het resultaat met je verwachting?<br> 
+
 > **NB:** Het is de bedoeling dat je de formules zelf programmeert. Je mag geen gebruik maken van standaard functies van python die dit direct voor je teruggeven. Uiteraard mag je wel gebruiken maken van functies als **`len()`** en **`sort()`**.
 
 We gaan nu kijken naar het effect van een translatie van de dataset.
 
-> * Genereer een nieuwe dataset en manipuleer de waardes in de dataset met de volgende translatie: <br>
+> * Genereer een nieuwe dataset en manipuleer de waardes in de dataset met de volgende translatie: 
 > $$ x' = x + 2$$<br>
-> * Plot nu de originele en de getransleerde dataset over elkaar heen.
+> * Plot nu de originele en de getransleerde dataset over elkaar heen. Controleer of de punten inderdaad zijn opgeschoven.
 > 
 > * Welke van de eigenschappen verwacht je dat er veranderen? Controleer dit door voor de originele en getransleerde dataset alle variabelen uit te rekenen.
 

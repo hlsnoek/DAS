@@ -74,7 +74,7 @@ Als je tevreden bent met het resultaat kun je het histogram opslaan door de laat
 
 > Open nu het [inlevertemplate](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/InlevertemplateModule1.docx) voor Module 1 en beantwoord de volgende twee vragen:. 
 > 
-> **M1.1a)  Plaats hier je histogram.**    
+> **M1.1a)  Plaats hier je histogram.**    <br>
 >   
 > **M1.1b) Valt je iets op aan de data?**
 

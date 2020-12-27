@@ -50,7 +50,8 @@ We gaan dit experiment nu simuleren. Om stochastische (ook wel toevallige of ran
 	import random
 	from random import seed
 
-Zet nu de *seed* van de random nummer generator op 1. Zo is de simulatie herhaalbaar onder steeds dezelfde condities. Dat wil zeggen dat het programma steeds dezelfde random getallen genereert. 
+Zet nu de *seed* van de random nummer generator op 1.  
+Zo is de simulatie herhaalbaar onder steeds dezelfde condities. Dat wil zeggen dat het programma steeds dezelfde random getallen genereert. 
 
 	np.random.seed(1)   # dit zet de seed in de random generator op 1.
 
