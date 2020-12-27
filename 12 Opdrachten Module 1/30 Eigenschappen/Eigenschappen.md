@@ -37,12 +37,12 @@ Nu gaan we kijken naar het effect van een vermenigvuldiging van x.
 >  $$ x' = 2x$$
 > 
 > - Plot nu de gemultipliceerde dataset toe aan je plot zodat je de originele, de translatie en multiplicatie in 1 figuur ziet. 
-
-> **M1.3b) Maak nu een plot waar de drie histogrammen voor de normaalverdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**  
 >
-> **M1.3c) Maak een tabel met de vier berekende statistieken voor de 3 normaalverdelingen. Let goed op de notatie.**  
+> - **M1.3b) Maak nu een plot waar de drie histogrammen voor de normaalverdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**  
 >
-> **M1.3d) Welke van de statistieken veranderen en hoe?**
+> - **M1.3c) Maak een tabel met de vier berekende statistieken voor de 3 normaalverdelingen. Let goed op de notatie.**  
+>
+> - **M1.3d) Welke van de statistieken veranderen en hoe?**
 
 
 
