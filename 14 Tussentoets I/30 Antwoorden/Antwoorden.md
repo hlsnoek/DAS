@@ -71,15 +71,16 @@ NB Meestal weten we het echte gemiddelde niet en kunnen dan ook de fout niet exa
 $${\displaystyle P(k=6;n=10,p=1/6) = \frac{10!}{6!(4)!} (1/6)^6 (5/6)^{4} = 0.0022} $$
 </span><br>
 **b** Wat is de kans dat je precies 1 keer een 6 gooit?<br>
-<span style = 'color:blue'> P(k=1;n-10,p=1/6) = 0.32 </span><br>
+<span style = 'color:blue'> P(k=1;n=10,p=1/6) = 0.32 </span><br>
 **c** Wat is de kans dat je minder dan 3 keer een 6 gooit?<br>
-<span style = 'color:blue'> P(<3 een zes) = P(0;10,1/6) + P(1;10,1/6) + P(2;10,1/6) = 0.162 + 0.323 + 0.291 = 0.78 </span><br>
+<span style = 'color:blue'> P(<3maal een zes) = P(0;10,1/6) + P(1;10,1/6) + P(2;10,1/6) = 0.162 + 0.323 + 0.291 = 0.78 </span><br>
+**d** Wat is de kans dat vaker dan 2 keer een 6 gooit?<br>
+<span style = 'color:blue'> P(>2maal  een zes) = 1-0.78 = 0.22 </span><br>
 
 -----
 
-
 **10** Een raketschild houdt 99% van de raketten tegen. <br>
-**a** Als de tegenstander 20 raketten worden afgevuurd, wat is dan de kans dat het raketschild alle 20 tegen houdt? <br>
+**a** Als door de tegenstander 20 raketten worden afgevuurd, wat is dan de kans dat het raketschild alle 20 tegen houdt? <br>
 <span style= 'color:blue'> $$P = 0.99^{20} =  0.82$$</span><br>
 **b** Als er 50 raketten worden afgevuurd door de tegenstander, hoeveel raketten worden er dan gemiddeld tegengehouden? <br>
 <span style = 'color:blue'> $$E = 50\cdot 0.99 = 49.5$$ </span>
