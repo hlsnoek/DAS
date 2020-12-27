@@ -11,61 +11,50 @@ We beginnen met het maken van een Gaussische dataset $$\text{dg}(x)$$ met 500 pu
 
 Deze regel code vind je in het `M1.3_Eigenschappen.py` bestand.
 
-> Schrijf nu een functie die de volgende statistieken uitrekent voor deze dataset:
+> Schrijf een functie die de volgende statistieken uitrekent voor deze meetwaardes in de dataset:
 > 
 > 	* het gemiddelde
 > 	* de mediaan
 > 	* de variantie
 > 	* de standaard deviatie
 
+**NB:** Het is de bedoeling dat je de formules zelf programmeert. Je mag geen gebruik maken van standaard functies van python die dit direct voor je teruggeven. Uiteraard mag je wel gebruiken maken van functies als **`len()`** en **`sort()`**.
 
-
- Wat verwacht je dat er gebeurd met deze variabelen als je een dataset met 2 maal zoveel waardes (1000) krijgt? Quantificeer je resultaat. Probeer dit nu uit. Klopt het resultaat met je verwachting?<br> 
-
-> **NB:** Het is de bedoeling dat je de formules zelf programmeert. Je mag geen gebruik maken van standaard functies van python die dit direct voor je teruggeven. Uiteraard mag je wel gebruiken maken van functies als **`len()`** en **`sort()`**.
+**M1.3a) Stel nu dat je de dataset vergroot en dat je niet 500 maar 1000 meetwaardes hebt in je set. Wat denk je dan dat er gebeurt met elk van deze statistieken? Schrijf hier eerst op wat je verwacht, kwantificeer het resultaat waar het kan.**
 
 We gaan nu kijken naar het effect van een translatie van de dataset.
 
-> * Genereer een nieuwe dataset en manipuleer de waardes in de dataset met de volgende translatie: 
-> $$ x' = x + 2$$<br>
-> * Plot nu de originele en de getransleerde dataset over elkaar heen. Controleer of de punten inderdaad zijn opgeschoven.
-> 
-> * Welke van de eigenschappen verwacht je dat er veranderen? Controleer dit door voor de originele en getransleerde dataset alle variabelen uit te rekenen.
+> * Kopieer de originele dataset en manipuleer de waardes in de dataset met de volgende translatie: 
+> $$ x' = x + 2$$
+
+> Plot nu de originele en de getransleerde dataset over elkaar heen. Controleer of de punten inderdaad zijn opgeschoven.
+
+> Welke van de eigenschappen verwacht je dat er veranderen? Controleer dit door voor de originele en getransleerde dataset alle variabelen uit te rekenen.
 
 Nu gaan we kijken naar het effect van een multiplicatie van x.
 
-> * Neem nu de originele dataset en manipuleer de waardes met de volgende multiplicatie: <br>
+> Kopieer de originele dataset en manipuleer de waardes met de volgende multiplicatie: <br>
 >  $$ x' = 2x$$
-> * Plot nu de gemultipliceerde dataset toe aan aan je plot zodat je de originele, de translatie en multiplicatie in 1 figuur ziet. 
-> 
-> * Welke van de eigenschappen verwacht je dat er veranderen? Controleer dit door voor de originele en getransleerde dataset alle variabelen uit te rekenen. Presenteer je resultaten in een tabel op het inlevertemplate. 
+> Plot nu de gemultipliceerde dataset toe aan aan je plot zodat je de originele, de translatie en multiplicatie in 1 figuur ziet. 
+
+**M1.3b) Maak nu een plot waar de drie histogrammen voor de Normaal verdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**
+
+**M1.3c) Maak een tabel met de vier berekende statistieken voor de 3 Normaal verdelingen. Let goed op de notatie.**
+
+**M1.3d) Welke van de statistieken veranderen en hoe?**
+
+
 
 #### Poisson
-We gaan nu kijken wat het effect is van translatie en multiplicatie op een poisson distributie.
+We gaan nu kijken wat het effect is van translatie en multiplicatie op een Poisson distributie $$dp(x)$$. De Poisson distributie krijg je door de volgende functie aan te roepen.
 
-> * Genereer een dataset $$dp$$ met 500 punten: <br>
-> 
 > 			dp = ds.genereerDistributieDP(500)
-> 
-> * Bepaal dezelfde eigenschappen van deze distributie als dat je voor de Normale distributie hebt gedaan.
-> * Wat verwacht je als je een dataset met 2 maal zoveel waardes (1000) krijgt? Quantificeer je resultaat. Probeer dit nu uit. Klopt het resultaat met je verwachting?<br> 
 
-We kijken eerst weer naar de effecten van een translatie: 
+Herhaal nu de vragen b-d voor de Poisson verdeling: 
 
-> * Genereer een nieuwe dataset en manipuleer de waardes in de dataset met de volgende translatie: <br>
-> $$ x' = x + 2$$<br>
-> * Plot nu de originele en de getransleerde dataset over elkaar heen.
-> 
-> * Welke van de eigenschappen verwacht je dat er veranderen? Controleer dit door voor de originele en getransleerde dataset alle variabelen uit te rekenen.
+**M1.3e) Maak nu een plot waar de drie histogrammen voor de Poisson verdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**
 
-Nu gaan we kijken naar het effect van een multiplicatie van x.
+**M1.3f) Maak een tabel met de vier berekende statistieken voor de 3 Poisson verdelingen. Let goed op de notatie.**
 
-> * Neem nu de originele dataset en manipuleer de waardes met de volgende multiplicatie: <br>
->  $$ x' = 2x$$
-> * Plot nu de gemultipliceerde dataset toe aan aan je plot zodat je de originele, de translatie en multiplicatie in 1 figuur ziet. 
-> 
-> * Welke van de eigenschappen verwacht je dat er veranderen? Controleer dit door voor de originele en getransleerde dataset alle variabelen uit te rekenen.
+**M1.3g) Welke van de statistieken veranderen en hoe?**
 
-Tot slot: 
-
-> Voeg al je resultaten en je code toe aan je inlever document.

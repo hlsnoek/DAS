@@ -1,6 +1,5 @@
-
 # Author: Hella Snoek
-# Date: Nov 2019
+# Date: Jan 2021
 # Code for Data Analyse en Statistiek course
 
 import DAS_DatasetGenerator as ds
