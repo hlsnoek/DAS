@@ -1,5 +1,5 @@
 # Author: Hella Snoek
-# Date: Nov 2019
+# Date: Dec 2020
 # Code for Data Analyse en Statistiek course
 
 from random import seed
@@ -147,3 +147,33 @@ def GroteAantallenFitSetGenerator() :
     std_err = [(std[0])/np.sqrt(200) for s in range(0,len(std))]
     return 1/np.sqrt(N),std,std_err
     
+def onbekendeFunctie(x) :
+    f = 40+5*m.sin((0.5*x)+5)
+    return f
+
+def OnbekendeFunctieGenerator() :
+    checkSD()
+    np.random.seed(1)
+    x = np.arange(0,10,1)
+    y = [np.random.poisson(onbekendeFunctie(xi)) for xi in x]
+    yerr = np.sqrt(y)
+    return x,y,yerr
+
+def normpdf(x, mean, sd):
+    var = float(sd)**2
+    denom = (2*m.pi*var)**.5
+    num = m.exp(-(float(x)-float(mean))**2/(2*var))
+    return num/denom
+
+def DeeltjesDataset() :
+    checkSD()
+    np.random.seed(1)
+    mu = 100+student_nummer%100
+    x = np.arange(80,220,5)
+    y1 = np.random.poisson(400* (0.5)**(x/100))
+    y2 = [np.random.poisson(150*5*normpdf(xi,mu,5)) for xi in x]
+    return x, y1+y2, np.sqrt(y1+y2)
+
+def SpiekenM0() :
+    checkSD()
+    return 100+student_nummer%100
