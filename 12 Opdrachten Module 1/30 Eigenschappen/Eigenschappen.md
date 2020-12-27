@@ -25,22 +25,22 @@ Deze regel code vind je in het `M1.3_Eigenschappen.py` bestand.
 We gaan nu kijken naar het effect van een translatie van de dataset.
 
 > - Kopieer de originele dataset en manipuleer de waardes in de dataset met de volgende translatie: 
-> $$ x' = x + 2$$
+> $$ x' = x + 2$$<br><br>
 > 
-> - Plot daarna de originele en de getransleerde dataset over elkaar heen. Controleer of de punten inderdaad zijn opgeschoven.
+> - Plot daarna de originele en de getransleerde dataset over elkaar heen. Controleer of de punten inderdaad zijn opgeschoven.<br><br>
 >
 > - Welke van de eigenschappen verwacht je dat er veranderen? Controleer dit door voor de originele en getransleerde dataset alle variabelen uit te rekenen.
 
 Nu gaan we kijken naar het effect van een vermenigvuldiging van x.
 
-> - Kopieer de originele dataset en manipuleer de waardes met de volgende multiplicatie: <br>
->  $$ x' = 2x$$
+> - Kopieer de originele dataset en manipuleer de waardes met de volgende multiplicatie:  
+>  $$ x' = 2x$$<br>
 > 
-> - Plot nu de gemultipliceerde dataset toe aan je plot zodat je de originele, de translatie en multiplicatie in 1 figuur ziet. 
+> - Plot nu de gemultipliceerde dataset toe aan je plot zodat je de originele, de translatie en multiplicatie in 1 figuur ziet. <br><br>
 >
-> - **M1.3b) Maak nu een plot waar de drie histogrammen voor de normaalverdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**  
+> - **M1.3b) Maak nu een plot waar de drie histogrammen voor de normaalverdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**  <br><br>
 >
-> - **M1.3c) Maak een tabel met de vier berekende statistieken voor de 3 normaalverdelingen. Let goed op de notatie.**  
+> - **M1.3c) Maak een tabel met de vier berekende statistieken voor de 3 normaalverdelingen. Let goed op de notatie.**  <br><br>
 >
 > - **M1.3d) Welke van de statistieken veranderen en hoe?**
 
