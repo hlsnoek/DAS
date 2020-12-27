@@ -53,11 +53,11 @@ We gaan nu kijken wat het effect is van translatie en multiplicatie op een Poiss
 
 Herhaal nu de vragen b-d voor de Poisson verdeling: 
 
-> **M1.3e) Maak nu een plot waar de drie histogrammen voor de Poisson verdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**  
+> - **M1.3e) Maak nu een plot waar de drie histogrammen voor de Poisson verdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**  <br><br>
 >
 >
-> **M1.3f) Maak een tabel met de vier berekende statistieken voor de 3 Poisson verdelingen. Let goed op de notatie.**  
+> - **M1.3f) Maak een tabel met de vier berekende statistieken voor de 3 Poisson verdelingen. Let goed op de notatie.**  <br><br>
 >
 >
-> **M1.3g) Welke van de statistieken veranderen en hoe?**
+> -**M1.3g) Welke van de statistieken veranderen en hoe?**
 
