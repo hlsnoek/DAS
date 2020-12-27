@@ -29,10 +29,9 @@ Eerst kijken we naar de regel:
 	
 hier wordt de dataset met de **gemeten kogel gewichten (in grammen)** aangemaakt waarbij de elementen dus een normaalverdeling volgen. We gaan eerst kijken naar de gehele dataset.
 
-**M1.4a) Laat zien dat de waardes in de dataset een normaalverdeling volgen. Doe dit door de waardes te plotten in een *histogram*. Zorg dat het histogram er netjes uitziet en dat je de as-labels ook aanmaakt. Kijk eventueel naar de code van opgave M1.1 om te zien hoe je dat moet doen.**
-
-
-**M1.4b) Reken het gemiddelde, $$\mu$$, en de standaarddeviatie, $$\sigma$$, uit van de gehele set metingen. Let bij het noteren van het resultaat op de notatieregels. Programmeer dit zelf uit (en maak dus geen gebruik van functies in python libraries die dit voor je kunnen doen). Je kan je functie uit opdracht M1.3 natuurlijk weer opnieuw gebruiken.**
+> - **M1.4a) Laat zien dat de waardes in de dataset een normaalverdeling volgen. Doe dit door de waardes te plotten in een *histogram*. Zorg dat het histogram er netjes uitziet en dat je de as-labels ook aanmaakt. Kijk eventueel naar de code van opgave M1.1 om te zien hoe je dat moet doen.**<br><br>
+>
+> - **M1.4b) Reken het gemiddelde, $$\mu$$, en de standaarddeviatie, $$\sigma$$, uit van de gehele set metingen. Let bij het noteren van het resultaat op de notatieregels. Programmeer dit zelf uit (en maak dus geen gebruik van functies in python libraries die dit voor je kunnen doen). Je kan je functie uit opdracht M1.3 natuurlijk weer opnieuw gebruiken.**
 
 We gaan nu simuleren dat we steeds meer datapunten hebben in onze dataset. We willen weten wat het gevonden kogel gewicht is na $1, 2, 3 ... n$ metingen. Hoe verandert het gevonden gemiddelde van de dataset als we nog een extra kogel gewicht eraan toevoegen?
 
@@ -42,7 +41,7 @@ We gaan nu simuleren dat we steeds meer datapunten hebben in onze dataset. We wi
 
 Nu gaan we de functie **`maakSetGemiddeldes()`** afmaken. Deze functie geeft twee lijsten terug: ***N*** en ***gemiddeldes***. **N** loopt van 1 tot het aantal punten in de originele set_gauss dataset en  ***gemiddeldes*** waarin steeds het gemiddelde over de eerste **N** meetwaardes in de dataset wordt berekend. Controleer of de functie goed werkt door bijvoorbeeld de gevonden gemiddeldes uit te printen.
 
-**M1.4c) Maak nu een grafiek met op de horizontale as *N* en op de verticale as de bijbehorende berekende gemiddelde waarde. Als je nu de grafiek afleest bij N=2 dan is het de bedoeling dat je op de verticale as het gemiddelde afleest over de eerste twee punten van de dataset. Let goed op het goed leesbaar maken van de grafiek.**
-
-**M1.4d) Beschrijf in de grafiek wat er gebeurt. Is dit wat je verwacht had? Waarom wel of waarom niet?**
+> - **M1.4c) Maak nu een grafiek met op de horizontale as *N* en op de verticale as de bijbehorende berekende gemiddelde waarde. Als je nu de grafiek afleest bij N=2 dan is het de bedoeling dat je op de verticale as het gemiddelde afleest over de eerste twee punten van de dataset. Let goed op het goed leesbaar maken van de grafiek.**<br><br>
+> 
+> - **M1.4d) Beschrijf in de grafiek wat er gebeurt. Is dit wat je verwacht had? Waarom wel of waarom niet?**
 

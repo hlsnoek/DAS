@@ -8,7 +8,7 @@ We hebben een opstelling gemaakt waarmee we steeds per tijdsinterval van 2 minut
 
 <!--XX als het nog lukt een plaatje maken-->
 
-**M1.5a) Welke kansverdeling volgt de onzekerheid op de telling van de Geiger-Müller telbuis? Als we bijvoorbeeld N counts hebben gemeten, hoe groot is dan de onzekerheid op de centrale waarde N? Beredeneer je antwoord.**
+> - **M1.5a) Welke kansverdeling volgt de onzekerheid op de telling van de Geiger-Müller telbuis? Als we bijvoorbeeld N counts hebben gemeten, hoe groot is dan de onzekerheid op de centrale waarde N? Beredeneer je antwoord.**
 
 De intensiteit van de $$\gamma$$-bron, $$I(d)$$, hangt af van de dikte lood (in cm) die tussen de bron en de telbuis is geplaatst. Deze volgt de volgende vergelijking:
 
@@ -33,26 +33,25 @@ Je kan nu met de volgende code de foutenvlaggen plotten.
 
          plt.errorbar(diktes,counts, yerr=fouten, fmt = 'o', label='"data"')
 
-**M1.5b) Maak de grafiek met meetwaardes en foutenvlaggen. Let goed op de leesbaarheid van de grafiek, gebruik hiervoor de richtlijnen.**
+> - **M1.5b) Maak de grafiek met meetwaardes en foutenvlaggen. Let goed op de leesbaarheid van de grafiek, gebruik hiervoor de richtlijnen.**
 
 We gaan nu de halfwaardedikte bepalen met de volgende methode. We kijken eerst naar het punt $$N_0$$ dus het aantal counts als er geen loodplakken zijn geplaatst. Nu zoeken we de eerste dikte, $$d$$, in de grafiek waarvoor geldt dat $$N\leq 0.5 \times N_0$$.
 
-**M1.5c) Bepaal nu met de hierboven beschreven methode de halfwaardedikte (in cm). Dit is natuurlijk makkelijk met de hand te doen maar programmeer het ook, dat hebben we in een latere opdracht nog nodig.**
+> - **M1.5c) Bepaal nu met de hierboven beschreven methode de halfwaardedikte (in cm). Dit is natuurlijk makkelijk met de hand te doen maar programmeer het ook, dat hebben we in een latere opdracht nog nodig.**
 
 Beantwoord nu de volgende vragen:
 
-**M1.5d) Hoe groot denk je dat de onzekerheid is op de bepaalde halfwaardedikte? Probeer dit te kwantificeren, schrijf niet alleen de geschatte waarde op maar leg ook uit hoe je tot die waarde bent gekomen.**
-
-
-**M1.5e) Wat voor soort kans distributie zou de onzekerheid op de halfwaardedikte beschrijven? Leg uit hoe je tot je antwoord komt en als je het niet weet, beredeneer dan waarom je het niet weet.**
-
-**M1.5f) Is de methode om de halfwaardedikte te meten zuiver (Engels: unbiased), dat wil zeggen vind je niet steeds juist een te hoge of te lage waarde? Zo nee, waarom denk dat je dat dit niet zo is. Zo ja, kun je een manier bedenken om de onzuiverheid te verminderen?**
-
-**M1.5g) Stel dat de halfwaardedikte veel kleiner is dan de waarde die je nu gevonden hebt. Zou dit experiment dan nog hebben gewerkt? Wanneer wordt dit een probleem, kwantificeer je antwoord?**
-
-**M1.5h) Hoe zou je dit experiment willen verbeteren. Dit kunnen verbeteringen zijn aan de kant van de opstelling maar ook aan de kant van de data analyse. Noem een verbetering voor de opstelling en een voor de data analyse.**
-
-**M1.5i) Iemand suggereert dat het experiment ook wel sneller kan worden uitgevoerd door in plaats van 2 minuten, steeds 1 minuut per keer te meten met de Geiger-Müller telbuis. Dat scheelt een hoop meettijd. Is dit een goed idee?**
+> - **M1.5d) Hoe groot denk je dat de onzekerheid is op de bepaalde halfwaardedikte? Probeer dit te kwantificeren, schrijf niet alleen de geschatte waarde op maar leg ook uit hoe je tot die waarde bent gekomen.**<br><br>
+>
+> - **M1.5e) Wat voor soort kans distributie zou de onzekerheid op de halfwaardedikte beschrijven? Leg uit hoe je tot je antwoord komt en als je het niet weet, beredeneer dan waarom je het niet weet.**<br><br>
+> 
+> - **M1.5f) Is de methode om de halfwaardedikte te meten zuiver (Engels: unbiased), dat wil zeggen vind je niet steeds juist een te hoge of te lage waarde? Zo nee, waarom denk dat je dat dit niet zo is. Zo ja, kun je een manier bedenken om de onzuiverheid te verminderen?**<br><br>
+>
+> - **M1.5g) Stel dat de halfwaardedikte veel kleiner is dan de waarde die je nu gevonden hebt. Zou dit experiment dan nog hebben gewerkt? Wanneer wordt dit een probleem, kwantificeer je antwoord?**<br><br>
+> 
+> - **M1.5h) Hoe zou je dit experiment willen verbeteren. Dit kunnen verbeteringen zijn aan de kant van de opstelling maar ook aan de kant van de data analyse. Noem een verbetering voor de opstelling en een voor de data analyse.**<br><br>
+> 
+> - **M1.5i) Iemand suggereert dat het experiment ook wel sneller kan worden uitgevoerd door in plaats van 2 minuten, steeds 1 minuut per keer te meten met de Geiger-Müller telbuis. Dat scheelt een hoop meettijd. Is dit een goed idee?**
 
 
 
