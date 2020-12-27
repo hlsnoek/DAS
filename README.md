@@ -9,20 +9,25 @@ Welkom bij het vak Data Analyse en Statistiek. In dit vak leer je de basisprinci
 
 Dit vak bestaat uit 4 hoorcolleges en 7 laptopcolleges. Voor het cijfer tellen de inleveropdrachten en de tussentoetsen mee. Voor het halen van dit vak moet je minimaal een 5,5 halen voor zowel het gemiddelde van de inleveropdrachten, als voor het gemiddelde van de tussentoetsen. 
 
+### Docenten
+De coördinator en docent voor dit vak is Hella Snoek. Via Canvas kun je vragen stellen. Marthe Schut is betrokken bij het opzetten van de website.
+De assistenten voor 2021 zijn: Maris Koopmans, Steven Lageveen, Maaike Bakker, Rosa Sinaasappel en Maarten Both. 
+
+
 ### Voorbereiding
 Bereid je vast voor op dit vak door te zorgen dat python goed geïnstalleerd is. Volg hiervoor deze [instructies](/informatie/installatie).
 Zorg dat je ook even het testprogrammaatje draait die je aan het einde van deze instructies vindt, dan weet je zeker dat je meteen aan de slag kunt. 
 
 ### Hoorcolleges
 
-In hoorcolleges bespreekt de docent de theorie van Data analyse en Statistiek waarmee je de werkcollege opgaven kunt oplossen en die je voorbereidt op de toetsjes. 
+In hoorcolleges bespreekt de docent de theorie van Data analyse en Statistiek waarmee je de laptopcollege opgaven kunt oplossen en die je voorbereidt op de toetsjes. 
 
 ### Inleveropdrachten
-Tijdens de werkcolleges werk je aan de inlever opdrachten die horen bij dit vak. Deze opdrachten moet je ook inleveren voor een cijfer. Voor de opdrachten van elke module is een deadline. Als je deze deadline niet haalt trekken we **2 punten per dag af**. Aanwezigheid op de werkcolleges is verplicht, tenzij het werk voor die module al is ingeleverd via ANS.
+Tijdens de laptopcolleges werk je aan de inlever opdrachten die horen bij dit vak. Deze opdrachten moet je ook inleveren voor een cijfer. Voor de opdrachten van elke module is een deadline. Als je deze deadline niet haalt trekken we **2 punten per dag af**. Aanwezigheid op de laptopcolleges is verplicht, tenzij het werk voor die module al is ingeleverd via ANS.
 Informatie over de inleveropdrachten vind je [hier](/informatie/inleveropdrachten). Het gemiddelde van de inleveropdrachten tellen voor 80% mee aan het eindcijfer, je moet minimaal een 5,5 halen voor het gemiddelde van de opdrachten om het vak te halen. Om voor de herkansing in aanmerking te komen dienen alle inleveropdrachten te zijn ingeleverd.
 
 ### Tussentoetsen
-Aaan het einde van de hoorcolleges in week 2, 3 en 4 vindt een tussentoets plaats. Deze toetsen moet je met een voldoende (minimaal een 5,5) afronden om het vak te halen, het gemiddelde van de toetsen wegen voor 20% mee in het eindcijfer. Meer informatie over de tussentoetsen vind je [hier](/informatie/tussentoetsen). 
+Aan het einde van de hoorcolleges in week 2, 3 en 4 vindt een tussentoets plaats. Deze toetsen moet je met een voldoende (minimaal een 5,5) afronden om het vak te halen, het gemiddelde van de toetsen wegen voor 20% mee in het eindcijfer. Meer informatie over de tussentoetsen vind je [hier](/informatie/tussentoetsen). 
 
 
 ### Boeken
@@ -34,7 +39,7 @@ J.R. Taylor, 1997, 'An introduction to error analysis', University Science Books
 ### Herkansingen
 Het opnieuw insturen van opdrachten is niet meer mogelijk na de deadline of zodra deze zijn nagekeken.
 
-Let op! De toetsvorm van de herkansing staat voor dit jaar nog niet vast. Het zal afhangen van de Corona regels op dat moment en de hoeveelheid studenten die een herkansing wil. 
+Let op! De toets vorm van de herkansing staat voor dit jaar nog niet vast. Het zal afhangen van de Corona regels op dat moment en de hoeveelheid studenten die een herkansing wil. 
 
 Zorg wel dat je alle inleveropdrachten op tijd hebt ingeleverd, anders mag je niet meedoen aan de herkansing!
 
