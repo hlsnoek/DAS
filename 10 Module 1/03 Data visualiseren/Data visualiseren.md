@@ -10,7 +10,7 @@ Als je data visualiseert dan is het de bedoeling dat iemand anders deze goed kan
 
 De richtlijnen zijn geen regels. Er zijn altijd uitzonderlijke datasets die erom vragen om af te wijken van de richtlijnen. Blijf dus altijd goed nadenken over wat je doet en waarom. 
 
-Afhankelijk van wat voor soort metingen je hebt genomen kies je uit een grafiek, een scatterplot, een staaf diagram of een histogram. Elk van deze data visualisatie methodes worden hieronder besproken. 
+Afhankelijk van wat voor soort metingen je hebt genomen kies je uit een grafiek, een scatterplot, een staafdiagram of een histogram. Elk van deze data visualisatie methodes worden hieronder besproken. 
 
 ## Grafieken & Scatterplots
 
@@ -84,7 +84,7 @@ Hieronder zie je voorbeelden van een staafdiagram en een histogram.
 
 ![](autos-in-nederland.png){: width="80%"}<br>
 
-Hierboven zie je een **staafdiagram** die de hoeveelheid autos in Nederland laat zien over drie verschillende jaren opgesplitst naar drie auto categorieën. 
+Hierboven zie je een **staafdiagram** die de hoeveelheid auto's in Nederland laat zien over drie verschillende jaren opgesplitst naar drie auto categorieën. 
 
 ![](verdeling-van-inkomens-2.png){: width="80%"}<br>
 
@@ -94,7 +94,7 @@ Er is een belangrijk verschil tussen een staafdiagram en een histogram. Een staa
 
 Bij het weergeven van data in een histogram wordt de data gegroepeerd in intervallen. De breedte van de staven (in het vervolg 'bins' genoemd) geeft de breedte van de intervallen. 
 
-Bij een staafdiagram kun je de frequentie direct aflezen; voor één categorie lees je op de as af hoe vaak deze voorkomt. Voor een histogram is de frequentie gelijk aan het oppervlakte van de balken, en dus afhankelijk van de bin breedte.
+Bij een staafdiagram kun je de frequentie direct aflezen; voor één categorie lees je op de as af hoe vaak deze voorkomt. Voor een histogram is de frequentie gelijk aan de oppervlakte van de balken, en dus afhankelijk van de bin breedte.
 
 ### Breedte van de bins bij een histogram
 
@@ -134,8 +134,8 @@ Bij het bepalen van het optimale aantal bins en de optimale bin breedte is het b
 	* Een staafdiagram gebruik je als de meetwaarden discreet zijn gecategoriseerd, bijvoorbeeld in het soort auto of per kleur. 
 	* Een histogram gebruik je voor variabelen die numeriek geordend kunnen worden, zoals bijvoorbeeld variabelen met integer of continue waardes.
 
-2.  Als je de relatie tussen twee variabelen wilt tonen kies je voor een grafiek of een scatter plot. 
-	*	Je gebruikt een grafiek als de afhankelijke variabele (meestal de langs de x-as) unieke waardes kent. Dus voor een bepaalde waarde van x is maar één uitkomst van y mogelijk. Andersom zijn er wellicht meerdere waardes voor x voor een bepaalde gemeten grootheid y. Bijvoorbeeld de gemeten temperatuur om 12 uur 's middags op een bepaalde lokatie. Er kan maar 1 gemeten temperatuur bestaan.
+2.  Als je de relatie tussen twee variabelen wilt tonen kies je voor een grafiek of een scatterplot. 
+	*	Je gebruikt een grafiek als de afhankelijke variabele (meestal de langs de x-as) unieke waardes kent. Dus voor een bepaalde waarde van x is maar één uitkomst van y mogelijk. Andersom zijn er wellicht meerdere waardes voor x voor een bepaalde gemeten grootheid y. Bijvoorbeeld de gemeten temperatuur om 12 uur 's middags op een bepaalde locatie. Er kan maar 1 gemeten temperatuur bestaan.
 	*  Je gebruikt een scatterplot als er geen unieke waarde is per afhankelijke variabele. Bijvoorbeeld als je de lengte van een student meet in relatie met de leeftijd. Er zijn waarschijnlijk meerdere studenten met dezelfde leeftijd in de groep die hoogstwaarschijnlijk in lengte van elkaar verschillen.
 
 	

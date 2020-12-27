@@ -33,7 +33,7 @@ We gaan nu Poisson distributies met python grafisch weergeven. Download het best
 
 
 ###Uniforme distributie
-We gaan nu kijken naar de uniforme distributie en simuleren een experiment dobbelstenen gooien. We gaan er vanuit dat we een zuivere dobbelsteen hebben die precies gelijke kansen heeft om op een willekeurige vlak terecht te komen.
+We gaan nu kijken naar de uniforme distributie en simuleren een experiment dobbelstenen gooien. We gaan ervan uit dat we een zuivere dobbelsteen hebben die precies gelijke kansen heeft om op een willekeurige vlak terecht te komen.
 
 Beantwoord de volgende vragen:  
 

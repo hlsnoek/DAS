@@ -82,14 +82,14 @@ Hieronder een aantal voorbeelden:
 | 255 | 2 cijfers | $$2.6 \cdot 10^{2}$$ |
 | 34590 | 2 cijfers | $$3.5 \cdot 10^{4}$$ |
 
-**Let op!** Bij natuurkundige resultaten is het vaak                                 netter om het getal aan te passen aan een eenheid. Stel dat je een lengte meet, dan kan het netjes zijn om in plaats van $$9.2 \times 10^2$$ meter, $$0.92$$ km te schrijven. De significantie blijft in dit geval hetzelfde. Gebruik de instructies hierboven als richtlijnen en niet als regels. Soms is het beter om er van af te wijken, maar denk er wel over na!
+**Let op!** Bij natuurkundige resultaten is het vaak                                 netter om het getal aan te passen aan een eenheid. Stel dat je een lengte meet, dan kan het netjes zijn om in plaats van $$9.2 \times 10^2$$ meter, $$0.92$$ km te schrijven. De significantie blijft in dit geval hetzelfde. Gebruik de instructies hierboven als richtlijnen en niet als regels. Soms is het beter om ervan af te wijken, maar denk er wel over na!
 
 
 
 
 ###Hoeveel significante cijfers noteren?
 
-Het is dus belangrijk om niet teveel en niet te weinig  **significante getallen** gebruiken als je een resultaat noteert. 
+Het is dus belangrijk om niet te veel en niet te weinig  **significante getallen** gebruiken als je een resultaat noteert. 
 
 Voor het noteren van een meetresultaat hanteren we de volgende regel:
 

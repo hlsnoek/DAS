@@ -1,6 +1,6 @@
 ## M1.3 - Eigenschappen van distributies **
 
-In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen) van distributies en deze veranderen als een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en poisson distributies. 
+In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen) van distributies en deze veranderen als een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en Poisson distributies. 
 
 Download voor deze opdracht het bestand [M1.3_Eigenschappen.py](M1.3_Eigenschappen.py) zorg dat deze in dezelfde folder staat as het `DAS_DatasetGenerator.py` bestand. 
 
@@ -35,11 +35,11 @@ Nu gaan we kijken naar het effect van een multiplicatie van x.
 
 > Kopieer de originele dataset en manipuleer de waardes met de volgende multiplicatie: <br>
 >  $$ x' = 2x$$
-> Plot nu de gemultipliceerde dataset toe aan aan je plot zodat je de originele, de translatie en multiplicatie in 1 figuur ziet. 
+> Plot nu de gemultipliceerde dataset toe aan je plot zodat je de originele, de translatie en multiplicatie in 1 figuur ziet. 
 
-**M1.3b) Maak nu een plot waar de drie histogrammen voor de Normaal verdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**
+**M1.3b) Maak nu een plot waar de drie histogrammen voor de normaalverdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**
 
-**M1.3c) Maak een tabel met de vier berekende statistieken voor de 3 Normaal verdelingen. Let goed op de notatie.**
+**M1.3c) Maak een tabel met de vier berekende statistieken voor de 3 normaalverdelingen. Let goed op de notatie.**
 
 **M1.3d) Welke van de statistieken veranderen en hoe?**
 
