@@ -7,10 +7,13 @@
 
 <center>18.3 19.7 20.4 19.2 18.7 19.4 17.6 20.6 18.5 20.2</center>
 
-**a**  Bereken het gemiddelde, de mediaan, de standaard deviatie en de variantie.<br>
-<span style = "color:blue"> Het gemiddelde is 19.26 jaar, de mediaan is 19.3 jaar, de standaard deviatie is 0.94 jaar, de variantie is 0.88 jaar$$^2$$.</span><br>
-**b** De docent van de groep is 44.5 jaar oud. Bereken nu het gemiddelde, de standaard deviatie en de variantie waarbij je de leeftijd van de docent ook meeneemt. <Br>
-<span style = "color: blue"> Het gemiddelde is 21.6 jaar, de mediaan is 19.4 jaar, de standaard deviatie is 7.3 jaar en de variantie is 53.4 jaar$$^2$$. NB Zie je dat het gemiddelde niet veel groter is geworden maar de standaard deviatie en de variantie wel?</span>
+**a**  Bereken het gemiddelde, de mediaan, de standaarddeviatie en de variantie.<br>
+<span style = "color:blue"> Het gemiddelde is 19.3 jaar, de mediaan is 19.3 jaar, de standaarddeviatie is 0.936 jaar, de variantie is 0.876 $$\textrm{jaar}^2$$.</span><br>
+**b** De docent van de groep is 44.5 jaar oud.  
+Bereken nu opnieuw het gemiddelde, de standaarddeviatie en de variantie waarbij je de leeftijd van de docent ook meeneemt. <br>
+<span style = "color: blue"> Het gemiddelde is 21.6 jaar, de mediaan is 19.4 jaar,  
+de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.   
+NB Zie je dat het gemiddelde niet veel groter is geworden maar de standaard deviatie en de variantie wel?</span>
 
 -----
 
@@ -21,7 +24,8 @@
 -----
 
 **3** Een bepaald soort knikkers heeft een gemiddelde diameter van 1.4 cm met een variantie van 0.2 cm$$^2$$. We willen de gemiddelde diameter bepalen en meten hiervoor de diameter van een enkele knikker op en vinden 1.5 cm. Wat is de fout op deze meting en wat is de onzekerheid? <br>
-<span style="color:blue"> De fout op de meting is de afstand van de gemeten waarde tot het gemiddelde: 0.1 cm. De onzekerheid is de wortel van de variantie: $$\sqrt{0.2}$$ cm. NB Meestal weten we het echte gemiddelde niet en kunnen dan ook de fout niet exact bepalen.</span>
+<span style="color:blue"> De fout op de meting is de afstand van de gemeten waarde tot het gemiddelde: 0.1 cm. De onzekerheid is de wortel van de variantie: $$\sqrt{0.2}$$ cm.  
+NB Meestal weten we het echte gemiddelde niet en kunnen dan ook de fout niet exact bepalen.</span>
 
 -----
 
@@ -37,7 +41,7 @@
 **a** Als je een snoepje uit de zak pakt, wat is de kans dat je een rood snoepje pakt?<br>
 <span style = "color: blue">4/10 = 0.4 </span><br>
 **b** Als je een snoepje uit de zak pakt, wat is dan de kans dat je een rood snoepje pakt met de tekst Joepie?<br>
-<span style = "color: blue">P(rood,joepie) = 0.4 x 0.5 = 0.2 </span>
+<span style = "color: blue">P(rood en joepie) = 0.4 x 0.5 = 0.2 </span>
 
 -----
 
@@ -50,14 +54,14 @@
 -----
 
 **7** We definiëren een stochast, $$x$$, als de waarde van de worp van een eerlijke dobbelsteen. Wat is de verwachtingswaarde van deze stochast? <br>
-<span style = "color: blue"> $$E(x) = 3.5$$.</span>
+<span style = "color: blue"> $$\bar{x} = \frac{1}{6} \sum_{i=1}^{n=6} x_i = \frac{1}{6} \cdot (1+2+3+4+5+6) = \frac{21}{6} = 3.5$$.</span>
 
 
 -----
 
 
-**8** We hebben een plankje. Aan een kant van het plankje zetten we een 1, aan de andere kant een 2. We laten het plankje 1000 keer vallen van steeds dezelfde hoogte en we houden bij welke kant boven ligt als het plankje gevallen is. Van de 1000 keer ligt nummer 1 slechts 327 keer boven. Geef de uitkomst *kansen* grafisch weer.<br>
-![](exampleplank.png){:inline :width="50%"}<span style = 'color:blue'> We gebruiken de Frequentist kans: P(1) = 327/1000 = 0.327 en de complement-regel dat P(2)= 1- P(1) = 0.673.</span>
+**8** We hebben een plankje. Aan een kant van het plankje zetten we een 1, aan de andere kant een 2. We laten het plankje 1000 keer vallen van steeds dezelfde hoogte en we houden bij welke kant boven ligt als het plankje gevallen is. Van de 1000 keer ligt nummer 1 slechts 327 keer boven. Geef de kans verdeling van de twee uitkomsten grafisch weer.<br>
+![](exampleplank.png){:inline :width="30%"}<span style = 'color:blue'> We gebruiken de Frequentist kans: P(1) = 327/1000 = 0.327 en de complement-regel dat P(2)= 1- P(1) = 0.673.</span>
 
 -----
 
@@ -76,14 +80,14 @@ $${\displaystyle P(k=6;n=10,p=1/6) = \frac{10!}{6!(4)!} (1/6)^6 (5/6)^{4} = 0.00
 
 **10** Een raketschild houdt 99% van de raketten tegen. <br>
 **a** Als de tegenstander 20 raketten worden afgevuurd, wat is dan de kans dat het raketschild alle 20 tegen houdt? <br>
-<span style= 'color:blue'> $$P = 0.99^{20} =  0.817$$</span><br>
+<span style= 'color:blue'> $$P = 0.99^{20} =  0.82$$</span><br>
 **b** Als er 50 raketten worden afgevuurd door de tegenstander, hoeveel raketten worden er dan gemiddeld tegengehouden? <br>
 <span style = 'color:blue'> $$E = 50\cdot 0.99 = 49.5$$ </span>
 
 
 -----
 
-**11** In een bel centrum komen gemiddeld 100 telefoontjes per dag. <br>
+**11** In een call-center komen gemiddeld 100 telefoontjes per dag. <br>
 **a** Wat is de verwachte onzekerheid op het aantal telefoontjes per dag?<br>
 <span style = 'color:blue'> Gebruik de Poisson verdeling: $$\sigma = \sqrt{100} = 10$$.</span><br>
 **b** Als er op een dag 70 telefoontjes binnenkomen. Is dat gek?<br>
