@@ -25,13 +25,14 @@ de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 
 -----
 
-**3** Een bepaald soort knikkers heeft een gemiddelde diameter van 1.4 cm met een variantie van 0.2 cm$$^2$$. We willen de gemiddelde diameter bepalen en meten hiervoor de diameter van een enkele knikker op en vinden 1.5 cm. Wat is de fout op deze meting en wat is de onzekerheid? <br>
+**3** Een bepaald soort knikkers heeft een gemiddelde diameter van 1.4 cm met een variantie van 0.2 $$\text{cm}^2$$. We willen de gemiddelde diameter bepalen en meten hiervoor de diameter van een enkele knikker op en vinden 1.5 cm. Wat is de fout op deze meting en wat is de onzekerheid? <br>
 
 
 
 -----
 
-**4** We trekken kaarten uit een kaartendek.<br>
+**4** We trekken kaarten uit een kaartendek.<br><br>
+
 **a** Als we 1 kaart trekken, wat is dan de kans dat we een hartenkaart trekken?<br>
 
 **b** Als we 1 kaart trekken, wat is dan de kans dat we een hartenkaart of een schoppenkaart pakken?<br>
@@ -39,7 +40,7 @@ de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 
 -----
 
-**5** We hebben een zak met gekleurde snoepjes met een tekst erop. Er zijn 6 blauwe snoepjes en 4 rode. Er bestaan drie teksten: "Joepie", "Hoera!" en "Gefeliciteerd". De kans verdeling onder de rode snoepjes is P(Joepie) = 0.5 en P(Hoera) = 0.5. Er zijn geen rode snoepjes met gefeliciteerd. <br>
+**5** We hebben een zak met gekleurde snoepjes met een tekst erop. Er zijn 6 blauwe snoepjes en 4 rode. Er bestaan drie teksten: "Joepie", "Hoera!" en "Gefeliciteerd". De kans verdeling onder de rode snoepjes is P(Joepie) = 0.5 en P(Hoera) = 0.5. Er zijn geen rode snoepjes met gefeliciteerd. <br><br>
 **a** Als je een snoepje uit de zak pakt, wat is de kans dat je een rood snoepje pakt?<br>
 
 **b** Als je een snoepje uit de zak pakt, wat is dan de kans dat je een rood snoepje pakt met de tekst Joepie?<br>
@@ -47,7 +48,7 @@ de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 
 -----
 
-**6** Uit een experiment zijn 3 uitkomsten mogelijk voor de gedefinieerde stochast X: {0,1,2}. De kans op uitkomst 0 is: P(0)= 0.56. De kans op uitkomst 2 is P(2) = 0.34.<br>
+**6** Uit een experiment zijn 3 uitkomsten mogelijk voor de gedefinieerde stochast X: {0,1,2}. De kans op uitkomst 0 is: P(0)= 0.56. De kans op uitkomst 2 is P(2) = 0.34.<br><br>
 **a** Wat is de uitkomstenverzameling van X?<br>
 
 **b** Wat is de kans op uitkomst P(1)?<br>
@@ -68,6 +69,7 @@ de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 -----
 
 **9** Je gooit 10 keer met een dobbelsteen. <br>
+
 **a** Wat is de kans dat je precies 6 keer een 6 gooit? <br>
 
 **b** Wat is de kans dat je precies 1 keer een 6 gooit?<br>
@@ -80,6 +82,7 @@ de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 -----
 
 **10** Een raketschild houdt 99% van de raketten tegen. <br>
+
 **a** Als door de tegenstander 20 raketten worden afgevuurd, wat is dan de kans dat het raketschild alle 20 tegen houdt? <br>
 
 **b** Als er 50 raketten worden afgevuurd door de tegenstander, hoeveel raketten worden er dan gemiddeld tegengehouden? <br>
@@ -89,6 +92,7 @@ de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 -----
 
 **11** In een call-center komen gemiddeld 100 telefoontjes per dag. <br>
+
 **a** Wat is de verwachte onzekerheid op het aantal telefoontjes per dag?<br>
 
 **b** Als er op een dag 70 telefoontjes binnenkomen. Is dat gek?<br>
@@ -97,6 +101,7 @@ de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 -----
 
 **12** In een stad gebeuren jaarlijks 1020 ongelukken. Het afgelopen jaar zijn er maar 900 ongelukken geweest. De autoriteiten claimen dat dit komt door nieuwe regels in het verkeer. <br>
+
 **a** Denk je dat deze verklaring klopt?<br>
 
 **b** Als de getallen tien keer zo klein zouden zijn (102 en 90), zou je denken dat de verklaring dan nog klopt?<br>
@@ -105,6 +110,7 @@ de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 -----
 
 **13** We verwachten op een dag gemiddeld 4.3 poststukken bij een klein bedrijf. <br>
+
 **a** Op een dag komen er wel 7 binnen. Reken de kans uit dat dit gebeurt. <br>
 
 **b** Reken de kans uit dat er 0 binnenkomen. <br>
