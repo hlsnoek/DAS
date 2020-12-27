@@ -1,7 +1,7 @@
 ##Introductie module 2
 
-Deze week verdiepen we ons in het concept meetonzekerheid. We [leren](/module-2/foutenpropagatie) hoe we onzekerheden kunnen doorrekenen in vergelijkingen. We zien hoe [onzekerheden veranderen](/module-2/wet-van-grote-aantallen) als we meer meetpunten aan onze dataset toevoegen. We kijken ook naar relaties tussen onzekerheden in [meerdimensionale datasets](/module-2/meerdimensionale-data). We introduceren ook de [laatste kans rekenregels](/module-2/extra-kansrekenregels) die vooral voor multidimensionale data belangrijk is. 
+Deze week verdiepen we ons in het concept meetonzekerheid. We leren hoe we [onzekerheden kunnen doorrekenen](/module-2/foutenpropagatie) in vergelijkingen. We zien hoe [onzekerheden veranderen](/module-2/wet-van-grote-aantallen) als we meer meetpunten aan onze dataset toevoegen. We kijken ook naar relaties tussen onzekerheden in [meerdimensionale datasets](/module-2/meerdimensionale-data), en we introduceren de [laatste kans rekenregels](/module-2/extra-kansrekenregels) die vooral voor multidimensionale data belangrijk is. 
 
 
-We werken in de werkcolleges aan de opdrachten van deze module [M2](/opdrachten-module-2/opdrachten). Je vindt in het [schema](/informatie/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
+We werken in de laptopcolleges aan de opdrachten van deze module [M2](/opdrachten-module-2/opdrachten). Je vindt in het [schema](/informatie/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
 Vergeet ook niet te kijken naar het [oefenmateriaal](/module/tussentoets-ii/inhoud) voor de tweede tussentoets. De tweede tussentoets volgt aan het einde van het derde hoorcollege.
