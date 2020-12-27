@@ -11,7 +11,7 @@ Hieronder vind je een lijstje met de stof die je moet kennen. Gebruik deze om te
 
 - Het verschil tussen de populatie en een steekproef, tussen een parameter en een statistiek.
 - De definities (en eventueel formules) van: het gemiddelde, de mediaan, de modus.
-- De definities (en eventueel formules) van: de range, de standaarddeviatie, de variantie, de variatiecoëfficient.
+- De definities (en eventueel formules) van: de range, de standaarddeviatie, de variantie, de variatiecoëfficiënt.
 
 ### Significantie en Wetenschappelijke notatie [link](/module-1/notatie)
 - Weten wat significantie is.
