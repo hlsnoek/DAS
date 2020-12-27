@@ -1,42 +1,48 @@
 ## M1.4 - Grote Aantallen \*\*\*
 
 
-We hebben een enorme ton kogeltjes en we willen weten hoe zwaar een enkele kogel uit de ton is. De kogels zijn, door variaties in het productieproces, echter niet allemaal precies even zwaar. Het gewicht van de kogels zijn **normaal** ofwel **Gaussisch** verdeeld. We willen graag weten wat het ***typische*** gewicht is van een kogel uit deze ton. 
+We hebben een enorme ton kogeltjes en we willen weten hoe zwaar een enkele kogel uit de ton is. De kogels zijn, door variaties in het productieproces, niet allemaal precies even zwaar. Het gewicht van de kogels zijn **Normaal** ofwel **Gaussisch** verdeeld. We willen graag weten wat het ***typische*** gewicht is van een kogel uit deze ton. 
 Er zit ook een onzekerheid op de meting, maar die is veel kleiner dat de variatie in de kogelgewichten en mogen we negeren.
 
-Het is teveel werk om alle kogels apart te wegen, dus we doen een steekproef. We nemen eerst een enkele kogel en wegen die. Omdat we niet weten wat de spreiding is in het gewicht van de kogels, kunnen we nu ook nog niet weten hoe representatief het gewicht van deze enkele kogel is voor het gemiddelde gewicht.
+Het is teveel werk om alle kogels apart te wegen, dus we nemen een steekproef. We nemen eerst een enkele kogel en wegen die. Omdat we niet weten wat de spreiding is in het gewicht van de kogels, kunnen we nu ook nog niet weten hoe representatief het gewicht van deze enkele kogel is voor het gemiddelde gewicht.
 
+We doen daarom nog een tweede meting. Nu kunnen we de resultaten van deze twee metingen vergelijken en een eerste schatting doen van de onzekerheid op de gemeten waardes. Deze schatting op de spreiding van kogel gewichten is natuurlijk nog erg onnauwkeurig. We weten niet hoe groot de fout is op de grootheid die we willen meten, namelijk het ***typische*** gewicht.
 
-We doen daarom nog een meting. Nu kunnen we de resultaten van deze twee metingen vergelijken en een eerste schatting doen van de onzekerheid op de gemeten waardes. Deze schatting op de spreiding van kogel gewichten is natuurlijk nog erg onnauwkeurig. We weten niet hoe groot de fout is op de grootheid die we willen meten, namelijk het ***typische*** gewicht.
+We herhalen het experiment daarom nog een paar keer en elke keer kijken we naar het gemiddelde van de metingen die we hebben gedaan. Uiteindelijk kunnen we een de distributie van de metingen bekijken en bepalen wat de standaarddeviatie is van de verdeling. Nu hebben we eindelijk een maat voor de nauwkeurigheid van een enkele meting.
 
-We herhalen het experiment daarom nog een paar keer en elke keer kijken we naar het gemiddelde van de metingen die we hebben gedaan. Uiteindelijk kunnen we een de distributie van de metingen bekijken en bepalen wat de standaard deviatie is van de verdeling. Nu hebben we eindelijk een maat voor de nauwkeurigheid van een enkele meting.
+Doordat we nu eigenlijk heel veel metingen hebben genomen is de nauwkeurigheid op het gemiddelde, en zo de nauwkeurigheid van de grootheid die we wilden bepalen een heel stuk verbeterd. Intuïtief snappen we dat hoe meer kogeltjes we wegen uit de ton hoe beter we weten wat het gemiddelde is van de kogeltjes in de ton.
 
-Doordat we nu eigenlijk heel veel metingen hebben genomen is de nauwkeurigheid op het gemiddelde, en zo de nauwkeurigheid van de grootheid die we wilden bepalen een heel stuk verbeterd. Intuïtief snappen we dat hoe meer kogeltjes we wegen uit de ton hoe beter we weten wat het gemiddelde is van alle kogeltjes in de ton.
+De Wet van de Grote Aantallen zegt dat als we een verdeling hebben van random (stochastische) waardes, en deze verdeling een mathematisch goed gedefinieerd gemiddelde heeft, dat het gemiddelde van een steeds grotere dataset uiteindelijk convergeert. Dit betekent dus dat als de dataset aan de voorwaarde voldoet, we een steeds nauwkeuriger beeld hebben van wat het gemiddelde van de data is. We komen hier later nog uitgebreid op terug.
 
-De wet van de grote aantallen zegt dat als we een verdeling hebben van random (stochastische) waardes, en deze verdeling een mathematisch goed gedefinieerd gemiddelde heeft, dat het gemiddelde van een steeds grotere dataset uiteindelijk convergeert. Dit betekent dus dat als de dataset aan de voorwaarde voldoet, we een steeds nauwkeuriger beeld hebben van wat het gemiddelde van de data is. We komen hier later nog uitgebreid op terug.<br>
+We gaan onze metingen nu simuleren om een gevoel te krijgen hoe de wet van grote aantallen werkt.
 
-We gaan dit nu simuleren om een gevoel te krijgen hoe de wet van grote aantallen werkt. <br>
 
 > Download het volgende bestand in je werkfolder op de computer: [M1.4_GroteAantallen.py](M1.4_GroteAantallen.py).
-Zorg dat dit bestand in dezelfde folder staat als de DAS_DatasetGenerator.py file die je in opgave M1.1 al hebt gebruikt.
+Zorg dat dit bestand in dezelfde folder staat als de `DAS_DatasetGenerator.py` file die je in opgave M1.1 al hebt gebruikt.
 
 
-In M1.4_GroteAantallen.py bestand zie je eerst een aantal functies (**`berekenGemiddelde()`**, **`maakSetGemiddelde()`**) die gaan we **later pas** gebruiken. <br>
-Eerst kijken we naar de regel
+In `M1.4_GroteAantallen.py` bestand zie je eerst een aantal functies (**`berekenGemiddelde()`**, **`maakSetGemiddelde()`**) die gaan we **later pas** gebruiken.  
 
-	set_gauss = ds.DataSetGroteAantallen() 
+Eerst kijken we naar de regel:
+
+	set_gauss = ds.DataSetGroteAantallen(),
 	
-Hier wordt de dataset met de **gemeten kogel gewichten (in grammen)** aangemaakt waarbij de elementen dus een normaal verdeling volgen. We gaan eerst kijken naar de gehele dataset.
+hier wordt de dataset met de **gemeten kogel gewichten (in grammen)** aangemaakt waarbij de elementen dus een normaalverdeling volgen. We gaan eerst kijken naar de gehele dataset.
 
-> * Laat zien dat de waardes in de dataset een Normaal verdeling volgen. Doe dit door de waardes te plotten in een *histogram*. Zorg dat het histogram er netjes uitziet en dat je de as-labels ook aanmaakt. Kijk eventueel naar de code van opgave M1.1 om te zien hoe je dat moet doen.
-> * Reken het gemiddelde, $$\mu$$, en de standaard deviatie, $$\sigma$$, uit van de gehele set metingen. Programmeer dit zelf uit (en maak dus geen gebruik van functies in python libraries die dit voor je kunnen doen). Je kan je functie uit opdracht M1.3 natuurlijk weer opnieuw gebruiken.
+**M1.4a) Laat zien dat de waardes in de dataset een normaalverdeling volgen. Doe dit door de waardes te plotten in een *histogram*. Zorg dat het histogram er netjes uitziet en dat je de as-labels ook aanmaakt. Kijk eventueel naar de code van opgave M1.1 om te zien hoe je dat moet doen.**
 
+
+**M1.4b) Reken het gemiddelde, $$\mu$$, en de standaarddeviatie, $$\sigma$$, uit van de gehele set metingen. Let bij het noteren van het resultaat op de notatieregels. Programmeer dit zelf uit (en maak dus geen gebruik van functies in python libraries die dit voor je kunnen doen). Je kan je functie uit opdracht M1.3 natuurlijk weer opnieuw gebruiken.**
 
 We gaan nu simuleren dat we steeds meer datapunten hebben in onze dataset. We willen weten wat het gevonden kogel gewicht is na $1, 2, 3 ... n$ metingen. Hoe verandert het gevonden gemiddelde van de dataset als we nog een extra kogel gewicht eraan toevoegen?
 
-> * Voltooi nu eerst de functie **`berekenGemiddelde(dataset,n)`**. Als je de functie aanroept met n=2 dan is de bedoeling dat functie het gemiddelde uitrekent over de *eerste twee punten in de dataset*.<br>
-> **TIP:** Controleer de functie door het resultaat van bijvoorbeeld n=4 met de hand na te rekenen.
-> * Nu gaan we de functie **`maakSetGemiddeldes()`** afmaken. Deze functie geeft twee lijsten terug: ***N*** en ***gemiddeldes***. **N** loopt van 1 tot het aantal punten in de originele set_gauss dataset en  ***gemiddeldes*** waarin steeds het gemiddelde over de eerste **n** meetwaardes in de dataset wordt berekend. Controleer of de functie goed werkt door bijvoorbeeld de gevonden gemiddeldes uit te printen.
-> * Laat de resultaten nu in een grafiek zien. 
-> * Vergelijk je resultaten van de histogram en je grafiek. Is dit wat je verwacht hebt? 
-> * Voeg alle resultaten en je code toe aan je inlever document. Als je klaar bent met al je opdrachten lever dan je werk in via ANS.
+> Voltooi nu eerst de functie **`berekenGemiddelde(dataset,n)`**. Als je de functie aanroept met n=2 dan is de bedoeling dat functie het gemiddelde uitrekent over de *eerste twee punten in de dataset*, bij n=3 over de eerste drie datapunten etc. 
+ 
+**TIP:** Controleer of de functie goed werkt door het resultaat van bijvoorbeeld n=4 met de hand na te rekenen.
+
+Nu gaan we de functie **`maakSetGemiddeldes()`** afmaken. Deze functie geeft twee lijsten terug: ***N*** en ***gemiddeldes***. **N** loopt van 1 tot het aantal punten in de originele set_gauss dataset en  ***gemiddeldes*** waarin steeds het gemiddelde over de eerste **N** meetwaardes in de dataset wordt berekend. Controleer of de functie goed werkt door bijvoorbeeld de gevonden gemiddeldes uit te printen.
+
+**M1.4c) Maak nu een grafiek met op de horizontale as *N* en op de verticale as de bijbehorende berekende gemiddelde waarde. Als je nu de grafiek afleest bij N=2 dan is het de bedoeling dat je op de verticale as het gemiddelde afleest over de eerste twee punten van de dataset. Let goed op het goed leesbaar maken van de grafiek.**
+
+**M1.4d) Beschrijf in de grafiek wat er gebeurt. Is dit wat je verwacht had en waarom?**
+
