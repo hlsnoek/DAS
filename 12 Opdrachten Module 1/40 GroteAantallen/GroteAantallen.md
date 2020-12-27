@@ -4,7 +4,7 @@
 We hebben een enorme ton kogeltjes en we willen weten hoe zwaar een enkele kogel uit de ton is. De kogels zijn, door variaties in het productieproces, niet allemaal precies even zwaar. Het gewicht van de kogels zijn **Normaal** ofwel **Gaussisch** verdeeld. We willen graag weten wat het ***typische*** gewicht is van een kogel uit deze ton. 
 Er zit ook een onzekerheid op de meting, maar die is veel kleiner dat de variatie in de kogelgewichten en mogen we negeren.
 
-Het is teveel werk om alle kogels apart te wegen, dus we nemen een steekproef. We nemen eerst een enkele kogel en wegen die. Omdat we niet weten wat de spreiding is in het gewicht van de kogels, kunnen we nu ook nog niet weten hoe representatief het gewicht van deze enkele kogel is voor het gemiddelde gewicht.
+Het is te veel werk om alle kogels apart te wegen, dus we nemen een steekproef. We nemen eerst een enkele kogel en wegen die. Omdat we niet weten wat de spreiding is in het gewicht van de kogels, kunnen we nu ook nog niet weten hoe representatief het gewicht van deze enkele kogel is voor het gemiddelde gewicht.
 
 We doen daarom nog een tweede meting. Nu kunnen we de resultaten van deze twee metingen vergelijken en een eerste schatting doen van de onzekerheid op de gemeten waardes. Deze schatting op de spreiding van kogel gewichten is natuurlijk nog erg onnauwkeurig. We weten niet hoe groot de fout is op de grootheid die we willen meten, namelijk het ***typische*** gewicht.
 
@@ -44,5 +44,5 @@ Nu gaan we de functie **`maakSetGemiddeldes()`** afmaken. Deze functie geeft twe
 
 **M1.4c) Maak nu een grafiek met op de horizontale as *N* en op de verticale as de bijbehorende berekende gemiddelde waarde. Als je nu de grafiek afleest bij N=2 dan is het de bedoeling dat je op de verticale as het gemiddelde afleest over de eerste twee punten van de dataset. Let goed op het goed leesbaar maken van de grafiek.**
 
-**M1.4d) Beschrijf in de grafiek wat er gebeurt. Is dit wat je verwacht had en waarom?**
+**M1.4d) Beschrijf in de grafiek wat er gebeurt. Is dit wat je verwacht had? Waarom wel of waarom niet?**
 
