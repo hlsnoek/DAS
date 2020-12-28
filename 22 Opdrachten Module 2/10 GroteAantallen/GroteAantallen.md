@@ -17,7 +17,7 @@ Je hebt nu een **`list`** die **`datasets`** heet met 100 items. Elke item is ee
 > 
 > - **M2.1b) Wat is het gemiddelde, $$g_1$$, en de standaarddeviatie $$s_1$$ van dit histogram?** 
  
-We gaan nu experimenten vergelijken waarin we steeds het gemiddelde over de eerste 10 metingen ($$g_10$) hebben berekend. 
+We gaan nu experimenten vergelijken waarin we steeds het gemiddelde over de eerste 10 metingen ($$g_{10}$$) hebben berekend. 
 
 > - **M2.1c) Bereken voor elk van de 100 datasets het gemiddelde over de eerste 10 metingen en laat de distributie van deze gemiddeldes $$g_{10}$$ zien in een histogram.** <br><br>
 >
@@ -28,7 +28,7 @@ We gaan dit nu herhalen voor met verschillende groottes van $$n$$. Maak een func
 
 Roep nu de functie aan voor de volgende waardes van $$n$$: 1, 5, 10, 20, 30, 40, 50, 60. 
 
-> - **M2.1e) Maak nu een grafiek waarin je de berekende standaarddeviaties $$s_{g_n}$$ uitzet tegen de grootte van de steekproeven, $$n$.** <br><br>
+> - **M2.1e) Maak nu een grafiek waarin je de berekende standaarddeviaties $$s_{g_n}$$ uitzet tegen de grootte van de steekproeven, $$n$$.** <br><br>
 >  
 > - **M2.1f) Maak een nieuwe grafiek waarin je de berekende $$s_{g_n}$$ uitzet tegen $$1/\sqrt{n}$$.**<br><br>
 > 
