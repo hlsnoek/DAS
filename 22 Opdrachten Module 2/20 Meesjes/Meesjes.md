@@ -41,7 +41,7 @@ Met deze informatie kunnen we nu met de Frequentist Methode de kans uitrekenen d
 
 We doen nu hetzelfde voor het pimpelmeesje. 
 
-> - **M2.2d) Gebruik nu de dataset `m_pm` om de kans $$P({m_\text{obs}} >|{\text{pimpelmees}})$$ uit te rekenen.**<br><br>
+> - **M2.2d) Gebruik nu de dataset `m_pm` om de kans $$P({m_\text{obs}}|{\text{pimpelmees}})$$ uit te rekenen.**<br><br>
 > 
 > - **M2.2e) Wat denk je nu dat het voor vogeltje is?**
 
@@ -52,7 +52,7 @@ Je besluit ook de spanwijdte van de mees op te meten. Misschien geeft dat wel me
 De output volgt dezelfde logica als hiervoor.
 
 
-> - **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen $$P(w_{\text{obs}} 
+> - **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen $$P({w_{\text{obs}} 
 > | \text{koolmees} )$$ en $$P(w_{\text{obs}} 
 > | \text{pimpelmees} )$$ uit te rekenen maar nu door (alleen) gebruik te maken van de informatie van de spanwijdtes.**<br><br>
 > 
