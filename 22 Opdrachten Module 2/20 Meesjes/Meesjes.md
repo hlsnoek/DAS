@@ -4,7 +4,7 @@ Je vindt helaas een dood meesje in de tuin. Het lijkt op een koolmeesje maar het
 Er zijn <a href="https://www.tuinvogeltelling.nl/herkenningstips/?tip=17">manieren</a> om pimpelmeesjes van koolmeesjes te onderscheiden met behulp van uiterlijke kenmerken. Maar je bent een Natuurkundige en geen Bioloog. Online vind je een dataset met informatie over het massa en de spanwijdte van beide soorten meesjes.
 
 
-Download het bestand [M1.5_Halfwaardedikte.py](M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand.
+Download het bestand [M2.2_Meesjes.py](M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand.
 
 
 We genereren eerst een twee datasets met behulp van de volgende regel code: 
@@ -41,7 +41,7 @@ Met deze informatie kunnen we nu met de Frequentist Methode de kans uitrekenen d
 
 We doen nu hetzelfde voor het pimpelmeesje. 
 
-> - **M2.2d) Gebruik nu de dataset `m_pm` om de kans $$P({m_\text{obs}} |{\text{pimpelmees}} )$$ uit te rekenen.**<br><br>
+> - **M2.2d) Gebruik nu de dataset `m_pm` om de kans $$P({m_\text{obs}} >|{\text{pimpelmees}})$$ uit te rekenen.**<br><br>
 > 
 > - **M2.2e) Wat denk je nu dat het voor vogeltje is?**
 
@@ -52,7 +52,9 @@ Je besluit ook de spanwijdte van de mees op te meten. Misschien geeft dat wel me
 De output volgt dezelfde logica als hiervoor.
 
 
-> - **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen $$P(w_{\text{obs}} | \text{koolmees} )$$ en $$P(w_{\text{obs}} | \text{pimpelmees} )$$ uit te rekenen maar nu door (alleen) gebruik te maken van de informatie van de spanwijdtes.**<br><br>
+> - **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen $$P(w_{\text{obs}} 
+> | \text{koolmees} )$$ en $$P(w_{\text{obs}} 
+> | \text{pimpelmees} )$$ uit te rekenen maar nu door (alleen) gebruik te maken van de informatie van de spanwijdtes.**<br><br>
 > 
 > - **M2.2g) Op basis van deze informatie, wat denk je nu dat het voor vogeltje is?**
 
@@ -70,12 +72,14 @@ Het valt misschien op dat er een verband lijkt te zijn tussen beide variabelen. 
 
 We gaan terug naar de kansberekeningen. 
 
-> - **M2.2k) Combineer nu de gegevens en bereken de kansen $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} | \text{koolmees})}$$ en $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} | \text{pimpelmees})}$$.**<br><br>
+> - **M2.2k) Combineer nu de gegevens en bereken de kansen $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} 
+> | \text{koolmees})}$$ en $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} | \text{pimpelmees})}$$.**<br><br>
 > - **M2.2i) Welk vogeltje denk je nu dat het is? Beredeneer je antwoord.**
 
 Na al deze berekeningen lopen we een eindje in de tuin. Op de plek waar we eerder het meesje aantroffen zit nu een ander meesje hartstochtelijk te zingen. Aan de zang hoor je direct dat dit een pimpelmeesje is. Je schat in dat er een kans is van 90% dat dit pimpelmeesje bij het andere meesje hoorde, en dat dat dus ook een pimpelmees is. 
 
-> - **M2.2l) Bereken nu de kans dat het inderdaad een pimpelmeesje is geweest: $$P(\text{pimpelmees}| m_\text{obs} \text{ en } w_{\text{obs}}).$$**  
+> - **M2.2l) Bereken nu de kans dat het inderdaad een pimpelmeesje is geweest: $$P(\text{pimpelmees}
+> | m_\text{obs} \text{ en } w_{\text{obs}}).$$**  
 > TIP: Maak hierbij gebruik van de [vergelijking](/module-2/extra-kansrekenregels) van Bayes.
 
 
