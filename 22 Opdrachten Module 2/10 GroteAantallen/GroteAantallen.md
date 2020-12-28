@@ -1,7 +1,7 @@
 ## Opdracht M2.1 Grote Aantallen II \*\*
 We gaan verder kijken naar de ton met kogels uit opgave M1.4. 
 
-We namen een set van 80 kogels. We berekenen uit deze set van 80 kogels het gemiddelde, $$g_n = \bar{m_n}$$ over de eerste $$n$$ kogels van deze set. Zo krijgen we een distributie van $$g_n$$ versus $$n$$, net als in opgave M1.4.
+We namen een set van 80 kogels. We berekenen uit deze set van 80 kogels het gemiddelde, $$g_n = \overline{m_n}$$ over de eerste $$n$$ kogels van deze set. Zo krijgen we een distributie van $$g_n$$ versus $$n$$, net als in opgave M1.4.
 Maar nu gaan we dit steeds opnieuw herhalen. Als we alle waardes van $$g_n$$ hebben berekend, dan beginnen we weer opnieuw met een nieuwe set met 80 kogels. Dit herhalen we 100 keer. 
 We gaan er in deze opgave stap voor stap doorheen.
 
