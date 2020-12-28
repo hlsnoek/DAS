@@ -41,7 +41,7 @@ Met deze informatie kunnen we nu met de Frequentist Methode de kans uitrekenen d
 
 We doen nu hetzelfde voor het pimpelmeesje. 
 
-> - **M2.2d) Gebruik nu de dataset m_pm om de kans $$P({m_\text{obs}}
+> - **M2.2d) Gebruik nu de dataset `m_pm` om de kans $$P({m_\text{obs}}
 >  | {\text{pimpelmees}})$$ uit te rekenen.**<br><br>
 > 
 > - **M2.2e) Wat denk je nu dat het voor vogeltje is?**
