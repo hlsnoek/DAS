@@ -32,7 +32,7 @@ Roep nu de functie aan voor de volgende waardes van $$n$$: 1, 5, 10, 20, 30, 40,
 >  
 > - **M2.1f) Maak een nieuwe grafiek waarin je de berekende $$s_{g_n}$$ uitzet tegen $$1/\sqrt{n}$$.**<br><br>
 > 
-> -**M2.1g) Kun je iets zeggen over de grafieken? Beschrijf wat je ziet en probeer daar een conclusie uit te trekken.**
+> - **M2.1g) Kun je iets zeggen over de grafieken? Beschrijf wat je ziet en probeer daar een conclusie uit te trekken.**
 
 
 
