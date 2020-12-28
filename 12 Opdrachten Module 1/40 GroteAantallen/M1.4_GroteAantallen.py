@@ -15,10 +15,10 @@ def berekenGemiddelde(dataset, n) :
     return gemiddelde
 
 def maakSetGemiddeldes(dataset) :
-    N = []
+    n = []
     gemiddeldes = []
 
-    return N, gemiddeldes
+    return n, gemiddeldes
 
 
 set_gauss = ds.DataSetGroteAantallen() 
