@@ -17,7 +17,7 @@ Je hebt nu een **`list`** die **`datasets`** heet met 100 items. Elke item is ee
 > 
 > - **M2.1b) Wat is het gemiddelde, $$g_1$$, en de standaarddeviatie $$s_1$$ van dit histogram?** 
  
-We gaan nu experimenten vergelijken waarin we steeds het gemiddelde over de eerste 10 metingen ($$g_{10}$$) hebben berekend. 
+We gaan nu experimenten vergelijken waarin we steeds het gemiddelde over de eerste 10 metingen $$(g_{10})$$ hebben berekend. 
 
 > - **M2.1c) Bereken voor elk van de 100 datasets het gemiddelde over de eerste 10 metingen en laat de distributie van deze gemiddeldes $$g_{10}$$ zien in een histogram.** <br><br>
 >
