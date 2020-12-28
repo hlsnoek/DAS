@@ -4,7 +4,8 @@ Je vindt helaas een dood meesje in de tuin. Het lijkt op een koolmeesje maar het
 Er zijn <a href="https://www.tuinvogeltelling.nl/herkenningstips/?tip=17">manieren</a> om pimpelmeesjes van koolmeesjes te onderscheiden met behulp van uiterlijke kenmerken. Maar je bent een Natuurkundige en geen Bioloog. Online vind je een dataset met informatie over het massa en de spanwijdte van beide soorten meesjes.
 
 
-Download een nieuwe versie van de [DAS_DatasetGeneratory.py](DAS_DatasetGenerator.py) Deze kun je in principe gewoon overschrijven over het oude bestand. Voeg wel weer je studentnummer in. 
+Download het bestand [M1.5_Halfwaardedikte.py](M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand.
+
 
 We genereren eerst een twee datasets met behulp van de volgende regel code: 
 
@@ -12,46 +13,37 @@ We genereren eerst een twee datasets met behulp van de volgende regel code:
 	
 De variabelen hebben de volgende betekenis: 
 
-	m_km    :  de massa van een koolmeesje in gram
+	m_km    : de massa van een koolmeesje in gram
 	span_km : de spanwijdte van een koolmeesje in cm
 
 De laatste twee variabelen zijn de datapunten voor pimpelmeesjes. 
-De twee variabelen van de koolmeesjes horen bij elkaar. Van elk meesje in de dataset zijn zowel de massa als de spanwijdte gemeten. De dataset is zo geordend dat als je het n-de punt uit de $$\text{m_km}$$-lijst bij het n-de punt uit de $$\text{span_km}$$-lijst hoort. Dit zijn de gegevens van het n-de meesje. Pas dus op dat je de lijsten in de juiste volgorde houdt. 
+De twee variabelen van de koolmeesjes horen bij elkaar. Van elk meesje in de dataset zijn zowel de massa als de spanwijdte gemeten. De dataset is zo geordend dat als je het n-de punt uit de **`m_km`**-lijst bij het n-de punt uit de **`span_km`**-lijst hoort. Dit zijn de gegevens van het n-de meesje. Pas dus op dat je de lijsten in de juiste volgorde houdt! 
 Voor de twee variablen van de pimpelmeesjes geldt precies hetzelfde.
 
 
 We gaan eerst naar de twee massaverdelingen van de meesjes kijken. 
 
-> * Plot de massaverdelingen van beide meesjes in een histogram. Laat in een legenda zien welke meesje bij welke kleur hoort. 
-> * Bepaal van beide verdelingen de gemiddeldes en de varianties. 
+> - **M2.2a) Plot de massaverdelingen van beide meesjes in een histogram. Laat in een legenda zien welke meesje bij welke kleur hoort. Maak ook een apart histogram waarin je spanwijdtes van de twee soorten meesjes plot. Maak de twee histogrammen netjes af en zorg dat duidelijk is welke distributie bij welk soort meesje hoort.**<br><br>
+>  
+> - **M2.2b) Maak een tabel waarin je voor beide soorten meesjes de gemiddeldes, de standaarddeviaties en de varianties noteert. Let goed op de notatie en denk ook even aan de eenheden.**
 
-Nu gaan we kijken de verdeling van de spanwijdtes van de meesjes. 
-
-> * Plot de verdeling van de spanwijdtes van beide meesjes in een histogram. Laat in een legenda zien welke meesje bij welke kleur hoort. Natuurlijk maak je het histogram ook netjes af. 
-> * Bepaal van beide verdelingen de gemiddeldes en de varianties. 
-> (Het is handig als je dezelfde kleuren kiest als in de vorige opgave.)
 
 We meten nu de massa op van het meesje dat je gevonden hebt. Gebruik de volgende regel code om dat te doen: 
 
 		mees_m_laag, mees_m_hoog = ds.meetMassaMees()
 		
-Je krijgt nu een onderwaarde en een bovenwaarde (*mees_m_laag* en *mees_m_hoog*) terug. Deze geven de onzekerheid op de meting aan. Het gemiddelde van deze twee is de gemeten massa. De waarde van de massa van de mees ligt **zeker** tussen de boven- en onderwaarde in.
+Je krijgt nu een onderwaarde **`mees_m_laag`** en een bovenwaarde **`mees_m_hoog`** terug. Deze geven de onzekerheid op de meting aan. Het gemiddelde van deze twee is de gemeten massa, de centrale waarde. De waarde van de massa van de mees ligt **zeker** tussen de boven- en onderwaarde in.
 
 Met deze informatie kunnen we nu met de Frequentist Methode de kans uitrekenen dat onze mees een Koolmeesje is. 
 
-> * Gebruik de dataset *m_km* om de kans uit te rekenen dat je een koolmeesje vindt die een massa heeft die in het gebied $${\text{mees_m_laag}}$$ en $$\text{mees_m_hoog}$$ in ligt. Dit noem je ook wel de voorwaardelijke kans $$P(\text{mees_m_hoog < m < mees_m_laag} 
-> | \text{koolmees})$$. <br>
-> Voor het gemak noteren we dit even als $$P(m_{\text{obs}} 
-> | \text{koolmees} )$$.  
-
-
+> - **M2.2c) Gebruik de dataset `m_km` om de kans uit te rekenen dat je een koolmeesje vindt die een massa heeft die in het gebied `mees_m_laag` en `mees_m_hoog` in ligt. Dit noem je ook wel de voorwaardelijke kans $$P(\text{mees_m_hoog < m < mees_m_laag} 
+> | \text{koolmees})$$. Voor het gemak noteren we dit even als $$P(m_{\text{obs}} | \text{koolmees} )$$.**  
 
 We doen nu hetzelfde voor het pimpelmeesje. 
 
-
-> * Gebruik nu de dataset $$\text{m_pm}$$ om de kans $$P({m_\text{obs}} 
-> |{\text{pimpelmees}} )$$ uit te rekenen.
-> * Wat denk je nu dat het voor vogeltje is?
+> - **M2.2d) Gebruik nu de dataset `m_pm` om de kans $$P({m_\text{obs}} |{\text{pimpelmees}} )$$ uit te rekenen.**<br><br>
+> 
+> - **M2.2e) Wat denk je nu dat het voor vogeltje is?**
 
 Je besluit ook de spanwijdte van de mees op te meten. Misschien geeft dat wel meer uitsluitsel.
 
@@ -60,30 +52,30 @@ Je besluit ook de spanwijdte van de mees op te meten. Misschien geeft dat wel me
 De output volgt dezelfde logica als hiervoor.
 
 
-> * Gebruik dezelfde methode als hiervoor om beide kansen $$P(w_{\text{obs}} | \text{koolmees} )$$ en $$P(w_{\text{obs}} 
-> | \text{pimpelmees} )$$ uit te rekenen maar nu met (alleen) de informatie van de spanwijdtes.
-> Wat denk je nu dat het voor vogeltje is?
+> - **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen $$P(w_{\text{obs}} | \text{koolmees} )$$ en $$P(w_{\text{obs}} | \text{pimpelmees} )$$ uit te rekenen maar nu door (alleen) gebruik te maken van de informatie van de spanwijdtes.**<br><br>
+> 
+> - **M2.2g) Op basis van deze informatie, wat denk je nu dat het voor vogeltje is?**
 
-We kunnen nu natuurlijk ook de gecombineerde informatie gebruiken. 
+We kunnen nu natuurlijk ook de gecombineerde informatie gebruiken. Hiervoor gaan we eerst de data visualiseren.
 
-> * Plot de twee-dimensionale dataset van de massa versus de spanwijdte voor zowel de pimpelmezen als de koolmezen. <br>
+> - **M2.2h) Maak een twee-dimensionale scatterplot die de twee-dimensionale dataset van de massa versus de spanwijdte voor zowel de pimpelmezen als de koolmezen.**  
+>
 > **TIP** gebruik de opties **'o',markersize=3, alpha=0.4** in de plot functie. Zorg dat beide datasets weer hun eigen kleur hebben en vergeet de legenda niet. 
 
 Het valt misschien op dat er een verband lijkt te zijn tussen beide variabelen. We gaan daar eerst naar kijken naar [de co-variantie](/module-2/meerdimensionale-data) en de correlatie tussen de massa en de spanwijdte voor beide vogelsoorten. 
 
-> * Bereken de co-variantie en de correlatie tussen de massa en de spanwijdte voor beide distributies (koolmeesjes en pimpelmeesjes). 
-> * Als je naar de berekende correlaties kijkt wat valt dan op?
+> - **M2.2i) Bereken de co-variantie en de correlatie tussen de massa en de spanwijdte voor zowel de koolmeesje als de pimpelmeesjes meetgegevens.**<br><br>
+>  
+> - **M2.2j) Als je naar de berekende correlaties kijkt wat valt dan op, wat voor verband zit er tussen de twee variabelen?**<br><br>
 
 We gaan terug naar de kansberekeningen. 
 
-> * Combineer nu de gegevens en bereken de kansen $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} 
-> | \text{koolmees})}$$ en $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} | \text{pimpelmees})}$$.
+> - **M2.2k) Combineer nu de gegevens en bereken de kansen $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} | \text{koolmees})}$$ en $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} | \text{pimpelmees})}$$.**<br><br>
+> - **M2.2i) Welk vogeltje denk je nu dat het is? Beredeneer je antwoord.**
 
 Na al deze berekeningen lopen we een eindje in de tuin. Op de plek waar we eerder het meesje aantroffen zit nu een ander meesje hartstochtelijk te zingen. Aan de zang hoor je direct dat dit een pimpelmeesje is. Je schat in dat er een kans is van 90% dat dit pimpelmeesje bij het andere meesje hoorde, en dat dat dus ook een pimpelmees is. 
 
-> * Bereken nu de kans dat het inderdaad een pimpelmeesje is geweest: $$P(\text{pimpelmees}
-> | m_\text{obs} \text{ en } w_{\text{obs}}).$$ 
-> **Let op:** er staat hier een foutje in het inlever template. De kans zoals hierboven is degene die we willen weten.<br>
-> Maak hierbij gebruik van de [vergelijking](/module-2/extra-kansrekenregels) van Bayes.
+> - **M2.2l) Bereken nu de kans dat het inderdaad een pimpelmeesje is geweest: $$P(\text{pimpelmees}| m_\text{obs} \text{ en } w_{\text{obs}}).$$**  
+> TIP: Maak hierbij gebruik van de [vergelijking](/module-2/extra-kansrekenregels) van Bayes.
 
-Vul al je antwoorden in op het template van module 2. 
+
