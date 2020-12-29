@@ -30,7 +30,8 @@ We willen weten wat het gemiddelde aantal pakjes is dat je nodig hebt om het boe
 > 
 > - **M2.4c) Wat is de kans dat je meer dan 250 pakjes plaatjes nodig hebt gehad om je boek te vullen?**<br><br>
 > 
-> - **M2.4d) Wat is de modus, het gemiddelde en de mediaan van de distributie?**<br><br>
+> - **M2.4d) Wat is de modus, het gemiddelde en de mediaan van de distributie?**
+> Tip: Denk ook aan de notatie en de eenheden.<br><br>
 > 
 > - **M2.4e) Wat is de variantie en de standaarddeviatie van de distributie?**
 
