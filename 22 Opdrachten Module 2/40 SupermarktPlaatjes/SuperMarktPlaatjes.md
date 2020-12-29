@@ -28,10 +28,10 @@ We willen weten wat het gemiddelde aantal pakjes is dat je nodig hebt om het boe
 > 
 > - **M2.4b) Wat is de kans dat je minder dan 150 pakjes plaatjes nodig hebt gehad om je boek te vullen? Gebruik de distributie om deze kans te berekenen.** <br><br>
 > 
-> - **M2.4d) Wat is de kans dat je meer dan 250 pakjes plaatjes nodig hebt gehad om je boek te vullen?**<br><br>
+> - **M2.4c) Wat is de kans dat je meer dan 250 pakjes plaatjes nodig hebt gehad om je boek te vullen?**<br><br>
 > 
-> - **M2.4e) Wat is de modus, het gemiddelde en de mediaan van de distributie?**<br><br>
+> - **M2.4d) Wat is de modus, het gemiddelde en de mediaan van de distributie?**<br><br>
 > 
-> - **M2.4f) Wat is de variantie en de standaarddeviatie van de distributie?**
+> - **M2.4e) Wat is de variantie en de standaarddeviatie van de distributie?**
 
 
