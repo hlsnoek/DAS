@@ -6,25 +6,27 @@ Er bestaan 160 verschillende plaatjes.
 
 We willen weten wat het gemiddelde aantal pakjes is dat je nodig hebt om het boek te vullen. Dit zou je eventueel kunnen berekenen, maar wij gaan het simuleren. 
 
-> Schrijf een programma waarin je een simulatie maakt. Je gaat in de simulatie steeds een pakje plaatjes openen en deze in je boek plakken. Op het moment dat je boek vol is ben je klaar. Houdt bij hoeveel pakjes je nodig hebt gehad om het boek vol te krijgen. Herhaal dit process een heleboel keer en plot de distributie van het aantal pakjes die je nodig hebt gehad. 
->
-> Als je de distributie hebt gevonden bereken dan, met behulp van de distributie de antwoorden op de volgende vragen: 
-> 
-> 1. Wat is de kans dat je minder dan 150 pakjes plaatjes nodig hebt gehad om je boek te vullen? 
-> 2. Wat is de kans dat je meer dan 250 pakjes plaatjes nodig hebt gehad om je boek te vullen?
-> 3. Wat is de modus, het gemiddelde en de mediaan van de distributie?
-> 4. Wat is de variantie en de standaard deviatie van de distributie?
->
->**Let op** bedenk zelf hoe vaak je dit experiment moet herhalen. De kansen moet je natuurlijk wel een beetje redelijk kunnen berekenen. Een goede indicatie dat je de juiste hoeveelheid boeken simuleert, is dat de distributie er redelijk glad uit ziet. 
->
-> Maak je histogram mooi af en zorg dat hij duidelijk leesbaar is. Let zoals gebruikelijk op aslabels, range en binning. 
+> - Schrijf een programma waarin je een simulatie maakt. Je gaat in de simulatie steeds een pakje plaatjes openen en deze in je boek plakken. Op het moment dat je boek vol is ben je klaar. Houdt bij hoeveel pakjes je nodig hebt gehad om het boek vol te krijgen. Herhaal dit process een heleboel keer. <br><br>
+
+**Let op** bedenk zelf hoe vaak je dit experiment moet herhalen. De kansen moet je natuurlijk wel een beetje redelijk kunnen berekenen. Een goede indicatie dat je de juiste hoeveelheid boeken simuleert, is dat de distributie er redelijk glad uit ziet. 
+
 
 **TIPS:** 
-
 - Geef elk plaatje een nummer tussen 0 en 159 of 1 en 160. 
 - Gebruik van de random generator de *randint* functie om een integer waarde te generen. 
 - Schrijf eerst een functie die pakjes kaartjes aanmaakt. **LET OP!** Zorg dat in een set van vier plaatjes niet twee keer dezelfde waarde voorkomt.
 - Maak eerst eens boeken met bijvoorbeeld maar 10 plaatjes om te kijken of de code echt goed werkt. 
 - Gebruik print statements om te controleren of de code doet wat het zou moeten doen. 
 - Waarschijnlijk heeft je programma even nodig om te draaien. Dit zou alleen nooit langer dan een minuut moeten duren. Is dit wel het geval? Controleer dan of je alle lijsten die aanmaakt ook echt moet bewaren en gooi degene die je niet meer nodig hebt weg zodra dat kan.
+
+> - **M2.4a) Plot de distributie van het aantal pakjes die je nodig hebt gehad. Zorg dat de plot goed leesbaar is.**<br><br>
+> 
+> - **2.4b) Wat is de kans dat je minder dan 150 pakjes plaatjes nodig hebt gehad om je boek te vullen? Gebruik de distributie om deze kans te berekenen.** <br><br>
+> 
+> - **M2.4d) Wat is de kans dat je meer dan 250 pakjes plaatjes nodig hebt gehad om je boek te vullen?**<br><br>
+> 
+> - **2.4e) Wat is de modus, het gemiddelde en de mediaan van de distributie?**<br><br>
+> 
+> - **2.4f) Wat is de variantie en de standaard deviatie van de distributie?**
+
 
