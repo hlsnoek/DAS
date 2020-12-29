@@ -38,7 +38,7 @@ De functie geeft drie objecten terug. De eerste twee zijn de lists met de counts
 
 Met deze dataset generator gaan we nu de zuiverheid van onze meting bestuderen.
 
-> * Kijk eerste eens naar wat de *true* waarde was in je datasets die je hierboven hebt gebruikt! Als je voor **`d_input`** nu -1 invult krijg je de halfwaardeditke die gebruikt is voor het genereren van de 50 datasets die je eerder in deze opdracht hebt gebruikt. 
+> * Kijk eerste eens naar wat de *true* waarde was in je datasets die je hierboven hebt gebruikt! Als je voor **`d_input`** nu -1 invult krijg je de halfwaardeditke die gebruikt is voor het genereren van de 50 datasets die je eerder in deze opdracht hebt gebruikt. <br><br>
 >
 >
 > - **M2.3f) Hoe groot is de onzuiverheid van ons experiment? Vergelijk hiervoor de gemiddelde bepaalde halfwaardediktes van de 50 experimenten me de `d_true`.**
