@@ -18,7 +18,7 @@ De variabelen hebben de volgende betekenis:
 
 De laatste twee variabelen zijn de datapunten voor pimpelmeesjes. 
 De twee variabelen van de koolmeesjes horen bij elkaar. Van elk meesje in de dataset zijn zowel de massa als de spanwijdte gemeten. De dataset is zo geordend dat als je het n-de punt uit de **`m_km`**-lijst bij het n-de punt uit de **`span_km`**-lijst hoort. Dit zijn de gegevens van het n-de meesje. Pas dus op dat je de lijsten in de juiste volgorde houdt! 
-Voor de twee variablen van de pimpelmeesjes geldt precies hetzelfde.
+Voor de twee variabelen van de pimpelmeesjes geldt precies hetzelfde.
 
 
 We gaan eerst naar de twee massaverdelingen van de meesjes kijken. 
@@ -61,12 +61,12 @@ De output volgt dezelfde logica als hiervoor.
 
 We kunnen nu natuurlijk ook de gecombineerde informatie gebruiken. Hiervoor gaan we eerst de data visualiseren.
 
-> - **M2.2h) Maak een twee-dimensionale scatterplot die de twee-dimensionale dataset van de massa versus de spanwijdte voor zowel de pimpelmezen als de koolmezen.**  
+> - **M2.2h) Maak een tweedimensionale scatterplot die de tweedimensionale dataset van de massa versus de spanwijdte voor zowel de pimpelmezen als de koolmezen.**  
 > **TIP** gebruik de opties **'o',markersize=3, alpha=0.4** in de plot functie. Zorg dat beide datasets weer hun eigen kleur hebben en vergeet de legenda niet. 
 
-Het valt misschien op dat er een verband lijkt te zijn tussen beide variabelen. We gaan daar eerst naar kijken naar [de co-variantie](/module-2/meerdimensionale-data) en de correlatie tussen de massa en de spanwijdte voor beide vogelsoorten. 
+Het valt misschien op dat er een verband lijkt te zijn tussen beide variabelen. We gaan daar eerst naar kijken naar [de covariantie](/module-2/meerdimensionale-data) en de correlatie tussen de massa en de spanwijdte voor beide vogelsoorten. 
 
-> - **M2.2i) Bereken de co-variantie en de correlatie tussen de massa en de spanwijdte voor zowel de koolmeesje als de pimpelmeesjes meetgegevens.**<br><br>
+> - **M2.2i) Bereken de covariantie en de correlatie tussen de massa en de spanwijdte voor zowel de koolmeesje als de pimpelmeesjes meetgegevens.**<br><br>
 >  
 > - **M2.2j) Als je naar de berekende correlaties kijkt wat valt dan op, wat voor verband zit er tussen de twee variabelen?**<br><br>
 

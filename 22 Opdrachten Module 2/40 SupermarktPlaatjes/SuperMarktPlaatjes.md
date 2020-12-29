@@ -6,7 +6,7 @@ Er bestaan 160 verschillende plaatjes.
 
 We willen weten wat het gemiddelde aantal pakjes is dat je nodig hebt om het boek te vullen. Dit zou je eventueel kunnen berekenen, maar wij gaan het simuleren. 
 
-> - Schrijf een programma waarin je een simulatie maakt. Je gaat in de simulatie steeds een pakje plaatjes openen en deze in je boek plakken. Op het moment dat je boek vol is ben je klaar. Houdt bij hoeveel pakjes je nodig hebt gehad om het boek vol te krijgen. Herhaal dit process een heleboel keer. 
+> - Schrijf een programma waarin je een simulatie maakt. Je gaat in de simulatie steeds een pakje plaatjes openen en deze in je boek plakken. Op het moment dat je boek vol is ben je klaar. Houdt bij hoeveel pakjes je nodig hebt gehad om het boek vol te krijgen. Herhaal dit proces een heleboel keer. 
 
 **Let op** bedenk zelf hoe vaak je dit experiment moet herhalen. De kansen moet je natuurlijk wel een beetje redelijk kunnen berekenen. Een goede indicatie dat je de juiste hoeveelheid boeken simuleert, is dat de distributie er redelijk glad uit ziet. 
 
@@ -14,7 +14,7 @@ We willen weten wat het gemiddelde aantal pakjes is dat je nodig hebt om het boe
 **TIPS:** 
 - Geef elk plaatje een nummer tussen 0 en 159 of 1 en 160. 
 
-- Gebruik van de random generator de *randint* functie om een integer waarde te generen. 
+- Gebruik van de random generator de **`randint`** functie om een integer waarde te generen. 
 
 - Schrijf eerst een functie die pakjes kaartjes aanmaakt.  
 **LET OP!** Zorg dat in een set van vier plaatjes niet twee keer dezelfde waarde voorkomt.
