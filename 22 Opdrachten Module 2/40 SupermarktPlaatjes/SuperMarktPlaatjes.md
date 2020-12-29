@@ -16,7 +16,8 @@ We willen weten wat het gemiddelde aantal pakjes is dat je nodig hebt om het boe
 
 - Gebruik van de random generator de *randint* functie om een integer waarde te generen. 
 
-- Schrijf eerst een functie die pakjes kaartjes aanmaakt. **LET OP!** Zorg dat in een set van vier plaatjes niet twee keer dezelfde waarde voorkomt.
+- Schrijf eerst een functie die pakjes kaartjes aanmaakt.  
+**LET OP!** Zorg dat in een set van vier plaatjes niet twee keer dezelfde waarde voorkomt.
 
 - Maak eerst eens boeken met bijvoorbeeld maar 10 plaatjes om te kijken of de code echt goed werkt. 
 
@@ -30,7 +31,7 @@ We willen weten wat het gemiddelde aantal pakjes is dat je nodig hebt om het boe
 > 
 > - **M2.4c) Wat is de kans dat je meer dan 250 pakjes plaatjes nodig hebt gehad om je boek te vullen?**<br><br>
 > 
-> - **M2.4d) Wat is de modus, het gemiddelde en de mediaan van de distributie?**
+> - **M2.4d) Wat is de modus, het gemiddelde en de mediaan van de distributie?**  
 > Tip: Denk ook aan de notatie en de eenheden.<br><br>
 > 
 > - **M2.4e) Wat is de variantie en de standaarddeviatie van de distributie?**
