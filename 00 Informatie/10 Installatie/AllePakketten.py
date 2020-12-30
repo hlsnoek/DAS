@@ -5,7 +5,7 @@ from random import random
 import math as math
 import os
 from scipy.optimize import curve_fit
-
+from lmfit import models
 
 print('Even controleren of je installatie helemaal werkt... ')
 # test matplotlib
@@ -28,5 +28,8 @@ def functie(x,a) :
 
 start = (0.5)
 popt, pcov = curve_fit(functie,x,p,p0 = start)
+
+f = lambda R, R_u, U_0: R / (R_u + R) * U_0
+mod_spanning = models.Model(f, name="Spanningsdeler")
 
 print('    ... Je bent geslaagd!')

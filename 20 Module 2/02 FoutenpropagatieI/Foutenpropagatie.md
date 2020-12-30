@@ -1,4 +1,4 @@
-## Foutenpropagatie
+## Foutenpropagatie I
 
 1. Ordered TOC
 {:toc}
@@ -7,7 +7,14 @@ Vaak kunnen we de grootheid die we willen weten niet direct meten, maar meten we
 
 Dit is bijvoorbeeld het geval als we de gemiddelde snelheid van een auto willen bepalen. Dit zouden we kunnen doen door de tijd te meten die de auto nodig heeft om een bepaald traject af te leggen. We meten dan de door de auto gebruikte tijd, $$T$$ en de lengte van het traject, $$L$$, en die zetten we dan om in snelheid via de bekende formule $$v=L/T$$. Of we bepalen bijvoorbeeld de massa van een elementair deeltje (in rust) en willen dit omzetten naar de energie van het deeltje via de formule $$E=mc^2$$. 
 
-Als we de onzekerheid weten op de gemeten grootheden dan kunnen we deze  omzetten naar de grootheid die we eigenlijk willen bepalen. Dit noemen we het propageren van fouten. In dit hoofdstuk leren we je de basisregels voor het propageren van **ongecorreleerde** fouten. Dat wil zeggen dat als er meerdere onzekerheden worden gepropageerd deze onzekerheden onafhankelijk zijn; De meting van de ene observabele heeft geen invloed op de meting van de andere observabele; de fout die we maken in het meten van de ene grootheid hangt niet af van de fout die we maken op de andere gemeten grootheid. Later zullen we nog de regel voor gecorreleerde fouten geven. Een voorbeeld van een gecorreleerde fout is als we de totale lengte willen weten van een tafel en we meten deze op met dezelfde liniaal en deze liniaal blijkt een afwijking te hebben. Als we de ene helft te groot opmeten, dan meten we de tweede helft ook te groot. 
+Als we de onzekerheid weten op de gemeten grootheden dan kunnen we deze  omzetten naar de grootheid die we eigenlijk willen bepalen. Dit noemen we het propageren van fouten. In dit hoofdstuk leren we je de basisregels voor het propageren van **ongecorreleerde** fouten. Dat wil zeggen dat als er meerdere onzekerheden worden gepropageerd deze onzekerheden onafhankelijk zijn; De meting van de ene observabele heeft geen invloed op de meting van de andere observabele; de fout die we maken in het meten van de ene grootheid hangt niet af van de fout die we maken op de andere gemeten grootheid. 
+
+In [foutenpropagatie II](/module-2/foutenpropagatieii) zullen we nog de regel voor gecorreleerde fouten geven. Er zijn twee oorzaken voor het ontstaan van gecorreleerde fouten:
+
+- Doordat er in de meting een correrlatie is. Een voorbeeld van een gecorreleerde fout is als we de totale lengte willen weten van een tafel en we meten deze op met dezelfde liniaal en deze liniaal blijkt een afwijking te hebben. Als we de ene helft te groot opmeten, dan meten we de tweede helft ook te groot. 
+- Doordat er een onderliggende parameter is waar beide gemeten grootheden vanaf hangen. 
+
+
 Hier behandelen we dus alleen ongecorreleerde fouten. 
 
 
