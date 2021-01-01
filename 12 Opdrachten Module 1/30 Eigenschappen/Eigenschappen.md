@@ -47,7 +47,7 @@ Nu gaan we kijken naar het effect van een vermenigvuldiging van x.
 
 
 #### Poisson
-We gaan nu kijken wat het effect is van translatie en multiplicatie op een Poisson distributie $$dp(x)$$. De Poisson distributie krijg je door de volgende functie aan te roepen.
+We gaan nu kijken wat het effect is van translatie en multiplicatie op een Poisson distributie $$dp(k)$$. De Poisson distributie krijg je door de volgende functie aan te roepen.
 
  			dp = ds.genereerDistributieDP(500)
 

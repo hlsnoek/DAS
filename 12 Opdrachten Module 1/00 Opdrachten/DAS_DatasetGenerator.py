@@ -26,7 +26,7 @@ def checkSD() :
 def DataSetMooiPlotten() :
     checkSD()
     mu = random_getal%10
-    sigma = ((student_nummer)%100)/10 + 1
+    sigma = ((random_getal)%100)/10 + 1
     np.random.seed(1)
     x1 = np.random.normal(mu, sigma, size = 1000)
     x2 = np.random.normal(mu+2*sigma,sigma/2, size=300)
@@ -35,15 +35,15 @@ def DataSetMooiPlotten() :
 
 def genereerDistributieDG(n=500) :
     checkSD()
-    mu = student_nummer%10 
-    sigma = (student_nummer%100)/100 + 1
+    mu = random_getal%10 
+    sigma = (random_getal%100)/100 + 1
     np.random.seed(1)
     set_gauss = np.random.normal(mu,sigma,size = n)
     return set_gauss
 
 def genereerDistributieDP(n=500) :
     checkSD()
-    mu = student_nummer%10+1 
+    mu = random_getal%10+1 
     np.random.seed(1)
     set_pois = np.random.poisson(mu,size = n)
     return set_pois
@@ -51,8 +51,8 @@ def genereerDistributieDP(n=500) :
 
 def DataSetGroteAantallen(s=1) :
     checkSD()
-    mu = student_nummer%100 + 100
-    sigma = (student_nummer%100)/10. + 1
+    mu = random_getal%100 + 100
+    sigma = (random_getal%100)/10. + 1
     np.random.seed(s)
     set_gauss = np.random.normal(mu,sigma,size = 80)
     return set_gauss
@@ -131,19 +131,19 @@ def meetLengteMees() :
 def GroteAantallenStdGenerator() :
     checkSD()
     N = [1,2,5,10,60]
-    sigma = (student_nummer%100)/10. + 1
+    sigma = (random_getal%100)/10. + 1
     print(sigma)
     std = [np.random.normal(sigma/np.sqrt(ni),sigma/np.sqrt(ni)/np.sqrt(200)) for ni in N]
     std_err = [s/np.sqrt(200) for s in std]
     return 1/np.sqrt(N),std,std_err
 
 def GroteAantallenStdTrue() :
-    return (student_nummer%100)/10. + 1
+    return (random_getal%100)/10. + 1
 
 def GroteAantallenFitSetGenerator() :
     checkSD()
     N = [1,2,5,10,60]
-    sigma = (student_nummer%100)/10. + 1
+    sigma = (random_getal%100)/10. + 1
     std = [np.random.normal(sigma/np.sqrt(ni),sigma/np.sqrt(ni)/np.sqrt(200)) for ni in N]
     std_err = [(std[0])/np.sqrt(200) for s in range(0,len(std))]
     return 1/np.sqrt(N),std,std_err
@@ -169,7 +169,7 @@ def normpdf(x, mean, sd):
 def DeeltjesDataset() :
     checkSD()
     np.random.seed(1)
-    mu = 100+student_nummer%100
+    mu = 100+random_getal%100
     x = np.arange(80,220,5)
     y1 = np.random.poisson(400* (0.5)**(x/100))
     y2 = [np.random.poisson(150*5*normpdf(xi,mu,5)) for xi in x]
@@ -177,4 +177,4 @@ def DeeltjesDataset() :
 
 def SpiekenM0() :
     checkSD()
-    return 100+student_nummer%100
+    return 100+random_getal%100
