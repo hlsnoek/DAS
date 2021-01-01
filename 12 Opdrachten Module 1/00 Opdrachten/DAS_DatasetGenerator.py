@@ -13,6 +13,7 @@ student_nummer = 9999
 random_getal = 9378
 
 def checkSD() :
+    global random_getal
     if  student_nummer<10000 :
         print('\n ********************************************************************************************')
         print('\n !!!!!!!! Je moet nog je student_nummer aanpassen in de DAS_DatasetGenerator.py file !!!!!!!!')
@@ -24,7 +25,7 @@ def checkSD() :
         
 def DataSetMooiPlotten() :
     checkSD()
-    mu = student_nummer%10
+    mu = random_getal%10
     sigma = ((student_nummer)%100)/10 + 1
     np.random.seed(1)
     x1 = np.random.normal(mu, sigma, size = 1000)

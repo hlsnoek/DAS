@@ -76,7 +76,7 @@ Als je tevreden bent met het resultaat kun je het histogram opslaan door de laat
 > 
 > **M1.1a)  Plaats hier je histogram.**    <br><br>
 >   
-> **M1.1b) Valt je iets op aan de data?**
+> **M1.1b) Valt je iets op aan de data? Probeer het te omschrijven.**
 
 Als je alle andere opdrachten voor module 1 ook hebt gemaakt kun je de opdrachten en code inleveren via de ANS website. Bij de laatste opgave voor module 1 vind je hier meer informatie over. Zorg in elk geval dat je de code die je hier hebt gemaakt bewaard.
 

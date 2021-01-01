@@ -10,7 +10,8 @@ Welkom bij het vak Data Analyse en Statistiek. In dit vak leer je de basisprinci
 Dit vak bestaat uit 4 hoorcolleges en 7 laptopcolleges. Voor het cijfer tellen de inleveropdrachten en de tussentoetsen mee. Voor het halen van dit vak moet je minimaal een 5,5 halen voor zowel het gemiddelde van de inleveropdrachten, als voor het gemiddelde van de tussentoetsen. 
 
 ### Docenten
-De coördinator en docent voor dit vak is Hella Snoek. Via Canvas kun je vragen stellen. Marthe Schut is betrokken bij het opzetten van de website.
+De coördinator en docent voor dit vak is Hella Snoek. Via Canvas kun je vragen per mail stellen. 
+Marthe Schut en Martijn Stegeman zijn betrokken bij het opzetten van de website.  
 De assistenten voor 2021 zijn: Maris Koopmans, Steven Lageveen, Maaike Bakker, Rosa Sinaasappel en Maarten Both. 
 
 
