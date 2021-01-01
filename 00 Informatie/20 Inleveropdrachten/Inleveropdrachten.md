@@ -13,6 +13,6 @@ De inleveropdrachten tellen voor 80% mee voor je eindcijfer. Je moet een gemidde
 
 
 ### Inleveren laptopcollege opdrachten
-Voor het inleveren van de opgaves maak je gebruik van templates die je vindt bij de instructies van de opgaves. Hier kun je alle resultaten en code invullen. Het werk kun je vervolgens op [ANS](https://secure.ans-delft.nl/users/sign_in) inleveren. 
+Voor het inleveren van de opgaves maak je gebruik van templates die je vindt bij de instructies van de opgaves. Hier kun je alle resultaten en code invullen. Het werk kun je vervolgens op [ANS](https://secure.ans-delft.nl/users/sign_in) inleveren. Let hierbij even op, je moet steeds een ingevuld template **als pdf** inleveren en de code van alle opdrachten van de module. [Hier](ANSInstructie.pdf) vind je een instructie voor het uploaden. 
 
 **NB** Zoals ook in de [Studiewijzer](/syllabus) vermeld staat: Alle opdrachten moeten worden ingeleverd. Als je niet alle opdrachten hebt ingeleverd krijg je geen cijfer voor dit vak en kun je ook niet meedoen aan het hertentamen. **Als je een deadline niet haalt trekken we 2 punten per dag af**.

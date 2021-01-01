@@ -11,7 +11,9 @@ Tijdens de laptopcolleges in de eerste week werken we aan de vijf opdrachten van
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 
-De antwoorden van de opdrachten moet je invoeren in [deze template](InlevertemplateModule1.docx) en als **pdf** bestand inleveren via ANS. De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/informatie/inleveropdrachten) vinden.
+De antwoorden van de opdrachten moet je invoeren in [deze template](InlevertemplateModule1.docx) en als **pdf** bestand inleveren via ANS ook de code moet je daar inleveren. 
+
+De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/informatie/inleveropdrachten) vinden.
 
 
 Als je vragen hebt, stel deze dan aan de assistent of stuur een email naar de coördinator.
