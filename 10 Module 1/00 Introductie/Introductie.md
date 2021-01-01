@@ -1,9 +1,13 @@
 ## Introductie Module 1
 
 Statistische data analyse is een belangrijk onderdeel in vele werkvelden.
-Als student en later wellicht ook als wetenschapper zul je te maken krijgen met het verzamelen en interpreteren van data bij het het praktikum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
-Wanneer kun je zeggen dat een hypothese moet worden verworpen of bewijs je juist dat deze correct is? Hoe moet je inschatten of je meetnauwkeurigheid goed genoeg is?
-Wanneer heb je eigenlijk genoeg data verzameld? Hoe kun je een zo experiment ontwerpen dat je een hypothese kunt onderzoeken. Hoe kom je erachter wat jouw hypothese toetsbaar maakt - in welke observabele onderscheidt zij zich voldoende van andere hypotheses?
+Als student en later wellicht ook als wetenschapper zul je te maken krijgen met het verzamelen en interpreteren van data bij het het practikum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
+
+- Wanneer kun je zeggen dat een hypothese moet worden verworpen of bewijs je juist dat deze correct is? 
+- Hoe moet je inschatten of je meetnauwkeurigheid goed genoeg is?
+Wanneer heb je eigenlijk genoeg data verzameld? 
+- Hoe kun je een zo experiment ontwerpen dat je een hypothese kunt onderzoeken. 
+- Hoe kom je erachter wat jouw hypothese toetsbaar maakt - in welke observabele onderscheidt zij zich voldoende van andere hypotheses?
 
 Alle kennis die we tot nu toe hebben over de Natuur- en Sterrenkunde is tot stand gekomen met het uitvoeren van experimenten en het analyseren van de uitkomsten hiervan.
 Voor het bestuderen van Natuurkundige en Sterrenkundige theorieën is niet persé kennis nodig van de statistiek en van data analyse technieken. 
@@ -28,7 +32,7 @@ Bij het presenteren van onderzoeksresultaten is het belangrijk om helder uit te 
 Vaak maken we hierbij gebruik van histogrammen, grafieken en tabellen. Om een hypothese te toetsen moeten we metingen ook kunnen interpreteren. Hiervoor zijn verschillende methodes, bijvoorbeeld kunnen we de data proberen te 'fitten' met een functie, een wiskundige vergelijking. Bij al deze methodes speelt statistiek een belangrijke rol.  
 
 
-In deze cursus zullen we vaardigheden gaan leren van data analyse en statistiek. 
+In deze cursus zullen we vaardigheden gaan leren voor data analyse en statistiek. 
 
 Deze week beginnen we met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over hoe we meetresultaten moeten presenteren, het gebruik van de wetenschappelijke [notatie](/module-1/notatie) en hoe we ze kunnen [visualiseren](/module-1/data-visualiseren). We gaan in op het begrip [meetonzekerheid](/module-1/meetonzekerheid).  
 Ook maken we een begin met [kansrekening](/module-1/kanstheorie) en [kansdichtheidsverdelingen](/module-1/verdelingsfuncties).

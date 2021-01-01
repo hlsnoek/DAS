@@ -36,12 +36,12 @@ We gaan nu kijken naar de uniforme distributie en simuleren een experiment dobbe
 
 Beantwoord de volgende vragen:  
 
-> - **M1.2d) Als je een dobbelsteen 1x gooit, wat is dan de kans dat je een 1 gooit?   
+> - **M1.2d) Als je een dobbelsteen eenmaal gooit, wat is dan de kans dat je een 1 gooit?   
 En wat is de kans dat je een 4 of lager gooit?**<br><br>
 >
 > - **M1.2e) Stel dat je 30 keer met de dobbelsteen gooit. Wat is dan het verwachte aantal keren dat je 3 gooit?** <br><br>
 >
-> - **M1.2f) Als je dit experiment doet en je gooit wel 10 keer een 3, kun je dan concluderen dat je een niet eerlijke dobbelsteen hebt?**
+> - **M1.2f) Als je dit experiment doet en je gooit wel 10 keer een 3, kun je daaruit dan concluderen dat je een niet eerlijke dobbelsteen hebt?**
 
 We gaan dit experiment nu simuleren. Om stochastische (ook wel toevallige of random) getallen te genereren maken we gebruik van de random nummer generator in het **`numpy`** pakket. Er zijn verschillende manieren om een dataset te maken die het experiment simuleert. In elk geval heb je de volgende pakketten nodig: 
 
@@ -49,8 +49,10 @@ We gaan dit experiment nu simuleren. Om stochastische (ook wel toevallige of ran
 	import random
 	from random import seed
 
-Zet nu de *seed* van de random nummer generator op 1.  
-Zo is de simulatie herhaalbaar onder steeds dezelfde condities. Dat wil zeggen dat het programma steeds dezelfde random getallen genereert. 
+
+Zet nu de **`seed`** van de random nummer generator op 1. Dit kan je zien als het startpunt waarvandaan het algoritme begint. Zo is de simulatie herhaalbaar onder steeds dezelfde condities. Dat wil zeggen dat wanneer het programma opnieuw runt, elke keer dezelfde random getallen worden gegenereerd
+
+
 
 	np.random.seed(1)   # dit zet de seed in de random generator op 1.
 

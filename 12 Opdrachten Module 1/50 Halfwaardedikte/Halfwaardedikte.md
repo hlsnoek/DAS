@@ -50,8 +50,6 @@ Beantwoord nu de volgende vragen:
 > - **M1.5g) Stel dat de halfwaardedikte veel kleiner is dan de waarde die je nu gevonden hebt. Zou dit experiment dan nog hebben gewerkt? Wanneer wordt dit een probleem, kwantificeer je antwoord?**<br><br>
 > 
 > - **M1.5h) Hoe zou je dit experiment willen verbeteren. Dit kunnen verbeteringen zijn aan de kant van de opstelling maar ook aan de kant van de data analyse. Noem een verbetering voor de opstelling en een voor de data analyse.**<br><br>
-> 
-> - **M1.5i) Iemand suggereert dat het experiment ook wel sneller kan worden uitgevoerd door in plaats van 2 minuten, steeds 1 minuut per keer te meten met de Geiger-Müller telbuis. Dat scheelt een hoop meettijd. Is dit een goed idee?**
 
 
 

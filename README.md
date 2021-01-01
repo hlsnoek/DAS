@@ -36,16 +36,15 @@ Er zijn geen boeken benodigd voor deze cursus. Wil je de stof een keer op een an
 J.R. Taylor, 1997, 'An introduction to error analysis', University Science Books, Sausalito, 2, 1997, ISBN 978 0935 702 750. Dit boek is gratis beschikbaar op [deze website](https://archive.org/details/TaylorJ.R.IntroductionToErrorAnalysis2ed/).
 
 
-### Herkansingen
+### Herkansing
 Het opnieuw insturen van opdrachten is niet meer mogelijk na de deadline of zodra deze zijn nagekeken.
 
-Let op! De toets vorm van de herkansing staat voor dit jaar nog niet vast. Het zal afhangen van de Corona regels op dat moment en de hoeveelheid studenten die een herkansing wil. 
+Als je niet zowel een voldoende hebt voor (het gewogen gemiddelde van) de inlevertoetsen als voor de tussentoetsen kun je het vak herkansen met een tentamen statistiek. Toegang tot het hertentamen wordt alleen verleend als je **alle** opdrachten hebt ingeleverd.
+Pas op - dit hertentamen zal zeker niet makkelijker zijn dat de toetsen en de opdrachten. 
 
 Zorg wel dat je alle inleveropdrachten op tijd hebt ingeleverd, anders mag je niet meedoen aan de herkansing!
 
-Als je niet zowel een voldoende hebt voor (het gewogen gemiddelde van) de inlevertoetsen als voor de tussentoetsen kun je het vak herkansen met een tentamen statistiek. Toegang aan het hertentamen wordt alleen verleend als je **alle** opdrachten hebt ingeleverd.
-Pas op - dit hertentamen zal niet makkelijker zijn dat de toetsen en de opdrachten. 
-
+Let op! De toetsvorm van de herkansing staat voor dit jaar nog niet vast. Het zal afhangen van de Corona regels op dat moment en de hoeveelheid studenten die een herkansing nodig heeft. 
 
 ### Samenwerken, fraude en plagiaat
 
