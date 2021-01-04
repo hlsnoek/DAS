@@ -23,6 +23,10 @@ Zorg dat je ook even het testprogrammaatje draait die je aan het einde van deze 
 
 In hoorcolleges bespreekt de docent de theorie van Data analyse en Statistiek waarmee je de laptopcollege opgaven kunt oplossen en die je voorbereidt op de toetsjes. 
 
+### Laptopcolleges
+
+Tijdens de laptopcolleges werk je aan de inleveropdrachten. Er zijn ook korte samenwerkopdrachten waar je in kleine groepjes aan werkt. Deze tellen niet mee voor het eindcijfer maar helpen wel in de voorbereiding voor de tussentoets.
+
 ### Inleveropdrachten
 Tijdens de laptopcolleges werk je aan de inlever opdrachten die horen bij dit vak. Deze opdrachten moet je ook inleveren voor een cijfer. Voor de opdrachten van elke module is een deadline. Als je deze deadline niet haalt trekken we **2 punten per dag af**. Aanwezigheid op de laptopcolleges is verplicht, tenzij het werk voor die module al is ingeleverd via ANS.
 Informatie over de inleveropdrachten vind je [hier](/informatie/inleveropdrachten). Het gemiddelde van de inleveropdrachten tellen voor 80% mee aan het eindcijfer, je moet minimaal een 5,5 halen voor het gemiddelde van de opdrachten om het vak te halen. Om voor de herkansing in aanmerking te komen dienen alle inleveropdrachten te zijn ingeleverd.
