@@ -97,7 +97,7 @@ zowel het getal 4 als het getal 11 komen drie keer voor in de set. De set is dus
 
 Bij sommige soorten dataverdelingen is het gebruikelijker om over de modus te praten dan over het gemiddelde of de mediaan. Een voorbeeld hiervan is de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie die een slecht gedefinieerd gemiddelde of mediaan kent door een lange staart in de distributie.
 
-Voor unimodale symmetrische distributies ligt het gemiddelde, de mediaan en het gemiddelde precies op dezelfde plek. 
+Voor unimodale symmetrische distributies ligt het gemiddelde, de mediaan en de modus precies op dezelfde plek. 
 
 
 ## Spreiding van data
