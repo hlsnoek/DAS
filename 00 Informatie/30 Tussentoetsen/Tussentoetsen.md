@@ -12,7 +12,6 @@ Aan het einde van het tweede, derde en vierde hoorcollege zal er een korte tusse
 <!---De tussentoetsen zullen met het ANS systeem worden nagekeken. Hieronder kun je een filmpje zien waarop je instructie krijgt hoe je een ANS tentamenformulier moet gebruiken.<br>
 [ANS instructie](https://www.youtube.com/watch?v=jWgdlNEHN2A) --->
 
-Om je voor te bereiden voor de tussentoetsen hebben we oefenvragen gemaakt die je kan gebruiken om te controleren of je de stof voldoende beheerst. Je vindt deze later in het menu onder **Tussentoets I, II en III**. 
+Om je voor te bereiden voor de tussentoetsen hebben we oefenvragen gemaakt die je kan gebruiken om te controleren of je de stof voldoende beheerst. Let op dat je ook de stof checklist even bekijkt, niet voor alle onderwerpen zijn opdrachten. Je vindt deze later in het menu onder **Tussentoets I, II en III**. 
 
-*Hier volgt later hoe de toetsen worden afgenomen, dat zal in 2021 in elk geval online zijn.*
-
+De tussentoetsen zullen online worden afgenomen in ANS. De tussentoetsen zijn op bovenstaande tijdstippen beschikbaar.
