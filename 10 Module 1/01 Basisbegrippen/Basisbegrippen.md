@@ -169,7 +169,7 @@ Een nadeel van het gebruik van de variatiecoëfficiënt is dat er gedeeld wordt 
 |----|----|----|
 | grootte |  $$N$$ | $$n$$ |
 | gemiddelde | $$\mu = \frac{1}{N} \sum_i^N x_i$$ | $$\overline{x} = \frac{1}{n} \sum_i^n x_i$$ |
-| standaarddeviatie | $$\sigma = \frac{1}{N} \sum_i^N (x_i - \mu)^2$$ | $$s = \frac{1}{n} \sum_i^n (x_i - \overline{x})^2$$ | 
+| standaarddeviatie | $$\sigma = \sqrt{\frac{1}{N} \sum_i^N (x_i - \mu)^2}$$ | $$s = \sqrt{\frac{1}{n} \sum_i^n (x_i - \overline{x})^2}$$ | 
 | variantie | $$ var = \sqrt{\sigma} $$ | $$s^2$$ |
 |variatiecoëfficiënt | $$c_{v} = \frac{\sigma}{\mu}$$| $$\hat{c_v} = \frac{s}{\overline{x}}$$|
 
