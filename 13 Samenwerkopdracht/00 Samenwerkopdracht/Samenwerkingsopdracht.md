@@ -1,7 +1,7 @@
 
 # Samenwerkingsopdracht
 
-We gaan in deze samenwerkingsopdracht in kleine groepjes kijken naar een diagram. Je krijgt hierover enkele vragen die je samen moet proberen te beantwoorden. Je krijgt hiervoor ~20 minuten de tijd. Verzamel je antwoorden in een google presentatie. 
+We gaan in het eerste laptopcollege aand deze samenwerkingsopdracht in kleine groepjes kijken naar een diagram. Je krijgt hierover enkele vragen die je samen moet proberen te beantwoorden. Je krijgt hiervoor ~20 minuten de tijd. Verzamel je antwoorden in een google presentatie. 
 Sommige groepjes worden straks gevraagd dit te presenteren, zorg dat ook voor het andere groepje niet alleen de antwoorden maar ook de vragen duidelijk zijn.
 
 
