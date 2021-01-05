@@ -13,11 +13,11 @@ We gaan nu Poisson distributies met python grafisch weergeven. Download het best
 
  **TIP** De macht, de exponentieel en de faculteit die in de formule voorkomen kun je makkelijk uitrekenen met het **`math`** pakket in python. 
  
- 		import math as math
+	import math as math
  		
- 		math.pow(lambda,k)  ## dit geeft lambda^k  
- 		math.exp(-lambda)   ## geeft e^{-lambda}   
- 		math.factorial(k)   ## geeft k!  
+	math.pow(lambda,k)  ## dit geeft lambda^k
+	math.exp(-lambda)   ## geeft e^{-lambda}   
+	math.factorial(k)   ## geeft k!  
  
  
  
