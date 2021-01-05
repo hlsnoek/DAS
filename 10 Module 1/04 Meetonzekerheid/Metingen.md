@@ -104,10 +104,10 @@ Hieronder de verschillende schrijfwijzen naast elkaar gezet in een tabel voor di
 
 | Meetwaarde | Notatie met $$\pm$$ | Notatie met haakjes |
 | --- | --- | --- |
-| $$100.5 \pm 1.8$$  | $$(1.005 \pm 0.018) \cdot 10^2$$ | $$1.005(18) \pm 10^2$$ |
-| $$0.0045 \pm 0.0006$$  | $$(4.5 \pm 0.6) \cdot 10^{-3}$$ | $$4.5(6) \pm 10^{-3}$$ |
-| $$300.0 \pm 40$$  | $$(3.0 \pm 0.4) \cdot 10^2$$ | $$3.0(4) \pm 10^2$$ |
-| $$56934 \pm 160$$  | $$(5.693 \pm 0.016) \cdot 10^4$$ | $$5.693(16) \pm 10^4$$ |
+| $$100.5 \pm 1.8$$  | $$(1.005 \pm 0.018) \cdot 10^2$$ | $$1.005(18) \cdot 10^2$$ |
+| $$0.0045 \pm 0.0006$$  | $$(4.5 \pm 0.6) \cdot 10^{-3}$$ | $$4.5(6) \cdot 10^{-3}$$ |
+| $$300.0 \pm 40$$  | $$(3.0 \pm 0.4) \cdot 10^2$$ | $$3.0(4) \cdot 10^2$$ |
+| $$56934 \pm 160$$  | $$(5.693 \pm 0.016) \cdot 10^4$$ | $$5.693(16) \cdot 10^4$$ |
 
 
 Soms is het nuttig om de **relatieve fout** te gebruiken. Deze wordt gegeven door de waarde van de absolute fout te delen door de centrale waarde. 
