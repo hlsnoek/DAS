@@ -30,7 +30,7 @@ Op deze website vind je data van de verpleegafdelingen, scroll naar beneden tot 
 Ga naar [deze](https://coronadashboard.rijksoverheid.nl/landelijk/positief-geteste-mensen) pagina van het corona dashboard en vind het diagram 'Verloop over tijd'. Stel het diagram in met 'toon alles'.
 Als je met je muis over de balkjes gaat krijg je de exacte getallen zien. 
 
-**1.** Bekijk het aantal positieve tests en bekijk het verschil tussen de eerste en de twee latere golven. Kunnen we met alleen de informatie in dit diagram concluderen dat er veel meer mensen besmet zijn? Kijk heel kritisch naar wat voor informatie er bij het diagram staat.
+**1.** Bekijk het aantal positieve tests en bekijk het verschil tussen de eerste en de twee latere golven. Kunnen we met alleen de informatie in dit diagram concluderen dat er veel meer mensen besmet zijn in de tweede golf? Kijk heel kritisch naar wat voor informatie er bij het diagram staat.
 
 **2.** Geef 3 factoren die het aantal positieve tests beinvloeden.
 
