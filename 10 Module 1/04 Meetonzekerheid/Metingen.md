@@ -121,7 +121,7 @@ $$v_{hardloper} = 18.3 \pm 0.2$$ km/h. Welk van de metingen heeft met een groter
 
 Dit is niet direct uit de absolute fout te zien, maar wel vanuit de relatieve fout. De relatieve fout behorende bij de snelheid van het vliegtuig is 
 $$\frac{3}{803} = 0.004$$. De relatieve fout behorende bij de snelheidsmeting van de hardloper is $$\frac{0.2}{18.3} = 0.01$$. Dit betekent dat
-de snelheidsmeting van de hardloper met een grotere precisie heeft plaatsgevonden.
+de snelheidsmeting van het vliegtuig met een grotere precisie heeft plaatsgevonden.
 
 Soms werkt een relatieve fout ook juist weer niet. Bijvoorbeeld als je heel nauwkeurig een faseverschil probeert te meten tussen twee golven. Een faseverschil van bijna 0$$^\circ$$ is ook een meting en een relatieve meetfout zegt hierover bijna niets. 
 

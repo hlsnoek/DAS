@@ -15,11 +15,11 @@ We gaan nu Poisson distributies met python grafisch weergeven. Download het best
  
 	import math as math
  		
-	math.pow(lamda,k)  ## dit geeft lamda^k
+	math.pow(lamda,k)  ## dit geeft lamda^k  
 	math.exp(-lamda)   ## geeft e^{-lamda}   
-	math.factorial(k)   ## geeft k!  
+	math.factorial(k)  ## geeft k!  
  
- 
+ <!--comment: lamda hierboven niet veranderen in lambda!!-->
  
 > - Reken nu de kansen $$P(k=1,\lambda=3)$$, $$P(k=2,\lambda =3)$$ en $$P(k=3,\lambda=3)$$, uit met je python functie. Komt het overeen met de waardes die je eerder met de hand berekende? Check het resultaat.
 >

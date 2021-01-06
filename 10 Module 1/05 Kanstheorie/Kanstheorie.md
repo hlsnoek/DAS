@@ -113,7 +113,7 @@ Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. We trekken
 > **Voorbeeld 1 - behoud van kans/complement regel:** <br>
 * De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. <br>
 * De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
-* De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een rode kaart te trekken (1-1/2 = 1/2).
+* De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een zwarte kaart te trekken (1-1/2 = 1/2).
 
 > **Voorbeeld 2 - groter dan nul:** <br>
 * Voor elke kaart in het dek is er een kans dat je hem trekt. 
