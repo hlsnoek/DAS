@@ -15,8 +15,8 @@ We gaan nu Poisson distributies met python grafisch weergeven. Download het best
  
 	import math as math
  		
-	math.pow(lambda,k)  ## dit geeft lambda^k
-	math.exp(-lambda)   ## geeft e^{-lambda}   
+	math.pow(lamda,k)  ## dit geeft lamda^k
+	math.exp(-lamda)   ## geeft e^{-lamda}   
 	math.factorial(k)   ## geeft k!  
  
  
