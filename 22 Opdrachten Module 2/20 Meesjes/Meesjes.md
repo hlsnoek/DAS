@@ -74,11 +74,11 @@ We gaan terug naar de kansberekeningen.
 
 > - **M2.2k) Combineer nu de gegevens en bereken de kansen $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} 
 > | \text{koolmees})}$$ en $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} | \text{pimpelmees})}$$.**<br><br>
-> - **M2.2i) Welk vogeltje denk je nu dat het is? Beredeneer je antwoord.**
+> - **M2.2l) Welk vogeltje denk je nu dat het is? Beredeneer je antwoord.**
 
 Na al deze berekeningen lopen we een eindje in de tuin. Op de plek waar we eerder het meesje aantroffen zit nu een ander meesje hartstochtelijk te zingen. Aan de zang hoor je direct dat dit een pimpelmeesje is. Je schat in dat er een kans is van 90% dat dit pimpelmeesje bij het andere meesje hoorde, en dat dat dus ook een pimpelmees is. 
 
-> - **M2.2l) Bereken nu de kans dat het inderdaad een pimpelmeesje is geweest: $$P(\text{pimpelmees}
+> - **M2.2m) Bereken nu de kans dat het inderdaad een pimpelmeesje is geweest: $$P(\text{pimpelmees}
 > | m_\text{obs} \text{ en } w_{\text{obs}}).$$**  
 > TIP: Maak hierbij gebruik van de [vergelijking](/module-2/extra-kansrekenregels) van Bayes.
 
