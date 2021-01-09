@@ -29,11 +29,14 @@ We willen weten wat het gemiddelde aantal pakjes is dat je nodig hebt om het boe
 > 
 > - **M2.4b) Wat is de kans dat je minder dan 150 pakjes plaatjes nodig hebt gehad om je boek te vullen? Gebruik de distributie om deze kans te berekenen.** <br><br>
 > 
-> - **M2.4c) Wat is de kans dat je meer dan 250 pakjes plaatjes nodig hebt gehad om je boek te vullen?**<br><br>
+> - **M.2.4c) Bereken de onzekerheid op de in 2.4b) uitgerekende kans. Geef niet alleen het antwoord maar laat ook je berekening zien zien.**<br><br> 
 > 
-> - **M2.4d) Wat is de modus, het gemiddelde en de mediaan van de distributie?**  
-> Tip: Denk ook aan de notatie en de eenheden.<br><br>
 > 
-> - **M2.4e) Wat is de variantie en de standaarddeviatie van de distributie?**
+> - **M2.4d) Wat is de kans dat je meer dan 250 pakjes plaatjes nodig hebt gehad om je boek te vullen? Presenteer de berekende kans met daarbij de berekende onzekerheid op de kans.**<br><br>
+> 
+> - **M2.4e) Presenteer de modus, het gemiddelde en de mediaan van de distributie?**  <br><br>
+> 
+> - **M2.4f) Wat is de variantie en de standaarddeviatie van de distributie?**<br><br>
+> Tip: Denk bij het noteren van de antwoorden ook aan de juiste notatie en de eenheden.<br><br>
 
 
