@@ -13,6 +13,8 @@ Hieronder vind je een lijstje met de stof die je moet kennen. Gebruik deze om te
 - De definities (en eventueel formules) van: het gemiddelde, de mediaan, de modus.
 - De definities (en eventueel formules) van: de range, de standaarddeviatie, de variantie, de variatiecoëfficiënt.
 
+<!--Voor 2022: Scheefheid en assymetrie-->
+
 ### Significantie en Wetenschappelijke notatie [link](/module-1/notatie)
 - Weten wat significantie is.
 - Het kunnen toepassen van de wetenschappelijke notatie
