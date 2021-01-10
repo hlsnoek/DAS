@@ -4,7 +4,7 @@ Je vindt helaas een dood meesje in de tuin. Het lijkt op een koolmeesje maar het
 Er zijn <a href="https://www.tuinvogeltelling.nl/herkenningstips/?tip=17">manieren</a> om pimpelmeesjes van koolmeesjes te onderscheiden met behulp van uiterlijke kenmerken. Maar je bent een Natuurkundige en geen Bioloog. Online vind je een dataset met informatie over het massa en de spanwijdte van beide soorten meesjes.
 
 
-Download het bestand [M2.2_Meesjes.py](M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand.
+Voordat we aan deze opdracht beginnen moeten we eerst een nieuwe versie downloaden van de [DAS_DatasetGenerator.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py). Zonder de nieuwe versie werkt deze opgave niet. Download ook het bestand [M2.2_Meesjes.py](M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand.
 
 
 We genereren eerst een twee datasets met behulp van de volgende regel code: 
@@ -24,7 +24,7 @@ Voor de twee variabelen van de pimpelmeesjes geldt precies hetzelfde.
 We gaan eerst naar de twee massaverdelingen van de meesjes kijken. 
 
 > - **M2.2a) Plot de massaverdelingen van beide meesjes in een histogram. Laat in een legenda zien welke meesje bij welke kleur hoort. Maak ook een apart histogram waarin je spanwijdtes van de twee soorten meesjes plot. Maak de twee histogrammen netjes af en zorg dat duidelijk is welke distributie bij welk soort meesje hoort.**<br><br>
-> TIP: Gebruik de plot optie **`alpha=0.8`** zodat je histogrammen wat doorzichtig worden. Zo kan je het achterste histogram ook nog altijd goed zien.
+> TIP: Gebruik de plot optie **`alpha=0.8`** zodat je histogrammen wat doorzichtig worden. Zo kan je het achterste histogram ook nog altijd goed zien.<br><br>
 >  
 > - **M2.2b) Maak een tabel waarin je voor beide soorten meesjes de gemiddeldes, de standaarddeviaties en de varianties noteert. Let goed op de notatie en denk ook even aan de eenheden.**
 
@@ -40,7 +40,7 @@ Met deze informatie kunnen we nu met de Frequentist Methode de kans uitrekenen d
 
 > - **M2.2c) Gebruik de dataset `m_km` om de kans uit te rekenen dat je een koolmeesje vindt die een massa heeft die in het gebied `mees_m_laag` en `mees_m_hoog` in ligt. Dit noem je ook wel de voorwaardelijke kans $$P(\text{mees_m_hoog < m < mees_m_laag} 
 > | \text{koolmees})$$. Voor het gemak noteren we dit even als $$P(m_{\text{obs}} | \text{koolmees} )$$. Herhaal dit voor het pimpelmeesje, bereken dus ook $$P(m_{\text{obs}} | \text{pimpelmees} )$$.**  
-
+>
 > - **M2.2d) Als je kijkt naar de uitkomst van M2.2c), wat vogeltje denk je dan dat het is?**
 
 De frequentist methode, zoals we die hierboven gebruiken, is uiteindelijk een ratio tussen twee getallen. Deze twee getallen hebben een onzekerheid volgens de Poisson verdeling. 
