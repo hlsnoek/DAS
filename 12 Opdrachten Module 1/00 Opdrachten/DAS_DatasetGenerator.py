@@ -122,10 +122,10 @@ def datasetVogeltjes() :
     span_pm,m_pm = np.random.multivariate_normal(mu_pm,cov_pm,30000).T
     return m_km,span_km, m_pm, span_pm
 
-def meetMassaMees() :
-    return (16,17)
+def meetMassaMeesje() :
+    return (10,11)
 
-def meetLengteMees() :
+def meetLengteMeesje() :
     return (21,22)
 
 def GroteAantallenStdGenerator() :
