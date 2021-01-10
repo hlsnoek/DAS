@@ -4,9 +4,11 @@ In [module 1](/module-1/kanstheorie) hebben we de complement, de en-regel en de 
 
 De of-regel geldt alleen als de metingen A en B wederzijds uitsluitend zijn. Dat betekent dat een meting A niet kan voorkomen als B gemeten is. 
 
-
 > Een voorbeeld van kansen die niet wederzijds uitsluitend zijn is, als we weer kijken naar een set kaarten waar A bijvoorbeeld de kleur rood is en B het getal 4. Er bestaan rode kaarten met getal vier en in dit geval mogen we de kansen dus niet optellen. <br>
 > <center> $$P(\text{rood of 4}) \neq P(\text{rood}) + P(4)$$</center>
+
+We breiden de regels hier verder uit en gaan kijken naar het combineren van kansen die niet wederzijds uitsluitend zijn. We kijken ook naar het begrip conditionele kans en introduceren Bayes theorema die gebruikt kan worden om informatie van kansen om te rekenen. 
+
 
 ###De of regel wanneer A en B niet wederzijds uitsluitend zijn:
 In het geval A en B niet wederzijds uitsluitend zijn dan:<br>
