@@ -15,7 +15,7 @@ Als $$X$$ en $$Y$$ onafhankelijk zijn dan geldt ook:
 
 $$\displaystyle{Var(X+Y)= Var(X)+Var(Y)}$$
 
-Het ziet er misschien ingewikkeld uit, maar het enige wat we doen is een nieuwe variabele definiëren die de som is van twee variabelen. De variantie op de som vinden we via de gewone fouten propagatie [regels](/module-2/foutenpropagatie). 
+Het ziet er misschien ingewikkeld uit, maar het enige wat we doen is een nieuwe variabele definiëren die de som is van twee variabelen. De variantie op de som vinden we via de gewone fouten propagatie [regels](/module-2/foutenpropagatiei). 
 
 Stel nu dat we dit uitbreiden. En we nemen de som van $$N$$ onafhankelijk stochasten, $$X_1,X_2,...,X_N$$  die elk dezelfde onderliggende verdeling kennen. Dat wil zeggen dat ze allemaal dezelfde verwachtingswaarde en dezelfde variantie hebben. 
 
