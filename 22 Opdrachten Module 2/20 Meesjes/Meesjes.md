@@ -41,7 +41,7 @@ Met deze informatie kunnen we nu met de Frequentist Methode de kans uitrekenen d
 > - **M2.2c) Gebruik de dataset `m_km` om de kans uit te rekenen dat je een koolmeesje vindt die een massa heeft die in het gebied `mees_m_laag` en `mees_m_hoog` in ligt. Dit noem je ook wel de voorwaardelijke kans $$P(\text{mees_m_hoog < m < mees_m_laag} 
 > | \text{koolmees})$$. Voor het gemak noteren we dit even als $$P(m_{\text{obs}} | \text{koolmees} )$$. Herhaal dit voor het pimpelmeesje, bereken dus ook $$P(m_{\text{obs}} | \text{pimpelmees} )$$.**  
 
-> -**M2.2d) Als je kijkt naar de uitkomst van M2.2c), wat vogeltje denk je dan dat het is?**
+> - **M2.2d) Als je kijkt naar de uitkomst van M2.2c), wat vogeltje denk je dan dat het is?**
 
 De frequentist methode, zoals we die hierboven gebruiken, is uiteindelijk een ratio tussen twee getallen. Deze twee getallen hebben een onzekerheid volgens de Poisson verdeling. 
 
@@ -53,8 +53,7 @@ Je besluit ook de spanwijdte van de mees op te meten. Misschien geeft dat wel me
 		
 De output volgt dezelfde logica als hiervoor.
 
-> - **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen $$P({w_{\text{obs}}  
->  | \text{koolmees} )$$ en $$P(w_{\text{obs}}
+> - **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen $$P({w_{\text{obs}} | \text{koolmees} )$$ en $$P(w_{\text{obs}}
 >  | \text{pimpelmees} )$$ uit te rekenen maar nu door (alleen) gebruik te maken van de informatie van de spanwijdtes. Noteer ook de onzekerheden op de uitgerekende kansen.**<br><br>
 > 
 > - **M2.2g) Op basis van deze informatie, wat denk je nu dat het voor vogeltje is?**
