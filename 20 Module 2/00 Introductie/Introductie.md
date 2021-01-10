@@ -4,4 +4,4 @@ Deze week verdiepen we ons in het concept meetonzekerheid. We leren hoe we [onze
 
 
 We werken in de laptopcolleges aan de opdrachten van deze module [M2](/opdrachten-module-2/opdrachten). Je vindt in het [schema](/informatie/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
-Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-ii/introductie) voor de tweede tussentoets. De tweede tussentoets volgt aan het einde van het derde hoorcollege.
+Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-ii/inhoud) voor de tweede tussentoets. De tweede tussentoets volgt aan het einde van het derde hoorcollege.
