@@ -10,7 +10,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 
 ## Stof checklist
 
-### Foutenpropagatie [link](/module-2/foutenpropagatie) 
+### Foutenpropagatie [link](/module-2/foutenpropagatiei) 
 
 * Het kennen en kunnen toepassen van de algemene regel voor foutenpropagatie.
 * Afronden van getallen bij foutenpropagatie
@@ -38,7 +38,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 * Bayes theorema kennen en kunnen toepassen.
 
 ### Overig
-* De definitie van een schatter kennen. Deze vind je in de opgave [M2.3](/opdrachten-module-2/halfwaardedikteii) hier </a>.
+* De definitie van een schatter kennen. Deze vind je in de opgave [M2.3](/opdrachten-module-2/halfwaardedikteii) hier.
 * Weten wat een zuivere of een onzuivere meting is.
 
 
