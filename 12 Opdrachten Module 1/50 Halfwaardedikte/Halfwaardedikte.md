@@ -1,6 +1,8 @@
 ## M1.5 - Halfwaardedikte I *
 
-<!--voor 2022: In het nakijkmodel bij 5e voeg het antwoord toe: Je hebt er goed over nagedacht, maar het antwoord is toch fout.-->
+<!--voor 2022: 
+- In het nakijkmodel bij 5e voeg het antwoord toe: Je hebt er goed over nagedacht, maar het antwoord is toch fout.
+- Bij laatste vraag, verander het woord opstelling in experiment -->
 
 We voeren een experiment uit waarbij de halfwaardedikte van lood wordt bepaald voor een bepaalde gamma-bron. De bron produceert gamma straling met een onbekende energie. Een halfwaardedikte is gedefinieerd als precies de energie die je nodig hebt om de intensiteit van de bron te halveren. Dit is een belangrijke grootheid om te weten als je bijvoorbeeld ziekenhuispersoneel wil beschermen tegen straling die bij het maken van een röntgenfoto vrijkomt.
 
