@@ -29,6 +29,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 * De formule van de correlatie kennen.
 * De correlatie tussen twee variabelen in een dataset kunnen uitrekenen.
 * Het concept causaliteit kennen.
+* Weten wat een verborgen parameter is.
 
 ### Extra kansrekenregels [link](/module-2/extra-kansrekenregels)
 * Alle kansrekenregels (ook uit module 1) paraat hebben en kunnen toepassen.
