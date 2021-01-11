@@ -3,7 +3,9 @@
 1. Ordered TOC
 {:toc}
 
-<!--Voor 2021: Schrijf expliciet fout op telexperiment volgt Poisson zie Poisson.-->
+<!--Voor 2021: 
+- Schrijf expliciet fout op telexperiment volgt Poisson zie Poisson.
+- Schrijf een stukje over onzuiverheid-->
 
 ##Fouten en onzekerheden
 
