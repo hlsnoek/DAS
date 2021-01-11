@@ -3,6 +3,8 @@
 1. Ordered TOC
 {:toc}
 
+<!--Voor 2021: Schrijf expliciet fout op telexperiment volgt Poisson zie Poisson.-->
+
 ##Fouten en onzekerheden
 
 Als we iets meten is dat meestal omdat we een bepaalde grootheid willen weten. Voorbeelden hiervan zijn 
