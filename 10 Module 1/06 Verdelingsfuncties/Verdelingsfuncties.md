@@ -30,8 +30,8 @@ Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de
 ## Verwachtingswaarde en standaarddeviatie
 Voor **discrete** verdelingen gelden de volgende vergelijkingen:
 
-* de verwachtingswaarde: $$ \mu = E(x) = { \sum_{i=1}^{n} x_i P(x_i) } ,$$<br>
-* de variantie:   $$\sigma^2 = \sum_{i=1}^n (x_i - E(x))^2 P(x_i).$$<br>
+* de verwachtingswaarde: $$ \mu = E(x) = { \sum_{i=1}^{N} x_i P(x_i) } ,$$<br>
+* de variantie:   $$\sigma^2 = \sum_{i=1}^N (x_i - E(x))^2 P(x_i).$$<br>
 
 Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br>
 
