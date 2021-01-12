@@ -30,13 +30,13 @@ Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de
 ## Verwachtingswaarde en standaarddeviatie
 Voor **discrete** verdelingen gelden de volgende vergelijkingen:
 
-* de verwachtingswaarde: $$ \mu = E(x) = { \sum_i x_i P(x_i) } ,$$<br>
-* de standaarddeviatie: $$\sigma^2 = \sum_i (x_i - E(x))^2 P(x_i).$$<br>
+* de verwachtingswaarde: $$ \mu = E(x) = { \sum_{i=1}^{n} x_i P(x_i) } ,$$<br>
+* de variantie:   $$\sigma^2 = \sum_{i=1}^n (x_i - E(x))^2 P(x_i).$$<br>
 
 Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:<br>
 
 * de verwachtingswaarde: $$\mu = E(x) =  \int^\infty_{-\infty} x f(x) dx,$$<br>
-* de standaarddeviatie: $$\sigma^2 = E(x^2) - E(x)^2 = \int^{\infty}_{-\infty} (x - E(x))^2 f(x) dx .$$
+* de variantie: $$\sigma^2 = E(x^2) - E(x)^2 = \int^{\infty}_{-\infty} (x - E(x))^2 f(x) dx .$$
 
 
 
