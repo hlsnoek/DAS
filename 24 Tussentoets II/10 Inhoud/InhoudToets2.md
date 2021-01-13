@@ -17,11 +17,9 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 
 
 ### De Wet van Grote aantallen [link](/module-2/wet-van-grote-aantallen)
-* De afleiding kennen van de wortel N wet.
-* De voorwaardes kennen van de wet van grote aantallen.
 * De wortel N wet kunnen toepassen. Kunnen uitrekenen hoe een meetonzekerheid schaalt met de grootte van de dataset.
 * De wet van grote aantallen kennen en kunnen toepassen.
-
+* De voorwaardes kennen van de wet van grote aantallen.
 
 ### Meerdimensionale data [link](/module-2/meerdimensionale-data)
 * De covariantie definitie kennen.
@@ -40,7 +38,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 
 ### Overig
 * De definitie van een schatter kennen. Deze vind je in de opgave [M2.3](/opdrachten-module-2/halfwaardedikteii) hier.
-* Weten wat een zuivere of een onzuivere meting is.
+* Weten wat een zuivere of een onzuivere meting is. Zie hiervoor ook het hoorcollege en de opgave M2.3.
 
 
 
