@@ -34,7 +34,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 * De wiskundige notaties $$(A \cap B)$$, $$(A \cup B)$$ en $$(A
 |B)$$ kennen en begrijpen.
 * Begrijpen wanneer je welke regel moet toepassen.
-* Bayes theorema kennen en kunnen toepassen.
+* Bayes theorema kennen en kunnen toepassen. Bekijk ook de kennisclip op Canvas.
 
 ### Overig
 * De definitie van een schatter kennen. Deze vind je in de opgave [M2.3](/opdrachten-module-2/halfwaardedikteii) hier.
