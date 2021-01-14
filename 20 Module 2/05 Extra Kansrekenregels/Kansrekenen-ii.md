@@ -47,3 +47,5 @@ Het combineren van de formules van $$P(A|B)$$ en $$P(B|A)$$:
 geeft:
 <center>$$\displaystyle P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$</center><br>
 Dit theorema maakt het mogelijk om nieuwe informatie toe te voegen aan de kennis van de kans. In [module 1](/module-1/kanstheorie) hebben we het kort over Bayesiaanse kans definitie gehad. Dit theorema staat centraal in Bayesiaanse kans. Het is wel belangrijk om te weten dat deze wiskundige vergelijking ook opgaat in de Frequentist benadering van kans.  
+
+Bekijk ook even het kennisclipje over Extra Kansrekenregels op Canvas!
