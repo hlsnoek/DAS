@@ -80,6 +80,6 @@ Na al deze berekeningen lopen we een eindje in de tuin. Op de plek waar we eerde
 
 > - **M2.2m) Bereken nu de kans dat het inderdaad een pimpelmeesje is geweest: $$P(\text{pimpelmees}
 > | m_\text{obs} \text{ en } w_{\text{obs}}).$$ Bereken hier alleen de centrale waarde.**  
-> TIP: Maak hierbij gebruik van de [vergelijking](/module-2/extra-kansrekenregels) van Bayes.
+> TIP: Maak hierbij gebruik van de [vergelijking](/module-2/extra-kansrekenregels) van Bayes. Om $$P(m_\text{obs} \text{ en }w_{\text{obs}})$$ te berekenen kun je gebruiken maken van de volgende formule: $$P(C) = P(C|D)\cdot P(D) + P(C|\text{niet }D)\cdot P(\text{niet }D)$$ .
 
 
