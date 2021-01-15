@@ -41,7 +41,7 @@ Met deze dataset generator gaan we nu de zuiverheid van onze meting bestuderen.
 > * Kijk eerste eens naar wat de *true* waarde was in je datasets die je hierboven hebt gebruikt! Als je voor **`d_input`** nu -1 invult krijg je de halfwaardedikte die gebruikt is voor het genereren van de 50 datasets die je eerder in deze opdracht hebt gebruikt. <br><br>
 >
 >
-> - **M2.3f) Hoe groot is de onzuiverheid van ons experiment? Vergelijk hiervoor de gemiddelde bepaalde halfwaardediktes van de 50 experimenten me de `d_true`.**
+> - **M2.3f) Hoe groot is de onzuiverheid van ons experiment? Vergelijk hiervoor de gemiddelde bepaalde halfwaardediktes van de 50 experimenten met de `d_true`.**
 
 
 Nu kun je het gedrag bekijken over meerdere waardes rond de **`d_true`** waarde. Plaats een grote loop over je hele code en varieer de **`d_input`** waarde bijvoorbeeld met 5 of 10 procent rond je aanvankelijke waarde. Voor elke setting van **`d_input`** bepaal je over 50 experimenten het gemiddelde van de bepaalde waardes van $$\text{d}_{\text{half}}$$. 

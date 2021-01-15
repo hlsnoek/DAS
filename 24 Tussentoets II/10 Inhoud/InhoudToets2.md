@@ -38,8 +38,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 
 ### Overig
 * De definitie van een schatter kennen. Deze vind je in de opgave [M2.3](/opdrachten-module-2/halfwaardedikteii) hier.
-* Weten wat een zuivere of een onzuivere meting is. Zie hiervoor ook het hoorcollege en de opgave M2.3.
-
+* Weten wat een zuivere of een onzuivere meting is. Zie hiervoor ook het hoorcollege en de opgave M2.3. Ken ook de formule voor onzuiverheid.
 
 
 
