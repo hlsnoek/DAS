@@ -13,6 +13,11 @@ Om dit fit pakket te kunnen gebruiken moet het volgende import statement gebruik
 Maak nu een dataset aan met de standaard waardes zoals je dat in M2.3 ook hebt gedaan: 
 
 	counts, diktes, dtrue = ds.DataSetHalfwaardeDikteVariatie()
+
+
+
+
+
 <!--
 Maak nu een lijst aan met de fouten op de counts.
 We gaan nu de fit opzetten. De roep je op deze manier aan: 
