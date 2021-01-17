@@ -1,6 +1,8 @@
 1. Ordered TOC
 {:toc}
 
+<!--Verder introduceren chi-2 toets. Punten uitsluiten van grafiek. wanneer mag dat?-->
+
 
 ## Wald test
 De Wald test is een bijzondere test die kan worden gebruikt om met behulp van de kleinste kwadraten methode een hypothese te toetsen. 

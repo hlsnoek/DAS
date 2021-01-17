@@ -5,6 +5,8 @@ De methode van de kleinste kwadraten is een manier om onbekende parameters te be
 
 De methode van de kleinste kwadraten wordt ook wel lineaire regressie genoemd. De methode kan wiskundig worden afgeleid met behulp van de zogeheten 'maximale waarschijnlijkheid principes'. Dat gaan we hier niet doen, maar als je er meer over wilt weten kun je er bijvoorbeeld <a href="https://www.youtube.com/watch?v=_-Gnu498s3o">hier</a> wat over vinden.
 
+##Schatters
+stukje over schatters!!
 
 Met de kleinste kwadraten methode minimaliseren we het kwadratisch verschil tussen een set metingen en de voorspelde waardes op die metingen, waarbij de voorspelling afhangt van één of meerdere parameters. Dit doe je door de parameters die je wilt schatten te variëren. Door het kwadraat te gebruiken en niet het absolute verschil tussen de datapunten en de voorspelling geven we meer waarde aan de punten die ver van de voorspelling afliggen. 
 

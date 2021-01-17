@@ -47,14 +47,14 @@ n =32-4 = 28
 
 **4** Stel je hebt een dataset met 45 meetwaardes gefit met een functie $$f(x;a,b)$$. De $$\chi^2$$ van de fit is bepaald op 98. Is dit een goede fit?<br>
 <span style = 'color:blue'>
-n= 45-2 = 43, $$\chi^2/n = 98/43 =2.3$$. Dit is niet een goede fit, het lijkt erop dat de functie de dataset niet goed beschrijft.
+n= 45-2 = 43, $$\chi^2/{df} = 98/43 =2.3$$. Dit is niet een goede fit, het lijkt erop dat de functie de dataset niet goed beschrijft.
 </span>
 
 ----
 
 **5** Stel je hebt een dataset met 14 punten. Je fit deze met een functie $$f=a\cdot x^2$$. De $$\chi^2$$ van de fit is 10. Is dit een goede fit?<br>
 <span style = 'color:blue'>
-n=14-1 = 13. $$\chi^2/n = 0.8$$ Dit is een redelijk goede fit.
+n=14-1 = 13. $$\chi^2/{df} = 0.8$$ Dit is een redelijk goede fit.
 </span>
 
 ----
