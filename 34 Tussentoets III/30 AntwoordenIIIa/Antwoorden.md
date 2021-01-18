@@ -40,21 +40,21 @@ $$(1.0^2 \cdot 3.2 - \hat{b} \cdot 1.0^3)$$ +  $$(2.0^2 \cdot 13.3 - \hat{b} \cd
 ### Chi-2
 **3** Stel je hebt een dataset met 32 meetwaardes die je fit met de functie $$f(x;a,b,c,d)$$ waarbij je alle vier de variabelen optimaliseert. Hoeveel vrijheidsgraden heeft deze fit?<br>
 <span style = 'color:blue'>
-n =32-4 = 28
+df =32-4 = 28
 </span>
 
 -----
 
 **4** Stel je hebt een dataset met 45 meetwaardes gefit met een functie $$f(x;a,b)$$. De $$\chi^2$$ van de fit is bepaald op 98. Is dit een goede fit?<br>
 <span style = 'color:blue'>
-n= 45-2 = 43, $$\chi^2/{df} = 98/43 =2.3$$. Dit is niet een goede fit, het lijkt erop dat de functie de dataset niet goed beschrijft.
+df= 45-2 = 43, $$\chi^2/{df} = 98/43 =2.3$$. Dit is niet een goede fit, het lijkt erop dat de functie de dataset niet goed beschrijft.
 </span>
 
 ----
 
 **5** Stel je hebt een dataset met 14 punten. Je fit deze met een functie $$f=a\cdot x^2$$. De $$\chi^2$$ van de fit is 10. Is dit een goede fit?<br>
 <span style = 'color:blue'>
-n=14-1 = 13. $$\chi^2/{df} = 0.8$$ Dit is een redelijk goede fit.
+df=14-1 = 13. $$\chi^2/{df} = 0.8$$ Dit is een redelijk goede fit.
 </span>
 
 ----

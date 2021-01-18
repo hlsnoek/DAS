@@ -152,13 +152,13 @@ Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X> x$
 ![](NormaleVerdeling_3.png){:width="60%"}
 ![](NormaleVerdeling_4.png){:width="60%"}
 
-Om dit oppervlak uit te rekenen gebruiken we de zogenoemde *Z-toets*. Stel een dataset met $$N > 30$$ datapunten is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. De $$Z-score$$, voor een bepaalde observatiewaarde $$x$$, is dan gelijk aan:
+Om dit oppervlak uit te rekenen gebruiken we de zogenoemde *Z-toets*. Stel een dataset met $$n > 30$$ datapunten is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. De $$Z-score$$, voor een bepaalde observatiewaarde $$x$$, is dan gelijk aan:
 
 $$Z = \frac{x-\mu}{\sigma}$$  
 
 <!--De p-waarde, oftewel de kans op de geobserveerde uitkomst met de gegeven dataset-->
 
-Stel een stochastische variabele $$X$$, met $$N > 30$$ datapunten, is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. 
+Stel een stochastische variabele $$X$$, met $$n > 30$$ datapunten, is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. 
 
 <!--Dan wordt de Z-score voor een waarde $$x$$ van de stochast $$X$$ gegeven door:
 

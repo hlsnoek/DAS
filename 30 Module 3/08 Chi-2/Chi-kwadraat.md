@@ -13,18 +13,21 @@ Let op dat we hier de geoptimaliseerde parameters $$\hat{a}$$ van de functie heb
 
 De $$\chi^2$$ verdeling is een kansdichtheidsverdeling, en voldoet dus ook aan de voorwaardes hiervan. De functie ziet er als volgt uit: <br>
 
-$${\displaystyle P(\chi^2;n) = \frac{2^{-n/2}}{\Gamma (n/2)} \chi^{n-2} e^{-\chi^2/2}.}$$
+$${\displaystyle P(\chi^2;df) = \frac{2^{-df/2}}{\Gamma (df/2)} \chi^{n-2} e^{-\chi^2/2}.}$$
 
-Zoals je ziet hangt de $$\chi^2$$ kans af van een parameter $$n$$, dit is het aantal meetpunten in de som ($$N$$) gereduceerd met het aantal parameters van de functie $$f$$. We noemen $$n$$ het aantal *vrijheidsgraden*. De $$\Gamma$$ in de noemer is een speciale wiskundige functie. Deze zal pas in jullie tweede jaar volledig worden uitgelegd. Op dit moment kun je hem simpelweg interpreteren als een functie waar een normalisatie term uitkomt. Voorbeelden: $$\Gamma(1/2) = \sqrt{\pi}$$, $$\Gamma(1) = 1$$ en $$\Gamma(3/2) = 1/2 \sqrt{\pi}$$.
+De $$\Gamma$$ in de noemer is een speciale wiskundige functie. Deze zal pas in jullie tweede jaar volledig worden uitgelegd. Op dit moment kun je hem simpelweg interpreteren als een functie waar een normalisatie term uitkomt. Het is best een gekke functie, voorbeelden van uitkomsten: $$\Gamma(1/2) = \sqrt{\pi}$$, $$\Gamma(1) = 1$$ en $$\Gamma(3/2) = 1/2 \sqrt{\pi}$$.
+Als je al meer wilt weten over de $$\Gamma$$-functie dan kun je daar bijvoorbeeld [hier](https://nl.wikipedia.org/wiki/Gammafunctie) meer over lezen. 
+
+Zoals je ziet hangt de $$\chi^2$$ kans ook af van een parameter $$df$$, dit is het aantal meetpunten in de som ($$n$$) gereduceerd met het aantal parameters van de functie $$f$$. We noemen $$df$$ het aantal *vrijheidsgraden*. 
 
 
-> **Voorbeeld** Stel we hebben 10 meetwaardes en we gebruiken de kleinste kwadraten methode om 2 parameters van een functie $$f$$ te optimaliseren. We hebben dan $$n=10-2=8$$ vrijheidsgraden.
+> **Voorbeeld** Stel we hebben 10 meetwaardes en we gebruiken de kleinste kwadraten methode om 2 parameters van een functie $$f$$ te optimaliseren. We hebben dan $$df=10-2=8$$ vrijheidsgraden.
 
-Hieronder zie je hoe de $$\chi^2$$ eruit ziet voor verschillende waardes van $$n$$. <br>
+Hieronder zie je hoe de $$\chi^2$$ eruit ziet voor verschillende waardes van $$df$$. <br>
 
 ![](ChiSquareDistributie.png){:width="80%"}<br>
 
-De $$\chi^2$$ distributie heeft een gemiddelde $$\mu = n$$ en een variantie van $$var = 2n$$. We verwachten dus een $$\chi^2$$ van ongeveer **1 per vrijheidsgraad**  te vinden. Als de $$\chi^2$$ per vrijheidsgraad veel kleiner of veel groter is dan 1 weten we dat er een probleem is, de functie $$f(x;\hat{a},\hat{b},...)$$ lijkt de data niet goed te beschrijven.
+De $$\chi^2$$ distributie heeft een gemiddelde $$\mu = df$$ en een variantie van $$var = 2df$$. We verwachten dus een $$\chi^2$$ van ongeveer **1 per vrijheidsgraad**  te vinden. Als de $$\chi^2$$ per vrijheidsgraad veel kleiner of veel groter is dan 1 weten we dat er een probleem is, de functie $$f(x;\hat{a},\hat{b},...)$$ lijkt de data niet goed te beschrijven.
 
 
 # Interpreteren van $$\chi^2$$
@@ -61,9 +64,9 @@ Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze 
 > Op basis van de vuistregel zou je functie $$f_1$$ kiezen. 
 
 
-Beter is om dan het Akaike Informatie Criterium kun je gebruiken om uit te vinden welke functie het beste aan een dataset fit. Stel dat je een dataset hebt waarbij je $$N$$ meetwaardes hebt die je beschreven hebt met een functie met $$p$$ vrije parameters met een geminimaliseerde $$\chi^2$$. Dan heeft het Akaike Informatie Criterium de volgende waarde: 
+Beter is om dan het Akaike Informatie Criterium kun je gebruiken om uit te vinden welke functie het beste aan een dataset fit. Stel dat je een dataset hebt waarbij je $$n$$ meetwaardes hebt die je beschreven hebt met een functie met $$p$$ vrije parameters met een geminimaliseerde $$\chi^2$$. Dan heeft het Akaike Informatie Criterium de volgende waarde: 
 
-$${\displaystyle AIC  = \chi^2 + 2p + \frac{2p(p+1)}{N-p-1}.}$$
+$${\displaystyle AIC  = \chi^2 + 2p + \frac{2p(p+1)}{n-p-1}.}$$
 
 Als we deze $$AIC$$ berekenen voor beide functies dan is de functie met de laagste $$AIC$$ de meest optimale.
 

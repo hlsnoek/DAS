@@ -24,6 +24,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 ### Chi-2 [link](/module-3/chi-2) 
 * Weten wat de definitie is van het aantal vrijheidsgraden en deze kunnen bepalen. 
 * Begrijpen hoe je een $$\chi^2$$ kunt interpreteren en dit ook kunnen toepassen.
+* Weten hoe je een $$\chi^2$$ omrekent naar een gereduceerde $$\chi^2/df$$.
 
 
 ### Hypothese toetsen [link](/module-3/hypothesetoetsen) 
