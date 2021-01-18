@@ -18,33 +18,20 @@ $${\displaystyle P(\chi^2;df) = \frac{2^{-df/2}}{\Gamma (df/2)} \chi^{n-2} e^{-\
 De $$\Gamma$$ in de noemer is een speciale wiskundige functie. Deze zal pas in jullie tweede jaar volledig worden uitgelegd. Op dit moment kun je hem simpelweg interpreteren als een functie waar een normalisatie term uitkomt. Het is best een gekke functie, voorbeelden van uitkomsten: $$\Gamma(1/2) = \sqrt{\pi}$$, $$\Gamma(1) = 1$$ en $$\Gamma(3/2) = 1/2 \sqrt{\pi}$$.
 Als je al meer wilt weten over de $$\Gamma$$-functie dan kun je daar bijvoorbeeld [hier](https://nl.wikipedia.org/wiki/Gammafunctie) meer over lezen. 
 
-Zoals je ziet hangt de $$\chi^2$$ kans ook af van een parameter $$df$$, dit is het aantal meetpunten in de som ($$n$$) gereduceerd met het aantal parameters van de functie $$f$$. We noemen $$df$$ het aantal *vrijheidsgraden*. 
-
+Zoals je ziet hangt de $$\chi^2$$ kans ook af van een parameter $$df$$, dit is het aantal meetpunten, $$n$$, gereduceerd met het aantal parameters van de functie $$f$$. We noemen $$df$$ het aantal *vrijheidsgraden*. 
 
 > **Voorbeeld** Stel we hebben 10 meetwaardes en we gebruiken de kleinste kwadraten methode om 2 parameters van een functie $$f$$ te optimaliseren. We hebben dan $$df=10-2=8$$ vrijheidsgraden.
 
-Hieronder zie je hoe de $$\chi^2$$ eruit ziet voor verschillende waardes van $$df$$. <br>
+Hieronder zie je hoe de $$\chi^2$$ eruit ziet voor verschillende waardes van $$df$$. <br> 
 
 ![](ChiSquareDistributie.png){:width="80%"}<br>
 
-De $$\chi^2$$ distributie heeft een gemiddelde $$\mu = df$$ en een variantie van $$var = 2df$$. We verwachten dus een $$\chi^2$$ van ongeveer **1 per vrijheidsgraad**  te vinden. Als de $$\chi^2$$ per vrijheidsgraad veel kleiner of veel groter is dan 1 weten we dat er een probleem is, de functie $$f(x;\hat{a},\hat{b},...)$$ lijkt de data niet goed te beschrijven.
+De $$\chi^2$$ distributie heeft een gemiddelde $$\mu = df$$ en een variantie van $$var = 2df$$. We verwachten dus een $$\chi^2$$ van ongeveer **1 per vrijheidsgraad**  te vinden. Als de $$\chi^2$$ per vrijheidsgraad veel afwijkt van 1 dan is het waarschijnlijk dat er een probleem is met de fit. Het kan zijn dat de functie de relatie tussen de datapunten niet goed beschrijft, of dat er iets mis is met de onzekerheden op de datapunten.
 
-
-# Interpreteren van $$\chi^2$$
-
-
-
-We hebben in module 3 gezien hoe we met behulp van de kleinste-kwadraten methode een $$\chi^2$$ kunnen minimaliseren. Hierbij gaan we ervan uit dat we een functie $$f$$ hebben gedefinieerd die één of meerdere vrije parameters heeft. De beste waarde voor de parameter(s) vinden we via het optimaliseren van de $$\chi^2$$. 
-
-We gaan in deze module bekijken hoe we de geminimaliseerde $$\chi^2$$ kunnen inzetten om: 
-
-1. te bekijken welke functie een dataset beter beschrijft. Dit doen we met behulp van de Akaike Informatie Criterium.
-
-2. hypotheses te toetsen. Hiervoor maken we gebruik van de Wald test.
 
 
 ## Akaike Informatie Criterium
-Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze wordt beschreven. Je probeert twee functies uit, $$f_1$$ en $$f_2$$. En je minimaliseert voor beide functies de $$\chi^2$$, deze zijn dan $$\chi^2_1$$ en $$\chi^2_2$$. Als algemene vuistvuistregelregel geldt dat degene met de kleinste $$\chi^2$$ per vrijheidsgraad de beste is. Als in dat geval de betreffende $$\chi^2$$ dicht bij 1 ligt werkt deze vuistregel goed. Als deze echter veel kleiner is dan 1 dan kun je betwijfelen of de bijbehorende functie wel echt de beste is. 
+Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze wordt beschreven. Je probeert twee functies uit, $$f_1$$ en $$f_2$$. En je minimaliseert voor beide functies de $$\chi^2$$, deze zijn dan $$\chi^2_1$$ en $$\chi^2_2$$. Als algemene vuistvuistregelregel geldt dat de functie met de kleinste geminimaliseerde $$\chi^2/df$$ het beste de data beschrijft. Als in dat geval de betreffende $$\chi^2$$ dicht bij 1 ligt werkt deze vuistregel goed. 
 
 > **Voorbeeld 2** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
 > $$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$<br>
@@ -53,8 +40,7 @@ Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze 
 > $$\chi^2_1/\text{vrijheidsgraad} = 4.0/(10-2) = 0.5$$ en<br> 
 > $$\chi^2_2/\text{vrijheidsgraad} = 13.0/(10-1) = 1.44$$.<br>
 > Op basis van de vuistregel zou je functie $$f_1$$ kiezen. 
-
-
+>
 > **Voorbeeld 2** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
 > $$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$<br>
 > Als geminimaliseerde $$\chi^2$$ voor de twee functies vinden we: $$\chi^2_1 = 6.0$$ en $$\chi^2_2 = 9.0$$. <br>
@@ -63,7 +49,7 @@ Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze 
 > $$\chi^2_2/\text{vrijheidsgraad} = 9.0/(10-1) = 1.0$$.<br>
 > Op basis van de vuistregel zou je functie $$f_1$$ kiezen. 
 
-
+Als deze echter veel kleiner is dan 1 dan kun je betwijfelen of de bijbehorende functie wel echt de beste is. 
 Beter is om dan het Akaike Informatie Criterium kun je gebruiken om uit te vinden welke functie het beste aan een dataset fit. Stel dat je een dataset hebt waarbij je $$n$$ meetwaardes hebt die je beschreven hebt met een functie met $$p$$ vrije parameters met een geminimaliseerde $$\chi^2$$. Dan heeft het Akaike Informatie Criterium de volgende waarde: 
 
 $${\displaystyle AIC  = \chi^2 + 2p + \frac{2p(p+1)}{n-p-1}.}$$
@@ -78,9 +64,7 @@ Als we deze $$AIC$$ berekenen voor beide functies dan is de functie met de laags
 > $$AIC_1 = 4.0 + 4 + 12/7 = 9.7 $$<br>
 > $$AIC_2 = 13.0 + 2 + 4/8 = 15.5 $$<br>
 > Op basis van het Akaike Informatie criterium zou je functie $$f_1$$ kiezen. 
-
-
-
+>
 > **Voorbeeld 2** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
 > $$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$<br>
 > Als geminimaliseerde $$\chi^2$$ voor de twee functies vinden we: $$\chi^2_1 = 6.0$$ en $$\chi^2_2 = 9.0$$. <br>
