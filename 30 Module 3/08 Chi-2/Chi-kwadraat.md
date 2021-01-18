@@ -33,7 +33,7 @@ De $$\chi^2$$ distributie heeft een gemiddelde $$\mu = df$$ en een variantie van
 ## Akaike Informatie Criterium
 Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze wordt beschreven. Je probeert twee functies uit, $$f_1$$ en $$f_2$$. En je minimaliseert voor beide functies de $$\chi^2$$, deze zijn dan $$\chi^2_1$$ en $$\chi^2_2$$. Als algemene vuistvuistregelregel geldt dat de functie met de kleinste geminimaliseerde $$\chi^2/df$$ het beste de data beschrijft. Als in dat geval de betreffende $$\chi^2$$ dicht bij 1 ligt werkt deze vuistregel goed. 
 
-> **Voorbeeld 2** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
+> **Voorbeeld 1** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
 > $$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$<br>
 > Als geminimaliseerde $$\chi^2$$ voor de twee functies vinden we: $$\chi^2_1 = 4.0$$ en $$\chi^2_2 = 13.0$$. <br>
 > De $$\chi^2$$ per vrijheidsgraad is voor de twee functies: <br>
