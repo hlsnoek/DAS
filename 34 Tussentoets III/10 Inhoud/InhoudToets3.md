@@ -13,7 +13,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 ### De centrale limietstelling [link](/module-3/de-centrale-limietstelling) 
 * Begrijpen wat de centrale limietstelling betekend.
 
-### De Normaal verdeling [link](/module-3/normaalverdeling)
+### De Normaalverdeling [link](/module-3/normaalverdeling)
 * De formule voor de z-waarde kennen en deze kunnen toepassen
 
 
@@ -31,7 +31,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 * Weten hoe je een $$\chi^2$$ omrekent naar een gereduceerde $$\chi^2/df$$.
 * Het Akaike informatie criterium kennen en kunnen toepassen.
 
-### Hypothese toetsen [link](/module-3/hypothesetoetsen) 
+### Hypothese toetsen [link](/module-3/hypothese-toetsen) 
 
 * Weten wat de nulhypothese en alternatieve hypothese zijn en deze kunnen opstellen
 * De p-waarde berekenen voor een gegeven normaalverdeling
