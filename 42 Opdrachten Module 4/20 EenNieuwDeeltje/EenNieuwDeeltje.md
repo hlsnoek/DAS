@@ -66,7 +66,7 @@ Voor elke waarde van $$m_0$$ kunnen we nu het verschil in $$\chi^2$$ tussen de a
 
 $${\displaystyle \Delta \chi^2 = \chi^2_{f} - \chi^2_{f+g}}$$
 
-Deze $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierover meer in [Hypothese toetsen 2](/module-4/Hypothese-toetsen-2). We kunnen de p-waarde nu berekenen met behulp van de berekende $$\Delta \chi^2$$.
+Deze $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierover meer in het hoofdstuk [Hypothese toetsen II](/module-4/Hypothese-toetsen-ii). We kunnen de p-waarde nu berekenen met behulp van de berekende $$\Delta \chi^2$$.
 
 Gebruik de volgende functie uit het scipy.stats pakket om de p-waarde te berekenen: 
 
