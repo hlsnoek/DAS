@@ -50,7 +50,7 @@ we uit in het aantal proton massa's omdat het anders wel onhandig wordt met de e
 > - **M4.1d) Wat is de $$\chi^2$$ en de $$\chi^2$$/df voor deze fit?**
 >
 
-Nu gaan we een zogeheten p-waarde scan uitvoeren. Lees eerst de theorie van [Hypothese toetsen II](/module-4/hypothese-toetsen-ii). Hiervoor fitten we het totaal van de achtergrondfunctie $$f$$ plus de functie die deeltje $$X$$ beschrijft $$g$$ aan de data. We kiezen steeds een waarde van $$m_0$$ en laten alleen de volgende parameters vrij in de fit: $$N_0, c$$ en $$N_x$$. De andere parameter $$\sigma$$ wordt vastgezet op 5 en $$m_0$$ wordt steeds op een andere gekozen waarde gefixeerd in **het gehele gebied die door de dataset wordt beschreven met stapjes van 1 proton massa**.
+Nu gaan we een zogeheten p-waarde scan uitvoeren. Lees eerst de theorie van [Hypothese toetsen II](/module-4/hypothese-toetsen-2). Hiervoor fitten we het totaal van de achtergrondfunctie $$f$$ plus de functie die deeltje $$X$$ beschrijft $$g$$ aan de data. We kiezen steeds een waarde van $$m_0$$ en laten alleen de volgende parameters vrij in de fit: $$N_0, c$$ en $$N_x$$. De andere parameter $$\sigma$$ wordt vastgezet op 5 en $$m_0$$ wordt steeds op een andere gekozen waarde gefixeerd in **het gehele gebied die door de dataset wordt beschreven met stapjes van 1 proton massa**.
 
 > - **M4.1c) Fit nu voor elke integer waarde van $$m_0$$ in het massagebied van $$m$$ de functie en bereken de $$\chi^2$$ van de fit met de totale functie ($$f+g$$).**<br><br>
 > 
@@ -66,7 +66,7 @@ Voor elke waarde van $$m_0$$ kunnen we nu het verschil in $$\chi^2$$ tussen de a
 
 $${\displaystyle \Delta \chi^2 = \chi^2_{f} - \chi^2_{f+g}}$$
 
-Deze $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierover meer in het hoofdstuk [Hypothese toetsen II](/module-4/Hypothese-toetsen-ii). We kunnen de p-waarde nu berekenen met behulp van de berekende $$\Delta \chi^2$$.
+Deze $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierover meer in het hoofdstuk [Hypothese toetsen II](/module-4/Hypothese-toetsen-2). We kunnen de p-waarde nu berekenen met behulp van de berekende $$\Delta \chi^2$$.
 
 Gebruik de volgende functie uit het scipy.stats pakket om de p-waarde te berekenen: 
 
