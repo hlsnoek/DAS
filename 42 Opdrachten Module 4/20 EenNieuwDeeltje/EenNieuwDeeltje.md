@@ -80,7 +80,7 @@ We kunnen een parameter fixeren met het volgende statement:
  
 	signaal_model.set_param_hint(par_name, vary=False)
  
-waarbij `par_name` dus de naam van de variabele is waarvoor we dat willen doen. 
+waarbij **`par_name`** dus de naam van de variabele is waarvoor we dat willen doen. 
  
 > - We gaan nu model voor het signaal maken dat dus bestaat uit de achtergrond component en de normaal component: 
 > 
@@ -95,10 +95,11 @@ We zijn nu klaar om de zogeheten p-waarde scan uitvoeren. Lees eerst de theorie 
 > - Fit nu voor elke integer waarde van $$m_0$$ in het massagebied van $$m$$ de functie en bereken de $$\chi^2$$ van de fit met het signaal model. Controleer of alle parameters die moeten worden gefixeerd in de fit, dat ook daadwerkelijk zijn. Kijk hiervoor naar het fit resultaat.<br><br>
 > 	**Tip 1:** Zorg dat je de juiste startwaardes meegeeft.<br>
 >  **Tip 2:** Je kunt de $$\chi^2$$ opvragen van het fit resultaat met het statement: 
+> 
 > 			result.chisqr
 >	
 >  
-> - **M4.1fe) Hoeveel vrijheidsgraden heeft deze totale fit? Schrijf de formule helemaal uit.**
+> - **M4.1e) Hoeveel vrijheidsgraden heeft deze totale fit? Schrijf de formule helemaal uit.**
 
 
 Voor elke waarde van $$m_0$$ kunnen we nu het verschil in $$\chi^2$$ tussen de fit met het achtergrond model en het de $$\chi^2$$ en de fit van het signaal model bij die waarde van $$m_0$$. Dit verschil noteren we als: 
