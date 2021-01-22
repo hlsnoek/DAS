@@ -61,7 +61,7 @@ Met de functie:
 
 Kun je de werkelijke 'true'-waarde van $$\sigma$$ terugvragen. 
 
-> - **M3.1d) Controleer of jouw gefitte waarde van $$\hat{\sigma}$$ overeen komt met je uitkomst. Je verwacht altijd nog wel wat verschillen te zien - vooral omdat de onzekerheden op de waardes van `s_n` niet realistisch waren.** 
+> - **M3.1d) Controleer of jouw gefitte waarde van $$\hat{\sigma}$$ overeen komt met je uitkomst met je uitkomst voor `s_true`. Je verwacht altijd nog wel wat verschillen te zien - vooral omdat de onzekerheden op de waardes van `s_n` niet realistisch waren.** 
 
 We gaan nu de fit uitvoeren met realistische onzekerheden op de datapunten. Deze datapunten genereer je met de volgende functie: 
 

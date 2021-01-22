@@ -12,7 +12,7 @@ In het vakgebied van de deeltjesfysica hanteren we de volgende normen:
 | z-waarde | p-waarde | statement |
 |---|---|---|
 | $$\geq$$ 3 $$\sigma$$ | $$\leq 0.003$$ |  observatie van afwijking|
-| $$\geq$$ 5 $$\sigma$$ | $$\leq 1/(3.5 \cdot 10^6$$) | ontdekking|
+| $$\geq$$ 5 $$\sigma$$ | $$\leq 2.87 \times 10^{-07}$$ | ontdekking|
 
 <br>
 
@@ -45,7 +45,11 @@ we uit in het aantal proton massa's omdat het anders wel onhandig wordt met de e
 
 We gaan weer fitten met het pakket [**lmfit**](https://lmfit.github.io/lmfit-py/model.html).
 
-> - Schrijf eerst een functie die je **`Achtergrond(x,N0,c)`** noemt. Het is misschien logischer om in plaats de  `x` variabele `m` te gebruiken, maar later in het programma maken we gebruik van een standaard functie van `models` en hiervoor is het nodig om het nu alvast `x` te noemen. <br><br>
+> - Schrijf eerst een functie die je **`achtergrond_functie(x,N0,c)`** noemt. Het is misschien logischer om in plaats de  `x` variabele `m` te gebruiken, maar later in het programma maken we gebruik van een standaard functie van `models` en hiervoor is het nodig om het nu alvast `x` te noemen. Het model noemen we `achtergrond_model`. 
+> 
+> 			achtergrond_model = models.Model(achtergrond_functie)
+> 
+> <br><br>
 >   
 > - **M4.1b) Zet eerst een fit op waarbij je alleen de achtergrond fit.  Maak een grafiek waarbij je de datapunten, de onzekerheden op de datapunten en de gefitte curve laat zien.**<br><br>
 > **Tip 1.** Zoals je ziet lijkt de functie erg op de functie die gefit moest worden in opgave M3.2, je kan een deel van je code dus hergebruiken. <br>
@@ -59,48 +63,73 @@ We gaan weer fitten met het pakket [**lmfit**](https://lmfit.github.io/lmfit-py/
 > - **M4.1d) Wat is de $$\chi^2$$ en de $$\chi^2/df$$ voor deze fit?**
 >
 
-Nu gaan we een zogeheten p-waarde scan uitvoeren. Lees eerst de theorie van [Hypothese toetsen II](/module-4/hypothese-toetsen-2). Hiervoor fitten we het totaal van de achtergrondfunctie $$f$$ plus de functie die deeltje $$X$$ beschrijft $$g$$ aan de data. We kiezen steeds een waarde van $$m_0$$ en laten alleen de volgende parameters vrij in de fit: $$N_0, c$$ en $$N_x$$. De andere parameter $$\sigma$$ wordt vastgezet op 5 en $$m_0$$ wordt steeds op een andere gekozen waarde gefixeerd in **het gehele gebied die door de dataset wordt beschreven met stapjes van 1 proton massa**.
+Zoals je ziet wordt de massaverdeling van deeltje $$X$$ beschreven met een normaalverdeling. Deze normaalverdeling ligt, als het deeltje bestaat, als het ware op de achtergrond. We zullen dus een model moeten programmeren die de som is van de normaal verdeling die het 'signaal' beschrijft en de achtergrond functie. 
 
-Zoals je ziet wordt de massaverdeling van deeltje $$X$$ beschreven met een normaalverdeling. Deze normaalverdeling ligt, als het deeltje bestaat, als het ware op de achtergrond. We zullen dus een functie moeten programmeren die de som is van de normaal verdeling die het 'signaal' beschrijft en de achtergrond functie. Dit noemen we een composiet functie. 
+> - De functie die de massaverdeling van het deeltje $$X$$ beschrijft is een normaalverdeling. We kunnen hiervoor een eigen functie programmeren maar we kunnen ook gebruik maken van de standaard functies die het **`lmfit`** pakket bevat. Deze kunnen we aanroepen met:
+> 
+> 			normaal_model = models.GaussianModel()
+> 
 
-We kunnen deze zelf programmeren. 
+Als je een standaardfunctie gebruikt is het altijd even goed om uit te zoeken hoe die precies werkt. Je kan bijvoorbeeld even op de website van [lmfit](https://lmfit.github.io/lmfit-py/builtin_models.html) kijken en zoeken naar **`GaussianModel()`**. We bekijken in elk geval even hoe de vrije parameters en de variabele heten in dit model. Dit kun je doen met het volgende statement.
+
+			print('De paramaters: ',normaal_model.param_names,' de variabele: ', normaal_model.independent_vars)
+
+ We zien nu dat er drie variabelen zijn **`amplitude`**, **`center`** en **`sigma`**. Vergelijk de functie op de website met de normale verdeling voor het deeltje $$X$$. We zien nu dat de variabele **`x`** de variabele $$m$$ is. <br>
+
+Met de informatie die we hierboven gegeven hebben weten we dat we een van deze parameters (namelijk de standaarddeviatie van de normaalfunctie) moeten *fixeren*. We bedoelen hiermee dat deze niet een vrije parameter in de fit mag zijn, hij moet constant worden gehouden in de optimalisatie van de $$\chi^2$$. <br>
+We kunnen een parameter fixeren met het volgende statement: 
+ 
+ 			signaal_model.set_param_hint(par_name, vary=False)
+ 
+waarbij `par_name` dus de naam van de variabele is waarvoor we dat willen doen. 
+ 
+> - We gaan nu model voor het signaal maken dat dus bestaat uit de achtergrond component en de normaal component: 
+> 
+>  
+>			 signaal_model = normaal_model + achtergrond_model
+> 
 
 
-> - **M4.1e) Fit nu voor elke integer waarde van $$m_0$$ in het massagebied van $$m$$ de functie en bereken de $$\chi^2$$ van de fit met de totale functie ($$f+g$$).**<br>
-> * **TIP:** Als het helemaal niet lukt kun je even spieken wat de waarde is van $$m_0$$ door de volgende functie aan te roepen: 
-> 		
-> 			ds.SpiekenM0()
+We zijn nu klaar om de zogeheten p-waarde scan uitvoeren. Lees eerst de theorie van [Hypothese toetsen II](/module-4/hypothese-toetsen-2).  We kiezen steeds een waarde van $$m_0$$ en laten alleen de volgende parameters vrij in de fit: $$N_0, c$$ en $$N_x$$. De andere parameter $$\sigma$$ wordt vastgezet op 5 en $$m_0$$ wordt steeds op een andere gekozen waarde gefixeerd in **het gehele gebied die door de dataset wordt beschreven met stapjes van 1 proton massa**.
+
+
+> - Fit nu voor elke integer waarde van $$m_0$$ in het massagebied van $$m$$ de functie en bereken de $$\chi^2$$ van de fit met het signaal model. Controleer of alle parameters die moeten worden gefixeerd in de fit, dat ook daadwerkelijk zijn. Kijk hiervoor naar het fit resultaat.<br><br>
+> 	**Tip 1:** Zorg dat je de juiste startwaardes meegeeft.<br>
+>  **Tip 2:** Je kunt de $$\chi^2$$ opvragen van het fit resultaat met het statement: 
+> 			result.chisqr
+>	
+>  
+> - **M4.1fe) Hoeveel vrijheidsgraden heeft deze totale fit? Schrijf de formule helemaal uit.**
+
+
+Voor elke waarde van $$m_0$$ kunnen we nu het verschil in $$\chi^2$$ tussen de fit met het achtergrond model en het de $$\chi^2$$ en de fit van het signaal model bij die waarde van $$m_0$$. Dit verschil noteren we als: 
+
+$${\displaystyle \Delta \chi^2 = \chi^2_{a} - \chi^2_{s}}$$
+
+Waarbij Deze $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierover meer in het hoofdstuk [Hypothese toetsen II](/module-4/hypothese-toetsen-2). We kunnen de p-waarde nu berekenen met behulp van de berekende $$\Delta \chi^2$$.
+
+> - Gebruik de volgende functie uit het scipy.stats pakket om de p-waarde te berekenen: 
+> 
+>  			from scipy import stats
+>			p_value = stats.chi2.sf(Delta_chisquare, 1)
 >
-> 	Zorg dan eerst dat je de fit aan de praat krijgt voor die massa waarde. Let je goed op de startwaardes van de fit?<br><br>
-> - **M4.1f) Hoeveel vrijheidsgraden heeft deze totale fit?**
 
-Voor elke waarde van $$m_0$$ kunnen we nu het verschil in $$\chi^2$$ tussen de achtergrond en de achtergrond+signaal fit uitrekenen. Dit verschil noteren we als: 
-
-$${\displaystyle \Delta \chi^2 = \chi^2_{f} - \chi^2_{f+g}}$$
-
-Deze $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierover meer in het hoofdstuk [Hypothese toetsen II](/module-4/hypothese-toetsen-2). We kunnen de p-waarde nu berekenen met behulp van de berekende $$\Delta \chi^2$$.
-
-Gebruik de volgende functie uit het scipy.stats pakket om de p-waarde te berekenen: 
-
-  		from scipy import stats
-		p_value = stats.chi2.sf(Delta_chisquare, 1)
-
-Je kan nu ook de z-waarde uitrekenen op de volgende manier: 
-
-	    z_waarde = -stats.norm.ppf(p_value)
-
-> - **M4.1g) Bereken voor elke waarde van $$m_0$$ nu de p-waarde en representeer deze in een grafiek.** <br> 
+>
+> - **M4.1f) Bereken voor elke waarde van $$m_0$$ nu de p-waarde en representeer deze in een grafiek waarbij je de p-waarde uitzet tegen $$m_0$$.** <br> 
 > **Tip:** Gebruik hiervoor de volgende plot opties om de grafiek duidelijker te maken: 
 > 
 >			plt.yscale('log')
 >			plt.grid(True)
 >
-> - **M4.1h) Bij welke waarde van $$m_0$$ vind je de beste p-waarde in jouw massa gebied?**<br><br>
+> - **M4.1g) Bij welke waarde van $$m_0$$ vind je de beste p-waarde in jouw massa gebied?**<br><br>
 > 
-> - **M4.1i) Maak voor een grafiek met de dataset en de gefitte functies (achtergrond en achtergrond+signaal) voor deze waarde van $$\hat{m}_0$$.**<br><br>
+> - **M4.1h) Maak een grafiek met de dataset en de gefitte modellen (achtergrond en signaal) voor deze waarde van $$\hat{m}_0$$.**<br><br>
 > 
-> - **M4.1j) Bereken voor $$\hat{m}_0$$ de p-waarde en de z-waarde.**<br><br>
 > 
-> - **M4.1k) Denk je dat je de achtergrond hypothese kunt verwerpen. Zo ja, redeneer waarom. Zo nee redeneer waarom niet.**
+> - **M4.1i) Bereken voor $$\hat{m}_0$$ de p-waarde en de z-waarde. De z-waarde kun je met het volgende statement uitrekenen:**
+>
+>		    z_waarde = -stats.norm.ppf(p_waarde)
+>
+>
+> - **M4.1j) Denk je dat je de achtergrond hypothese kunt verwerpen. Zo ja, redeneer waarom. Zo nee redeneer waarom niet. Kijk even naar de afspraken die hierover zijn gemaakt in de deeltjefysica.**
 
-Voor al je resultaten in op je template en lever het samen met de resultaten van de andere opdracht in.
