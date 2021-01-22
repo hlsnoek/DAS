@@ -113,7 +113,7 @@ Waarbij Deze $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hiero
 >  			from scipy import stats
 >			p_value = stats.chi2.sf(Delta_chisquare, 1)
 >
-
+>
 >
 > - **M4.1f) Bereken voor elke waarde van $$m_0$$ nu de p-waarde en representeer deze in een grafiek waarbij je de p-waarde uitzet tegen $$m_0$$.** <br> 
 > **Tip:** Gebruik hiervoor de volgende plot opties om de grafiek duidelijker te maken: 
