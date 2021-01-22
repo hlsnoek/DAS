@@ -62,7 +62,7 @@ We gaan weer fitten met het pakket [**lmfit**](https://lmfit.github.io/lmfit-py/
 > - **M4.1d) Wat is de $$\chi^2$$ en de $$\chi^2/df$$ voor deze fit?**
 >
 
-Zoals je ziet wordt de massaverdeling van deeltje $$X$$ beschreven met een normaalverdeling. Deze normaalverdeling ligt, als het deeltje bestaat, als het ware op de achtergrond. We zullen dus een model moeten programmeren die de som is van de normaal verdeling die het 'signaal' beschrijft en de achtergrond functie. 
+Zoals je ziet wordt de massaverdeling van deeltje $$X$$ beschreven met een normaalverdeling. Als het deeltje $$X$$ bestaat, dan ligt deze normaalverdeling als het ware op de achtergrond. We zullen dus een model moeten programmeren die de som is van de normaal verdeling die het 'signaal' beschrijft en de achtergrond functie. 
 
 > - De functie die de massaverdeling van het deeltje $$X$$ beschrijft is een normaalverdeling. We kunnen hiervoor een eigen functie programmeren maar we kunnen ook gebruik maken van de standaard functies die het **`lmfit`** pakket bevat. Deze kunnen we aanroepen met:
 > 
@@ -71,7 +71,7 @@ Zoals je ziet wordt de massaverdeling van deeltje $$X$$ beschreven met een norma
 
 Als je een standaardfunctie gebruikt is het altijd even goed om uit te zoeken hoe die precies werkt. Je kan bijvoorbeeld even op de website van [lmfit](https://lmfit.github.io/lmfit-py/builtin_models.html) kijken en zoeken naar **`GaussianModel()`**. We bekijken in elk geval even hoe de vrije parameters en de variabele heten in dit model. Dit kun je doen met het volgende statement.
 
-			print('De paramaters: ',normaal_model.param_names,' de variabele: ', normaal_model.independent_vars)
+				print('De paramaters: ',normaal_model.param_names,' de variabele: ', normaal_model.independent_vars)
 
  We zien nu dat er drie variabelen zijn **`amplitude`**, **`center`** en **`sigma`**. Vergelijk de functie op de website met de normale verdeling voor het deeltje $$X$$. We zien nu dat de variabele **`x`** de variabele $$m$$ is. <br>
 
