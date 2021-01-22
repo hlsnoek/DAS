@@ -71,14 +71,14 @@ Zoals je ziet wordt de massaverdeling van deeltje $$X$$ beschreven met een norma
 
 Als je een standaardfunctie gebruikt is het altijd even goed om uit te zoeken hoe die precies werkt. Je kan bijvoorbeeld even op de website van [lmfit](https://lmfit.github.io/lmfit-py/builtin_models.html) kijken en zoeken naar **`GaussianModel()`**. We bekijken in elk geval even hoe de vrije parameters en de variabele heten in dit model. Dit kun je doen met het volgende statement.
 
-				print('De paramaters: ',normaal_model.param_names,' de variabele: ', normaal_model.independent_vars)
+	print('De paramaters: ',normaal_model.param_names,' de variabele: ', normaal_model.independent_vars)
 
  We zien nu dat er drie variabelen zijn **`amplitude`**, **`center`** en **`sigma`**. Vergelijk de functie op de website met de normale verdeling voor het deeltje $$X$$. We zien nu dat de variabele **`x`** de variabele $$m$$ is. <br>
 
 Met de informatie die we hierboven gegeven hebben weten we dat we een van deze parameters (namelijk de standaarddeviatie van de normaalfunctie) moeten *fixeren*. We bedoelen hiermee dat deze niet een vrije parameter in de fit mag zijn, hij moet constant worden gehouden in de optimalisatie van de $$\chi^2$$. <br>
 We kunnen een parameter fixeren met het volgende statement: 
  
- 			signaal_model.set_param_hint(par_name, vary=False)
+	signaal_model.set_param_hint(par_name, vary=False)
  
 waarbij `par_name` dus de naam van de variabele is waarvoor we dat willen doen. 
  
