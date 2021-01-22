@@ -16,7 +16,7 @@ In het vakgebied van de deeltjesfysica hanteren we de volgende normen:
 
 <br>
 
-> - **M4.1a) Wat is $$H_0$$ en wat is de $$H_1$$ hypothese in dit onderzoek? Postuleer de hele stelling.**
+> - **M4.1a) Wat is $$H_0$$ en wat is de $$H_1$$ hypothese in dit onderzoek? Postuleer de gehele stellingen.**
 
 Haal de dataset op met het volgende statement
 
@@ -29,8 +29,7 @@ De drie `list`'s die worden teruggegeven zijn:
 	events_err - de onzekerheid op het aantal events
 	
 	
-Het aantal *events* (aantal evenementen) is het geobserveerde aantal botsingen die aan de voorwaardes van de dataselectie voldoet. De data selectie zoekt tussen alle botsingen die we waarnemen met de detector de botsingen uit die specifieke kenmerken vertonen die we verwachten te zien als er Donkere Materie deeltjes zijn gemaakt in die specifieke botsing. Die noemen we ook wel een voorselectie van de data. 
-	
+Het aantal *events* (aantal evenementen) is het geobserveerde aantal botsingen die we in onze dataset hebben voor de specifieke massabin $$m$$. 	
 De achtergrond data wordt beschreven met de volgende functie: 
 
 $$\displaystyle f(m;N_0,c) = N_0 \cdot \left( \frac{1}{2} \right)^{m/c}$$
@@ -39,13 +38,13 @@ De massaverdeling van deeltje $$X$$ ziet er zo uit:
 
 $${\displaystyle g(m;m_0,\sigma, N_X) = N_X \cdot \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{m-m_0}{\sigma})^2}}$$
 
-We weten niet wat de waarde is van $$m_0$$ en ook niet hoeveel $$X$$-deeltjes we zouden kunnen hebben in onze dataset ($$N_X$$). Wel kennen   we de resolutie van onze meting ($$\sigma=5$$ pm) bepaald. Hiermee bedoelen we dat we op de massapiek van het $$X$$ deeltje een spreiding verwachten van ($$\sigma=5$$ pm).
+We weten niet wat de waarde is van $$m_0$$ en ook niet hoeveel $$X$$-deeltjes we zouden kunnen hebben in onze dataset ($$N_X$$). Wel kennen  we de resolutie van onze meting ($$\sigma=5$$ pm) bepaald. Hiermee bedoelen we dat we op de massapiek van het $$X$$ deeltje een spreiding verwachten van ($$\sigma=5$$ pm).
 De eenheid van $$m$$ drukken 
 we uit in het aantal proton massa's omdat het anders wel onhandig wordt met de eenheid (1 proton massa is gelijk aan $$1.6726 \times 10^{-27}$$ kg).
 
 We gaan weer fitten met het pakket [**lmfit**](https://lmfit.github.io/lmfit-py/model.html).
 
-> - Schrijf eerst een functie die je **`achtergrond_functie(x,N0,c)`** noemt. Het is misschien logischer om in plaats de  `x` variabele `m` te gebruiken, maar later in het programma maken we gebruik van een standaard functie van `models` en hiervoor is het nodig om het nu alvast `x` te noemen. Het model noemen we `achtergrond_model`. 
+> - Schrijf eerst een functie die je **`achtergrond_functie(x,N0,c)`** noemt. Het is misschien logischer om in plaats de  `x` variabele `m` te gebruiken, maar later in het programma maken we gebruik van een standaard functie van **`models`** en hiervoor is het nodig om het nu alvast `x` te noemen. Het model noemen we **`achtergrond_model`**. 
 > 
 > 			achtergrond_model = models.Model(achtergrond_functie)
 > 
