@@ -99,14 +99,14 @@ We zijn nu klaar om de zogeheten p-waarde scan uitvoeren. Lees eerst de theorie 
 > 			result.chisqr
 >	
 >  
-> - **M4.1e) Hoeveel vrijheidsgraden heeft deze totale fit? Schrijf de formule helemaal uit.**
+> - **M4.1e) Hoeveel vrijheidsgraden heeft de signaal fit? Schrijf de formule helemaal uit.**
 
 
 Voor elke waarde van $$m_0$$ kunnen we nu het verschil in $$\chi^2$$ tussen de fit met het achtergrond model en het de $$\chi^2$$ en de fit van het signaal model bij die waarde van $$m_0$$. Dit verschil noteren we als: 
 
 $${\displaystyle \Delta \chi^2 = \chi^2_{a} - \chi^2_{s}}$$
 
-Waarbij Deze $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierover meer in het hoofdstuk [Hypothese toetsen II](/module-4/hypothese-toetsen-2). We kunnen de p-waarde nu berekenen met behulp van de berekende $$\Delta \chi^2$$.
+Waarbij we $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierover meer in het hoofdstuk [Hypothese toetsen II](/module-4/hypothese-toetsen-2). 
 
 > - Gebruik de volgende functie uit het scipy.stats pakket om de p-waarde te berekenen: 
 > 
@@ -115,7 +115,7 @@ Waarbij Deze $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hiero
 >
 >
 >
-> - **M4.1f) Bereken voor elke waarde van $$m_0$$ nu de p-waarde en representeer deze in een grafiek waarbij je de p-waarde uitzet tegen $$m_0$$.** <br> 
+> - **M4.1f) Bereken voor *elke waarde* van $$m_0$$ nu de p-waarde en representeer deze in een grafiek waarbij je de p-waarde uitzet tegen $$m_0$$.** <br> 
 > **Tip:** Gebruik hiervoor de volgende plot opties om de grafiek duidelijker te maken: 
 > 
 >			plt.yscale('log')
