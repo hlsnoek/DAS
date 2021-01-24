@@ -37,7 +37,7 @@ $$(1.0^2 \cdot 3.2 - \hat{b} \cdot 1.0^3)$$ +  $$(2.0^2 \cdot 13.3 - \hat{b} \cd
 -----
 
 
-### Chi-2
+### Chi-2 en AIC
 **3** Stel je hebt een dataset met 32 meetwaardes die je fit met de functie $$f(x;a,b,c,d)$$ waarbij je alle vier de variabelen optimaliseert. Hoeveel vrijheidsgraden heeft deze fit?<br>
 <span style = 'color:blue'>
 df =32-4 = 28
@@ -57,11 +57,24 @@ df= 45-2 = 43, $$\chi^2/{df} = 98/43 =2.3$$. Dit is niet een goede fit, het lijk
 df=14-1 = 13. $$\chi^2/{df} = 0.8$$ Dit is een redelijk goede fit.
 </span>
 
+**6** Stel je hebt een dataset met 14 punten. Je fit deze met een functie $$f1 = a+ b\cdot x$$ en met een functie $$f2 = a+b\cdot x+ c\cdot x^2$$. Voor $$f1$$ vind je een $$\chi^2_{f1} = 15.2$$, voor $$f2$$ vind je een $$\chi^2_{f2} = 16.8$$. Vergelijk de twee fits, welke is het beste? 
+<span style = 'color:blue'>
+Voor $$f1$$: <br>
+$$df_1 = 14-2 = 12$$ <br>
+$$\chi^2/df_1 = 15.2/12 = 1.3$$<br>
+$$AIC_1 = 15.2 + 4 + 12/11 = 20.3$$<br>
+Voor $$f2$$:<br>
+$$df_2 = 14 -3 = 11$$<br>
+$$\chi^2/df_2 = 1.53 $$ <br>
+$$AIC_2 = 16.8 + 6 + 24/10 = 25.2$$ <br>
+De $$AIC_1$$ is kleiner dan $$AIC_2$$ : fit 1 geeft het beste resultaat.
+</span>
+
 ----
 
 ### Hypothese toetsen
 
-**6.** Stel de nulhypothese op bij de gegeven alternatieve hypotheses:<br><br>
+**7.** Stel de nulhypothese op bij de gegeven alternatieve hypotheses:<br><br>
 **a.** $$H_{\alpha:} $$De gemiddelde dikte van een vel papier is groter dan $$0.1$$ mm.
 <br><br>
 <span style = "color:blue"> $$H_0:$$ De gemiddelde dikte van een vel papier is kleiner of gelijk aan $$0.1$$ mm</span><br>
@@ -76,7 +89,7 @@ df=14-1 = 13. $$\chi^2/{df} = 0.8$$ Dit is een redelijk goede fit.
 
 -----
 
-**7.** 
+**8.** 
 Bij een zekere stochast vinden we een p-waarde van 3% en we hebben een significantielevel gekozen van 5%.<br><br>
 **a.** Is de conclusie 'De nulhypothese is niet correct' een juiste conclusie? is de conclusie 'De alternatieve hypothese is correct' een juiste conclusie? Leg uit waarom wel/niet. Zo niet: hoe zou je deze hypothese anders kunnen formuleren?
 <br><br>
@@ -88,7 +101,7 @@ Bij een zekere stochast vinden we een p-waarde van 3% en we hebben een significa
 
 -----
 
-**8.** De productiechef bij een kleurpotlodenfabrikant heeft het vermoeden dat de zaagmachines niet meer zo goed werken. Als de gemiddelde lengte die wordt afgeleverd door de zaagmachines groter of gelijk is aan 177 mm dan zijn de machines aan vervanging toe.
+**9.** De productiechef bij een kleurpotlodenfabrikant heeft het vermoeden dat de zaagmachines niet meer zo goed werken. Als de gemiddelde lengte die wordt afgeleverd door de zaagmachines groter of gelijk is aan 177 mm dan zijn de machines aan vervanging toe.
 
 Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met een gemiddelde lengte van 176 mm en een standaardafwijking van 1 mm. <br><br>
 
@@ -114,7 +127,7 @@ Dus de p-waarde is 84%. </span><br>
 
 -----
 
-**9.**
+**10.**
 Een vliegtuig heeft op een bepaalde vlucht een gemiddeld brandstofverbruikt van 640 liter. Het brandstofverbruik is normaal verdeeld met een standaardafwijking van 15 liter. De eerste brandstoftank van het vliegtuig bevat 660 liter. Er is ook een reservetank. Bereken de kans dat het vliegtuig tijdens de vlucht brandstof uit de reservetank nodig heeft.
 <br><br>
 <span style = "color:blue"> De z-waarde behorende bij 660 Liter is:<br>

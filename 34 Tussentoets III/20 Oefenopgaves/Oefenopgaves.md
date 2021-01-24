@@ -18,7 +18,7 @@ De dataset fitten we met de functie $$y = a\cdot x^2$$. Bereken de optimale waar
 -----
 
 
-### Chi-2
+### Chi-2 en AIC
 **3** Stel je hebt een dataset met 32 meetwaardes die je fit met de functie $$f(x;a,b,c,d)$$ waarbij je alle vier de variabelen optimaliseert. Hoeveel vrijheidsgraden heeft deze fit?<br>
 
 
@@ -30,12 +30,15 @@ De dataset fitten we met de functie $$y = a\cdot x^2$$. Bereken de optimale waar
 
 **5** Stel je hebt een dataset met 14 punten. Je fit deze met een functie $$f=a\cdot x^2$$. De $$\chi^2$$ van de fit is 10. Is dit een goede fit?<br>
 
+----
+
+**6** Stel je hebt een dataset met 14 punten. Je fit deze met een functie $$f1 = a+ b\cdot x$$ en met een functie $$f2 = a+b\cdot x+ c\cdot x^2$$. Voor $$f1$$ vind je een $$\chi^2_{f1} = 15.2$$, voor $$f2$$ vind je een $$\chi^2_{f2} = 16.8$$. Vergelijk de twee fits, welke is het beste? 
 
 ----
 
 ### Hypothese toetsen
 
-**6.** Stel de nulhypothese op bij de gegeven alternatieve hypotheses:<br><br>
+**7.** Stel de nulhypothese op bij de gegeven alternatieve hypotheses:<br><br>
 **a.** $$H_{\alpha:} $$De gemiddelde dikte van een vel papier is groter dan $$0.1$$ mm.
 <br><br>
 
@@ -50,7 +53,7 @@ De dataset fitten we met de functie $$y = a\cdot x^2$$. Bereken de optimale waar
 
 -----
 
-**7.** 
+**8.** 
 Bij een zekere stochast vinden we een p-waarde van 3% en we hebben een significantielevel gekozen van 5%.<br><br>
 **a.** Is de conclusie 'De nulhypothese is niet correct' een juiste conclusie? is de conclusie 'De alternatieve hypothese is correct' een juiste conclusie? Leg uit waarom wel/niet. Zo niet: hoe zou je deze hypothese anders kunnen formuleren?
 <br><br>
@@ -62,7 +65,7 @@ Bij een zekere stochast vinden we een p-waarde van 3% en we hebben een significa
 
 -----
 
-**8.** De productiechef bij een kleurpotlodenfabrikant heeft het vermoeden dat de zaagmachines niet meer zo goed werken. Als de gemiddelde lengte die wordt afgeleverd door de zaagmachines groter of gelijk is aan 177 mm dan zijn de machines aan vervanging toe.
+**9.** De productiechef bij een kleurpotlodenfabrikant heeft het vermoeden dat de zaagmachines niet meer zo goed werken. Als de gemiddelde lengte die wordt afgeleverd door de zaagmachines groter of gelijk is aan 177 mm dan zijn de machines aan vervanging toe.
 
 Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met een gemiddelde lengte van 176 mm en een standaardafwijking van 1 mm. <br><br>
 
@@ -88,7 +91,7 @@ Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met ee
 
 -----
 
-**9.**
+**10.**
 Een vliegtuig heeft op een bepaalde vlucht een gemiddeld brandstofverbruikt van 640 liter. Het brandstofverbruik is normaal verdeeld met een standaardafwijking van 15 liter. De eerste brandstoftank van het vliegtuig bevat 660 liter. Er is ook een reservetank. Bereken de kans dat het vliegtuig tijdens de vlucht brandstof uit de reservetank nodig heeft.
 <br><br>
 
