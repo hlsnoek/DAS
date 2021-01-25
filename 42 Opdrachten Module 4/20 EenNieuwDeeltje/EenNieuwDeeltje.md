@@ -108,7 +108,7 @@ $${\displaystyle \Delta \chi^2 = \chi^2_{a} - \chi^2_{s}}$$
 
 Waarbij we $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierover meer in het hoofdstuk [Hypothese toetsen II](/module-4/hypothese-toetsen-2). 
 
-> - Gebruik de volgende functie uit het scipy.stats pakket om de p-waarde te berekenen: 
+> - Gebruik de volgende functie uit het **`scipy.stats`** pakket om de p-waarde te berekenen: 
 > 
 >  			from scipy import stats
 >			p_value = stats.chi2.sf(Delta_chisquare, 1)
