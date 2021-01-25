@@ -80,7 +80,7 @@ We kunnen een parameter fixeren met het volgende statement:
  
 	signaal_model.set_param_hint(par_name, vary=False)
  
-waarbij **`par_name`** dus de naam van de variabele is waarvoor we dat willen doen. 
+waarbij **`par_name`** dus de naam van de variabele is waarvoor we dat willen doen. Dit statement zegt dat de variabele **`par_name`** niet wordt geoptimaliseerd in de fit procedure, de variabele wordt gefixeerd op de waarde die je startwaarde meegeeft als je de fit uitvoert.
  
 > - We gaan nu model voor het signaal maken dat dus bestaat uit de achtergrond component en de normaal component: 
 > 
