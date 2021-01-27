@@ -180,7 +180,7 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 
 > We hebben de volgende dataset van een populatie: $$Y = \{285,-20,31,60,12,53,133\}$$.<br>
 > De grootte N = 7. <br>
-> Om de mediaan te bepalen sorteren we eerste de datapunten van klein naar groot: -20,12,31,53,60,133,285. Het is een even aantal datapunten en de mediaan ligt tussen 53 en 60 in. Dit komt dan uit op 56.5 .<br>
+> Om de mediaan te bepalen sorteren we eerst de datapunten van klein naar groot: -20,12,31,53,60,133,285. Het is een even aantal datapunten en de mediaan ligt tussen 53 en 60 in. Dit komt dan uit op 56.5 .<br>
 > De spreidingsbreedte is $$285- -20 = 305$$. <br>
 > Het gemiddelde $$\mu_Y = \frac{1}{7}\cdot (285-20+31+60+12+53+133) = 79.1 $$<br>
 > De standaarddeviatie is:
@@ -200,4 +200,4 @@ Het tweede voorbeeld gaat over een steekproef:
 >  $$  s^2 = \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 + (1.61-1.77)^2 + \right. $$<br>
           $$\left. (1.84-1.77)^2 + (1.79-1.77)^2 \right] = 0.0100 \text{m}^2 $$<br>
 > De standaarddeviatie is $$ s = 0.10$$ m. <br>
-> De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$.
+> De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$.e
