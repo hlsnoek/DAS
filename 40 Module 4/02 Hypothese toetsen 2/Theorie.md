@@ -15,7 +15,7 @@ In dit hoofdstuk leggen we nu een bijzondere vorm van hypothese toetsen uit waar
 ## Wald test
 De Wald test is een bijzondere test die kan worden gebruikt om met behulp van de kleinste kwadraten methode een hypothese te toetsen. 
 
-Het idee is om aan een set meetwaardes twee functies te fitten. De eerste functie, $$f_0$$, beschrijft de dataset onder de hypothese $$H_0$$, de tweede functie, $$f_1$$, beschrijft de dataset onder de alternatieve hypothese $$H_1$$. Het verschil in de geminimaliseerde $$\chi^2$$ voor beide functies wordt gedefinieerd als $$\Delta \chi^2 = \chi^2_1 - \chi^2_2$$. Deze $$\Delta \chi^2$$ kan direct worden gebruikt om een p-waarde te berekenen. 
+Het idee is om aan een set meetwaardes twee functies te fitten. De eerste functie, $$f_0$$, beschrijft de dataset onder de hypothese $$H_0$$, de tweede functie, $$f_1$$, beschrijft de dataset onder de alternatieve hypothese $$H_1$$. Het verschil in de geminimaliseerde $$\chi^2$$ voor beide functies wordt gedefinieerd als $$\Delta \chi^2 = \chi^2_0 - \chi^2_1$$. Deze $$\Delta \chi^2$$ kan direct worden gebruikt om een p-waarde te berekenen. 
 
 Er zijn hierbij strikte voorwaardes voor het opstellen van de twee functies. De functies mogen slechts in 1 parameter verschillen, verder moeten ze geheel identiek zijn. De $$H_0$$ hypothese wordt hierbij beschreven met het *minste* aantal vrije parameters. 
 
