@@ -45,7 +45,7 @@ Het steekproef gemiddelde wordt zo vaak gebruikt dat dit veelal wordt aangeduid 
 Voor het gemiddelde wordt ook vaak de 'vishaak-notatie' gebruikt: $$< {x} >$$.
 
 
-Het populatiegemiddelde wordt als volg genoteerd: 
+Het populatiegemiddelde wordt als volgt genoteerd: 
 
 $$\mu = \frac{1}{N}{\displaystyle \sum_{i=1}^{N}x_{i}}$$
 
