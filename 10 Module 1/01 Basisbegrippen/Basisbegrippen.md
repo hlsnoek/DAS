@@ -37,7 +37,7 @@ Het gemiddelde van een dataset geeft een maat voor het centrum van de waarden di
 Het gemiddelde kun je berekenen door alle waardes in de dataset te sommeren en te delen door de grootte van de dataset. We maken onderscheid in de notatie voor het gemiddelde van een steekproef en die van het populatiegemiddelde.
 
 
-Het steekproef gemiddelde $$\overline{x}$$ $$\bar{x}$$ (x-streep of in het Engels: x-bar) van een dataset is de som van de waarden $$x_1,\dots,x_n$$ in de set gedeeld door het aantal datapunten in de steekproef: $$n$$:
+Het steekproef gemiddelde $$\bar{x}$$ (x-streep of in het Engels: x-bar) van een dataset is de som van de waarden $$x_1,\dots,x_n$$ in de set gedeeld door het aantal datapunten in de steekproef: $$n$$:
 
 $$\bar{x}=\frac{1}{n}{\displaystyle \sum_{i=1}^{n}x_{i}}$$
 
@@ -55,7 +55,7 @@ Je ziet dat het steekproef gemiddelde erg lijkt op de uitdrukking voor het popul
 
 > Stel je voor dat we de volgende steekproef hebben: $$ X = \{-5,1,14,12,0\} $$. De gemiddelde waarde voor de data is nu dus 
 > 
-> $$ \overline{x} = \frac{1}{5} \cdot ( -5 + 1+ 14+12+0)= \frac{1}{5} \cdot 22 = 4.4$$
+> $$ \bar{x} = \frac{1}{5} \cdot ( -5 + 1+ 14+12+0)= \frac{1}{5} \cdot 22 = 4.4$$
 
 
 
@@ -135,7 +135,7 @@ $$var = \sigma^2 = \displaystyle \frac{1}{N} \sum_{i=1}^{N}(x_i - \mu)^2$$
 
 of in het geval van de steekproef: 
 
-$$s^2 = \frac{1}{n} \sum_{i=1}^{n}(x_i - \overline{x})^2 $$
+$$s^2 = \frac{1}{n} \sum_{i=1}^{n}(x_i - \bar{x})^2 $$
 
 Let op dat de eenheid van de variantie het kwadraat is van de eenheid van $$x$$. In het geval dat je bijvoorbeeld lengtes van luciferstokjes hebt opgemeten, dan zullen de waardes in cm zijn genoteerd. De variantie heeft dan de eenheid cm$$^2$$. Dat kan soms best onhandig zijn, vandaar dat we vaker de standaarddeviatie gebruiken. De standaarddeviatie heeft altijd dezelfde eenheid als de originele elementen van de dataset. 
 
@@ -153,9 +153,9 @@ Met $$\sigma$$ de standaardafwijking van de populatie en $$\mu$$ het populatiege
 
 De steekproef variantie $$\hat{c_v}$$ wordt gegeven door:
 
-$$\hat{c_v} = \frac{s}{\overline{x}}$$
+$$\hat{c_v} = \frac{s}{\bar{x}}$$
 
-Met $$s$$ de standaardafwijking van de steekproef en $$\overline{x}$$ het steekproef gemiddelde.
+Met $$s$$ de standaardafwijking van de steekproef en $$\bar{x}$$ het steekproef gemiddelde.
 
 Het verschil met de variantie en de standaardafwijking is dat de variatiecoëfficiënt dimensieloos is. Dit is bijvoorbeeld handig als er meerdere datasets vergeleken moeten worden die verschillende eenheden hebben. Ook als de gemiddelde waarden van verschillende datasets erg uiteen liggen is het beter om de variatiecoëfficiënt te gebruiken i.p.v. de standaardafwijking.
 
@@ -168,10 +168,10 @@ Een nadeel van het gebruik van de variatiecoëfficiënt is dat er gedeeld wordt 
 | kenmerk | populatie (*parameter*)| steekproef (*statistiek*) | 
 |----|----|----|
 | grootte |  $$N$$ | $$n$$ |
-| gemiddelde | $$\mu = \frac{1}{N} \sum_i^N x_i$$ | $$\overline{x} = \frac{1}{n} \sum_i^n x_i$$ |
-| standaarddeviatie | $$\sigma = \sqrt{\frac{1}{N} \sum_i^N (x_i - \mu)^2}$$ | $$s = \sqrt{\frac{1}{n} \sum_i^n (x_i - \overline{x})^2}$$ | 
+| gemiddelde | $$\mu = \frac{1}{N} \sum_i^N x_i$$ | $$\bar{x} = \frac{1}{n} \sum_i^n x_i$$ |
+| standaarddeviatie | $$\sigma = \sqrt{\frac{1}{N} \sum_i^N (x_i - \mu)^2}$$ | $$s = \sqrt{\frac{1}{n} \sum_i^n (x_i - \bar{x})^2}$$ | 
 | variantie | $$ var = \sigma^2 $$ | $$s^2$$ |
-|variatiecoëfficiënt | $$c_{v} = \frac{\sigma}{\mu}$$| $$\hat{c_v} = \frac{s}{\overline{x}}$$|
+|variatiecoëfficiënt | $$c_{v} = \frac{\sigma}{\mu}$$| $$\hat{c_v} = \frac{s}{\bar{x}}$$|
 
 
 ## Voorbeelden
@@ -195,7 +195,7 @@ Het tweede voorbeeld gaat over een steekproef:
 > De grootte van de steekproef: $$n = 5$$. <br> 
 > De spreidingsbreedte is $$1.90$$m-$$1.61$$ m $$= 39$$ cm. 
 > De mediaan ligt in het midden van de gesorteerde dataset. Dit is 1.79 m. <br>
-> Het gemiddelde $$\overline{L} = 1.77$$ m.<br>
+> Het gemiddelde $$\bar{L} = 1.77$$ m.<br>
 > De variantie is:<br>
 >  $$  s^2 = \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 + (1.61-1.77)^2 + \right. $$<br>
           $$\left. (1.84-1.77)^2 + (1.79-1.77)^2 \right] = 0.0100 \text{m}^2 $$<br>

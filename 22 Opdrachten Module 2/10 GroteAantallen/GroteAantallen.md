@@ -1,6 +1,6 @@
 ## Opdracht M2.1 Grote Aantallen II \*\*
 We gaan verder kijken naar de ton met kogels uit opgave M1.4. 
-In dit opgave begonnen we met een ton met 80 kogels en berekenden we  het gemiddelde, $$g_n = \overline{m_n}$$ over de eerste $$n$$ kogels van de set. Zo kregen we de distributie van $$g_n$$ versus $$n$$, net als in opgave M1.4.  
+In dit opgave begonnen we met een ton met 80 kogels en berekenden we  het gemiddelde, $$g_n = \bar{m_n}$$ over de eerste $$n$$ kogels van de set. Zo kregen we de distributie van $$g_n$$ versus $$n$$, net als in opgave M1.4.  
 Voordat je verder gaat, controleer eerst even in ANS of je dit goed hebt gedaan en corrigeer eventueel je fouten. 
 
 We gaan nu naar meerdere tonnen kijken, steeds met 80 kogels en uit dezelfde fabriek. 
@@ -24,7 +24,7 @@ We gaan nu experimenten vergelijken waarin we steeds het gemiddelde over de eers
 > - **M2.1c) Bereken voor elk van de 100 datasets het gemiddelde over de eerste 10 metingen en laat de distributie van deze gemiddeldes $$g_{10}$$ zien in een histogram.** <br><br>
 >
 > - **M2.1d) Bereken van deze distributie het gemiddelde  
-> $$\overline{g_{10}}$$, dit is het gemiddelde van de gemiddeldes $$g_{10}$$. Bereken ook de standaarddeviatie van de gemiddeldes $$s_{g_{10}}$$ (de standaarddeviatie van de gemiddeldes $$g_{10}$$).**
+> $$\bar{g_{10}}$$, dit is het gemiddelde van de gemiddeldes $$g_{10}$$. Bereken ook de standaarddeviatie van de gemiddeldes $$s_{g_{10}}$$ (de standaarddeviatie van de gemiddeldes $$g_{10}$$).**
 
 We gaan dit nu herhalen voor met verschillende groottes van de steekproef $$n$$. Maak een functie die de standaarddeviatie $$s_{g_n}$$ van de 100 berekende gemiddeldes $$g_n$$ die berekend zijn over de eerste $$n$$ punten terug geeft.
 

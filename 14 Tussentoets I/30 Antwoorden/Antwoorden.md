@@ -55,7 +55,7 @@ NB Meestal weten we het echte gemiddelde niet en kunnen dan ook de fout niet exa
 -----
 
 **7** We definiëren een stochast, $$x$$, als de waarde van de worp van een eerlijke dobbelsteen. Wat is de verwachtingswaarde van deze stochast? <br>
-<span style = "color: blue"> $$\overline{x} = \frac{1}{6} \sum_{i=1}^{n=6} x_i = \frac{1}{6} \cdot (1+2+3+4+5+6) = \frac{21}{6} = 3.5$$.</span>
+<span style = "color: blue"> $$\bar{x} = \frac{1}{6} \sum_{i=1}^{n=6} x_i = \frac{1}{6} \cdot (1+2+3+4+5+6) = \frac{21}{6} = 3.5$$.</span>
 
 
 -----
