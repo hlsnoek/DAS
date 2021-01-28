@@ -171,7 +171,7 @@ Een nadeel van het gebruik van de variatiecoëfficiënt is dat er gedeeld wordt 
 | gemiddelde | $$\mu = \frac{1}{N} \sum_i^N x_i$$ | $$\bar{x} = \frac{1}{n} \sum_i^n x_i$$ |
 | standaarddeviatie | $$\sigma = \sqrt{\frac{1}{N} \sum_i^N (x_i - \mu)^2}$$ | $$s = \sqrt{\frac{1}{n} \sum_i^n (x_i - \bar{x})^2}$$ | 
 | variantie | $$ var = \sigma^2 $$ | $$s^2$$ |
-|variatiecoëfficiënt | $$c_{v} = \frac{\sigma}{\mu}$$| $$\hat{c_v} = \frac{s}{\bar{x}}$$|
+|variatiecoëfficiënt | $$c_{v} = \sigma/\mu$$| $$\hat{c_v} = s/\bar{x}$$|
 
 
 ## Voorbeelden
