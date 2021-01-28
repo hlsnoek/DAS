@@ -39,7 +39,7 @@ Het gemiddelde kun je berekenen door alle waardes in de dataset te sommeren en t
 
 Het steekproef gemiddelde $$\overline{x}$$ (x-streep of in het Engels: x-bar) van een dataset is de som van de waarden $$x_1,\dots,x_n$$ in de set gedeeld door het aantal datapunten in de steekproef: $$n$$:
 
-$$\overline{x}=\frac{1}{n}{\displaystyle \sum_{i=1}^{n}x_{i}}$$
+$$\bar{x}=\frac{1}{n}{\displaystyle \sum_{i=1}^{n}x_{i}}$$
 
 Het steekproef gemiddelde wordt zo vaak gebruikt dat dit veelal wordt aangeduid als 'het gemiddelde'. 
 Voor het gemiddelde wordt ook vaak de 'vishaak-notatie' gebruikt: $$< {x} >$$.
