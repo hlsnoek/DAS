@@ -1,0 +1,70 @@
+Informatie:
+  Lees eerst even de studiewijzer door: /syllabus
+  Installeer de juiste pakketten: /informatie/installatie
+  Over de inleveropdrachten: /informatie/inleveropdrachten
+  Over de tussentoetsen: /informatie/tussentoetsen
+
+Module 1:
+   Introductie: /module-1/introductie
+   Theorie:
+     Basisbegrippen: /module-1/basisbegrippen
+     Wetenschappelijke notatie: /module-1/notatie
+     Data visualiseren: /module-1/data-visualiseren
+     Meetonzekerheid: /module-1/meetonzekerheid
+     Kanstheorie: /module-1/kanstheorie
+     Kansdichtheidsfuncties: /module-1/verdelingsfuncties
+   Inleveropdrachten:
+     Overzicht en info: /opdrachten-module-1/opdrachten
+     M1.1 Mooi Plotten: /opdrachten-module-1/mooiplotten
+     M1.2 Kansdichtheids Distributies: /opdrachten-module-1/distributies
+     M1.3 Eigenschappen van Distributies: /opdrachten-module-1/eigenschappen
+     M1.4 Grote Aantallen I: /opdrachten-module-1/groteaantallen
+     M1.5 Halfwaardedikte I: /opdrachten-module-1/halfwaardedikte
+   Samenwerkopdracht:
+     Samenwerkopdracht: /samenwerkopdracht/samenwerkopdracht
+   Tussentoets I:
+     Wat moet je weten?: /tussentoets-i/inhoud
+     Oefenopdrachten: /tussentoets-i/oefenopgaves
+     Antwoorden: /tussentoets-i/antwoorden
+
+Module 2:
+   Introductie: /module-2/introductie
+   Theorie:
+     Foutenpropagatie: /module-2/foutenpropagatiei
+     Wet van Grote Aantallen: /module-2/wet-van-grote-aantallen
+     Meerdimensionale data: /module-2/meerdimensionale-data
+     Extra Kansrekenregels: /module-2/extra-kansrekenregels
+   Inleveropdrachten:
+     Overzicht en info: /opdrachten-module-2/opdrachten    
+     M2.1 Grote Aantallen II: /opdrachten-module-2/groteaantallen
+     M2.2 Meesjes: /opdrachten-module-2/meesjes
+     M2.3 Halfwaardedikte II: /opdrachten-module-2/halfwaardedikteii
+   Tussentoets II:
+     Wat moet je weten?: /tussentoets-ii/inhoud
+     Oefenopdrachten: /tussentoets-ii/oefenopgaves
+     Antwoorden: /tussentoets-ii/antwoordenii
+
+Module 3:
+   Introductie: /module-3/introductie
+   Theorie:
+     De centrale Limietstelling: /module-3/de-centrale-limietstelling
+     De Normaalverdeling: /module-3/normaalverdeling
+     De Kleinste Kwadraten Methode: /module-3/kleinste-kwadraten
+     De Chi-kwadraat: /module-3/chi-2
+     Hypothese toetsen I: /module-3/hypothese-toetsen
+   Inleveropdrachten:
+     Overzicht en info: /opdrachten-module-3/opdrachten    
+     M3.1 Grote Aantallen III: /opdrachten-module-3/groteaantalleniii
+     M3.2 Halfwaardedikte III: /opdrachten-module-3/halfwaardedikteiii
+   Tussentoets III:
+     Wat moet je weten?: /tussentoets-iii/inhoud
+     Oefenopdrachten: /tussentoets-iii/oefenopgaves
+     Antwoorden: /tussentoets-iii/antwoordeniiia
+
+Module 4: 
+   Introductie: /module-4/introductie
+   Theorie:
+     Hypothese toetsen II: /module-4/hypothese-toetsen-2
+   Inleveropdrachten:
+     Overzicht en info: /opdrachten-module-4/opdrachten    
+     M4.1 Een Nieuw Deeltje: /opdrachten-module-4/eennieuwdeeltje

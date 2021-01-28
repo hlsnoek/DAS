@@ -1,4 +1,4 @@
-## Introductie Module 1
+# Introductie Module 1
 
 Statistische data analyse is een belangrijk onderdeel in vele werkvelden.
 Als student en later wellicht ook als wetenschapper zul je te maken krijgen met het verzamelen en interpreteren van data bij het het practikum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
