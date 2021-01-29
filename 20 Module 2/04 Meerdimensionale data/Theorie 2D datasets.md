@@ -86,7 +86,7 @@ van twee variabelen. Kijk bijvoorbeeld eens bij [Geogebra-Correlatie game](https
 [Guess the correlation](http://guessthecorrelation.com/).
 
 
-##Correlatie en causaliteit
+## Correlatie en causaliteit
 Soms betekent correlatie dat er oorzakelijk verband is tussen de twee observabelen. Dat wil zeggen dat de ene observabele invloed heeft op de andere observabele. 
 
 Een voorbeeld hiervan is bijvoorbeeld als je kijkt naar de ijsverkoop en de buitentemperatuur. Omdat het warm is buiten hebben mensen meer trek in een ijsje. Het is dus niet zo gek dat je er een verband tussen vindt. Dit verband noemen we een **causaal** verband. Iets wordt veroorzaakt door iets anders. 

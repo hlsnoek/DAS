@@ -1,4 +1,4 @@
-#Normaalverdeling
+# Normaalverdeling
 
 
 1. Ordered TOC
@@ -10,7 +10,7 @@ De Normaalverdeling is een van de drie belangrijkste distributies in de statisti
 We hebben in het hoofdstuk [De Centrale Limietstelling](/module-3/de-centrale-limietstelling) gezien waarom onzekerheden op waarnemingen zo vaak Normaal zijn verdeeld. 
 
 
-##Poisson en Normaal
+## Poisson en Normaal
 Voordat we verder gaan over de normaalverdeling bekijken we eerst kort de Poissonverdeling. We hebben in module 1 al even kort gezien hoe deze verdeeld is. De Poisson is uitermate belangrijk in experimenten omdat het de onzekerheid op tel experimenten beschrijft. Voor een verwachtingswaarde van $$\lambda$$ vinden we een standaarddeviatie van $$\sqrt{\lambda}$$ en zoals we al eerder hebben gezien mogen we deze bij het uitvoeren van een experiment vaak zien als de onzekerheid op de verwachtingswaarde zelf.
 
 $${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}.$$
@@ -26,7 +26,7 @@ Om dit te visualiseren tonen we de twee functies over elkaar heen voor een waard
 Er blijven natuurlijk verschillen, zo is de Poissonverdeling een discrete verdeling, maar de grote gelijkenis verklaart wel waarom we, voor grotere waardes van $$\lambda$$ gebruik mogen maken van vergelijkingen die eigenlijk alleen voor de Normale verdeling gelden. Zoals bijvoorbeeld de regels voor de foutenpropagatie.
 
 
-##Z-waardes en waarschijnlijkheden
+## Z-waardes en waarschijnlijkheden
 We richten ons nu op de Normaalverdeling en herhalen nogmaals de vergelijking. 
 
 

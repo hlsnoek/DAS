@@ -1,4 +1,4 @@
-#Voorbereiding op tussentoets 3
+# Voorbereiding op tussentoets 3
 
 De derde tussentoets vindt plaats aan het einde van het vierde college. 
 Voor de tussentoets krijg je een half uur de tijd, het werk wordt gemaakt op een ANS tentamenformulier. Tijdens de tussentoets mag je een gewone rekenmachine gebruiken. 

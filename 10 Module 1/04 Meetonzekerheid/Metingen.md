@@ -7,7 +7,7 @@
 - Schrijf expliciet fout op telexperiment volgt Poisson zie Poisson.
 - Schrijf een stukje over onzuiverheid-->
 
-##Fouten en onzekerheden
+## Fouten en onzekerheden
 
 Als we iets meten is dat meestal omdat we een bepaalde grootheid willen weten. Voorbeelden hiervan zijn 
 
@@ -23,7 +23,7 @@ Het is belangrijk om te begrijpen dat we meestal te maken hebben met een fout op
 Technisch gezien is er dus een verschil tussen de fout en de onzekerheid van de meting. In de praktijk gebruiken we vaak het woord fout ook voor de onzekerheid. Toch is het goed om even stil te staan bij dit verschil.
 
 
-###Meetfouten
+### Meetfouten
 De eerste oorzaak is dat we een fout maken bij de meting. Een fout betekent hier niet dat we iets verkeerds doen. Het betekent dat we met onze meting een waarde vinden die afwijkt van de echte waarde. De afwijking noemen we een meetfout. Helaas weten we nooit hoe groot de meetfout exact is, maar vaak kunnen we hem wel goed inschatten. De meetfout wordt beïnvloed door de meetmethode. Voorbeelden hiervan zijn: 
 
 * **Het aantal knikkers in een pot.** Stel dat we de pot leeg kieperen en we tellen ze allemaal met de hand, dan kan het zo zijn dat we een knikker kwijtraken of een telfout maken. Als we het netjes doen en we doen verschillende hertellingen is de kans groot dat we hierbij geen meetfout maken (zeker als het maar een paar knikkers zijn).
@@ -31,7 +31,8 @@ De eerste oorzaak is dat we een fout maken bij de meting. Een fout betekent hier
 
 * **De lengte van een blokje hout.** 
 Hier zou je bijvoorbeeld een liniaal voor kunnen gebruiken. Allereerst moeten we het blokje netjes langs de liniaal leggen. Zie hieronder een schets van de opstelling. Ligt de 0 wel echt netjes langs de rand?<br>
-![](lineaal_v1.png){:width="80%"}<br>
+![](lineaal_v1.png){:width="80%"}
+
 Dan moeten we de waarde op de lineaal afmeten. Als we naar de bovenstaande situatie kijken dan zou het blokje 7.6 cm lang kunnen zijn. Maar het is niet helemaal goed af te lezen. Zo zou het blokje ook 7.7 cm lang kunnen zijn als we de linkerkant van het blokje aan de binnenkant van de eerste zwarte streep leggen, en het kan 7.5 cm zijn als we het blokje aan de buitenkant van de eerste zwarte streep leggen. Omdat er geen streepjes tussen de rode streepjes zijn kunnen we slechts op een mm nauwkeurig zeggen wat de lengte is van het blokje. Er is dus sprake van een meetonzekerheid. In dit geval zouden we bijvoorbeeld noteren dat het blokje een lengte heeft van $$7.6 \pm 0.1$$ cm.
 
 * **De levensduur van Cesium-131.** Meestal meten we dit met behulp van een Geiger-Müller telbuis. Bijvoorbeeld we meten het aantal telling in 5 minuten en deze metingen herhalen we een paar keer met steeds een even groot tijdsinterval. Meetfouten komen door de nauwkeurigheid van de twee soorten intervallen, het meetinterval en de tussenliggende periode. Ook zullen er, hopelijk veel kleinere, onzekerheden komen doordat de telbuizen niet altijd precies hetzelfde functioneren.
@@ -40,7 +41,7 @@ Dan moeten we de waarde op de lineaal afmeten. Als we naar de bovenstaande situa
 
 * **De snelheid van het licht.** De lichtsnelheid kun je op verschillende manieren meten. Maar hoe je het ook meet, je zal zeer nauwkeurige tijds- en lengtemetingen nodig hebben. Als je de lichtsnelheid in vacuüm wilt bepalen zal je ook nog eens zeer goede conditie van je vacuüm nodig hebben òf hiervoor moeten corrigeren. Er zijn vele bronnen van onnauwkeurigheid in dit experiment die je goed zal moeten controleren.
 
-###Onzekerheden met natuurlijke oorzaak
+### Onzekerheden met natuurlijke oorzaak
 
 De tweede categorie onzekerheden hebben een andere oorzaak. De grootheid zelf kan ook een spreiding kennen. Je kan hierbij denken aan toevalligheden in een productieproces maar ook door bijvoorbeeld kans processen in de kwantummechanica. We bekijken nogmaals de voorbeelden.
 

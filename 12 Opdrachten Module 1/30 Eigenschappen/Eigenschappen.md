@@ -16,7 +16,7 @@ Deze regel code vind je in het `M1.3_Eigenschappen.py` bestand.
 > 	* het gemiddelde
 > 	* de mediaan
 > 	* de variantie
-> 	* de standaard deviatie
+> 	* de standaarddeviatie
 
 **NB:** Het is de bedoeling dat je de formules zelf programmeert. Je mag geen gebruik maken van standaard functies van python die dit direct voor je teruggeven. Uiteraard mag je wel gebruiken maken van functies als **`len()`** en **`sort()`**.
 

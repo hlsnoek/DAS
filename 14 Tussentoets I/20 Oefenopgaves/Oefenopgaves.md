@@ -1,4 +1,4 @@
-#Oefenopgaves als voorbereiding voor tussentoets 1
+# Oefenopgaves als voorbereiding voor tussentoets 1
 
 Lees goed het [lijstje](/tussentoets-i/inhoud) door ter voorbereiding voor de tussentoets. **Niet voor alle element op het lijstje zijn oefenopgaves**.
 
@@ -20,7 +20,7 @@ de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 -----
 
 **2** Lees in de onderstaande grafiek het punt voor x=6 af en noteer het resultaat met de wetenschappelijke notatie. 
-![](Aflezen.png)
+![](Aflezen.png){:width="80%"}
 
 
 -----

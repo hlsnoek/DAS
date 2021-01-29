@@ -5,7 +5,7 @@ We gaan in het eerste laptopcollege aand deze samenwerkingsopdracht in kleine gr
 Sommige groepjes worden straks gevraagd dit te presenteren, zorg dat ook voor het andere groepje niet alleen de antwoorden maar ook de vragen duidelijk zijn.
 
 
-##Voor groepjes A:
+## Voor groepjes A:
 
 Ga naar [deze](https://coronadashboard.rijksoverheid.nl/landelijk/positief-geteste-mensen) pagina van het corona dashboard en vind het diagram 'Verdeling naar leeftijd'.
 Tip: Als je met je muis over de lijn gaat krijg je de exacte getallen zien. 
@@ -25,7 +25,7 @@ Op deze website vind je data van de verpleegafdelingen, scroll naar beneden tot 
 **3.** Kijk goed naar de twee grafieken. Laten ze een ander beeld zien dan het diagram op het coronadashboard? Deze vraag kan je beantwoorden door in beide diagrammen het aantal opgenomen en overleden patienten (de rode en blauwe staafjes) bij elkaar op te tellen van de leeftijdscategorieën <20 en >90 en de uitkomst te vergelijken met de data van het corona dashboard. Let goed op dat je bij deze vergelijking de juiste verhouding hanteert, je moet namelijk corrigeren voor de leeftijdsopbouw van de bevolking. Dat wil zeggen welke fractie van de bevolking is 90+ en welke fractie is <20?
 
 
-##Voor groepjes B:
+## Voor groepjes B:
 
 Ga naar [deze](https://coronadashboard.rijksoverheid.nl/landelijk/positief-geteste-mensen) pagina van het corona dashboard en vind het diagram 'Verloop over tijd'. Stel het diagram in met 'toon alles'.
 Als je met je muis over de balkjes gaat krijg je de exacte getallen zien. 

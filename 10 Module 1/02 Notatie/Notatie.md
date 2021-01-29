@@ -16,7 +16,7 @@ Voor het noteren van wetenschappelijke resultaten maken we nu hier afspraken die
 We beginnen met het uitleggen van wat begrippen die we nodig hebben om de afspraken uit te kunnen leggen.
 
 
-### Significantie en precisie
+## Significantie en precisie
 
 Meetwaardes moeten met de juiste **significantie** worden genoteerd. 
 De *significantie* is de nauwkeurigheid waarmee een getal/waarde wordt weergegeven. Vaak wordt gedacht dat het aantal decimale cijfers de nauwkeurigheid aangeeft, maar dit is technisch gezien de *precisie* waarmee de (meet)waarde wordt aangegeven. De nauwkeurigheid (significantie) van een getal zegt welke cijfers in het getal er iets toe doen. Cijfers zonder betekenis tellen we niet mee bij de significantie.
@@ -44,7 +44,7 @@ In het voorbeeld hierboven zie je dat de getallen (bijna) allemaal dezelfde prec
 
 
 
-### Wetenschappelijke notatie
+## Wetenschappelijke notatie
 
 Een veel gebruikte manier om getallen en meetresultaten weer te geven is met behulp van de wetenschappelijke notatie. Bij de wetenschappelijke notatie wordt elk getal in de vorm $$A
 \times 10^n$$ opgeschreven.
@@ -87,7 +87,7 @@ Hieronder een aantal voorbeelden:
 
 
 
-###Hoeveel significante cijfers noteren?
+### Hoeveel significante cijfers noteren?
 
 Het is dus belangrijk om niet te veel en niet te weinig  **significante getallen** gebruiken als je een resultaat noteert. 
 
@@ -112,7 +112,7 @@ Voor het noteren van een meetresultaat hanteren we de volgende regel:
 NB. Als we teruggaan naar het voorbeeld met opmeten van de plank met het meetlint waarbij we hebben gemeten dat de plank 253.3 cm lang is, hebben we 4 significante cijfers genoteerd. Het resultaat is genoteerd zonder meetfout. Toch is dit de juiste notatie geweest. De ingeschatte fout is immers in de orde van een millimeter. In de tabel hierboven wordt steeds aangegeven dat de onzekerheid onbekend is, in zeker zin is die bij de meting van de lengte van de plank *wel* bekend. Meer hierover volgt in de sectie over [meetonzekerheid](/module-1/meetonzekerheid).
 
 
-###Significantie en berekeningen
+### Significantie en berekeningen
 
 Voor het kiezen van het juiste aantal significante cijfers zijn er een aantal regels. 
 

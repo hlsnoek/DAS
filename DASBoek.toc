@@ -1,24 +1,14 @@
-\contentsline {section}{\numberline {0.1}Introductie Module 1}{4}{section.0.1}% 
-\contentsline {section}{\numberline {0.2}Basisbegrippen in de statistiek}{4}{section.0.2}% 
-\contentsline {subsection}{\numberline {0.2.1}Datasets beschrijven}{5}{subsection.0.2.1}% 
-\contentsline {subsubsection}{\numberline {0.2.1.1}Populatie en steekproef}{5}{subsubsection.0.2.1.1}% 
-\contentsline {subsection}{\numberline {0.2.2}Veel gebruikte parameters en statistieken}{6}{subsection.0.2.2}% 
-\contentsline {subsubsection}{\numberline {0.2.2.1}Het gemiddelde}{6}{subsubsection.0.2.2.1}% 
-\contentsline {subsubsection}{\numberline {0.2.2.2}De mediaan}{7}{subsubsection.0.2.2.2}% 
-\contentsline {subsubsection}{\numberline {0.2.2.3}De modus}{8}{subsubsection.0.2.2.3}% 
-\contentsline {subsection}{\numberline {0.2.3}Spreiding van data}{9}{subsection.0.2.3}% 
-\contentsline {subsubsection}{\numberline {0.2.3.1}Spreidingsbreedte (range)}{9}{subsubsection.0.2.3.1}% 
-\contentsline {subsubsection}{\numberline {0.2.3.2}Standaarddeviatie en variantie}{9}{subsubsection.0.2.3.2}% 
-\contentsline {subsubsection}{\numberline {0.2.3.3}Variatieco\IeC {\"e}ffici\IeC {\"e}nt}{10}{subsubsection.0.2.3.3}% 
-\contentsline {subsection}{\numberline {0.2.4}Samenvatting}{10}{subsection.0.2.4}% 
-\contentsline {subsection}{\numberline {0.2.5}Voorbeelden}{11}{subsection.0.2.5}% 
-\contentsline {section}{\numberline {0.3}Het correct noteren van resultaten}{12}{section.0.3}% 
-\contentsline {subsubsection}{\numberline {0.3.0.1}Significantie en precisie}{12}{subsubsection.0.3.0.1}% 
-\contentsline {subsubsection}{\numberline {0.3.0.2}Wetenschappelijke notatie}{13}{subsubsection.0.3.0.2}% 
-\contentsline {section}{\numberline {0.4}Datasets visualiseren}{16}{section.0.4}% 
-\contentsline {subsection}{\numberline {0.4.1}Grafieken \& Scatterplots}{16}{subsection.0.4.1}% 
-\contentsline {subsubsection}{\numberline {0.4.1.1}Richtlijnen voor de opmaak van diagrammen}{17}{subsubsection.0.4.1.1}% 
-\contentsline {subsection}{\numberline {0.4.2}Staafdiagrammen \& Histogrammen}{20}{subsection.0.4.2}% 
-\contentsline {subsubsection}{\numberline {0.4.2.1}Breedte van de bins bij een histogram}{21}{subsubsection.0.4.2.1}% 
-\contentsline {subsection}{\numberline {0.4.3}Wanneer gebruik je wat?}{22}{subsection.0.4.3}% 
-\contentsline {subsection}{\numberline {0.4.4}Data plotten met Python}{23}{subsection.0.4.4}% 
+\contentsline {chapter}{\numberline {1}Kanstheorie}{5}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Definitie van Kans}{5}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Frequentist versus Bayesiaanse methode}{7}{subsection.1.1.1}% 
+\contentsline {section}{\numberline {1.2}Rekenen met kansen}{8}{section.1.2}% 
+\contentsline {chapter}{\numberline {2}Kansdichtheidsfuncties}{11}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Wat is een stochast?}{11}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Kansdichtheidsfuncties}{11}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Verwachtingswaarde en standaarddeviatie}{12}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Bekende kansdichtheidsfuncties}{13}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Uniform}{13}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Binomiaal}{14}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Poisson}{16}{subsection.2.4.3}% 
+\contentsline {subsection}{\numberline {2.4.4}Normaal (ofwel Gauss)}{16}{subsection.2.4.4}% 
+\contentsline {chapter}{\numberline {3}Voorbeeld opgaves tussentoets I}{19}{chapter.3}% 

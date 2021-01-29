@@ -17,7 +17,18 @@ for line in f:
         line = line.replace( r"$$", r"\end{equation}",1 )
     
     line = line.replace( r"<br>", r"\newline")
-    line = line.replace( r"#", r"##",1 )
+    #    line = line.replace( r"#", r"##",1 )
+    while (line.count("> "))  :  line = line.replace( r"> ", r">")
+    while (line.count(" <\\")) : line = line.replace( r" <\\", r"<\\")
+    line = line.replace( r"1. Ordered TOC", r"")
+    line = line.replace( r"{:toc}", r"")
+    line = line.replace( r"quote", r"example")
+    line = line.replace( r'<span style ="color:red">', r"*")
+    line = line.replace( r"<span style = 'color:blue'>", r"***Antwoord:** ")
+    line = line.replace( r'<span style = "color:blue">', r"***Antwoord:** ")
+    line = line.replace( r'<span style = "color: blue">', r"***Antwoord:** ")
+    line = line.replace( r"<span style = 'color: blue'>", r"***Antwoord:** ")
+    line = line.replace( r"</span>", r"*")
     
     l = line    
 

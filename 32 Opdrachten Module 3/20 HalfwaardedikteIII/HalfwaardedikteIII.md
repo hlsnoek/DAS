@@ -1,4 +1,4 @@
-#M3.2 Halfwaardedikte III \*\*\*
+## M3.2 Halfwaardedikte III \*\*\*
 
 In opgave M2.3 hebben we gezien dat de meetmethode die we gebruikten om de halfwaardedikte te bepalen niet optimaal was. Er was zeker sprake van een onzuivere meting doordat we stelselmatig een te hoge waarde van $$\text{d_half}$$ terugkregen. 
 

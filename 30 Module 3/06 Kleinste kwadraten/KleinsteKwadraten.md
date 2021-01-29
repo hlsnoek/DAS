@@ -10,7 +10,7 @@ De methode van de kleinste kwadraten wordt ook wel lineaire regressie, of 'fitte
 
 
 
-##Schatters
+## Schatters
 Eerst staan we nog even stil bij wat een *schatter* eigenlijk is. Vaak willen we met behulp van een meting een bepaalde grootheid te weten komen. Soms kunnen we die direct opmeten, maar vaak hebben we een methode of een recept nodig om dit te doen. Denk bijvoorbeeld bij de proef met de halfwaardedikte. We nemen eerst een set metingen en vervolgens hebben we een recept om hieruit de halfwaardedikte te bepalen. Deze halfwaardedikte *schatten* we met behulp van de methode die we een *schatter* noemen (Engels: estimator). 
 
 Als we een meting doen maken we altijd meetfouten, en als we een schatting doen dan is dus ook de nauwkeurigheid van de schatting begrensd. We hebben al een andere eigenschap van de schatter bekeken in de opgaves namelijk de onzuiverheid die wordt gegeven door: 
@@ -20,18 +20,18 @@ $$b = E(\hat{x}) - \mu$$
 Waarbij $$b$$ de onzuiverheid is, $$E(\hat{x})$$ de verwachtingswaarde van de te schattengrootheid en $$\mu$$ het populatiegemiddelde van de te schatten grootheid.
 
 
-##De kleinste-kwadraten methode en $$\chi^2$$
+## De kleinste-kwadraten methode en $$\chi^2$$
 Een van de meest krachtige schatters is de methode van de kleinste-kwadraten. Deze gaan we hier bespreken.
 
 Met de kleinste kwadraten methode minimaliseren we het kwadratisch verschil tussen een set metingen en de voorspelde waardes op die metingen, waarbij de voorspelling afhangt van één of meerdere parameters. 
 
 We beginnen meteen met een voorbeeld. Stel dat we een set metingen hebben die er als volgt uitziet. 
 
-![](VoorbeeldLeastSquares0.png){: width="60%"}
+![](VoorbeeldLeastSquares0.png){:width="60%"}
 
 We vermoeden een lineair verband tussen de variabelen $$x$$ en $$y$$ met parameters $$a$$ en $$b$$. We willen nu een deze parameters schatten. De vraag is nu hoe bepalen we $$\hat{a}$$ en $$\hat{b}$$. Oftewel bij welke waardes van $$a$$ en $$b$$ wordt onze dataset optimaal beschreven met het lineaire verband. 
 
-![](VoorbeeldLeastSquares.png){: width="60%"}
+![](VoorbeeldLeastSquares.png){:width="60%"}
 
 Bekijk het voorbeeldje hierboven, we zien twee voorbeelden van oplossingen (de rode lijn en de gestreepte zwarte lijn) met elk hun waardes voor $$a$$ en $$b$$. De vraag is nu hoe bepaal je welke het beste is. Hiervoor gebruiken we een maat die we $$\chi^2$$ noemen. 
 

@@ -1,4 +1,4 @@
-#Voorbereiding op tussentoets 2
+# Voorbereiding op tussentoets 2
 
 De tweede tussentoets vindt plaats aan het einde van het derde hoorcollege. 
 Voor de tussentoets krijg je een half uur de tijd, het werk wordt gemaakt op ANS. Tijdens de tussentoets mag je een gewone rekenmachine gebruiken. 

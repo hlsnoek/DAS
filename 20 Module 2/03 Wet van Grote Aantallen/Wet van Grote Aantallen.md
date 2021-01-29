@@ -1,4 +1,4 @@
-#Wet van Grote Aantallen
+# Wet van Grote Aantallen
 
 In opgave M1.4 hebben we gezien hoe de spreiding van een gemeten gemiddelde van 
 metingen steeds kleiner wordt als we meer data gebruiken om het gemiddelde te bepalen. 
@@ -51,7 +51,7 @@ $$\displaystyle{ Var(<{X_1 ... X_N}>) = \frac{\sigma^2}{N}.}$$
 Dit betekent dat **de standaarddeviatie van de som van de stochasten** gelijk is aan $$\sigma \cdot \sqrt{N}$$.  
 De standaarddeviatie van het gemiddelde is dan gelijk aan:  
 
-$$\displaystyle{\text{standaard deviatie op het gemiddelde is: }\frac{\sigma \cdot \sqrt{N}}{N} = \frac{\sigma}{\sqrt{N}}}.$$
+$$\displaystyle{\text{standaarddeviatie op het gemiddelde is: }\frac{\sigma \cdot \sqrt{N}}{N} = \frac{\sigma}{\sqrt{N}}}.$$
 
 Dit betekent dus dat als we het gemiddelde van de massa van N aantal kogels nemen waarbij de kogels een Normale distributie hebben met een gemiddelde $$\mu$$ en een standaarddeviatie van $$\sigma$$, de onzekerheid op de bepaalde gemiddelde massa gelijk is aan $$\sigma/\sqrt{N}$$.  
 Hoe meer kogels we wegen en meenemen in ons gemiddelde, hoe nauwkeuriger we dit gemiddelde kennen. 

@@ -1,4 +1,4 @@
-#Extra kans rekenregels
+# Extra kans rekenregels
 
 In [module 1](/module-1/kanstheorie) hebben we de complement, de en-regel en de of-regel geleerd voor het rekenen met kansen. Aan deze regels waren enkele voorwaarden verbonden. 
 
@@ -10,7 +10,7 @@ De of-regel geldt alleen als de metingen A en B wederzijds uitsluitend zijn. Dat
 We breiden de regels hier verder uit en gaan kijken naar het combineren van kansen die niet wederzijds uitsluitend zijn. We kijken ook naar het begrip conditionele kans en introduceren Bayes theorema die gebruikt kan worden om informatie van kansen om te rekenen. 
 
 
-###De of regel wanneer A en B niet wederzijds uitsluitend zijn:
+### De of regel wanneer A en B niet wederzijds uitsluitend zijn:
 In het geval A en B niet wederzijds uitsluitend zijn dan:<br>
 <center>$$P(\text{A en B}) \equiv P(A \cap B) >0.$$</center><br>
 De kans dat A of B gemeten wordt is dan:

@@ -31,20 +31,20 @@ Met behulp van voorbeelden laten we zien wat de richtlijnen zijn en waar je op m
 
 Stel bijvoorbeeld dat we naar de gemiddelde dagtemperatuur in de maand December 2019 in de Bilt. Hieronder een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
 
-![](plot1_lijn_geenOpmaak.png){: width="60%"}
+![](plot1_lijn_geenOpmaak.png){:width="60%"}
 
 Je ziet dat dit niet erg duidelijk is. Het is bijvoorbeeld niet precies te zien waar de gemeten punten zitten, we hebben wel een vermoeden voor de plaatsen waarop de lijn abrupt van richting veranderd, maar wie weet zitten er nog wel meer datapunten tussen.
 
 Laten we dezelfde data eens plotten zonder lijnen maar alleen met punten: <br>
 
-![](plot2_scatter_geenOpmaak.png){: width="60%"}
+![](plot2_scatter_geenOpmaak.png){:width="60%"}
 
 Vanuit deze grafiek zien we waar de datapunten zijn. Dat konden we in de lijnplot niet goed zien. We kunnen nu helaas de trend niet meer goed waarnemen. Omdat er op een dag maar één gemiddelde gemeten temperatuur kan bestaan, is het toch beter deze als een grafiek weer te geven. 
 We kiezen ervoor om zowel een lijn als markers te gebruiken. 
 
 De plot kan echter netter. Zo staan er geen labels op de assen. Nu kunnen we in dit geval wel raden welke as het jaar aangeeft en welke as de temperatuur, maar in veel gevallen is dat niet zo duidelijk. Om die reden moeten er altijd **labels op de assen** staan, zie het figuur hieronder:
 
-![](plot3_grafiek_aslabel.png){: width="100%"}<br>
+![](plot3_grafiek_aslabel.png){:width="100%"}<br>
 
 Zoals je ziet hebben we het formaat van de grafiek ook aangepast zodat de distributie iets natuurlijker overkomt.
 
@@ -52,11 +52,11 @@ Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, ten
 
 De assen kunnen nog wat netter. Zo eindigt de verticale as net voor de waarde $$0$$, maar het is niet helemaal duidelijk bij welke waarde precies. De horizontale as begint een klein stukje voor 0 en eindigt een klein stukje na 30. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**.  In ons geval laten we het beginnen op de eerste dag van de maand en de laatste dag, daarnaast laten we de temperatuur beginnen op $$-2$$ C&deg; en eindigen op $$16$$ C&deg;. 
 
-![](plot4_grafiek_aslabel_lim.png){: width="100%"}<br>
+![](plot4_grafiek_aslabel_lim.png){:width="100%"}<br>
 
 Stel we willen de temperatuur in de Bilt nu weergeven naast de temperaturen gemeten in Vlissingen en Maastricht. De grafiek ziet er dan zo uit:
 
-![](plot5_grafieken_aslabel_lim.png){: width="100%"}<br>
+![](plot5_grafieken_aslabel_lim.png){:width="100%"}<br>
 
 We hebben ook een legenda toegevoegd zodat duidelijk is welke lijn bij welk weerstation hoort. 
 
@@ -82,11 +82,11 @@ Staafdiagrammen en histogrammen worden allebei typisch gebruikt om frequenties v
 
 Hieronder zie je voorbeelden van een staafdiagram en een histogram.
 
-![](autos-in-nederland.png){: width="80%"}<br>
+![](autos-in-nederland.png){:width="80%"}<br>
 
 Hierboven zie je een **staafdiagram** die de hoeveelheid auto's in Nederland laat zien over drie verschillende jaren opgesplitst naar drie auto categorieën. 
 
-![](verdeling-van-inkomens-2.png){: width="80%"}<br>
+![](verdeling-van-inkomens-2.png){:width="80%"}<br>
 
 Hierboven zie je een **histogram** die de inkomensverdeling in Nederland laat zien. 
 
@@ -102,15 +102,15 @@ Voor een histogram is de breedte van de intervallen van belang. Als we te weinig
 
 Dit bekijken we aan de hand van een voorbeeld. Zo zou het kunnen zijn dat het ideale plaatje bij een gegeven dataset het volgende is:
 
-![](Plot11_RandNorm_Hist_GoedeBins.png){: width="400px"}<br>
+![](Plot11_RandNorm_Hist_GoedeBins.png){:width="400px"}<br>
 
 Als we te brede bins kiezen dan wordt de data afgevlakt en kunnen we het bovenstaande gedrag niet meer herkennen:
 
-![](Plot12_RandNorm_Hist_TeWeinigBins.png){: width="400px"}<br>
+![](Plot12_RandNorm_Hist_TeWeinigBins.png){:width="400px"}<br>
 
 Kiezen we juist te smalle bins, dan kunnen we het gedrag van de data nog wel herkennen (in dit geval) maar er is veel fluctuatie in de hoogte van de bins: 
 
-![](Plot13_RandNorm_Hist_TeVeelBins.png){: width="400px"}<br>
+![](Plot13_RandNorm_Hist_TeVeelBins.png){:width="400px"}<br>
 
 Met het kiezen van te veel bins hebben we dus visuele ruis geïntroduceerd, dit maakt het moeilijker om het gedrag op het oog te herkennen.
 
@@ -151,7 +151,7 @@ We importeren de **`pyplot`** functie vanuit Matplotlib en geven deze de naam 'p
 De naamgeving **`plt`** met het commando **`as plt`** is optioneel, maar wel handig omdat we deze functie over het algemeen vaak zullen gebruiken (dat scheelt typen).
 
 
-###Voorbeeld: een grafiek plotten
+### Voorbeeld: een grafiek plotten
 Stel we hebben de hoogte van een vallende bal gemeten als functie van de tijd. In de tabel hieronder is de gemeten data weergegeven:
 
 | t (s) | 0.0 | 0.5 | 1.0 | 1.5 | 2.0 | 2.5 | 3.0 | 3.5 | 4.0 | 4.5 | 5.0 | 5.5 | 6.0 |
@@ -186,7 +186,7 @@ Labels voor de assen kunnen we als volgt specificeren:
     
 Het resultaat is:
 
-![](Plot15_Vallenbal_PlotOpgemaakt.png){: width="400px"}<br>
+![](Plot15_Vallenbal_PlotOpgemaakt.png){:width="400px"}<br>
 
 De volledige code tot nu toe is:    
 
@@ -221,7 +221,7 @@ Daarna gebruiken we weer dezelfde eigenschappen voor de as-limieten en de as-lab
     
 De plot ziet er dan als volgt uit:<br>
 
-![](PLOT16_MeerdereScatter.png){: width ="400px"}<br>
+![](PLOT16_MeerdereScatter.png){:width ="400px"}<br>
 
 Omdat er meerdere datasets in één grafiek zijn weergegeven is het noodzakelijk om hier een legenda bij te plaatsen. Een legenda kan op meerdere plaatsen in de figuur neergezet worden. Voordat we de legenda kunnen toevoegen moeten we de plots eerst labelen dit doen we door **`label = "naam"`** achteraan in de **`plot`** commando's toe te voegen:
 
@@ -234,7 +234,7 @@ Nu kunnen we de legenda als volgt toevoegen (hier kiezen we ervoor om de legenda
 
 De grafiek is nu als volgt:
 
-![](PLOT18_MeerdereScatter_legenda.png){: width ="400px"}<br>
+![](PLOT18_MeerdereScatter_legenda.png){:width ="400px"}<br>
 
 De volledige code tot nu toe is:    
 
@@ -281,9 +281,10 @@ Dit kan je als volgt doen:
     
 De bijbehorende plot:
 
-![](PLOT17_MeerdereLijnen_legenda.png){: width="400px"}<br>
+![](PLOT17_MeerdereLijnen_legenda.png){:width="400px"}<br>
 
-###Voorbeeld: een histogram plotten
+### Voorbeeld een histogram plotten
+
 In de allereerste opgave M1.1 ga je een histogram plotten. In die opgave staat stap voor stap uitgelegd hoe je dat moet doen. 
 
 Maar kijk vooral ook in de [online manual](https://matplotlib.org/3.1.1/tutorials/introductory/pyplot.html) van matplotlib.
