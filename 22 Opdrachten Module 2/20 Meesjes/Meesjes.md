@@ -4,7 +4,7 @@ Je vindt helaas een dood meesje in de tuin. Het lijkt op een koolmeesje maar het
 Er zijn <a href="https://www.tuinvogeltelling.nl/herkenningstips/?tip=17">manieren</a> om pimpelmeesjes van koolmeesjes te onderscheiden met behulp van uiterlijke kenmerken. Maar je bent een Natuurkundige en geen Bioloog. Online vind je een dataset met informatie over het massa en de spanwijdte van beide soorten meesjes.
 
 
-Voordat we aan deze opdracht beginnen moeten we eerst een nieuwe versie downloaden van de [`DAS_DatasetGenerator.py`](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py). Zonder de nieuwe versie werkt deze opgave niet. Download ook het bestand [`M2.2_Meesjes.py`](M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand.
+Voordat we aan deze opdracht beginnen moeten we eerst een nieuwe versie downloaden van de [DAS_DatasetGenerator.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py). Zonder de nieuwe versie werkt deze opgave niet. Download ook het bestand [M2.2_Meesjes.py](M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand.
 
 
 We genereren eerst een twee datasets met behulp van de volgende regel code: 
@@ -72,8 +72,7 @@ Het valt misschien op dat er een verband lijkt te zijn tussen beide variabelen. 
 
 We gaan terug naar de kansberekeningen. 
 
-> - **M2.2k) Combineer nu de gegevens en bereken de kansen $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} 
-> | \text{koolmees})}$$ en $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} | \text{pimpelmees})}$$.**<br><br>
+> - **M2.2k) Combineer nu de gegevens en bereken de kansen $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} \mid \text{koolmees})}$$ en $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} \mid \text{pimpelmees})}$$.**<br><br>
 > - **M2.2l) Welk vogeltje denk je nu dat het is? Beredeneer je antwoord.**
 
 Na al deze berekeningen lopen we een eindje in de tuin. Op de plek waar we eerder het meesje aantroffen zit nu een ander meesje hartstochtelijk te zingen. Aan de zang hoor je direct dat dit een pimpelmeesje is. Je schat in dat er een kans is van 90% dat dit pimpelmeesje bij het andere meesje hoorde, en dat dat dus ook een pimpelmees is. 

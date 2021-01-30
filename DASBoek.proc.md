@@ -1,3 +1,11 @@
+## Introductie module 2
+
+Deze week verdiepen we ons in het concept meetonzekerheid. We leren hoe we [onzekerheden kunnen doorrekenen](/module-2/foutenpropagatiei) in vergelijkingen. We zien hoe [onzekerheden veranderen](/module-2/wet-van-grote-aantallen) als we meer meetpunten aan onze dataset toevoegen. We kijken ook naar relaties tussen onzekerheden in [meerdimensionale datasets](/module-2/meerdimensionale-data), en we introduceren de [laatste kans rekenregels](/module-2/extra-kansrekenregels) die vooral voor multidimensionale data belangrijk is. 
+
+
+We werken in de laptopcolleges aan de opdrachten van deze module [M2](/opdrachten-module-2/opdrachten). Je vindt in het [schema](/informatie/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
+Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-ii/inhoud) voor de tweede tussentoets. De tweede tussentoets volgt aan het einde van het derde hoorcollege.
+
 # Foutenpropagatie
 
 
@@ -373,16 +381,6 @@ Dit theorema maakt het mogelijk om nieuwe informatie toe te voegen aan de kennis
 
 Bekijk ook even het kennisclipje over Extra Kansrekenregels op Canvas!
 
-
-
-
-
-Voorbeeld van gecorreleerde fouten. 
-
-Je meet 1 lengte van een perfecte vierkant en rekent het oppervlakte uit. De formule voor het oppervlakte van een vierkant is  A = l1*l2
-
-
-
 # Opdrachten module 2
 
 
@@ -457,7 +455,7 @@ Je vindt helaas een dood meesje in de tuin. Het lijkt op een koolmeesje maar het
 Er zijn <a href="https://www.tuinvogeltelling.nl/herkenningstips/?tip=17">manieren</a>om pimpelmeesjes van koolmeesjes te onderscheiden met behulp van uiterlijke kenmerken. Maar je bent een Natuurkundige en geen Bioloog. Online vind je een dataset met informatie over het massa en de spanwijdte van beide soorten meesjes.
 
 
-Voordat we aan deze opdracht beginnen moeten we eerst een nieuwe versie downloaden van de [DAS_DatasetGenerator.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py). Zonder de nieuwe versie werkt deze opgave niet. Download ook het bestand [M2.2_Meesjes.py](M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand.
+Voordat we aan deze opdracht beginnen moeten we eerst een nieuwe versie downloaden van de [**`DAS_DatasetGenerator.py`**](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py). Zonder de nieuwe versie werkt deze opgave niet. Download ook het bestand [**`M2.2_Meesjes.py`**](M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand.
 
 
 We genereren eerst een twee datasets met behulp van de volgende regel code: 
@@ -593,3 +591,114 @@ Nu kun je het gedrag bekijken over meerdere waardes rond de **`d_true`** waarde.
 >- **M2.3h) Is de onzuiverheid altijd constant of varieert die afhankelijk van de halfwaardedikte?**\newline\newline
 >
 >- **M2.3i) In dit geval simuleren we het experiment. Zou je een methode kunnen bedenken om de onzuiverheid van je experiment te onderzoeken bij een echte meting?**
+
+# Opgaves bij Module 2
+Lees goed het [lijstje](/tussentoets-ii/inhoud) door ter voorbereiding voor de tussentoets. Niet voor alle element op het lijstje zijn oefenopgaves.
+
+**Let op:** Voor alle opgaven in dit vak geldt dat je bij het noteren van resultaten je moet houden aan de regels. Kijk hiervoor goed naar het stukje 'significantie en notatie' in het hoofdstuk [Notatie](/module-1/notatie).
+
+## Foutenpropagatie 
+
+**1.**
+Als $$y = 2 x + 0.6$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? \newline\newline
+***Antwoord:** $${\displaystyle \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{4 (\Delta x)^2}=2\Delta x}$$*\newline
+
+-----
+
+**2.**
+Als $$y = -3 x + 2  x^2$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? \newline\newline
+***Antwoord:** $${\displaystyle \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{(-3+4x)^2 (\Delta x)^2}= |{-3+4x}| \cdot \Delta x}.$$*\newline
+
+----
+
+**3.**
+Als $$y = \sin(x)$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? \newline\newline
+***Antwoord:** $${\displaystyle \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{(\cos x)^2 (\Delta x)^2}= \cos x \cdot \Delta x}.$$*\newline
+
+----
+**4.**
+Als $$y = \frac{1}{x^2}$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? \newline\newline
+***Antwoord:** $${\displaystyle \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{\left( -\frac{2}{x^3} \right)^2 (\Delta x)^2}= \frac{2}{x^3} \cdot \Delta x}.$$*\newline
+
+----
+**5.**
+Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$), wat is dan de fout op $$E$$? \newline\newline
+***Antwoord:** $${\displaystyle \Delta E = \sqrt{\left(\frac{\partial E}{\partial m}\right)^2 (\Delta m)^2 + \left(\frac{\partial E}{\partial c}\right)^2 (\Delta c)^2 } = \sqrt{(c)^2(\Delta m)^2 + (2mc)^2 (\Delta c)^2}}.$$*
+
+----
+**6.**
+Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$), wat is dan de fout op $$E$$?\newline\newline
+***Antwoord:** $${\displaystyle \Delta E = \sqrt{\left(\frac{\partial E}{\partial m}\right)^2 (\Delta m)^2 + \left(\frac{\partial E}{\partial c}\right)^2 (\Delta c)^2 } = \sqrt{(c)^2(\Delta m)^2 + (2mc)^2 (\Delta c)^2}}.$$*
+
+----
+**7.** 
+Stel je wil de kinetische energie berekenen van een object. De formule is $$E_k = 1/2 m \cdot v^2$$. Je meet de massa van het object, deze is $$m=2.3 \pm 0.2$$ kg. De snelheid is $$v=0.20 \pm 0.05$$ m/s. \newline
+Bereken de kinetische energie.\newline
+***Antwoord:** $$\displaystyle{E_k = 1/2 m \cdot v^2 = 0.046}$$ J\newline
+\begin{equation}\displaystyle{ \Delta E_k = \sqrt{\left(\frac{\partial E_k}{\partial m}\right)^2 \left( \Delta m\right)^2 + \left(\frac{\partial E_k}{\partial v}\right)^2 \left( \Delta v \right)^2} = \sqrt{\left( \frac{1}{2}v^2 \Delta m\right)^2 + \left( mv \Delta m \right)^2 } = 0.02}\end{equation}\newline
+\begin{equation}E_k =  0.046 \pm 0.02\end{equation} J*
+
+## De Wet van Grote aantallen
+
+**8.**
+We hebben een dataset met de gemeten massa van 80 kogels. Het gemiddelde van de massa-distributie is bepaald op 108.2 kg. De standaarddeviatie van de massa-distributie is 11.2 kg. Wat is de fout op het berekende gemiddelde?\newline
+***Antwoord:** De fout (onzekerheid) op het bepaalde gemiddelde is gelijk aan:\newline
+\begin{equation}{\displaystyle \Delta \mu = \frac{\sigma}{\sqrt{N}} = \frac{11.2}{\sqrt{80}}} \text{ kg} = 1.25\text{ kg}\end{equation}*
+
+-----
+**9.**
+We combineren onafhankelijke datasets waarbij de spanwijdte van koolmeesjes zijn gemeten. Dataset A heeft informatie over 1100 koolmeesjes met een gemiddelde spanwijdte van 13.4 cm met een standaarddeviatie van 2.0 cm. Dataset B heeft informatie over 2000 koolmeesjes met gemiddelde van 14.0 cm en een standaarddeviatie van 1.8 cm.\newline
+Wat is het gemiddelde van de gecombineerde dataset T?\newline
+***Antwoord:** $${\displaystyle \mu_A = \sum_a^{N_A=1100} \frac{x_a}{N_A} \text{ en } \mu_B = \sum_b^{N_B=2000} \frac{x_b}{N_B} \text{ ook geldt: }  \mu_T = \frac{\sum^{N_A} x_a + \sum^{N_B} x_b}{N_T}}$$\newline
+\begin{equation}{\displaystyle \mu_T =  \frac{N_A \cdot \mu_A + N_B \cdot \mu_B}{N_A + N_B}} = 13.8 \text{ kg}\end{equation}*\newline
+
+----
+**10.**
+Onder welke voorwaarde mogen we aannemen dat de onzekerheid op het berekende gemiddelde van een dataset kleiner wordt als we datapunten toevoegen?\newline
+***Antwoord:** Dat mogen we doen als voor de onderliggende verdeling van de dataset een goed gedefinieerde variantie bestaat.*
+
+---
+**11.**
+We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten. Het gemiddelde waarde van $$\mu = 22$$ met een standaarddeviatie van $$\sigma = 4 $$. \newline
+**a.** Wat is de onzekerheid op het gemiddelde van deze dataset?\newline
+***Antwoord:** De onzekerheid is: $$\sigma_\mu (=\Delta \mu)= \frac{\sigma}{\sqrt{N}} = 4/\sqrt{16} = 1 $$*\newline
+**b.** We voegen nog 9 extra waardes aan onze dataset toe. Wat is de onzekerheid op het gemiddelde nu?\newline
+***Antwoord:** De onzekerheid is: $$\sigma_\mu (=\Delta \mu)= \frac{\sigma}{\sqrt{N}} = 4/\sqrt{25} = 0.8 $$*\newline
+
+## Meerdimensionale data
+**12.**
+Je hebt de volgende dataset met waardes van x en y: \newline
+<center>{2,5}, {1,4}, {5,2}, {3,0} </center>\newline
+**a.** Bereken de covariantie.\newline
+***Antwoord:** $$<{x}>= (2+1+5+3)/4 = 2.75$$ \newline
+\begin{equation}<{y}>= (5+4+2+0)/4 = 2.75\end{equation}\newline
+\begin{equation}\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = \end{equation}\newline
+\begin{equation}\frac{1}{4}\times\left((2-2.75)\cdot(5-2.75) +(1-2.75)\cdot(4-2.75)+(5-2.75)\cdot(2-2.75) + (3-2.75)\cdot(0-2.75)\right) \end{equation} \newline
+\begin{equation} = -1.6\end{equation}*\newline
+**b.** Bereken de correlatie.\newline
+***Antwoord:** $$\sigma_x^2 = <{x^2}>-<{x}>^2 = (4+1+25+9)/4 - 2.75^2 = 2.1875$$ \newline
+\begin{equation}\sigma_y^2 = <{y^2}>-<{y}>^2 = (25+16+4+0)/4 - 2.75^2 = 3.6875\end{equation} \newline
+\begin{equation}\sigma_x = 1.48\end{equation}, $$\sigma_y = 1.48$$
+\begin{equation}\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{-1.56}{1.48\times 1.92} = -0.55\end{equation}*\newline
+
+---
+
+**13.**
+Je hebt de volgende dataset met waardes van x en y: \newline
+<center>{1,0}, {3,4}, {2,6}, {4,8} </center>\newline
+**a.** Bereken de covariantie.\newline
+***Antwoord:** $$<{x}>= 2.5$$ \newline
+\begin{equation}<{y}>= 4.5\end{equation}\newline
+\begin{equation}\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = 2.75\end{equation}\newline*\newline
+**b.** Bereken de correlatie.\newline
+***Antwoord:** $$\sigma_x^2 = <{x^2}>-<{x}>^2 = 1.118^2$$\newline
+\begin{equation}\sigma_y^2 = <{y^2}>-<{y}>^2 = 2.958^2\end{equation}\newline
+\begin{equation}\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{2.75}{1.118\times 2.958} = 0.83\end{equation}*\newline
+
+
+## Extra kansrekenregels 
+**14.** 
+Op een zomerse avond zie je rook en waar rook is is vuur. Op een zomerse avond is de kans dat je rook ziet (10%), meestal door gebruik van barbeques. Gevaarlijke branden zijn heel zeldzaam (1%) de kans dat rook bij een gevaarlijke brand vrijkomt is groot (90%). Wat is de kans dat de rook die je ziet van een een gevaarlijk brand afkomt?\newline
+
+***Antwoord:** Gebruik Bayes theorema om dit uit te rekenen.\newline
+\begin{equation}{\displaystyle \text{P(gevaarlijke brand|rook)} = \frac{\text{P(rook|gevaarlijke brand)}\cdot{\text{P(gevaarlijke brand)}}}{\text{P(rook)}} = \frac{0.9 \times 0.01}{0.10} = 0.09}\end{equation}\newline*

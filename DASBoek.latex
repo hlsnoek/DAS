@@ -51,6 +51,9 @@
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{listings}
 \newcommand{\passthrough}[1]{#1}
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -117,6 +120,27 @@
 \titleGM
 \tableofcontents\newpage
 
+
+\hypertarget{introductie-module-2}{%
+\section{Introductie module 2}\label{introductie-module-2}}
+
+Deze week verdiepen we ons in het concept meetonzekerheid. We leren hoe
+we \href{/module-2/foutenpropagatiei}{onzekerheden kunnen doorrekenen}
+in vergelijkingen. We zien hoe
+\href{/module-2/wet-van-grote-aantallen}{onzekerheden veranderen} als we
+meer meetpunten aan onze dataset toevoegen. We kijken ook naar relaties
+tussen onzekerheden in
+\href{/module-2/meerdimensionale-data}{meerdimensionale datasets}, en we
+introduceren de \href{/module-2/extra-kansrekenregels}{laatste kans
+rekenregels} die vooral voor multidimensionale data belangrijk is.
+
+We werken in de laptopcolleges aan de opdrachten van deze module
+\href{/opdrachten-module-2/opdrachten}{M2}. Je vindt in het
+\href{/informatie/inleveropdrachten}{schema} wanneer je aan welke
+opdrachten werkt en wanneer je deze moet inleveren. Vergeet ook niet te
+kijken naar het \href{/tussentoets-ii/inhoud}{oefenmateriaal} voor de
+tweede tussentoets. De tweede tussentoets volgt aan het einde van het
+derde hoorcollege.
 
 \hypertarget{foutenpropagatie}{%
 \chapter{Foutenpropagatie}\label{foutenpropagatie}}
@@ -819,11 +843,6 @@ kans.
 
 Bekijk ook even het kennisclipje over Extra Kansrekenregels op Canvas!
 
-Voorbeeld van gecorreleerde fouten.
-
-Je meet 1 lengte van een perfecte vierkant en rekent het oppervlakte
-uit. De formule voor het oppervlakte van een vierkant is A = l1*l2
-
 \hypertarget{opdrachten-module-2}{%
 \chapter{Opdrachten module 2}\label{opdrachten-module-2}}
 
@@ -963,9 +982,10 @@ meesjes.
 
 Voordat we aan deze opdracht beginnen moeten we eerst een nieuwe versie
 downloaden van de
-\href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/DAS_DatasetGenerator.py}{DAS\_DatasetGenerator.py}.
+\href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/DAS_DatasetGenerator.py}{\textbf{\passthrough{\lstinline!DAS\_DatasetGenerator.py!}}}.
 Zonder de nieuwe versie werkt deze opgave niet. Download ook het bestand
-\url{M2.2_Meesjes.py} en zorg dat deze in dezelfde folder staat als het
+\href{M2.2_Meesjes.py}{\textbf{\passthrough{\lstinline!M2.2\_Meesjes.py!}}}
+en zorg dat deze in dezelfde folder staat als het
 \passthrough{\lstinline!DAS\_DatasetGenerator.py!} bestand.
 
 We genereren eerst een twee datasets met behulp van de volgende regel
@@ -1312,5 +1332,177 @@ $\text{d}_{\text{half}}$.
   onderzoeken bij een echte meting?}
 \end{itemize}
 \end{example}
+
+\hypertarget{opgaves-bij-module-2}{%
+\chapter{Opgaves bij Module 2}\label{opgaves-bij-module-2}}
+
+Lees goed het \href{/tussentoets-ii/inhoud}{lijstje} door ter
+voorbereiding voor de tussentoets. Niet voor alle element op het lijstje
+zijn oefenopgaves.
+
+\textbf{Let op:} Voor alle opgaven in dit vak geldt dat je bij het
+noteren van resultaten je moet houden aan de regels. Kijk hiervoor goed
+naar het stukje `significantie en notatie' in het hoofdstuk
+\href{/module-1/notatie}{Notatie}.
+
+\hypertarget{foutenpropagatie-1}{%
+\section{Foutenpropagatie}\label{foutenpropagatie-1}}
+
+\textbf{1.} Als $y = 2 x + 0.6$ en de fout op $x$ is $\Delta x$,
+wat is dan de fout op $y$? \newline\newline \emph{\textbf{Antwoord:}
+${ \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{4 (\Delta x)^2}=2\Delta x}$}\newline
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\textbf{2.} Als $y = -3 x + 2  x^2$ en de fout op $x$ is
+$\Delta x$, wat is dan de fout op $y$? \newline\newline
+\emph{\textbf{Antwoord:}
+${ \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{(-3+4x)^2 (\Delta x)^2}= |{-3+4x}| \cdot \Delta x}.$}\newline
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\textbf{3.} Als $y = \sin(x)$ en de fout op $x$ is $\Delta x$, wat
+is dan de fout op $y$? \newline\newline \emph{\textbf{Antwoord:}
+${ \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{(\cos x)^2 (\Delta x)^2}= \cos x \cdot \Delta x}.$}\newline
+
+\begin{longtable}[]{@{}l@{}}
+\toprule
+\begin{minipage}[b]{0.07\columnwidth}\raggedright
+\textbf{4.} Als $y = \frac{1}{x^2}$ en de fout op $x$ is
+$\Delta x$, wat is dan de fout op $y$? \newline\newline
+\emph{\textbf{Antwoord:}
+${ \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{\left( -\frac{2}{x^3} \right)^2 (\Delta x)^2}= \frac{2}{x^3} \cdot \Delta x}.$}\newline\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.07\columnwidth}\raggedright
+\textbf{5.} Als $E = mc^2$ en de fouten op ($m$,$c$) zijn
+($\Delta m$,$\Delta c$), wat is dan de fout op $E$?
+
+${ \Delta E = \sqrt{\left(\frac{\partial E}{\partial m}\right)^2 (\Delta m)^2 + \left(\frac{\partial E}{\partial c}\right)^2 (\Delta c)^2 } = \sqrt{(c)^2(\Delta m)^2 + (2mc)^2 (\Delta c)^2}}.$}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\textbf{6.} Als $E = mc^2$ en de fouten op ($m$,$c$) zijn
+($\Delta m$,$\Delta c$), wat is dan de fout op
+$E$?\newline\newline \emph{\textbf{Antwoord:}
+${ \Delta E = \sqrt{\left(\frac{\partial E}{\partial m}\right)^2 (\Delta m)^2 + \left(\frac{\partial E}{\partial c}\right)^2 (\Delta c)^2 } = \sqrt{(c)^2(\Delta m)^2 + (2mc)^2 (\Delta c)^2}}.$}
+
+\begin{longtable}[]{@{}l@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{0.07\columnwidth}\raggedright
+\textbf{7.} Stel je wil de kinetische energie berekenen van een object.
+De formule is $E_k = 1/2 m \cdot v^2$. Je meet de massa van het
+object, deze is $m=2.3 \pm 0.2$ kg. De snelheid is $v=0.20 \pm 0.05$
+m/s. \newline Bereken de kinetische energie.\newline
+\emph{\textbf{Antwoord:}
+${E_k = 1/2 m \cdot v^2 = 0.046}$ J\newline
+\begin{equation}{ \Delta E_k = \sqrt{\left(\frac{\partial E_k}{\partial m}\right)^2 \left( \Delta m\right)^2 + \left(\frac{\partial E_k}{\partial v}\right)^2 \left( \Delta v \right)^2} = \sqrt{\left( \frac{1}{2}v^2 \Delta m\right)^2 + \left( mv \Delta m \right)^2 } = 0.02}\end{equation}\newline
+\begin{equation}E_k =  0.046 \pm 0.02\end{equation} J}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.07\columnwidth}\raggedright
+\#\# De Wet van Grote aantallen\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.07\columnwidth}\raggedright
+\textbf{8.} We hebben een dataset met de gemeten massa van 80 kogels.
+Het gemiddelde van de massa-distributie is bepaald op 108.2 kg. De
+standaarddeviatie van de massa-distributie is 11.2 kg. Wat is de fout op
+het berekende gemiddelde?\newline \emph{\textbf{Antwoord:} De fout
+(onzekerheid) op het bepaalde gemiddelde is gelijk aan:\newline
+\begin{equation}{ \Delta \mu = \frac{\sigma}{\sqrt{N}} = \frac{11.2}{\sqrt{80}}} \text{ kg} = 1.25\text{ kg}\end{equation}}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\textbf{9.} We combineren onafhankelijke datasets waarbij de spanwijdte
+van koolmeesjes zijn gemeten. Dataset A heeft informatie over 1100
+koolmeesjes met een gemiddelde spanwijdte van 13.4 cm met een
+standaarddeviatie van 2.0 cm. Dataset B heeft informatie over 2000
+koolmeesjes met gemiddelde van 14.0 cm en een standaarddeviatie van 1.8
+cm.\newline Wat is het gemiddelde van de gecombineerde dataset
+T?\newline \emph{\textbf{Antwoord:}
+${ \mu_A = \sum_a^{N_A=1100} \frac{x_a}{N_A} \text{ en } \mu_B = \sum_b^{N_B=2000} \frac{x_b}{N_B} \text{ ook geldt: }  \mu_T = \frac{\sum^{N_A} x_a + \sum^{N_B} x_b}{N_T}}$\newline
+\begin{equation}{ \mu_T =  \frac{N_A \cdot \mu_A + N_B \cdot \mu_B}{N_A + N_B}} = 13.8 \text{ kg}\end{equation}}\newline
+
+\begin{longtable}[]{@{}l@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{0.07\columnwidth}\raggedright
+\textbf{10.} Onder welke voorwaarde mogen we aannemen dat de onzekerheid
+op het berekende gemiddelde van een dataset kleiner wordt als we
+datapunten toevoegen?\newline \emph{\textbf{Antwoord:} Dat mogen we doen
+als voor de onderliggende verdeling van de dataset een goed
+gedefinieerde variantie bestaat.}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\textbf{11.} We hebben een dataset met metingen van een grootheid $x$
+met precies 16 punten. Het gemiddelde waarde van $\mu = 22$ met een
+standaarddeviatie van $\sigma = 4 $. \newline \textbf{a.} Wat is de
+onzekerheid op het gemiddelde van deze dataset?\newline
+\emph{\textbf{Antwoord:} De onzekerheid is:
+$\sigma_\mu (=\Delta \mu)= \frac{\sigma}{\sqrt{N}} = 4/\sqrt{16} = 1 $}\newline
+\textbf{b.} We voegen nog 9 extra waardes aan onze dataset toe. Wat is
+de onzekerheid op het gemiddelde nu?\newline \emph{\textbf{Antwoord:} De
+onzekerheid is:
+$\sigma_\mu (=\Delta \mu)= \frac{\sigma}{\sqrt{N}} = 4/\sqrt{25} = 0.8 $}\newline
+
+\hypertarget{meerdimensionale-data}{%
+\section{Meerdimensionale data}\label{meerdimensionale-data}}
+
+\textbf{12.} Je hebt de volgende dataset met waardes van x en y:
+
+
+\{2,5\}, \{1,4\}, \{5,2\}, \{3,0\}
+
+
+
+\textbf{a.} Bereken de covariantie.\newline \emph{\textbf{Antwoord:}
+$<{x}>= (2+1+5+3)/4 = 2.75$ \newline
+\begin{equation}<{y}>= (5+4+2+0)/4 = 2.75\end{equation}\newline
+\begin{equation}\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = \end{equation}\newline
+\begin{equation}\frac{1}{4}\times\left((2-2.75)\cdot(5-2.75) +(1-2.75)\cdot(4-2.75)+(5-2.75)\cdot(2-2.75) + (3-2.75)\cdot(0-2.75)\right) \end{equation}
+
+Bereken de correlatie.\newline \emph{\textbf{Antwoord:}
+$\sigma_x^2 = <{x^2}>-<{x}>^2 = (4+1+25+9)/4 - 2.75^2 = 2.1875$
+
+\begin{equation}\sigma_y^2 = <{y^2}>-<{y}>^2 = (25+16+4+0)/4 - 2.75^2 = 3.6875\end{equation}
+
+$\sigma_y = 1.48$
+\begin{equation}\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{-1.56}{1.48\times 1.92} = -0.55\end{equation}}\newline
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\textbf{13.} Je hebt de volgende dataset met waardes van x en y:
+
+
+\{1,0\}, \{3,4\}, \{2,6\}, \{4,8\}
+
+
+
+\textbf{a.} Bereken de covariantie.\newline \emph{\textbf{Antwoord:}
+$<{x}>= 2.5$ \newline \begin{equation}<{y}>= 4.5\end{equation}\newline
+\begin{equation}\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = 2.75\end{equation}\newline*\newline
+\textbf{b.} Bereken de correlatie.\newline }\textbf{Antwoord:}
+$\sigma_x^2 = <{x^2}>-<{x}>^2 = 1.118^2$\newline
+\begin{equation}\sigma_y^2 = <{y^2}>-<{y}>^2 = 2.958^2\end{equation}\newline
+\begin{equation}\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{2.75}{1.118\times 2.958} = 0.83\end{equation}*\newline
+
+\hypertarget{extra-kansrekenregels}{%
+\section{Extra kansrekenregels}\label{extra-kansrekenregels}}
+
+\textbf{14.} Op een zomerse avond zie je rook en waar rook is is vuur.
+Op een zomerse avond is de kans dat je rook ziet (10\%), meestal door
+gebruik van barbeques. Gevaarlijke branden zijn heel zeldzaam (1\%) de
+kans dat rook bij een gevaarlijke brand vrijkomt is groot (90\%). Wat is
+de kans dat de rook die je ziet van een een gevaarlijk brand
+afkomt?\newline
+
+*\textbf{Antwoord:} Gebruik Bayes theorema om dit uit te
+rekenen.\newline
+\begin{equation}{ \text{P(gevaarlijke brand|rook)} = \frac{\text{P(rook|gevaarlijke brand)}\cdot{\text{P(gevaarlijke brand)}}}{\text{P(rook)}} = \frac{0.9 \times 0.01}{0.10} = 0.09}\end{equation}\newline*
 
 \end{document}
