@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/MacPorts 2019.50896_2) (preloaded format=pdflatex 2019.8.6)  30 JAN 2021 10:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/MacPorts 2019.50896_2) (preloaded format=pdflatex 2019.8.6)  30 JAN 2021 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,108 +1013,58 @@ File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
 Package: listings 2019/02/27 1.8b (Carsten Heinz)
 
-(/opt/local/share/texmf-texlive/tex/latex/tools/longtable.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip54
-\LTright=\skip55
-\LTpre=\skip56
-\LTpost=\skip57
-\LTchunksize=\count306
-\LTcapwidth=\dimen261
-\LT@head=\box73
-\LT@firsthead=\box74
-\LT@foot=\box75
-\LT@lastfoot=\box76
-\LT@cols=\count307
-\LT@rows=\count308
-\c@LT@tables=\count309
-\c@LT@chunks=\count310
-\LT@p@ftn=\toks40
-)
-(/opt/local/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen262
-\lightrulewidth=\dimen263
-\cmidrulewidth=\dimen264
-\belowrulesep=\dimen265
-\belowbottomsep=\dimen266
-\aboverulesep=\dimen267
-\abovetopsep=\dimen268
-\cmidrulesep=\dimen269
-\cmidrulekern=\dimen270
-\defaultaddspace=\dimen271
-\@cmidla=\count311
-\@cmidlb=\count312
-\@aboverulesep=\dimen272
-\@belowrulesep=\dimen273
-\@thisruleclass=\count313
-\@lastruleclass=\count314
-\@thisrulewidth=\dimen274
-)
-(/opt/local/share/texmf-texlive/tex/latex/mdwtools/footnote.sty
-Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box77
-\fn@width=\dimen275
-)
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/grffile.sty
-Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
-Package grffile Info: Option `multidot' is set to `true'.
-Package grffile Info: Option `extendedchars' is set to `false'.
-Package grffile Info: Option `space' is set to `true'.
-Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
-)
 (/opt/local/share/texmf-texlive/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/02/04 v3.8 Customized lists
-\labelindent=\skip58
-\enit@outerparindent=\dimen276
-\enit@toks=\toks41
-\enit@inbox=\box78
-\enit@count@id=\count315
-\enitdp@description=\count316
+\labelindent=\skip54
+\enit@outerparindent=\dimen261
+\enit@toks=\toks40
+\enit@inbox=\box73
+\enit@count@id=\count306
+\enitdp@description=\count307
 ) (./DASBoek.aux)
 \openout1 = `DASBoek.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 119.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 119.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 107.
 
  (/opt/local/share/texmf-texlive/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 119.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 107.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/opt/local/share/texmf-texlive/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen277
-\scratchbox=\box79
-\nofMPsegments=\count318
-\nofMParguments=\count319
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen278
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count308
+\scratchdimen=\dimen262
+\scratchbox=\box74
+\nofMPsegments=\count309
+\nofMParguments=\count310
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count311
+\MPscratchDim=\dimen263
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
+\everyMPtoPDFconversion=\toks42
 ) (/opt/local/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1133,7 +1083,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \microtypecontext on input line 119.
+LaTeX Info: Redefining \microtypecontext on input line 107.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -1148,8 +1098,8 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-\AtBeginShipoutBox=\box80
-Package hyperref Info: Link coloring OFF on input line 119.
+\AtBeginShipoutBox=\box75
+Package hyperref Info: Link coloring OFF on input line 107.
 
 (/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1157,57 +1107,49 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/opt/local/share/texmf-texlive/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count323
+\c@section@level=\count314
 )
-LaTeX Info: Redefining \ref on input line 119.
-LaTeX Info: Redefining \pageref on input line 119.
-LaTeX Info: Redefining \nameref on input line 119.
+LaTeX Info: Redefining \ref on input line 107.
+LaTeX Info: Redefining \pageref on input line 107.
+LaTeX Info: Redefining \nameref on input line 107.
 
 (./DASBoek.out) (./DASBoek.out)
 \@outlinefile=\write7
 \openout7 = `DASBoek.out'.
 
-\c@lstlisting=\count324
+\c@lstlisting=\count315
  [1{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2
 
-] (./DASBoek.toc)
-\tf@toc=\write8
-\openout8 = `DASBoek.toc'.
-
- [3] [4]
-Hoofdstuk 1.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 156.
+] (./DASBoek.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 1.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 156.
-
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 1.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 156
-.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 1.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 156
-.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 1.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 156.
+(Font)              <10.95> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 156.
+(Font)              <8> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 156.
-LaTeX Font Info:    Try loading font information for U+msa on input line 156.
+(Font)              <6> on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
 (/opt/local/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1215,1117 +1157,172 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/opt/local/share/texmf-texlive/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 156.
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 (/opt/local/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/opt/local/share/texmf-texlive/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+))
+\tf@toc=\write8
+\openout8 = `DASBoek.toc'.
+
+ [3]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 125.
+
+
+(/opt/local/share/texmf-texlive/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 179.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 125.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 160.
 
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [5
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 217--220
+)
+Underfull \hbox (badness 10000) in paragraph at lines 165--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--228
-
- []
-
-<Figures/Foutenpropagatie_const.png, id=141, 433.62pt x 433.62pt>
-File: Figures/Foutenpropagatie_const.png Graphic file (type png)
-<use Figures/Foutenpropagatie_const.png>
-Package pdftex.def Info: Figures/Foutenpropagatie_const.png  used on input line
- 232.
-(pdftex.def)             Requested size: 213.39536pt x 213.39536pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--246
-
- []
-
-<Figures/Foutenpropagatie_trans.png, id=143, 433.62pt x 433.62pt>
-File: Figures/Foutenpropagatie_trans.png Graphic file (type png)
-<use Figures/Foutenpropagatie_trans.png>
-Package pdftex.def Info: Figures/Foutenpropagatie_trans.png  used on input line
- 250.
-(pdftex.def)             Requested size: 213.39536pt x 213.39536pt.
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 256--266
-
- []
-
-[7 <./Figures/Foutenpropagatie_const.png> <./Figures/Foutenpropagatie_trans.png
->]
-<Figures/Foutenpropagatie_cube.png, id=160, 433.62pt x 433.62pt>
-File: Figures/Foutenpropagatie_cube.png Graphic file (type png)
-<use Figures/Foutenpropagatie_cube.png>
-Package pdftex.def Info: Figures/Foutenpropagatie_cube.png  used on input line 
-270.
-(pdftex.def)             Requested size: 213.39536pt x 213.39536pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--286
-
- []
-
-<Figures/Foutenpropagatie_func.png, id=161, 433.62pt x 433.62pt>
-File: Figures/Foutenpropagatie_func.png Graphic file (type png)
-<use Figures/Foutenpropagatie_func.png>
-Package pdftex.def Info: Figures/Foutenpropagatie_func.png  used on input line 
-290.
-(pdftex.def)             Requested size: 213.39536pt x 213.39536pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 4505) has occurred while \output is active []
-
- [8 <./Figures/Foutenpropagatie_cube.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 327--329
-
- []
-
-[9 <./Figures/Foutenpropagatie_func.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
-
- []
-
-[10]
-Hoofdstuk 2.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 406.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 406.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 406.
-[11
-
-] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 490--494
-
- []
-
-<Figures/CauchyDistributie.png, id=210, 462.528pt x 346.896pt>
-File: Figures/CauchyDistributie.png Graphic file (type png)
-<use Figures/CauchyDistributie.png>
-Package pdftex.def Info: Figures/CauchyDistributie.png  used on input line 520.
-
-(pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13] [14 <./Figures/CauchyDistributie.png>]
-Hoofdstuk 3.
-[15
-
-] [16]
-<Figures/Plot1_Correlatie_0.png, id=241, 389.455pt x 266.9975pt>
-File: Figures/Plot1_Correlatie_0.png Graphic file (type png)
-<use Figures/Plot1_Correlatie_0.png>
-Package pdftex.def Info: Figures/Plot1_Correlatie_0.png  used on input line 638
-.
-(pdftex.def)             Requested size: 256.08432pt x 175.56296pt.
-<Figures/Plot1_Correlatie1.png, id=242, 389.455pt x 266.9975pt>
-File: Figures/Plot1_Correlatie1.png Graphic file (type png)
-<use Figures/Plot1_Correlatie1.png>
-Package pdftex.def Info: Figures/Plot1_Correlatie1.png  used on input line 645.
-
-(pdftex.def)             Requested size: 256.08432pt x 175.56296pt.
-<Figures/Plot1_Correlatie_min1.png, id=243, 389.455pt x 266.9975pt>
-File: Figures/Plot1_Correlatie_min1.png Graphic file (type png)
-<use Figures/Plot1_Correlatie_min1.png>
-Package pdftex.def Info: Figures/Plot1_Correlatie_min1.png  used on input line 
-652.
-(pdftex.def)             Requested size: 256.08432pt x 175.56296pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/Plot1_Correlatie_min0punt8.png, id=244, 389.455pt x 266.9975pt>
-File: Figures/Plot1_Correlatie_min0punt8.png Graphic file (type png)
-<use Figures/Plot1_Correlatie_min0punt8.png>
-Package pdftex.def Info: Figures/Plot1_Correlatie_min0punt8.png  used on input 
-line 660.
-(pdftex.def)             Requested size: 213.39272pt x 146.295pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/Plot1_Correlatie_min0punt3.png, id=245, 389.455pt x 266.9975pt>
-File: Figures/Plot1_Correlatie_min0punt3.png Graphic file (type png)
-<use Figures/Plot1_Correlatie_min0punt3.png>
-Package pdftex.def Info: Figures/Plot1_Correlatie_min0punt3.png  used on input 
-line 668.
-(pdftex.def)             Requested size: 213.39272pt x 146.295pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17 <./Figures/Plot1_Correlatie_0.png> <./Figures/Plot1_Correlatie1.png>]
-Underfull \vbox (badness 4001) has occurred while \output is active []
-
- [18 <./Figures/Plot1_Correlatie_min1.png> <./Figures/Plot1_Correlatie_min0punt
-8.png> <./Figures/Plot1_Correlatie_min0punt3.png>] [19] [20
-
-]
-Hoofdstuk 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 734--738
+Underfull \hbox (badness 10000) in paragraph at lines 165--170
 
  []
 
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 749.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 751--752
+Underfull \hbox (badness 10000) in paragraph at lines 165--170
 
  []
 
-[21]
-<Figures/180px-Venn0001.svg.png, id=278, 180.675pt x 131.49126pt>
-File: Figures/180px-Venn0001.svg.png Graphic file (type png)
-<use Figures/180px-Venn0001.svg.png>
-Package pdftex.def Info: Figures/180px-Venn0001.svg.png  used on input line 773
-.
-(pdftex.def)             Requested size: 180.68282pt x 131.49693pt.
-<Figures/180px-Venn0111.svg.png, id=279, 180.675pt x 131.49126pt>
-File: Figures/180px-Venn0111.svg.png Graphic file (type png)
-<use Figures/180px-Venn0111.svg.png>
-Package pdftex.def Info: Figures/180px-Venn0111.svg.png  used on input line 782
-.
-(pdftex.def)             Requested size: 180.68282pt x 131.49693pt.
-<Figures/180px-Venn1010.svg.png, id=280, 180.675pt x 131.49126pt>
-File: Figures/180px-Venn1010.svg.png Graphic file (type png)
-<use Figures/180px-Venn1010.svg.png>
-Package pdftex.def Info: Figures/180px-Venn1010.svg.png  used on input line 789
-.
-(pdftex.def)             Requested size: 180.68282pt x 131.49693pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[22 <./Figures/180px-Venn0001.svg.png> <./Figures/180px-Venn0111.svg.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 806--807
-
- []
-
-[23 <./Figures/180px-Venn1010.svg.png>] [24
-
-]
-Hoofdstuk 5.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 906.
-
-(/opt/local/share/texmf-texlive/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [25]
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 911.
-
-Underfull \hbox (badness 10000) in paragraph at lines 920--922
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 920--922
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 936--938
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 936--938
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 959--961
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 959--961
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 962--964
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 962--964
-
- []
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1030
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1030
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1030
-
- []
-
-[27]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
+[4]
+! Missing number, treated as zero.
+<to be read again> 
+                   e
+l.209 ...{\text{obs}} \mid \text{pimpelmees} )$. }
                                                   
 ? q
 OK, entering \batchmode...
-! Double subscript.
-<argument> mees_m_
-                  hoog < m < mees_m_laag
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> mees_m_hoog < m < mees_m_
-                                    laag
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...e {\textdef@ \displaystyle \f@size {#1}}
-                                                  {\textdef@ \textstyle \f@s...
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
+l.209 ...{\text{obs}} \mid \text{pimpelmees} )$. }
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Double subscript.
-<argument> \firstchoice@false mees_m_
-                                     hoog < m < mees_m_laag
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
 
-! Double subscript.
-<argument> ...oice@false mees_m_hoog < m < mees_m_
-                                                  laag
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
+! LaTeX Error: \verb illegal in command argument.
 
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+l.209 ...{\text{obs}} \mid \text{pimpelmees} )$. }
                                                   
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...xtstyle \f@size {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \sf@...
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
+l.209 ...{\text{obs}} \mid \text{pimpelmees} )$. }
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Double subscript.
-<argument> \firstchoice@false mees_m_
-                                     hoog < m < mees_m_laag
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
 
-! Double subscript.
-<argument> ...oice@false mees_m_hoog < m < mees_m_
-                                                  laag
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...tstyle \sf@size {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \ssf...
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Double subscript.
-<argument> \firstchoice@false mees_m_
-                                     hoog < m < mees_m_laag
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...oice@false mees_m_hoog < m < mees_m_
-                                                  laag
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...style \ssf@size {\firstchoice@false #1}}
-                                                  \check@mathfonts }
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...firstchoice@false #1}}\check@mathfonts }
-                                                  
-l.1071 ...{\text{obs}} \mid \text{pimpelmees} )$.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   \endgroup 
-l.1075 \end{itemize}
-                    
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   \endgroup 
-l.1075 \end{itemize}
-                    
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   \endgroup 
-l.1075 \end{itemize}
-                    
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1075 \end{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
- [28]
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1112
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1112
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 112
-8.
+ [5]
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 266
+.
  (/opt/local/share/texmf-texlive/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TS1/lmtt/bx/n' in size <9> not available
-(Font)              Font shape `TS1/lmtt/b/n' tried instead on input line 1128.
+(Font)              Font shape `TS1/lmtt/b/n' tried instead on input line 266.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1146
+Underfull \hbox (badness 10000) in paragraph at lines 282--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1149--1150
+Underfull \hbox (badness 10000) in paragraph at lines 282--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1149--1150
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 1162--1164
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 300--302
 []\T1/lmr/bx/n/10.95 M2.2k) Com-bi-neer nu de gegevens en bereken de kansen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1162--1164
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1162--1164
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
 
  []
 
- [29] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 1245--1251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1245--1251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1252--1254
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1252--1254
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1255--1257
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1255--1257
-
- []
-
- [31]
-Underfull \hbox (badness 10000) in paragraph at lines 1298--1304
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1298--1304
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1328
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1328
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1331
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1331
-
- []
-
- [32]
-Hoofdstuk 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1355
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1355
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1358--1362
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1358--1362
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1365--1368
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1365--1368
-
- []
-
-
-Overfull \hbox (26.20888pt too wide) in paragraph at lines 1372--1376
-\T1/lmr/bx/it/10.95 Antwoord: 
- []
-
-
-Overfull \hbox (211.92456pt too wide) in paragraph at lines 1372--1376
-[]\OML/lmm/m/it/10.95 :$  
- []
-
-
-Overfull \hbox (13.86363pt too wide) in paragraph at lines 1380--1382
-\T1/lmr/m/n/10.95 (-20) ($\OT1/lmr/m/n/10.95 (-20) ^^A\OML/lmm/m/it/10.95 m$\T1
-/lmr/m/n/10.95 (-20) ,$\OT1/lmr/m/n/10.95 (-20) ^^A\OML/lmm/m/it/10.95 c$\T1/lm
-r/m/n/10.95 (-20) ), 
- []
-
-! Extra }, or forgotten \endgroup.
-l.1383 ...(\Delta m)^2 + (2mc)^2 (\Delta c)^2}}.$}
-                                                  \strut
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Overfull \hbox (301.36827pt too wide) in paragraph at lines 1383--1384
-[]$[]\OML/lmm/m/it/10.95 :$|  
- []
-
- [33
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1388--1392
-
- []
-
-
-Overfull \hbox (2.63237pt too wide) in paragraph at lines 1397--1404
-\T1/lmr/m/n/10.95 (-20) kinetis- 
- []
-
-
-Overfull \hbox (2.0064pt too wide) in paragraph at lines 1397--1404
-\T1/lmr/m/n/10.95 (-20) bereke- 
- []
-
-
-Overfull \hbox (7.55463pt too wide) in paragraph at lines 1397--1404
-\T1/lmr/m/n/10.95 (-20) Bereken 
- []
-
-
-Overfull \hbox (2.63237pt too wide) in paragraph at lines 1397--1404
-\T1/lmr/m/n/10.95 (-20) kinetis- 
- []
-
-
-Overfull \hbox (26.20888pt too wide) in paragraph at lines 1397--1404
-\T1/lmr/bx/it/10.95 Antwoord: 
- []
-
-
-Overfull \hbox (81.60986pt too wide) in paragraph at lines 1397--1404
-[]$ 
- []
-
-
-Overfull \hbox (353.13974pt too wide) detected at line 1404
-[][]
- []
-
-
-Overfull \hbox (50.86876pt too wide) detected at line 1404
-[]\OML/lmm/m/it/10.95 E[] \OT1/lmr/m/n/10.95 = 0\OML/lmm/m/it/10.95 :\OT1/lmr/m
-/n/10.95 046 \OMS/lmsy/m/n/10.95 ^^F \OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\
-OT1/lmr/m/n/10.95 02
- []
-
-
-Overfull \hbox (12.74126pt too wide) in paragraph at lines 1407--1408
-\T1/lmr/m/n/10.95 (-20) aantallen|  
- []
-
-
-Overfull \hbox (3.81082pt too wide) in paragraph at lines 1410--1415
-\T1/lmr/m/n/10.95 (-20) hebben 
- []
-
-
-Overfull \hbox (3.8672pt too wide) in paragraph at lines 1410--1415
-\T1/lmr/m/n/10.95 (-20) dataset 
- []
-
-
-Overfull \hbox (18.50044pt too wide) in paragraph at lines 1410--1415
-\T1/lmr/m/n/10.95 (-20) distributie 
- []
-
-
-Overfull \hbox (6.79163pt too wide) in paragraph at lines 1410--1415
-\T1/lmr/m/n/10.95 (-20) bepaald 
- []
-
-
-Overfull \hbox (18.50044pt too wide) in paragraph at lines 1410--1415
-\T1/lmr/m/n/10.95 (-20) distributie 
- []
-
-
-Overfull \hbox (26.20888pt too wide) in paragraph at lines 1410--1415
-\T1/lmr/bx/it/10.95 Antwoord: 
- []
-
-
-Overfull \hbox (1.60815pt too wide) in paragraph at lines 1410--1415
-\T1/lmr/m/it/10.95 (-20) (onzek- 
- []
-
-
-Overfull \hbox (7.62976pt too wide) in paragraph at lines 1410--1415
-\T1/lmr/m/it/10.95 (-20) bepaalde 
- []
-
-
-Overfull \hbox (121.0862pt too wide) detected at line 1415
-[][][] \OT1/lmr/m/n/10.95 = 1\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 25[]
- []
-
- [34] [35] [36] [37]
-Underfull \hbox (badness 10000) in paragraph at lines 1420--1428
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1428--1429
-
- []
-
-
-Overfull \hbox (2.83798pt too wide) in paragraph at lines 1434--1439
-\T1/lmr/m/n/10.95 (-20) waarde 
- []
-
-
-Overfull \hbox (0.52559pt too wide) in paragraph at lines 1434--1439
-\T1/lmr/m/n/10.95 (-20) nemen 
- []
-
-
-Overfull \hbox (3.8672pt too wide) in paragraph at lines 1434--1439
-\T1/lmr/m/n/10.95 (-20) dataset 
- []
-
-
-Overfull \hbox (1.23128pt too wide) in paragraph at lines 1434--1439
-\T1/lmr/m/n/10.95 (-20) kleiner 
- []
-
-
-Overfull \hbox (26.20888pt too wide) in paragraph at lines 1434--1439
-\T1/lmr/bx/it/10.95 Antwoord: 
- []
-
-
-Overfull \hbox (21.5235pt too wide) in paragraph at lines 1434--1439
-\T1/lmr/m/it/10.95 (-20) derliggende 
- []
-
-
-Overfull \hbox (2.22372pt too wide) in paragraph at lines 1434--1439
-\T1/lmr/m/it/10.95 (-20) dataset 
- []
-
-
-Overfull \hbox (28.14975pt too wide) in paragraph at lines 1434--1439
-\T1/lmr/m/it/10.95 (-20) gedefinieerde 
- []
-
-
-Overfull \hbox (4.35059pt too wide) in paragraph at lines 1434--1439
-\T1/lmr/m/it/10.95 (-20) bestaat.|  
- []
-
- [38] [39]
-Underfull \hbox (badness 10000) in paragraph at lines 1443--1453
-
- []
-
-)
-Runaway argument?
-{\textbf {Antwoord:} $<{x}>= (2+1+5+3)/4 = 2.75$ \newline \begin {equ\ETC.
-! File ended while scanning use of \emph .
-<inserted text> 
-                \par 
-<*> DASBoek.latex
-                 
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-! Emergency stop.
-<*> DASBoek.latex
-                 
-*** (job aborted, no legal \end found)
-
- 
+ [6] [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 330.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
+ (./DASBoek.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 330.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 330.
+Package rerunfilecheck Info: File `DASBoek.out' has not changed.
+(rerunfilecheck)             Checksum: F4D4C83502F40E1D839F7DB22566E13A;136.
+ ) 
 Here is how much of TeX's memory you used:
- 37622 strings out of 493731
- 706514 string characters out of 6152121
- 875102 words of memory out of 5000000
- 40614 multiletter control sequences out of 15000+600000
- 643343 words of font info for 158 fonts, out of 8000000 for 9000
+ 36962 strings out of 493731
+ 695756 string characters out of 6152121
+ 863328 words of memory out of 5000000
+ 40196 multiletter control sequences out of 15000+600000
+ 590390 words of font info for 76 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 54i,19n,83p,837b,1598s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 54i,7n,83p,837b,1599s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-ec.enc}{/opt/local/shar
+e/texmf-texlive/fonts/enc/dvips/lm/lm-ts1.enc}{/opt/local/share/texmf-texlive/f
+onts/enc/dvips/lm/lm-mathsy.enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips
+/lm/lm-mathit.enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-rm.enc}
+</opt/local/share/texmf-texlive/fonts/type1/public/lm/lmbx10.pfb></opt/local/sh
+are/texmf-texlive/fonts/type1/public/lm/lmbx12.pfb></opt/local/share/texmf-texl
+ive/fonts/type1/public/lm/lmbx8.pfb></opt/local/share/texmf-texlive/fonts/type1
+/public/lm/lmcsc10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lm
+mi10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmmi8.pfb></opt/
+local/share/texmf-texlive/fonts/type1/public/lm/lmr10.pfb></opt/local/share/tex
+mf-texlive/fonts/type1/public/lm/lmr6.pfb></opt/local/share/texmf-texlive/fonts
+/type1/public/lm/lmr8.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm
+/lmro10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmsy10.pfb></
+opt/local/share/texmf-texlive/fonts/type1/public/lm/lmtk10.pfb></opt/local/shar
+e/texmf-texlive/fonts/type1/public/lm/lmtt10.pfb></opt/local/share/texmf-texliv
+e/fonts/type1/public/lm/lmtt9.pfb>
+Output written on DASBoek.pdf (7 pages, 278716 bytes).
+PDF statistics:
+ 135 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 8213 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -204,7 +204,7 @@ uitrekenen dat onze mees een Koolmeesje is.
   die in het gebied \passthrough{\lstinline!mees\_m\_laag!} en
   \passthrough{\lstinline!mees\_m\_hoog!} in ligt. Dit noem je ook wel
   de voorwaardelijke kans
-  $P(\verb{test_m})$
+  $P({test_m})$
   pimpelmeesje, bereken dus ook
   $P(m_{\text{obs}} \mid \text{pimpelmees} )$. }
 \item

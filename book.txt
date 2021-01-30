@@ -16,16 +16,16 @@
 #12 Opdrachten Module 1/50 Halfwaardedikte/Halfwaardedikte.md		
 #14 Tussentoets I/30 Antwoorden/Antwoorden.md				
 
-20 Module 2/00 Introductie/Introductie.md				
-20 Module 2/02 FoutenpropagatieI/Foutenpropagatie.md			
-20 Module 2/03 Wet van Grote Aantallen/Wet van Grote Aantallen.md	
-20 Module 2/04 Meerdimensionale data/Theorie 2D datasets.md		
-20 Module 2/05 Extra Kansrekenregels/Kansrekenen-ii.md			
-22 Opdrachten Module 2/00 Opdrachten/Opdrachten.md		   
-22 Opdrachten Module 2/10 GroteAantallen/GroteAantallen.md	   
+#20 Module 2/00 Introductie/Introductie.md				
+#20 Module 2/02 FoutenpropagatieI/Foutenpropagatie.md			
+#20 Module 2/03 Wet van Grote Aantallen/Wet van Grote Aantallen.md	
+#20 Module 2/04 Meerdimensionale data/Theorie 2D datasets.md		
+#20 Module 2/05 Extra Kansrekenregels/Kansrekenen-ii.md			
+#22 Opdrachten Module 2/00 Opdrachten/Opdrachten.md		   
+#22 Opdrachten Module 2/10 GroteAantallen/GroteAantallen.md	   
 22 Opdrachten Module 2/20 Meesjes/Meesjes.md			   
-22 Opdrachten Module 2/30 HalfwaardedikteII/HalfwaardedikteII.md   
-24 Tussentoets II/30 AntwoordenII/Antwoorden.md			   
+#22 Opdrachten Module 2/30 HalfwaardedikteII/HalfwaardedikteII.md   
+#24 Tussentoets II/30 AntwoordenII/Antwoorden.md			   
 
 #30 Module 3/00 Introductie/Introductie.md			   
 #30 Module 3/02 De Centrale Limietstelling/CLT.md		   
