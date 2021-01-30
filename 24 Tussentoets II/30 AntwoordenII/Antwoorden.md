@@ -1,9 +1,9 @@
-# Oefenopgaves als voorbereiding voor tussentoets 2
+# Opgaves bij Module 2
 Lees goed het [lijstje](/tussentoets-ii/inhoud) door ter voorbereiding voor de tussentoets. Niet voor alle element op het lijstje zijn oefenopgaves.
 
 **Let op:** Voor alle opgaven in dit vak geldt dat je bij het noteren van resultaten je moet houden aan de regels. Kijk hiervoor goed naar het stukje 'significantie en notatie' in het hoofdstuk [Notatie](/module-1/notatie).
 
-### Foutenpropagatie 
+## Foutenpropagatie 
 
 **1.**
 Als $$y = 2 x + 0.6$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
@@ -44,7 +44,7 @@ Bereken de kinetische energie.<br>
 $$\displaystyle{ \Delta E_k = \sqrt{\left(\frac{\partial E_k}{\partial m}\right)^2 \left( \Delta m\right)^2 + \left(\frac{\partial E_k}{\partial v}\right)^2 \left( \Delta v \right)^2} = \sqrt{\left( \frac{1}{2}v^2 \Delta m\right)^2 + \left( mv \Delta m \right)^2 } = 0.02}$$<br>
 $$E_k =  0.046 \pm 0.02$$ J</span>
 
-### De Wet van Grote aantallen
+## De Wet van Grote aantallen
 
 **8.**
 We hebben een dataset met de gemeten massa van 80 kogels. Het gemiddelde van de massa-distributie is bepaald op 108.2 kg. De standaarddeviatie van de massa-distributie is 11.2 kg. Wat is de fout op het berekende gemiddelde?<br>
@@ -71,7 +71,7 @@ We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten
 **b.** We voegen nog 9 extra waardes aan onze dataset toe. Wat is de onzekerheid op het gemiddelde nu?<br>
 <span style = 'color:blue'>De onzekerheid is: $$\sigma_\mu (=\Delta \mu)= \frac{\sigma}{\sqrt{N}} = 4/\sqrt{25} = 0.8 $$</span><br>
 
-### Meerdimensionale data
+## Meerdimensionale data
 **12.**
 Je hebt de volgende dataset met waardes van x en y: <br>
 <center>{2,5}, {1,4}, {5,2}, {3,0} </center><br>
@@ -102,7 +102,7 @@ $$\sigma_y^2 = <{y^2}>-<{y}>^2 = 2.958^2$$<br>
 $$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{2.75}{1.118\times 2.958} = 0.83$$</span><br>
 
 
-### Extra kansrekenregels 
+## Extra kansrekenregels 
 **14.** 
 Op een zomerse avond zie je rook en waar rook is is vuur. Op een zomerse avond is de kans dat je rook ziet (10%), meestal door gebruik van barbeques. Gevaarlijke branden zijn heel zeldzaam (1%) de kans dat rook bij een gevaarlijke brand vrijkomt is groot (90%). Wat is de kans dat de rook die je ziet van een een gevaarlijk brand afkomt?<br>
 

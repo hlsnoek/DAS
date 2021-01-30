@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/MacPorts 2019.50896_2) (preloaded format=pdflatex 2019.8.6)  29 JAN 2021 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/MacPorts 2019.50896_2) (preloaded format=pdflatex 2019.8.6)  30 JAN 2021 09:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1175,302 +1175,889 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \tf@toc=\write8
 \openout8 = `DASBoek.toc'.
 
- [3] [4]
-Hoofdstuk 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--165
-
- []
-
-[5
+ [3] [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+Hoofdstuk 1.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 155.
+
+(/opt/local/share/texmf-texlive/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [5]
+Underfull \hbox (badness 10000) in paragraph at lines 193--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 196--204
 
  []
 
+<Figures/Foutenpropagatie_const.png, id=141, 433.62pt x 433.62pt>
+File: Figures/Foutenpropagatie_const.png Graphic file (type png)
+<use Figures/Foutenpropagatie_const.png>
+Package pdftex.def Info: Figures/Foutenpropagatie_const.png  used on input line
+ 208.
+(pdftex.def)             Requested size: 213.39536pt x 213.39536pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--222
 
  []
 
+<Figures/Foutenpropagatie_trans.png, id=143, 433.62pt x 433.62pt>
+File: Figures/Foutenpropagatie_trans.png Graphic file (type png)
+<use Figures/Foutenpropagatie_trans.png>
+Package pdftex.def Info: Figures/Foutenpropagatie_trans.png  used on input line
+ 226.
+(pdftex.def)             Requested size: 213.39536pt x 213.39536pt.
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 229--237
+Underfull \hbox (badness 10000) in paragraph at lines 232--242
 
  []
 
+[7 <./Figures/Foutenpropagatie_const.png> <./Figures/Foutenpropagatie_trans.png
+>]
+<Figures/Foutenpropagatie_cube.png, id=159, 433.62pt x 433.62pt>
+File: Figures/Foutenpropagatie_cube.png Graphic file (type png)
+<use Figures/Foutenpropagatie_cube.png>
+Package pdftex.def Info: Figures/Foutenpropagatie_cube.png  used on input line 
+246.
+(pdftex.def)             Requested size: 213.39536pt x 213.39536pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--237
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--243
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--243
+Underfull \hbox (badness 10000) in paragraph at lines 252--262
 
  []
 
+<Figures/Foutenpropagatie_func.png, id=160, 433.62pt x 433.62pt>
+File: Figures/Foutenpropagatie_func.png Graphic file (type png)
+<use Figures/Foutenpropagatie_func.png>
+Package pdftex.def Info: Figures/Foutenpropagatie_func.png  used on input line 
+266.
+(pdftex.def)             Requested size: 213.39536pt x 213.39536pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--255
-
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 244--255
-\T1/lmr/m/n/10.95 (+20) Het li-jkt nu toch een stuk min-der waarschi-jn-lijk da
-t Onana zal win-nen.
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4505) has occurred while \output is active []
 
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 272--275
+ [8 <./Figures/Foutenpropagatie_cube.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 303--305
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--277
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--279
+[9 <./Figures/Foutenpropagatie_func.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 286--289
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--295
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 301--306
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--332
-
- []
-
-[9] [10]
+[10]
 Hoofdstuk 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 369--379
-
- []
-
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 382.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 382.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 382.
 [11
 
-]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 411.
-
- (/opt/local/share/texmf-texlive/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 411--414
+] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 466--470
 
  []
 
+<Figures/CauchyDistributie.png, id=209, 462.528pt x 346.896pt>
+File: Figures/CauchyDistributie.png Graphic file (type png)
+<use Figures/CauchyDistributie.png>
+Package pdftex.def Info: Figures/CauchyDistributie.png  used on input line 496.
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--416
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--420
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--427
-
- []
-
-
-Underfull \vbox (badness 1226) has occurred while \output is active []
-
- [12]
-<Figures/UniformeDistributieDobbelsteen.png, id=171, 462.528pt x 346.896pt>
-File: Figures/UniformeDistributieDobbelsteen.png Graphic file (type png)
-<use Figures/UniformeDistributieDobbelsteen.png>
-Package pdftex.def Info: Figures/UniformeDistributieDobbelsteen.png  used on in
-put line 467.
-(pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
-<Figures/UniformeDistributieAlgemeen.png, id=173, 462.528pt x 346.896pt>
-File: Figures/UniformeDistributieAlgemeen.png Graphic file (type png)
-<use Figures/UniformeDistributieAlgemeen.png>
-Package pdftex.def Info: Figures/UniformeDistributieAlgemeen.png  used on input
- line 482.
-(pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13 <./Figures/UniformeDistributieDobbelsteen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 508--512
-
- []
-
-[14 <./Figures/UniformeDistributieAlgemeen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 520--544
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 520--544
-
- []
-
-<Figures/BinomiaalDistributie.png, id=189, 462.528pt x 346.896pt>
-File: Figures/BinomiaalDistributie.png Graphic file (type png)
-<use Figures/BinomiaalDistributie.png>
-Package pdftex.def Info: Figures/BinomiaalDistributie.png  used on input line 5
-56.
 (pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-<Figures/PoissonDistributie.png, id=195, 462.528pt x 346.896pt>
-File: Figures/PoissonDistributie.png Graphic file (type png)
-<use Figures/PoissonDistributie.png>
-Package pdftex.def Info: Figures/PoissonDistributie.png  used on input line 588
-.
-(pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16 <./Figures/BinomiaalDistributie.png>]
-<Figures/NormaleDistributie.png, id=204, 462.528pt x 346.896pt>
-File: Figures/NormaleDistributie.png Graphic file (type png)
-<use Figures/NormaleDistributie.png>
-Package pdftex.def Info: Figures/NormaleDistributie.png  used on input line 622
-.
-(pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17 <./Figures/PoissonDistributie.png>] [18 <./Figures/NormaleDistributie.png>]
+[13] [14 <./Figures/CauchyDistributie.png>]
 Hoofdstuk 3.
+[15
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--646
+] [16]
+<Figures/Plot1_Correlatie_0.png, id=240, 389.455pt x 266.9975pt>
+File: Figures/Plot1_Correlatie_0.png Graphic file (type png)
+<use Figures/Plot1_Correlatie_0.png>
+Package pdftex.def Info: Figures/Plot1_Correlatie_0.png  used on input line 614
+.
+(pdftex.def)             Requested size: 256.08432pt x 175.56296pt.
+<Figures/Plot1_Correlatie1.png, id=241, 389.455pt x 266.9975pt>
+File: Figures/Plot1_Correlatie1.png Graphic file (type png)
+<use Figures/Plot1_Correlatie1.png>
+Package pdftex.def Info: Figures/Plot1_Correlatie1.png  used on input line 621.
 
- []
+(pdftex.def)             Requested size: 256.08432pt x 175.56296pt.
+<Figures/Plot1_Correlatie_min1.png, id=242, 389.455pt x 266.9975pt>
+File: Figures/Plot1_Correlatie_min1.png Graphic file (type png)
+<use Figures/Plot1_Correlatie_min1.png>
+Package pdftex.def Info: Figures/Plot1_Correlatie_min1.png  used on input line 
+628.
+(pdftex.def)             Requested size: 256.08432pt x 175.56296pt.
 
-<Figures/Aflezen.png, id=220, 462.528pt x 346.896pt>
-File: Figures/Aflezen.png Graphic file (type png)
-<use Figures/Aflezen.png>
-Package pdftex.def Info: Figures/Aflezen.png  used on input line 669.
-(pdftex.def)             Requested size: 256.09206pt x 192.06905pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<Figures/Plot1_Correlatie_min0punt8.png, id=243, 389.455pt x 266.9975pt>
+File: Figures/Plot1_Correlatie_min0punt8.png Graphic file (type png)
+<use Figures/Plot1_Correlatie_min0punt8.png>
+Package pdftex.def Info: Figures/Plot1_Correlatie_min0punt8.png  used on input 
+line 636.
+(pdftex.def)             Requested size: 213.39272pt x 146.295pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 677--682
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures/Plot1_Correlatie_min0punt3.png, id=244, 389.455pt x 266.9975pt>
+File: Figures/Plot1_Correlatie_min0punt3.png Graphic file (type png)
+<use Figures/Plot1_Correlatie_min0punt3.png>
+Package pdftex.def Info: Figures/Plot1_Correlatie_min0punt3.png  used on input 
+line 644.
+(pdftex.def)             Requested size: 213.39272pt x 146.295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17 <./Figures/Plot1_Correlatie_0.png> <./Figures/Plot1_Correlatie1.png>]
+Underfull \vbox (badness 4001) has occurred while \output is active []
+
+ [18 <./Figures/Plot1_Correlatie_min1.png> <./Figures/Plot1_Correlatie_min0punt
+8.png> <./Figures/Plot1_Correlatie_min0punt3.png>] [19] [20
+
+]
+Hoofdstuk 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 710--714
 
  []
 
-[19
 
-] [20 <./Figures/Aflezen.png>]
-<Figures/exampleplank.png, id=231, 289.08pt x 289.08pt>
-File: Figures/exampleplank.png Graphic file (type png)
-<use Figures/exampleplank.png>
-Package pdftex.def Info: Figures/exampleplank.png  used on input line 738.
-(pdftex.def)             Requested size: 213.39534pt x 213.39534pt.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 725.
 
-Underfull \hbox (badness 10000) in paragraph at lines 745--749
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
+
+ []
+
+[21]
+<Figures/180px-Venn0001.svg.png, id=277, 180.675pt x 131.49126pt>
+File: Figures/180px-Venn0001.svg.png Graphic file (type png)
+<use Figures/180px-Venn0001.svg.png>
+Package pdftex.def Info: Figures/180px-Venn0001.svg.png  used on input line 749
+.
+(pdftex.def)             Requested size: 180.68282pt x 131.49693pt.
+<Figures/180px-Venn0111.svg.png, id=278, 180.675pt x 131.49126pt>
+File: Figures/180px-Venn0111.svg.png Graphic file (type png)
+<use Figures/180px-Venn0111.svg.png>
+Package pdftex.def Info: Figures/180px-Venn0111.svg.png  used on input line 758
+.
+(pdftex.def)             Requested size: 180.68282pt x 131.49693pt.
+<Figures/180px-Venn1010.svg.png, id=279, 180.675pt x 131.49126pt>
+File: Figures/180px-Venn1010.svg.png Graphic file (type png)
+<use Figures/180px-Venn1010.svg.png>
+Package pdftex.def Info: Figures/180px-Venn1010.svg.png  used on input line 765
+.
+(pdftex.def)             Requested size: 180.68282pt x 131.49693pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22 <./Figures/180px-Venn0001.svg.png> <./Figures/180px-Venn0111.svg.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+
+ []
+
+[23 <./Figures/180px-Venn1010.svg.png>] [24
+
+]
+Hoofdstuk 5.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 887.
+
+(/opt/local/share/texmf-texlive/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [25]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 892.
+
+Underfull \hbox (badness 10000) in paragraph at lines 901--903
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 749--757
+Underfull \hbox (badness 10000) in paragraph at lines 901--903
 
  []
 
-[21 <./Figures/exampleplank.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 797--803
+
+Underfull \hbox (badness 10000) in paragraph at lines 917--919
 
  []
 
-[22]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 804.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 804.
+
+Underfull \hbox (badness 10000) in paragraph at lines 917--919
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 940--942
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 940--942
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 943--945
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 943--945
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1010
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1010
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1010
+
+ []
+
+[27]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+? 
+! Double subscript.
+<argument> mees_m_
+                  hoog < m < mees_m_laag
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+? 
+! Double subscript.
+<argument> mees_m_hoog < m < mees_m_
+                                    laag
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+? 
+! Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+? 
+! Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+? 
+! Extra }, or forgotten $.
+\text@ ...e {\textdef@ \displaystyle \f@size {#1}}
+                                                  {\textdef@ \textstyle \f@s...
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+? q
+OK, entering \batchmode...
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+<argument> \firstchoice@false mees_m_
+                                     hoog < m < mees_m_laag
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...oice@false mees_m_hoog < m < mees_m_
+                                                  laag
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...xtstyle \f@size {\firstchoice@false #1}}
+                                                  {\textdef@ \textstyle \sf@...
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+<argument> \firstchoice@false mees_m_
+                                     hoog < m < mees_m_laag
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...oice@false mees_m_hoog < m < mees_m_
+                                                  laag
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...tstyle \sf@size {\firstchoice@false #1}}
+                                                  {\textdef@ \textstyle \ssf...
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+<argument> \firstchoice@false mees_m_
+                                     hoog < m < mees_m_laag
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> ...oice@false mees_m_hoog < m < mees_m_
+                                                  laag
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...style \ssf@size {\firstchoice@false #1}}
+                                                  \check@mathfonts }
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...firstchoice@false #1}}\check@mathfonts }
+                                                  
+l.1050 ...(m_{\text{obs}} | \text{pimpelmees} )$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.1054 \end{itemize}
+                    
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.1054 \end{itemize}
+                    
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.1054 \end{itemize}
+                    
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1054 \end{itemize}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+ [28]
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1091
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1091
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 110
+7.
+ (/opt/local/share/texmf-texlive/tex/latex/lm/ts1lmtt.fd
+File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TS1/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `TS1/lmtt/b/n' tried instead on input line 1107.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1123--1125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1123--1125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1129
+
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 1141--1143
+[]\T1/lmr/bx/n/10.95 M2.2k) Com-bi-neer nu de gegevens en bereken de kansen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1141--1143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1141--1143
+
+ []
+
+ [29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1231--1233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1231--1233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1234--1236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1234--1236
+
+ []
+
+ [31]
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1305--1307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1305--1307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1310
+
+ []
+
+ [32]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1316.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1316.
  (./DASBoek.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 804.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 804.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1316.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1316.
+
 Package rerunfilecheck Info: File `DASBoek.out' has not changed.
-(rerunfilecheck)             Checksum: AA32B5AB15FBCAD4A15493C0F7EC3E33;2288.
+(rerunfilecheck)             Checksum: 1BDF03275A3F13CAA0DEBE595583035B;3514.
  ) 
 Here is how much of TeX's memory you used:
- 36893 strings out of 493731
- 697219 string characters out of 6152121
- 865724 words of memory out of 5000000
- 39995 multiletter control sequences out of 15000+600000
- 610482 words of font info for 121 fonts, out of 8000000 for 9000
+ 37405 strings out of 493731
+ 703699 string characters out of 6152121
+ 867767 words of memory out of 5000000
+ 40431 multiletter control sequences out of 15000+600000
+ 634598 words of font info for 154 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 54i,9n,83p,837b,998s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-mathsy.enc}{/opt/local/
-share/texmf-texlive/fonts/enc/dvips/lm/lm-mathit.enc}{/opt/local/share/texmf-te
-xlive/fonts/enc/dvips/lm/lm-rm.enc}{/opt/local/share/texmf-texlive/fonts/enc/dv
-ips/lm/lm-ts1.enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-mathex.
-enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-ec.enc}</opt/local/sh
+ 54i,19n,83p,837b,1598s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-ec.enc}{/opt/local/shar
+e/texmf-texlive/fonts/enc/dvips/lm/lm-ts1.enc}{/opt/local/share/texmf-texlive/f
+onts/enc/dvips/lm/lm-mathit.enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips
+/lm/lm-rm.enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-mathsy.enc}
+{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-mathex.enc}</opt/local/sh
 are/texmf-texlive/fonts/type1/public/lm/lmbx10.pfb></opt/local/share/texmf-texl
 ive/fonts/type1/public/lm/lmbx12.pfb></opt/local/share/texmf-texlive/fonts/type
-1/public/lm/lmbxi10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/l
-mcsc10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmex10.pfb></o
-pt/local/share/texmf-texlive/fonts/type1/public/lm/lmmi10.pfb></opt/local/share
-/texmf-texlive/fonts/type1/public/lm/lmmi6.pfb></opt/local/share/texmf-texlive/
-fonts/type1/public/lm/lmmi8.pfb></opt/local/share/texmf-texlive/fonts/type1/pub
-lic/lm/lmr10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmr6.pfb
-></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmr8.pfb></opt/local/sha
-re/texmf-texlive/fonts/type1/public/lm/lmri10.pfb></opt/local/share/texmf-texli
-ve/fonts/type1/public/lm/lmro10.pfb></opt/local/share/texmf-texlive/fonts/type1
-/public/lm/lmsy10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lms
-y6.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmsy8.pfb>
-Output written on DASBoek.pdf (22 pages, 434273 bytes).
+1/public/lm/lmbx8.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmb
+xi10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmcsc10.pfb></op
+t/local/share/texmf-texlive/fonts/type1/public/lm/lmex10.pfb></opt/local/share/
+texmf-texlive/fonts/type1/public/lm/lmmi10.pfb></opt/local/share/texmf-texlive/
+fonts/type1/public/lm/lmmi12.pfb></opt/local/share/texmf-texlive/fonts/type1/pu
+blic/lm/lmmi6.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmmi8.p
+fb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmr10.pfb></opt/local/
+share/texmf-texlive/fonts/type1/public/lm/lmr6.pfb></opt/local/share/texmf-texl
+ive/fonts/type1/public/lm/lmr8.pfb></opt/local/share/texmf-texlive/fonts/type1/
+public/lm/lmri10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmro
+10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmsy10.pfb></opt/l
+ocal/share/texmf-texlive/fonts/type1/public/lm/lmsy8.pfb></opt/local/share/texm
+f-texlive/fonts/type1/public/lm/lmtk10.pfb></opt/local/share/texmf-texlive/font
+s/type1/public/lm/lmtt9.pfb>
+Output written on DASBoek.pdf (32 pages, 579586 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 263 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
- 10400 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 474 PDF objects out of 1000 (max. 8388607)
+ 391 compressed objects within 4 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 14574 words of extra memory for PDF output out of 17280 (max. 10000000)
 

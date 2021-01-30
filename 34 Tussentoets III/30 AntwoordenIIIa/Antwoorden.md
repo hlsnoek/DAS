@@ -1,10 +1,10 @@
-# Oefenopgaves als voorbereiding voor tussentoets 3
+# Opgaves bij module 3
 Lees goed het [lijstje](/tussentoets-iii/inhoud) door ter voorbereiding voor de tussentoets. Niet voor alle elementen op het lijstje zijn oefenopgaves.
 
 **Let op:** Voor alle opgaven in dit vak geldt dat je bij het noteren van resultaten je moet houden aan de regels. Kijk hiervoor goed naar het stukje 'significantie en notatie' in het hoofdstuk [Notatie](/module-1/notatie).
 
 
-### Kleinste kwadraten methode
+## Kleinste kwadraten methode
 
 **1** We hebben de volgende meetpunten voor {x,y}: <br>
 {2.0,-1.1}, {4.0,-7.2}, {6.0,-13.3} <br>
@@ -33,7 +33,7 @@ $$(1.0^2 \cdot 3.2 - \hat{b} \cdot 1.0^3)$$ +  $$(2.0^2 \cdot 13.3 - \hat{b} \cd
 -----
 
 
-### Chi-2 en AIC
+## Chi-2 en AIC
 **3** Stel je hebt een dataset met 32 meetwaardes die je fit met de functie $$f(x;a,b,c,d)$$ waarbij je alle vier de variabelen optimaliseert. Hoeveel vrijheidsgraden heeft deze fit?<br>
 <span style = 'color:blue'>df =32-4 = 28</span>
 
@@ -60,7 +60,7 @@ De $$AIC_1$$ is kleiner dan $$AIC_2$$ : fit 1 geeft het beste resultaat.</span>
 
 ----
 
-### Hypothese toetsen
+## Hypothese toetsen
 
 **7.** Stel de nulhypothese op bij de gegeven alternatieve hypotheses:<br><br>
 **a.** $$H_{\alpha:} $$De gemiddelde dikte van een vel papier is groter dan $$0.1$$ mm.

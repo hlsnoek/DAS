@@ -1,398 +1,595 @@
-#Module 1
-
-# Kanstheorie
+# Foutenpropagatie
 
 
 
 
-In dit hoofdstuk leren we over kanstheorie en kansdichtheidsfuncties. Kanstheorie
-speelt een belangrijke rol in het begrijpen en bepalen van meetonzekerheden. 
-Zoals in het hoofdstuk over [meetonzekerheden](/module-1/meetonzekerheid) is uitgelegd kunnen meetonzekerheden verschillende oorzaken hebben. Bij elk van die oorzaken hoort een bepaalde waarschijnlijkheidsverdeling en deze zijn verbonden aan kans processen. 
+Vaak kunnen we de grootheid die we willen weten niet direct meten, maar meten we een observabele die zich via een bepaalde functie verhoudt tot de gezochte grootheid. Of meten we zelfs twee of meer variabelen die we nodig hebben om de gewilde grootheid te bepalen. 
 
-Vaak willen we metingen gebruiken om voorspellingen te doen of hypotheses te toetsen. Als we
-een serie meetgegevens hiervoor willen gebruiken, dan is het belangrijk om te weten wat de
-meetonzekerheden zijn. Deze kunnen we vervolgens gebruiken om te kijken hoe goed ze passen bij een weerpatroon of hoe goed ze een theorie bevestigen of juist weerleggen. 
+Dit is bijvoorbeeld het geval als we de gemiddelde snelheid van een auto willen bepalen. Dit zouden we kunnen doen door de tijd te meten die de auto nodig heeft om een bepaald traject af te leggen. We meten dan de door de auto gebruikte tijd, $$T$$ en de lengte van het traject, $$L$$, en die zetten we dan om in snelheid via de bekende formule $$v=L/T$$. Of we bepalen bijvoorbeeld de massa van een elementair deeltje (in rust) en willen dit omzetten naar de energie van het deeltje via de formule $$E=mc^2$$. 
 
-Om die stap later te kunnen maken, moeten we eerst meer leren over kanstheorie en hierna over kansdichtheidsfuncties. In dit hoofdstuk maken we daar een begin mee. 
+Als we de onzekerheid weten op de gemeten grootheden dan kunnen we deze  omzetten naar de grootheid die we eigenlijk willen bepalen. Dit noemen we het propageren van fouten. In dit hoofdstuk leren we je de basisregels voor het propageren van **ongecorreleerde** fouten. Dat wil zeggen dat als er meerdere onzekerheden worden gepropageerd deze onzekerheden onafhankelijk zijn; De meting van de ene observabele heeft geen invloed op de meting van de andere observabele; de fout die we maken in het meten van de ene grootheid hangt niet af van de fout die we maken op de andere gemeten grootheid. 
 
-          
+Het is goed om alvast te beseffen dat er ook gecorreleerde fouten bestaan. Er zijn twee oorzaken voor het ontstaan van gecorreleerde fouten:
 
-## Definitie van Kans
+- Doordat er in de meting een correlatie is. Een voorbeeld van een gecorreleerde fout is als we een oppervlakte van een tafel willen weten en we meten de lengte en de breedte met hetzelfde meetlint op. Als het meetlint een afwijking heeft waardoor we de lengte te groot opmeten, dan zullen we waarschijnlijk ook de breedte te groot opmeten. 
+- Doordat er een onderliggende parameter is waar beide gemeten grootheden vanaf hangen. 
 
-Waarschijnlijk is iedereen wel bekend met het concept van kans. We gebruiken het vaak. 
-Wat is de kans dat het regent? Wat is de kans om de loterij te winnen? 
-
-Wiskundig is een kans gedefinieerd als een getal tussen de 0 en de 1 dat aangeeft hoe waarschijnlijk het is dat een bepaalde gebeurtenis zal plaatsvinden.
-Een kans van 1 zegt dat het **zeker** zal gebeuren en een kans van 0 dat het **zeker niet** zal gebeuren. Een kans van 0.5 geeft aan dat in 50% van de gevallen de gebeurtenis zal plaatsvinden.
+Hier behandelen we dus alleen ongecorreleerde fouten. 
 
 
+## Basisregel
+We beginnen met de **algemene regel voor het propageren van ongecorreleerde fouten**. Daarna zullen we laten zien hoe deze regel eruitziet voor eenvoudige relaties. Deze zou je apart kunnen leren, maar je kunt ook altijd de basisregel gebruiken. Het resultaat behoort hetzelfde te zijn. 
+We noteren de onzekerheid op variabele $$x$$ in dit hoofdstuk met $$\Delta x$$ waar we eerder ook wel $$\sigma_x$$ hebben gebruikt. 
 
->**Voorbeeld** We kijken naar een dobbelsteen. 
-Wat is de kans dat je een 4 gooit als je de dobbelsteen 1 keer gooit? 
-Voor een normale dobbelsteen kunnen we deze kans uitrekenen met behulp van de volgende formule: \newline
->\newline
->$$ P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totaal aantal uitkomsten}} = \frac{1}{6}$$ \newline
->\newline
+Als $$q = q(x,y,z,\dots)$$ een functie is met meerdere ongecorreleerde variabelen, dan wordt de onzekerheid op $$q$$ gegeven door:
 
-Dit is de kans voor een normale eerlijke dobbelsteen. Met eerlijk bedoelen we hier dat de dobbelsteen niet gemanipuleerd is en dat elk vlak van de dobbelsteen evenveel kans heeft om boven te eindigen. 
+\begin{equation}\Delta q = \sqrt{\left(\frac{\delta q}{\delta x}\Delta x  \right)^2+\left(\frac{\delta q}{\delta y}\Delta y\right)^2+\left(\frac{\delta q}{\delta z}\Delta z\right)^2+\dots}\end{equation}
 
-Stel nu dat we een speciale, waar wel eerlijke, dobbelsteen zouden hebben met de volgende vlakken: {1,2,2,3,4,4}. De mogelijke uitkomsten bij een dobbelsteenworp zijn nu: {1,2,3,4}. Dit noemen we ook de **uitkomstenverzameling** waarbij alle elementen uniek zijn, en dus maar 1 keer voorkomt. 
+Hierbij zijn $$\frac{\delta q}{\delta x}$$, $$\frac{\delta q}{\delta y}$$ etc. de partiële afgeleiden van $$q$$ naar de betreffende variabele.
 
-De kans om nu een 4 te gooien is groter dan met een normale eerlijke dobbelsteen, namelijk. 
+We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden.
 
->**Voorbeeld** Als we de kans nu berekenen voor de speciale dobbelsteen met vlakken {1,2,2,3,4,4} dan is de kans om vier te gooien: 
+>**Voorbeeld 1: Factor** 
 >
->$$P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totale aantal uitkomsten}} = \frac{2}{6}$$ \newline
+>Stel we hebben een vergelijking $$y = c\cdot x$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: \newline 
+\begin{equation}\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = c \cdot \Delta x.\end{equation}\newline
+>In dit geval schaalt de onzekerheid op $$x$$ ($$\Delta x$$) dus met dezelfde factor $$c$$ tot de onzekerheid op $$y$$ ($$\Delta y$$). In het plaatje hieronder wordt voor een willekeurige waarde $$x_i$$ het effect van de propagatie van $$\Delta x$$ rond de waarde $$x_i$$ naar de fout $$\Delta y$$ rond $$y_i$$ visueel weergegeven. Je kunt duidelijk zien dat de grootte van $$\Delta y$$ veranderd is met de factor $$c.$$\newline
+
+![](Foutenpropagatie_const.png){:width="40%"}
+
+>**Voorbeeld 2: Translatie** 
 >
+>Stel we hebben een vergelijking $$y = x + a$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: \newline 
+>$$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = \Delta x.$$\newline
+>Wederom geven we het effect van de foutenpropagatie van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ grafisch weer in het plaatje hieronder. Je ziet dat de translatie geen effect heeft op de grootte van de onzekerheid.\newline
 
-En stel nu dat we een normale dobbelsteen hebben die gemanipuleerd is? Dan zal de kans om een 4 te gooien anders zijn. Een goede manier om dan de kans te bepalen is met behulp van de **Frequentist** formule: 
+![](Foutenpropagatie_trans.png){:width="40%"}
 
-\begin{equation}P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}\end{equation}\newline
-
-
-
-De algemene formule voor de **Frequentist definitie** van kans is: \newline\newline
-\begin{equation}P(\text{uitkomst A}) = \lim_{n \to \infty} \frac{\text{uitkomst A}}{n}.\end{equation}\newline\newline
-
-
-Waarbij we $$n$$ metingen hebben verricht. 
-
-De Frequentist definitie voor kans is een goede manier om kansen te berekenen. Het kent echter twee grote beperkingen. De eerste is dat we eigenlijk nooit een oneindig aantal metingen kunnen doen. Dit is goed te benaderen door gewoon een heel groot aantal metingen te doen. De tweede beperking is dat niet alle experimenten herhaalbaar zijn. 
-
-
-### Frequentist versus Bayesiaanse methode
-Het zal je dan misschien niet verbazen dat er nog een andere methode bestaat die wel werkt voor experimenten die niet herhaalbaar zijn of een beperkte statistiek hebben. Deze manier noemen we ook wel de Bayesiaanse (spreek uit: Beej-sie-jaanse) methode (Engels: Bayesian). 
-
-De frequentist methode wordt in het algemeen als objectieve methode gezien en de Bayesiaanse methode een subjectieve manier. Het geeft aan wat je denkt dat de waarschijnlijkheid is. Dat klinkt misschien niet erg wetenschappelijk maar in de praktijk is dit misschien wel de meest gebruikte methode. Vooral omdat je hem ook kan gebruiken als het experiment niet herhaalbaar is. De bayesiaanse methode zegt eigenlijk dat je het nooit helemaal zeker kunt stellen wat een kans is. Dat voelt
-misschien wat gek, maar het enige wat het zegt is dat ook bij een berekende kans waarde
-er een mate van onzekerheid is. Ook daar is er sprake van een 'meetonzekerheid'.
-
-
->**Een voorbeeld** In een wielerronde staat een bergklassieker op het programma van vandaag. De wedstrijd is nog niet gestart. Er staan twee sterke renners,  Verstappen en Onana, op de gedeelde eerste plaats van het klassement en de voorsprong met de derde wielrenner is meer dan 20 minuten. Het lijkt dus waarschijnlijk dat aan het einde van de dag Verstappen of Onana op de eerste plaats in het klassement zal staan. Op bergetappes wint Onana 9 van de 10 keer met een flinke voorsprong van Verstappen. Wie denk je dat er vandaag wint? \newline\newline
+>**Voorbeeld 3: Macht** 
 >
->We kunnen het experiment natuurlijk niet herhalen maar het lijkt zeer waarschijnlijk dat Onana aan het einde van de dag op nummer 1 zal eindigen. 
-Hier maken we gebruik van de subjectieve methode van Bayes. Om het te kwantificeren kunnen we misschien zelfs wel zeggen dat de kans 0.9 is.\newline\newline
+>Stel we hebben een vergelijking $$y = x^3$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: \newline 
+>$$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = 3x^2 \cdot \Delta x.$$\newline
+>Het effect van de foutenpropagatie volgens deze formule van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ wordt weer grafisch weergegeven in het plaatje hieronder. Je kunt zien dat de mate waarin de grootte van $$\Delta x$$ verandert afhangt van de gekozen waarde van $$x_i$$, op sommige plekken is hij kleiner geworden, op andere plekke groter.  \newline
+
+![](Foutenpropagatie_cube.png){:width="40%"}
+
+>**Voorbeeld 4** 
 >
->Maar nu zitten we aan het ontbijt en we zien dat Onana geen hap door zijn keel krijgt. Hij is duidelijk erg ziek. Verstappen daarentegen ziet er fris en sterk uit. \newline
-Hoe waarschijnlijk denk je nu dat het is dat Onana zal winnen?
->\newline\newline 
->Het lijkt nu toch een stuk minder waarschijnlijk dat Onana zal winnen. Misschien schat je nu de kansen lager in dan de 0.9 waarmee je begon. Misschien heb je zelfs wel informatie uit het verleden waaruit je weet hoeveel langzamer renners zijn als ze er zo ziek uitzien als Onana. Wat voor impact dat heeft op hun performance. Dan zouden we ons kans van 0.9 kunnen 'updaten' met de nieuwe informatie. Dat is typisch een Bayesiaanse methode om kansen uit te rekenen.
+>Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: \newline 
+>$$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x.$$\newline
+>In het plaatje hieronder geven we nu voor verschillende waardes $$x_i$$ de foutenpropagatie van $$\Delta x$$ naar $$\Delta y$$ de grafische interpretatie. We zien dat het niet alleen de relatieve grootte van $$\Delta y$$ afhangt van de gekozen waarde van $$x_i$$ maar dat op sommige plaatsen de boven en ondergrens van de onzekerheid zijn geïnverteerd.\newline
 
-Beide methodes worden dus gebruikt, maar de Bayesiaanse methode, of zelfs een hybride methode vindt vooral zijn toepassing in heel complexe modellen en voorspellingen. In dit vak zullen we echter vooral werken met de frequentist methode.
-Wat in elk geval belangrijk is, is om altijd heel precies te vermelden wat de voorwaardes zijn geweest waaronder de kans is uitgerekend. Ook bij de frequentist methode!
+![](Foutenpropagatie_func.png){:width="40%"}
 
-
-
-
-## Rekenen met kansen
-
-Er zijn een paar basisregels waar kansen aan voldoen. 
-
-1. <a name =BehoudKans>**Behoud van kans:**</a>Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekent dat: \newline
-\begin{equation} P(A) + P(\text{niet A}) = 1\end{equation}\newline
-
-2. **Complementregel:** <a name="ComplementRegel"></a>
-Een direct gevolg hiervan is dat $$P(\text{niet A})$$ het complement is van $$P(A)$$ ofwel:\newline
-\begin{equation} P(\text{niet A}) = 1 - P(A) .\end{equation}\newline
-3. Als de uitkomst $$B$$ *bestaat* dan geldt: \newline 
-\begin{equation}0 < P(B) \leq 1.\end{equation}\newline
-Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
-3. <a name="OfRegel"></a>**De *of* Regel**:
-Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan kan $$B$$ nooit plaats vinden, dan geldt:\newline
-\begin{equation}P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B).\end{equation}\newline
-We mogen in dit geval de kansen dus optellen.
-4. <a name="EnRegel"></a>**De *en* regel**: Als de uitkomsten $$A$$ en $$B$$ onafhankelijk zijn, dus als je $$A$$ een uitkomst is dan zegt dat niets over de kans op $$B$$, dan geldt: \newline
-\begin{equation}P(A\text{ en }B) = P(A) \cdot P(B).\end{equation}\newline
+>**Voorbeeld 5** 
+>
+>Stel we hebben een vergelijking $$z = ax + y^2$$ met standaarddeviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaarddeviatie op $$z$$, ($$\Delta z$$), gelijk aan: \newline 
+>$$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{(a \Delta x)^2 + (2y \Delta y)^2}.$$
+>
+>
+>**Voorbeeld 6** 
+>
+>Stel we hebben een vergelijking $$z = ax + y^2 + 2xy$$ met standaarddeviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaarddeviatie op $$z$$, ($$\Delta z$$), gelijk aan: \newline 
+>$$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{\left( (a + 2y) \cdot \Delta x \right)^2 + \left( (2y + 2x)\cdot  \Delta y \right)^2}.$$
 
 
-We gaan voor elk van deze regels een voorbeeld geven. We kijken hiervoor naar een kaartendek.
-De uitkomstenverzameling van een kaartendek is: \newline\newline
-{<span style="color:red">1♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,H♥,D♥,K♥,A♥,\newline
-1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,*\newline1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,A♠,\newline
-1♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,H♣,D♣,K♣,A♣}\newline\newline
-Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. We trekken in de volgende voorbeelden steeds 1 kaart.
+## Som en verschil 
+De algemene regel kan eenvoudig worden uitgeschreven naar de regel voor som en verschil.  
+Als $$q = x + y$$ of $$q = x - y $$ dan wordt de onzekerheid op $$q$$ gegeven door: 
 
->**Voorbeeld 1 - behoud van kans/complement regel:** \newline
-* De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥*)= 1/52. \newline
-* De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥*) = 1-1/52 = 51/52.\newline
-* De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een zwarte kaart te trekken (1-1/2 = 1/2).
+\begin{equation}\displaystyle \Delta q = \sqrt{\left(\frac{\delta q}{\delta x} \Delta x \right)^2 + \left( \frac{\delta q}{\delta y} \Delta y \right)^2} = \sqrt{\left(\Delta x\right)^2+\left(\Delta y\right)^2}.\end{equation}
 
->**Voorbeeld 2 - groter dan nul:** \newline
-* Voor elke kaart in het dek is er een kans dat je hem trekt. 
+We mogen de varianties $$(\Delta x)^2 $$ en $$(\Delta y)^2$$ in het geval van een vergelijking met enkel sommen en/of verschillen dus optellen.
 
->**Voorbeeld 3 - de of-regel:** \newline
-* De kans dat je een 3 of een 5 trekt is gelijk aan P(3)+(P(5) = 1/13+1/13 = 2/13. \newline
-* De kans dat je een 3 of een rode kaart trekt kunnen we niet zomaar optellen. Er bestaan ook rode kaarten met een 3. 
+## Vermenigvuldigen met constante
+Als $$q$$ een exacte veelvoud $$c$$ is van de gemeten waarde $$x$$, dus $$q = c \cdot x$$, dan geldt:\newline
 
->**Voorbeeld 4 - de en-regel:** \newline
-* De kans dat je een 3 trekt die ook een rode kaart is kunnen we uitrekenen met: \newline
-\begin{equation}P(\text{rood en }3) = P(\text{rood}) \cdot P(3) =  1/2 \cdot 4/52 = 2/52\end{equation}\newline
-Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rode drie kaarten als zwarte drie kaarten en daarom mag je ze in dit geval vermenigvuldigen. De uitkomsten zijn onafhankelijk. \newline
-* De kans dat je een 9♥ en een A♣ trekt. Deze kansen zijn niet onafhankelijk. Als je een 9♥ trekt, zegt dat al direct iets over de kans dat deze kaart ook een A♣ is (die is namelijk gereduceerd tot 0).
+\begin{equation}\displaystyle \Delta q = \sqrt{\left( \frac{\delta q}{\delta x} \Delta x \right) ^2} = |c| \Delta x.\end{equation}  
 
+De onzekerheid op $$q$$ is dus gelijk aan de onzekerheid op $$x$$ geschaald met dezelfde factor $$c.$$
 
-# Kansdichtheidsfuncties
+## Vermenigvuldigen met variabelen
+Als $$q$$ een vermenigvuldiging is van meerdere variabelen, dus bijvoorbeeld  $$q = x\cdot y \cdot z$$ dan geldt: 
 
+\begin{equation}\displaystyle \Delta q = \sqrt{\left( \frac{\delta q}{\delta x} \Delta x \right)^2 +\left( \frac{\delta q}{\delta y} \Delta y \right)^2 +\left( \frac{\delta q}{\delta z} \Delta z \right)^2} = \sqrt{\left( \frac{q}{x} \Delta x\right)^2 + \left( \frac{q}{y} \Delta y\right)^2 +\left( \frac{q}{z} \Delta z \right)^2 }.\end{equation}
 
+Dit kan je eenvoudiger schrijven als: \newline
 
+\begin{equation}\displaystyle \frac{\Delta q}{q} = \sqrt{\left( \frac{\Delta x}{x} \right)^2 + \left(\frac{\Delta z}{z}\right)^2 + \left(\frac{\Delta z}{z} \right)^2}.\end{equation}
 
-
-We gaan nu kijken naar kansverdelingen. In het voorbeeld van de simpele dobbelsteen zou je kunnen kijken hoe de kansen verdeeld zijn over de verschillende uitkomsten. Voor een normale dobbelsteen is dit misschien een beetje saai, voor elke uitkomst verwacht je een andere waarde. Voor de speciale dobbelsteen die we eerder beschreven ziet het er al wat interessanter uit. 
-
-Om wat over kansverdelingen te kunnen schrijven moeten we eerst weten wat stochasten zijn. Daarna introduceren we enkele veelgebruikte kansdichtheidsverdelingen.
-
-
-## Wat is een stochast?
-Een **stochast** is een variabele waarvan de waarde van een kans proces afhangt. Bijvoorbeeld de uitkomst van het trekken van een kaart, dan is het getrokken kaart (de uitkomst van de trekking) een stochast. Je weet van tevoren niet welke kaart je gaat trekken en daarom is de uitkomst *stochastisch*.
-Of als je een met een dobbelsteen gooit dan is de uitkomst van de worp een stochast. Het Engelse woord (random variable) is misschien bekender. 
-
-## Kansdichtheidsfuncties
-Stochasten zijn een handig middel bij het beschrijven van experimenten. We gaan hieronder een aantal vaak voorkomende distributies van stochastische variabelen bekijken. De distributies laten zien wat de kans is dat een bepaalde stochastische waarde wordt gevonden. Het is dus een verdeling van kansen. Deze verdelingen noemen we **kansdichtheidsfuncties** (Engels: probability density function of PDF). Een kansdichtheidsfunctie, $$f(x)$$, zegt dat de kans dat een variabele $$x$$ gevonden wordt in een gebied $$[x,x+dx]$$ gelijk is aan $$f(x)dx$$. \newline
-De kans dat we $$x$$ terugvinden in een interval $$[a,b]$$ is gelijk aan: \newline
-\begin{equation}{\displaystyle P(a\leq x \leq b) = \int_a^b f(x) dx}.\end{equation}
-
-Er zijn **twee belangrijke voorwaardes** aan een kansdichtheidsfuncties die je misschien bekend zullen voorkomen: \newline
-1. De kans kan nergens kleiner dan nul zijn in het uitkomstengebied. \newline
-2. De kansdichtheidsdistributie moet genormaliseerd zijn op 1. \newline
-In formule notatie: $$f(x) \geq 0$$ en $$\int^\infty_{-\infty} f(x) dx =1$$.
-
-Wellicht komt dit allemaal wat abstract over en helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsfuncties (ook wel PDFs). Er zijn veel meer kansdichtheidsfuncties gedefinieerd, kijk bijvoorbeeld maar eens naar [deze](https://en.wikipedia.org/wiki/List_of_probability_distributions) lijst op Wikipedia. 
-
-Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaarddeviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](/module-1/basisbegrippen), voor dichtheidsfuncties zien de formules er net iets anders uit dan voor datasets. 
-
-## Verwachtingswaarde en standaarddeviatie
-Voor **discrete** verdelingen gelden de volgende vergelijkingen:
-
-* de verwachtingswaarde: $$ \mu = E(x) = { \sum_{i=1}^{N} x_i P(x_i) } ,$$\newline
-* de variantie:   $$\sigma^2 = \sum_{i=1}^N (x_i - E(x))^2 P(x_i).$$\newline
-
-Voor **continue** verdelingen maak je gebruik van de volgende vergelijkingen:\newline
-
-* de verwachtingswaarde: $$\mu = E(x) =  \int^\infty_{-\infty} x f(x) dx,$$\newline
-* de variantie: $$\sigma^2 = E(x^2) - E(x)^2 = \int^{\infty}_{-\infty} (x - E(x))^2 f(x) dx .$$
-
-
-
-**NB** Herinner je nog het verschil tussen parameters (voor de kenmerken van een populatie) en statistieken (voor de kenmerken van een steekproef). Afhankelijk van wat we beschrijven zijn verschillende schrijfwijze voor het gemiddelde $$\mu, <{x}>$$ en $$E(x)$$. Het symbool $$\mu$$ is meestal voorbehouden aan het gemiddelde van de populatie, dat wil zeggen het *echte* gemiddelde. Het gemiddelde van de steekproef is $$<{x}>$$, je hoopt dus dat die dicht bij het populatie gemiddelde $$\mu$$ ligt. De verwachtingswaarde $$E(x)$$ is de waarde die je verwacht te gaan meten. Deze kan je met simulaties benaderen. De verschillen worden pas echt duidelijk als je er al een tijdje mee werkt. We zullen het niet fout rekenen als je een vergissing maakt in de notatie, maar we proberen het hier wel netjes op te schrijven. 
-In deze vergelijkingen is het in elk geval ook gewoon handiger om $$E(x)$$ of $$<{x}>$$ te schrijven.  $$E(x)^2$$ is, net als $$<{x}>^2$$, het kwadraat van de verwachtingswaarde van $$x$$. $$E(x^2)$$ is, net als $$<{x^2}>$$ de verwachtingswaarde van $$x^2$$. De kansdichtheidsverdeling.
-
-
-## Bekende kansdichtheidsfuncties
-
-### Uniform
-<a name="Uniform"></a>
-De uniforme distributie is een vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast $$i$$, $$P({i})$$, gevonden kan worden met de relatie: $$P({i}) = 1/N$$.\newline
-Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt uit:
-
-![](UniformeDistributieDobbelsteen.png){:width="80%"}
-
-\newline
-Een algemene formule voor een **continue uniforme** verdeling is: 
-
-<center>$${\displaystyle f(x;a,b) = \frac{1}{b-a}} \quad\text{voor}\quad a \leq x \leq b.$$</center>
-
-Hierbij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
-Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
-
-![](UniformeDistributieAlgemeen.png){:width="80%"}
-
-De verwachtingswaarde en de standaarddeviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. 
+Ofwel de relatieve fout $$\frac{\Delta q}{q}$$ is gelijk aan de kwadratische som van de variabelen.
  
-De **verwachtingswaarde** kunnen we uitrekenen met behulp van de algemene formule:
 
-\begin{equation}\begin{aligned}\displaystyle E(x) & = \int^{\infty}_{-\infty} { x f(x) dx} =  \int^b_a x\cdot \frac{1}{b-a}  dx\\ & = \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a = \frac{b^2-a^2}{2(b-a)} = \frac{a+b}{2}. \end{aligned}\end{equation} 
 
-De **standaarddeviatie** berekenen we met de formule:
+>**Voorbeeld - foutenpropagatie en afronding van de getallen**
+>
+>Stel dat we de lengte van het blokje hebben gemeten en we lezen de volgende waarde af:
+>
+>- De $$\text{lengte (l)} = 7.60 \pm 0.10 \text{ cm}$$
+>- De $$\text{breedte (b)} = 4.10 \pm 0.20 \text{ cm}$$ 
+>- De $$\text{hoogte (h)} = 2.00 \pm 0.20 \text{ cm}$$ 
+>
+>Het volume van het blokje wordt gegeven door:
+>
+>$$V = l\cdot b\cdot h = 7.60 \cdot 4.10 \cdot 2.00 = 62.32 \text{ cm}^3$$
+>
+>We gebruiken de regel dat als $$q = x\cdot y\cdot \dots$$ dan: 
+>
+>$$\frac{\Delta q}{|q|} = \sqrt{\left(\frac{\Delta x}{x}\right)^2 \left(\frac{\Delta y}{y}\right)^2+\left(\frac{\Delta z}{z}\right)^2} $$
+>
+>Dus:
+>
+>$$\begin{aligned}\frac{\Delta V}{|V|} &= \sqrt{\left(\frac{\Delta l}{l}\right)^2+\left(\frac{\Delta b}{b}\right)^2+\left(\frac{\Delta h}{h}\right)^2} \\ &= \sqrt{\left(\frac{0.1}{7.6}\right)^2+\left(\frac{0.2}{4.1}\right)^2+\left(\frac{0.2}{2.0}\right)^2}\\ &= 0.01255 \dots \end{aligned}$$
+>
+>We ronden dit nog niet af, dat doen we pas als we de absolute fout hebben:
+>
+>$$\begin{aligned} \Delta V &= \frac{\Delta V}{|V|} \cdot |V| \\ &= 0.01255\dots \cdot 62.32 \\ &= 0.78228 \dots \\ &\approx 0.78\end{aligned}$$
+>
+>Het gemeten volume van het blokje is dus $$V = 62.32 \pm 0.78 \text{ cm}^3$$
+
+
+# Wet van Grote Aantallen
+
+In opgave M1.4 hebben we gezien hoe de spreiding van een gemeten gemiddelde van 
+metingen steeds kleiner wordt als we meer data gebruiken om het gemiddelde te bepalen. 
+Dit is een belangrijke observatie. Het geeft aan dat hoe meer data we hebben, hoe nauwkeuriger we ons resultaat weten. Je voelt misschien al aan dat dit niet altijd op gaat. Wanneer dit wel en wanneer dit niet opgaat zullen we hier bespreken. 
+
+We bespreken hier twee regels, of wetten, de $$\sqrt{n}$$-wet en de wet van grote aantallen. De eerste wet zegt dat we een gemiddelde, onder bepaalde voorwaarden, steeds beter kennen als we meer datapunten meenemen. De tweede wet zegt dat het gemiddelde van de steekproef langzaam zal convergeren naar het gemiddelde van de populatie.
+
+## De $$\sqrt{n}$$-wet
+We kijken naar twee onafhankelijke stochasten, $$X$$ en $$Y$$. De verwachtingswaarde van $$X+Y$$ is gelijk aan:
+
+\begin{equation}\displaystyle{ E(X+Y)= E(X)+E(Y) }\end{equation} 
+
+Als $$X$$ en $$Y$$ onafhankelijk zijn dan geldt ook:
+
+\begin{equation}\displaystyle{Var(X+Y)= Var(X)+Var(Y)}\end{equation}
+
+Het ziet er misschien ingewikkeld uit, maar het enige wat we doen is een nieuwe variabele definiëren die de som is van twee variabelen. De variantie op de som vinden we via de gewone fouten propagatie [regels](/module-2/foutenpropagatiei). 
+
+Stel nu dat we dit uitbreiden. En we nemen de som van $$N$$ onafhankelijk stochasten, $$X_1,X_2,...,X_N$$  die elk dezelfde onderliggende verdeling kennen. Dat wil zeggen dat ze allemaal dezelfde verwachtingswaarde en dezelfde variantie hebben. 
+
+NB. De verwachtingswaarde is niet gelijk aan de gemeten waarde. Kijk voor dit verschil nog eens naar [basisbegrippen](/module-1/basisbegrippen) in module 1. Als je terugdenkt aan de opgave van de kogels is de verwachtingswaarde van de massa van een kogel gelijk aan de gemiddelde massa van alle kogels. Als we een willekeurige kogel uit de ton pakken, dan is de gemiddelde massa van de kogels in de ton, de *verwachting* die we hebben van de massa van de kogel die we pakken.   De verwachtingswaarde is dus hier het gemiddelde.
+
+De variantie is de spreiding op de massa distributie. Als je een willekeurige kogel uit de ton pakt is de kans heel klein dat de massa precies gelijk is aan de verwachtingswaarde van de massa. De variantie geeft aan in welk gebied van waardes we verwachten de massa van de kogel te vinden.
+
+
+De formule voor de som kunnen we nu schrijven als:
+
+\begin{equation}\displaystyle{ Som_N = X_1 + X_2 + ... + X_N.}\end{equation} 
+
+En het gemiddelde kunnen we schrijven als:
+
+\begin{equation}\displaystyle { E(<{X_1 ... X_N}>) = \frac{Som_n}{N}.}\end{equation}
+
+Als de verwachtingswaarde van een enkele stochast $$E(X_i)$$ gelijk is aan het gemiddelde $$\mu$$ en de variantie gelijk is aan $$Var(X_i) = \sigma^2$$, dan geldt nu voor de verwachtingswaarde van de som:  
+
+\begin{equation}\displaystyle{ E(S_N)= \mu N} \end{equation}
+
+en voor het gemiddelde:
+
+\begin{equation}\displaystyle{E(<{X_1 ... X_N}>) = \mu.}\end{equation}  
+
+En dan geldt voor de variantie  
+
+\begin{equation}\displaystyle{ Var(S_N) = N \sigma^2 } \end{equation} 
+
+en 
+
+\begin{equation}\displaystyle{ Var(<{X_1 ... X_N}>) = \frac{\sigma^2}{N}.}\end{equation}
+
+Dit betekent dat **de standaarddeviatie van de som van de stochasten** gelijk is aan $$\sigma \cdot \sqrt{N}$$.  
+De standaarddeviatie van het gemiddelde is dan gelijk aan:  
+
+\begin{equation}\displaystyle{\text{standaarddeviatie op het gemiddelde is: }\frac{\sigma \cdot \sqrt{N}}{N} = \frac{\sigma}{\sqrt{N}}}.\end{equation}
+
+Dit betekent dus dat als we het gemiddelde van de massa van N aantal kogels nemen waarbij de kogels een Normale distributie hebben met een gemiddelde $$\mu$$ en een standaarddeviatie van $$\sigma$$, de onzekerheid op de bepaalde gemiddelde massa gelijk is aan $$\sigma/\sqrt{N}$$.  
+Hoe meer kogels we wegen en meenemen in ons gemiddelde, hoe nauwkeuriger we dit gemiddelde kennen. 
+
+
+
+## De wet van Grote Aantallen
+Intuïtief voelen we aan dat hoe meer metingen we doen, hoe meer informatie we hebben, en hoe nauwkeuriger ons resultaat is. 
+
+De **wet van grote aantallen** zegt dat het berekende steekproef gemiddelde, $$<{X}>$$, van een distributie met een eindige variantie, convergeert naar het populatie gemiddelde $$\mu$$ voor steeds grote steekproeven:\newline
+<center>$${\displaystyle lim_{N \to \infty} P( | \lt X \gt - \mu| \gt \epsilon) = 0 } $$</center>
+
+Ofwel de kans dat het steekproef gemiddelde meer afwijkt van het populatie gemiddelde dan een heel klein getal convergeert naar 0 voor oneindig grote steekproeven. 
+Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan  oneindig grote, of nagenoeg oneindig grote populaties, zoals bijvoorbeeld als je de gemiddelde massa van het electron wilt bepalen. 
+
+**Tip:** In deze [video](https://www.youtube.com/watch?v=MntX3zWNWec) wordt de wet van grote aantallen nogmaals duidelijk uitgelegd. 
+
+Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk dat de variantie van de stochast eindig moet zijn, en dat dus de verwachtingswaarde van de stochast bepaald is. Er bestaan distributies, zoals de [Cauchy](https://nl.wikipedia.org/wiki/Cauchy-verdeling) of de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie waarvoor dit dus niet geldt. Deze distributies hebben oneindig lange staarten. Hieronder zie je hoe de Cauchy distributie eruit ziet.
+
+![](CauchyDistributie.png){:width="80%"} 
+
+Wiskundig kan de wet van de grote aantallen dus weleens voor problemen zorgen. In Natuurkundige experimenten zijn verdelingen uiteindelijk vaak beknot door bijvoorbeeld de eindigheid van energie. Voor Natuurkundige experimenten gaat de wet van grote aantallen dus vaak wel op.
+
+Overigens noemen we deze wet van grote aantallen de *zwakke* wet van grote aantallen, er bestaat ook een *sterke* wet. We gaan hier niet in op de kleine verschillen tussen deze twee wetten, online kun je er eventueel genoeg over vinden.
  
-\begin{equation}\begin{aligned}\displaystyle \sigma^2 &= \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx = \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx \\ &= \frac{1}{12} \cdot \frac{(b-a)^3}{b-a} = \frac{(b-a)^2}{12}. \end{aligned}\end{equation}
 
-Dit geeft de vergelijking voor de standaarddeviatie: $$\sigma = \frac{(b-a)}{\sqrt{12}}$$.
 
 
-### Binomiaal
-<a name="Binomiaal"></a>
-Om de binomiale verdelingsfunctie uit te leggen beginnen we eerst met het Bernoulli-experiment. Dit is een experiment met maar twee uitkomsten, 'succes' en 'mislukking'. De kans op succes is $$p$$ en de kans op mislukking $$q$$, dan is dus $$q=1-p$$. 
 
-Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de kans op een totaal aantal malen succes uit deze $$n$$ experiment gedefinieerd als $$k$$. Dit wordt beschreven door de binomiale verdeling: \newline
-<center>$${\displaystyle P(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } .$$</center>
 
-Het gemiddelde en de standaarddeviatie van de Binomiale verdeling zijn: \newline
-\begin{equation}E(k) = np\end{equation} en $$\sigma = \sqrt{npq}$$.
+# Meerdimensionale datasets
 
->**Voorbeeld** Stel dat we een oneindige grote verzameling knikkers hebben waarvan  30% gele knikkers, alle andere knikkers zijn rood gekleurd. Als we een enkele knikker trekken hebben we dus precies 30% kans ($$p=0.3$$) dat dit een gele knikker is. \newline
->Als we twee knikkers trekken hebben we een kans van $$0.3\cdot 0.3 = 0.09$$ dat we precies twee gele knikkers hebben getrokken. Immers, omdat de verzameling oneindig groot is, heeft de eerste trekking geen invloed op de tweede trekking en zijn de twee trekkingen onafhankelijk. We mogen dus de 'en'-regelgebruiken. \newline
-We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat we minstens 1 rode knikker hebben, hier gebruiken we de complement regel. 
-\newline De kans dat we twee rode knikkers hebben (en dus geen gele knikkers) is $$(1-0.3)\cdot (1-0.3)$$ = 0.49. We kunnen nu ook redeneren dat de kans dat we 1 gele knikker en 1 rode knikker hebben getrokken precies gelijk is aan $$0.91 -0.49 = 0.42$$. \newline
-\newline We kunnen deze kansen ook met de Binomiaal vergelijking uitrekenen:\newline
-2 trekkingen, 0 gele knikkers: $$P(k;n,p) = p(0;2,0.3) = \frac{2!}{(0! \cdot 2!)} 0.3^0 \cdot 0.7^2 =  0.49 $$\newline
-2 trekkingen, 1 gele knikkers: $$P(k;n,p) = p(1;2,0.3) = \frac{2!}{1!\cdot 1!} 0.3^1 \cdot 0.7^1 = 0.42 $$\newline
-2 trekkingen, 2 gele knikkers: $$P(k;n,p) = p(2;2,0.3) = \frac{2!}{2! \cdot 0!} 0.3^2 \cdot 0.7^0 = 0.09$$\newline\newline
-Deze kansen staan ook uitgedrukt in de gele lijn in het plaatje hieronder.
 
 
-De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet toepassen op fractionele waardes. Dat is ook logisch want het Bernoulli experiment kunnen we niet een fractioneel aantal keer uitvoeren. De kansverdeling is asymmetrisch voor lage waardes van $$n$$ en wordt voor grotere waardes van $$n$$ steeds meer symmetrisch.
 
-Hieronder zie je een aantal verdelingen voor de Binomiaal.
+Het komt vaak voor dat we datasets hebben waarbij we meerdere variabelen tegelijkertijd hebben gemeten. Bijvoorbeeld als we een steekproef doen onder de bevolking waarbij we allerlei gegevens tegelijkertijd opvragen zoals leeftijd, inkomen, gezinssamenstelling etc. We kunnen dan niet alleen naar verdelingen kijken van bijvoorbeeld alleen het inkomen, maar we kunnen ook naar het inkomen kijken *afhankelijk* van de leeftijd. Dit levert dus meer informatie op dan dat we deze gegevens afzonderlijk zouden hebben verzameld. Ook in natuurkundige experimenten komen multidimensionale datasets veel voor. 
 
-![](BinomiaalDistributie.png){:width="80%"}
+Voor elke afzonderlijke variabele kunnen we bijvoorbeeld het gemiddelde en de standaarddeviatie berekenen met behulp van de formules die we in ['Basisbegrippen'](/module-1/basisbegrippen) hebben geïntroduceerd. Maar we kunnen nu ook kijken of de waarde van een observabele afhangt van een andere observabele in de dataset. Dit noemen we correlatie. Ook kunnen we berekenen of een spreiding in een variabele afhangt van de waarde van een andere variabele. We noemen die covariantie. Hieronder introduceren we eerst covariantie, daaronder komt correlatie aan bod.
 
-Het voorbeeld van daarnet is uitgedrukt in de gele lijn. Kijk ook eens goed naar de blauwe lijn. De kans $$p=1$$ zegt dat een de uitkomst altijd succes is. Als je het experiment twee keer uitvoert, zijn ze dus gegarandeerd allebei succesvol. En de kans is 0 dat je maar 1 uit 2 $$(n=2,k=1)$$ positieve uitslagen hebt. Dat kan immers ook niet, je kan alleen maar succes hebben, er bestaan geen andere uitslagen van het experiment.
 
+## Variantie en covariantie
 
-### Poisson
-<a name="Poisson"></a>
-De Poisson is discrete verdelingsfunctie die, in veel gevallen, de onzekerheid weergeeft op telexperimenten. Het aantal geobserveerde gebeurtenissen ($$k$$) is gerelateerd aan het verwachte aantal gebeurtenissen ($$\lambda$$) via de Poissonverdeling: 
+De variantie geeft zoals eerder besproken (onder ['Basisbegrippen'](/module-1/basisbegrippen)) een maat voor
+de spreiding van een dataset aan. Bij een 2D dataset waarbij een variabele wordt aangegeven op de $$x$$-as en een andere
+variabelen op de $$y$$-as wordt de mate van spreiding o.a. aangegeven met de *covariantie*.
 
-\begin{equation}{\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}.\end{equation}
+De covariantie bij een 2D dataset geeft aan in welke mate de data verspreid is over het twee dimensionale vlak.
 
-De Poisson kent, in tegenstelling tot de binomiaal dus maar 1 parameter.
-De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de variantie is ook $$\lambda$$. De onzekerheid op een stochast, als deze de Poisson statistiek volgt, is gelijk aan de standaarddeviatie: $$\sigma = \sqrt{\text{var}} = \sqrt{\lambda}$$.
+Voor twee variabelen $$x$$ en $$y$$ wordt de covariantie aangeduid met $$cov(x,y)$$ en gegeven door:
 
-Het is dus een bijzondere vergelijking!
-Hieronder zie hoe de Poisson distributie eruit ziet voor verschillende waardes van $$\lambda$$.
+\begin{equation}cov(x,y) = E((x-E_x)(y-E_y))\end{equation}
 
-![](PoissonDistributie.png){:width="80%"}
+Hier staat $$E$$ voor de *verwachtingswaarde*. De verwachtingswaarde voor
+\begin{equation}x\end{equation} en $$y$$ worden respectievelijk aangegeven met $$E_x$$ en $$E_y$$. De formule geeft dus aan dat de covariantie gelijk is aan de verwachtingswaarde van het verschil tussen de waarde van de variabele $$x$$ en de verwachtingswaarde van $$x$$ vermenigvuldigd met het verschil tussen de variabele $$y$$ en de verwachtingswaarde van $$y$$.
 
-De Poisson verdeling is, net als de Binomiaal vergelijking asymmetrisch voor lage waardes van $$\lambda$$ en wordt voor steeds meer symmetrisch voor hogere waardes van $$\lambda$$. 
-Dat is ook geen toeval, de Poisson vergelijking is een speciale vorm van de Binomiaal. Als je hier meer over wilt weten kun je [dit](https://www.youtube.com/watch?v=eexQyHj6hEA) filmpje bekijken.
+Als voor waardes $$x$$ die bovengemiddeld zijn, overwegend samen gaan met relatief hoge waardes van $$y$$, dan hebben we te maken met een positieve waarde voor de covariantie. Als bij de waarden voor relatief hoge waardes van $$x$$ de waardes van $$y$$ voornamelijk onder de verwachtingswaarde liggen, dan is de covariantie negatief.
+Als de covariantie gelijk is aan nul dan is er, gemiddeld over de hele dataset, geen afhankelijkheid. Het kan zijn dat voor delen van de dataset wel degelijk een positieve covariantie bestaat, deze wordt dan opgeheven door een ander gedeelte met een negatieve covariantie. 
 
 
 
-### Normaal (ofwel Gauss)
-<a name="Normaal"></a>
-Stochastische variabelen zijn normaal verdeeld (ook wel Gaussisch) als ze door de volgende functie worden beschreven:
+Met de volgende formules kun je de covariantie van een dataset uitrekenen: 
 
-<center>$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} }.$$</center>
+* Voor discrete verdelingen geldt : 
+\begin{equation}{\displaystyle cov(x,y) = \frac{1}{n}\sum^n_i (x_i-<{x}>)\cdot (y_i-<{y}>)}.\end{equation}
 
-De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaarddeviatie is precies $$\sigma$$. <!--Dat is zeker geen toevalligheid.-->
+* Voor continue verdelingen geldt: 
+\begin{equation}{\displaystyle cov(x,y) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}xy \cdot f(x,y) dy dx }\end{equation}
 
-Over de mathematische beginselen van de Normale verdelingsfunctie gaan we hier verder niet in. Het is wel goed om te weten dat de Normale verdelingsfunctie zonder twijfel de meest belangrijke functie is in de statische data analyse. De verdelingsfunctie komt erg vaak voor. Dat is geen toevalligheid, we zullen later in module 3 zien waarom dit zo is.
+De covariantie geeft dus aan in hoeverre waarden van de ene variabele toenemen/afnemen bij toenemende waarden van de andere variabele. De covariantie is een heel nuttige maat maar lastig te interpreteren vanwege de dimensies die, net als bij de variantie, niet dezelfde zijn als de variabelen zelf. Eenvoudiger is om naar de correlatiecoëfficiënt $$\rho$$ te kijken. 
 
+ <a href="https://www.youtube.com/watch?v=KDw3hC2YNFc">Hier</a>kun je een filmpje zien die covariantie uitlegt. 
 
 
-Hieronder zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$\mu$$ en $$\sigma$$. 
+## Correlatie 
 
-![](NormaleDistributie.png){:width="80%"}
+De correlatiecoëfficiënt $$\rho$$ is gedefinieerd als:
 
-Het is goed om op te merken dat de Normale verdeling een symmetrische continue verdeling is. De meeste stochasten zijn gegroepeerd rond het gemiddelde en hoe meer we van het gemiddelde afwijken, hoe kleiner de kans is dat we een stochast aantreffen.
+\begin{equation}\rho_{x,y} = \frac{cov(x,y)}{\sigma_x \sigma_y}\end{equation}  
 
-Voorbeelden van Normaal verdelingen vinden we overal om ons heen. De verdeling van lichaamslengtes van mensen (of bijvoorbeeld olifanten), de grote van zandkorrels op een strand, de luminositeit van bolhopen in het melkwegstelsel. 
+Hierbij is $$cov(x,y)$$ de covariantie tussen variabele $$x$$ en variabele $$y$$, en zijn $$\sigma_x$$ en $$\sigma_y$$ de standaardafwijkingen van variabele $$x$$ en $$y$$ respectievelijk.
+Deze reken je dus uit met de formule die hierboven is gedefinieerd.
 
+Als er geen correlatie is tussen de twee variabelen, dan is
+correlatiecoëfficiënt gelijk aan nul. Is de correlatiecoëfficiënt tussen de twee variabelen gelijk aan $$1$$ of aan $$-1$$ dan zijn de twee
+variabelen maximaal afhankelijk. In het geval van een correlatiecoëfficiënt gelijk aan $$1$$ is dit een positief lineair verband, in het geval van een correlatiecoëfficiënt gelijk aan $$-1$$ is dit een lineair verband met negatieve helling. 
 
+Hieronder zijn een aantal 2D datasets weergegeven met verschillende correlatiecoëfficiënten:
 
-# Voorbeeld opgaves tussentoets I
+Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 0 $$:
 
-Lees goed het [lijstje](/tussentoets-i/inhoud) door ter voorbereiding voor de tussentoets. **Niet voor alle element op het lijstje zijn oefenopgaves**.
+<p align="center">![](Plot1_Correlatie_0.png){:width="60%"}</p>
 
------
+Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 1 $$:
 
-**1** De leeftijdsverdeling van een groep studenten is:\newline
+<p align="center">![](Plot1_Correlatie1.png){:width="60%"}</p>
 
-<center>18.3 19.7 20.4 19.2 18.7 19.4 17.6 20.6 18.5 20.2</center>
+Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = -1 $$:
 
-**a**  Bereken het gemiddelde, de mediaan, de standaarddeviatie en de variantie.\newline
-***Antwoord:** Het gemiddelde is 19.3 jaar, de mediaan is 19.3 jaar, de standaarddeviatie is 0.936 jaar, de variantie is 0.876 $$\textrm{jaar}^2$$.*\newline
-**b** De docent van de groep is 44.5 jaar oud.  
-Bereken nu opnieuw het gemiddelde, de standaarddeviatie en de variantie waarbij je de leeftijd van de docent ook meeneemt. \newline
-***Antwoord:** Het gemiddelde is 21.6 jaar, de mediaan is 19.4 jaar,  
-de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.   
-NB Zie je dat het gemiddelde niet veel groter is geworden maar de standaarddeviatie en de variantie wel?*
+<p align="center">![](Plot1_Correlatie_min1.png){:width="60%"}</p>
 
------
+Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.8$$ en $$\rho_{x,y} = 0.8$$:
 
-**2** Lees in de onderstaande grafiek het punt voor x=6 af en noteer het resultaat met de wetenschappelijke notatie. 
-![](Aflezen.png){:width="60%"}\newline
+<p align="center">![](Plot1_Correlatie_min0punt8.png){:width="45%"}![](Plot1_Correlatie_0punt8.png){:width="45%"}</p>
 
-***Antwoord:** $$f(x) = 5.02 \pm 0.28$$ (Waarschijnlijk lukt het niet om het zo exact af te lezen.)*
+Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} = 0.3$$:
 
------
+<p align="center">![](Plot1_Correlatie_min0punt3.png){:width="45%"}![](Plot1_Correlatie_0punt3.png){:width="45%"}</p>
 
-**3** Een bepaald soort knikkers heeft een gemiddelde diameter van 1.4 cm met een variantie van 0.2 cm$$^2$$. We willen de gemiddelde diameter bepalen en meten hiervoor de diameter van een enkele knikker op en vinden 1.5 cm. Wat is de fout op deze meting en wat is de onzekerheid? \newline
 
-<span style= "color:blue">De fout op de meting is de afstand van de gemeten waarde tot het gemiddelde: 0.1 cm. De onzekerheid is de wortel van de variantie: $$\sqrt{0.2}$$ cm.  
-NB Meestal weten we het echte gemiddelde niet en kunnen dan ook de fout niet exact bepalen.*
+Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter is de afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit des te kleiner is de correlatie tussen de variabelen. 
 
------
 
-**4** We trekken kaarten uit een kaartendek.\newline
-**a** Als we 1 kaart trekken, wat is dan de kans dat we een hartenkaart trekken?\newline
-***Antwoord:** P(♥) = 1/4*\newline
-**b** Als we 1 kaart trekken, wat is dan de kans dat we een hartenkaart of een schoppenkaart pakken?\newline
-***Antwoord:** P(♥ of ♠) = P(♥) + P(♠) = 1/2*
+Je kunt <a href="https://www.youtube.com/watch?v=ugd4k3dC_8Y">hier</a>een filmpje vinden waarin correlatie ook wordt uitgelegd.
+Er zijn meerdere 'spelletjes' op internet waarbij je kunt oefenen met het herkennen en raden van de correlatiecoëfficiënt
+van twee variabelen. Kijk bijvoorbeeld eens bij [Geogebra-Correlatie game](https://www.geogebra.org/m/KE6JfuF9) of 
+[Guess the correlation](http://guessthecorrelation.com/).
 
------
 
-**5** We hebben een zak met gekleurde snoepjes met een tekst erop. Er zijn 6 blauwe snoepjes en 4 rode. Er bestaan drie teksten: "Joepie", "Hoera!" en "Gefeliciteerd". De kans verdeling onder de rode snoepjes is P(Joepie) = 0.5 en P(Hoera) = 0.5. Er zijn geen rode snoepjes met gefeliciteerd. \newline
-**a** Als je een snoepje uit de zak pakt, wat is de kans dat je een rood snoepje pakt?\newline
-***Antwoord:** 4/10 = 0.4 *\newline
-**b** Als je een snoepje uit de zak pakt, wat is dan de kans dat je een rood snoepje pakt met de tekst Joepie?\newline
-***Antwoord:** P(rood en joepie) = 0.4 x 0.5 = 0.2 *
+## Correlatie en causaliteit
+Soms betekent correlatie dat er oorzakelijk verband is tussen de twee observabelen. Dat wil zeggen dat de ene observabele invloed heeft op de andere observabele. 
 
------
+Een voorbeeld hiervan is bijvoorbeeld als je kijkt naar de ijsverkoop en de buitentemperatuur. Omdat het warm is buiten hebben mensen meer trek in een ijsje. Het is dus niet zo gek dat je er een verband tussen vindt. Dit verband noemen we een **causaal** verband. Iets wordt veroorzaakt door iets anders. 
 
-**6** Uit een experiment zijn 3 uitkomsten mogelijk voor de gedefinieerde stochast X: {0,1,2}. De kans op uitkomst 0 is: P(0)= 0.56. De kans op uitkomst 2 is P(2) = 0.34.\newline
-**a** Wat is de uitkomstenverzameling van X?\newline
-***Antwoord:** De uitkomstenverzameling is {0,1,2}*\newline
-**b** Wat is de kans op uitkomst P(1)?\newline
-***Antwoord:** P(1) = 1 - P(0) - P(2) = 0.10 *
+In wetenschappelijk onderzoek zijn we altijd op zoek naar correlaties. Immers, die kunnen wijzen op onbekende wetten of onderliggende, nog onbekende fenomenen. 
+Toch moet je behoorlijk oppassen om meteen een conclusie te trekken. Niet alle observabelen die een gecorreleerd zijn hebben een causaal verband. Het kan ook toeval zijn, als je maar genoeg variabelen tegen elkaar uitzet zal je er altijd wat vinden die toevallig een correlatie vertonen. Het kan ook komen door een verborgen parameter. Dit wordt ook wel Simpsons paradox genoemd.
 
------
+Een bekend voorbeeld van een Simpsons paradox is een onderzoek naar veiligheid op de scheepvaart. Er is gebleken dat er een positieve correlatie is tussen het dragen van reddingsvesten en het aantal ongevallen waarbij mensen verdronken zijn. Dit is natuurlijk niet wat je verwacht! Voordat je adviseert om alle reddingsvesten weg te laten gooien is het goed om nog iets verder onderzoek te plegen. Wat blijkt, de reddingsvesten worden alleen aangetrokken bij slecht weer op zee. De verborgen parameter is dus het weer. Als we de data nog een keer goed bekijken en nu kijken naar alleen de categorie slecht weer dan zien we dat de overlevingskans juist vele malen hoger als een reddingsvest wordt gedragen. 
 
-**7** We definiëren een stochast, $$x$$, als de waarde van de worp van een eerlijke dobbelsteen. Wat is de verwachtingswaarde van deze stochast? \newline
-***Antwoord:** $$\bar{x} = \frac{1}{6} \sum_{i=1}^{n=6} x_i = \frac{1}{6} \cdot (1+2+3+4+5+6) = \frac{21}{6} = 3.5$$.*
+De les die je hieruit moet leren is dat je altijd heel goed moet nadenken over wat een verborgen parameter zou kunnen zijn en niet zomaar de conclusie trekken dat een correlatie ook causaliteit impliceert. Het is goed om zo'n conclusie eerst te onderbouwen met een plausibele verklaring.
 
 
------
 
 
-**8** We hebben een plankje. Aan een kant van het plankje zetten we een 1, aan de andere kant een 2. We laten het plankje 1000 keer vallen van steeds dezelfde hoogte en we houden bij welke kant boven ligt als het plankje gevallen is. Van de 1000 keer ligt nummer 1 slechts 327 keer boven. Geef de kans verdeling van de twee uitkomsten grafisch weer.\newline
-![](exampleplank.png){:inline:width="30%"}\newline
-***Antwoord:** We gebruiken de Frequentist kans: P(1) = 327/1000 = 0.327 en de complement-regel dat P(2)= 1- P(1) = 0.673.*
 
------
 
-**9** Je gooit 10 keer met een dobbelsteen. \newline
-**a** Wat is de kans dat je precies 6 keer een 6 gooit? \newline
-***Antwoord:** Gebruik de binomiaal vergelijking: \newline
-\begin{equation}{\displaystyle P(k=6;n=10,p=1/6) = \frac{10!}{6!(4)!} (1/6)^6 (5/6)^{4} = 0.0022} \end{equation}
-*\newline
-**b** Wat is de kans dat je precies 1 keer een 6 gooit?\newline
-***Antwoord:** P(k=1;n=10,p=1/6) = 0.32 *\newline
-**c** Wat is de kans dat je minder dan 3 keer een 6 gooit?\newline
-***Antwoord:** P(<3maal een zes) = P(0;10,1/6) + P(1;10,1/6) + P(2;10,1/6) = 0.162 + 0.323 + 0.291 = 0.78 *\newline
-**d** Wat is de kans dat vaker dan 2 keer een 6 gooit?\newline
-***Antwoord:** P(>2maal  een zes) = 1-0.78 = 0.22 *\newline
 
------
 
-**10** Een raketschild houdt 99% van de raketten tegen. \newline
-**a** Als door de tegenstander 20 raketten worden afgevuurd, wat is dan de kans dat het raketschild alle 20 tegen houdt? \newline
-***Antwoord:** $$P = 0.99^{20} =  0.82$$*\newline
-**b** Als er 50 raketten worden afgevuurd door de tegenstander, hoeveel raketten worden er dan gemiddeld tegengehouden? \newline
-***Antwoord:** $$E = 50\cdot 0.99 = 49.5$$*
 
 
------
+# Extra kans rekenregels
 
-**11** In een call-center komen gemiddeld 100 telefoontjes per dag. \newline
-**a** Wat is de verwachte onzekerheid op het aantal telefoontjes per dag?\newline
-***Antwoord:** Gebruik de Poisson verdeling: $$\sigma = \sqrt{100} = 10$$.*\newline
-**b** Als er op een dag 70 telefoontjes binnenkomen. Is dat gek?\newline
-***Antwoord:** 100-70/10 = 3 $$ \sigma $$ Het is zeker uitzonderlijk het ligt $$3\sigma$$ van het gemiddelde af.*
+In [module 1](/module-1/kanstheorie) hebben we de complement, de en-regel en de of-regel geleerd voor het rekenen met kansen. Aan deze regels waren enkele voorwaarden verbonden. 
 
------
+De of-regel geldt alleen als de metingen A en B wederzijds uitsluitend zijn. Dat betekent dat een meting A niet kan voorkomen als B gemeten is. 
 
-**12** In een stad gebeuren jaarlijks 1020 ongelukken. Het afgelopen jaar zijn er maar 900 ongelukken geweest. De autoriteiten claimen dat dit komt door nieuwe regels in het verkeer. \newline
-**a** Denk je dat deze verklaring klopt?\newline
-***Antwoord:** De spreiding op het aantal ongelukken is $$\sqrt{1020} = 42$$. Het verschil is uitgedrukt in standaarddeviaties: $$\frac{1020-900}{42} \sigma = 3.8 \sigma $$. Dat is zeker uitzonderlijk, maar het komt natuurlijk weleens voor. Het is goed om voorzichtig te zijn met zo' n uitspraak. *\newline
-**b** Als de getallen tien keer zo klein zouden zijn (102 en 90), zou je denken dat de verklaring dan nog klopt?\newline
-***Antwoord:** De standaarddeviatie is nu $$\sigma = 10$$. Het verschil is dus net iets groter dan $$1\sigma$$, zo'n afwijking komt vaak voor. De uitspraak lijkt ongegrond.  *
+>Een voorbeeld van kansen die niet wederzijds uitsluitend zijn is, als we weer kijken naar een set kaarten waar A bijvoorbeeld de kleur rood is en B het getal 4. Er bestaan rode kaarten met getal vier en in dit geval mogen we de kansen dus niet optellen. \newline
+><center>$$P(\text{rood of 4}) \neq P(\text{rood}) + P(4)$$</center>
 
------
+We breiden de regels hier verder uit en gaan kijken naar het combineren van kansen die niet wederzijds uitsluitend zijn. We kijken ook naar het begrip conditionele kans en introduceren Bayes theorema die gebruikt kan worden om informatie van kansen om te rekenen. 
 
-**13** We verwachten op een dag gemiddeld 4.3 poststukken bij een klein bedrijf. \newline
-**a** Op een dag komen er wel 7 binnen. Reken de kans uit dat dit gebeurt. \newline
-***Antwoord:** $$P(k=7;\lambda=4.3) =0.073$$*\newline
-**b** Reken de kans uit dat er 0 binnenkomen. \newline
-***Antwoord:** $$P(k=0;\lambda=4.3) =0.014$$*\newline
 
+### De of regel wanneer A en B niet wederzijds uitsluitend zijn:
+In het geval A en B niet wederzijds uitsluitend zijn dan:\newline
+<center>$$P(\text{A en B}) \equiv P(A \cap B) >0.$$</center>\newline
+De kans dat A of B gemeten wordt is dan:
+<center>$$P(\text{A of B}) = P(A) + P(B) - P(\text{A en B}).$$</center>
+
+>Voorbeeld: De kans dat een kaart rood is en een vier heeft is 2/52. De kans dat een kaart rood is of een vier is nu gelijk aan P(1/2) + P(4/52) - P(2/52) = 28/52.
+
+De term $$(\text{A en B})$$ noemen we ook wel de doorsnede, of intersectie, van A en B. Het is het overlappende deel van elementen in de verzameling. Hieronder zie je het uitgebeeld in een Venn diagram. De doorsnede wordt ook wel genoteerd met $$A \cap B$$. \newline
+![](180px-Venn0001.svg.png){:width="60%"}
+*"doorsnede van A en B (bron wikipedia)"*
+
+De vereniging van $$A$$ en $$B$$ wordt genoteerd met $$A \cup B$$ en is de verzameling van alle elementen van A en B. Hieronder het Venn diagram voor de verzameling.\newline
+![](180px-Venn0111.svg.png){:width="60%"}
+*"vereniging van A en B (bron wikipedia)"*
+
+En zo kun je ook het complement van A laten zien: \newline
+![](180px-Venn1010.svg.png){:width="60%"}
+*"complement van A (bron wikipedia)"*
+
+### Conditionele kans
+Een conditionele kans wordt geschreven als $$P(A|B)$$ en kun je lezen als "Wat is de kans op meting A gegeven dat B is gemeten.". Let op dat $$P(A|B)\neq P(B|A)$$! Een sprekend voorbeeld hiervan is de volgende. De kans dat een persoon zwanger is gegeven dat de persoon een vrouw is, $$P(\text{zwanger}|\text{vrouw})$$, is niet gelijk aan de kans dat iemand een vrouw is gegeven dat de persoon zwanger is, $$P(\text{vrouw}|\text{zwanger})$$. De laatste kans is duidelijk gelijk aan 1, als je zwanger bent ben je zeker een vrouw. De eerste kans is een stuk kleiner!
+
+ De conditionele kans kunnen we berekenen met: \newline
+<center>$$\displaystyle{P(A|B) = \frac{P(A \cap B)}{P(B)}}.$$</center>\newline
+De noemer in deze vergelijking, $$P(B)$$, noemen we ook wel een normalisatie  term. De kans $$P(A \cap B)$$ moet genormaliseerd worden naar de kans $$P(B)$$, immers het is al een gegeven dat $$B$$ waar is. 
+
+Visueel is dit wellicht het meest eenvoudige om te zien. Als het gegeven is dat de uitkomst in het deelgebied B ligt, dan is de kans dat het ook de waarde A bezit gelijk aan het oppervlak van de overlap tussen A en B gedeeld door het oppervlak van B. Immers dat het B is weten we al, dus we moeten alle kansen normaliseren naar B. 
+
+
+### Bayes theorema
+Met behulp van de conditionele kans formule kunnen we nu Bayes theorema afleiden. \newline
+Het combineren van de formules van $$P(A|B)$$ en $$P(B|A)$$:
+<center>$$P(A \cap B) \equiv P(B \cap A) =  P(B|A) \cdot P(A) = P(A|B) \cdot P(B)$$ </center>
+geeft:
+<center>$$\displaystyle P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$</center>\newline
+Dit theorema maakt het mogelijk om nieuwe informatie toe te voegen aan de kennis van de kans. In [module 1](/module-1/kanstheorie) hebben we het kort over Bayesiaanse kans definitie gehad. Dit theorema staat centraal in Bayesiaanse kans. Het is wel belangrijk om te weten dat deze wiskundige vergelijking ook opgaat in de Frequentist benadering van kans.  
+
+Bekijk ook even het kennisclipje over Extra Kansrekenregels op Canvas!
+
+
+
+
+
+Voorbeeld van gecorreleerde fouten. 
+
+Je meet 1 lengte van een perfecte vierkant en rekent het oppervlakte uit. De formule voor het oppervlakte van een vierkant is  A = l1*l2
+
+
+
+# Opdrachten module 2
+
+
+
+
+Tijdens laptopcolleges 3 en 4 werken we aan het de opdrachten van module 2. 
+In deze module gaan we werken aan de volgende opdrachten. 
+
+* [M2.1 Grote Aantallen II \*\*](/opdrachten-module-2/groteaantallen)
+* [M2.2 Meesjes \*\*\*\* ](/opdrachten-module-2/meesjes)
+* [M2.3 Halfwaardedikte II \*\*\*](/opdrachten-module-2/halfwaardedikteii)
+
+De sterren geven een indicatie voor hoeveel werk een opdracht is. Let op dat je deze week goed plant!
+
+
+De antwoorden van de opdrachten moet je invoeren in [dit template](InlevertemplateModule2.docx) en als **pdf** bestand inleveren samen met de code voor de 3 opdrachten via ANS. De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/informatie/inleveropdrachten) vinden.
+
+Als je vragen hebt, stel deze dan aan de assistent of stuur een email naar de coördinator.
+
+Vergeet niet om ook even te kijken naar de [oefen opgaves](/tussentoets-ii/oefenopgaves) ter voorbereiding van de tweede tussentoets die aan het einde van het derde hoorcollege plaats vindt.
+
+Veel succes! 
+
+
+## Opdracht M2.1 Grote Aantallen II \*\*
+We gaan verder kijken naar de ton met kogels uit opgave M1.4. 
+In dit opgave begonnen we met een ton met 80 kogels en berekenden we  het gemiddelde, $$g_n = \bar{m_n}$$ over de eerste $$n$$ kogels van de set. Zo kregen we de distributie van $$g_n$$ versus $$n$$, net als in opgave M1.4.  
+Voordat je verder gaat, controleer eerst even in ANS of je dit goed hebt gedaan en corrigeer eventueel je fouten. 
+
+We gaan nu naar meerdere tonnen kijken, steeds met 80 kogels en uit dezelfde fabriek. 
+We gaan steeds de waardes van $$g_n$$ opnieuw berekenen, voor elke ton weer. Als we alle gemiddelde waardes $$g_n$$ van één ton hebben berekend, dan beginnen we weer opnieuw met een nieuwe ton met 80 kogels. Dit herhalen we 100 keer.  
+We gaan er in deze opgave stap voor stap doorheen.
+
+ 
+>Maak eerst 100 verschillende datasets. Elke dataset is een ton met 80 kogels. Dit kan je doen door steeds een andere seed mee te geven aan de datasetgenerator: 
+>	
+>		datasets = [ds.DataSetGroteAantallen(i) for i in range(0,100)]
+
+Je hebt nu een **`list`** die **`datasets`** heet met 100 items. Elke item is een dataset met elk 80 meetwaardes.
+		
+ 
+>- **M2.1a) Maak nu eerst een histogram van *alle eerste* elementen, $$m_1$$, van de 100 datasets. Zorg dat je histogram er netjes uitziet.** \newline\newline
+>
+>- **M2.1b) Wat is het gemiddelde, $$g_1$$, en de standaarddeviatie $$s_1$$ van dit histogram? Denk bij het noteren aan de eenheden en de juiste notatie!** 
+ 
+We gaan nu experimenten vergelijken waarin we steeds het gemiddelde over de eerste 10 metingen $$(g_{10})$$ hebben berekend. 
+
+>- **M2.1c) Bereken voor elk van de 100 datasets het gemiddelde over de eerste 10 metingen en laat de distributie van deze gemiddeldes $$g_{10}$$ zien in een histogram.** \newline\newline
+>
+>- **M2.1d) Bereken van deze distributie het gemiddelde  
+>$$\bar{g_{10}}$$, dit is het gemiddelde van de gemiddeldes $$g_{10}$$. Bereken ook de standaarddeviatie van de gemiddeldes $$s_{g_{10}}$$ (de standaarddeviatie van de gemiddeldes $$g_{10}$$).**
+
+We gaan dit nu herhalen voor met verschillende groottes van de steekproef $$n$$. Maak een functie die de standaarddeviatie $$s_{g_n}$$ van de 100 berekende gemiddeldes $$g_n$$ die berekend zijn over de eerste $$n$$ punten terug geeft.
+
+Roep nu de functie aan voor de volgende waardes van $$n$$: 1, 5, 10, 20, 30, 40, 50, 60, 70, 80. Controleer of de punten voor $$n=1$$ en $$n=10$$ dezelfde resultaten opleveren als dat je net had. 
+
+>- **M2.1e) Maak nu een grafiek waarin je de berekende standaarddeviaties $$s_{g_n}$$ uitzet tegen de grootte van de steekproeven, $$n$$.** \newline\newline
+>
+>- **M2.1f) Maak een nieuwe grafiek waarin je de berekende $$s_{g_n}$$ uitzet tegen $$1/\sqrt{n}$$.**\newline\newline
+>
+>- **M2.1g) Kun je iets zeggen over de grafieken? Beschrijf wat je ziet en probeer daar een conclusie uit te trekken.**
+
+
+Wat we hebben gedaan in deze opdracht is illustreren wat er gebeurd als we een steeds grotere steekproef nemen. 
+
+
+
+
+## M2.2 Meesjes \*\*\*\*
+
+Je vindt helaas een dood meesje in de tuin. Het lijkt op een koolmeesje maar het zou ook een pimpelmeesje kunnen zijn. Deze twee vogeltjes lijken erg veel op elkaar.
+Er zijn <a href="https://www.tuinvogeltelling.nl/herkenningstips/?tip=17">manieren</a>om pimpelmeesjes van koolmeesjes te onderscheiden met behulp van uiterlijke kenmerken. Maar je bent een Natuurkundige en geen Bioloog. Online vind je een dataset met informatie over het massa en de spanwijdte van beide soorten meesjes.
+
+
+Voordat we aan deze opdracht beginnen moeten we eerst een nieuwe versie downloaden van de [DAS_DatasetGenerator.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py). Zonder de nieuwe versie werkt deze opgave niet. Download ook het bestand [M2.2_Meesjes.py](M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand.
+
+
+We genereren eerst een twee datasets met behulp van de volgende regel code: 
+
+	m_km, span_km, m_pm, span_pm = ds.datasetVogeltjes()
+	
+De variabelen hebben de volgende betekenis: 
+
+	m_km    : de massa van een koolmeesje in gram
+	span_km : de spanwijdte van een koolmeesje in cm
+
+De laatste twee variabelen zijn de datapunten voor pimpelmeesjes. 
+De twee variabelen van de koolmeesjes horen bij elkaar. Van elk meesje in de dataset zijn zowel de massa als de spanwijdte gemeten. De dataset is zo geordend dat als je het n-de punt uit de **`m_km`**-lijst bij het n-de punt uit de **`span_km`**-lijst hoort. Dit zijn de gegevens van het n-de meesje. Pas dus op dat je de lijsten in de juiste volgorde houdt! 
+Voor de twee variabelen van de pimpelmeesjes geldt precies hetzelfde.
+
+
+We gaan eerst naar de twee massaverdelingen van de meesjes kijken. 
+
+>- **M2.2a) Plot de massaverdelingen van beide meesjes in een histogram. Laat in een legenda zien welke meesje bij welke kleur hoort. Maak ook een apart histogram waarin je spanwijdtes van de twee soorten meesjes plot. Maak de twee histogrammen netjes af en zorg dat duidelijk is welke distributie bij welk soort meesje hoort.**\newline\newline
+>TIP: Gebruik de plot optie **`alpha=0.8`** zodat je histogrammen wat doorzichtig worden. Zo kan je het achterste histogram ook nog altijd goed zien.\newline\newline
+>
+>- **M2.2b) Maak een tabel waarin je voor beide soorten meesjes de gemiddeldes, de standaarddeviaties en de varianties noteert. Let goed op de notatie en denk ook even aan de eenheden.**
+
+
+We meten nu de massa op van het meesje dat je gevonden hebt. Gebruik de volgende regel code om dat te doen: 
+
+		mees_m_laag, mees_m_hoog = ds.meetMassaMeesje()
+		
+Je krijgt nu een onderwaarde **`mees_m_laag`** en een bovenwaarde **`mees_m_hoog`** terug. Deze geven de onzekerheid op de meting aan. Het gemiddelde van deze twee is de gemeten massa, de centrale waarde. De waarde van de massa van de mees ligt **zeker** tussen de boven- en onderwaarde in. 
+NB. Als je een foutmelding krijgt dat **`meetMassaMeesje()`** niet bestaat controleer dan of je wel een nieuwe **`DAS_DatasetGenerator.py`** hebt downgeload voor Module 2.
+
+Met deze informatie kunnen we nu met de Frequentist Methode de kans uitrekenen dat onze mees een Koolmeesje is. 
+
+>- **M2.2c) Gebruik de dataset `m_km` om de kans uit te rekenen dat je een koolmeesje vindt die een massa heeft die in het gebied `mees_m_laag` en `mees_m_hoog` in ligt. Dit noem je ook wel de voorwaardelijke kans $$P(\text{mees_m_hoog < m < mees_m_laag} 
+>| \text{koolmees})$$. Voor het gemak noteren we dit even als $$P(m_{\text{obs}} | \text{koolmees} )$$. Herhaal dit voor het pimpelmeesje, bereken dus ook $$P(m_{\text{obs}} | \text{pimpelmees} )$$.**  
+>
+>- **M2.2d) Als je kijkt naar de uitkomst van M2.2c), wat vogeltje denk je dan dat het is?**
+
+De frequentist methode, zoals we die hierboven gebruiken, is uiteindelijk een ratio tussen twee getallen. Deze twee getallen hebben een onzekerheid volgens de Poisson verdeling. 
+
+>- **M2.2e) Schrijf de formule uit hoe de onzekerheden van de noemen en deler zich propageren naar de onzekerheid op de uitgerekende kans. Noteer deze formule en bereken met behulp van deze formule de onzekerheden uit op de kansen die je in M2.2c) hebt berekend.**
+
+Je besluit ook de spanwijdte van de mees op te meten. Misschien geeft dat wel meer uitsluitsel.
+
+		mees_span_laag, mees_span_hoog = ds.meetLengteMeesje()
+		
+De output volgt dezelfde logica als hiervoor.
+
+>- **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen $$ P(w_{\text{obs}} | \text{koolmees} )$$ en 
+>$$P(w_{\text{obs}}
+>| \text{pimpelmees} )$$ uit te rekenen maar nu door (alleen) gebruik te maken van de informatie van de spanwijdtes. Noteer ook de onzekerheden op de uitgerekende kansen.**\newline\newline
+>
+>- **M2.2g) Op basis van deze informatie, wat denk je nu dat het voor vogeltje is?**
+
+We kunnen nu natuurlijk ook de gecombineerde informatie gebruiken. Hiervoor gaan we eerst de data visualiseren.
+
+>- **M2.2h) Maak een tweedimensionale scatterplot die de tweedimensionale dataset van de massa versus de spanwijdte voor zowel de pimpelmezen als de koolmezen.**  
+>**TIP** gebruik de opties **`'o',markersize=3, alpha=0.4`** in de plot functie. Zorg dat beide datasets weer hun eigen kleur hebben en vergeet de legenda niet. 
+
+Het valt misschien op dat er een verband lijkt te zijn tussen beide variabelen. We gaan daar eerst naar kijken naar [de covariantie](/module-2/meerdimensionale-data) en de correlatie tussen de massa en de spanwijdte voor beide vogelsoorten. 
+
+>- **M2.2i) Bereken de covariantie en de correlatie tussen de massa en de spanwijdte voor zowel de koolmeesje als de pimpelmeesjes meetgegevens.**\newline\newline
+>
+>- **M2.2j) Als je naar de berekende correlaties kijkt wat valt dan op, wat voor verband zit er tussen de twee variabelen? Als je toch even als een Bioloog nadenkt, is dit dan wat je verwacht?**\newline\newline
+
+We gaan terug naar de kansberekeningen. 
+
+>- **M2.2k) Combineer nu de gegevens en bereken de kansen $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} 
+>| \text{koolmees})}$$ en $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} | \text{pimpelmees})}$$.**\newline\newline
+>- **M2.2l) Welk vogeltje denk je nu dat het is? Beredeneer je antwoord.**
+
+Na al deze berekeningen lopen we een eindje in de tuin. Op de plek waar we eerder het meesje aantroffen zit nu een ander meesje hartstochtelijk te zingen. Aan de zang hoor je direct dat dit een pimpelmeesje is. Je schat in dat er een kans is van 90% dat dit pimpelmeesje bij het andere meesje hoorde, en dat dat dus ook een pimpelmees is. 
+
+>- **M2.2m) Bereken nu de kans dat het inderdaad een pimpelmeesje is geweest: $$P(\text{pimpelmees}
+>| m_\text{obs} \text{ en } w_{\text{obs}}).$$ Bereken hier alleen de centrale waarde.**  
+>TIP: Maak hierbij gebruik van de [vergelijking](/module-2/extra-kansrekenregels) van Bayes. Om $$P(m_\text{obs} \text{ en }w_{\text{obs}})$$ te berekenen kun je gebruiken maken van de volgende formule: $$P(C) = P(C|D)\cdot P(D) + P(C|\text{niet }D)\cdot P(\text{niet }D)$$ .
+
+
+<!--Hierbij berekening vragen.-->
+
+
+## M2.3 Halfwaardedikte II ***
+
+We gaan nu terug naar het experiment uit opgave M1.5 waarbij we de halfwaardedikte van lood onderzoeken bij een bepaalde gamma-bron. We gaan de onzekerheid op het meetresultaat, $$d_{half}$$ onderzoeken. 
+
+In opgave M1.5 gebruikten we een methode om de halfwaardedikte te bepalen waarbij we steeds de ratio tussen het aantal counts zonder lood $$N_0$$ en een waarde met lood $$N_{half}$$ uitrekende. Zodra deze ratio onder de 0.5 komt nemen we $$x$$ als de halfwaardedikte. 
+
+>- **M2.3a) Wat is de onzekerheid op de ratio R? Bereken deze door gebruik te maken van de onzekerheden op $$N_0$$ en $$N_{half}$$ en de regels voor propagatie van ongecorreleerde fouten ([Deze kan je hier vinden](/module-2/foutenpropagatiei)). Schrijf je berekening helemaal uit.** 
+
+Een **schatter** is een recept om de waarde van een parameter af te schatten. De parameter die we hier willen bepalen is de halwaardedikte van lood (voor de energie van onze bron). De schatter is in dit geval $$d_{half}$$.
+
+Nu gaan we het experiment 50 keer herhalen en gaan we kijken naar de distributie van de gevonden halfwaardediktes. We gaan uit deze distributie de standaarddeviatie halen en dit gebruiken om de onzekerheid op de gevonden dikte $$d_{half}$$ te bepalen.
+
+Schrijf een loop waarin je 50x een nieuwe dataset genereert waaruit je 50x opnieuw een halfwaardedikte bepaald. Om 50 unieke dataset te maken moet je steeds de zogeheten ***seed*** veranderen. Dat kan je doen door een seed mee te geven aan de DAS dataset generator:
+ 	
+	for j in range(0,50) :
+		counts, diktes = ds.DataSetHalfwaardeDikte(j)
+
+Binnen deze loop maak je 50 unieke datasets aan waarbij de counts die gemeten worden steeds worden gevarieerd volgens de Poisson statistiek. 
+
+>- **M2.3b) Maak een histogram waarin je de gevonden halfwaardediktes van de 50 verschillende experimenten laat zien. Zorg dat het histogram de distributie netjes laat zien en dat de as-labels goed zijn aangemaakt.**\newline
+>**TIP:** de binning in het histogram luistert nauw doordat er alleen bepaalde uitkomsten van de halfwaardedikte mogelijk zijn. Reken precies uit wat de range en de binning moet zijn in het histogram om te voorkomen dat je lege bins midden in de distributie krijgt.  \newline\newline
+>
+>- **M2.3c) Ziet de distributie eruit zoals je verwacht had? Beredeneer je antwoord.**\newline\newline
+>
+>- **M2.3d) Bepaal nu het gemiddelde van de meetuitkomsten en de standaarddeviatie van de distributie.**  \newline\newline
+>
+>- **M2.3e) Zeggen deze getallen ook iets of de gemeten waardes gemiddeld te hoog of te laag uitkomen. Beredeneer je antwoord.**
+
+ 
+We gaan nu kijken hoe zuiver de meting is. De onzuiverheid is gedefinieerd als het verschil tussen de echte waarde en de gemiddelde gemeten waarde. Bij gesimuleerde data kunnen we dit onderzoeken, daarvan kunnen we het meetresultaat vergelijken met de initiële waardes die we hebben gebruikt in de simulatie.
+ 
+Om de zuiverheid van ons experiment te bepalen gaan we dus de bepaalde halfwaardedikte te vergelijken met de initiële halfwaardedikte die gebruikt is om de data te simuleren. Roep hiervoor de volgende functie aan in de dataset generator:
+
+	metingen, diktes, d_true = ds.DataSetHalfwaardeDikteVariatie(s,d_input)
+
+Je geeft twee variabelen mee aan de functie: de seed (**`s`**) en een waarde(**`d_input`**). We komen er zo op terug wat deze variabelen betekenen.
+De functie geeft drie objecten terug. De eerste twee zijn de lists met de counts en de looddikte (zoals je eerder ook terugkreeg), de derde variabele is halfwaardedikte die gebruikt is als input voor de simulatie. Dit noemen we meestal de *true* waarde in simulaties vandaar dat we hem **`d_true`** noemen. Met de variabele **`d_input`** kunnen we nu de input waarde van de simulatie controleren. In principe is **`d_input`** gelijk aan **`d_true`**, tenzij je de waarde -1 kiest. 
+
+Met deze dataset generator gaan we nu de zuiverheid van onze meting bestuderen.
+
+>* Kijk eerste eens naar wat de *true* waarde was in je datasets die je hierboven hebt gebruikt! Als je voor **`d_input`** nu -1 invult krijg je de halfwaardedikte die gebruikt is voor het genereren van de 50 datasets die je eerder in deze opdracht hebt gebruikt. \newline\newline
+>
+>
+>- **M2.3f) Hoe groot is de onzuiverheid van ons experiment? Vergelijk hiervoor de gemiddelde bepaalde halfwaardediktes van de 50 experimenten met de `d_true`.**
+
+
+Nu kun je het gedrag bekijken over meerdere waardes rond de **`d_true`** waarde. Plaats een grote loop over je hele code en varieer de **`d_input`** waarde bijvoorbeeld met 5 of 10 procent rond je aanvankelijke waarde. Voor elke setting van **`d_input`** bepaal je over 50 experimenten het gemiddelde van de bepaalde waardes van $$\text{d}_{\text{half}}$$. 
+
+
+>- **M2.3g) Zet de gevonden gemiddelde waardes zet je in een grafiek uit tegen de gekozen waardes van`d_input`. Let goed op de leesbaarheid van je grafiek en zorg dat je makkelijk kunt aflezen waar de zuivere meting zou liggen (dus als d_half = d_input).**\newline\newline
+>
+>- **M2.3h) Is de onzuiverheid altijd constant of varieert die afhankelijk van de halfwaardedikte?**\newline\newline
+>
+>- **M2.3i) In dit geval simuleren we het experiment. Zou je een methode kunnen bedenken om de onzuiverheid van je experiment te onderzoeken bij een echte meting?**

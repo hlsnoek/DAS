@@ -4,7 +4,7 @@ In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen
 
 Download voor deze opdracht het bestand [M1.3_Eigenschappen.py](M1.3_Eigenschappen.py) zorg dat deze in dezelfde folder staat as het `DAS_DatasetGenerator.py` bestand. 
 
-#### Normale distributie
+### Normale distributie
 We beginnen met het maken van een Gaussische dataset $$\text{dg}(x)$$ met 500 punten. Deze maken we aan met de functie **`genereerDistributieDG(N)`** waarbij **`N`** het aantal datapunten is die we willen genereren. We kiezen voor een dataset met 500 punten.
 
 		dg = ds.genereerDistributieDG(500)
@@ -46,7 +46,7 @@ Nu gaan we kijken naar het effect van een vermenigvuldiging van x.
 
 <!--Voor 2022: maak een instructie over het gebruik van de alpha optie om de histogrammen te laten zien als ze overlappen.-->
 
-#### Poisson
+### Poisson
 We gaan nu kijken wat het effect is van translatie en multiplicatie op een Poisson distributie $$dp(k)$$. De Poisson distributie krijg je door de volgende functie aan te roepen.
 
  			dp = ds.genereerDistributieDP(500)

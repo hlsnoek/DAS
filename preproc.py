@@ -24,6 +24,7 @@ for line in f:
     line = line.replace( r"{:toc}", r"")
     line = line.replace( r"quote", r"example")
     line = line.replace( r'<span style ="color:red">', r"*")
+    line = line.replace( r'<span style="color:red">', r"*")
     line = line.replace( r"<span style = 'color:blue'>", r"***Antwoord:** ")
     line = line.replace( r'<span style = "color:blue">', r"***Antwoord:** ")
     line = line.replace( r'<span style = "color: blue">', r"***Antwoord:** ")

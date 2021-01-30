@@ -10,7 +10,7 @@ for line in f:
         line += '\n\\usepackage{tcolorbox}\n'
         line += '\\usepackage{tikz, lipsum}\n\\usepackage{fancyvrb}\n'
         line += '\\tcbuselibrary{breakable,skins}\n\\tcbset{enhanced jigsaw}'
-        line += '\n\\newenvironment{example}{\\vspace{0.5cm}\\begin{tcolorbox}[breakable,title=Voorbeeld:,colframe=teal,colback=teal!5!white]}{\\end{tcolorbox}\\vspace{0.5cm}}'
+        line += '\n\\newenvironment{example}{\\vspace{0.5cm}\\begin{tcolorbox}[breakable,title='',colframe=teal,colback=teal!5!white]}{\\end{tcolorbox}\\vspace{0.5cm}}'
         line += '\n\\newenvironment{antwoord}{\\begin{tcolorbox}[breakable, colback=grey}{\\end{tcolorbox}}'
 
         line += '\\setlength{\\textheight}{21.5cm}\\setlength{\\textwidth}{15.0cm}\n'
@@ -47,6 +47,11 @@ for line in f:
     line = line.replace( r"♠" , r"$\spadesuit$")
     line = line.replace( r"♦" , r"$\diamondsuit$")
     line = line.replace( r"♣" , r"$\clubsuit$")
+    line = line.replace( r"\displaystyle" , r"")
+    line = line.replace( r"<center>" , r"")
+    line = line.replace( r"</center>" , r"")
+    line = line.replace( r"\lt" , r"<")
+    line = line.replace( r"\gt" , r">")
 
     if (line.startswith('\\newline')) : line = ""
     
