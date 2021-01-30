@@ -996,11 +996,12 @@ uitrekenen dat onze mees een Koolmeesje is.
   de kans uit te rekenen dat je een koolmeesje vindt die een massa heeft
   die in het gebied \passthrough{\lstinline!mees\_m\_laag!} en
   \passthrough{\lstinline!mees\_m\_hoog!} in ligt. Dit noem je ook wel
-  de voorwaardelijke kans \[P(\text{mees_m_hoog < m < mees_m_laag} 
-  | \text{koolmees})\]. Voor het gemak noteren we dit even als
-  \[P(m_{\text{obs}} | \text{koolmees} )\]. Herhaal dit voor het
+  de voorwaardelijke kans
+  \[P(\text{mees_m_hoog < m < mees_m_laag} \mid \text{koolmees})\]. Voor
+  het gemak noteren we dit even als
+  \[P(m_{\text{obs}} \mid \text{koolmees} )\]. Herhaal dit voor het
   pimpelmeesje, bereken dus ook
-  \[P(m_{\text{obs}} | \text{pimpelmees} )\].}
+  \[P(m_{\text{obs}} \mid \text{pimpelmees} )\].}
 \item
   \textbf{M2.2d) Als je kijkt naar de uitkomst van M2.2c), wat vogeltje
   denk je dan dat het is?}
@@ -1036,10 +1037,10 @@ De output volgt dezelfde logica als hiervoor.
 \begin{itemize}
 \item
   \textbf{M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen
-  \[ P(w_{\text{obs}} | \text{koolmees} )\] en \[P(w_{\text{obs}}
-  | \text{pimpelmees} )\] uit te rekenen maar nu door (alleen) gebruik
-  te maken van de informatie van de spanwijdtes. Noteer ook de
-  onzekerheden op de uitgerekende kansen.}\newline\newline
+  \[ P(w_{\text{obs}} \mid \text{koolmees} )\] en
+  \[P(w_{\text{obs}} \mid \text{pimpelmees} )\] uit te rekenen maar nu
+  door (alleen) gebruik te maken van de informatie van de spanwijdtes.
+  Noteer ook de onzekerheden op de uitgerekende kansen.}\newline\newline
 \item
   \textbf{M2.2g) Op basis van deze informatie, wat denk je nu dat het
   voor vogeltje is?}
@@ -1089,9 +1090,9 @@ We gaan terug naar de kansberekeningen.
 \tightlist
 \item
   \textbf{M2.2k) Combineer nu de gegevens en bereken de kansen
-  \[{P(m_{\text{obs}}\text{ en }w_{\text{obs}} 
-  | \text{koolmees})}\] en
-  \[{P(m_{\text{obs}}\text{ en }w_{\text{obs}} | \text{pimpelmees})}\].}\newline\newline
+  \[{P(m_{\text{obs}}\text{ en }w_{\text{obs}} \mid \text{koolmees})}\]
+  en
+  \[{P(m_{\text{obs}}\text{ en }w_{\text{obs}} \mid \text{pimpelmees})}\].}\newline\newline
 \item
   \textbf{M2.2l) Welk vogeltje denk je nu dat het is? Beredeneer je
   antwoord.}
@@ -1109,14 +1110,14 @@ meesje hoorde, en dat dat dus ook een pimpelmees is.
 \tightlist
 \item
   \textbf{M2.2m) Bereken nu de kans dat het inderdaad een pimpelmeesje
-  is geweest: \[P(\text{pimpelmees}
-  | m_\text{obs} \text{ en } w_{\text{obs}}).\] Bereken hier alleen de
-  centrale waarde.}\\
+  is geweest:
+  \[P(\text{pimpelmees} \mid m_\text{obs} \text{ en } w_{\text{obs}}).\]
+  Bereken hier alleen de centrale waarde.}\\
   TIP: Maak hierbij gebruik van de
   \href{/module-2/extra-kansrekenregels}{vergelijking} van Bayes. Om
   \[P(m_\text{obs} \text{ en }w_{\text{obs}})\] te berekenen kun je
   gebruiken maken van de volgende formule:
-  \[P(C) = P(C|D)\cdot P(D) + P(C|\text{niet }D)\cdot P(\text{niet }D)\]
+  \[P(C) = P(C \mid D)\cdot P(D) + P(C \mid \text{niet }D)\cdot P(\text{niet }D)\]
   .
 \end{itemize}
 \end{quote}
