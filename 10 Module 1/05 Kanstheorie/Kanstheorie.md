@@ -119,7 +119,7 @@ Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. We trekken
 * Voor elke kaart in het dek is er een kans dat je hem trekt. 
 
 > **Voorbeeld 3 - de of-regel:** <br>
-* De kans dat je een 3 of een 5 trekt is gelijk aan P(3)+(P(5) = 1/13+1/13 = 2/13. <br>
+* De kans dat je een 3 of een 5 trekt is gelijk aan P(3)+P(5) = 1/13+1/13 = 2/13. <br>
 * De kans dat je een 3 of een rode kaart trekt kunnen we niet zomaar optellen. Er bestaan ook rode kaarten met een 3. 
 
 > **Voorbeeld 4 - de en-regel:** <br>

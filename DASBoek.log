@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/MacPorts 2019.50896_2) (preloaded format=pdflatex 2019.8.6)  1 FEB 2021 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/MacPorts 2019.50896_2) (preloaded format=pdflatex 2019.8.6)  1 FEB 2021 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1074,7 +1074,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip53
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 50.
+Package hyperref Info: Option `breaklinks' set `true' on input line 51.
 
 (/opt/local/share/texmf-texlive/tex/latex/oberdiek/grffile.sty
 Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
@@ -1091,33 +1091,37 @@ Package: enumitem 2019/02/04 v3.8 Customized lists
 \enit@inbox=\box73
 \enit@count@id=\count311
 \enitdp@description=\count312
-) (./DASBoek.aux)
+) (./DASBoek.aux
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+)
 \openout1 = `DASBoek.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 116.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 117.
 
  (/opt/local/share/texmf-texlive/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 116.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 117.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1154,7 +1158,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count319
-LaTeX Info: Redefining \microtypecontext on input line 116.
+LaTeX Info: Redefining \microtypecontext on input line 117.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -1170,7 +1174,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring OFF on input line 116.
+Package hyperref Info: Link coloring OFF on input line 117.
 
 (/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1180,9 +1184,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count320
 )
-LaTeX Info: Redefining \ref on input line 116.
-LaTeX Info: Redefining \pageref on input line 116.
-LaTeX Info: Redefining \nameref on input line 116.
+LaTeX Info: Redefining \ref on input line 117.
+LaTeX Info: Redefining \pageref on input line 117.
+LaTeX Info: Redefining \nameref on input line 117.
 
 (./DASBoek.out) (./DASBoek.out)
 \@outlinefile=\write7
@@ -1246,149 +1250,429 @@ Hoofdstuk 1.
 
 ]
 Hoofdstuk 2.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 176.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 177.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [7]
-Underfull \hbox (badness 10000) in paragraph at lines 214--217
+Underfull \hbox (badness 10000) in paragraph at lines 215--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--226
+Underfull \hbox (badness 10000) in paragraph at lines 219--227
 
  []
 
-<Figures/Foutenpropagatie_const.png, id=124, 433.62pt x 433.62pt>
+<Figures/Foutenpropagatie_const.png, id=202, 433.62pt x 433.62pt>
 File: Figures/Foutenpropagatie_const.png Graphic file (type png)
 <use Figures/Foutenpropagatie_const.png>
 Package pdftex.def Info: Figures/Foutenpropagatie_const.png  used on input line
- 226.
+ 227.
 (pdftex.def)             Requested size: 395.51451pt x 395.51451pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-Overfull \vbox (3.31023pt too high) has occurred while \output is active []
-
-
-[9 <./Figures/Foutenpropagatie_const.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--244
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--240
-
- []
-
-<Figures/Foutenpropagatie_trans.png, id=139, 433.62pt x 433.62pt>
+<Figures/Foutenpropagatie_trans.png, id=211, 433.62pt x 433.62pt>
 File: Figures/Foutenpropagatie_trans.png Graphic file (type png)
 <use Figures/Foutenpropagatie_trans.png>
 Package pdftex.def Info: Figures/Foutenpropagatie_trans.png  used on input line
- 240.
+ 244.
 (pdftex.def)             Requested size: 395.51451pt x 395.51451pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--249
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./Figures/Foutenpropagatie_const.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 252--263
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--256
-
- []
-
-<Figures/Foutenpropagatie_cube.png, id=140, 433.62pt x 433.62pt>
+<Figures/Foutenpropagatie_cube.png, id=219, 433.62pt x 433.62pt>
 File: Figures/Foutenpropagatie_cube.png Graphic file (type png)
 <use Figures/Foutenpropagatie_cube.png>
 Package pdftex.def Info: Figures/Foutenpropagatie_cube.png  used on input line 
-256.
+263.
 (pdftex.def)             Requested size: 395.51451pt x 395.51451pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10 <./Figures/Foutenpropagatie_trans.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 262--265
+Underfull \hbox (badness 10000) in paragraph at lines 271--281
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--272
-
- []
-
-<Figures/Foutenpropagatie_func.png, id=146, 433.62pt x 433.62pt>
+<Figures/Foutenpropagatie_func.png, id=227, 433.62pt x 433.62pt>
 File: Figures/Foutenpropagatie_func.png Graphic file (type png)
 <use Figures/Foutenpropagatie_func.png>
 Package pdftex.def Info: Figures/Foutenpropagatie_func.png  used on input line 
-272.
+281.
 (pdftex.def)             Requested size: 395.51451pt x 395.51451pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11 <./Figures/Foutenpropagatie_cube.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 278--281
-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <./Figures/Foutenpropagatie_func.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 287--290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--313
+Underfull \hbox (badness 10000) in paragraph at lines 322--324
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+
+ []
+
+[14]
+Hoofdstuk 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 401.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 401.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 401.
+[15
+
+] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 485--489
+
+ []
+
+<Figures/CauchyDistributie.png, id=282, 462.528pt x 346.896pt>
+File: Figures/CauchyDistributie.png Graphic file (type png)
+<use Figures/CauchyDistributie.png>
+Package pdftex.def Info: Figures/CauchyDistributie.png  used on input line 515.
+
+(pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17] [18 <./Figures/CauchyDistributie.png>]
+Hoofdstuk 4.
+[19
+
+] [20]
+<Figures/Plot1_Correlatie_0.png, id=315, 389.455pt x 266.9975pt>
+File: Figures/Plot1_Correlatie_0.png Graphic file (type png)
+<use Figures/Plot1_Correlatie_0.png>
+Package pdftex.def Info: Figures/Plot1_Correlatie_0.png  used on input line 636
+.
+(pdftex.def)             Requested size: 256.08432pt x 175.56296pt.
+<Figures/Plot1_Correlatie1.png, id=316, 389.455pt x 266.9975pt>
+File: Figures/Plot1_Correlatie1.png Graphic file (type png)
+<use Figures/Plot1_Correlatie1.png>
+Package pdftex.def Info: Figures/Plot1_Correlatie1.png  used on input line 647.
+
+(pdftex.def)             Requested size: 256.08432pt x 175.56296pt.
+<Figures/Plot1_Correlatie_min1.png, id=317, 389.455pt x 266.9975pt>
+File: Figures/Plot1_Correlatie_min1.png Graphic file (type png)
+<use Figures/Plot1_Correlatie_min1.png>
+Package pdftex.def Info: Figures/Plot1_Correlatie_min1.png  used on input line 
+658.
+(pdftex.def)             Requested size: 256.08432pt x 175.56296pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures/Plot1_Correlatie_min0punt8.png, id=318, 389.455pt x 266.9975pt>
+File: Figures/Plot1_Correlatie_min0punt8.png Graphic file (type png)
+<use Figures/Plot1_Correlatie_min0punt8.png>
+Package pdftex.def Info: Figures/Plot1_Correlatie_min0punt8.png  used on input 
+line 670.
+(pdftex.def)             Requested size: 213.39272pt x 146.295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures/Plot1_Correlatie_min0punt3.png, id=319, 389.455pt x 266.9975pt>
+File: Figures/Plot1_Correlatie_min0punt3.png Graphic file (type png)
+<use Figures/Plot1_Correlatie_min0punt3.png>
+Package pdftex.def Info: Figures/Plot1_Correlatie_min0punt3.png  used on input 
+line 681.
+(pdftex.def)             Requested size: 213.39272pt x 146.295pt.
+[21 <./Figures/Plot1_Correlatie_0.png> <./Figures/Plot1_Correlatie1.png>]
+[22 <./Figures/Plot1_Correlatie_min1.png> <./Figures/Plot1_Correlatie_min0punt8
+.png> <./Figures/Plot1_Correlatie_min0punt3.png>] [23] [24
+
+]
+Hoofdstuk 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 750--754
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 767--768
+
+ []
+
+[25]
+<Figures/180px-Venn0001.svg.png, id=357, 180.675pt x 131.49126pt>
+File: Figures/180px-Venn0001.svg.png Graphic file (type png)
+<use Figures/180px-Venn0001.svg.png>
+Package pdftex.def Info: Figures/180px-Venn0001.svg.png  used on input line 789
+.
+(pdftex.def)             Requested size: 180.68282pt x 131.49693pt.
+<Figures/180px-Venn0111.svg.png, id=358, 180.675pt x 131.49126pt>
+File: Figures/180px-Venn0111.svg.png Graphic file (type png)
+<use Figures/180px-Venn0111.svg.png>
+Package pdftex.def Info: Figures/180px-Venn0111.svg.png  used on input line 802
+.
+(pdftex.def)             Requested size: 180.68282pt x 131.49693pt.
+<Figures/180px-Venn1010.svg.png, id=359, 180.675pt x 131.49126pt>
+File: Figures/180px-Venn1010.svg.png Graphic file (type png)
+<use Figures/180px-Venn1010.svg.png>
+Package pdftex.def Info: Figures/180px-Venn1010.svg.png  used on input line 813
+.
+(pdftex.def)             Requested size: 180.68282pt x 131.49693pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26 <./Figures/180px-Venn0001.svg.png> <./Figures/180px-Venn0111.svg.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 834--835
+
+ []
+
+[27 <./Figures/180px-Venn1010.svg.png>] [28]
+Hoofdstuk 6.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 934.
+
+(/opt/local/share/texmf-texlive/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [29
+
+]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 939.
+
+Underfull \hbox (badness 10000) in paragraph at lines 948--950
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 948--950
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 964--966
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 964--966
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 987--989
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 987--989
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 990--992
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 990--992
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1058
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1058
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1058
+
+ []
+
+[31] [32]
+Underfull \hbox (badness 10000) in paragraph at lines 1138--1140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1138--1140
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 115
+6.
+(/opt/local/share/texmf-texlive/tex/latex/lm/ts1lmtt.fd
+File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TS1/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `TS1/lmtt/b/n' tried instead on input line 1156.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
+
+ []
+
+
+Underfull \vbox (badness 6927) has occurred while \output is active []
+
+ [33]
+Underfull \hbox (badness 3407) in paragraph at lines 1190--1192
+[]\T1/lmr/bx/n/10.95 M2.2k) Com-bi-neer nu de gegevens en bereken de kansen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1192
+
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 1273--1279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1273--1279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1283--1285
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1283--1285
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
-[15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
+ [35]
+Underfull \hbox (badness 10000) in paragraph at lines 1326--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1326--1332
+
+ []
+
+
+Underfull \vbox (badness 3240) has occurred while \output is active []
+
+ [36]
+Underfull \hbox (badness 10000) in paragraph at lines 1354--1356
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1354--1356
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1357--1359
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1357--1359
+
+ []
+
+[37]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1365.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1365.
  (./DASBoek.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 372.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 372.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1365.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1365.
+
 Package rerunfilecheck Info: File `DASBoek.out' has not changed.
-(rerunfilecheck)             Checksum: 724BD149CEAACD28E1AD421E16DEBFC2;936.
+(rerunfilecheck)             Checksum: E1C9C1050A6DA86355BA6ADA0BBF7DC9;3635.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 38398 strings out of 493731
- 742552 string characters out of 6152121
- 920082 words of memory out of 5000000
- 41539 multiletter control sequences out of 15000+600000
- 584313 words of font info for 84 fonts, out of 8000000 for 9000
+ 39072 strings out of 493731
+ 751524 string characters out of 6152121
+ 922518 words of memory out of 5000000
+ 42027 multiletter control sequences out of 15000+600000
+ 621063 words of font info for 143 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 63i,11n,101p,837b,885s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-mathsy.enc}{/opt/local/
-share/texmf-texlive/fonts/enc/dvips/lm/lm-mathex.enc}{/opt/local/share/texmf-te
-xlive/fonts/enc/dvips/lm/lm-mathit.enc}{/opt/local/share/texmf-texlive/fonts/en
-c/dvips/lm/lm-ts1.enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-rm.
-enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-ec.enc}</opt/local/sh
+ 63i,12n,101p,837b,1645s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-ec.enc}{/opt/local/shar
+e/texmf-texlive/fonts/enc/dvips/lm/lm-ts1.enc}{/opt/local/share/texmf-texlive/f
+onts/enc/dvips/lm/lm-mathit.enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips
+/lm/lm-rm.enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-mathsy.enc}
+{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-mathex.enc}</opt/local/sh
 are/texmf-texlive/fonts/type1/public/lm/lmbx10.pfb></opt/local/share/texmf-texl
 ive/fonts/type1/public/lm/lmbx12.pfb></opt/local/share/texmf-texlive/fonts/type
-1/public/lm/lmcsc10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/l
-mex10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmmi10.pfb></op
-t/local/share/texmf-texlive/fonts/type1/public/lm/lmmi8.pfb></opt/local/share/t
-exmf-texlive/fonts/type1/public/lm/lmr10.pfb></opt/local/share/texmf-texlive/fo
-nts/type1/public/lm/lmr8.pfb></opt/local/share/texmf-texlive/fonts/type1/public
-/lm/lmro10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmsy10.pfb
->
-Output written on DASBoek.pdf (15 pages, 289730 bytes).
+1/public/lm/lmbx8.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmb
+xi10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmcsc10.pfb></op
+t/local/share/texmf-texlive/fonts/type1/public/lm/lmex10.pfb></opt/local/share/
+texmf-texlive/fonts/type1/public/lm/lmmi10.pfb></opt/local/share/texmf-texlive/
+fonts/type1/public/lm/lmmi12.pfb></opt/local/share/texmf-texlive/fonts/type1/pu
+blic/lm/lmmi6.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmmi8.p
+fb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmr10.pfb></opt/local/
+share/texmf-texlive/fonts/type1/public/lm/lmr6.pfb></opt/local/share/texmf-texl
+ive/fonts/type1/public/lm/lmr8.pfb></opt/local/share/texmf-texlive/fonts/type1/
+public/lm/lmri10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmro
+10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmsy10.pfb></opt/l
+ocal/share/texmf-texlive/fonts/type1/public/lm/lmsy8.pfb></opt/local/share/texm
+f-texlive/fonts/type1/public/lm/lmtk10.pfb></opt/local/share/texmf-texlive/font
+s/type1/public/lm/lmtt9.pfb>
+Output written on DASBoek.pdf (37 pages, 584951 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 6369 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 564 PDF objects out of 1000 (max. 8388607)
+ 451 compressed objects within 5 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 12678 words of extra memory for PDF output out of 14400 (max. 10000000)
 

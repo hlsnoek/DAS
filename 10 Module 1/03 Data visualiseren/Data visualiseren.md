@@ -29,36 +29,37 @@ Bij **grafieken**,
 
 Met behulp van voorbeelden laten we zien wat de richtlijnen zijn en waar je op moet letten. 
 
-Stel bijvoorbeeld dat we naar de gemiddelde dagtemperatuur in de maand December 2019 in de Bilt. Hieronder een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
+Stel bijvoorbeeld dat we naar de gemiddelde dagtemperatuur in de maand December 2019 in de Bilt. Hieronder<!--FIG , in Fig. \ref{fig:plot1_lijn_geenOpmaak}--> een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
 
-![](plot1_lijn_geenOpmaak.png){:width="60%"}
+![Plot met lijn tussen de datapunten.](plot1_lijn_geenOpmaak.png){:width="60%"}
 
 Je ziet dat dit niet erg duidelijk is. Het is bijvoorbeeld niet precies te zien waar de gemeten punten zitten, we hebben wel een vermoeden voor de plaatsen waarop de lijn abrupt van richting veranderd, maar wie weet zitten er nog wel meer datapunten tussen.
 
 Laten we dezelfde data eens plotten zonder lijnen maar alleen met punten: <br>
 
-![](plot2_scatter_geenOpmaak.png){:width="60%"}
+![Plot met alleen de datapunten.](plot2_scatter_geenOpmaak.png){:width="60%"}
 
-Vanuit deze grafiek zien we waar de datapunten zijn. Dat konden we in de lijnplot niet goed zien. We kunnen nu helaas de trend niet meer goed waarnemen. Omdat er op een dag maar één gemiddelde gemeten temperatuur kan bestaan, is het toch beter deze als een grafiek weer te geven. 
+Vanuit deze grafiek<!--FIG , Fig. \ref{fig:plot2_scatter_geenOpmaak}--> zien we waar de datapunten zijn. Dat konden we in de lijnplot niet goed zien. We kunnen nu helaas de trend niet meer goed waarnemen. Omdat er op een dag maar één gemiddelde gemeten temperatuur kan bestaan, is het toch beter deze als een grafiek weer te geven. 
 We kiezen ervoor om zowel een lijn als markers te gebruiken. 
 
-De plot kan echter netter. Zo staan er geen labels op de assen. Nu kunnen we in dit geval wel raden welke as het jaar aangeeft en welke as de temperatuur, maar in veel gevallen is dat niet zo duidelijk. Om die reden moeten er altijd **labels op de assen** staan, zie het figuur hieronder:
+De plot kan echter netter. Zo staan er geen labels op de assen. Nu kunnen we in dit geval wel raden welke as het jaar aangeeft en welke as de temperatuur, maar in veel gevallen is dat niet zo duidelijk. Om die reden moeten er altijd **labels op de assen** staan, zie het figuur hieronder<!--FIG \ref{fig:plot3_grafiek_aslabel}-->:
 
-![](plot3_grafiek_aslabel.png){:width="100%"}<br>
+![Plot met lijnen en datapunten en aslabels.](plot3_grafiek_aslabel.png){:width="100%"}<br>
 
 Zoals je ziet hebben we het formaat van de grafiek ook aangepast zodat de distributie iets natuurlijker overkomt.
 
 Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, tenzij de data dan onvolledig of onleesbaar wordt**. In het geval van het weergeven van de temperaturen wordt de data bijvoorbeeld onvolledig als we de temperatuur bij nul laten beginnen, we hebben immers ook temperaturen onder het vriespunt. In dit geval kunnen we de horizontale as wel bij nul laten beginnen, al is dat voor datums meestal anders. 
 
 De assen kunnen nog wat netter. Zo eindigt de verticale as net voor de waarde $$0$$, maar het is niet helemaal duidelijk bij welke waarde precies. De horizontale as begint een klein stukje voor 0 en eindigt een klein stukje na 30. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**.  In ons geval laten we het beginnen op de eerste dag van de maand en de laatste dag, daarnaast laten we de temperatuur beginnen op $$-2$$ C&deg; en eindigen op $$16$$ C&deg;. 
+<!--FIG Dit tonen we in Fig. \ref{fig:plot4_grafiek_aslabel_lim}.-->
 
-![](plot4_grafiek_aslabel_lim.png){:width="100%"}<br>
+![Plot met correct as-bereik.](plot4_grafiek_aslabel_lim.png){:width="100%"}<br>
 
 Stel we willen de temperatuur in de Bilt nu weergeven naast de temperaturen gemeten in Vlissingen en Maastricht. De grafiek ziet er dan zo uit:
 
-![](plot5_grafieken_aslabel_lim.png){:width="100%"}<br>
+![Plot met verschillende weerstations.](plot5_grafieken_aslabel_lim.png){:width="100%"}<br>
 
-We hebben ook een legenda toegevoegd zodat duidelijk is welke lijn bij welk weerstation hoort. 
+We hebben<!--FIG in Fig.\ref{fig:plot5_grafieken_aslabel_lim}--> ook een legenda toegevoegd zodat duidelijk is welke lijn bij welk weerstation hoort. 
 
 Tot nu toe hebben we nog geen titels toegevoegd aan de plots. Dit komt omdat dat voor verslagen en wetenschappelijke artikelen ongebruikelijk is, daar moet het onderschrift namelijk al vertellen wat er te zien is in de grafiek. In webteksten, lesteksten en presentaties kan het echter voorkomen dat een grafiek wel een titel heeft, omdat er in die context vaak geen onderschrift toegevoegd kan worden. 
 
@@ -82,13 +83,13 @@ Staafdiagrammen en histogrammen worden allebei typisch gebruikt om frequenties v
 
 Hieronder zie je voorbeelden van een staafdiagram en een histogram.
 
-![](autos-in-nederland.png){:width="80%"}<br>
+![Een voorbeeld van een staafdiagram.](autos-in-nederland.png){:width="60%"}<br>
 
-Hierboven zie je een **staafdiagram** die de hoeveelheid auto's in Nederland laat zien over drie verschillende jaren opgesplitst naar drie auto categorieën. 
+Hierboven<!--FIG , in Fig. \ref{fig:autos-in-nederland}--> zie je een **staafdiagram** die de hoeveelheid auto's in Nederland laat zien over drie verschillende jaren opgesplitst naar drie auto categorieën. 
 
-![](verdeling-van-inkomens-2.png){:width="80%"}<br>
+![Een voorbeeld van een histogram.](verdeling-van-inkomens-2.png){:width="60%"}<br>
 
-Hierboven zie je een **histogram** die de inkomensverdeling in Nederland laat zien. 
+Hierboven<!--FIG , in Fig. \ref{fig:verdeling-van-inkomens-2}--> zie je een **histogram** die de inkomensverdeling in Nederland laat zien. 
 
 Er is een belangrijk verschil tussen een staafdiagram en een histogram. Een staafdiagram laat de frequentie zien voor *gecategoriseerde* verdelingen. Een histogram wordt gebruikt om het resultaat van een *numeriek sorteerbare* verdeling mee weer te geven. In het geval van een histogram gaat het vaak om data met een continue variabele, zoals bijvoorbeeld bij het opmeten van lengte of gewicht. In dat geval sorteer je de data per interval.
 
@@ -100,17 +101,17 @@ Bij een staafdiagram kun je de frequentie direct aflezen; voor één categorie l
 
 Voor een histogram is de breedte van de intervallen van belang. Als we te weinig bins kiezen dan worden de intervallen erg groot (/breed) en is er minder te zeggen over het gedrag van de data. Als we te veel bins kiezen dan fluctueert de hoogte van de (smalle) bins onderling erg en is het ook lastiger om de trend in de data goed in te schatten.
 
-Dit bekijken we aan de hand van een voorbeeld. Zo zou het kunnen zijn dat het ideale plaatje bij een gegeven dataset het volgende is:
+Dit bekijken we aan de hand van een voorbeeld<!--FIG , zie Fig. \ref{fig:Plot11_RandNorm_Hist_GoedeBins}-->. Zo zou het kunnen zijn dat het ideale plaatje bij een gegeven dataset het volgende is:
 
-![](Plot11_RandNorm_Hist_GoedeBins.png){:width="400px"}<br>
+![Een histogram met een goede bin en range keuze.](Plot11_RandNorm_Hist_GoedeBins.png){:width="400px"}<br>
 
-Als we te brede bins kiezen dan wordt de data afgevlakt en kunnen we het bovenstaande gedrag niet meer herkennen:
+Als we te brede bins kiezen dan wordt de data afgevlakt en kunnen we het bovenstaande gedrag niet meer herkennen<!--FIG , zie Fig. \ref{fig:Plot12_RandNorm_Hist_TeWeinigBins}-->:
 
-![](Plot12_RandNorm_Hist_TeWeinigBins.png){:width="400px"}<br>
+![Een histogram met een te grove binning.](Plot12_RandNorm_Hist_TeWeinigBins.png){:width="400px"}<br>
 
-Kiezen we juist te smalle bins, dan kunnen we het gedrag van de data nog wel herkennen (in dit geval) maar er is veel fluctuatie in de hoogte van de bins: 
+Kiezen we juist te smalle bins, <!--FIG ,zoals hieronder in Fig. \ref{fig:Plot13_RandNorm_Hist_TeVeelBins}--> dan kunnen we het gedrag van de data nog wel herkennen (in dit geval) maar er is veel fluctuatie in de hoogte van de bins: 
 
-![](Plot13_RandNorm_Hist_TeVeelBins.png){:width="400px"}<br>
+![Een histogram met een te fijne binning.](Plot13_RandNorm_Hist_TeVeelBins.png){:width="400px"}<br>
 
 Met het kiezen van te veel bins hebben we dus visuele ruis geïntroduceerd, dit maakt het moeilijker om het gedrag op het oog te herkennen.
 
@@ -168,9 +169,9 @@ Daarna roepen we het **`plot`** commando uit matplotlib.pyplot aan:
 
     plt.plot(t_data, h_data, 'ro')
 
-Met **`'ro'`** geven we aan dat we rode gevulde punten in de plot willen. De plot ziet er nu als volgt uit:
+Met **`'ro'`** geven we aan dat we rode gevulde punten in de plot willen. De plot ziet er nu als volgt <!--FIG (zie Fig. \ref{fig:Plot14_Vallenbal_PlotOnopgemaakt})--> uit.
 
-![](Plot14_Vallenbal_PlotOnopgemaakt.png){:width="400px"}<br>
+![Plot met rode punten.](Plot14_Vallenbal_PlotOnopgemaakt.png){:width="400px"}<br>
 
 Je ziet dat de assen automatisch vanaf de laagste waarde tot aan de hoogste waarden gaan, en hierbij niet eindigen op een maatstreepje. Daarnaast willen we graag labels op de assen.
 
@@ -184,9 +185,9 @@ Labels voor de assen kunnen we als volgt specificeren:
     plt.xlabel('t (s)')
     plt.ylabel('h (cm)')
     
-Het resultaat is:
+Het resultaat is<!--FIG (Fig. \ref{fig:Plot15_Vallenbal_PlotOpgemaakt})-->:
 
-![](Plot15_Vallenbal_PlotOpgemaakt.png){:width="400px"}<br>
+![Plot met aslabels en -ranges.](Plot15_Vallenbal_PlotOpgemaakt.png){:width="400px"}<br>
 
 De volledige code tot nu toe is:    
 
@@ -212,16 +213,16 @@ Deze dataset kunnen we in de grafiek van de eerste plotten door twee keer het pl
     plt.plot(t_data, h_data, 'ro')
     plt.plot(t_data2, h_data2, 'bo')
    
-Daarna gebruiken we weer dezelfde eigenschappen voor de as-limieten en de as-labels":
+Daarna gebruiken we weer dezelfde eigenschappen voor de as-limieten en de as-labels:
 
     plt.xlim(0,7)
     plt.ylim(0,200)
     plt.xlabel('t (s)')
     plt.ylabel('h (cm)')
     
-De plot ziet er dan als volgt uit:<br>
+De plot ziet er dan als volgt uit<!--FIG (Fig. \ref{fig:PLOT16_MeerdereScatter})-->:<br>
 
-![](PLOT16_MeerdereScatter.png){:width ="400px"}<br>
+![Twee datasets.](PLOT16_MeerdereScatter.png){:width ="400px"}<br>
 
 Omdat er meerdere datasets in één grafiek zijn weergegeven is het noodzakelijk om hier een legenda bij te plaatsen. Een legenda kan op meerdere plaatsen in de figuur neergezet worden. Voordat we de legenda kunnen toevoegen moeten we de plots eerst labelen dit doen we door **`label = "naam"`** achteraan in de **`plot`** commando's toe te voegen:
 
@@ -232,9 +233,9 @@ Nu kunnen we de legenda als volgt toevoegen (hier kiezen we ervoor om de legenda
 
     plt.legend(loc='upper right', shadow=True, ncol=1)
 
-De grafiek is nu als volgt:
+De grafiek is nu als volgt<!--FIG (Fig. \ref{fig:PLOT18_MeerdereScatter_legenda})-->:
 
-![](PLOT18_MeerdereScatter_legenda.png){:width ="400px"}<br>
+![Plot met legenda.](PLOT18_MeerdereScatter_legenda.png){:width ="400px"}<br>
 
 De volledige code tot nu toe is:    
 
@@ -279,9 +280,9 @@ Dit kan je als volgt doen:
     plt.legend(loc='upper right', shadow=True, ncol=1)
 
     
-De bijbehorende plot:
+De bijbehorende plot<!--FIG (Fig. \ref{fig:PLOT17_MeerdereLijnen_legenda})-->:
 
-![](PLOT17_MeerdereLijnen_legenda.png){:width="400px"}<br>
+![Een plot met twee lijnen en legenda.](PLOT17_MeerdereLijnen_legenda.png){:width="400px"}<br>
 
 ### Voorbeeld een histogram plotten
 

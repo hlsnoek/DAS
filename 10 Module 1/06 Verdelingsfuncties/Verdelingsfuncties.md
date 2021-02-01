@@ -49,9 +49,9 @@ In deze vergelijkingen is het in elk geval ook gewoon handiger om $$E(x)$$ of $$
 ### Uniform
 <a name="Uniform"></a>
 De uniforme distributie is een vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast $$i$$, $$P({i})$$, gevonden kan worden met de relatie: $$P({i}) = 1/N$$.<br>
-Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt uit:
+Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt uit<!--FIG (zie Fig. \ref{fig:UniformeDistributieDobbelsteen}-->:
 
-![](UniformeDistributieDobbelsteen.png){:width="80%"}
+![De kansverdeling van uitkomsten van een worp met een dobbelsteen.](UniformeDistributieDobbelsteen.png){:width="80%"}
 
 <br>
 Een algemene formule voor een **continue uniforme** verdeling is: 
@@ -59,9 +59,9 @@ Een algemene formule voor een **continue uniforme** verdeling is:
 <center>$${\displaystyle f(x;a,b) = \frac{1}{b-a}} \quad\text{voor}\quad a \leq x \leq b.$$</center>
 
 Hierbij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
-Hieronder zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
+Hier<!--FIG , in \ref{fig:UniformeDistributieAlgemeen} --> zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
 
-![](UniformeDistributieAlgemeen.png){:width="80%"}
+![Een voorbeeld van de kansdichtheidsverdeling van een uniforme distributie.](UniformeDistributieAlgemeen.png){:width="80%"}
 
 De verwachtingswaarde en de standaarddeviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. 
  
@@ -94,14 +94,14 @@ We hebben een kans van $$(1-0.3*0.3) = 0.91$$ dat we minstens 1 rode knikker heb
 2 trekkingen, 0 gele knikkers: $$P(k;n,p) = p(0;2,0.3) = \frac{2!}{(0! \cdot 2!)} 0.3^0 \cdot 0.7^2 =  0.49 $$<br>
 2 trekkingen, 1 gele knikkers: $$P(k;n,p) = p(1;2,0.3) = \frac{2!}{1!\cdot 1!} 0.3^1 \cdot 0.7^1 = 0.42 $$<br>
 2 trekkingen, 2 gele knikkers: $$P(k;n,p) = p(2;2,0.3) = \frac{2!}{2! \cdot 0!} 0.3^2 \cdot 0.7^0 = 0.09$$<br><br>
-Deze kansen staan ook uitgedrukt in de gele lijn in het plaatje hieronder.
+Deze kansen staan ook uitgedrukt in de gele lijn in de figuur hieronder.
 
 
 De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet toepassen op fractionele waardes. Dat is ook logisch want het Bernoulli experiment kunnen we niet een fractioneel aantal keer uitvoeren. De kansverdeling is asymmetrisch voor lage waardes van $$n$$ en wordt voor grotere waardes van $$n$$ steeds meer symmetrisch.
 
-Hieronder zie je een aantal verdelingen voor de Binomiaal.
+Hier<!--FIG , in Fig. \ref{fig:BinomiaalDistributie},--> zie je een aantal verdelingen voor de Binomiaal.
 
-![](BinomiaalDistributie.png){:width="80%"}
+![Binomiaal kansdichtheidsverdelingen.](BinomiaalDistributie.png){:width="80%"}
 
 Het voorbeeld van daarnet is uitgedrukt in de gele lijn. Kijk ook eens goed naar de blauwe lijn. De kans $$p=1$$ zegt dat een de uitkomst altijd succes is. Als je het experiment twee keer uitvoert, zijn ze dus gegarandeerd allebei succesvol. En de kans is 0 dat je maar 1 uit 2 $$(n=2,k=1)$$ positieve uitslagen hebt. Dat kan immers ook niet, je kan alleen maar succes hebben, er bestaan geen andere uitslagen van het experiment.
 
@@ -116,9 +116,9 @@ De Poisson kent, in tegenstelling tot de binomiaal dus maar 1 parameter.
 De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de variantie is ook $$\lambda$$. De onzekerheid op een stochast, als deze de Poisson statistiek volgt, is gelijk aan de standaarddeviatie: $$\sigma = \sqrt{\text{var}} = \sqrt{\lambda}$$.
 
 Het is dus een bijzondere vergelijking!
-Hieronder zie hoe de Poisson distributie eruit ziet voor verschillende waardes van $$\lambda$$.
+Hier<!--FIG , in Fig. \ref{fig:PoissonDistributie}--> zie hoe de Poisson distributie eruit ziet voor verschillende waardes van $$\lambda$$.
 
-![](PoissonDistributie.png){:width="80%"}
+![Poisson-verdeelde kansdichtheidsdistributie.](PoissonDistributie.png){:width="60%"}
 
 De Poisson verdeling is, net als de Binomiaal vergelijking asymmetrisch voor lage waardes van $$\lambda$$ en wordt voor steeds meer symmetrisch voor hogere waardes van $$\lambda$$. 
 Dat is ook geen toeval, de Poisson vergelijking is een speciale vorm van de Binomiaal. Als je hier meer over wilt weten kun je [dit](https://www.youtube.com/watch?v=eexQyHj6hEA) filmpje bekijken.
@@ -137,9 +137,9 @@ Over de mathematische beginselen van de Normale verdelingsfunctie gaan we hier v
 
 
 
-Hieronder zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$\mu$$ en $$\sigma$$. 
+Hier<!--FIG , in Fig. \ref{fig:NormaleDistributie}--> zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$\mu$$ en $$\sigma$$. 
 
-![](NormaleDistributie.png){:width="80%"}
+![Normaal-verdeelde kansdichtheidsverdelingen.](NormaleDistributie.png){:width="60%"}
 
 Het is goed om op te merken dat de Normale verdeling een symmetrische continue verdeling is. De meeste stochasten zijn gegroepeerd rond het gemiddelde en hoe meer we van het gemiddelde afwijken, hoe kleiner de kans is dat we een stochast aantreffen.
 

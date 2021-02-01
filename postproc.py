@@ -15,7 +15,7 @@ for line in f:
         line += '\\usepackage{tikz, lipsum}\n\\usepackage{fancyvrb}\n'
         line += '\\tcbuselibrary{breakable,skins}\n\\tcbset{enhanced jigsaw}'
         line += '\n\\newenvironment{example}{\\vspace{0.5cm}\\begin{tcolorbox}[enhanced,title='',colframe=teal,colback=teal!5!white]}{\\end{tcolorbox}\\vspace{0.5cm}}'
-        line += '\n\\newenvironment{antwoord}{\\begin{tcolorbox}[enhanced,breakable, colback=grey}{\\end{tcolorbox}}'
+        line += '\n\\newenvironment{antwoord}{\\begin{tcolorbox}[enhanced,breakable, colback=grey]}{\\end{tcolorbox}}\n'
 
         line += '\\setlength{\\textheight}{21.5cm}\\setlength{\\textwidth}{15.0cm}\n'
         line += '\\setlength{\\topmargin}{0.0cm}\n'
@@ -53,7 +53,7 @@ for line in f:
     line = line.replace( r"\[", r"$" )
     line = line.replace( r"\]", r"$" )
 
-        
+    line = line.replace( r"$$", r"$")
     line = line.replace( r"♥" , r"$\heartsuit$")
     line = line.replace( r"♠" , r"$\spadesuit$")
     line = line.replace( r"♦" , r"$\diamondsuit$")
@@ -95,14 +95,20 @@ for line in f:
         if (inExEnv) :
             temp_line = "{\\begin{center}"
             temp_line += line[0:line.find('{')]+'[width='+w+'\\textwidth]'+line[line.find('{'):line.find('}')+1]
-            temp_line += "\\end{center}}"
+#            temp_line += "\\end{center}}"
 
         else : 
             temp_line = '\\begin{figure}[h!]\n\\centering\n'
             temp_line += line[0:line.find('{')]+'[width='+w+'\\textwidth]'+line[line.find('{'):line.find('}')+1]
-            temp_line += '\n\\end{figure}'
+#            temp_line += '\n\\end{figure}'
         line = temp_line
 
+
+    if (line.count('\label{fig')) :
+        if (inExEnv) : line += "\\end{center}}"
+        else : line += '\n\\end{figure}'
+        
+        
     l = line
     print(l)
 

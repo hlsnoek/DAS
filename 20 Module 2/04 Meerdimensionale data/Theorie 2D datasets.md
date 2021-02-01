@@ -56,25 +56,25 @@ variabelen maximaal afhankelijk. In het geval van een correlatiecoëfficiënt ge
 
 Hieronder zijn een aantal 2D datasets weergegeven met verschillende correlatiecoëfficiënten:
 
-Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 0 $$:
+Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 0 $$.
 
-<p align="center">![](Plot1_Correlatie_0.png){:width="60%"}</p>
+<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0$$.](Plot1_Correlatie_0.png){:width="60%"}</p>
 
-Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 1 $$:
+Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 1 $$.
 
-<p align="center">![](Plot1_Correlatie1.png){:width="60%"}</p>
+<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=1$$.](Plot1_Correlatie1.png){:width="60%"}</p>
 
-Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = -1 $$:
+Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = -1 $$.
 
-<p align="center">![](Plot1_Correlatie_min1.png){:width="60%"}</p>
+<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-1$$.](Plot1_Correlatie_min1.png){:width="60%"}</p>
 
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.8$$ en $$\rho_{x,y} = 0.8$$:
 
-<p align="center">![](Plot1_Correlatie_min0punt8.png){:width="45%"}![](Plot1_Correlatie_0punt8.png){:width="45%"}</p>
+<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.8$$.](Plot1_Correlatie_min0punt8.png){:width="45%"}![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.8$$.](Plot1_Correlatie_0punt8.png){:width="45%"}</p>
 
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} = 0.3$$:
 
-<p align="center">![](Plot1_Correlatie_min0punt3.png){:width="45%"}![](Plot1_Correlatie_0punt3.png){:width="45%"}</p>
+<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.3$$.](Plot1_Correlatie_min0punt3.png){:width="45%"}![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.3$$.](Plot1_Correlatie_0punt3.png){:width="45%"}</p>
 
 
 Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter is de afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit des te kleiner is de correlatie tussen de variabelen. 
