@@ -56,7 +56,7 @@ Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt
 <br>
 Een algemene formule voor een **continue uniforme** verdeling is: 
 
-<center>$${\displaystyle f(x;a,b) = \frac{1}{b-a}} \quad\text{voor}\quad a \leq x \leq b.$$</center>
+$${\displaystyle f(x;a,b) = \frac{1}{b-a}} \quad\text{voor}\quad a \leq x \leq b.$$
 
 Hierbij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
 Hier<!--FIG , in \ref{fig:UniformeDistributieAlgemeen} --> zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
@@ -81,7 +81,7 @@ Dit geeft de vergelijking voor de standaarddeviatie: $$\sigma = \frac{(b-a)}{\sq
 Om de binomiale verdelingsfunctie uit te leggen beginnen we eerst met het Bernoulli-experiment. Dit is een experiment met maar twee uitkomsten, 'succes' en 'mislukking'. De kans op succes is $$p$$ en de kans op mislukking $$q$$, dan is dus $$q=1-p$$. 
 
 Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de kans op een totaal aantal malen succes uit deze $$n$$ experiment gedefinieerd als $$k$$. Dit wordt beschreven door de binomiale verdeling: <br>
-<center>$${\displaystyle P(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } .$$</center>
+$${\displaystyle P(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } .$$
 
 Het gemiddelde en de standaarddeviatie van de Binomiale verdeling zijn: <br>
 $$E(k) = np$$ en $$\sigma = \sqrt{npq}$$.
@@ -129,7 +129,7 @@ Dat is ook geen toeval, de Poisson vergelijking is een speciale vorm van de Bino
 <a name="Normaal"></a>
 Stochastische variabelen zijn normaal verdeeld (ook wel Gaussisch) als ze door de volgende functie worden beschreven:
 
-<center>$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} }.$$</center>
+$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} }.$$
 
 De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaarddeviatie is precies $$\sigma$$. <!--Dat is zeker geen toevalligheid.--> 
 

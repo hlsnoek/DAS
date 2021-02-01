@@ -12,7 +12,7 @@ We breiden de regels hier verder uit en gaan kijken naar het combineren van kans
 
 ## De of regel wanneer A en B niet wederzijds uitsluitend zijn:
 In het geval A en B niet wederzijds uitsluitend zijn dan:<br>
-<center>$$P(\text{A en B}) \equiv P(A \cap B) >0.$$</center><br>
+$$P(\text{A en B}) \equiv P(A \cap B) >0.$$
 De kans dat A of B gemeten wordt is dan:
 
 $$P(\text{A of B}) = P(A) + P(B) - P(\text{A en B}).$$

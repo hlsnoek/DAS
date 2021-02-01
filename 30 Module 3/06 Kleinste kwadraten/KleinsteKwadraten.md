@@ -36,7 +36,7 @@ We vermoeden een lineair verband tussen de variabelen $$x$$ en $$y$$ met paramet
 Bekijk het voorbeeldje hierboven, we zien twee voorbeelden van oplossingen (de rode lijn en de gestreepte zwarte lijn) met elk hun waardes voor $$a$$ en $$b$$. De vraag is nu hoe bepaal je welke het beste is. Hiervoor gebruiken we een maat die we $$\chi^2$$ noemen. 
 
 Stel dat we een functie $$f(x;a,b)$$ hebben die waardes van $$y$$ voorspelt. En we hebben dataset met $$N$$ waardes voor $$x: {x_1,x_2,...,x_N}$$ met corresponderende waardes voor $$y: {y_1,y_2,...,y_N}$$ waarbij elke waarde van $$y$$ gemeten is met precisie $$\sigma_i$$. Nu kunnen we de som nemen van het kwadratische verschil van alle punten in de dataset met de voorspelde waardes $$f(x_i;a,b)$$, geschaald met de onzekerheden $$\sigma_i$$. Deze som noemen we $$\chi^2:$$<br>
-<center>$${\displaystyle \chi^2 = \sum_{i=1}^N \left( \frac{y_i - f(x_i;a)}{\sigma_i}\right)^2 }$$</center> 
+$${\displaystyle \chi^2 = \sum_{i=1}^N \left( \frac{y_i - f(x_i;a)}{\sigma_i}\right)^2 }$$
 
 De meest optimale waarde voor $$a$$ en $$b$$ geeft de kleinste $$\chi^2$$. 
 
@@ -44,11 +44,11 @@ Door het kwadraat te gebruiken en niet het absolute verschil tussen de datapunte
 
 In de meeste gevallen kunnen we vaak algebraïsch de vergelijking oplossing. Namelijk door het minimum van de vergelijking te vinden. Als we nu kijken naar een functie die afhangt van slechts één parameter $$a$$ dan kunnen we het minimum vinden op het punt dat de afgeleide gelijk is aan nul:<br>
 
-<center>$${\displaystyle \frac{\partial \chi^2}{\partial a} =0}$$</center><br>
+$${\displaystyle \frac{\partial \chi^2}{\partial a} =0}$$
 
 Dit geeft: 
 
-<center>$${\displaystyle \frac{\partial \chi^2}{\partial a} = \sum_{i=1}^N \frac{1}{\sigma_i^2} \frac{\partial f(x_i;a)}{\partial a} \left( y_i - f(x_i;a)\right) = 0 }$$</center> 
+$${\displaystyle \frac{\partial \chi^2}{\partial a} = \sum_{i=1}^N \frac{1}{\sigma_i^2} \frac{\partial f(x_i;a)}{\partial a} \left( y_i - f(x_i;a)\right) = 0 }$$
 
 De betreffende waarde van $$a$$ waarvoor dit geldt, genoteerd als $$\hat{a}$$ is dicht bij de echte waarde van de parameter, maar zal natuurlijk nog steeds een afschatting zijn. 
 

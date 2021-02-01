@@ -62,7 +62,7 @@ Hoe meer kogels we wegen en meenemen in ons gemiddelde, hoe nauwkeuriger we dit 
 Intuïtief voelen we aan dat hoe meer metingen we doen, hoe meer informatie we hebben, en hoe nauwkeuriger ons resultaat is. 
 
 De **wet van grote aantallen** zegt dat het berekende steekproef gemiddelde, $$<{X}>$$, van een distributie met een eindige variantie, convergeert naar het populatie gemiddelde $$\mu$$ voor steeds grote steekproeven:<br>
-<center>$${\displaystyle lim_{N \to \infty} P( \mid \lt X \gt - \mu \mid \gt \epsilon) = 0 } $$</center>
+$${\displaystyle lim_{N \to \infty} P( \mid \lt X \gt - \mu \mid \gt \epsilon) = 0 } $$
 
 Ofwel de kans dat het steekproef gemiddelde meer afwijkt van het populatie gemiddelde dan een heel klein getal convergeert naar 0 voor oneindig grote steekproeven. 
 Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan  oneindig grote, of nagenoeg oneindig grote populaties, zoals bijvoorbeeld als je de gemiddelde massa van het electron wilt bepalen. 

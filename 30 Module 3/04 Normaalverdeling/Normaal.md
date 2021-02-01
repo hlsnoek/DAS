@@ -15,13 +15,13 @@ Voordat we verder gaan over de normaalverdeling bekijken we eerst kort de Poisso
 
 $${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}.$$
 
-![](PoissonDistributie.png){:width="80%"}
+![De Poisson distributie.](PoissonDistributie2.png){:width="80%"}
 
-De Poisson verdeling is asymmetrisch, vooral voor lage waardes van $$\lambda$$. Voor grotere waardes van $$\lambda$$ zien we dat de verdeling steeds symmetrischer is en ook steeds meer overeenkomsten vertoont met een normaal verdeling. 
+Zoals we hier<!--FIG in Fig. \ref{fig:PoissonDistributie2}--> zien is de Poisson verdeling is asymmetrisch, vooral voor lage waardes van $$\lambda$$. Voor grotere waardes van $$\lambda$$ zien we dat de verdeling steeds symmetrischer is en ook steeds meer overeenkomsten vertoont met een normaal verdeling. 
 
-Om dit te visualiseren tonen we de twee functies over elkaar heen voor een waarde van $$\lambda=60$$. Deze vergelijken we nu met de normaal verdeling met $$\mu =60$$ en $$\sigma = \sqrt{60}$$.
+Om dit te visualiseren tonen we de twee functies over elkaar heen voor een waarde van $$\lambda=60$$. Deze vergelijken we nu met de normaal verdeling met $$\mu =60$$ en $$\sigma = \sqrt{60}$$. <!--FIG Zie figuur \ref{fig:PoissonNormalDistributie}.-->
 
-![](PoissonNormalDistributie.png){:width="80%"}
+![Vergelijking tussen de Poisson en de Normaal distributie.](PoissonNormalDistributie.png){:width="80%"}
 
 Er blijven natuurlijk verschillen, zo is de Poissonverdeling een discrete verdeling, maar de grote gelijkenis verklaart wel waarom we, voor grotere waardes van $$\lambda$$ gebruik mogen maken van vergelijkingen die eigenlijk alleen voor de Normale verdeling gelden. Zoals bijvoorbeeld de regels voor de foutenpropagatie.
 
@@ -30,13 +30,13 @@ Er blijven natuurlijk verschillen, zo is de Poissonverdeling een discrete verdel
 We richten ons nu op de Normaalverdeling en herhalen nogmaals de vergelijking. 
 
 
-<center>$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} }.$$</center>
+$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} }.$$
 
 De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaarddeviatie is precies $$\sigma$$. 
 
-Hieronder zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$\mu$$ en $$\sigma$$. 
+Hier<!--FIG in figuur \ref{fig:NormaleDistributie}--> zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$\mu$$ en $$\sigma$$. 
 
-![](NormaleDistributie.png){:width="80%"}
+![De Normaalverdeling.](NormaleDistributie2.png){:width="80%"}
 
 We zien dat voor hogere waardes voor $$\sigma$$ de datapunten meer verspreidt zullen zijn. Met andere woorden als de onzekerheid op een meting wordt uitgedrukt met de standaarddeviatie $$\sigma$$ en de onzekerheid is groter, dat is de spreiding van de onderliggende kansdichtheidsverdeling ook groter. 
 
@@ -45,15 +45,16 @@ Stel nu dat we een meting doen $$L$$ en we kennen het populatiegemiddelde $$\mu_
 We kunnen dit uitdrukken met behulp van de Z-waarde ofwel Z-score. 
 
 
-Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, is hieronder schematisch weergegeven: 
+Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, is hier<!--FIG in figuur \ref{fig:NormaleVerdeling_1} en \ref{fig:NormaleVerdeling_2}--> schematisch weergegeven: 
 
-![](NormaleVerdeling_1.png){:width="60%"}
-![](NormaleVerdeling_2.png){:width="60%"}
+![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden.](NormaleVerdeling_1.png){:width="70%"}
+![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaleVerdeling_2.png){:width="70%"}
 
-Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X> x$$ te vinden, is hieronder schematisch weergegeven:
+Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X> x$$ te vinden, is hier<!--FI\
+G in figuur \ref{fig:NormaleVerdeling_3} en \ref{fig:NormaleVerdeling_4}--> schematisch weergegeven:
 
-![](NormaleVerdeling_3.png){:width="60%"}
-![](NormaleVerdeling_4.png){:width="60%"}
+![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaleVerdeling_3.png){:width="70%"}
+![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaleVerdeling_4.png){:width="70%"}
 
 Om dit oppervlak uit te rekenen gebruiken we de zogenoemde *Z-toets*. Stel een dataset met $$n > 30$$ datapunten is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. De $$Z-score$$, voor een bepaalde observatiewaarde $$x$$, is dan gelijk aan:
 

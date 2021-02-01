@@ -1,21 +1,18 @@
-\contentsline {chapter}{\numberline {1}Introductie module 2}{5}{chapter.1}% 
-\contentsline {chapter}{\numberline {2}Foutenpropagatie}{7}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Basisregel}{8}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}Som en verschil}{13}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Vermenigvuldigen met constante}{13}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Vermenigvuldigen met variabelen}{13}{section.2.4}% 
-\contentsline {chapter}{\numberline {3}Wet van Grote Aantallen}{15}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}De $\sqrt {n}$-wet}{15}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}De wet van Grote Aantallen}{17}{section.3.2}% 
-\contentsline {chapter}{\numberline {4}Meerdimensionale datasets}{19}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Variantie en covariantie}{19}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Correlatie}{20}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Correlatie en causaliteit}{23}{section.4.3}% 
-\contentsline {chapter}{\numberline {5}Extra kans rekenregels}{25}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}De of regel wanneer A en B niet wederzijds uitsluitend zijn:}{25}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Conditionele kans}{27}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Bayes theorema}{27}{section.5.3}% 
-\contentsline {chapter}{\numberline {6}Opdrachten module 2}{29}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Opdracht M2.1 Grote Aantallen II **}{29}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}M2.2 Meesjes ****}{31}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}M2.3 Halfwaardedikte II ***}{34}{section.6.3}% 
+\contentsline {part}{I\hspace {1em}}{5}{part.1}% 
+\contentsline {chapter}{\numberline {1}De Centrale Limietstelling}{9}{chapter.1}% 
+\contentsline {chapter}{\numberline {2}Normaalverdeling}{11}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Poisson en Normaal}{11}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Z-waardes en waarschijnlijkheden}{13}{section.2.2}% 
+\contentsline {chapter}{\numberline {3}De kleinste-kwadraten methode}{19}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Schatters}{19}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}De kleinste-kwadraten methode en $\chi ^2$}{19}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}De $\chi ^2$ distributie}{22}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Akaike Informatie Criterium}{23}{section.3.4}% 
+\contentsline {chapter}{\numberline {4}Hypothese toetsen}{27}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Hypothese opstellen}{27}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Significantielevel kiezen}{29}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}p-Waarde bepalen}{30}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Conclusie trekken}{32}{section.4.4}% 
+\contentsline {chapter}{\numberline {5}Opdrachten module 3}{35}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}M3.1 Grote Aantallen III ****}{35}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}M3.2 Halfwaardedikte III ***}{38}{section.5.2}% 

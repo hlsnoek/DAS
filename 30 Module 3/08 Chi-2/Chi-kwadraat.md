@@ -10,7 +10,7 @@ Hoe groot je verwacht dat de waarde van $$\chi^2$$ is na het optimaliseren van d
 
 We hebben gezien in het hoofdstuk over de kleinste kwadraten methode, dat de $$\chi^2$$ gedefinieerd is als het kwadratische gewogen verschil tussen de meetwaardes en de voorspelde waardes: <br>
 
-<center>$${\displaystyle  \chi^2 = \sum^N_{i=1} \left( \frac{y_i-f(x_i;\hat{a},\hat{b},..)}{\sigma_i} \right)^2.}$$ </center>
+$${\displaystyle  \chi^2 = \sum^N_{i=1} \left( \frac{y_i-f(x_i;\hat{a},\hat{b},..)}{\sigma_i} \right)^2.}$$ 
 
 Let op dat we hier de geoptimaliseerde parameters $$\hat{a}$$ van de functie hebben ingevuld. Deze waarde voor $$\chi^2$$ is dus al geminimaliseerd voor de paramaters van $$f$$.
 
@@ -25,9 +25,9 @@ Zoals je ziet hangt de $$\chi^2$$ kans ook af van een parameter $$df$$, dit is h
 
 > **Voorbeeld** Stel we hebben 10 meetwaardes en we gebruiken de kleinste kwadraten methode om 2 parameters van een functie $$f$$ te optimaliseren. We hebben dan $$df=10-2=8$$ vrijheidsgraden.
 
-Hieronder zie je hoe de $$\chi^2$$ eruit ziet voor verschillende waardes van $$df$$. <br> 
+Hier<!--FIG in figuur \ref{fig:ChiSquareDistributie}--> zie je hoe de $$\chi^2$$ eruit ziet voor verschillende waardes van $$df$$. <br> 
 
-![](ChiSquareDistributie.png){:width="80%"}<br>
+![De $$\chi^2$$ verdeling.](ChiSquareDistributie.png){:width="80%"}<br>
 
 De $$\chi^2$$ distributie heeft een gemiddelde $$\mu = df$$ en een variantie van $$var = 2df$$. We verwachten dus een $$\chi^2$$ van ongeveer **1 per vrijheidsgraad**  te vinden. Als de $$\chi^2$$ per vrijheidsgraad veel afwijkt van 1 dan is het waarschijnlijk dat er een probleem is met de fit. Het kan zijn dat de functie de relatie tussen de datapunten niet goed beschrijft, of dat er iets mis is met de onzekerheden op de datapunten.
 
