@@ -97,14 +97,11 @@ Als de waargenomen kans (zie p-waarde hierna) kleiner is of gelijk aan het gekoz
 Kiezen we bijvoorbeeld een significantielevel van $$\alpha=5\%$$ dan verwerpen we de nulhypothese zodra de waargenomen kans kleiner is dan $$5\%$$. Is de waargenomen kans groter dan $$5\%$$, dan verwerpen we de nulhypothese niet. 
 
 <!--Hoe kleiner de waarde van het significantielevel des te zekerder zijn we ervan dat we de nulhypothese mogen verwerpen.-->
-Hoe kleiner de kans is op de nulhypothese des te zekerder we ervan kunnen zijn dat we deze rechtmatig verwerpen. In principe wil je het significantieleven daarom zo laag mogelijk kiezen. Maar het kiezen van $$\alpha=1%$$ heeft een nadeel. Hoe kleiner het significantielevel des te groter de meetonzekerheid op de gemeten eigenschap. Het is dus altijd een afweging tussen het zo zeker mogelijk zijn van correctheid van het verwerpen van de nulhypothese, en het zo klein mogelijk houden van de meetonzekerheid op de waarde van de eigenschap.
+Hoe kleiner de kans is op de nulhypothese des te zekerder we ervan kunnen zijn dat we deze rechtmatig verwerpen. In principe wil je het significantieleven daarom zo laag mogelijk kiezen. Maar het kiezen van $$\alpha=1\%$$ heeft een nadeel. Hoe kleiner het significantielevel des te groter de meetonzekerheid op de gemeten eigenschap. Het is dus altijd een afweging tussen het zo zeker mogelijk zijn van correctheid van het verwerpen van de nulhypothese, en het zo klein mogelijk houden van de meetonzekerheid op de waarde van de eigenschap.
 
-<!--Je wilt er altijd zo zeker mogelijk van zijn dat je de hypothese rechtmatig hebt verworpen, maar het kiezen van $$\alpha=1%$$ heeft een nadeel. Hoe kleiner het significantielevel des te groter de fout op de gemeten eigenschap. Het is dus altijd een afweging tussen het zo groot mogelijk houden van de kans dat we de nulhypothese correct verwerpen, en het zo klein mogelijk houden van de onzekerheid op de waarde van de eigenschap.-->
+## p-Waarde bepalen
 
-
-## p-waarde bepalen
-
-Na het kiezen van het significantielevel, bepalen we de *p-waarde* behorende bij de nulhypothese. De p-waarde is de kans om de geobserveerde meetwaarden te vinden onder de aanname dat de nulhypothese correct is.
+Na het kiezen van het significantielevel, bepalen (of meten) we de *p-waarde* behorende bij de nulhypothese. De p-waarde is de kans om de geobserveerde meetwaarden te vinden onder de aanname dat de nulhypothese correct is.
 
 > Stel we hebben de nulhypothese dat het percentage blauwe auto's in Nederland geen 20% is. 
 > We doen een meting waarbij we gedurende een dag het aantal blauwe auto's tellen die op de A6 voorbij komen. De kans dat we een uitkomst kunnen hebben van 25% blauwe auto's, **onder de aanname dat de nulhypothese correct is** (geen 20% blauwe auto's), is de p-waarde. Hoe kleiner de p-waarde die we vinden des te meer grond we hebben om de nulhypothese te verwerpen.  
@@ -151,22 +148,22 @@ Dit bekijken we aan de hand van een paar voorbeelden:
 
 > **Voorbeeld 1:** We onderzoeken de staartlengte van volgroeide lapjeskatten in Nederland, en stellen de volgende hypotheses op:
 >
->- $$H_{\alpha}$$: De lengte van de staart van een volgroeide lapjeskat in Nederland is groter dan 10 cm.
->- $$H_0$$: De lengte van de staart van een volgroeide lapjeskat in Nederland is kleiner of gelijk aan 10 cm.
+> - $$H_{\alpha}$$: De lengte van de staart van een volgroeide lapjeskat in Nederland is groter dan 10 cm.
+> - $$H_0$$: De lengte van de staart van een volgroeide lapjeskat in Nederland is kleiner of gelijk aan 10 cm.
 >
->Bij voorbaat kiezen we als significantielevel $$\alpha=5\%$$.
+> Bij voorbaat kiezen we als significantielevel $$\alpha=5\%$$.
 >
->We meten de staartlengte van 300 lapjeskatten in Nederland (met alle gevolgen van dien voor de onderzoekers), en zetten het resultaat uit in een histogram. Dit resulteert in een normale verdeling met gemiddelde $$\mu=25$$ cm en een standaardafwijking $$5$$ cm.
+> We meten de staartlengte van 300 lapjeskatten in Nederland (met alle gevolgen van dien voor de onderzoekers), en zetten het resultaat uit in een histogram. Dit resulteert in een normale verdeling met gemiddelde $$\mu=25$$ cm en een standaardafwijking $$5$$ cm.
 >
->De nulhypothese stelde dat de lengte van de staart van een volgroeide lapjeskat kleiner of gelijk is aan 10 cm. We bepalen dus de p-waarde die hierbij hoort:
+> De nulhypothese stelde dat de lengte van de staart van een volgroeide lapjeskat kleiner of gelijk is aan 10 cm. We bepalen dus de p-waarde die hierbij hoort:
 >
 > $$\begin{aligned}P(X<10) &= P(Z<\frac{10-25}{5})\\ &= P(Z<-3) \end{aligned}$$
 >
->Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.00135$$ bij deze Z-score. Dus:
+> Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.00135$$ bij deze Z-score. Dus:
 >
->$$P(X<10) = P(Z<-3) = 0.00135$$
+> $$P(X<10) = P(Z<-3) = 0.00135$$
 > 
->De p-waarde is dus 0.14%. Op grond van het eerder gekozen significantielevel van 5% verwerpen we de nulhypothese. In dit geval is het zo dat we de nulhypothese ook hadden verworpen als we $$\alpha=10\%$$ of $$\alpha=1\%$$ hadden gekozen.
+> De p-waarde is dus 0.14%. Op grond van het eerder gekozen significantielevel van 5% verwerpen we de nulhypothese. In dit geval is het zo dat we de nulhypothese ook hadden verworpen als we $$\alpha=10\%$$ of $$\alpha=1\%$$ hadden gekozen.
 
 Is de p-waarde kleiner dan het gekozen significantielevel dan verwerpen we de nulhypothese. Is de p-waarde groter dan het gekozen significantielevel dan verwerpen we de nulhypothese niet.
 
@@ -174,22 +171,22 @@ Het is goed om te beseffen dat we **niet** kunnen zeggen dat onze alternatieve h
 
 > **Voorbeeld 2:** We onderzoeken de gemiddelde lengte van alle vrouwen ($$> 18$$ jaar) in Nederland, en stellen de volgende hypotheses op:
 >
->- $$H_{\alpha}$$: De gemiddelde lengte van alle vrouwen boven de 18 jaar is hoger dan 180 cm.
->- $$H_{0}$$: De gemiddelde lengte van alle vrouwen boven de 18 jaar is lager dan of gelijk aan 180 cm. 
+> - $$H_{\alpha}$$: De gemiddelde lengte van alle vrouwen boven de 18 jaar is hoger dan 180 cm.
+> - $$H_{0}$$: De gemiddelde lengte van alle vrouwen boven de 18 jaar is lager dan of gelijk aan 180 cm. 
 >
->Bij voorbaat kiezen we als significantielevel $$\alpha=5\%$$.
+> Bij voorbaat kiezen we als significantielevel $$\alpha=5\%$$.
 >
->We meten de lengte van 500 Nederlandse vrouwen boven de 18 jaar. De resultaten volgen een normale verdeling met gemiddelde $$\mu=165$$ cm en een standaardafwijking $$10$$ cm.
+> We meten de lengte van 500 Nederlandse vrouwen boven de 18 jaar. De resultaten volgen een normale verdeling met gemiddelde $$\mu=165$$ cm en een standaardafwijking $$10$$ cm.
 >
->De nulhypothese stelde dat de gemiddelde lengte van de Nederlandse vrouwen hoger is dan 180 cm. We bepalen dus de p-waarde die hierbij hoort:
+> De nulhypothese stelde dat de gemiddelde lengte van de Nederlandse vrouwen hoger is dan 180 cm. We bepalen dus de p-waarde die hierbij hoort:
 >
 > $$\begin{aligned}P(X>180) &= 1-P(X<180) \\ &= 1-P(Z<\frac{180-165}{10})\\ &= 1-P(Z<1.5) \end{aligned}$$
 >
->Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.93319$$ bij deze Z-score. Dus:
+> Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.93319$$ bij deze Z-score. Dus:
 >
->$$P(X>180) = 1-P(Z<1.5) = 0.06681$$
+> $$P(X>180) = 1-P(Z<1.5) = 0.06681$$
 > 
->De p-waarde is dus 6.7%. Op grond van het $$\alpha=5%$$ significantielevel verwerpen we de nulhypothese dus niet. 
+> De p-waarde is dus 6.7%. Op grond van het $$\alpha=5\%$$ significantielevel verwerpen we de nulhypothese dus niet. 
 
 
 

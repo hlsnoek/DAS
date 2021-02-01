@@ -31,14 +31,10 @@ Voor deze dataset zijn de waardes van $$\Delta s_n$$ dus nog allemaal gelijk, la
 Naar aanleiding van de $$\sqrt{n}$$-wet verwachten dat de relatie tussen $$n$$ en $$s_{n}$$ er als volgt uitziet:<br>
 <center>$${\displaystyle s_{n} = \sigma/\sqrt{n}.}$$</center><br>
 
-Dit geeft de volgende relatie tussen 
-**`inv_sqrt_n`** en **`std_n`**:<br>
-
-<center>$${\displaystyle \text{std_n} = \sigma \cdot \text{inv_sqrt_n}.}$$</center><br>
 
 De parameter $$\sigma$$ is nu de standaarddeviatie van de originele verdeling van de massa van de kogels, dus van de gehele populatie. De variabele $$\hat{\sigma}$$ is de geschatte waarde van $$\sigma$$ die we proberen te vinden met de fit. 
 
-> * Maak eerst een grafiek waarbij je $$\text{std_n}$$ tegen $$\text{inv_sqrt_n}$$ uitzet met de foutenvlaggen. Gebruik hier niet de code voor uit M2.1 maar maak gebruik van de dataset die je met het commando dat hier boven beschreven staat verkrijgt. Kijk goed naar de punten en probeer alvast voor jezelf in te schatten welke waarde je verwacht voor $$\sigma$$.
+> * Maak eerst een grafiek waarbij je **`std_n`** tegen **`inv_sqrt_n`** uitzet met de foutenvlaggen. Gebruik hier niet de code voor uit M2.1 maar maak gebruik van de dataset die je met het commando dat hier boven beschreven staat verkrijgt. Kijk goed naar de punten en probeer alvast voor jezelf in te schatten welke waarde je verwacht voor $$\sigma$$.
 >
 >
 > * Vind nu de meest optimale waarde van $$\sigma$$ door gebruik te maken van [de kleinste-kwadraten](/module-3/kleinste-kwadraten) methode. <br>

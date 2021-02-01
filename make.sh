@@ -17,4 +17,4 @@ python postproc.py DASBoek.post.latex > DASBoek.latex
 
 # Finally create the pdf
 pdflatex DASBoek.latex
-open DASBoek.pdf
+#open DASBoek.pdf

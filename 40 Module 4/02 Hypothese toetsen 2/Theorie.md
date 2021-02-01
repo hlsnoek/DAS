@@ -27,14 +27,15 @@ Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \
 > $$ I_0(\lambda;a,b) = a+ b\cdot \lambda$$<br>
 > Waarbij $$\lambda$$ de golflengte is. <br>
 > De emissielijn van $$X$$, verwachten we rond 930nm en de resolutie van de spectroscoop is 1nm deze wordt dan beschreven door: <br>
-> $$ I_1(\lambda;J,\mu=930nm,\sigma=1nm) = J \cdot \frac{1}{1nm \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{\lambda - 930nm}{1nm})^2}$$<br>
+> $$ I_1(\lambda;J,\mu=930nm,\sigma=1nm) = J \cdot \frac{1}{1nm \sqrt{2 \pi}} e^{-\frac{1}{2}\left(\frac{\lambda - 930nm}{1nm}\right)^2}$$<br>
 > We zien dat in principe er geen vrije parameters zijn in deze fit, behalve een schaalfactor $$J$$ die de hoeveelheid intensiteit van het signaal schaalt. <br>
 > De functie $$f_0$$ wordt in dit geval gelijk gesteld aan de functie die de achtergrond (of nulhypothese) beschrijft: $$f_0= I_0$$. De vrije parameters in deze fit zijn $$a$$ en $$b$$. <br>
 > De functie $$f_1$$ die de alternatieve hypothese beschrijft is nu gelijk aan de achtergrond, plus het signaal: $$f_1 = I_0 + I_1$$. De vrije parameters in deze fit zijn $$a,b$$ en $$J$$. We voldoen dus aan het criterium van de Wald methode. <br>
 > Het verschil in de geoptimaliseerde $$\chi^2$$'s voor de nul- en de alternatieve hypothese is gelijk aan $$\Delta \chi^2 = \chi^2_0 - \chi^2_1$$. 
 > We gaan even naar de data kijken. We hebben het spectrum waargenomen dat hieronder wordt getoond. <br>
-> ![](Spectrum.png){:width="60%"}
->
+
+![](Spectrum.png){:width="60%"}
+
 > In de grafiek zien we een duidelijk piekje rond 930nm, precies waar we het signaal van het chemische element $$X$$ door $$H_1$$ voorspeld is. De fit resultaten van beide hypotheses zijn in het plaatje weergegeven. Met het verschil in $$\chi^2$$ kunnen we nu een p-waarde uitrekenen. Die is in dit geval gelijk aan $$1.6\cdot 10^{-8}$$ dit komt overeen met een $$z$$-waarde van 5.5. Het is dus uitermate waarschijnlijk dat we het chemische element $$X$$ hebben aangetoond in de spectraal analyse.
 
 ## p-Waarde scan
@@ -42,10 +43,16 @@ Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \
 In het voorbeeld hierboven is er een duidelijk stelling over de golflengte van de emissielijn van het element $$X$$. Stel nu dat dat niet zo is, dan zouden we een extra vrije parameter hebben in de functie die $$H_1$$ beschrijft. In dat geval kunnen we de Wald methode niet toepassen. Wat we in dat geval wèl kunnen doen is een zogeheten p-waarde scan uitvoeren. We variëren dan telkens de waarde van de golflengte van de emissielijn en berekenen voor elk van deze golflengtes de p-waarde. Als er een emissielijn aanwezig is die sterk genoeg is zullen we op die locatie een dip zien in de p-waarde. 
 
 
-> **Voorbeeld p-waarde scan** Hieronder zie je de spectraalfit waarbij we het spectrum hebben gefit met een centrale waarde van de spectraallijn op 932nm. Zoals je ziet is de waarde voor $$J$$ die de intensiteit van een eventuele emissielijn op 932nm beschrijft, erg klein: De gefitte functie voor $$H_1$$ wijkt nauwelijks af van de functie die de $$H_0$$ hypothese beschrijft. De berekende p-waarde zal voor deze golflengte dan ook klein zijn. 5<br>
->![](Spectrum932.png){:width="60%"}<br>
+> **Voorbeeld p-waarde scan** Hieronder zie je de spectraalfit waarbij we het spectrum hebben gefit met een centrale waarde van de spectraallijn op 932nm. Zoals je ziet is de waarde voor $$J$$ die de intensiteit van een eventuele emissielijn op 932nm beschrijft, erg klein: De gefitte functie voor $$H_1$$ wijkt nauwelijks af van de functie die de $$H_0$$ hypothese beschrijft. De berekende p-waarde zal voor deze golflengte dan ook klein 
+zijn. <br>
+
+![](Spectrum932.png){:width="60%"}<br>
+
+
 > Als we alle p-waardes van de scan nu grafisch weergeven dan krijgen we onderstaand resultaat.
-> ![](Emissiescan.png){:width="60%"}<br>
+
+![](Emissiescan.png){:width="60%"}<br>
+
 > Je zit nu dat er op een aantal plekken in het spectrum een kleine afwijking van de $$H_0$$ hypothese te zien is. Op slechts 1 locatie is er een heel duidelijke afwijking zichtbaar. Precies bij 930nm.
 
 Eigenlijk hadden  we van tevoren een significantie moeten afspreken waarbij we de aanwezigheid van het chemische element kunnen aantonen. Zodra de gemeten p-waarde onder deze afgesproken significantie zakt in de p-waarde scan kunnen we claimen het element te hebben aangetoond. De Wald test is een krachtige methode om hypotheses te toetsen. We gaan hem in opdracht M4.1 toepassen. 

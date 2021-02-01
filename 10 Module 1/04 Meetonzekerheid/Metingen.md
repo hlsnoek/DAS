@@ -56,7 +56,7 @@ De tweede categorie onzekerheden hebben een andere oorzaak. De grootheid zelf ka
 * **De snelheid van het licht.** Ook hier spelen kans processen een rol. Als je opstelling een roterend radartje bevat, dan zijn er hoogstwaarschijnlijk variaties in de tanden van het radartje. Kijk bijvoorbeeld naar het experiment dat [hier](https://en.wikipedia.org/wiki/Fizeau%E2%80%93Foucault_apparatus) beschreven staat.
 
 
-### Reduceren van meet-onnauwkeurigheden
+## Reduceren van meet-onnauwkeurigheden
 Goed nadenken over de opzet van een experiment is belangrijk en kan grote onnauwkeurigheden voorkomen. Nog belangrijker is het om alle onzekerheden goed in kaart te brengen. Alleen zo kun je inschatten wat de waarde is van een meting. 
 
 Een voorbeeld is een keukeninstallateur die een werkblad voor een keuken moet opleveren. De installateur zal een goede meting moeten doen van de lengte van het werkblad die hij nodig heeft. Als hij een werkblad aanlevert dat uiteindelijk 2 cm te kort is past het blad niet, dit is niet meer op te vullen met een kit randje. Als het keukenblad 3 mm te lang is zal het natuurlijk ook niet passen.
@@ -73,7 +73,7 @@ Systematische onzekerheden zijn lastig te vinden in opstellingen en zijn vooral 
 **Theoretische onzekerheden** kunnen voorkomen als we gebruik maken van aannames met theoretische grondslag. Als we de onzekerheden in deze aannames kunnen kwantificeren hebben we een maat voor de theoretische onzekerheid. Soms kunnen theoretische onzekerheden worden verkleind door bijvoorbeeld meer berekeningen uit te voeren. 
 
 
-### Verdelingen
+## Onderliggende verdelingen
 
 Je begrijpt nu dat veel metingen wel herhaalbaar zijn, maar dat je niet altijd precies dezelfde resultaten kunt verwachten. Het gevolg hiervan is dat je een verdeling of distributie krijgt van je meetresultaten. 
 Van deze verdeling kunnen we bepaalde eigenschappen uitrekenen. Meer hierover kun je vinden onder het kopje [basisbegrippen](/module-1/basisbegrippen).
@@ -81,7 +81,7 @@ Het is belangrijk om de verdelingen goed te presenteren, meer daarover kun je [h
 
 
 
-### Meetonzekerheden noteren
+## Meetonzekerheden noteren
 
 We kunnen de meetonzekerheden op verschillende manieren noteren. 
 

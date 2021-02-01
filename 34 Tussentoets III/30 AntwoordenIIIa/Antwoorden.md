@@ -22,7 +22,7 @@ $$(2.0\cdot -1.1 - 2.0\cdot 2.0 - \hat{b} \cdot 2.0^2)$$ +  $$(4.0\cdot -5.4 - 2
 **2** We hebben een dataset met de volgende meetpunten voor {x,y}:<br>
 {1.0,3.2}, {2.0,13.3}, {3.0,26.5} met meetonzekerheden $$\sigma_y = 0.5$$<br>
 De dataset fitten we met de functie $$y = a\cdot x^2$$. Bereken de optimale waarde voor $$a$$.<br>
-<span style = 'color:blue'>$${\displaystyle \frac{\partial \chi^2}{\partial a} = \sum_i^N \frac{1}{\sigma_y^2} \frac{\partial f(x_i;a)}{\partial a} \left(y_i - f(x_i;a)\right) = 0 }$$ <br>
+<span style = 'color:blue'> $${\displaystyle \frac{\partial \chi^2}{\partial a} = \sum_i^N \frac{1}{\sigma_y^2} \frac{\partial f(x_i;a)}{\partial a} \left(y_i - f(x_i;a)\right) = 0 }$$ <br>
 $$\frac{\partial f(x_i;a)}{\partial a} = x^2$$<br>
 geeft:<br>
 $${\displaystyle \sum_i^N \frac{1}{4} x^2_i(y_i - \hat{a} x_i^2 ) = 0}$$<br>
@@ -65,15 +65,15 @@ De $$AIC_1$$ is kleiner dan $$AIC_2$$ : fit 1 geeft het beste resultaat.</span>
 **7.** Stel de nulhypothese op bij de gegeven alternatieve hypotheses:<br><br>
 **a.** $$H_{\alpha:} $$De gemiddelde dikte van een vel papier is groter dan $$0.1$$ mm.
 <br><br>
-<span style = "color:blue">$$H_0:$$ De gemiddelde dikte van een vel papier is kleiner of gelijk aan $$0.1$$ mm</span><br>
+<span style = "color:blue"> $$H_0:$$ De gemiddelde dikte van een vel papier is kleiner of gelijk aan $$0.1$$ mm</span><br>
 
 **b.** $$H_{\alpha:}$$ Het gemiddelde aantal kinderen per huishouden in Nederland is gelijk aan $$1.2$$.
 <br><br>
-<span style = "color:blue">$$H_0:$$ Het gemiddelde aantal kinderen per huishouden in Nederland is niet gelijk aan $$1.2$$</span><br>
+<span style = "color:blue"> $$H_0:$$ Het gemiddelde aantal kinderen per huishouden in Nederland is niet gelijk aan $$1.2$$</span><br>
 
 **c.** $$H_{\alpha:}$$ Het gewicht van een pingpongbal is kleiner of gelijk aan $$2.77$$ gram. 
 <br><br>
-<span style = "color:blue">$$H_0:$$ Het gewicht van een pingpongbal is groter dan $$2.77$$ gram.</span><br>
+<span style = "color:blue"> $$H_0:$$ Het gewicht van een pingpongbal is groter dan $$2.77$$ gram.</span><br>
 
 -----
 
@@ -95,18 +95,18 @@ Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met ee
 
 **a.** Stel de alternatieve hypothese op behorende bij dit probleem
 <br><br>
-<span style = "color:blue">$$H_{\alpha}:$$ De gemiddelde lengte van kleurpotloden die wordt afgeleverd door de machines is groter of gelijk aan 177 cm</span><br>
+<span style = "color:blue"> $$H_{\alpha}:$$ De gemiddelde lengte van kleurpotloden die wordt afgeleverd door de machines is groter of gelijk aan 177 cm</span><br>
 
 **b.** Stel nu de nulhypothese op.
 <br><br>
-<span style = "color:blue">$$H_{0}:$$ De gemiddelde lengte van kleurpotloden die wordt afgeleverd door de machines is kleiner dan 177 cm</span><br>
+<span style = "color:blue"> $$H_{0}:$$ De gemiddelde lengte van kleurpotloden die wordt afgeleverd door de machines is kleiner dan 177 cm</span><br>
 
 **c.** Bereken de z-waarde behorende bij 177 mm.
 <br><br>
-<span style = "color:blue">$$z=\frac{x-\mu}{\sigma} = \frac{177-176}{1} = 1$$</span><br>
+<span style = "color:blue"> $$z=\frac{x-\mu}{\sigma} = \frac{177-176}{1} = 1$$</span><br>
 **d.** Bereken de p-waarde en noteer je antwoord als een percentage met het juiste aantal significante cijfers. De tabel met z-waarden kun je [hier](https://www.ztable.net/) vinden.
 <br><br>
-<span style = "color:blue">$$P(X< 177) = P(Z< 1) = 0.84134$$ 
+<span style = "color:blue"> $$P(X< 177) = P(Z< 1) = 0.84134$$ 
 Dus de p-waarde is 84%.</span><br>
 
 **e.** Als we een significantielevel van $$\alpha=5%$$ aannemen. Kun je op grond hiervan de nulhypothese dan verwerpen of niet?

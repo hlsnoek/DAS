@@ -10,7 +10,7 @@ De of-regel geldt alleen als de metingen A en B wederzijds uitsluitend zijn. Dat
 We breiden de regels hier verder uit en gaan kijken naar het combineren van kansen die niet wederzijds uitsluitend zijn. We kijken ook naar het begrip conditionele kans en introduceren Bayes theorema die gebruikt kan worden om informatie van kansen om te rekenen. 
 
 
-### De of regel wanneer A en B niet wederzijds uitsluitend zijn:
+## De of regel wanneer A en B niet wederzijds uitsluitend zijn:
 In het geval A en B niet wederzijds uitsluitend zijn dan:<br>
 <center>$$P(\text{A en B}) \equiv P(A \cap B) >0.$$</center><br>
 De kans dat A of B gemeten wordt is dan:
@@ -30,7 +30,7 @@ En zo kun je ook het complement van A laten zien: <br>
 ![](180px-Venn1010.svg.png){:width="60%"}
 *"complement van A (bron wikipedia)"*
 
-### Conditionele kans
+## Conditionele kans
 Een conditionele kans wordt geschreven als $$P(A \mid B)$$ en kun je lezen als "Wat is de kans op meting A gegeven dat B is gemeten.". Let op dat $$P(A \mid B)\neq P(B \mid A)$$! Een sprekend voorbeeld hiervan is de volgende. De kans dat een persoon zwanger is gegeven dat de persoon een vrouw is, $$P(\text{zwanger} \mid \text{vrouw})$$, is niet gelijk aan de kans dat iemand een vrouw is gegeven dat de persoon zwanger is, $$P(\text{vrouw} \mid \text{zwanger})$$. De laatste kans is duidelijk gelijk aan 1, als je zwanger bent ben je zeker een vrouw. De eerste kans is een stuk kleiner!
 
  De conditionele kans kunnen we berekenen met: <br>
@@ -40,7 +40,7 @@ De noemer in deze vergelijking, $$P(B)$$, noemen we ook wel een normalisatie  te
 Visueel is dit wellicht het meest eenvoudige om te zien. Als het gegeven is dat de uitkomst in het deelgebied B ligt, dan is de kans dat het ook de waarde A bezit gelijk aan het oppervlak van de overlap tussen A en B gedeeld door het oppervlak van B. Immers dat het B is weten we al, dus we moeten alle kansen normaliseren naar B. 
 
 
-### Bayes theorema
+## Bayes theorema
 Met behulp van de conditionele kans formule kunnen we nu Bayes theorema afleiden. <br>
 Het combineren van de formules van $$P(A \mid B)$$ en $$P(B \mid A)$$:
 <center>$$P(A \cap B) \equiv P(B \cap A) =  P(B \mid A) \cdot P(A) = P(A \mid B) \cdot P(B)$$ </center>

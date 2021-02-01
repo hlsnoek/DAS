@@ -32,41 +32,40 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 > **Voorbeeld 1: Factor** 
 > 
 > Stel we hebben een vergelijking $$y = c\cdot x$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
-$$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = c \cdot \Delta x.$$<br>
+> 
+> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = c \cdot \Delta x.$$<br>
 > In dit geval schaalt de onzekerheid op $$x$$ ($$\Delta x$$) dus met dezelfde factor $$c$$ tot de onzekerheid op $$y$$ ($$\Delta y$$). In het plaatje hieronder wordt voor een willekeurige waarde $$x_i$$ het effect van de propagatie van $$\Delta x$$ rond de waarde $$x_i$$ naar de fout $$\Delta y$$ rond $$y_i$$ visueel weergegeven. Je kunt duidelijk zien dat de grootte van $$\Delta y$$ veranderd is met de factor $$c.$$<br>
-
-![](Foutenpropagatie_const.png){:width="40%"}
+> ![](Foutenpropagatie_const.png){:width="75%"}
 
 > **Voorbeeld 2: Translatie** 
 > 
 > Stel we hebben een vergelijking $$y = x + a$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
 > $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = \Delta x.$$<br>
 > Wederom geven we het effect van de foutenpropagatie van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ grafisch weer in het plaatje hieronder. Je ziet dat de translatie geen effect heeft op de grootte van de onzekerheid.<br>
-
-![](Foutenpropagatie_trans.png){:width="40%"}
+> ![](Foutenpropagatie_trans.png){:width="75%"}
 
 > **Voorbeeld 3: Macht** 
 > 
 > Stel we hebben een vergelijking $$y = x^3$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
 > $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = 3x^2 \cdot \Delta x.$$<br>
 > Het effect van de foutenpropagatie volgens deze formule van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ wordt weer grafisch weergegeven in het plaatje hieronder. Je kunt zien dat de mate waarin de grootte van $$\Delta x$$ verandert afhangt van de gekozen waarde van $$x_i$$, op sommige plekken is hij kleiner geworden, op andere plekke groter.  <br>
-
-![](Foutenpropagatie_cube.png){:width="40%"}
+> ![](Foutenpropagatie_cube.png){:width="75%"}
 
 > **Voorbeeld 4** 
 > 
 > Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
 > $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x.$$<br>
 > In het plaatje hieronder geven we nu voor verschillende waardes $$x_i$$ de foutenpropagatie van $$\Delta x$$ naar $$\Delta y$$ de grafische interpretatie. We zien dat het niet alleen de relatieve grootte van $$\Delta y$$ afhangt van de gekozen waarde van $$x_i$$ maar dat op sommige plaatsen de boven en ondergrens van de onzekerheid zijn geïnverteerd.<br>
+> ![](Foutenpropagatie_func.png){:width="75%"}
 
-![](Foutenpropagatie_func.png){:width="40%"}
 
 > **Voorbeeld 5** 
 > 
 > Stel we hebben een vergelijking $$z = ax + y^2$$ met standaarddeviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaarddeviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
 > $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{(a \Delta x)^2 + (2y \Delta y)^2}.$$
->
->
+
+
+
 > **Voorbeeld 6** 
 > 
 > Stel we hebben een vergelijking $$z = ax + y^2 + 2xy$$ met standaarddeviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaarddeviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
@@ -103,27 +102,27 @@ Ofwel de relatieve fout $$\frac{\Delta q}{q}$$ is gelijk aan de kwadratische som
 
 > **Voorbeeld - foutenpropagatie en afronding van de getallen**
 >
->Stel dat we de lengte van het blokje hebben gemeten en we lezen de volgende waarde af:
+> Stel dat we de lengte van het blokje hebben gemeten en we lezen de volgende waarde af:
 >
->- De $$\text{lengte (l)} = 7.60 \pm 0.10 \text{ cm}$$
->- De $$\text{breedte (b)} = 4.10 \pm 0.20 \text{ cm}$$ 
->- De $$\text{hoogte (h)} = 2.00 \pm 0.20 \text{ cm}$$ 
+> - De $$\text{lengte (l)} = 7.60 \pm 0.10 \text{ cm}$$
+> - De $$\text{breedte (b)} = 4.10 \pm 0.20 \text{ cm}$$ 
+> - De $$\text{hoogte (h)} = 2.00 \pm 0.20 \text{ cm}$$ 
 >
->Het volume van het blokje wordt gegeven door:
+> Het volume van het blokje wordt gegeven door:
 >
->$$V = l\cdot b\cdot h = 7.60 \cdot 4.10 \cdot 2.00 = 62.32 \text{ cm}^3$$
+> $$V = l\cdot b\cdot h = 7.60 \cdot 4.10 \cdot 2.00 = 62.32 \text{ cm}^3$$
 >
->We gebruiken de regel dat als $$q = x\cdot y\cdot \dots$$ dan: 
+> We gebruiken de regel dat als $$q = x\cdot y\cdot \dots$$ dan: 
 >
->$$\frac{\Delta q}{|q|} = \sqrt{\left(\frac{\Delta x}{x}\right)^2 \left(\frac{\Delta y}{y}\right)^2+\left(\frac{\Delta z}{z}\right)^2} $$
+> $$\frac{\Delta q}{|q|} = \sqrt{\left(\frac{\Delta x}{x}\right)^2 \left(\frac{\Delta y}{y}\right)^2+\left(\frac{\Delta z}{z}\right)^2} $$
 >
 >Dus:
 >
->$$\begin{aligned}\frac{\Delta V}{|V|} &= \sqrt{\left(\frac{\Delta l}{l}\right)^2+\left(\frac{\Delta b}{b}\right)^2+\left(\frac{\Delta h}{h}\right)^2} \\ &= \sqrt{\left(\frac{0.1}{7.6}\right)^2+\left(\frac{0.2}{4.1}\right)^2+\left(\frac{0.2}{2.0}\right)^2}\\ &= 0.01255 \dots \end{aligned}$$
+> $$\begin{aligned}\frac{\Delta V}{|V|} &= \sqrt{\left(\frac{\Delta l}{l}\right)^2+\left(\frac{\Delta b}{b}\right)^2+\left(\frac{\Delta h}{h}\right)^2} \\ &= \sqrt{\left(\frac{0.1}{7.6}\right)^2+\left(\frac{0.2}{4.1}\right)^2+\left(\frac{0.2}{2.0}\right)^2}\\ &= 0.01255 \dots \end{aligned}$$
 >
->We ronden dit nog niet af, dat doen we pas als we de absolute fout hebben:
+> We ronden dit nog niet af, dat doen we pas als we de absolute fout hebben:
 >
->$$\begin{aligned} \Delta V &= \frac{\Delta V}{|V|} \cdot |V| \\ &= 0.01255\dots \cdot 62.32 \\ &= 0.78228 \dots \\ &\approx 0.78\end{aligned}$$
+> $$\begin{aligned} \Delta V &= \frac{\Delta V}{|V|} \cdot |V| \\ &= 0.01255\dots \cdot 62.32 \\ &= 0.78228 \dots \\ &\approx 0.78\end{aligned}$$
 >
->Het gemeten volume van het blokje is dus $$V = 62.32 \pm 0.78 \text{ cm}^3$$
+> Het gemeten volume van het blokje is dus $$V = 62.32 \pm 0.78 \text{ cm}^3$$
 
