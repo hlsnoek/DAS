@@ -38,7 +38,7 @@ Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$),
 Stel je wil de kinetische energie berekenen van een object. De formule is $$E_k = 1/2 m \cdot v^2$$. Je meet de massa van het object, deze is $$m=2.3 \pm 0.2$$ kg. De snelheid is $$v=0.20 \pm 0.05$$ m/s. <br>
 Bereken de kinetische energie.<br>
 <span style = 'color:blue'> $${E_k = 1/2 m \cdot v^2 = 0.046}$$ J<br>
-$$\Delta E_k = \sqrt{\frac{\partial E_k}{\partial m})^2 ( \Delta m)^2 + (\frac{\partial E_k}{\partial v}\right)^2 \left( \Delta v \right)^2} = \sqrt{\left( \frac{1}{2}v^2 \Delta m\right)^2 + \left( mv \Delta m \right)^2 } = 0.02$$<br>
+$$\Delta E_k = \sqrt{\frac{\partial E_k}{\partial m})^2 ( \Delta m)^2 + \left(\frac{\partial E_k}{\partial v}\right)^2 \left( \Delta v \right)^2} = \sqrt{\left( \frac{1}{2}v^2 \Delta m\right)^2 + \left( mv \Delta m \right)^2 } = 0.02$$<br>
 $$E_k =  0.046 \pm 0.02$$ J</span>
 
 ## De Wet van Grote aantallen

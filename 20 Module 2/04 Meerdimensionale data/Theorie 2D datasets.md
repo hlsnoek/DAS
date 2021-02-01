@@ -54,7 +54,7 @@ Als er geen correlatie is tussen de twee variabelen, dan is
 correlatiecoëfficiënt gelijk aan nul. Is de correlatiecoëfficiënt tussen de twee variabelen gelijk aan $$1$$ of aan $$-1$$ dan zijn de twee
 variabelen maximaal afhankelijk. In het geval van een correlatiecoëfficiënt gelijk aan $$1$$ is dit een positief lineair verband, in het geval van een correlatiecoëfficiënt gelijk aan $$-1$$ is dit een lineair verband met negatieve helling. 
 
-Hieronder zijn een aantal 2D datasets weergegeven met verschillende correlatiecoëfficiënten:
+Hier<!--FIG , Figures \ref{fig:Plot1_Correlatie_0-fig:Plot1_Correlatie_0punt3},--> zijn een aantal 2D datasets weergegeven met verschillende correlatiecoëfficiënten.
 
 Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 0 $$.
 
