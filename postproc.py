@@ -9,7 +9,7 @@ for line in f:
 
     line  = line[:-1] # trailing newline removal
     if(line.count("documentclass")) :
-        line = '\documentclass[11pt,twoside,a4paper,pdftex]{book}'
+        line = '\documentclass[11pt,twoside,a4paper,pdftex,openany]{book}'
         line += '\\usepackage{capt-of}\n\\usepackage{xcolor}'
         line += '\n\\usepackage[most]{tcolorbox}\n'
         line += '\\usepackage{tikz, lipsum}\n\\usepackage{fancyvrb}\n'
@@ -26,6 +26,21 @@ for line in f:
         line += '\\renewcommand{\\contentsname}{Inhoud}\n'
         line += '\\renewcommand{\\partname}{Module}\n'
         line += '\\graphicspath{{Figures/}}\n'
+        line += '\\usepackage{titlesec}\n'
+        #        line += '\\titleformat{\\chapter}[display]\n'
+        line += '\\titleformat{\\chapter}[display]\n'
+        line += '{\\bfseries\\Large}\n'
+        line += '{\\huge{\\partname} \\huge{\\thepart} \\hfill \\huge{\\chaptertitlename} \\huge\\thechapter}\n'
+        line += '{1ex}{\\titlerule\\vspace{1ex}\\huge\\filleft}\n'
+        line += '[\\vspace{1ex}\\titlerule]'
+        
+        line += '\\titleclass{\\part}{top} % make part like a chapter\n'
+        line += '\\titleformat{\\part}\n'
+        line += '[display]'
+        line += '{\\normalfont\\Huge\\bfseries\\filright}\n'
+        line += '{\\Huge{\\partname} \\thepart}{0pt}\n'
+        line += '{\\titlerule[1pt]}\\titlespacing*{\\part}{0pt}{0pt}{5pt}\n'
+
         
     if(line.count('begin{document}')) : 
         line = ''

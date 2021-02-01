@@ -101,7 +101,7 @@ De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet to
 
 Hier<!--FIG , in Fig. \ref{fig:BinomiaalDistributie},--> zie je een aantal verdelingen voor de Binomiaal.
 
-![Binomiaal kansdichtheidsverdelingen.](BinomiaalDistributie.png){:width="80%"}
+![Binomiaal kansdichtheidsverdelingen.](BinomiaalDistributie.png){:width="60%"}
 
 Het voorbeeld van daarnet is uitgedrukt in de gele lijn. Kijk ook eens goed naar de blauwe lijn. De kans $$p=1$$ zegt dat een de uitkomst altijd succes is. Als je het experiment twee keer uitvoert, zijn ze dus gegarandeerd allebei succesvol. En de kans is 0 dat je maar 1 uit 2 $$(n=2,k=1)$$ positieve uitslagen hebt. Dat kan immers ook niet, je kan alleen maar succes hebben, er bestaan geen andere uitslagen van het experiment.
 

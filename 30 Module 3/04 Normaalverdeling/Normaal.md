@@ -1,4 +1,4 @@
-# Normaalverdeling
+# De Normaalverdeling
 
 
 1. Ordered TOC

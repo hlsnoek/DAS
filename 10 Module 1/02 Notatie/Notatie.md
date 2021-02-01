@@ -87,7 +87,7 @@ Hieronder een aantal voorbeelden:
 
 
 
-### Hoeveel significante cijfers noteren?
+## Hoeveel significante cijfers noteren?
 
 Het is dus belangrijk om niet te veel en niet te weinig  **significante getallen** gebruiken als je een resultaat noteert. 
 
@@ -112,7 +112,7 @@ Voor het noteren van een meetresultaat hanteren we de volgende regel:
 NB. Als we teruggaan naar het voorbeeld met opmeten van de plank met het meetlint waarbij we hebben gemeten dat de plank 253.3 cm lang is, hebben we 4 significante cijfers genoteerd. Het resultaat is genoteerd zonder meetfout. Toch is dit de juiste notatie geweest. De ingeschatte fout is immers in de orde van een millimeter. In de tabel hierboven wordt steeds aangegeven dat de onzekerheid onbekend is, in zeker zin is die bij de meting van de lengte van de plank *wel* bekend. Meer hierover volgt in de sectie over [meetonzekerheid](/module-1/meetonzekerheid).
 
 
-### Significantie en berekeningen
+## Significantie en berekeningen
 
 Voor het kiezen van het juiste aantal significante cijfers zijn er een aantal regels. 
 
