@@ -1,7 +1,7 @@
 # Introductie Module 1
 
 Statistische data analyse is een belangrijk onderdeel in vele werkvelden.
-Als student en later wellicht ook als wetenschapper zul je te maken krijgen met het verzamelen en interpreteren van data bij het het practikum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
+Als student en later wellicht ook als wetenschapper zul je te maken krijgen met het verzamelen en interpreteren van data bij het het prakticum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
 
 - Wanneer kun je zeggen dat een hypothese moet worden verworpen of bewijs je juist dat deze correct is? 
 - Hoe moet je inschatten of je meetnauwkeurigheid goed genoeg is?
@@ -33,8 +33,7 @@ Vaak maken we hierbij gebruik van histogrammen, grafieken en tabellen. Om een hy
 
 
 In deze cursus zullen we vaardigheden gaan leren voor data analyse en statistiek. 
-
-Deze week beginnen we met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over hoe we meetresultaten moeten presenteren, het gebruik van de wetenschappelijke [notatie](/module-1/notatie) en hoe we ze kunnen [visualiseren](/module-1/data-visualiseren). We gaan in op het begrip [meetonzekerheid](/module-1/meetonzekerheid).  
+We beginnen deze week beginnen we met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over hoe we meetresultaten moeten presenteren, het gebruik van de wetenschappelijke [notatie](/module-1/notatie) en hoe we ze kunnen [visualiseren](/module-1/data-visualiseren). We gaan in op het begrip [meetonzekerheid](/module-1/meetonzekerheid).  
 Ook maken we een begin met [kansrekening](/module-1/kanstheorie) en [kansdichtheidsverdelingen](/module-1/verdelingsfuncties).
 
 Niet elk van deze onderwerpen is even moeilijk. Let goed op dat je genoeg tijd overhoudt om de introductie van de kanstheorie te bestuderen.
@@ -99,7 +98,7 @@ Je ziet dat het steekproef gemiddelde erg lijkt op de uitdrukking voor het popul
 
 >Stel je voor dat we de volgende steekproef hebben: $$ X = \{-5,1,14,12,0\} $$. De gemiddelde waarde voor de data is nu dus 
 >
->$$ \bar{x} = \frac{1}{5} \cdot ( -5 + 1+ 14+12+0)= \frac{1}{5} \cdot 22 = 4.4$$
+>\begin{equation*} \bar{x} = \frac{1}{5} \cdot ( -5 + 1+ 14+12+0)= \frac{1}{5} \cdot 22 = 4.4\end{equation*}
 
 
 
@@ -222,41 +221,66 @@ Een nadeel van het gebruik van de variatiecoëfficiënt is dat er gedeeld wordt 
 
 We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 
+>**Voorbeeld: Een populatie**
+>
 >We hebben de volgende dataset van een populatie: 
 >
->$$Y = \{285,-20,31,60,12,53,133\}$$.\newline
+>\begin{equation*}Y = \{285,-20,31,60,12,53,133\}\end{equation*}.
+>
+>We bepalen nu hieronder de verschillende *parameters* die horen bij deze populatie. 
 >
 >De grootte is dus N = 7.  
 >Om de mediaan te bepalen sorteren we eerst de datapunten van klein naar groot: 
 >
->-20,12,31,53,60,133,285 
+>\begin{equation*}\{-20,12,31,53,60,133,285\}\end{equation*}
 >
->Het is een even aantal datapunten en de mediaan ligt tussen 53 en 60 in. Dit komt dan uit op 56.5.  
->De spreidingsbreedte is $$285- -20 = 305$$.  
->Het gemiddelde $$\mu_Y = \frac{1}{7}\cdot (285-20+31+60+12+53+133) = 79.1 $$  
+>Het is een even aantal datapunten en de mediaan ligt tussen 53 en 60 in. Dit komt dan uit op 56.5.
+>
+>De spreidingsbreedte: 
+>
+>\begin{equation*}285 - (-20) = 305\end{equation*}.  
+>
+>Het gemiddelde: 
+>
+>\begin{equation*}\mu_Y = \frac{1}{7}\cdot (285-20+31+60+12+53+133) = 79.1\end{equation*}  
+>
 >De standaarddeviatie is:
->$$\sigma_Y^2 = \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 + (31-79.1)^2 + (60-79.1)^2 + \right. $$  
->$$ \left. (12-79.1)^2 + (53-79.1)^2 + (133-79.1)^2 \right] = 8997.6 $$ geeft $$\sigma_Y = 94.9$$.   
+>
+>\begin{equation*}\sigma_Y^2 = \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 \right.\end{equation*}
+>\begin{equation*}\left. + (31-79.1)^2 + (60-79.1)^2 + (12-79.1)^2 + \right.\end{equation*}
+>\begin{equation*}\left.(53-79.1)^2 + (133-79.1)^2 \right] = 8997.6\end{equation*}
+>
+>geeft $$\sigma_Y = 94.9$$.   
+>
 >De variantie $$var_Y$$ = 8997.6. 
+>
 >De variatiecoëfficiënt  $$c_{v} = 1.20$$.
 
 
-Het tweede voorbeeld gaat over een steekproef:
-
+>**Voorbeeld: Een steekproef**
+>
 >Stel we hebben een steekproef gedaan van de lengte van eerstejaars studenten. De volgende dataset is hiervoor verzameld: 
 >
->$$ L = \{ 1.90 ~\text{m}; 1.72 ~\text{m}; 1.61~\text{m}; 1.84~\text{m}; 1.79~\text{m} \} $$. 
+>\begin{equation*}L = \{ 1.90 ~\text{m}; 1.72 ~\text{m}; 1.61~\text{m}; 1.84~\text{m}; 1.79~\text{m} \}\end{equation*}. 
 >
+>Hieronder bepalen we de *statistieken* voor deze steekproef.
 >
 >De grootte van de steekproef: $$n = 5$$.  
+>
 >De spreidingsbreedte is $$1.90$$m-$$1.61$$ m $$= 39$$ cm.  
+>
 >De mediaan ligt in het midden van de gesorteerde dataset. Dit is 1.79 m.  
+>
 >Het gemiddelde $$\bar{L} = 1.77$$ m.  
+>
 >De variantie is:  
 >
->$$  s^2 = \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 + (1.61-1.77)^2 + \right. $$\newline
-          $$\left. (1.84-1.77)^2 + (1.79-1.77)^2 \right] = 0.0100 \text{m}^2 $$  
+>\begin{equation*}s^2 = \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 \right.\end{equation*}
+>\begin{equation*}\left.+ (1.61-1.77)^2 + (1.84-1.77)^2 + (1.79-1.77)^2 \right]\end{equation*}
+>\begin{equation*} = 0.0100 \text{m}^2\end{equation*}  
+>
 >De standaarddeviatie is $$ s = 0.10$$ m.  
+>
 >De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$
 
 # Het correct noteren van resultaten
@@ -314,7 +338,7 @@ Een voordeel van deze notatie is dat je hiermee ook hele kleine getallen en hele
 >**Voorbeeld klein getal**
 >We willen het getal $$0.000000000004563$$ opschrijven met twee significante cijfers. Nu kunnen we natuurlijk $$0.0000000000046$$ opschrijven maar als we dat vaak moeten doen kost dat veel ruimte (en werk). In de wetenschappelijke notatie ziet dit getal met twee significante cijfers er als volgt uit:
 >
->$$0.000000000004563 = 4.6\cdot 10^{-12}$$
+>\begin{equation*}0.000000000004563 = 4.6\cdot 10^{-12}\end{equation*}
 
 In het voorbeeld hierboven mag je natuurlijk zowel $$4.6\cdot 10^{-12}$$ als $$4.6 \times 10^{-12}$$ schrijven. Dat maakt niet uit.
 Bij grote ronde getallen is het vaak niet duidelijk hoe groot de significantie is. Met de wetenschappelijk notatie kunnen we dit duidelijk maken.
@@ -322,7 +346,7 @@ Bij grote ronde getallen is het vaak niet duidelijk hoe groot de significantie i
 
 >**Voorbeeld groot getal**
 >Stel dat je het aantal knikkers in een pot hebt geschat op 2500. De onzekerheid is alleen in het laatste getal, maar dat kan je op deze manier niet zien. Je kan dit getal dan beter met de wetenschappelijk notatie schrijven. Bijvoorbeeld: 
->$$ 2.50 \times 10^{3}$$ of $$25.0 \times 10^{2}$$\newline
+>\begin{equation*} 2.50 \times 10^{3}\end{equation*} of $$25.0 \times 10^{2}$$\newline
 >Op zich mag je ook schrijven $$250 \times 10^{1}$$ maar in de praktijk doet niemand dit ($$10^{1}$$ gebruiken) en bovendien blijft bij dit voorbeeld dan nog steeds onduidelijk wat de significantie is.  
 
 
@@ -348,7 +372,7 @@ Hieronder een aantal voorbeelden:
 
 
 
-### Hoeveel significante cijfers noteren?
+## Hoeveel significante cijfers noteren?
 
 Het is dus belangrijk om niet te veel en niet te weinig  **significante getallen** gebruiken als je een resultaat noteert. 
 
@@ -373,7 +397,7 @@ Voor het noteren van een meetresultaat hanteren we de volgende regel:
 NB. Als we teruggaan naar het voorbeeld met opmeten van de plank met het meetlint waarbij we hebben gemeten dat de plank 253.3 cm lang is, hebben we 4 significante cijfers genoteerd. Het resultaat is genoteerd zonder meetfout. Toch is dit de juiste notatie geweest. De ingeschatte fout is immers in de orde van een millimeter. In de tabel hierboven wordt steeds aangegeven dat de onzekerheid onbekend is, in zeker zin is die bij de meting van de lengte van de plank *wel* bekend. Meer hierover volgt in de sectie over [meetonzekerheid](/module-1/meetonzekerheid).
 
 
-### Significantie en berekeningen
+## Significantie en berekeningen
 
 Voor het kiezen van het juiste aantal significante cijfers zijn er een aantal regels. 
 
@@ -749,7 +773,8 @@ De eerste oorzaak is dat we een fout maken bij de meting. Een fout betekent hier
 
 
 * **De lengte van een blokje hout.** 
-Hier zou je bijvoorbeeld een liniaal voor kunnen gebruiken. Allereerst moeten we het blokje netjes langs de liniaal leggen. Zie hieronderin Fig. \ref{fig:lineaal_v1}, een schets van de opstelling. Ligt de 0 wel echt netjes langs de rand?\newline
+Hier zou je bijvoorbeeld een liniaal voor kunnen gebruiken. Allereerst moeten we het blokje netjes langs de liniaal leggen. Zie hieronderin Fig. \ref{fig:lineaal_v1}, een schets van de opstelling. Ligt de 0 wel echt netjes langs de rand?
+
 ![Schets van een meetopstelling](lineaal_v1.png){:width="80%"}
 \caption{Schets van een meetopstelling}
 \label{fig:lineaal_v1}
@@ -883,7 +908,7 @@ Een kans van 1 zegt dat het **zeker** zal gebeuren en een kans van 0 dat het **z
 Wat is de kans dat je een 4 gooit als je de dobbelsteen 1 keer gooit? 
 Voor een normale dobbelsteen kunnen we deze kans uitrekenen met behulp van de volgende formule: \newline
 >\newline
->$$ P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totaal aantal uitkomsten}} = \frac{1}{6}$$ \newline
+>\begin{equation*} P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totaal aantal uitkomsten}} = \frac{1}{6}\end{equation*} \newline
 >\newline
 
 Dit is de kans voor een normale eerlijke dobbelsteen. Met eerlijk bedoelen we hier dat de dobbelsteen niet gemanipuleerd is en dat elk vlak van de dobbelsteen evenveel kans heeft om boven te eindigen. 
@@ -894,7 +919,7 @@ De kans om nu een 4 te gooien is groter dan met een normale eerlijke dobbelsteen
 
 >**Voorbeeld** Als we de kans nu berekenen voor de speciale dobbelsteen met vlakken {1,2,2,3,4,4} dan is de kans om vier te gooien: 
 >
->$$P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totale aantal uitkomsten}} = \frac{2}{6}$$ \newline
+>\begin{equation*}P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totale aantal uitkomsten}} = \frac{2}{6}\end{equation*} \newline
 >
 
 En stel nu dat we een normale dobbelsteen hebben die gemanipuleerd is? Dan zal de kans om een 4 te gooien anders zijn. Een goede manier om dan de kans te bepalen is met behulp van de **Frequentist** formule: 
@@ -1352,7 +1377,7 @@ Deze regel code vind je in het `M1.3_Eigenschappen.py` bestand.
 We gaan nu kijken naar het effect van een translatie van de dataset.
 
 >- Kopieer de originele dataset en manipuleer de waardes in de dataset met de volgende translatie: 
->$$ x' = x + 2$$\newline\newline
+>\begin{equation*} x' = x + 2\end{equation*}\newline\newline
 >
 >- Plot daarna de originele en de getransleerde dataset over elkaar heen. Controleer of de punten inderdaad zijn opgeschoven.\newline\newline
 >
@@ -1539,36 +1564,36 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 >
 >Stel we hebben een vergelijking $$y = c\cdot x$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: \newline 
 >
->$$ \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = c \cdot \Delta x.$$\newline
+>\begin{equation*} \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = c \cdot \Delta x.\end{equation*}\newline
 >In dit geval schaalt de onzekerheid op $$x$$ ($$\Delta x$$) dus met dezelfde factor $$c$$ tot de onzekerheid op $$y$$ ($$\Delta y$$). In de grafiek hieronder(Fig. \ref{fig:Foutenpropagatie_const}) wordt voor een willekeurige waarde $$x_i$$ het effect van de propagatie van $$\Delta x$$ rond de waarde $$x_i$$ naar de fout $$\Delta y$$ rond $$y_i$$ visueel weergegeven. Je kunt duidelijk zien dat de grootte van $$\Delta y$$ veranderd is met de factor $$c.$$\newline
->![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een lineaire functie.](Foutenpropagatie_const.png){:width="75%"}
+>![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een lineaire functie.](Foutenpropagatie_const.png){:width="65%"}
 \captionof{figure}{Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een lineaire functie.}
 \label{fig:Foutenpropagatie_const}
 
 >**Voorbeeld 2: Translatie** 
 >
 >Stel we hebben een vergelijking $$y = x + a$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: \newline 
->$$ \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = \Delta x.$$\newline
+>\begin{equation*} \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = \Delta x.\end{equation*}\newline
 >Wederom geven we het effect van de foutenpropagatie van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ grafisch weer in de grafiek  hieronder(Fig. \ref{fig:Foutenpropagatie_trans) . Je ziet dat de translatie geen effect heeft op de grootte van de onzekerheid.\newline
->![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een translatie.](Foutenpropagatie_trans.png){:width="75%"}
+>![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een translatie.](Foutenpropagatie_trans.png){:width="65%"}
 \captionof{figure}{Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een translatie.}
 \label{fig:Foutenpropagatie_trans}
 
 >**Voorbeeld 3: Macht** 
 >
 >Stel we hebben een vergelijking $$y = x^3$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: \newline 
->$$ \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = 3x^2 \cdot \Delta x.$$\newline
+>\begin{equation*} \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = 3x^2 \cdot \Delta x.\end{equation*}\newline
 >Het effect van de foutenpropagatie volgens deze formule van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ wordt weer grafisch weergegeven in het plaatje hieronder(Fig.\ref{fig:Foutenpropagatie_cube}) . Je kunt zien dat de mate waarin de grootte van $$\Delta x$$ verandert afhangt van de gekozen waarde van $$x_i$$, op sommige plekken is hij kleiner geworden, op andere plekke groter.  \newline
->![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een macht.](Foutenpropagatie_cube.png){:width="75%"}
+>![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een macht.](Foutenpropagatie_cube.png){:width="65%"}
 \captionof{figure}{Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een macht.}
 \label{fig:Foutenpropagatie_cube}
 
 >**Voorbeeld 4** 
 >
 >Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: \newline 
->$$ \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x.$$\newline
+>\begin{equation*} \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x.\end{equation*}\newline
 >In het plaatje hieronder(Fig. \ref{fig:Foutenpropagatie_func}) geven we nu voor verschillende waardes $$x_i$$ de foutenpropagatie van $$\Delta x$$ naar $$\Delta y$$ de grafische interpretatie. We zien dat het niet alleen de relatieve grootte van $$\Delta y$$ afhangt van de gekozen waarde van $$x_i$$ maar dat op sommige plaatsen de boven en ondergrens van de onzekerheid zijn geïnverteerd.\newline
->![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een kwadratische vergelijking.](Foutenpropagatie_func.png){:width="75%"}
+>![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een kwadratische vergelijking.](Foutenpropagatie_func.png){:width="65%"}
 \captionof{figure}{Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een kwadratische vergelijking.}
 \label{fig:Foutenpropagatie_func}
 
@@ -1576,14 +1601,14 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 >**Voorbeeld 5** 
 >
 >Stel we hebben een vergelijking $$z = ax + y^2$$ met standaarddeviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaarddeviatie op $$z$$, ($$\Delta z$$), gelijk aan: \newline 
->$$ \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{(a \Delta x)^2 + (2y \Delta y)^2}.$$
+>\begin{equation*} \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{(a \Delta x)^2 + (2y \Delta y)^2}.\end{equation*}
 
 
 
 >**Voorbeeld 6** 
 >
 >Stel we hebben een vergelijking $$z = ax + y^2 + 2xy$$ met standaarddeviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaarddeviatie op $$z$$, ($$\Delta z$$), gelijk aan: \newline 
->$$ \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{\left( (a + 2y) \cdot \Delta x \right)^2 + \left( (2y + 2x)\cdot  \Delta y \right)^2}.$$
+>\begin{equation*} \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{\left( (a + 2y) \cdot \Delta x \right)^2 + \left( (2y + 2x)\cdot  \Delta y \right)^2}.\end{equation*}
 
 
 ## Som en verschil 
@@ -1624,19 +1649,19 @@ Ofwel de relatieve fout $$\frac{\Delta q}{q}$$ is gelijk aan de kwadratische som
 >
 >Het volume van het blokje wordt gegeven door:
 >
->$$V = l\cdot b\cdot h = 7.60 \cdot 4.10 \cdot 2.00 = 62.32 \text{ cm}^3$$
+>\begin{equation*}V = l\cdot b\cdot h = 7.60 \cdot 4.10 \cdot 2.00 = 62.32 \text{ cm}^3\end{equation*}
 >
 >We gebruiken de regel dat als $$q = x\cdot y\cdot \dots$$ dan: 
 >
->$$\frac{\Delta q}{|q|} = \sqrt{\left(\frac{\Delta x}{x}\right)^2 \left(\frac{\Delta y}{y}\right)^2+\left(\frac{\Delta z}{z}\right)^2} $$
+>\begin{equation*}\frac{\Delta q}{|q|} = \sqrt{\left(\frac{\Delta x}{x}\right)^2 \left(\frac{\Delta y}{y}\right)^2+\left(\frac{\Delta z}{z}\right)^2} \end{equation*}
 >
 >Dus:
 >
->$$\begin{aligned}\frac{\Delta V}{|V|} &= \sqrt{\left(\frac{\Delta l}{l}\right)^2+\left(\frac{\Delta b}{b}\right)^2+\left(\frac{\Delta h}{h}\right)^2} \\ &= \sqrt{\left(\frac{0.1}{7.6}\right)^2+\left(\frac{0.2}{4.1}\right)^2+\left(\frac{0.2}{2.0}\right)^2}\\ &= 0.01255 \dots \end{aligned}$$
+>\begin{equation*}\begin{aligned}\frac{\Delta V}{|V|} &= \sqrt{\left(\frac{\Delta l}{l}\right)^2+\left(\frac{\Delta b}{b}\right)^2+\left(\frac{\Delta h}{h}\right)^2} \\ &= \sqrt{\left(\frac{0.1}{7.6}\right)^2+\left(\frac{0.2}{4.1}\right)^2+\left(\frac{0.2}{2.0}\right)^2}\\ &= 0.01255 \dots \end{aligned}\end{equation*}
 >
 >We ronden dit nog niet af, dat doen we pas als we de absolute fout hebben:
 >
->$$\begin{aligned} \Delta V &= \frac{\Delta V}{|V|} \cdot |V| \\ &= 0.01255\dots \cdot 62.32 \\ &= 0.78228 \dots \\ &\approx 0.78\end{aligned}$$
+>\begin{equation*}\begin{aligned} \Delta V &= \frac{\Delta V}{|V|} \cdot |V| \\ &= 0.01255\dots \cdot 62.32 \\ &= 0.78228 \dots \\ &\approx 0.78\end{aligned}\end{equation*}
 >
 >Het gemeten volume van het blokje is dus $$V = 62.32 \pm 0.78 \text{ cm}^3$$
 
@@ -1805,15 +1830,21 @@ Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = -1 $$.
 
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.8$$ en $$\rho_{x,y} = 0.8$$:
 
-<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.8$$.](Plot1_Correlatie_min0punt8.png){:width="45%"}![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.8$$.](Plot1_Correlatie_0punt8.png){:width="45%"}</p>
-\caption{}
-\label{fig:}
+<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.8$$.](Plot1_Correlatie_min0punt8.png){:width="45%"}
+\caption{Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.8$$.}
+\label{fig:Plot1_Correlatie_min0punt8}
+![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.8$$.](Plot1_Correlatie_0punt8.png){:width="45%"}</p>
+\caption{Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.8$$.}
+\label{fig:Plot1_Correlatie_0punt8}
 
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} = 0.3$$:
 
-<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.3$$.](Plot1_Correlatie_min0punt3.png){:width="45%"}![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.3$$.](Plot1_Correlatie_0punt3.png){:width="45%"}</p>
-\caption{}
-\label{fig:}
+<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.3$$.](Plot1_Correlatie_min0punt3.png){:width="45%"}
+\caption{Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.3$$.}
+\label{fig:Plot1_Correlatie_min0punt3}
+![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.3$$.](Plot1_Correlatie_0punt3.png){:width="45%"}</p>
+\caption{Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.3$$.}
+\label{fig:Plot1_Correlatie_0punt3}
 
 
 Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter is de afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit des te kleiner is de correlatie tussen de variabelen. 
@@ -1853,7 +1884,7 @@ In [module 1](/module-1/kanstheorie) hebben we de complement, de en-regel en de 
 De of-regel geldt alleen als de metingen A en B wederzijds uitsluitend zijn. Dat betekent dat een meting A niet kan voorkomen als B gemeten is. 
 
 >Een voorbeeld van kansen die niet wederzijds uitsluitend zijn is, als we weer kijken naar een set kaarten waar A bijvoorbeeld de kleur rood is en B het getal 4. Er bestaan rode kaarten met getal vier en in dit geval mogen we de kansen dus niet optellen. \newline
->$$P(\text{rood of 4}) \neq P(\text{rood}) + P(4)$$
+>\begin{equation*}P(\text{rood of 4}) \neq P(\text{rood}) + P(4)\end{equation*}
 
 We breiden de regels hier verder uit en gaan kijken naar het combineren van kansen die niet wederzijds uitsluitend zijn. We kijken ook naar het begrip conditionele kans en introduceren Bayes theorema die gebruikt kan worden om informatie van kansen om te rekenen. 
 
@@ -1961,7 +1992,7 @@ We gaan nu experimenten vergelijken waarin we steeds het gemiddelde over de eers
 >- **M2.1c) Bereken voor elk van de 100 datasets het gemiddelde over de eerste 10 metingen en laat de distributie van deze gemiddeldes $$g_{10}$$ zien in een histogram.** \newline\newline
 >
 >- **M2.1d) Bereken van deze distributie het gemiddelde  
->$$\bar{g_{10}}$$, dit is het gemiddelde van de gemiddeldes $$g_{10}$$. Bereken ook de standaarddeviatie van de gemiddeldes $$s_{g_{10}}$$ (de standaarddeviatie van de gemiddeldes $$g_{10}$$).**
+>\begin{equation*}\bar{g_{10}}\end{equation*}, dit is het gemiddelde van de gemiddeldes $$g_{10}$$. Bereken ook de standaarddeviatie van de gemiddeldes $$s_{g_{10}}$$ (de standaarddeviatie van de gemiddeldes $$g_{10}$$).**
 
 We gaan dit nu herhalen voor met verschillende groottes van de steekproef $$n$$. Maak een functie die de standaarddeviatie $$s_{g_n}$$ van de 100 berekende gemiddeldes $$g_n$$ die berekend zijn over de eerste $$n$$ punten terug geeft.
 
@@ -2264,13 +2295,13 @@ Als je de z-score hebt berekend kun je uit de z-waarden [tabel](https://www.ztab
 >
 >Uitwerking: Het gaat hier om een eenzijdige overschijdingskans. Nu:
 >
->$$\begin{aligned} P(X<16) &= P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= P\left(Z<\frac{16-20}{2}\right) \\ &= P(Z<-2) \end{aligned}$$
+>\begin{equation*}\begin{aligned} P(X<16) &= P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= P\left(Z<\frac{16-20}{2}\right) \\ &= P(Z<-2) \end{aligned}\end{equation*}
 >
 >Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.02275$$ bij deze Z-score.
 >
 >Dus 
 >
->$$P(X<16) = P\left(Z<\frac{x-\mu}{\sigma}\right) = 0.02275$$
+>\begin{equation*}P(X<16) = P\left(Z<\frac{x-\mu}{\sigma}\right) = 0.02275\end{equation*}
 >
 >Er is in dit geval dus een kans van 2% dat we bij de gegeven dataset een waarde onder de 15 zullen vinden.
 >
@@ -2278,13 +2309,13 @@ Als je de z-score hebt berekend kun je uit de z-waarden [tabel](https://www.ztab
 >
 >Uitwerking: Het gaat hier om een eenzijdige overschijdingskans. Nu:
 >
->$$\begin{aligned}P(X>22) &= 1-P(X<22>) \\ &= 1-P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= 1 - P\left(Z<\frac{22-20}{2}\right) \\ &= 1 - P(Z<1)\end{aligned}$$
+>\begin{equation*}\begin{aligned}P(X>22) &= 1-P(X<22>) \\ &= 1-P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= 1 - P\left(Z<\frac{22-20}{2}\right) \\ &= 1 - P(Z<1)\end{aligned}\end{equation*}
 >
 >Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.84134$$ bij deze Z-score.
 >
 >Dus 
 >
->$$P(X>22) = 1 - P\left(Z<\frac{x-\mu}{\sigma}\right) = 1-0.84134 = 0.15866$$
+>\begin{equation*}P(X>22) = 1 - P\left(Z<\frac{x-\mu}{\sigma}\right) = 1-0.84134 = 0.15866\end{equation*}
 >
 >Er is in dit geval dus een kans van 15% dat we bij de gegeven dataset een waarde boven de 22 zullen vinden.
 
@@ -2407,19 +2438,19 @@ De $$\chi^2$$ distributie heeft een gemiddelde $$\mu = df$$ en een variantie van
 Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze wordt beschreven. Je probeert twee functies uit, $$f_1$$ en $$f_2$$. En je minimaliseert voor beide functies de $$\chi^2$$, deze zijn dan $$\chi^2_1$$ en $$\chi^2_2$$. Als algemene vuistvuistregelregel geldt dat de functie met de kleinste geminimaliseerde $$\chi^2/df$$ het beste de data beschrijft. Als in dat geval de betreffende $$\chi^2/df$$ dicht bij 1 ligt werkt deze vuistregel goed. 
 
 >**Voorbeeld 1** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: \newline
->$$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$\newline
+>\begin{equation*}f_1(x;a,b) = a\cdot x +b\end{equation*} en $$f_2(x;a) = a\cdot x$$\newline
 >Als geminimaliseerde $$\chi^2$$ voor de twee functies vinden we: $$\chi^2_1 = 4.0$$ en $$\chi^2_2 = 13.0$$. \newline
 >De $$\chi^2$$ per vrijheidsgraad is voor de twee functies: \newline
->$$\chi^2_1/\text{vrijheidsgraad} = 4.0/(10-2) = 0.5$$ en\newline 
->$$\chi^2_2/\text{vrijheidsgraad} = 13.0/(10-1) = 1.44$$.\newline
+>\begin{equation*}\chi^2_1/\text{vrijheidsgraad} = 4.0/(10-2) = 0.5\end{equation*} en\newline 
+>\begin{equation*}\chi^2_2/\text{vrijheidsgraad} = 13.0/(10-1) = 1.44\end{equation*}.\newline
 >Op basis van de vuistregel zou je functie $$f_1$$ kiezen. 
 >
 >**Voorbeeld 2** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: \newline
->$$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$\newline
+>\begin{equation*}f_1(x;a,b) = a\cdot x +b\end{equation*} en $$f_2(x;a) = a\cdot x$$\newline
 >Als geminimaliseerde $$\chi^2$$ voor de twee functies vinden we: $$\chi^2_1 = 6.0$$ en $$\chi^2_2 = 9.0$$. \newline
 >De $$\chi^2$$ per vrijheidsgraad is voor de twee functies: \newline
->$$\chi^2_1/\text{vrijheidsgraad} = 6.0/(10-2) = 0.75$$ en\newline 
->$$\chi^2_2/\text{vrijheidsgraad} = 9.0/(10-1) = 1.0$$.\newline
+>\begin{equation*}\chi^2_1/\text{vrijheidsgraad} = 6.0/(10-2) = 0.75\end{equation*} en\newline 
+>\begin{equation*}\chi^2_2/\text{vrijheidsgraad} = 9.0/(10-1) = 1.0\end{equation*}.\newline
 >Op basis van de vuistregel zou je functie $$f_1$$ kiezen. 
 
 Als deze echter veel kleiner is dan 1 dan kun je betwijfelen of de bijbehorende functie wel echt de beste is. 
@@ -2431,19 +2462,19 @@ Als we deze $$AIC$$ berekenen voor beide functies dan is de functie met de laags
 
 
 >**Voorbeeld 1** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: \newline
->$$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$\newline
+>\begin{equation*}f_1(x;a,b) = a\cdot x +b\end{equation*} en $$f_2(x;a) = a\cdot x$$\newline
 >Als geminimaliseerde $$\chi^2$$ voor de twee functies vinden we: $$\chi^2_1 = 4.0$$ en $$\chi^2_2 = 13.0$$. \newline
 >De AIC waarde voor de twee functies zijn nu: \newline
->$$AIC_1 = 4.0 + 4 + 12/7 = 9.7 $$\newline
->$$AIC_2 = 13.0 + 2 + 4/8 = 15.5 $$\newline
+>\begin{equation*}AIC_1 = 4.0 + 4 + 12/7 = 9.7 \end{equation*}\newline
+>\begin{equation*}AIC_2 = 13.0 + 2 + 4/8 = 15.5 \end{equation*}\newline
 >Op basis van het Akaike Informatie criterium zou je functie $$f_1$$ kiezen. 
 >
 >**Voorbeeld 2** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: \newline
->$$f_1(x;a,b) = a\cdot x +b$$ en $$f_2(x;a) = a\cdot x$$\newline
+>\begin{equation*}f_1(x;a,b) = a\cdot x +b\end{equation*} en $$f_2(x;a) = a\cdot x$$\newline
 >Als geminimaliseerde $$\chi^2$$ voor de twee functies vinden we: $$\chi^2_1 = 6.0$$ en $$\chi^2_2 = 9.0$$. \newline
 >De $$\chi^2$$ per vrijheidsgraad is voor de twee functies: \newline
->$$AIC_1 = 6.0 + 4 + 12/7 = 11.8 $$\newline
->$$AIC_2 = 9.0 + 2 + 4/8 = 11.5 $$\newline
+>\begin{equation*}AIC_1 = 6.0 + 4 + 12/7 = 11.8 \end{equation*}\newline
+>\begin{equation*}AIC_2 = 9.0 + 2 + 4/8 = 11.5 \end{equation*}\newline
 >Op basis van de vuistregel zou je functie $$f_2$$ kiezen. 
 
 
@@ -2606,11 +2637,11 @@ Dit bekijken we aan de hand van een paar voorbeelden:
 >
 >De nulhypothese stelde dat de lengte van de staart van een volgroeide lapjeskat kleiner of gelijk is aan 10 cm. We bepalen dus de p-waarde die hierbij hoort:
 >
->$$\begin{aligned}P(X<10) &= P(Z<\frac{10-25}{5})\\ &= P(Z<-3) \end{aligned}$$
+>\begin{equation*}\begin{aligned}P(X<10) &= P(Z<\frac{10-25}{5})\\ &= P(Z<-3) \end{aligned}\end{equation*}
 >
 >Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.00135$$ bij deze Z-score. Dus:
 >
->$$P(X<10) = P(Z<-3) = 0.00135$$
+>\begin{equation*}P(X<10) = P(Z<-3) = 0.00135\end{equation*}
 >
 >De p-waarde is dus 0.14%. Op grond van het eerder gekozen significantielevel van 5% verwerpen we de nulhypothese. In dit geval is het zo dat we de nulhypothese ook hadden verworpen als we $$\alpha=10\%$$ of $$\alpha=1\%$$ hadden gekozen.
 
@@ -2629,11 +2660,11 @@ Het is goed om te beseffen dat we **niet** kunnen zeggen dat onze alternatieve h
 >
 >De nulhypothese stelde dat de gemiddelde lengte van de Nederlandse vrouwen hoger is dan 180 cm. We bepalen dus de p-waarde die hierbij hoort:
 >
->$$\begin{aligned}P(X>180) &= 1-P(X<180) \\ &= 1-P(Z<\frac{180-165}{10})\\ &= 1-P(Z<1.5) \end{aligned}$$
+>\begin{equation*}\begin{aligned}P(X>180) &= 1-P(X<180) \\ &= 1-P(Z<\frac{180-165}{10})\\ &= 1-P(Z<1.5) \end{aligned}\end{equation*}
 >
 >Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.93319$$ bij deze Z-score. Dus:
 >
->$$P(X>180) = 1-P(Z<1.5) = 0.06681$$
+>\begin{equation*}P(X>180) = 1-P(Z<1.5) = 0.06681\end{equation*}
 >
 >De p-waarde is dus 6.7%. Op grond van het $$\alpha=5\%$$ significantielevel verwerpen we de nulhypothese dus niet. 
 
@@ -2880,12 +2911,12 @@ Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \
 
 >**Voorbeeld Wald test** Stel dat we een chemisch element willen traceren en gebruik maken van een spectroscopie. Als het chemische element $$X$$ aanwezig is dan verwachten we een verhoogde intensiteit te zien bij de emissielijn van het specifieke element. We verwachten ook een achtergrond te zien. Dat wil zeggen we meten over alle golflengtes normaal gesproken een bepaalde intensiteit, ook zonder dat het chemische element aanwezig is. We kunnen nu de twee functies opstellen. Stel dat de achtergrond een lineaire functie volgt: 
 >
->$$ I_0(\lambda;a,b) = a+ b\cdot \lambda$$\newline
+>\begin{equation*} I_0(\lambda;a,b) = a+ b\cdot \lambda\end{equation*}\newline
 >
 >Waarbij $$\lambda$$ de golflengte is. \newline
 >De emissielijn van $$X$$, verwachten we rond 930nm en de resolutie van de spectroscoop is 1nm deze wordt dan beschreven door: \newline
 >
->$$ I_1(\lambda;J,\mu=930nm,\sigma=1nm) = J \cdot \frac{1}{1nm \sqrt{2 \pi}} e^{-\frac{1}{2}\left(\frac{\lambda - 930nm}{1nm}\right)^2}$$\newline
+>\begin{equation*} I_1(\lambda;J,\mu=930nm,\sigma=1nm) = J \cdot \frac{1}{1nm \sqrt{2 \pi}} e^{-\frac{1}{2}\left(\frac{\lambda - 930nm}{1nm}\right)^2}\end{equation*}\newline
 >
 >We zien dat in principe er geen vrije parameters zijn in deze fit, behalve een schaalfactor $$J$$ die de hoeveelheid intensiteit van het signaal schaalt. \newline
 >De functie $$f_0$$ wordt in dit geval gelijk gesteld aan de functie die de achtergrond (of nulhypothese) beschrijft: $$f_0= I_0$$. De vrije parameters in deze fit zijn $$a$$ en $$b$$. \newline

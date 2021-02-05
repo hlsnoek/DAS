@@ -1,7 +1,7 @@
 # Introductie Module 1
 
 Statistische data analyse is een belangrijk onderdeel in vele werkvelden.
-Als student en later wellicht ook als wetenschapper zul je te maken krijgen met het verzamelen en interpreteren van data bij het het practikum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
+Als student en later wellicht ook als wetenschapper zul je te maken krijgen met het verzamelen en interpreteren van data bij het het prakticum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
 
 - Wanneer kun je zeggen dat een hypothese moet worden verworpen of bewijs je juist dat deze correct is? 
 - Hoe moet je inschatten of je meetnauwkeurigheid goed genoeg is?
@@ -33,8 +33,7 @@ Vaak maken we hierbij gebruik van histogrammen, grafieken en tabellen. Om een hy
 
 
 In deze cursus zullen we vaardigheden gaan leren voor data analyse en statistiek. 
-
-Deze week beginnen we met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over hoe we meetresultaten moeten presenteren, het gebruik van de wetenschappelijke [notatie](/module-1/notatie) en hoe we ze kunnen [visualiseren](/module-1/data-visualiseren). We gaan in op het begrip [meetonzekerheid](/module-1/meetonzekerheid).  
+We beginnen deze week beginnen we met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over hoe we meetresultaten moeten presenteren, het gebruik van de wetenschappelijke [notatie](/module-1/notatie) en hoe we ze kunnen [visualiseren](/module-1/data-visualiseren). We gaan in op het begrip [meetonzekerheid](/module-1/meetonzekerheid).  
 Ook maken we een begin met [kansrekening](/module-1/kanstheorie) en [kansdichtheidsverdelingen](/module-1/verdelingsfuncties).
 
 Niet elk van deze onderwerpen is even moeilijk. Let goed op dat je genoeg tijd overhoudt om de introductie van de kanstheorie te bestuderen.
@@ -222,41 +221,66 @@ Een nadeel van het gebruik van de variatiecoëfficiënt is dat er gedeeld wordt 
 
 We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 
+> **Voorbeeld: Een populatie**
+> 
 > We hebben de volgende dataset van een populatie: 
 > 
-> $$Y = \{285,-20,31,60,12,53,133\}$$.<br>
+> $$Y = \{285,-20,31,60,12,53,133\}$$.
+> 
+> We bepalen nu hieronder de verschillende *parameters* die horen bij deze populatie. 
 > 
 > De grootte is dus N = 7.  
 > Om de mediaan te bepalen sorteren we eerst de datapunten van klein naar groot: 
 > 
-> -20,12,31,53,60,133,285 
+> $$\{-20,12,31,53,60,133,285\}$$
 > 
-> Het is een even aantal datapunten en de mediaan ligt tussen 53 en 60 in. Dit komt dan uit op 56.5.  
-> De spreidingsbreedte is $$285- -20 = 305$$.  
-> Het gemiddelde $$\mu_Y = \frac{1}{7}\cdot (285-20+31+60+12+53+133) = 79.1 $$  
+> Het is een even aantal datapunten en de mediaan ligt tussen 53 en 60 in. Dit komt dan uit op 56.5.
+>
+> De spreidingsbreedte: 
+> 
+> $$285 - (-20) = 305$$.  
+> 
+> Het gemiddelde: 
+> 
+> $$\mu_Y = \frac{1}{7}\cdot (285-20+31+60+12+53+133) = 79.1$$  
+> 
 > De standaarddeviatie is:
->  $$\sigma_Y^2 = \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 + (31-79.1)^2 + (60-79.1)^2 + \right. $$  
-> $$ \left. (12-79.1)^2 + (53-79.1)^2 + (133-79.1)^2 \right] = 8997.6 $$ geeft $$\sigma_Y = 94.9$$.   
+> 
+> $$\sigma_Y^2 = \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 \right.$$
+> $$\left. + (31-79.1)^2 + (60-79.1)^2 + (12-79.1)^2 + \right.$$
+> $$\left.(53-79.1)^2 + (133-79.1)^2 \right] = 8997.6$$
+> 
+> geeft $$\sigma_Y = 94.9$$.   
+> 
 > De variantie $$var_Y$$ = 8997.6. 
+> 
 > De variatiecoëfficiënt  $$c_{v} = 1.20$$.
 
 
-Het tweede voorbeeld gaat over een steekproef:
-
+>  **Voorbeeld: Een steekproef**
+> 
 > Stel we hebben een steekproef gedaan van de lengte van eerstejaars studenten. De volgende dataset is hiervoor verzameld: 
 > 
-> $$ L = \{ 1.90 ~\text{m}; 1.72 ~\text{m}; 1.61~\text{m}; 1.84~\text{m}; 1.79~\text{m} \} $$. 
+> $$L = \{ 1.90 ~\text{m}; 1.72 ~\text{m}; 1.61~\text{m}; 1.84~\text{m}; 1.79~\text{m} \}$$. 
 > 
+> Hieronder bepalen we de *statistieken* voor deze steekproef.
 > 
 > De grootte van de steekproef: $$n = 5$$.  
+> 
 > De spreidingsbreedte is $$1.90$$m-$$1.61$$ m $$= 39$$ cm.  
+> 
 > De mediaan ligt in het midden van de gesorteerde dataset. Dit is 1.79 m.  
+> 
 > Het gemiddelde $$\bar{L} = 1.77$$ m.  
+> 
 > De variantie is:  
 > 
->  $$  s^2 = \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 + (1.61-1.77)^2 + \right. $$<br>
-          $$\left. (1.84-1.77)^2 + (1.79-1.77)^2 \right] = 0.0100 \text{m}^2 $$  
+> $$s^2 = \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 \right.$$
+> $$\left.+ (1.61-1.77)^2 + (1.84-1.77)^2 + (1.79-1.77)^2 \right]$$
+> $$ = 0.0100 \text{m}^2$$  
+> 
 > De standaarddeviatie is $$ s = 0.10$$ m.  
+> 
 > De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$
 
 # Het correct noteren van resultaten
@@ -348,7 +372,7 @@ Hieronder een aantal voorbeelden:
 
 
 
-### Hoeveel significante cijfers noteren?
+## Hoeveel significante cijfers noteren?
 
 Het is dus belangrijk om niet te veel en niet te weinig  **significante getallen** gebruiken als je een resultaat noteert. 
 
@@ -373,7 +397,7 @@ Voor het noteren van een meetresultaat hanteren we de volgende regel:
 NB. Als we teruggaan naar het voorbeeld met opmeten van de plank met het meetlint waarbij we hebben gemeten dat de plank 253.3 cm lang is, hebben we 4 significante cijfers genoteerd. Het resultaat is genoteerd zonder meetfout. Toch is dit de juiste notatie geweest. De ingeschatte fout is immers in de orde van een millimeter. In de tabel hierboven wordt steeds aangegeven dat de onzekerheid onbekend is, in zeker zin is die bij de meting van de lengte van de plank *wel* bekend. Meer hierover volgt in de sectie over [meetonzekerheid](/module-1/meetonzekerheid).
 
 
-### Significantie en berekeningen
+## Significantie en berekeningen
 
 Voor het kiezen van het juiste aantal significante cijfers zijn er een aantal regels. 
 
@@ -719,7 +743,8 @@ De eerste oorzaak is dat we een fout maken bij de meting. Een fout betekent hier
 
 
 * **De lengte van een blokje hout.** 
-Hier zou je bijvoorbeeld een liniaal voor kunnen gebruiken. Allereerst moeten we het blokje netjes langs de liniaal leggen. Zie hieronder<!--FIG in Fig. \ref{fig:lineaal_v1},--> een schets van de opstelling. Ligt de 0 wel echt netjes langs de rand?<br>
+Hier zou je bijvoorbeeld een liniaal voor kunnen gebruiken. Allereerst moeten we het blokje netjes langs de liniaal leggen. Zie hieronder<!--FIG in Fig. \ref{fig:lineaal_v1},--> een schets van de opstelling. Ligt de 0 wel echt netjes langs de rand?
+
 ![Schets van een meetopstelling](lineaal_v1.png){:width="80%"}
 
 Dan moeten we de waarde op de lineaal afmeten. Als we naar de bovenstaande situatie kijken dan zou het blokje 7.6 cm lang kunnen zijn. Maar het is niet helemaal goed af te lezen. Zo zou het blokje ook 7.7 cm lang kunnen zijn als we de linkerkant van het blokje aan de binnenkant van de eerste zwarte streep leggen, en het kan 7.5 cm zijn als we het blokje aan de buitenkant van de eerste zwarte streep leggen. Omdat er geen streepjes tussen de rode streepjes zijn kunnen we slechts op een mm nauwkeurig zeggen wat de lengte is van het blokje. Er is dus sprake van een meetonzekerheid. In dit geval zouden we bijvoorbeeld noteren dat het blokje een lengte heeft van $$7.6 \pm 0.1$$ cm.
@@ -1499,28 +1524,28 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 > 
 > $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = c \cdot \Delta x.$$<br>
 > In dit geval schaalt de onzekerheid op $$x$$ ($$\Delta x$$) dus met dezelfde factor $$c$$ tot de onzekerheid op $$y$$ ($$\Delta y$$). In de grafiek hieronder<!--FIG (Fig. \ref{fig:Foutenpropagatie_const})--> wordt voor een willekeurige waarde $$x_i$$ het effect van de propagatie van $$\Delta x$$ rond de waarde $$x_i$$ naar de fout $$\Delta y$$ rond $$y_i$$ visueel weergegeven. Je kunt duidelijk zien dat de grootte van $$\Delta y$$ veranderd is met de factor $$c.$$<br>
-> ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een lineaire functie.](Foutenpropagatie_const.png){:width="75%"}
+> ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een lineaire functie.](Foutenpropagatie_const.png){:width="65%"}
 
 > **Voorbeeld 2: Translatie** 
 > 
 > Stel we hebben een vergelijking $$y = x + a$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
 > $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = \Delta x.$$<br>
 > Wederom geven we het effect van de foutenpropagatie van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ grafisch weer in de grafiek  hieronder<!--FIG (Fig. \ref{fig:Foutenpropagatie_trans)-->. Je ziet dat de translatie geen effect heeft op de grootte van de onzekerheid.<br>
-> ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een translatie.](Foutenpropagatie_trans.png){:width="75%"}
+> ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een translatie.](Foutenpropagatie_trans.png){:width="65%"}
 
 > **Voorbeeld 3: Macht** 
 > 
 > Stel we hebben een vergelijking $$y = x^3$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
 > $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = 3x^2 \cdot \Delta x.$$<br>
 > Het effect van de foutenpropagatie volgens deze formule van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ wordt weer grafisch weergegeven in het plaatje hieronder<!--FIG (Fig.\ref{fig:Foutenpropagatie_cube})-->. Je kunt zien dat de mate waarin de grootte van $$\Delta x$$ verandert afhangt van de gekozen waarde van $$x_i$$, op sommige plekken is hij kleiner geworden, op andere plekke groter.  <br>
-> ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een macht.](Foutenpropagatie_cube.png){:width="75%"}
+> ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een macht.](Foutenpropagatie_cube.png){:width="65%"}
 
 > **Voorbeeld 4** 
 > 
 > Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
 > $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x.$$<br>
 > In het plaatje hieronder<!--FIG (Fig. \ref{fig:Foutenpropagatie_func})--> geven we nu voor verschillende waardes $$x_i$$ de foutenpropagatie van $$\Delta x$$ naar $$\Delta y$$ de grafische interpretatie. We zien dat het niet alleen de relatieve grootte van $$\Delta y$$ afhangt van de gekozen waarde van $$x_i$$ maar dat op sommige plaatsen de boven en ondergrens van de onzekerheid zijn geïnverteerd.<br>
-> ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een kwadratische vergelijking.](Foutenpropagatie_func.png){:width="75%"}
+> ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een kwadratische vergelijking.](Foutenpropagatie_func.png){:width="65%"}
 
 
 > **Voorbeeld 5** 
@@ -1747,11 +1772,13 @@ Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = -1 $$.
 
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.8$$ en $$\rho_{x,y} = 0.8$$:
 
-<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.8$$.](Plot1_Correlatie_min0punt8.png){:width="45%"}![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.8$$.](Plot1_Correlatie_0punt8.png){:width="45%"}</p>
+<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.8$$.](Plot1_Correlatie_min0punt8.png){:width="45%"}
+![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.8$$.](Plot1_Correlatie_0punt8.png){:width="45%"}</p>
 
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} = 0.3$$:
 
-<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.3$$.](Plot1_Correlatie_min0punt3.png){:width="45%"}![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.3$$.](Plot1_Correlatie_0punt3.png){:width="45%"}</p>
+<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.3$$.](Plot1_Correlatie_min0punt3.png){:width="45%"}
+![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.3$$.](Plot1_Correlatie_0punt3.png){:width="45%"}</p>
 
 
 Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter is de afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit des te kleiner is de correlatie tussen de variabelen. 

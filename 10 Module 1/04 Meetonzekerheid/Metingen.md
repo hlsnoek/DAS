@@ -30,7 +30,8 @@ De eerste oorzaak is dat we een fout maken bij de meting. Een fout betekent hier
 
 
 * **De lengte van een blokje hout.** 
-Hier zou je bijvoorbeeld een liniaal voor kunnen gebruiken. Allereerst moeten we het blokje netjes langs de liniaal leggen. Zie hieronder<!--FIG in Fig. \ref{fig:lineaal_v1},--> een schets van de opstelling. Ligt de 0 wel echt netjes langs de rand?<br>
+Hier zou je bijvoorbeeld een liniaal voor kunnen gebruiken. Allereerst moeten we het blokje netjes langs de liniaal leggen. Zie hieronder<!--FIG in Fig. \ref{fig:lineaal_v1},--> een schets van de opstelling. Ligt de 0 wel echt netjes langs de rand?
+
 ![Schets van een meetopstelling](lineaal_v1.png){:width="80%"}
 
 Dan moeten we de waarde op de lineaal afmeten. Als we naar de bovenstaande situatie kijken dan zou het blokje 7.6 cm lang kunnen zijn. Maar het is niet helemaal goed af te lezen. Zo zou het blokje ook 7.7 cm lang kunnen zijn als we de linkerkant van het blokje aan de binnenkant van de eerste zwarte streep leggen, en het kan 7.5 cm zijn als we het blokje aan de buitenkant van de eerste zwarte streep leggen. Omdat er geen streepjes tussen de rode streepjes zijn kunnen we slechts op een mm nauwkeurig zeggen wat de lengte is van het blokje. Er is dus sprake van een meetonzekerheid. In dit geval zouden we bijvoorbeeld noteren dat het blokje een lengte heeft van $$7.6 \pm 0.1$$ cm.

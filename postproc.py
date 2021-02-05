@@ -14,7 +14,7 @@ for line in f:
         line += '\n\\usepackage[most]{tcolorbox}\n'
         line += '\\usepackage{tikz, lipsum}\n\\usepackage{fancyvrb}\n'
         line += '\\tcbuselibrary{breakable,skins}\n\\tcbset{enhanced jigsaw}'
-        line += '\n\\newenvironment{example}{\\vspace{0.5cm}\\begin{tcolorbox}[enhanced,title='',colframe=teal,colback=teal!5!white]}{\\end{tcolorbox}\\vspace{0.5cm}}'
+        line += '\n\\newenvironment{example}{\\vspace{0.5cm}\\begin{tcolorbox}[breakable,enhanced,title='',colframe=teal,colback=teal!5!white]}{\\end{tcolorbox}\\vspace{0.5cm}}'
         line += '\n\\newenvironment{antwoord}{\\begin{tcolorbox}[enhanced,breakable, colback=grey]}{\\end{tcolorbox}}\n'
 
         line += '\\setlength{\\textheight}{21.5cm}\\setlength{\\textwidth}{15.0cm}\n'
@@ -39,8 +39,10 @@ for line in f:
         line += '[display]'
         line += '{\\normalfont\\Huge\\bfseries\\filright}\n'
         line += '{\\Huge{\\partname} \\thepart}{0pt}\n'
-        line += '{\\titlerule[1pt]}\\titlespacing*{\\part}{0pt}{0pt}{5pt}\n'
+        line += '{\\titlerule[1pt]}\\titlespacing*{\\part}{0pt}{0pt}{3pt}\n'
 
+    if(line.count('usepackage{listings}')) :
+        line += '\n \\lstset{breaklines=true, basicstyle=\\ttfamily, columns=fullflexible, frame=single}'
         
     if(line.count('begin{document}')) : 
         line = ''
@@ -53,6 +55,9 @@ for line in f:
         line += '{\\noindent\\Huge\\bfseries Data Analyse en Statistiek}\n'
         line += '{\\Large \\textsc{Hella Snoek \\& Marthe Schut}}\n'
         line += '\\vspace{0.2\\textheight}}}\\endgroup}\n'
+        line += '\\usepackage{titletoc}\n'
+        line += '\\titlecontents{part}[0pt]{\\vskip20pt \\titlerule \\titlerule \\vskip5pt}{\\bfseries}{\\bfseries \\Large \\partname~~}{\\bfseries\\hfill\\contentspage}[]\n\n'
+
         line += '\\begin{document}\n'
         line += '\\titleGM\n'
         line += '\\tableofcontents\\newpage\n'

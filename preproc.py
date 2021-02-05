@@ -13,6 +13,10 @@ for line in f:
     line = line.replace( r"\[", r"\begin{equation*}" )
     line = line.replace( r"\]", r"\end{equation*}" )
     line = line.replace( r"<br>", r"\newline")
+    if line.startswith('> $$') :
+        line = line.replace( r"$$", r" \begin{equation*}",1 )
+        line = line.replace( r"$$", r"\end{equation*}",1 )
+
     while (line.count("> "))  :  line = line.replace( r"> ", r">")
     while (line.count(" <\\")) : line = line.replace( r" <\\", r"<\\")
     line = line.replace( r"1. Ordered TOC", r"")
@@ -30,9 +34,6 @@ for line in f:
         line = line.replace( r"$$", r"\begin{equation}",1 )
         line = line.replace( r"$$", r"\end{equation}",1 )
         
-    if line.startswith('> $$') :
-        line = line.replace( r"$$", r" \begin{equation*}",1 )
-        line = line.replace( r"$$", r"\end{equation*}",1 )
 
     if (line.count('.py]')) :
         line = line.replace( r'.py]', r".py`**]" )

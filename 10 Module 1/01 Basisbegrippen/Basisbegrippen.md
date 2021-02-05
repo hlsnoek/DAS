@@ -178,39 +178,64 @@ Een nadeel van het gebruik van de variatiecoëfficiënt is dat er gedeeld wordt 
 
 We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 
+> **Voorbeeld: Een populatie**
+> 
 > We hebben de volgende dataset van een populatie: 
 > 
-> $$Y = \{285,-20,31,60,12,53,133\}$$.<br>
+> $$Y = \{285,-20,31,60,12,53,133\}$$.
+> 
+> We bepalen nu hieronder de verschillende *parameters* die horen bij deze populatie. 
 > 
 > De grootte is dus N = 7.  
 > Om de mediaan te bepalen sorteren we eerst de datapunten van klein naar groot: 
 > 
-> -20,12,31,53,60,133,285 
+> $$\{-20,12,31,53,60,133,285\}$$
 > 
-> Het is een even aantal datapunten en de mediaan ligt tussen 53 en 60 in. Dit komt dan uit op 56.5.  
-> De spreidingsbreedte is $$285- -20 = 305$$.  
-> Het gemiddelde $$\mu_Y = \frac{1}{7}\cdot (285-20+31+60+12+53+133) = 79.1 $$  
+> Het is een even aantal datapunten en de mediaan ligt tussen 53 en 60 in. Dit komt dan uit op 56.5.
+>
+> De spreidingsbreedte: 
+> 
+> $$285 - (-20) = 305$$.  
+> 
+> Het gemiddelde: 
+> 
+> $$\mu_Y = \frac{1}{7}\cdot (285-20+31+60+12+53+133) = 79.1$$  
+> 
 > De standaarddeviatie is:
->  $$\sigma_Y^2 = \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 + (31-79.1)^2 + (60-79.1)^2 + \right. $$  
-> $$ \left. (12-79.1)^2 + (53-79.1)^2 + (133-79.1)^2 \right] = 8997.6 $$ geeft $$\sigma_Y = 94.9$$.   
+> 
+> $$\sigma_Y^2 = \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 \right.$$
+> $$\left. + (31-79.1)^2 + (60-79.1)^2 + (12-79.1)^2 + \right.$$
+> $$\left.(53-79.1)^2 + (133-79.1)^2 \right] = 8997.6$$
+> 
+> geeft $$\sigma_Y = 94.9$$.   
+> 
 > De variantie $$var_Y$$ = 8997.6. 
+> 
 > De variatiecoëfficiënt  $$c_{v} = 1.20$$.
 
 
-Het tweede voorbeeld gaat over een steekproef:
-
+>  **Voorbeeld: Een steekproef**
+> 
 > Stel we hebben een steekproef gedaan van de lengte van eerstejaars studenten. De volgende dataset is hiervoor verzameld: 
 > 
-> $$ L = \{ 1.90 ~\text{m}; 1.72 ~\text{m}; 1.61~\text{m}; 1.84~\text{m}; 1.79~\text{m} \} $$. 
+> $$L = \{ 1.90 ~\text{m}; 1.72 ~\text{m}; 1.61~\text{m}; 1.84~\text{m}; 1.79~\text{m} \}$$. 
 > 
+> Hieronder bepalen we de *statistieken* voor deze steekproef.
 > 
 > De grootte van de steekproef: $$n = 5$$.  
+> 
 > De spreidingsbreedte is $$1.90$$m-$$1.61$$ m $$= 39$$ cm.  
+> 
 > De mediaan ligt in het midden van de gesorteerde dataset. Dit is 1.79 m.  
+> 
 > Het gemiddelde $$\bar{L} = 1.77$$ m.  
+> 
 > De variantie is:  
 > 
->  $$  s^2 = \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 + (1.61-1.77)^2 + \right. $$<br>
-          $$\left. (1.84-1.77)^2 + (1.79-1.77)^2 \right] = 0.0100 \text{m}^2 $$  
+> $$s^2 = \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 \right.$$
+> $$\left.+ (1.61-1.77)^2 + (1.84-1.77)^2 + (1.79-1.77)^2 \right]$$
+> $$ = 0.0100 \text{m}^2$$  
+> 
 > De standaarddeviatie is $$ s = 0.10$$ m.  
+> 
 > De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$
