@@ -1,4 +1,5 @@
 # De kleinste-kwadraten methode
+<!--REF\label{/module-3/kleinste-kwadraten}-->
 
 1. Ordered TOC
 {:toc}

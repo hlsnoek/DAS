@@ -1,5 +1,5 @@
 ## M1.3 - Eigenschappen van distributies **
-
+<!--REF\label{/opdrachten-module-1/eigenschappen}-->
 In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen) van distributies en deze veranderen als een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en Poisson distributies. 
 
 Download voor deze opdracht het bestand [M1.3_Eigenschappen.py](M1.3_Eigenschappen.py) zorg dat deze in dezelfde folder staat as het `DAS_DatasetGenerator.py` bestand. 

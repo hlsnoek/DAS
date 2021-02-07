@@ -1,5 +1,5 @@
 # Kanstheorie
-
+<!--REF\label{/module-1/kanstheorie}-->
 1. Ordered TOC
 {:toc}
 

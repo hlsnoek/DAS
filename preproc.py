@@ -12,7 +12,8 @@ for line in f:
     line = line.replace( r"\displaystyle" , r"")
     line = line.replace( r"\[", r"\begin{equation*}" )
     line = line.replace( r"\]", r"\end{equation*}" )
-    line = line.replace( r"<br>", r"\newline")
+    line = line.replace( r"<br>", r'\newline')
+
     if line.startswith('> $$') :
         line = line.replace( r"$$", r" \begin{equation*}",1 )
         line = line.replace( r"$$", r"\end{equation*}",1 )
@@ -30,6 +31,8 @@ for line in f:
     line = line.replace( r"<span style = 'color: blue'>", r"***Antwoord:** ")
     line = line.replace( r"</span>", r"*")
 
+
+    
     if line.startswith('$$') :
         line = line.replace( r"$$", r"\begin{equation}",1 )
         line = line.replace( r"$$", r"\end{equation}",1 )
@@ -46,14 +49,23 @@ for line in f:
         name = line[line.rfind('(')+1:line.find('.png')]
         if (inExEnv) : line += '\n\\captionof{figure}{'+title+'}'
         else : line += '\n\\caption{'+title+'}'
-        line += '\n\\label{fig:'+name+'}'
+        line += '\n\\label{fig:'+name+'}\n'
     
     #    line = line.replace( r"#", r"##",1 )
 
     if (line.count('<!--FIG')) :
-        line = line.replace( r'<!--FIG ', r'')
+        line = line.replace( r'<!--FIG ', r' ')
         line = line.replace( r'-->', r' ')
-    
+
+    if (line.count('<!--REF')) :
+        line = line.replace( r'<!--REF', r'')
+        line = line.replace( r'-->', r' ')
+
+    if (line.count('<!--COMMENT')) :
+        line = line.replace( r'<!--COMMENT', r'')
+        line = line.replace( r'-->', r' ')
+
+
     l = line    
 
     print(l)

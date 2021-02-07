@@ -6,10 +6,9 @@ f = open( sys.argv[1] )
 inExEnv = False
 
 for line in f:
-
     line  = line[:-1] # trailing newline removal
     if(line.count("documentclass")) :
-        line = '\documentclass[11pt,twoside,a4paper,pdftex,openany]{book}'
+        line = '\documentclass[11pt,oneside,a4paper,pdftex,openany]{book}'
         line += '\\usepackage{capt-of}\n\\usepackage{xcolor}'
         line += '\n\\usepackage[most]{tcolorbox}\n'
         line += '\\usepackage{tikz, lipsum}\n\\usepackage{fancyvrb}\n'
@@ -127,8 +126,37 @@ for line in f:
     if (line.count('\label{fig')) :
         if (inExEnv) : line += "\\end{center}}"
         else : line += '\n\\end{figure}'
-        
-        
+
+    line = line.replace( r'\hypersetup{', r' \hypersetup{colorlinks=true, linkcolor =blue,')
+
+    #dit werkt niet.. hoe moet hij uit de while loop komen als er een py template fo http is?
+    #tel of er meer hrefs zijn dan py template en http...
+
+    
+    go = line.count('\\href')
+    if (go) :
+        start = line.find('\href')
+        mid = line.find('}',start)
+        end = line.find('}',mid+1)
+        while(go) : 
+            front_line = line[0:start]
+            fix_line = line[start:end+1]
+            end_line = line[end+1:]
+            #            print('font_line ', front_line)
+            #            print('fix_line ', fix_line)
+            #            print('end_line ', end_line)
+            go = end_line.count('\\href')
+            #            print('go ',go)
+            if ((fix_line.count('http')==0) & (fix_line.count('.py')==0) & (fix_line.count('.docx')==0)) :
+                temp_line = front_line
+                temp_line += line[mid+2:end]
+                temp_line += ' (Hfdst. \\'+line[start+2:mid+1]+')'
+                temp_line += end_line
+                line = temp_line
+            start = line.find('\href',end)
+            mid = line.find('}',start)
+            end = line.find('}',mid+1)
+            
     l = line
     print(l)
 

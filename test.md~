@@ -1,0 +1,11 @@
+[/module-1/data-visualiseren](visualiseren)
+[https://en.wikipedia.org/wiki/Landau_distribution](Landau)
+<!--REF\ref{/module-1/data-visualiseren}-->
+
+* [M1.3 Eigenschappen van distributies \*\*](/opdrachten-module-1/eigenschappen)
+* [M1.2 Eigenschappen van distributies \*\*](/opdrachten-module-1/eigenschappen2)
+
+Installeer de volgende twee bestanden naar een werkfolder op je computer \href{M1.1_MooiPlotten.py}{\textbf{\passthrough{\lstinline!M1.1\_MooiPlotten.py!}}} en \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/DAS_DatasetGenerator.py}{\textbf{\passthrough{\lstinline!DAS\_DatasetGenerator.py!}}}.
+
+
+

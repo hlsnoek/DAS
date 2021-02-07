@@ -1,4 +1,5 @@
 ## M4.1 Twee Functies *
+<!--REF\label{/opdrachten-module-4/}-->
 
 We krijgen een dataset en we weten niet precies welke functie moet fitten aan de data. Er zijn twee theorieën. De eerste zegt dat er een lineair verband zou moeten bestaan. De tweede dat de meetwaardes Normaal verdeeld horen te zijn. We gaan de twee functies fitten aan de data en proberen te achterhalen welke van de twee functies het beste fit. 
 

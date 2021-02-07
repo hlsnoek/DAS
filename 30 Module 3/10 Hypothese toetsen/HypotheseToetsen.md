@@ -1,4 +1,5 @@
 # Hypothese toetsen
+<!--REF\label{/module-3/hypothese-toetsen}-->
 
 1. Ordered TOC
 {:toc}

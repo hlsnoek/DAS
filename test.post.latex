@@ -1,0 +1,113 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{listings}
+\newcommand{\passthrough}[1]{#1}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+% Contents of listings-setup.tex
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{enumitem}
+
+\lstset{
+    basicstyle=\footnotesize\ttfamily,
+    numbers=right,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=3pt,
+    backgroundcolor=\color{yellow!10},
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    captionpos=b,
+    breaklines=false,
+    breakatwhitespace=true,
+    breakautoindent=true,
+    linewidth=\textwidth
+}
+
+\date{}
+
+\begin{document}
+
+\href{visualiseren}{/module-1/data-visualiseren} \href{Landau}{https://en.wikipedia.org/wiki/Landau\_distribution} \ref{/module-1/data-visualiseren}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/opdrachten-module-1/eigenschappen}{M1.3 Eigenschappen van distributies **}
+\item
+  \href{/opdrachten-module-1/eigenschappen2}{M1.2 Eigenschappen van distributies **}
+\end{itemize}
+
+Installeer de volgende twee bestanden naar een werkfolder op je computer \href{M1.1_MooiPlotten.py}{\textbf{\passthrough{\lstinline!M1.1\_MooiPlotten.py!}}} en \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/DAS_DatasetGenerator.py}{\textbf{\passthrough{\lstinline!DAS\_DatasetGenerator.py!}}}.
+
+\begin{quote}
+\includegraphics{Foutenpropagatie_const.png}\{:width=``65\%''\} \captionof{figure}{Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een lineaire functie.} \label{fig:Foutenpropagatie_const}
+\end{quote}
+
+\begin{quote}
+\begin{equation*} \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = c \cdot \Delta x.\end{equation*}\newline In dit geval schaalt de onzekerheid op \[x\] (\[\Delta x\]) dus met dezelfde factor \[c\] tot de onzekerheid op \[y\] (\[\Delta y\]). In de grafiek hieronder (Fig. \ref{fig:Foutenpropagatie_const}) wordt voor een willekeurige waarde \[x_i\] het effect van de propagatie van \[\Delta x\] rond de waarde \[x_i\] naar de fout \[\Delta y\] rond \[y_i\] visueel weergegeven. Je kunt duidelijk zien dat de grootte van \[\Delta y\] veranderd is met de factor \[c.\]\newline
+\end{quote}
+
+\end{document}

@@ -1,5 +1,5 @@
 # Introductie Module 1
-
+\label{/module-1/introductie} 
 Statistische data analyse is een belangrijk onderdeel in vele werkvelden.
 Als student en later wellicht ook als wetenschapper zul je te maken krijgen met het verzamelen en interpreteren van data bij het het prakticum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
 
@@ -33,16 +33,16 @@ Vaak maken we hierbij gebruik van histogrammen, grafieken en tabellen. Om een hy
 
 
 In deze cursus zullen we vaardigheden gaan leren voor data analyse en statistiek. 
-We beginnen deze week beginnen we met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over hoe we meetresultaten moeten presenteren, het gebruik van de wetenschappelijke [notatie](/module-1/notatie) en hoe we ze kunnen [visualiseren](/module-1/data-visualiseren). We gaan in op het begrip [meetonzekerheid](/module-1/meetonzekerheid).  
-Ook maken we een begin met [kansrekening](/module-1/kanstheorie) en [kansdichtheidsverdelingen](/module-1/verdelingsfuncties).
-
+We beginnen deze week beginnen we met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over hoe we meetresultaten moeten presenteren, het gebruik van de wetenschappelijke [notatie](/module-1/notatie) en hoe we ze kunnen [visualiseren](/module-1/data-visualiseren). We gaan in op het begrip [meetonzekerheid](/module-1/meetonzekerheid). Ook maken we een begin met [kansrekening](/module-1/kanstheorie) en[kansdichtheidsverdelingen](/module-1/verdelingsfuncties).
 Niet elk van deze onderwerpen is even moeilijk. Let goed op dat je genoeg tijd overhoudt om de introductie van de kanstheorie te bestuderen.
 
+\iffalse 
 We werken in de werkcolleges aan de opdrachten van deze module [M1](/opdrachten-module-1/opdrachten). Je vindt in het [schema](/informatie/inleveropdrachten) wanneer je deze moet inleveren.
 Vergeet ook niet te kijken naar het [oefenmateriaal](/module-1/tussentoets-info) voor de eerste verplichte tussentoets die volgt aan het einde van het tweede hoorcollege.
+\fi 
 
 # Basisbegrippen in de statistiek
-
+\label{/module-1/basisbegrippen} 
 
 
 
@@ -284,7 +284,7 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 >De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$
 
 # Het correct noteren van resultaten
-
+\label{/module-1/notatie} 
 
 
 
@@ -413,7 +413,7 @@ resultaat gelijk aan $$2.00 \times 3.5 = 7.0$$ (twee significante cijfers).
 
 
 # Datasets visualiseren
-
+\label{/module-1/data-visualiseren} 
 
 
 
@@ -443,11 +443,12 @@ Bij **grafieken**,
 
 Met behulp van voorbeelden laten we zien wat de richtlijnen zijn en waar je op moet letten. 
 
-Stel bijvoorbeeld dat we naar de gemiddelde dagtemperatuur in de maand December 2019 in de Bilt. Hieronder, in Fig. \ref{fig:plot1_lijn_geenOpmaak} een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
+Stel bijvoorbeeld dat we naar de gemiddelde dagtemperatuur in de maand December 2019 in de Bilt. Hieronder , in Fig. \ref{fig:plot1_lijn_geenOpmaak} een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data):
 
 ![Plot met lijn tussen de datapunten.](plot1_lijn_geenOpmaak.png){:width="60%"}
 \caption{Plot met lijn tussen de datapunten.}
 \label{fig:plot1_lijn_geenOpmaak}
+
 
 Je ziet dat dit niet erg duidelijk is. Het is bijvoorbeeld niet precies te zien waar de gemeten punten zitten, we hebben wel een vermoeden voor de plaatsen waarop de lijn abrupt van richting veranderd, maar wie weet zitten er nog wel meer datapunten tussen.
 
@@ -457,25 +458,28 @@ Laten we dezelfde data eens plotten zonder lijnen maar alleen met punten: \newli
 \caption{Plot met alleen de datapunten.}
 \label{fig:plot2_scatter_geenOpmaak}
 
-Vanuit deze grafiek, Fig. \ref{fig:plot2_scatter_geenOpmaak} zien we waar de datapunten zijn. Dat konden we in de lijnplot niet goed zien. We kunnen nu helaas de trend niet meer goed waarnemen. Omdat er op een dag maar één gemiddelde gemeten temperatuur kan bestaan, is het toch beter deze als een grafiek weer te geven. 
+
+Vanuit deze grafiek , Fig. \ref{fig:plot2_scatter_geenOpmaak} zien we waar de datapunten zijn. Dat konden we in de lijnplot niet goed zien. We kunnen nu helaas de trend niet meer goed waarnemen. Omdat er op een dag maar één gemiddelde gemeten temperatuur kan bestaan, is het toch beter deze als een grafiek weer te geven. 
 We kiezen ervoor om zowel een lijn als markers te gebruiken. 
 
-De plot kan echter netter. Zo staan er geen labels op de assen. Nu kunnen we in dit geval wel raden welke as het jaar aangeeft en welke as de temperatuur, maar in veel gevallen is dat niet zo duidelijk. Om die reden moeten er altijd **labels op de assen** staan, zie het figuur hieronder\ref{fig:plot3_grafiek_aslabel} :
+De plot kan echter netter. Zo staan er geen labels op de assen. Nu kunnen we in dit geval wel raden welke as het jaar aangeeft en welke as de temperatuur, maar in veel gevallen is dat niet zo duidelijk. Om die reden moeten er altijd **labels op de assen** staan, zie het figuur hieronder \ref{fig:plot3_grafiek_aslabel} :
 
 ![Plot met lijnen en datapunten en aslabels.](plot3_grafiek_aslabel.png){:width="100%"}\newline
 \caption{Plot met lijnen en datapunten en aslabels.}
 \label{fig:plot3_grafiek_aslabel}
+
 
 Zoals je ziet hebben we het formaat van de grafiek ook aangepast zodat de distributie iets natuurlijker overkomt.
 
 Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, tenzij de data dan onvolledig of onleesbaar wordt**. In het geval van het weergeven van de temperaturen wordt de data bijvoorbeeld onvolledig als we de temperatuur bij nul laten beginnen, we hebben immers ook temperaturen onder het vriespunt. In dit geval kunnen we de horizontale as wel bij nul laten beginnen, al is dat voor datums meestal anders. 
 
 De assen kunnen nog wat netter. Zo eindigt de verticale as net voor de waarde $$0$$, maar het is niet helemaal duidelijk bij welke waarde precies. De horizontale as begint een klein stukje voor 0 en eindigt een klein stukje na 30. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**.  In ons geval laten we het beginnen op de eerste dag van de maand en de laatste dag, daarnaast laten we de temperatuur beginnen op $$-2$$ C&deg; en eindigen op $$16$$ C&deg;. 
-Dit tonen we in Fig. \ref{fig:plot4_grafiek_aslabel_lim}. 
+ Dit tonen we in Fig. \ref{fig:plot4_grafiek_aslabel_lim}. 
 
 ![Plot met correct as-bereik.](plot4_grafiek_aslabel_lim.png){:width="100%"}\newline
 \caption{Plot met correct as-bereik.}
 \label{fig:plot4_grafiek_aslabel_lim}
+
 
 Stel we willen de temperatuur in de Bilt nu weergeven naast de temperaturen gemeten in Vlissingen en Maastricht. De grafiek ziet er dan zo uit:
 
@@ -483,7 +487,8 @@ Stel we willen de temperatuur in de Bilt nu weergeven naast de temperaturen geme
 \caption{Plot met verschillende weerstations.}
 \label{fig:plot5_grafieken_aslabel_lim}
 
-We hebbenin Fig.\ref{fig:plot5_grafieken_aslabel_lim} ook een legenda toegevoegd zodat duidelijk is welke lijn bij welk weerstation hoort. 
+
+We hebben in Fig.\ref{fig:plot5_grafieken_aslabel_lim} ook een legenda toegevoegd zodat duidelijk is welke lijn bij welk weerstation hoort. 
 
 Tot nu toe hebben we nog geen titels toegevoegd aan de plots. Dit komt omdat dat voor verslagen en wetenschappelijke artikelen ongebruikelijk is, daar moet het onderschrift namelijk al vertellen wat er te zien is in de grafiek. In webteksten, lesteksten en presentaties kan het echter voorkomen dat een grafiek wel een titel heeft, omdat er in die context vaak geen onderschrift toegevoegd kan worden. 
 
@@ -511,13 +516,15 @@ Hieronder zie je voorbeelden van een staafdiagram en een histogram.
 \caption{Een voorbeeld van een staafdiagram.}
 \label{fig:autos-in-nederland}
 
-Hierboven, in Fig. \ref{fig:autos-in-nederland} zie je een **staafdiagram** die de hoeveelheid auto's in Nederland laat zien over drie verschillende jaren opgesplitst naar drie auto categorieën. 
+
+Hierboven , in Fig. \ref{fig:autos-in-nederland} zie je een **staafdiagram** die de hoeveelheid auto's in Nederland laat zien over drie verschillende jaren opgesplitst naar drie auto categorieën. 
 
 ![Een voorbeeld van een histogram.](verdeling-van-inkomens-2.png){:width="60%"}\newline
 \caption{Een voorbeeld van een histogram.}
 \label{fig:verdeling-van-inkomens-2}
 
-Hierboven, in Fig. \ref{fig:verdeling-van-inkomens-2} zie je een **histogram** die de inkomensverdeling in Nederland laat zien. 
+
+Hierboven , in Fig. \ref{fig:verdeling-van-inkomens-2} zie je een **histogram** die de inkomensverdeling in Nederland laat zien. 
 
 Er is een belangrijk verschil tussen een staafdiagram en een histogram. Een staafdiagram laat de frequentie zien voor *gecategoriseerde* verdelingen. Een histogram wordt gebruikt om het resultaat van een *numeriek sorteerbare* verdeling mee weer te geven. In het geval van een histogram gaat het vaak om data met een continue variabele, zoals bijvoorbeeld bij het opmeten van lengte of gewicht. In dat geval sorteer je de data per interval.
 
@@ -529,23 +536,26 @@ Bij een staafdiagram kun je de frequentie direct aflezen; voor één categorie l
 
 Voor een histogram is de breedte van de intervallen van belang. Als we te weinig bins kiezen dan worden de intervallen erg groot (/breed) en is er minder te zeggen over het gedrag van de data. Als we te veel bins kiezen dan fluctueert de hoogte van de (smalle) bins onderling erg en is het ook lastiger om de trend in de data goed in te schatten.
 
-Dit bekijken we aan de hand van een voorbeeld, zie Fig. \ref{fig:Plot11_RandNorm_Hist_GoedeBins} . Zo zou het kunnen zijn dat het ideale plaatje bij een gegeven dataset het volgende is:
+Dit bekijken we aan de hand van een voorbeeld , zie Fig. \ref{fig:Plot11_RandNorm_Hist_GoedeBins} . Zo zou het kunnen zijn dat het ideale plaatje bij een gegeven dataset het volgende is:
 
 ![Een histogram met een goede bin en range keuze.](Plot11_RandNorm_Hist_GoedeBins.png){:width="400px"}\newline
 \caption{Een histogram met een goede bin en range keuze.}
 \label{fig:Plot11_RandNorm_Hist_GoedeBins}
 
-Als we te brede bins kiezen dan wordt de data afgevlakt en kunnen we het bovenstaande gedrag niet meer herkennen, zie Fig. \ref{fig:Plot12_RandNorm_Hist_TeWeinigBins} :
+
+Als we te brede bins kiezen dan wordt de data afgevlakt en kunnen we het bovenstaande gedrag niet meer herkennen , zie Fig. \ref{fig:Plot12_RandNorm_Hist_TeWeinigBins} :
 
 ![Een histogram met een te grove binning.](Plot12_RandNorm_Hist_TeWeinigBins.png){:width="400px"}\newline
 \caption{Een histogram met een te grove binning.}
 \label{fig:Plot12_RandNorm_Hist_TeWeinigBins}
 
-Kiezen we juist te smalle bins, ,zoals hieronder in Fig. \ref{fig:Plot13_RandNorm_Hist_TeVeelBins} dan kunnen we het gedrag van de data nog wel herkennen (in dit geval) maar er is veel fluctuatie in de hoogte van de bins: 
+
+Kiezen we juist te smalle bins,  ,zoals hieronder in Fig. \ref{fig:Plot13_RandNorm_Hist_TeVeelBins} dan kunnen we het gedrag van de data nog wel herkennen (in dit geval) maar er is veel fluctuatie in de hoogte van de bins: 
 
 ![Een histogram met een te fijne binning.](Plot13_RandNorm_Hist_TeVeelBins.png){:width="400px"}\newline
 \caption{Een histogram met een te fijne binning.}
 \label{fig:Plot13_RandNorm_Hist_TeVeelBins}
+
 
 Met het kiezen van te veel bins hebben we dus visuele ruis geïntroduceerd, dit maakt het moeilijker om het gedrag op het oog te herkennen.
 
@@ -603,11 +613,12 @@ Daarna roepen we het **`plot`** commando uit matplotlib.pyplot aan:
 
     plt.plot(t_data, h_data, 'ro')
 
-Met **`'ro'`** geven we aan dat we rode gevulde punten in de plot willen. De plot ziet er nu als volgt (zie Fig. \ref{fig:Plot14_Vallenbal_PlotOnopgemaakt}) uit.
+Met **`'ro'`** geven we aan dat we rode gevulde punten in de plot willen. De plot ziet er nu als volgt  (zie Fig. \ref{fig:Plot14_Vallenbal_PlotOnopgemaakt}) uit.
 
 ![Plot met rode punten.](Plot14_Vallenbal_PlotOnopgemaakt.png){:width="400px"}\newline
 \caption{Plot met rode punten.}
 \label{fig:Plot14_Vallenbal_PlotOnopgemaakt}
+
 
 Je ziet dat de assen automatisch vanaf de laagste waarde tot aan de hoogste waarden gaan, en hierbij niet eindigen op een maatstreepje. Daarnaast willen we graag labels op de assen.
 
@@ -621,11 +632,12 @@ Labels voor de assen kunnen we als volgt specificeren:
     plt.xlabel('t (s)')
     plt.ylabel('h (cm)')
     
-Het resultaat is(Fig. \ref{fig:Plot15_Vallenbal_PlotOpgemaakt}) :
+Het resultaat is (Fig. \ref{fig:Plot15_Vallenbal_PlotOpgemaakt}) :
 
 ![Plot met aslabels en -ranges.](Plot15_Vallenbal_PlotOpgemaakt.png){:width="400px"}\newline
 \caption{Plot met aslabels en -ranges.}
 \label{fig:Plot15_Vallenbal_PlotOpgemaakt}
+
 
 De volledige code tot nu toe is:    
 
@@ -658,11 +670,12 @@ Daarna gebruiken we weer dezelfde eigenschappen voor de as-limieten en de as-lab
     plt.xlabel('t (s)')
     plt.ylabel('h (cm)')
     
-De plot ziet er dan als volgt uit(Fig. \ref{fig:PLOT16_MeerdereScatter}) :\newline
+De plot ziet er dan als volgt uit (Fig. \ref{fig:PLOT16_MeerdereScatter}) :\newline
 
 ![Twee datasets.](PLOT16_MeerdereScatter.png){:width ="400px"}\newline
 \caption{Twee datasets.}
 \label{fig:PLOT16_MeerdereScatter}
+
 
 Omdat er meerdere datasets in één grafiek zijn weergegeven is het noodzakelijk om hier een legenda bij te plaatsen. Een legenda kan op meerdere plaatsen in de figuur neergezet worden. Voordat we de legenda kunnen toevoegen moeten we de plots eerst labelen dit doen we door **`label = "naam"`** achteraan in de **`plot`** commando's toe te voegen:
 
@@ -673,11 +686,12 @@ Nu kunnen we de legenda als volgt toevoegen (hier kiezen we ervoor om de legenda
 
     plt.legend(loc='upper right', shadow=True, ncol=1)
 
-De grafiek is nu als volgt(Fig. \ref{fig:PLOT18_MeerdereScatter_legenda}) :
+De grafiek is nu als volgt (Fig. \ref{fig:PLOT18_MeerdereScatter_legenda}) :
 
 ![Plot met legenda.](PLOT18_MeerdereScatter_legenda.png){:width ="400px"}\newline
 \caption{Plot met legenda.}
 \label{fig:PLOT18_MeerdereScatter_legenda}
+
 
 De volledige code tot nu toe is:    
 
@@ -722,11 +736,12 @@ Dit kan je als volgt doen:
     plt.legend(loc='upper right', shadow=True, ncol=1)
 
     
-De bijbehorende plot(Fig. \ref{fig:PLOT17_MeerdereLijnen_legenda}) :
+De bijbehorende plot (Fig. \ref{fig:PLOT17_MeerdereLijnen_legenda}) :
 
 ![Een plot met twee lijnen en legenda.](PLOT17_MeerdereLijnen_legenda.png){:width="400px"}\newline
 \caption{Een plot met twee lijnen en legenda.}
 \label{fig:PLOT17_MeerdereLijnen_legenda}
+
 
 ### Voorbeeld een histogram plotten
 
@@ -742,7 +757,7 @@ Succes!
 
 
 # Metingen en onzekerheid
-
+\label{/module-1/meetonzekerheid} 
 
 
 
@@ -773,11 +788,12 @@ De eerste oorzaak is dat we een fout maken bij de meting. Een fout betekent hier
 
 
 * **De lengte van een blokje hout.** 
-Hier zou je bijvoorbeeld een liniaal voor kunnen gebruiken. Allereerst moeten we het blokje netjes langs de liniaal leggen. Zie hieronderin Fig. \ref{fig:lineaal_v1}, een schets van de opstelling. Ligt de 0 wel echt netjes langs de rand?
+Hier zou je bijvoorbeeld een liniaal voor kunnen gebruiken. Allereerst moeten we het blokje netjes langs de liniaal leggen. Zie hieronder in Fig. \ref{fig:lineaal_v1}, een schets van de opstelling. Ligt de 0 wel echt netjes langs de rand?
 
 ![Schets van een meetopstelling](lineaal_v1.png){:width="80%"}
 \caption{Schets van een meetopstelling}
 \label{fig:lineaal_v1}
+
 
 Dan moeten we de waarde op de lineaal afmeten. Als we naar de bovenstaande situatie kijken dan zou het blokje 7.6 cm lang kunnen zijn. Maar het is niet helemaal goed af te lezen. Zo zou het blokje ook 7.7 cm lang kunnen zijn als we de linkerkant van het blokje aan de binnenkant van de eerste zwarte streep leggen, en het kan 7.5 cm zijn als we het blokje aan de buitenkant van de eerste zwarte streep leggen. Omdat er geen streepjes tussen de rode streepjes zijn kunnen we slechts op een mm nauwkeurig zeggen wat de lengte is van het blokje. Er is dus sprake van een meetonzekerheid. In dit geval zouden we bijvoorbeeld noteren dat het blokje een lengte heeft van $$7.6 \pm 0.1$$ cm.
 
@@ -822,7 +838,7 @@ Systematische onzekerheden zijn lastig te vinden in opstellingen en zijn vooral 
 ## Onderliggende verdelingen
 
 Je begrijpt nu dat veel metingen wel herhaalbaar zijn, maar dat je niet altijd precies dezelfde resultaten kunt verwachten. Het gevolg hiervan is dat je een verdeling of distributie krijgt van je meetresultaten. 
-Van deze verdeling kunnen we bepaalde eigenschappen uitrekenen. Meer hierover kun je vinden onder het kopje [basisbegrippen](/module-1/basisbegrippen).
+Van deze verdeling kunnen we bepaalde eigenschappen uitrekenen. Meer hierover kun je vinden in het hoofdstuk [basisbegrippen](/module-1/basisbegrippen).
 Het is belangrijk om de verdelingen goed te presenteren, meer daarover kun je [hier](/module-1/data-visualiseren) lezen. 
 
 
@@ -878,7 +894,7 @@ Soms werkt een relatieve fout ook juist weer niet. Bijvoorbeeld als je heel nauw
 
 
 # Kanstheorie
-
+\label{/module-1/kanstheorie} 
 
 
 
@@ -1009,7 +1025,7 @@ Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rod
 
 
 # Kansdichtheidsfuncties
-
+\label{/module-1/verdelingsfuncties} 
 
 
 
@@ -1059,11 +1075,12 @@ In deze vergelijkingen is het in elk geval ook gewoon handiger om $$E(x)$$ of $$
 ### Uniform
 <a name="Uniform"></a>
 De uniforme distributie is een vlakke kansverdeling. De kans op elk deel van de uitkomstenverzameling is gelijk. We hebben hier al een paar voorbeelden van gezien. Bijvoorbeeld bij de eerlijke dobbelsteen waarbij de kans op elk van de 6 uitkomsten precies gelijk is. De uitkomsten van een dobbelsteen zijn discreet. Voor **discrete uniforme** verdelingen van stochastische waarden kunnen we schrijven dat de kans op uitkomst van stochast $$i$$, $$P({i})$$, gevonden kan worden met de relatie: $$P({i}) = 1/N$$.\newline
-Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt uit(zie Fig. \ref{fig:UniformeDistributieDobbelsteen} :
+Waarbij N de hoeveelheid mogelijke uitkomsten is. Dit ziet er grafisch als volgt uit (zie Fig. \ref{fig:UniformeDistributieDobbelsteen} :
 
 ![De kansverdeling van uitkomsten van een worp met een dobbelsteen.](UniformeDistributieDobbelsteen.png){:width="80%"}
 \caption{De kansverdeling van uitkomsten van een worp met een dobbelsteen.}
 \label{fig:UniformeDistributieDobbelsteen}
+
 
 \newline
 Een algemene formule voor een **continue uniforme** verdeling is: 
@@ -1071,11 +1088,12 @@ Een algemene formule voor een **continue uniforme** verdeling is:
 \begin{equation}{ f(x;a,b) = \frac{1}{b-a}} \quad\text{voor}\quad a \leq x \leq b.\end{equation}
 
 Hierbij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
-Hier, in \ref{fig:UniformeDistributieAlgemeen}  zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
+Hier , in \ref{fig:UniformeDistributieAlgemeen}  zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling:
 
 ![Een voorbeeld van de kansdichtheidsverdeling van een uniforme distributie.](UniformeDistributieAlgemeen.png){:width="80%"}
 \caption{Een voorbeeld van de kansdichtheidsverdeling van een uniforme distributie.}
 \label{fig:UniformeDistributieAlgemeen}
+
 
 De verwachtingswaarde en de standaarddeviatie van de uniforme verdeling zijn $$E(x) = (a+b)/2$$ en $$\sigma = (b-a)/\sqrt{12}$$. 
  
@@ -1113,11 +1131,12 @@ Deze kansen staan ook uitgedrukt in de gele lijn in de figuur hieronder.
 
 De binomiale verdeling is een discrete verdeling. Deze formule kunnen we niet toepassen op fractionele waardes. Dat is ook logisch want het Bernoulli experiment kunnen we niet een fractioneel aantal keer uitvoeren. De kansverdeling is asymmetrisch voor lage waardes van $$n$$ en wordt voor grotere waardes van $$n$$ steeds meer symmetrisch.
 
-Hier, in Fig. \ref{fig:BinomiaalDistributie}, zie je een aantal verdelingen voor de Binomiaal.
+Hier , in Fig. \ref{fig:BinomiaalDistributie}, zie je een aantal verdelingen voor de Binomiaal.
 
 ![Binomiaal kansdichtheidsverdelingen.](BinomiaalDistributie.png){:width="60%"}
 \caption{Binomiaal kansdichtheidsverdelingen.}
 \label{fig:BinomiaalDistributie}
+
 
 Het voorbeeld van daarnet is uitgedrukt in de gele lijn. Kijk ook eens goed naar de blauwe lijn. De kans $$p=1$$ zegt dat een de uitkomst altijd succes is. Als je het experiment twee keer uitvoert, zijn ze dus gegarandeerd allebei succesvol. En de kans is 0 dat je maar 1 uit 2 $$(n=2,k=1)$$ positieve uitslagen hebt. Dat kan immers ook niet, je kan alleen maar succes hebben, er bestaan geen andere uitslagen van het experiment.
 
@@ -1132,11 +1151,12 @@ De Poisson kent, in tegenstelling tot de binomiaal dus maar 1 parameter.
 De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de variantie is ook $$\lambda$$. De onzekerheid op een stochast, als deze de Poisson statistiek volgt, is gelijk aan de standaarddeviatie: $$\sigma = \sqrt{\text{var}} = \sqrt{\lambda}$$.
 
 Het is dus een bijzondere vergelijking!
-Hier, in Fig. \ref{fig:PoissonDistributie} zie hoe de Poisson distributie eruit ziet voor verschillende waardes van $$\lambda$$.
+Hier , in Fig. \ref{fig:PoissonDistributie} zie hoe de Poisson distributie eruit ziet voor verschillende waardes van $$\lambda$$.
 
 ![Poisson-verdeelde kansdichtheidsdistributie.](PoissonDistributie.png){:width="60%"}
 \caption{Poisson-verdeelde kansdichtheidsdistributie.}
 \label{fig:PoissonDistributie}
+
 
 De Poisson verdeling is, net als de Binomiaal vergelijking asymmetrisch voor lage waardes van $$\lambda$$ en wordt voor steeds meer symmetrisch voor hogere waardes van $$\lambda$$. 
 Dat is ook geen toeval, de Poisson vergelijking is een speciale vorm van de Binomiaal. Als je hier meer over wilt weten kun je [dit](https://www.youtube.com/watch?v=eexQyHj6hEA) filmpje bekijken.
@@ -1155,11 +1175,12 @@ Over de mathematische beginselen van de Normale verdelingsfunctie gaan we hier v
 
 
 
-Hier, in Fig. \ref{fig:NormaleDistributie} zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$\mu$$ en $$\sigma$$. 
+Hier , in Fig. \ref{fig:NormaleDistributie} zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$\mu$$ en $$\sigma$$. 
 
 ![Normaal-verdeelde kansdichtheidsverdelingen.](NormaleDistributie.png){:width="60%"}
 \caption{Normaal-verdeelde kansdichtheidsverdelingen.}
 \label{fig:NormaleDistributie}
+
 
 Het is goed om op te merken dat de Normale verdeling een symmetrische continue verdeling is. De meeste stochasten zijn gegroepeerd rond het gemiddelde en hoe meer we van het gemiddelde afwijken, hoe kleiner de kans is dat we een stochast aantreffen.
 
@@ -1168,18 +1189,20 @@ Voorbeelden van Normaal verdelingen vinden we overal om ons heen. De verdeling v
 
 
 # Opdrachten Module 1
-
+\label{/opdrachten-module-1/opdrachten} 
 Tijdens de laptopcolleges in de eerste week werken we aan de vijf opdrachten van de eerste module.
 
 
 * [M1.1 Mooi Plotten *](/opdrachten-module-1/mooiplotten)
-* [M1.2 Kansdichtheid-distributies **](/opdrachten-module-1/distributies)
-* [M1.3 Eigenschappen van distributies **](/opdrachten-module-1/eigenschappen)
+* [M1.2 Kansdichtheid-distributies \*\*](/opdrachten-module-1/distributies)
+* [M1.3 Eigenschappen van distributies \*\*](/opdrachten-module-1/eigenschappen)
 * [M1.4 Grote Aantallen I \*\*\*](/opdrachten-module-1/groteaantallen)
-* [M1.5 Halfwaardedikte I *](/opdrachten-module-1/halfwaardedikte)
+* [M1.5 Halfwaardedikte I \*](/opdrachten-module-1/halfwaardedikte)
 
-De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 
+De sterretjes geven een indicatie voor hoeveel werk een opdracht is. 
+
+\iffalse 
 De antwoorden van de opdrachten moet je invoeren in [deze template](InlevertemplateModule1.docx) en als **pdf** bestand inleveren via ANS ook de code moet je daar inleveren. 
 
 De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/informatie/inleveropdrachten) vinden.
@@ -1191,8 +1214,10 @@ Vergeet niet om ook even te kijken naar de [oefen opgaves](/tussentoets-i/oefeno
 
 Veel succes! 
 
+\fi 
 
 ## M1.1 - Mooi Plotten *
+\label{/opdrachten-module-1/mooiplotten} 
 
 We beginnen dit vak met een eenvoudige opdracht. We gaan in deze opdracht een histogram goed leesbaar maken. Lees eerst het stuk je over [Data visualiseren](/module-1/data-visualiseren), daar vind je ook de richtlijnen waaraan een goed histogram voldoet.
 
@@ -1203,7 +1228,7 @@ De dikgedrukte vragen die je in deze opdracht vindt moet je uiteindelijke ook in
 
 
 
->Installeer de volgende twee bestanden naar een werkfolder op je computer [**`M1.1_MooiPlotten.py`**](M1.1_MooiPlotten.py) en [**`DAS_DatasetGenerator.py`**](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py).
+>Installeer de volgende twee bestanden naar een werkfolder op je computer [**`M1.1_MooiPlotten.py`**](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/10%20MooiPlotten/M1.1_MooiPlotten.py) en [**`DAS_DatasetGenerator.py`**](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py).
 
 Open de bestanden in het VSCode programma en lees de code. We zullen hieronder wat uitleg over de code geven. 
 
@@ -1279,6 +1304,7 @@ Als je alle andere opdrachten voor module 1 ook hebt gemaakt kun je de opdrachte
 
 
 ## M1.2 - Kansdichtheid distributies **
+\label{/opdrachten-module-1/distributies} 
 
 We gaan in deze opgave kijken naar kansdichtheid distributie. Lees [hier](/module-1/verdelingsfuncties) meer over kansdichtheidsdistributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/verdelingsfuncties#Poisson">poisson</a>en <a href="/module-1/verdelingsfuncties#Uniform">uniforme</a>distributies.
 
@@ -1351,7 +1377,7 @@ Er zijn verschillende functies die je kan gebruiken. Kijk eens naar de **`unifor
 Verzamel je antwoorden op het template voor module 1, zorg dat je de code ook bewaart, deze moet je later inleveren. 
 
 ## M1.3 - Eigenschappen van distributies **
-
+\label{/opdrachten-module-1/eigenschappen} 
 In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen) van distributies en deze veranderen als een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en Poisson distributies. 
 
 Download voor deze opdracht het bestand [**`M1.3_Eigenschappen.py`**](M1.3_Eigenschappen.py) zorg dat deze in dezelfde folder staat as het `DAS_DatasetGenerator.py` bestand. 
@@ -1415,7 +1441,7 @@ Herhaal nu de vragen b-d voor de Poisson verdeling:
 
 
 ## M1.4 - Grote Aantallen \*\*\*
-
+\label{/opdrachten-module-1/groteaantallen} 
 
 We hebben een enorme ton kogeltjes en we willen weten hoe zwaar een enkele kogel uit de ton is. De kogels zijn, door variaties in het productieproces, niet allemaal precies even zwaar. De massa's van de kogels zijn **Normaal** ofwel **Gaussisch** verdeeld. We willen graag weten wat de ***typische*** massa is van een kogel uit deze ton. 
 Er zit ook een onzekerheid op de meting, maar die is veel kleiner dat de variatie in de kogelmassa's en mogen we negeren.
@@ -1463,7 +1489,7 @@ Nu gaan we de functie **`maakSetGemiddeldes()`** afmaken. Deze functie geeft twe
 
 
 ## M1.5 - Halfwaardedikte I *
-
+\label{/opdrachten-module-1/halfwaardedikte} 
 <!--voor 2022: 
 - In het nakijkmodel bij 5e voeg het antwoord toe: Je hebt er goed over nagedacht, maar het antwoord is toch fout.
 - Bij laatste vraag, verander het woord opstelling in experiment -->
@@ -1522,7 +1548,7 @@ Beantwoord nu de volgende vragen:
 Je hebt nu alle opdrachten van module 1 afgerond. Sla het ingevulde template nu op als pdf en lever deze samen met de 5 python scriptjes in. Kijk nog eens bij de [informatie](/informatie/inleveropdrachten) over de inleveropdrachten voor de link naar ANS en de deadlines.
 
 # Introductie Module 2
-
+\label{/module-2/introductie} 
 Deze week verdiepen we ons in het concept meetonzekerheid. We leren hoe we [onzekerheden kunnen doorrekenen](/module-2/foutenpropagatiei) in vergelijkingen. We zien hoe [onzekerheden veranderen](/module-2/wet-van-grote-aantallen) als we meer meetpunten aan onze dataset toevoegen. We kijken ook naar relaties tussen onzekerheden in [meerdimensionale datasets](/module-2/meerdimensionale-data), en we introduceren de [laatste kans rekenregels](/module-2/extra-kansrekenregels) die vooral voor multidimensionale data belangrijk is. 
 
 
@@ -1530,7 +1556,7 @@ We werken in de laptopcolleges aan de opdrachten van deze module [M2](/opdrachte
 Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-ii/inhoud) voor de tweede tussentoets. De tweede tussentoets volgt aan het einde van het derde hoorcollege.
 
 # Foutenpropagatie
-
+\label{/module-2/foutenpropagatiei} 
 
 
 
@@ -1565,37 +1591,41 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 >Stel we hebben een vergelijking $$y = c\cdot x$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: \newline 
 >
 >\begin{equation*} \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = c \cdot \Delta x.\end{equation*}\newline
->In dit geval schaalt de onzekerheid op $$x$$ ($$\Delta x$$) dus met dezelfde factor $$c$$ tot de onzekerheid op $$y$$ ($$\Delta y$$). In de grafiek hieronder(Fig. \ref{fig:Foutenpropagatie_const}) wordt voor een willekeurige waarde $$x_i$$ het effect van de propagatie van $$\Delta x$$ rond de waarde $$x_i$$ naar de fout $$\Delta y$$ rond $$y_i$$ visueel weergegeven. Je kunt duidelijk zien dat de grootte van $$\Delta y$$ veranderd is met de factor $$c.$$\newline
+>In dit geval schaalt de onzekerheid op $$x$$ ($$\Delta x$$) dus met dezelfde factor $$c$$ tot de onzekerheid op $$y$$ ($$\Delta y$$). In de grafiek hieronder (Fig. \ref{fig:Foutenpropagatie_const}) wordt voor een willekeurige waarde $$x_i$$ het effect van de propagatie van $$\Delta x$$ rond de waarde $$x_i$$ naar de fout $$\Delta y$$ rond $$y_i$$ visueel weergegeven. Je kunt duidelijk zien dat de grootte van $$\Delta y$$ veranderd is met de factor $$c.$$\newline
 >![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een lineaire functie.](Foutenpropagatie_const.png){:width="65%"}
 \captionof{figure}{Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een lineaire functie.}
 \label{fig:Foutenpropagatie_const}
+
 
 >**Voorbeeld 2: Translatie** 
 >
 >Stel we hebben een vergelijking $$y = x + a$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: \newline 
 >\begin{equation*} \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = \Delta x.\end{equation*}\newline
->Wederom geven we het effect van de foutenpropagatie van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ grafisch weer in de grafiek  hieronder(Fig. \ref{fig:Foutenpropagatie_trans) . Je ziet dat de translatie geen effect heeft op de grootte van de onzekerheid.\newline
+>Wederom geven we het effect van de foutenpropagatie van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ grafisch weer in de grafiek  hieronder (Fig. \ref{fig:Foutenpropagatie_trans) . Je ziet dat de translatie geen effect heeft op de grootte van de onzekerheid.\newline
 >![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een translatie.](Foutenpropagatie_trans.png){:width="65%"}
 \captionof{figure}{Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een translatie.}
 \label{fig:Foutenpropagatie_trans}
+
 
 >**Voorbeeld 3: Macht** 
 >
 >Stel we hebben een vergelijking $$y = x^3$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: \newline 
 >\begin{equation*} \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = 3x^2 \cdot \Delta x.\end{equation*}\newline
->Het effect van de foutenpropagatie volgens deze formule van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ wordt weer grafisch weergegeven in het plaatje hieronder(Fig.\ref{fig:Foutenpropagatie_cube}) . Je kunt zien dat de mate waarin de grootte van $$\Delta x$$ verandert afhangt van de gekozen waarde van $$x_i$$, op sommige plekken is hij kleiner geworden, op andere plekke groter.  \newline
+>Het effect van de foutenpropagatie volgens deze formule van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ wordt weer grafisch weergegeven in het plaatje hieronder (Fig.\ref{fig:Foutenpropagatie_cube}) . Je kunt zien dat de mate waarin de grootte van $$\Delta x$$ verandert afhangt van de gekozen waarde van $$x_i$$, op sommige plekken is hij kleiner geworden, op andere plekke groter.  \newline
 >![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een macht.](Foutenpropagatie_cube.png){:width="65%"}
 \captionof{figure}{Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een macht.}
 \label{fig:Foutenpropagatie_cube}
+
 
 >**Voorbeeld 4** 
 >
 >Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: \newline 
 >\begin{equation*} \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x.\end{equation*}\newline
->In het plaatje hieronder(Fig. \ref{fig:Foutenpropagatie_func}) geven we nu voor verschillende waardes $$x_i$$ de foutenpropagatie van $$\Delta x$$ naar $$\Delta y$$ de grafische interpretatie. We zien dat het niet alleen de relatieve grootte van $$\Delta y$$ afhangt van de gekozen waarde van $$x_i$$ maar dat op sommige plaatsen de boven en ondergrens van de onzekerheid zijn geïnverteerd.\newline
+>In het plaatje hieronder (Fig. \ref{fig:Foutenpropagatie_func}) geven we nu voor verschillende waardes $$x_i$$ de foutenpropagatie van $$\Delta x$$ naar $$\Delta y$$ de grafische interpretatie. We zien dat het niet alleen de relatieve grootte van $$\Delta y$$ afhangt van de gekozen waarde van $$x_i$$ maar dat op sommige plaatsen de boven en ondergrens van de onzekerheid zijn geïnverteerd.\newline
 >![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een kwadratische vergelijking.](Foutenpropagatie_func.png){:width="65%"}
 \captionof{figure}{Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een kwadratische vergelijking.}
 \label{fig:Foutenpropagatie_func}
+
 
 
 >**Voorbeeld 5** 
@@ -1667,6 +1697,7 @@ Ofwel de relatieve fout $$\frac{\Delta q}{q}$$ is gelijk aan de kwadratische som
 
 
 # Wet van Grote Aantallen
+\label{/module-2/groteaantallen} 
 
 In opgave M1.4 hebben we gezien hoe de spreiding van een gemeten gemiddelde van 
 metingen steeds kleiner wordt als we meer data gebruiken om het gemiddelde te bepalen. 
@@ -1737,11 +1768,12 @@ Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan  on
 
 **Tip:** In deze [video](https://www.youtube.com/watch?v=MntX3zWNWec) wordt de wet van grote aantallen nogmaals duidelijk uitgelegd. 
 
-Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk dat de variantie van de stochast eindig moet zijn, en dat dus de verwachtingswaarde van de stochast bepaald is. Er bestaan distributies, zoals de [Cauchy](https://nl.wikipedia.org/wiki/Cauchy-verdeling) of de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie waarvoor dit dus niet geldt. Deze distributies hebben oneindig lange staarten. Hier, in Fig. \ref{fig:CauchyDistributie} zie je hoe de Cauchy distributie eruit ziet.
+Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk dat de variantie van de stochast eindig moet zijn, en dat dus de verwachtingswaarde van de stochast bepaald is. Er bestaan distributies, zoals de [Cauchy](https://nl.wikipedia.org/wiki/Cauchy-verdeling) of de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie waarvoor dit dus niet geldt. Deze distributies hebben oneindig lange staarten. Hier , in Fig. \ref{fig:CauchyDistributie} zie je hoe de Cauchy distributie eruit ziet.
 
 ![Cauchy verdeelde kansdistributies.](CauchyDistributie.png){:width="80%"} 
 \caption{Cauchy verdeelde kansdistributies.}
 \label{fig:CauchyDistributie}
+
 
 Wiskundig kan de wet van de grote aantallen dus weleens voor problemen zorgen. In Natuurkundige experimenten zijn verdelingen uiteindelijk vaak beknot door bijvoorbeeld de eindigheid van energie. Voor Natuurkundige experimenten gaat de wet van grote aantallen dus vaak wel op.
 
@@ -1753,7 +1785,7 @@ Overigens noemen we deze wet van grote aantallen de *zwakke* wet van grote aanta
 
 
 # Meerdimensionale datasets
-
+\label{/module-2/meerdimensionale-data} 
 
 
 
@@ -1808,7 +1840,7 @@ Als er geen correlatie is tussen de twee variabelen, dan is
 correlatiecoëfficiënt gelijk aan nul. Is de correlatiecoëfficiënt tussen de twee variabelen gelijk aan $$1$$ of aan $$-1$$ dan zijn de twee
 variabelen maximaal afhankelijk. In het geval van een correlatiecoëfficiënt gelijk aan $$1$$ is dit een positief lineair verband, in het geval van een correlatiecoëfficiënt gelijk aan $$-1$$ is dit een lineair verband met negatieve helling. 
 
-Hier, Figures \ref{fig:Plot1_Correlatie_0-fig:Plot1_Correlatie_0punt3}, zijn een aantal 2D datasets weergegeven met verschillende correlatiecoëfficiënten.
+Hier , Figures \ref{fig:Plot1_Correlatie_0-fig:Plot1_Correlatie_0punt3}, zijn een aantal 2D datasets weergegeven met verschillende correlatiecoëfficiënten.
 
 Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 0 $$.
 
@@ -1816,11 +1848,13 @@ Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 0 $$.
 \caption{Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0$$.}
 \label{fig:Plot1_Correlatie_0}
 
+
 Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 1 $$.
 
 <p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=1$$.](Plot1_Correlatie1.png){:width="60%"}</p>
 \caption{Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=1$$.}
 \label{fig:Plot1_Correlatie1}
+
 
 Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = -1 $$.
 
@@ -1828,23 +1862,28 @@ Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = -1 $$.
 \caption{Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-1$$.}
 \label{fig:Plot1_Correlatie_min1}
 
+
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.8$$ en $$\rho_{x,y} = 0.8$$:
 
 <p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.8$$.](Plot1_Correlatie_min0punt8.png){:width="45%"}
 \caption{Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.8$$.}
 \label{fig:Plot1_Correlatie_min0punt8}
+
 ![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.8$$.](Plot1_Correlatie_0punt8.png){:width="45%"}</p>
 \caption{Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.8$$.}
 \label{fig:Plot1_Correlatie_0punt8}
+
 
 Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} = 0.3$$:
 
 <p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.3$$.](Plot1_Correlatie_min0punt3.png){:width="45%"}
 \caption{Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.3$$.}
 \label{fig:Plot1_Correlatie_min0punt3}
+
 ![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.3$$.](Plot1_Correlatie_0punt3.png){:width="45%"}</p>
 \caption{Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.3$$.}
 \label{fig:Plot1_Correlatie_0punt3}
+
 
 
 Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter is de afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit des te kleiner is de correlatie tussen de variabelen. 
@@ -1878,6 +1917,7 @@ De les die je hieruit moet leren is dat je altijd heel goed moet nadenken over w
 
 
 # Extra kans rekenregels
+\label{/module-2/extra-kansrekenregels} 
 
 In [module 1](/module-1/kanstheorie) hebben we de complement, de en-regel en de of-regel geleerd voor het rekenen met kansen. Aan deze regels waren enkele voorwaarden verbonden. 
 
@@ -1898,22 +1938,25 @@ De kans dat A of B gemeten wordt is dan:
 
 >Voorbeeld: De kans dat een kaart rood is en een vier heeft is 2/52. De kans dat een kaart rood is of een vier is nu gelijk aan P(1/2) + P(4/52) - P(2/52) = 28/52.
 
-De term $$(\text{A en B})$$ noemen we ook wel de doorsnede, of intersectie, van A en B. Het is het overlappende deel van elementen in de verzameling. Hier, in Fig. \ref{fig:180px-Venn0001.svg}, zie je het uitgebeeld in een Venn diagram. De doorsnede wordt ook wel genoteerd met $$A \cap B$$. \newline
+De term $$(\text{A en B})$$ noemen we ook wel de doorsnede, of intersectie, van A en B. Het is het overlappende deel van elementen in de verzameling. Hier , in Fig. \ref{fig:180px-Venn0001.svg}, zie je het uitgebeeld in een Venn diagram. De doorsnede wordt ook wel genoteerd met $$A \cap B$$. \newline
 ![Doorsnede van A en B (bron wikipedia)](180px-Venn0001.svg.png){:width="60%"}
 \caption{Doorsnede van A en B (bron wikipedia)}
 \label{fig:180px-Venn0001.svg}
 
 
-De vereniging van $$A$$ en $$B$$ wordt genoteerd met $$A \cup B$$ en is de verzameling van alle elementen van A en B. Hier, in Fig. \ref{fig:180px-Venn0111.svg} het Venn diagram voor de verzameling.\newline
+
+De vereniging van $$A$$ en $$B$$ wordt genoteerd met $$A \cup B$$ en is de verzameling van alle elementen van A en B. Hier , in Fig. \ref{fig:180px-Venn0111.svg} het Venn diagram voor de verzameling.\newline
 ![Doorsnede van A en B (bron wikipedia)](180px-Venn0111.svg.png){:width="60%"}
 \caption{Doorsnede van A en B (bron wikipedia)}
 \label{fig:180px-Venn0111.svg}
 
 
-En zo kun je ook het complement van A laten zien, zie in Fig. \ref{fig:180px-Venn1010.svg} . \newline
+
+En zo kun je ook het complement van A laten zien , zie in Fig. \ref{fig:180px-Venn1010.svg} . \newline
 ![Complement van A (bron wikipedia)](180px-Venn1010.svg.png){:width="60%"}
 \caption{Complement van A (bron wikipedia)}
 \label{fig:180px-Venn1010.svg}
+
 
 
 ## Conditionele kans
@@ -1943,6 +1986,7 @@ Dit theorema maakt het mogelijk om nieuwe informatie toe te voegen aan de kennis
 Bekijk ook even het kennisclipje over Extra Kansrekenregels op Canvas!
 
 # Opdrachten module 2
+\label{/opdrachten-module-2/opdrachten} 
 
 
 
@@ -1967,6 +2011,8 @@ Veel succes!
 
 
 ## Opdracht M2.1 Grote Aantallen II \*\*
+\label{/opdrachten-module-2/groteaantallen} 
+
 We gaan verder kijken naar de ton met kogels uit opgave M1.4. 
 In dit opgave begonnen we met een ton met 80 kogels en berekenden we  het gemiddelde, $$g_n = \bar{m_n}$$ over de eerste $$n$$ kogels van de set. Zo kregen we de distributie van $$g_n$$ versus $$n$$, net als in opgave M1.4.  
 Voordat je verder gaat, controleer eerst even in ANS of je dit goed hebt gedaan en corrigeer eventueel je fouten. 
@@ -2011,6 +2057,7 @@ Wat we hebben gedaan in deze opdracht is illustreren wat er gebeurd als we een s
 
 
 ## M2.2 Meesjes \*\*\*\*
+\label{/opdrachten-module-2/meesjes} 
 
 Je vindt helaas een dood meesje in de tuin. Het lijkt op een koolmeesje maar het zou ook een pimpelmeesje kunnen zijn. Deze twee vogeltjes lijken erg veel op elkaar.
 Er zijn <a href="https://www.tuinvogeltelling.nl/herkenningstips/?tip=17">manieren</a>om pimpelmeesjes van koolmeesjes te onderscheiden met behulp van uiterlijke kenmerken. Maar je bent een Natuurkundige en geen Bioloog. Online vind je een dataset met informatie over het massa en de spanwijdte van beide soorten meesjes.
@@ -2094,6 +2141,7 @@ Na al deze berekeningen lopen we een eindje in de tuin. Op de plek waar we eerde
 
 
 ## M2.3 Halfwaardedikte II ***
+\label{/opdrachten-module-2/halfwaardedikteii} 
 
 We gaan nu terug naar het experiment uit opgave M1.5 waarbij we de halfwaardedikte van lood onderzoeken bij een bepaalde gamma-bron. We gaan de onzekerheid op het meetresultaat, $$d_{half}$$ onderzoeken. 
 
@@ -2149,6 +2197,7 @@ Nu kun je het gedrag bekijken over meerdere waardes rond de **`d_true`** waarde.
 >- **M2.3i) In dit geval simuleren we het experiment. Zou je een methode kunnen bedenken om de onzuiverheid van je experiment te onderzoeken bij een echte meting?**
 
 # Introductie Module 3
+\label{/module-3/introductie} 
 
 Deze week gaan we kijken naar het begrip lineaire regressie. Hoe kunnen we een functie fitten aan een set meetwaardes. Er komen verschillende concepten aan bod. 
 
@@ -2158,6 +2207,7 @@ We werken in de werkcolleges aan de opdrachten van deze module [M3](/opdrachten-
 Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-iii/inhoud) voor de derde tussentoets. De derde tussentoets volgt aan het einde van het vierde hoorcollege.
 
 # De Centrale Limietstelling
+\label{/module-3/de-centrale-limietstelling} 
 
 De Centrale Limietstelling (Engels: Central Limit Theorem of CLT) is zonder meer de meest belangrijke stelling in de statistiek en in data analyses. 
 
@@ -2185,7 +2235,7 @@ De convergentie van de distributie naar de Normaal verdeling hangt af van de ond
 <!--XX als het lukt nog een video maken-->
 
 # De Normaalverdeling
-
+\label{/module-3/normaalverdeling} 
 
 
 
@@ -2205,13 +2255,15 @@ Voordat we verder gaan over de normaalverdeling bekijken we eerst kort de Poisso
 \caption{De Poisson distributie.}
 \label{fig:PoissonDistributie2}
 
-Zoals we hierin Fig. \ref{fig:PoissonDistributie2} zien is de Poisson verdeling is asymmetrisch, vooral voor lage waardes van $$\lambda$$. Voor grotere waardes van $$\lambda$$ zien we dat de verdeling steeds symmetrischer is en ook steeds meer overeenkomsten vertoont met een normaal verdeling. 
 
-Om dit te visualiseren tonen we de twee functies over elkaar heen voor een waarde van $$\lambda=60$$. Deze vergelijken we nu met de normaal verdeling met $$\mu =60$$ en $$\sigma = \sqrt{60}$$. Zie figuur \ref{fig:PoissonNormalDistributie}. 
+Zoals we hier in Fig. \ref{fig:PoissonDistributie2} zien is de Poisson verdeling is asymmetrisch, vooral voor lage waardes van $$\lambda$$. Voor grotere waardes van $$\lambda$$ zien we dat de verdeling steeds symmetrischer is en ook steeds meer overeenkomsten vertoont met een normaal verdeling. 
+
+Om dit te visualiseren tonen we de twee functies over elkaar heen voor een waarde van $$\lambda=60$$. Deze vergelijken we nu met de normaal verdeling met $$\mu =60$$ en $$\sigma = \sqrt{60}$$.  Zie figuur \ref{fig:PoissonNormalDistributie}. 
 
 ![Vergelijking tussen de Poisson en de Normaal distributie.](PoissonNormalDistributie.png){:width="80%"}
 \caption{Vergelijking tussen de Poisson en de Normaal distributie.}
 \label{fig:PoissonNormalDistributie}
+
 
 Er blijven natuurlijk verschillen, zo is de Poissonverdeling een discrete verdeling, maar de grote gelijkenis verklaart wel waarom we, voor grotere waardes van $$\lambda$$ gebruik mogen maken van vergelijkingen die eigenlijk alleen voor de Normale verdeling gelden. Zoals bijvoorbeeld de regels voor de foutenpropagatie.
 
@@ -2224,11 +2276,12 @@ We richten ons nu op de Normaalverdeling en herhalen nogmaals de vergelijking.
 
 De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaarddeviatie is precies $$\sigma$$. 
 
-Hierin figuur \ref{fig:NormaleDistributie} zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$\mu$$ en $$\sigma$$. 
+Hier in figuur \ref{fig:NormaleDistributie} zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$\mu$$ en $$\sigma$$. 
 
 ![De Normaalverdeling.](NormaleDistributie2.png){:width="80%"}
 \caption{De Normaalverdeling.}
 \label{fig:NormaleDistributie2}
+
 
 We zien dat voor hogere waardes voor $$\sigma$$ de datapunten meer verspreidt zullen zijn. Met andere woorden als de onzekerheid op een meting wordt uitgedrukt met de standaarddeviatie $$\sigma$$ en de onzekerheid is groter, dat is de spreiding van de onderliggende kansdichtheidsverdeling ook groter. 
 
@@ -2237,14 +2290,16 @@ Stel nu dat we een meting doen $$L$$ en we kennen het populatiegemiddelde $$\mu_
 We kunnen dit uitdrukken met behulp van de Z-waarde ofwel Z-score. 
 
 
-Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, is hierin figuur \ref{fig:NormaleVerdeling_1} en \ref{fig:NormaleVerdeling_2} schematisch weergegeven: 
+Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, is hier in figuur \ref{fig:NormaleVerdeling_1} en \ref{fig:NormaleVerdeling_2} schematisch weergegeven: 
 
 ![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden.](NormaleVerdeling_1.png){:width="70%"}
 \caption{Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden.}
 \label{fig:NormaleVerdeling_1}
+
 ![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaleVerdeling_2.png){:width="70%"}
 \caption{Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden}
 \label{fig:NormaleVerdeling_2}
+
 
 Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X>x$$ te vinden, is hier<!--FI\
 G in figuur \ref{fig:NormaleVerdeling_3} en \ref{fig:NormaleVerdeling_4}-->schematisch weergegeven:
@@ -2252,9 +2307,11 @@ G in figuur \ref{fig:NormaleVerdeling_3} en \ref{fig:NormaleVerdeling_4}-->schem
 ![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaleVerdeling_3.png){:width="70%"}
 \caption{Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden}
 \label{fig:NormaleVerdeling_3}
+
 ![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaleVerdeling_4.png){:width="70%"}
 \caption{Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden}
 \label{fig:NormaleVerdeling_4}
+
 
 Om dit oppervlak uit te rekenen gebruiken we de zogenoemde *Z-toets*. Stel een dataset met $$n >30$$ datapunten is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. De $$Z-score$$, voor een bepaalde observatiewaarde $$x$$, is dan gelijk aan:
 
@@ -2322,6 +2379,7 @@ Als je de z-score hebt berekend kun je uit de z-waarden [tabel](https://www.ztab
 
 
 # De kleinste-kwadraten methode
+\label{/module-3/kleinste-kwadraten} 
 
 
 
@@ -2348,11 +2406,12 @@ Een van de meest krachtige schatters is de methode van de kleinste-kwadraten. De
 
 Met de kleinste kwadraten methode minimaliseren we het kwadratisch verschil tussen een set metingen en de voorspelde waardes op die metingen, waarbij de voorspelling afhangt van één of meerdere parameters. 
 
-We beginnen meteen met een voorbeeld. Stel dat we een set metingen hebben die er als volgt (Fig. \ref{fig:VoorbeeldLeastSquares0}  uitziet. 
+We beginnen meteen met een voorbeeld. Stel dat we een set metingen hebben die er als volgt  (Fig. \ref{fig:VoorbeeldLeastSquares0}  uitziet. 
 
 ![Een set metingen.](VoorbeeldLeastSquares0.png){:width="60%"}
 \caption{Een set metingen.}
 \label{fig:VoorbeeldLeastSquares0}
+
 
 We vermoeden een lineair verband tussen de variabelen $$x$$ en $$y$$ met parameters $$a$$ en $$b$$. We willen nu een deze parameters schatten. De vraag is nu hoe bepalen we $$\hat{a}$$ en $$\hat{b}$$. Oftewel bij welke waardes van $$a$$ en $$b$$ wordt onze dataset optimaal beschreven met het lineaire verband. 
 
@@ -2360,7 +2419,8 @@ We vermoeden een lineair verband tussen de variabelen $$x$$ en $$y$$ met paramet
 \caption{Een set metingen met twee lijnen.}
 \label{fig:VoorbeeldLeastSquares}
 
-Bekijk het voorbeeldje hier,in figuur \ref{fig:VoorbeeldLeastSquares},  we zien twee voorbeelden van oplossingen (de rode lijn en de gestreepte zwarte lijn) met elk hun waardes voor $$a$$ en $$b$$. De vraag is nu hoe bepaal je welke het beste is. Hiervoor gebruiken we een maat die we $$\chi^2$$ noemen. 
+
+Bekijk het voorbeeldje hier, in figuur \ref{fig:VoorbeeldLeastSquares},  we zien twee voorbeelden van oplossingen (de rode lijn en de gestreepte zwarte lijn) met elk hun waardes voor $$a$$ en $$b$$. De vraag is nu hoe bepaal je welke het beste is. Hiervoor gebruiken we een maat die we $$\chi^2$$ noemen. 
 
 Stel dat we een functie $$f(x;a,b)$$ hebben die waardes van $$y$$ voorspelt. En we hebben dataset met $$N$$ waardes voor $$x: {x_1,x_2,...,x_N}$$ met corresponderende waardes voor $$y: {y_1,y_2,...,y_N}$$ waarbij elke waarde van $$y$$ gemeten is met precisie $$\sigma_i$$. Nu kunnen we de som nemen van het kwadratische verschil van alle punten in de dataset met de voorspelde waardes $$f(x_i;a,b)$$, geschaald met de onzekerheden $$\sigma_i$$. Deze som noemen we $$\chi^2:$$\newline
 \begin{equation}{ \chi^2 = \sum_{i=1}^N \left( \frac{y_i - f(x_i;a)}{\sigma_i}\right)^2 }\end{equation}
@@ -2397,8 +2457,8 @@ In opgave M3.1 ga je het principe van de kleinste kwadraten toepassen.
 
 
 
-
 ## De $$\chi^2$$ distributie
+\label{/module-3/chi-2} 
 
 
 
@@ -2424,11 +2484,12 @@ Zoals je ziet hangt de $$\chi^2$$ kans ook af van een parameter $$df$$, dit is h
 
 >**Voorbeeld** Stel we hebben 10 meetwaardes en we gebruiken de kleinste kwadraten methode om 2 parameters van een functie $$f$$ te optimaliseren. We hebben dan $$df=10-2=8$$ vrijheidsgraden.
 
-Hierin figuur \ref{fig:ChiSquareDistributie} zie je hoe de $$\chi^2$$ eruit ziet voor verschillende waardes van $$df$$. \newline 
+Hier in figuur \ref{fig:ChiSquareDistributie} zie je hoe de $$\chi^2$$ eruit ziet voor verschillende waardes van $$df$$. \newline 
 
 ![De $$\chi^2$$ verdeling.](ChiSquareDistributie.png){:width="80%"}\newline
 \caption{De $$\chi^2$$ verdeling.}
 \label{fig:ChiSquareDistributie}
+
 
 De $$\chi^2$$ distributie heeft een gemiddelde $$\mu = df$$ en een variantie van $$var = 2df$$. We verwachten dus een $$\chi^2$$ van ongeveer **1 per vrijheidsgraad**  te vinden. Als de $$\chi^2$$ per vrijheidsgraad veel afwijkt van 1 dan is het waarschijnlijk dat er een probleem is met de fit. Het kan zijn dat de functie de relatie tussen de datapunten niet goed beschrijft, of dat er iets mis is met de onzekerheden op de datapunten.
 
@@ -2479,6 +2540,7 @@ Als we deze $$AIC$$ berekenen voor beide functies dan is de functie met de laags
 
 
 # Hypothese toetsen
+\label{/module-3/hypothese-toetsen} 
 
 
 
@@ -2677,6 +2739,7 @@ Het is goed om te beseffen dat we **niet** kunnen zeggen dat onze alternatieve h
 
 
 # Opdrachten module 3
+\label{/opdrachten-module-3/opdrachten} 
 
 
 
@@ -2700,6 +2763,7 @@ Veel succes!
 
 
 ## M3.1 Grote Aantallen III *\*\*\*
+\label{/opdrachten-module-3/groteaantalleniii} 
 
 In deze opdracht gaan we het eindresultaat van M2.1 'fitten' met de kleinste kwadraten methode. 
 
@@ -2773,6 +2837,7 @@ We gaan nu de fit uitvoeren met realistische onzekerheden op de datapunten. Deze
 >- **M3.1h) Bereken nu de gereduceerde $$\chi^2$$, dat wil zeggen corrigeer de gevonden $$\chi^2$$ voor het aantal vrijheidsgraden van de fit. Interpreteer nu deze $$\chi^2/{df}$$. Is deze beter of slechter dan een $$\chi^2/{df}= 0.1$$? Zoals gebruikelijk, beredeneer je antwoord.**
 
 ## M3.2 Halfwaardedikte III \*\*\*
+\label{/opdrachten-module-3/halfwaardedikteiii} 
 
 In opgave M2.3 hebben we gezien dat de meetmethode die we gebruikten om de halfwaardedikte te bepalen niet optimaal was. Er was zeker sprake van een onzuivere meting doordat we stelselmatig een te hoge waarde van $${d_{half}}$$ terugkregen. 
 
@@ -2879,13 +2944,14 @@ Fit deze functie aan de datapunten, zorg dat de startwaardes zo worden ingesteld
 
 
 # Introductie Module 4
+\label{/module-4/introductie} 
 
 Deze week sluiten we het van af. We gaan kijken naar hoe we gebruik kunnen maken van de geminimaliseerde $$\chi^2$$ waardes van een fit. 
 
 We werken in de werkcolleges aan de opdrachten van deze module [M4](/opdrachten-module-4/opdrachten). Je vindt in het [schema](/informatie/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
 
 # Hypothese toetsen II
-
+\label{/module-4/hypothese-toetsen-2} 
 
 
 
@@ -2922,11 +2988,12 @@ Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \
 >De functie $$f_0$$ wordt in dit geval gelijk gesteld aan de functie die de achtergrond (of nulhypothese) beschrijft: $$f_0= I_0$$. De vrije parameters in deze fit zijn $$a$$ en $$b$$. \newline
 >De functie $$f_1$$ die de alternatieve hypothese beschrijft is nu gelijk aan de achtergrond, plus het signaal: $$f_1 = I_0 + I_1$$. De vrije parameters in deze fit zijn $$a,b$$ en $$J$$. We voldoen dus aan het criterium van de Wald methode. \newline
 >Het verschil in de geoptimaliseerde $$\chi^2$$'s voor de nul- en de alternatieve hypothese is gelijk aan $$\Delta \chi^2 = \chi^2_0 - \chi^2_1$$. 
->We gaan even naar de data kijken. We hebben het spectrum waargenomen dat hierin figuur \ref{fig:Spectrum} wordt getoond. \newline
+>We gaan even naar de data kijken. We hebben het spectrum waargenomen dat hier in figuur \ref{fig:Spectrum} wordt getoond. \newline
 >
 >![Het waargenomen spectrum met de gefitte lijn.](Spectrum.png){:width="60%"}
 \captionof{figure}{Het waargenomen spectrum met de gefitte lijn.}
 \label{fig:Spectrum}
+
 >
 >In de grafiek zien we een duidelijk piekje rond 930nm, precies waar we het signaal van het chemische element $$X$$ door $$H_1$$ voorspeld is. De fit resultaten van beide hypotheses zijn in het plaatje weergegeven. Met het verschil in $$\chi^2$$ kunnen we nu een p-waarde uitrekenen. Die is in dit geval gelijk aan $$1.6\cdot 10^{-8}$$ dit komt overeen met een $$z$$-waarde van 5.5. Het is dus uitermate waarschijnlijk dat we het chemische element $$X$$ hebben aangetoond in de spectraal analyse.
 
@@ -2937,23 +3004,26 @@ In het voorbeeld hierboven is er een duidelijk stelling over de golflengte van d
 
 >**Voorbeeld p-waarde scan** Hieronder zie je de spectraalfit waarbij we het
 >spectrum hebben gefit met een centrale waarde van de spectraallijn op
->932nm. Zoals je hierin figuur \ref{fig:Spectrum932} ziet is de waarde voor $$J$$ die de intensiteit van een eventuele emissielijn op 932nm beschrijft, erg klein: De gefitte functie voor $$H_1$$ wijkt nauwelijks af van de functie die de $$H_0$$ hypothese beschrijft. De berekende p-waarde zal voor deze golflengte dan ook klein  zijn.  
+>932nm. Zoals je hier in figuur \ref{fig:Spectrum932} ziet is de waarde voor $$J$$ die de intensiteit van een eventuele emissielijn op 932nm beschrijft, erg klein: De gefitte functie voor $$H_1$$ wijkt nauwelijks af van de functie die de $$H_0$$ hypothese beschrijft. De berekende p-waarde zal voor deze golflengte dan ook klein  zijn.  
 >
 >![Het waargenomen spectrum met de gefitte lijn voor $$\lambda = 932$$ nm.](Spectrum932.png){:width="60%"}\newline
 \captionof{figure}{Het waargenomen spectrum met de gefitte lijn voor $$\lambda = 932$$ nm.}
 \label{fig:Spectrum932}
+
 >
->Als we alle p-waardes van de scan nu grafisch weergeven dan krijgen we het hier in figuur \ref{fig:Emissiescan}  getoonde resultaat.
+>Als we alle p-waardes van de scan nu grafisch weergeven dan krijgen we het hier  in figuur \ref{fig:Emissiescan}  getoonde resultaat.
 >
 >![De p-waarde scan van de emissiedata.](Emissiescan.png){:width="60%"}\newline
 \captionof{figure}{De p-waarde scan van de emissiedata.}
 \label{fig:Emissiescan}
+
 >
 >Je zit nu dat er op een aantal plekken in het spectrum een kleine afwijking van de $$H_0$$ hypothese te zien is. Op slechts 1 locatie is er een heel duidelijke afwijking zichtbaar. Precies bij 930nm.
 
 Eigenlijk hadden  we van tevoren een significantie moeten afspreken waarbij we de aanwezigheid van het chemische element kunnen aantonen. Zodra de gemeten p-waarde onder deze afgesproken significantie zakt in de p-waarde scan kunnen we claimen het element te hebben aangetoond. De Wald test is een krachtige methode om hypotheses te toetsen. We gaan hem in opdracht M4.1 toepassen. 
 
 # Opdrachten module 4
+\label{/opdrachten-module-4/opdrachten} 
 
 
 
@@ -2981,6 +3051,7 @@ Veel succes!
 
 
 ## M4.1 Een Nieuw Deeltje \*\*\*
+\label{/opdrachten-module-4/eennieuwdeeltje} 
 
 We gaan op zoek naar een nieuw elementair deeltje $$X$$. Dit deeltje is gepostuleerd door een groep Natuurkundigen die daarmee het bestaan van de [Donkere Materie](https://nl.wikipedia.org/wiki/Donkere_materie) in het heelal denken te kunnen verklaren. 
 

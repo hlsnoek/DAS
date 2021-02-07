@@ -1,4 +1,5 @@
 ## M1.1 - Mooi Plotten *
+<!--REF\label{/opdrachten-module-1/mooiplotten}-->
 
 We beginnen dit vak met een eenvoudige opdracht. We gaan in deze opdracht een histogram goed leesbaar maken. Lees eerst het stuk je over [Data visualiseren](/module-1/data-visualiseren), daar vind je ook de richtlijnen waaraan een goed histogram voldoet.
 
@@ -9,7 +10,7 @@ De dikgedrukte vragen die je in deze opdracht vindt moet je uiteindelijke ook in
 
 
 
-> Installeer de volgende twee bestanden naar een werkfolder op je computer [M1.1_MooiPlotten.py](M1.1_MooiPlotten.py) en [DAS_DatasetGenerator.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py).
+> Installeer de volgende twee bestanden naar een werkfolder op je computer [M1.1_MooiPlotten.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/10%20MooiPlotten/M1.1_MooiPlotten.py) en [DAS_DatasetGenerator.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py).
 
 Open de bestanden in het VSCode programma en lees de code. We zullen hieronder wat uitleg over de code geven. 
 

@@ -1,5 +1,5 @@
 ## M1.5 - Halfwaardedikte I *
-
+<!--REF\label{/opdrachten-module-1/halfwaardedikte}-->
 <!--voor 2022: 
 - In het nakijkmodel bij 5e voeg het antwoord toe: Je hebt er goed over nagedacht, maar het antwoord is toch fout.
 - Bij laatste vraag, verander het woord opstelling in experiment -->

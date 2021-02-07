@@ -1,5 +1,5 @@
 # De Normaalverdeling
-
+<!--REF\label{/module-3/normaalverdeling}-->
 
 1. Ordered TOC
 {:toc}

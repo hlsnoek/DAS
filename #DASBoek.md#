@@ -1,5 +1,5 @@
 # Introductie Module 1
-<!--REF\label{/module-1/introductie}-->
+
 Statistische data analyse is een belangrijk onderdeel in vele werkvelden.
 Als student en later wellicht ook als wetenschapper zul je te maken krijgen met het verzamelen en interpreteren van data bij het het prakticum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
 
@@ -36,13 +36,11 @@ In deze cursus zullen we vaardigheden gaan leren voor data analyse en statistiek
 We beginnen deze week beginnen we met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over hoe we meetresultaten moeten presenteren, het gebruik van de wetenschappelijke [notatie](/module-1/notatie) en hoe we ze kunnen [visualiseren](/module-1/data-visualiseren). We gaan in op het begrip [meetonzekerheid](/module-1/meetonzekerheid). Ook maken we een begin met [kansrekening](/module-1/kanstheorie) en[kansdichtheidsverdelingen](/module-1/verdelingsfuncties).
 Niet elk van deze onderwerpen is even moeilijk. Let goed op dat je genoeg tijd overhoudt om de introductie van de kanstheorie te bestuderen.
 
-<!--COMMENT\iffalse-->
 We werken in de werkcolleges aan de opdrachten van deze module [M1](/opdrachten-module-1/opdrachten). Je vindt in het [schema](/informatie/inleveropdrachten) wanneer je deze moet inleveren.
 Vergeet ook niet te kijken naar het [oefenmateriaal](/module-1/tussentoets-info) voor de eerste verplichte tussentoets die volgt aan het einde van het tweede hoorcollege.
-<!--COMMENT\fi-->
 
 # Basisbegrippen in de statistiek
-<!--REF\label{/module-1/basisbegrippen}-->
+
 1. Ordered TOC
 {:toc}
 
@@ -284,7 +282,7 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 > De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$
 
 # Het correct noteren van resultaten
-<!--REF\label{/module-1/notatie}-->
+
 1. Ordered TOC
 {:toc}
 
@@ -413,7 +411,7 @@ $$1.23 + 0.1 = 1.3 $$.
 
 
 # Datasets visualiseren
-<!--REF\label{/module-1/data-visualiseren}-->
+
 1. Ordered TOC
 {:toc}
 
@@ -712,7 +710,7 @@ Succes!
 
 
 # Metingen en onzekerheid
-<!--REF\label{/module-1/meetonzekerheid}-->
+
 1. Ordered TOC
 {:toc}
 
@@ -846,7 +844,7 @@ Soms werkt een relatieve fout ook juist weer niet. Bijvoorbeeld als je heel nauw
 
 
 # Kanstheorie
-<!--REF\label{/module-1/kanstheorie}-->
+
 1. Ordered TOC
 {:toc}
 
@@ -977,7 +975,7 @@ Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rod
 
 
 # Kansdichtheidsfuncties
-<!--REF\label{/module-1/verdelingsfuncties}-->
+
 
 1. Ordered TOC
 {:toc}
@@ -1126,7 +1124,7 @@ Voorbeelden van Normaal verdelingen vinden we overal om ons heen. De verdeling v
 
 
 # Opdrachten Module 1
-<!--REF\label{/opdrachten-module-1/opdrachten}-->
+
 Tijdens de laptopcolleges in de eerste week werken we aan de vijf opdrachten van de eerste module.
 
 
@@ -1136,10 +1134,8 @@ Tijdens de laptopcolleges in de eerste week werken we aan de vijf opdrachten van
 * [M1.4 Grote Aantallen I \*\*\*](/opdrachten-module-1/groteaantallen)
 * [M1.5 Halfwaardedikte I \*](/opdrachten-module-1/halfwaardedikte)
 
-
 De sterretjes geven een indicatie voor hoeveel werk een opdracht is. 
 
-<!--COMMENT\iffalse-->
 De antwoorden van de opdrachten moet je invoeren in [deze template](InlevertemplateModule1.docx) en als **pdf** bestand inleveren via ANS ook de code moet je daar inleveren. 
 
 De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/informatie/inleveropdrachten) vinden.
@@ -1151,10 +1147,8 @@ Vergeet niet om ook even te kijken naar de [oefen opgaves](/tussentoets-i/oefeno
 
 Veel succes! 
 
-<!--COMMENT\fi-->
 
 ## M1.1 - Mooi Plotten *
-<!--REF\label{/opdrachten-module-1/mooiplotten}-->
 
 We beginnen dit vak met een eenvoudige opdracht. We gaan in deze opdracht een histogram goed leesbaar maken. Lees eerst het stuk je over [Data visualiseren](/module-1/data-visualiseren), daar vind je ook de richtlijnen waaraan een goed histogram voldoet.
 
@@ -1165,7 +1159,7 @@ De dikgedrukte vragen die je in deze opdracht vindt moet je uiteindelijke ook in
 
 
 
-> Installeer de volgende twee bestanden naar een werkfolder op je computer [M1.1_MooiPlotten.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/10%20MooiPlotten/M1.1_MooiPlotten.py) en [DAS_DatasetGenerator.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py).
+> Installeer de volgende twee bestanden naar een werkfolder op je computer [M1.1_MooiPlotten.py](M1.1_MooiPlotten.py) en [DAS_DatasetGenerator.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py).
 
 Open de bestanden in het VSCode programma en lees de code. We zullen hieronder wat uitleg over de code geven. 
 
@@ -1241,7 +1235,6 @@ Als je alle andere opdrachten voor module 1 ook hebt gemaakt kun je de opdrachte
 
 
 ## M1.2 - Kansdichtheid distributies **
-<!--REF\label{/opdrachten-module-1/distributies}-->
 
 We gaan in deze opgave kijken naar kansdichtheid distributie. Lees [hier](/module-1/verdelingsfuncties) meer over kansdichtheidsdistributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/verdelingsfuncties#Poisson">poisson</a> en <a href="/module-1/verdelingsfuncties#Uniform">uniforme</a> distributies.
 
@@ -1314,7 +1307,7 @@ Er zijn verschillende functies die je kan gebruiken. Kijk eens naar de **`unifor
 Verzamel je antwoorden op het template voor module 1, zorg dat je de code ook bewaart, deze moet je later inleveren. 
 
 ## M1.3 - Eigenschappen van distributies **
-<!--REF\label{/opdrachten-module-1/eigenschappen}-->
+
 In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen) van distributies en deze veranderen als een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en Poisson distributies. 
 
 Download voor deze opdracht het bestand [M1.3_Eigenschappen.py](M1.3_Eigenschappen.py) zorg dat deze in dezelfde folder staat as het `DAS_DatasetGenerator.py` bestand. 
@@ -1378,7 +1371,7 @@ Herhaal nu de vragen b-d voor de Poisson verdeling:
 
 
 ## M1.4 - Grote Aantallen \*\*\*
-<!--REF\label{/opdrachten-module-1/groteaantallen}-->
+
 
 We hebben een enorme ton kogeltjes en we willen weten hoe zwaar een enkele kogel uit de ton is. De kogels zijn, door variaties in het productieproces, niet allemaal precies even zwaar. De massa's van de kogels zijn **Normaal** ofwel **Gaussisch** verdeeld. We willen graag weten wat de ***typische*** massa is van een kogel uit deze ton. 
 Er zit ook een onzekerheid op de meting, maar die is veel kleiner dat de variatie in de kogelmassa's en mogen we negeren.
@@ -1426,7 +1419,7 @@ Nu gaan we de functie **`maakSetGemiddeldes()`** afmaken. Deze functie geeft twe
 
 
 ## M1.5 - Halfwaardedikte I *
-<!--REF\label{/opdrachten-module-1/halfwaardedikte}-->
+
 <!--voor 2022: 
 - In het nakijkmodel bij 5e voeg het antwoord toe: Je hebt er goed over nagedacht, maar het antwoord is toch fout.
 - Bij laatste vraag, verander het woord opstelling in experiment -->
@@ -1485,7 +1478,7 @@ Beantwoord nu de volgende vragen:
 Je hebt nu alle opdrachten van module 1 afgerond. Sla het ingevulde template nu op als pdf en lever deze samen met de 5 python scriptjes in. Kijk nog eens bij de [informatie](/informatie/inleveropdrachten) over de inleveropdrachten voor de link naar ANS en de deadlines.
 
 # Introductie Module 2
-<!--REF\label{/module-2/introductie}-->
+
 Deze week verdiepen we ons in het concept meetonzekerheid. We leren hoe we [onzekerheden kunnen doorrekenen](/module-2/foutenpropagatiei) in vergelijkingen. We zien hoe [onzekerheden veranderen](/module-2/wet-van-grote-aantallen) als we meer meetpunten aan onze dataset toevoegen. We kijken ook naar relaties tussen onzekerheden in [meerdimensionale datasets](/module-2/meerdimensionale-data), en we introduceren de [laatste kans rekenregels](/module-2/extra-kansrekenregels) die vooral voor multidimensionale data belangrijk is. 
 
 
@@ -1493,7 +1486,7 @@ We werken in de laptopcolleges aan de opdrachten van deze module [M2](/opdrachte
 Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-ii/inhoud) voor de tweede tussentoets. De tweede tussentoets volgt aan het einde van het derde hoorcollege.
 
 # Foutenpropagatie
-<!--REF\label{/module-2/foutenpropagatiei}-->
+
 1. Ordered TOC
 {:toc}
 
@@ -1622,7 +1615,6 @@ Ofwel de relatieve fout $$\frac{\Delta q}{q}$$ is gelijk aan de kwadratische som
 
 
 # Wet van Grote Aantallen
-<!--REF\label{/module-2/groteaantallen}-->
 
 In opgave M1.4 hebben we gezien hoe de spreiding van een gemeten gemiddelde van 
 metingen steeds kleiner wordt als we meer data gebruiken om het gemiddelde te bepalen. 
@@ -1707,7 +1699,7 @@ Overigens noemen we deze wet van grote aantallen de *zwakke* wet van grote aanta
 
 
 # Meerdimensionale datasets
-<!--REF\label{/module-2/meerdimensionale-data}-->
+
 1. Ordered TOC
 {:toc}
 
@@ -1818,7 +1810,6 @@ De les die je hieruit moet leren is dat je altijd heel goed moet nadenken over w
 
 
 # Extra kans rekenregels
-<!--REF\label{/module-2/extra-kansrekenregels}-->
 
 In [module 1](/module-1/kanstheorie) hebben we de complement, de en-regel en de of-regel geleerd voor het rekenen met kansen. Aan deze regels waren enkele voorwaarden verbonden. 
 
@@ -1878,7 +1869,6 @@ Dit theorema maakt het mogelijk om nieuwe informatie toe te voegen aan de kennis
 Bekijk ook even het kennisclipje over Extra Kansrekenregels op Canvas!
 
 # Opdrachten module 2
-<!--REF\label{/opdrachten-module-2/opdrachten}-->
 
 1. Ordered TOC
 {:toc}
@@ -1903,8 +1893,6 @@ Veel succes!
 
 
 ## Opdracht M2.1 Grote Aantallen II \*\*
-<!--REF\label{/opdrachten-module-2/groteaantallen}-->
-
 We gaan verder kijken naar de ton met kogels uit opgave M1.4. 
 In dit opgave begonnen we met een ton met 80 kogels en berekenden we  het gemiddelde, $$g_n = \bar{m_n}$$ over de eerste $$n$$ kogels van de set. Zo kregen we de distributie van $$g_n$$ versus $$n$$, net als in opgave M1.4.  
 Voordat je verder gaat, controleer eerst even in ANS of je dit goed hebt gedaan en corrigeer eventueel je fouten. 
@@ -1949,7 +1937,6 @@ Wat we hebben gedaan in deze opdracht is illustreren wat er gebeurd als we een s
 
 
 ## M2.2 Meesjes \*\*\*\*
-<!--REF\label{/opdrachten-module-2/meesjes}-->
 
 Je vindt helaas een dood meesje in de tuin. Het lijkt op een koolmeesje maar het zou ook een pimpelmeesje kunnen zijn. Deze twee vogeltjes lijken erg veel op elkaar.
 Er zijn <a href="https://www.tuinvogeltelling.nl/herkenningstips/?tip=17">manieren</a> om pimpelmeesjes van koolmeesjes te onderscheiden met behulp van uiterlijke kenmerken. Maar je bent een Natuurkundige en geen Bioloog. Online vind je een dataset met informatie over het massa en de spanwijdte van beide soorten meesjes.
@@ -2033,7 +2020,6 @@ Na al deze berekeningen lopen we een eindje in de tuin. Op de plek waar we eerde
 
 
 ## M2.3 Halfwaardedikte II ***
-<!--REF\label{/opdrachten-module-2/halfwaardedikteii}-->
 
 We gaan nu terug naar het experiment uit opgave M1.5 waarbij we de halfwaardedikte van lood onderzoeken bij een bepaalde gamma-bron. We gaan de onzekerheid op het meetresultaat, $$d_{half}$$ onderzoeken. 
 
@@ -2089,7 +2075,6 @@ Nu kun je het gedrag bekijken over meerdere waardes rond de **`d_true`** waarde.
 > - **M2.3i) In dit geval simuleren we het experiment. Zou je een methode kunnen bedenken om de onzuiverheid van je experiment te onderzoeken bij een echte meting?**
 
 # Introductie Module 3
-<!--REF\label{/module-3/introductie}-->
 
 Deze week gaan we kijken naar het begrip lineaire regressie. Hoe kunnen we een functie fitten aan een set meetwaardes. Er komen verschillende concepten aan bod. 
 
@@ -2099,7 +2084,6 @@ We werken in de werkcolleges aan de opdrachten van deze module [M3](/opdrachten-
 Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-iii/inhoud) voor de derde tussentoets. De derde tussentoets volgt aan het einde van het vierde hoorcollege.
 
 # De Centrale Limietstelling
-<!--REF\label{/module-3/de-centrale-limietstelling}-->
 
 De Centrale Limietstelling (Engels: Central Limit Theorem of CLT) is zonder meer de meest belangrijke stelling in de statistiek en in data analyses. 
 
@@ -2127,7 +2111,7 @@ De convergentie van de distributie naar de Normaal verdeling hangt af van de ond
 <!--XX als het lukt nog een video maken-->
 
 # De Normaalverdeling
-<!--REF\label{/module-3/normaalverdeling}-->
+
 
 1. Ordered TOC
 {:toc}
@@ -2250,7 +2234,6 @@ Als je de z-score hebt berekend kun je uit de z-waarden [tabel](https://www.ztab
 
 
 # De kleinste-kwadraten methode
-<!--REF\label{/module-3/kleinste-kwadraten}-->
 
 1. Ordered TOC
 {:toc}
@@ -2322,8 +2305,8 @@ In opgave M3.1 ga je het principe van de kleinste kwadraten toepassen.
 
 
 
+
 ## De $$\chi^2$$ distributie
-<!--REF\label{/module-3/chi-2}-->
 
 1. Ordered TOC
 {:toc}
@@ -2402,7 +2385,6 @@ Als we deze $$AIC$$ berekenen voor beide functies dan is de functie met de laags
 
 
 # Hypothese toetsen
-<!--REF\label{/module-3/hypothese-toetsen}-->
 
 1. Ordered TOC
 {:toc}
@@ -2601,7 +2583,6 @@ Het is goed om te beseffen dat we **niet** kunnen zeggen dat onze alternatieve h
 
 
 # Opdrachten module 3
-<!--REF\label{/opdrachten-module-3/opdrachten}-->
 
 1. Ordered TOC
 {:toc}
@@ -2625,7 +2606,6 @@ Veel succes!
 
 
 ## M3.1 Grote Aantallen III *\*\*\*
-<!--REF\label{/opdrachten-module-3/groteaantalleniii}-->
 
 In deze opdracht gaan we het eindresultaat van M2.1 'fitten' met de kleinste kwadraten methode. 
 
@@ -2699,7 +2679,6 @@ We gaan nu de fit uitvoeren met realistische onzekerheden op de datapunten. Deze
 > - **M3.1h) Bereken nu de gereduceerde $$\chi^2$$, dat wil zeggen corrigeer de gevonden $$\chi^2$$ voor het aantal vrijheidsgraden van de fit. Interpreteer nu deze $$\chi^2/{df}$$. Is deze beter of slechter dan een $$\chi^2/{df}= 0.1$$? Zoals gebruikelijk, beredeneer je antwoord.**
 
 ## M3.2 Halfwaardedikte III \*\*\*
-<!--REF\label{/opdrachten-module-3/halfwaardedikteiii}-->
 
 In opgave M2.3 hebben we gezien dat de meetmethode die we gebruikten om de halfwaardedikte te bepalen niet optimaal was. Er was zeker sprake van een onzuivere meting doordat we stelselmatig een te hoge waarde van $${d_{half}}$$ terugkregen. 
 
@@ -2806,14 +2785,13 @@ Fit deze functie aan de datapunten, zorg dat de startwaardes zo worden ingesteld
 
 
 # Introductie Module 4
-<!--REF\label{/module-4/introductie}-->
 
 Deze week sluiten we het van af. We gaan kijken naar hoe we gebruik kunnen maken van de geminimaliseerde $$\chi^2$$ waardes van een fit. 
 
 We werken in de werkcolleges aan de opdrachten van deze module [M4](/opdrachten-module-4/opdrachten). Je vindt in het [schema](/informatie/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
 
 # Hypothese toetsen II
-<!--REF\label{/module-4/hypothese-toetsen-2}-->
+
 
 1. Ordered TOC
 {:toc}
@@ -2876,7 +2854,6 @@ In het voorbeeld hierboven is er een duidelijk stelling over de golflengte van d
 Eigenlijk hadden  we van tevoren een significantie moeten afspreken waarbij we de aanwezigheid van het chemische element kunnen aantonen. Zodra de gemeten p-waarde onder deze afgesproken significantie zakt in de p-waarde scan kunnen we claimen het element te hebben aangetoond. De Wald test is een krachtige methode om hypotheses te toetsen. We gaan hem in opdracht M4.1 toepassen. 
 
 # Opdrachten module 4
-<!--REF\label{/opdrachten-module-4/opdrachten}-->
 
 1. Ordered TOC
 {:toc}
@@ -2904,7 +2881,6 @@ Veel succes!
 
 
 ## M4.1 Een Nieuw Deeltje \*\*\*
-<!--REF\label{/opdrachten-module-4/eennieuwdeeltje}-->
 
 We gaan op zoek naar een nieuw elementair deeltje $$X$$. Dit deeltje is gepostuleerd door een groep Natuurkundigen die daarmee het bestaan van de [Donkere Materie](https://nl.wikipedia.org/wiki/Donkere_materie) in het heelal denken te kunnen verklaren. 
 

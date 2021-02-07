@@ -1,5 +1,5 @@
-
 ## De $$\chi^2$$ distributie
+<!--REF\label{/module-3/chi-2}-->
 
 1. Ordered TOC
 {:toc}

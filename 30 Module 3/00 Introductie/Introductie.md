@@ -1,4 +1,5 @@
 # Introductie Module 3
+<!--REF\label{/module-3/introductie}-->
 
 Deze week gaan we kijken naar het begrip lineaire regressie. Hoe kunnen we een functie fitten aan een set meetwaardes. Er komen verschillende concepten aan bod. 
 

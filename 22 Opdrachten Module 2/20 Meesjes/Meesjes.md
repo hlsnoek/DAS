@@ -1,4 +1,5 @@
 ## M2.2 Meesjes \*\*\*\*
+<!--REF\label{/opdrachten-module-2/meesjes}-->
 
 Je vindt helaas een dood meesje in de tuin. Het lijkt op een koolmeesje maar het zou ook een pimpelmeesje kunnen zijn. Deze twee vogeltjes lijken erg veel op elkaar.
 Er zijn <a href="https://www.tuinvogeltelling.nl/herkenningstips/?tip=17">manieren</a> om pimpelmeesjes van koolmeesjes te onderscheiden met behulp van uiterlijke kenmerken. Maar je bent een Natuurkundige en geen Bioloog. Online vind je een dataset met informatie over het massa en de spanwijdte van beide soorten meesjes.

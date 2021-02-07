@@ -1,4 +1,5 @@
 # Wet van Grote Aantallen
+<!--REF\label{/module-2/groteaantallen}-->
 
 In opgave M1.4 hebben we gezien hoe de spreiding van een gemeten gemiddelde van 
 metingen steeds kleiner wordt als we meer data gebruiken om het gemiddelde te bepalen. 

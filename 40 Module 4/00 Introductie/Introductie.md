@@ -1,4 +1,5 @@
 # Introductie Module 4
+<!--REF\label{/module-4/introductie}-->
 
 Deze week sluiten we het van af. We gaan kijken naar hoe we gebruik kunnen maken van de geminimaliseerde $$\chi^2$$ waardes van een fit. 
 

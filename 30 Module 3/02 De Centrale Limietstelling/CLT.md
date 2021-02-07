@@ -1,4 +1,5 @@
 # De Centrale Limietstelling
+<!--REF\label{/module-3/de-centrale-limietstelling}-->
 
 De Centrale Limietstelling (Engels: Central Limit Theorem of CLT) is zonder meer de meest belangrijke stelling in de statistiek en in data analyses. 
 

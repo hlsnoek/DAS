@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/MacPorts 2019.50896_2) (preloaded format=pdflatex 2019.8.6)  5 FEB 2021 22:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/MacPorts 2019.50896_2) (preloaded format=pdflatex 2019.8.6)  7 FEB 2021 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1086,7 +1086,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip55
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 61.
+Package hyperref Info: Option `colorlinks' set `true' on input line 65.
+Package hyperref Info: Option `breaklinks' set `true' on input line 65.
 
 (/opt/local/share/texmf-texlive/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
@@ -1150,37 +1151,33 @@ Package: enumitem 2019/02/04 v3.8 Customized lists
 (/opt/local/share/texmf-texlive/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen285
-) (./DASBoek.aux
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-)
+) (./DASBoek.aux)
 \openout1 = `DASBoek.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 134.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 140.
 
  (/opt/local/share/texmf-texlive/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 134.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 140.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1217,7 +1214,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count328
-LaTeX Info: Redefining \microtypecontext on input line 134.
+LaTeX Info: Redefining \microtypecontext on input line 140.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -1233,7 +1230,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 \AtBeginShipoutBox=\box81
-Package hyperref Info: Link coloring OFF on input line 134.
+Package hyperref Info: Link coloring ON on input line 140.
 
 (/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1243,9 +1240,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count329
 )
-LaTeX Info: Redefining \ref on input line 134.
-LaTeX Info: Redefining \pageref on input line 134.
-LaTeX Info: Redefining \nameref on input line 134.
+LaTeX Info: Redefining \ref on input line 140.
+LaTeX Info: Redefining \pageref on input line 140.
+LaTeX Info: Redefining \nameref on input line 140.
 
 (./DASBoek.out) (./DASBoek.out)
 \@outlinefile=\write7
@@ -1295,20 +1292,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/opt/local/share/texmf-texlive/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Underfull \vbox (badness 1430) has occurred while \output is active []
+) [2
 
- [2
-
-]
-[3]
-Overfull \hbox (2.01247pt too wide) detected at line 80
- \T1/lmr/bx/n/10.95 100
- []
-
-
+] [3]
 Overfull \hbox (2.01247pt too wide) detected at line 98
- \T1/lmr/bx/n/10.95 131
+ \T1/lmr/bx/n/10.95 130
  []
 
 [4])
@@ -1316,1480 +1304,1364 @@ Overfull \hbox (2.01247pt too wide) detected at line 98
 \openout8 = `DASBoek.toc'.
 
  [5]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 151.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 154.
 
  (/opt/local/share/texmf-texlive/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [6
 
-] [7]
+]
 Hoofdstuk 1.
-[8
+[7
 
-] [9] [10] [11] [12] [13] [14] [15]
+] [8] [9] [10] [11] [12] [13] [14]
 Hoofdstuk 2.
-[16
+[15
 
-]
-Underfull \vbox (badness 6110) has occurred while \output is active []
-
- [17]
-[18] [19] [20]
+] [16] [17] [18] [19]
 Hoofdstuk 3.
-[21
+[20
 
 ]
-<Figures/plot1_lijn_geenOpmaak.png, id=718, 462.528pt x 346.896pt>
+<Figures/plot1_lijn_geenOpmaak.png, id=715, 462.528pt x 346.896pt>
 File: Figures/plot1_lijn_geenOpmaak.png Graphic file (type png)
 <use Figures/plot1_lijn_geenOpmaak.png>
 Package pdftex.def Info: Figures/plot1_lijn_geenOpmaak.png  used on input line 
-990.
+749.
 (pdftex.def)             Requested size: 256.09206pt x 192.06905pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1002--1004
+Underfull \hbox (badness 10000) in paragraph at lines 758--759
 
  []
 
-<Figures/plot2_scatter_geenOpmaak.png, id=720, 462.528pt x 346.896pt>
+<Figures/plot2_scatter_geenOpmaak.png, id=717, 462.528pt x 346.896pt>
 File: Figures/plot2_scatter_geenOpmaak.png Graphic file (type png)
 <use Figures/plot2_scatter_geenOpmaak.png>
 Package pdftex.def Info: Figures/plot2_scatter_geenOpmaak.png  used on input li
-ne 1007.
+ne 762.
 (pdftex.def)             Requested size: 256.09206pt x 192.06905pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/plot3_grafiek_aslabel.png, id=723, 650.43pt x 289.08pt>
+<Figures/plot3_grafiek_aslabel.png, id=720, 650.43pt x 289.08pt>
 File: Figures/plot3_grafiek_aslabel.png Graphic file (type png)
 <use Figures/plot3_grafiek_aslabel.png>
 Package pdftex.def Info: Figures/plot3_grafiek_aslabel.png  used on input line 
-1029.
+778.
 (pdftex.def)             Requested size: 426.80394pt x 189.69063pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22 <./Figures/plot1_lijn_geenOpmaak.png>]
-<Figures/plot4_grafiek_aslabel_lim.png, id=734, 650.43pt x 289.08pt>
+[21 <./Figures/plot1_lijn_geenOpmaak.png>]
+<Figures/plot4_grafiek_aslabel_lim.png, id=731, 650.43pt x 289.08pt>
 File: Figures/plot4_grafiek_aslabel_lim.png Graphic file (type png)
 <use Figures/plot4_grafiek_aslabel_lim.png>
 Package pdftex.def Info: Figures/plot4_grafiek_aslabel_lim.png  used on input l
-ine 1058.
+ine 793.
 (pdftex.def)             Requested size: 426.80394pt x 189.69063pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 3646) has occurred while \output is active []
-
- [23 <./Figures/plot2_scatter_geenOpmaak.png> <./Figures/plot3_grafiek_aslabel.
-png>]
-<Figures/plot5_grafieken_aslabel_lim.png, id=742, 650.43pt x 289.08pt>
+[22 <./Figures/plot2_scatter_geenOpmaak.png> <./Figures/plot3_grafiek_aslabel.p
+ng>]
+<Figures/plot5_grafieken_aslabel_lim.png, id=739, 650.43pt x 289.08pt>
 File: Figures/plot5_grafieken_aslabel_lim.png Graphic file (type png)
 <use Figures/plot5_grafieken_aslabel_lim.png>
 Package pdftex.def Info: Figures/plot5_grafieken_aslabel_lim.png  used on input
- line 1071.
+ line 804.
 (pdftex.def)             Requested size: 426.80394pt x 189.69063pt.
-
-[24 <./Figures/plot4_grafiek_aslabel_lim.png> <./Figures/plot5_grafieken_aslabe
-l_lim.png>]
-<Figures/autos-in-nederland.png, id=751, 1204.5pt x 903.375pt>
+ [23 <./Figures/plot4_grafiek_aslabel_lim.png> <./Figures/plot5_grafieken_aslab
+el_lim.png>]
+<Figures/autos-in-nederland.png, id=748, 1204.5pt x 903.375pt>
 File: Figures/autos-in-nederland.png Graphic file (type png)
 <use Figures/autos-in-nederland.png>
-Package pdftex.def Info: Figures/autos-in-nederland.png  used on input line 113
-8.
+Package pdftex.def Info: Figures/autos-in-nederland.png  used on input line 850
+.
 (pdftex.def)             Requested size: 256.07692pt x 192.0577pt.
- [25 <./Figures/autos-in-nederland.png>]
-<Figures/verdeling-van-inkomens-2.png, id=761, 1204.5pt x 1104.125pt>
+ [24 <./Figures/autos-in-nederland.png>]
+<Figures/verdeling-van-inkomens-2.png, id=757, 1204.5pt x 1104.125pt>
 File: Figures/verdeling-van-inkomens-2.png Graphic file (type png)
 <use Figures/verdeling-van-inkomens-2.png>
 Package pdftex.def Info: Figures/verdeling-van-inkomens-2.png  used on input li
-ne 1150.
+ne 862.
 (pdftex.def)             Requested size: 256.07692pt x 234.73718pt.
-<Figures/Plot11_RandNorm_Hist_GoedeBins.png, id=764, 462.528pt x 346.896pt>
+<Figures/Plot11_RandNorm_Hist_GoedeBins.png, id=760, 462.528pt x 346.896pt>
 File: Figures/Plot11_RandNorm_Hist_GoedeBins.png Graphic file (type png)
 <use Figures/Plot11_RandNorm_Hist_GoedeBins.png>
 Package pdftex.def Info: Figures/Plot11_RandNorm_Hist_GoedeBins.png  used on in
-put line 1192.
+put line 890.
 (pdftex.def)             Requested size: 192.05846pt x 144.04384pt.
- [26 <./Figures/verdeling-van-inkomens-2.png>]
-<Figures/Plot12_RandNorm_Hist_TeWeinigBins.png, id=774, 462.528pt x 346.896pt>
+ [25 <./Figures/verdeling-van-inkomens-2.png>]
+<Figures/Plot12_RandNorm_Hist_TeWeinigBins.png, id=771, 462.528pt x 346.896pt>
 File: Figures/Plot12_RandNorm_Hist_TeWeinigBins.png Graphic file (type png)
 <use Figures/Plot12_RandNorm_Hist_TeWeinigBins.png>
 Package pdftex.def Info: Figures/Plot12_RandNorm_Hist_TeWeinigBins.png  used on
- input line 1205.
+ input line 902.
 (pdftex.def)             Requested size: 192.05846pt x 144.04384pt.
-<Figures/Plot13_RandNorm_Hist_TeVeelBins.png, id=776, 462.528pt x 346.896pt>
+<Figures/Plot13_RandNorm_Hist_TeVeelBins.png, id=773, 462.528pt x 346.896pt>
 File: Figures/Plot13_RandNorm_Hist_TeVeelBins.png Graphic file (type png)
 <use Figures/Plot13_RandNorm_Hist_TeVeelBins.png>
 Package pdftex.def Info: Figures/Plot13_RandNorm_Hist_TeVeelBins.png  used on i
-nput line 1219.
+nput line 914.
 (pdftex.def)             Requested size: 192.05846pt x 144.04384pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27 <./Figures/Plot11_RandNorm_Hist_GoedeBins.png> <./Figures/Plot12_RandNorm_H
-ist_TeWeinigBins.png>] [28 <./Figures/Plot13_RandNorm_Hist_TeVeelBins.png>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1327
-.
+[26 <./Figures/Plot11_RandNorm_Hist_GoedeBins.png> <./Figures/Plot12_RandNorm_H
+ist_TeWeinigBins.png>] [27 <./Figures/Plot13_RandNorm_Hist_TeVeelBins.png>]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 981.
+
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1327.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 981.
 
-Overfull \hbox (54.66629pt too wide) in alignment at lines 1346--1351
+Overfull \hbox (54.66629pt too wide) in alignment at lines 997--1001
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (54.66629pt too wide) in alignment at lines 1351--1355
+Overfull \hbox (54.66629pt too wide) in alignment at lines 1001--1004
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.0828pt too wide) in paragraph at lines 1363--1364
+Overfull \hbox (22.0828pt too wide) in paragraph at lines 1012--1013
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 137
-0.
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 101
+9.
 (/opt/local/share/texmf-texlive/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TS1/lmtt/bx/n' in size <9> not available
-(Font)              Font shape `TS1/lmtt/b/n' tried instead on input line 1373.
+(Font)              Font shape `TS1/lmtt/b/n' tried instead on input line 1022.
 
-<Figures/Plot14_Vallenbal_PlotOnopgemaakt.png, id=795, 379.4175pt x 252.945pt>
+<Figures/Plot14_Vallenbal_PlotOnopgemaakt.png, id=792, 379.4175pt x 252.945pt>
 File: Figures/Plot14_Vallenbal_PlotOnopgemaakt.png Graphic file (type png)
 <use Figures/Plot14_Vallenbal_PlotOnopgemaakt.png>
 Package pdftex.def Info: Figures/Plot14_Vallenbal_PlotOnopgemaakt.png  used on 
-input line 1379.
+input line 1027.
 (pdftex.def)             Requested size: 192.05879pt x 128.03918pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29]
-<Figures/Plot15_Vallenbal_PlotOpgemaakt.png, id=819, 393.47pt x 266.9975pt>
+[28]
+<Figures/Plot15_Vallenbal_PlotOpgemaakt.png, id=816, 393.47pt x 266.9975pt>
 File: Figures/Plot15_Vallenbal_PlotOpgemaakt.png Graphic file (type png)
 <use Figures/Plot15_Vallenbal_PlotOpgemaakt.png>
 Package pdftex.def Info: Figures/Plot15_Vallenbal_PlotOpgemaakt.png  used on in
-put line 1410.
+put line 1055.
 (pdftex.def)             Requested size: 192.0515pt x 130.32065pt.
- [30 <./Figures/Plot14_Vallenbal_PlotOnopgemaakt.png> <./Figures/Plot15_Vallenb
+ [29 <./Figures/Plot14_Vallenbal_PlotOnopgemaakt.png> <./Figures/Plot15_Vallenb
 al_PlotOpgemaakt.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1460--1462
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
 
  []
 
-<Figures/PLOT16_MeerdereScatter.png, id=843, 393.47pt x 266.9975pt>
+<Figures/PLOT16_MeerdereScatter.png, id=840, 393.47pt x 266.9975pt>
 File: Figures/PLOT16_MeerdereScatter.png Graphic file (type png)
 <use Figures/PLOT16_MeerdereScatter.png>
 Package pdftex.def Info: Figures/PLOT16_MeerdereScatter.png  used on input line
- 1465.
-(pdftex.def)             Requested size: 393.50504pt x 267.02126pt.
-[31 <./Figures/PLOT16_MeerdereScatter.png>]
-<Figures/PLOT18_MeerdereScatter_legenda.png, id=864, 393.47pt x 266.9975pt>
+ 1105.
+(pdftex.def)             Requested size: 192.0515pt x 130.32065pt.
+<Figures/PLOT18_MeerdereScatter_legenda.png, id=842, 393.47pt x 266.9975pt>
 File: Figures/PLOT18_MeerdereScatter_legenda.png Graphic file (type png)
 <use Figures/PLOT18_MeerdereScatter_legenda.png>
 Package pdftex.def Info: Figures/PLOT18_MeerdereScatter_legenda.png  used on in
-put line 1498.
-(pdftex.def)             Requested size: 393.50504pt x 267.02126pt.
- [32 <./Figures/PLOT18_MeerdereScatter_legenda.png>]
-<Figures/PLOT17_MeerdereLijnen_legenda.png, id=885, 397.485pt x 266.9975pt>
+put line 1131.
+(pdftex.def)             Requested size: 192.0515pt x 130.32065pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30 <./Figures/PLOT16_MeerdereScatter.png>] [31 <./Figures/PLOT18_MeerdereScatt
+er_legenda.png>]
+<Figures/PLOT17_MeerdereLijnen_legenda.png, id=907, 397.485pt x 266.9975pt>
 File: Figures/PLOT17_MeerdereLijnen_legenda.png Graphic file (type png)
 <use Figures/PLOT17_MeerdereLijnen_legenda.png>
 Package pdftex.def Info: Figures/PLOT17_MeerdereLijnen_legenda.png  used on inp
-ut line 1555.
+ut line 1185.
 (pdftex.def)             Requested size: 192.05824pt x 129.0088pt.
- [33 <./Figures/PLOT17_MeerdereLijnen_legenda.png>] [34]
+ [32 <./Figures/PLOT17_MeerdereLijnen_legenda.png>]
 Hoofdstuk 4.
-[35
+[33
 
 ]
-<Figures/lineaal_v1.png, id=934, 551.81157pt x 196.48407pt>
+<Figures/lineaal_v1.png, id=927, 551.81157pt x 196.48407pt>
 File: Figures/lineaal_v1.png Graphic file (type png)
 <use Figures/lineaal_v1.png>
-Package pdftex.def Info: Figures/lineaal_v1.png  used on input line 1639.
+Package pdftex.def Info: Figures/lineaal_v1.png  used on input line 1247.
 (pdftex.def)             Requested size: 341.44604pt x 121.57901pt.
- [36 <./Figures/lineaal_v1.png>] [37] [38]
-Underfull \vbox (badness 5548) has occurred while \output is active []
-
- [39]
-[40]
+ [34 <./Figures/lineaal_v1.png>] [35] [36] [37] [38]
 Hoofdstuk 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1922--1926
+Underfull \hbox (badness 10000) in paragraph at lines 1401--1403
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1922--1926
-
- []
-
-[41
+[39
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1956--1957
+Underfull \hbox (badness 10000) in paragraph at lines 1432--1433
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1960--1961
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1960--1961
-
- []
-
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 1991--1999
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1991--1999
+Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2000--2005
+Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 1451--1453
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2000--2005
+Underfull \hbox (badness 10000) in paragraph at lines 1451--1453
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2006--2017
+Underfull \hbox (badness 10000) in paragraph at lines 1454--1455
 
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 2006--2017
+Underfull \hbox (badness 10000) in paragraph at lines 1454--1455
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1456--1459
+
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 1456--1459
 \T1/lmr/m/n/10.95 (+20) Het li-jkt nu toch een stuk min-der waarschi-jn-lijk da
 t Onana zal win-nen.
  []
 
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 2034--2037
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 1471--1472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2037--2039
+Underfull \hbox (badness 10000) in paragraph at lines 1473--1475
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2039--2041
+Underfull \hbox (badness 10000) in paragraph at lines 1475--1477
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2041--2043
+Underfull \hbox (badness 10000) in paragraph at lines 1478--1480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2043--2044
+Underfull \hbox (badness 10000) in paragraph at lines 1480--1482
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2048--2051
+Underfull \hbox (badness 10000) in paragraph at lines 1486--1488
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2054--2057
+Underfull \hbox (badness 10000) in paragraph at lines 1492--1493
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2057--2058
+Underfull \hbox (badness 10000) in paragraph at lines 1493--1494
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2063--2068
+Underfull \hbox (badness 10000) in paragraph at lines 1496--1501
 
  []
 
-[44]
-Underfull \hbox (badness 10000) in paragraph at lines 2092--2094
+
+Underfull \hbox (badness 10000) in paragraph at lines 1496--1501
 
  []
 
-[45] [46]
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 1527--1528
+
+ []
+
+[43] [44]
 Hoofdstuk 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2131--2141
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1554
 
  []
 
-[47
+[45
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
+Underfull \hbox (badness 10000) in paragraph at lines 1577--1581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2176--2178
+Underfull \hbox (badness 10000) in paragraph at lines 1581--1582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2180--2182
+Underfull \hbox (badness 10000) in paragraph at lines 1584--1586
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2186--2189
+Underfull \hbox (badness 10000) in paragraph at lines 1590--1593
 
  []
 
-
-Underfull \vbox (badness 1226) has occurred while \output is active []
-
- [48]
-<Figures/UniformeDistributieDobbelsteen.png, id=1035, 462.528pt x 346.896pt>
+[46]
+<Figures/UniformeDistributieDobbelsteen.png, id=1028, 462.528pt x 346.896pt>
 File: Figures/UniformeDistributieDobbelsteen.png Graphic file (type png)
 <use Figures/UniformeDistributieDobbelsteen.png>
 Package pdftex.def Info: Figures/UniformeDistributieDobbelsteen.png  used on in
-put line 2230.
+put line 1614.
 (pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
-<Figures/UniformeDistributieAlgemeen.png, id=1037, 462.528pt x 346.896pt>
+<Figures/UniformeDistributieAlgemeen.png, id=1030, 462.528pt x 346.896pt>
 File: Figures/UniformeDistributieAlgemeen.png Graphic file (type png)
 <use Figures/UniformeDistributieAlgemeen.png>
 Package pdftex.def Info: Figures/UniformeDistributieAlgemeen.png  used on input
- line 2248.
+ line 1633.
 (pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[49 <./Figures/UniformeDistributieDobbelsteen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2277--2281
+[47 <./Figures/UniformeDistributieDobbelsteen.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1671--1672
 
  []
 
-[50 <./Figures/UniformeDistributieAlgemeen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2288--2311
+[48 <./Figures/UniformeDistributieAlgemeen.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1680--1681
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2288--2311
+Underfull \hbox (badness 10000) in paragraph at lines 1685--1690
 
  []
 
-<Figures/BinomiaalDistributie.png, id=1057, 462.528pt x 346.896pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1691--1699
+
+ []
+
+<Figures/BinomiaalDistributie.png, id=1049, 462.528pt x 346.896pt>
 File: Figures/BinomiaalDistributie.png Graphic file (type png)
 <use Figures/BinomiaalDistributie.png>
-Package pdftex.def Info: Figures/BinomiaalDistributie.png  used on input line 2
-324.
+Package pdftex.def Info: Figures/BinomiaalDistributie.png  used on input line 1
+707.
 (pdftex.def)             Requested size: 256.09206pt x 192.06905pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 1005) has occurred while \output is active []
-
- [51]
-<Figures/PoissonDistributie.png, id=1066, 462.528pt x 346.896pt>
+[49]
+<Figures/PoissonDistributie.png, id=1060, 462.528pt x 346.896pt>
 File: Figures/PoissonDistributie.png Graphic file (type png)
 <use Figures/PoissonDistributie.png>
-Package pdftex.def Info: Figures/PoissonDistributie.png  used on input line 236
+Package pdftex.def Info: Figures/PoissonDistributie.png  used on input line 173
 0.
 (pdftex.def)             Requested size: 256.09206pt x 192.06905pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[52 <./Figures/BinomiaalDistributie.png>]
-<Figures/NormaleDistributie.png, id=1081, 462.528pt x 346.896pt>
+[50 <./Figures/BinomiaalDistributie.png>]
+<Figures/NormaleDistributie.png, id=1075, 462.528pt x 346.896pt>
 File: Figures/NormaleDistributie.png Graphic file (type png)
 <use Figures/NormaleDistributie.png>
-Package pdftex.def Info: Figures/NormaleDistributie.png  used on input line 239
-8.
+Package pdftex.def Info: Figures/NormaleDistributie.png  used on input line 175
+7.
 (pdftex.def)             Requested size: 256.09206pt x 192.06905pt.
- [53 <./Figures/PoissonDistributie.png> <./Figures/NormaleDistributie.png>] [54
+ [51 <./Figures/PoissonDistributie.png> <./Figures/NormaleDistributie.png>] [52
 ]
 Hoofdstuk 7.
-[55
 
-] [56] [57]
-Underfull \hbox (badness 10000) in paragraph at lines 2635--2636
+LaTeX Warning: Reference `/informatie/installatie' on page 53 undefined on inpu
+t line 1813.
 
- []
+[53
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2635--2636
-
- []
-
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 2715--2718
+] [54] [55] [56] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 1994--1996
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2715--2718
-
- []
-
-[59]
-Underfull \hbox (badness 10000) in paragraph at lines 2739--2741
+Underfull \hbox (badness 10000) in paragraph at lines 1994--1996
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2739--2741
+Underfull \hbox (badness 10000) in paragraph at lines 2038--2040
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2742--2744
+Underfull \hbox (badness 10000) in paragraph at lines 2038--2040
+
+ []
+
+[58] [59]
+Underfull \hbox (badness 10000) in paragraph at lines 2097--2099
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2742--2744
-
- []
-
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 2796--2799
+Underfull \hbox (badness 10000) in paragraph at lines 2097--2099
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2796--2799
+Underfull \hbox (badness 10000) in paragraph at lines 2099--2101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2800--2802
+Underfull \hbox (badness 10000) in paragraph at lines 2099--2101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2800--2802
-
- []
-
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 2879--2881
+Underfull \hbox (badness 10000) in paragraph at lines 2110--2113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2879--2881
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2881--2884
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2115
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2881--2884
-
- []
-
-[62]
-Underfull \hbox (badness 10000) in paragraph at lines 2895--2899
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2899--2903
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2899--2903
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2906--2908
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2906--2908
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2909--2911
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2909--2911
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2934--2936
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2934--2936
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2937--2939
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2937--2939
-
- []
-
-[63]
-Underfull \hbox (badness 10000) in paragraph at lines 2991--2996
+[60] [61]
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2175
 []\T1/lmr/m/n/10.95 (+20) Download het vol-gende be-stand in je werk-folder op 
 de com-puter:
  []
 
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 3021--3023
+
+Underfull \hbox (badness 10000) in paragraph at lines 2193--2195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3021--3023
+Underfull \hbox (badness 10000) in paragraph at lines 2193--2195
 
  []
 
-[65]
-Underfull \hbox (badness 10000) in paragraph at lines 3065--3067
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 2219--2221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3065--3067
+Underfull \hbox (badness 10000) in paragraph at lines 2219--2221
 
  []
 
-[66]
-Underfull \hbox (badness 1024) in paragraph at lines 3162--3163
+[63] [64]
+Underfull \hbox (badness 1024) in paragraph at lines 2286--2287
 []\T1/lmr/bx/n/10.95 M1.5c) Bepaal nu met de hi-er-boven beschreven meth-ode de
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3174--3176
+Underfull \hbox (badness 10000) in paragraph at lines 2295--2297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3174--3176
+Underfull \hbox (badness 10000) in paragraph at lines 2295--2297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3179--3181
+Underfull \hbox (badness 10000) in paragraph at lines 2297--2299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3179--3181
+Underfull \hbox (badness 10000) in paragraph at lines 2297--2299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3185--3187
+Underfull \hbox (badness 10000) in paragraph at lines 2299--2301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3185--3187
+Underfull \hbox (badness 10000) in paragraph at lines 2299--2301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3190--3192
+Underfull \hbox (badness 10000) in paragraph at lines 2301--2303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3190--3192
+Underfull \hbox (badness 10000) in paragraph at lines 2301--2303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3195--3196
+Underfull \hbox (badness 10000) in paragraph at lines 2303--2304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3195--3196
+Underfull \hbox (badness 10000) in paragraph at lines 2303--2304
 
  []
 
-[67] [68] [69
+[65]
+
+LaTeX Warning: Reference `/informatie/inleveropdrachten' on page 66 undefined o
+n input line 2307.
+
+[66]
+
+LaTeX Warning: Reference `/module-2/wet-van-grote-aantallen' on page 67 undefin
+ed on input line 2315.
+
+
+LaTeX Warning: Reference `/informatie/inleveropdrachten' on page 67 undefined o
+n input line 2319.
+
+
+LaTeX Warning: Reference `/tussentoets-ii/inhoud' on page 67 undefined on input
+ line 2320.
+
+[67
 
 ]
 Hoofdstuk 8.
-[70
+[68
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 3297--3300
+Underfull \hbox (badness 10000) in paragraph at lines 2363--2364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3301--3309
+Underfull \hbox (badness 10000) in paragraph at lines 2369--2371
 
  []
 
-<Figures/Foutenpropagatie_const.png, id=1242, 433.62pt x 433.62pt>
+<Figures/Foutenpropagatie_const.png, id=1227, 433.62pt x 433.62pt>
 File: Figures/Foutenpropagatie_const.png Graphic file (type png)
 <use Figures/Foutenpropagatie_const.png>
 Package pdftex.def Info: Figures/Foutenpropagatie_const.png  used on input line
- 3309.
+ 2371.
 (pdftex.def)             Requested size: 257.07748pt x 257.07748pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [71]
-Underfull \hbox (badness 10000) in paragraph at lines 3317--3320
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 2379--2380
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3320--3326
+Underfull \hbox (badness 10000) in paragraph at lines 2383--2385
 
  []
 
-<Figures/Foutenpropagatie_trans.png, id=1249, 433.62pt x 433.62pt>
+<Figures/Foutenpropagatie_trans.png, id=1234, 433.62pt x 433.62pt>
 File: Figures/Foutenpropagatie_trans.png Graphic file (type png)
 <use Figures/Foutenpropagatie_trans.png>
 Package pdftex.def Info: Figures/Foutenpropagatie_trans.png  used on input line
- 3326.
+ 2385.
 (pdftex.def)             Requested size: 257.07748pt x 257.07748pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [72 <./Figures/Foutenpropagatie_const.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3334--3337
+[70 <./Figures/Foutenpropagatie_const.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2393--2394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3337--3345
+Underfull \hbox (badness 10000) in paragraph at lines 2397--2399
 
  []
 
-<Figures/Foutenpropagatie_cube.png, id=1256, 433.62pt x 433.62pt>
+<Figures/Foutenpropagatie_cube.png, id=1242, 433.62pt x 433.62pt>
 File: Figures/Foutenpropagatie_cube.png Graphic file (type png)
 <use Figures/Foutenpropagatie_cube.png>
 Package pdftex.def Info: Figures/Foutenpropagatie_cube.png  used on input line 
-3345.
+2399.
 (pdftex.def)             Requested size: 257.07748pt x 257.07748pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [73 <./Figures/Foutenpropagatie_trans.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3353--3356
+[71 <./Figures/Foutenpropagatie_trans.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2407--2408
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3356--3363
+Underfull \hbox (badness 10000) in paragraph at lines 2411--2413
 
  []
 
-<Figures/Foutenpropagatie_func.png, id=1266, 433.62pt x 433.62pt>
+<Figures/Foutenpropagatie_func.png, id=1251, 433.62pt x 433.62pt>
 File: Figures/Foutenpropagatie_func.png Graphic file (type png)
 <use Figures/Foutenpropagatie_func.png>
 Package pdftex.def Info: Figures/Foutenpropagatie_func.png  used on input line 
-3363.
+2413.
 (pdftex.def)             Requested size: 257.07748pt x 257.07748pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [74 <./Figures/Foutenpropagatie_cube.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3371--3374
+[72 <./Figures/Foutenpropagatie_cube.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2421--2422
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3380--3383
+Underfull \hbox (badness 10000) in paragraph at lines 2432--2433
+
+ []
+
+[73 <./Figures/Foutenpropagatie_func.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2457--2458
 
  []
 
 
-Underfull \vbox (badness 1189) has occurred while \output is active []
-
- [75 <./Figures/Foutenpropagatie_func.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3404--3406
+Underfull \hbox (badness 10000) in paragraph at lines 2481--2482
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 3421--3422
-
- []
-
-[76] [77]
+[74] [75]
 Hoofdstuk 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 3483.
+(Font)              <14.4> on input line 2544.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 3483.
+(Font)              <10> on input line 2544.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 3483.
-[78
+(Font)              <7> on input line 2544.
+[76
 
-] [79]
-Underfull \hbox (badness 10000) in paragraph at lines 3567--3571
+] [77]
+Underfull \hbox (badness 10000) in paragraph at lines 2606--2608
 
  []
 
-<Figures/CauchyDistributie.png, id=1319, 462.528pt x 346.896pt>
+<Figures/CauchyDistributie.png, id=1304, 462.528pt x 346.896pt>
 File: Figures/CauchyDistributie.png Graphic file (type png)
 <use Figures/CauchyDistributie.png>
-Package pdftex.def Info: Figures/CauchyDistributie.png  used on input line 3596
+Package pdftex.def Info: Figures/CauchyDistributie.png  used on input line 2625
 .
 (pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[80] [81 <./Figures/CauchyDistributie.png>]
+[78] [79 <./Figures/CauchyDistributie.png>]
 Hoofdstuk 10.
-[82
+[80
 
-] [83]
+] [81]
 
 LaTeX Warning: Reference `fig:Plot1_Correlatie_0-fig:Plot1_Correlatie_0punt3' o
-n page 84 undefined on input line 3710.
+n page 82 undefined on input line 2689.
 
-<Figures/Plot1_Correlatie_0.png, id=1351, 389.455pt x 266.9975pt>
+<Figures/Plot1_Correlatie_0.png, id=1337, 389.455pt x 266.9975pt>
 File: Figures/Plot1_Correlatie_0.png Graphic file (type png)
 <use Figures/Plot1_Correlatie_0.png>
-Package pdftex.def Info: Figures/Plot1_Correlatie_0.png  used on input line 371
-8.
+Package pdftex.def Info: Figures/Plot1_Correlatie_0.png  used on input line 269
+6.
 (pdftex.def)             Requested size: 256.08432pt x 175.56296pt.
-<Figures/Plot1_Correlatie1.png, id=1352, 389.455pt x 266.9975pt>
+<Figures/Plot1_Correlatie1.png, id=1338, 389.455pt x 266.9975pt>
 File: Figures/Plot1_Correlatie1.png Graphic file (type png)
 <use Figures/Plot1_Correlatie1.png>
-Package pdftex.def Info: Figures/Plot1_Correlatie1.png  used on input line 3729
+Package pdftex.def Info: Figures/Plot1_Correlatie1.png  used on input line 2708
 .
 (pdftex.def)             Requested size: 256.08432pt x 175.56296pt.
-<Figures/Plot1_Correlatie_min1.png, id=1353, 389.455pt x 266.9975pt>
+<Figures/Plot1_Correlatie_min1.png, id=1339, 389.455pt x 266.9975pt>
 File: Figures/Plot1_Correlatie_min1.png Graphic file (type png)
 <use Figures/Plot1_Correlatie_min1.png>
 Package pdftex.def Info: Figures/Plot1_Correlatie_min1.png  used on input line 
-3740.
+2720.
 (pdftex.def)             Requested size: 256.08432pt x 175.56296pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/Plot1_Correlatie_min0punt8.png, id=1354, 389.455pt x 266.9975pt>
+<Figures/Plot1_Correlatie_min0punt8.png, id=1340, 389.455pt x 266.9975pt>
 File: Figures/Plot1_Correlatie_min0punt8.png Graphic file (type png)
 <use Figures/Plot1_Correlatie_min0punt8.png>
 Package pdftex.def Info: Figures/Plot1_Correlatie_min0punt8.png  used on input 
-line 3752.
+line 2733.
 (pdftex.def)             Requested size: 213.39272pt x 146.295pt.
-[84 <./Figures/Plot1_Correlatie_0.png> <./Figures/Plot1_Correlatie1.png>]
-<Figures/Plot1_Correlatie_0punt8.png, id=1364, 389.455pt x 266.9975pt>
+[82 <./Figures/Plot1_Correlatie_0.png> <./Figures/Plot1_Correlatie1.png>]
+<Figures/Plot1_Correlatie_0punt8.png, id=1349, 389.455pt x 266.9975pt>
 File: Figures/Plot1_Correlatie_0punt8.png Graphic file (type png)
 <use Figures/Plot1_Correlatie_0punt8.png>
 Package pdftex.def Info: Figures/Plot1_Correlatie_0punt8.png  used on input lin
-e 3760.
+e 2742.
 (pdftex.def)             Requested size: 213.39272pt x 146.295pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/Plot1_Correlatie_min0punt3.png, id=1365, 389.455pt x 266.9975pt>
+<Figures/Plot1_Correlatie_min0punt3.png, id=1350, 389.455pt x 266.9975pt>
 File: Figures/Plot1_Correlatie_min0punt3.png Graphic file (type png)
 <use Figures/Plot1_Correlatie_min0punt3.png>
 Package pdftex.def Info: Figures/Plot1_Correlatie_min0punt3.png  used on input 
-line 3772.
+line 2755.
 (pdftex.def)             Requested size: 213.39272pt x 146.295pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/Plot1_Correlatie_0punt3.png, id=1366, 389.455pt x 266.9975pt>
+<Figures/Plot1_Correlatie_0punt3.png, id=1351, 389.455pt x 266.9975pt>
 File: Figures/Plot1_Correlatie_0punt3.png Graphic file (type png)
 <use Figures/Plot1_Correlatie_0punt3.png>
 Package pdftex.def Info: Figures/Plot1_Correlatie_0punt3.png  used on input lin
-e 3780.
+e 2764.
 (pdftex.def)             Requested size: 213.39272pt x 146.295pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [85 <./Figures/Plot1_Correlatie_min1.png> <./Figures/Plot1_Correlatie_min0punt
-8.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [86 <./Figures/Plot1_Correlatie_0punt8.png> <./Figures/Plot1_Correlatie_min0pu
-nt3.png> <./Figures/Plot1_Correlatie_0punt3.png>] [87]
+[83 <./Figures/Plot1_Correlatie_min1.png> <./Figures/Plot1_Correlatie_min0punt8
+.png>] [84 <./Figures/Plot1_Correlatie_0punt8.png> <./Figures/Plot1_Correlatie_
+min0punt3.png> <./Figures/Plot1_Correlatie_0punt3.png>] [85]
 Hoofdstuk 11.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3850--3854
+Underfull \hbox (badness 10000) in paragraph at lines 2801--2802
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3866--3867
+Underfull \hbox (badness 10000) in paragraph at lines 2810--2811
 
  []
 
-[88
+[86
 
 ]
-<Figures/180px-Venn0001.svg.png, id=1403, 180.675pt x 131.49126pt>
+<Figures/180px-Venn0001.svg.png, id=1389, 180.675pt x 131.49126pt>
 File: Figures/180px-Venn0001.svg.png Graphic file (type png)
 <use Figures/180px-Venn0001.svg.png>
-Package pdftex.def Info: Figures/180px-Venn0001.svg.png  used on input line 388
-5.
+Package pdftex.def Info: Figures/180px-Venn0001.svg.png  used on input line 282
+3.
 (pdftex.def)             Requested size: 180.68282pt x 131.49693pt.
-<Figures/180px-Venn0111.svg.png, id=1405, 180.675pt x 131.49126pt>
+<Figures/180px-Venn0111.svg.png, id=1391, 180.675pt x 131.49126pt>
 File: Figures/180px-Venn0111.svg.png Graphic file (type png)
 <use Figures/180px-Venn0111.svg.png>
-Package pdftex.def Info: Figures/180px-Venn0111.svg.png  used on input line 389
-7.
+Package pdftex.def Info: Figures/180px-Venn0111.svg.png  used on input line 283
+3.
 (pdftex.def)             Requested size: 180.68282pt x 131.49693pt.
-<Figures/180px-Venn1010.svg.png, id=1407, 180.675pt x 131.49126pt>
+<Figures/180px-Venn1010.svg.png, id=1393, 180.675pt x 131.49126pt>
 File: Figures/180px-Venn1010.svg.png Graphic file (type png)
 <use Figures/180px-Venn1010.svg.png>
-Package pdftex.def Info: Figures/180px-Venn1010.svg.png  used on input line 390
-7.
+Package pdftex.def Info: Figures/180px-Venn1010.svg.png  used on input line 284
+3.
 (pdftex.def)             Requested size: 180.68282pt x 131.49693pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 3668) has occurred while \output is active []
-
-
-Overfull \hbox (2.50021pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10.95 11.1.  DE OF REGEL WANNEER A EN B NIET WEDERZIJDS UITSLUITEN
-D ZIJN: \T1/lmr/m/n/10.95 89
- []
-
-[89 <./Figures/180px-Venn0001.svg.png> <./Figures/180px-Venn0111.svg.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3926--3927
+[87 <./Figures/180px-Venn0001.svg.png> <./Figures/180px-Venn0111.svg.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2856--2857
 
  []
 
-[90 <./Figures/180px-Venn1010.svg.png>] [91]
+[88 <./Figures/180px-Venn1010.svg.png>] [89]
 Hoofdstuk 12.
-[92
+
+LaTeX Warning: Reference `/informatie/inleveropdrachten' on page 90 undefined o
+n input line 2903.
+
+
+LaTeX Warning: Reference `/tussentoets-ii/oefenopgaves' on page 90 undefined on
+ input line 2908.
+
+[90
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4036--4038
+Underfull \hbox (badness 10000) in paragraph at lines 2956--2956
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4036--4038
+Underfull \hbox (badness 10000) in paragraph at lines 2970--2972
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4052--4054
+Underfull \hbox (badness 10000) in paragraph at lines 2970--2972
+
+ []
+
+[91]
+Underfull \hbox (badness 10000) in paragraph at lines 3009--3013
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4052--4054
+Underfull \hbox (badness 10000) in paragraph at lines 3009--3013
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4058--4058
+Underfull \hbox (badness 10000) in paragraph at lines 3009--3013
 
  []
 
-[93]
-Underfull \hbox (badness 10000) in paragraph at lines 4076--4078
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4076--4078
+[92] [93]
+Underfull \hbox (badness 10000) in paragraph at lines 3075--3077
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4079--4081
+Underfull \hbox (badness 10000) in paragraph at lines 3075--3077
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4079--4081
+Underfull \hbox (badness 10000) in paragraph at lines 3100--3102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3100--3102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3102--3103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3102--3103
 
  []
 
 [94]
-Underfull \hbox (badness 10000) in paragraph at lines 4142--4147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4142--4147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4142--4147
-
- []
-
-[95]
-Underfull \hbox (badness 10000) in paragraph at lines 4227--4229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4227--4229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4261--4263
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4261--4263
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4266--4267
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4266--4267
-
- []
-
-[96]
-Underfull \hbox (badness 3407) in paragraph at lines 4279--4281
+Underfull \hbox (badness 3407) in paragraph at lines 3114--3116
 []\T1/lmr/bx/n/10.95 M2.2k) Com-bi-neer nu de gegevens en bereken de kansen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4279--4281
+Underfull \hbox (badness 10000) in paragraph at lines 3114--3116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4279--4281
+Underfull \hbox (badness 10000) in paragraph at lines 3114--3116
 
  []
 
-[97]
-Underfull \hbox (badness 10000) in paragraph at lines 4362--4368
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4362--4368
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 3169--3173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4369--4371
+Underfull \hbox (badness 10000) in paragraph at lines 3169--3173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4369--4371
+Underfull \hbox (badness 10000) in paragraph at lines 3173--3175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4372--4374
+Underfull \hbox (badness 10000) in paragraph at lines 3173--3175
+
+ []
+
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 3201--3205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4372--4374
-
- []
-
-[98]
-Underfull \hbox (badness 10000) in paragraph at lines 4415--4421
+Underfull \hbox (badness 10000) in paragraph at lines 3201--3205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4415--4421
+Underfull \hbox (badness 10000) in paragraph at lines 3217--3219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4443--4445
+Underfull \hbox (badness 10000) in paragraph at lines 3217--3219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4443--4445
+Underfull \hbox (badness 10000) in paragraph at lines 3219--3221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4446--4448
+Underfull \hbox (badness 10000) in paragraph at lines 3219--3221
 
  []
 
+[97] [98]
 
-Underfull \hbox (badness 10000) in paragraph at lines 4446--4448
+LaTeX Warning: Reference `/informatie/inleveropdrachten' on page 99 undefined o
+n input line 3237.
 
- []
 
-[99] [100] [101
+LaTeX Warning: Reference `/tussentoets-iii/inhoud' on page 99 undefined on inpu
+t line 3238.
+
+[99
 
 ]
 Hoofdstuk 13.
-[102
+[100
 
-] [103]
+] [101]
 Hoofdstuk 14.
-<Figures/PoissonDistributie2.png, id=1528, 462.528pt x 346.896pt>
+<Figures/PoissonDistributie2.png, id=1508, 462.528pt x 346.896pt>
 File: Figures/PoissonDistributie2.png Graphic file (type png)
 <use Figures/PoissonDistributie2.png>
-Package pdftex.def Info: Figures/PoissonDistributie2.png  used on input line 45
-61.
+Package pdftex.def Info: Figures/PoissonDistributie2.png  used on input line 32
+85.
 (pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/PoissonNormalDistributie.png, id=1531, 462.528pt x 346.896pt>
+<Figures/PoissonNormalDistributie.png, id=1511, 462.528pt x 346.896pt>
 File: Figures/PoissonNormalDistributie.png Graphic file (type png)
 <use Figures/PoissonNormalDistributie.png>
 Package pdftex.def Info: Figures/PoissonNormalDistributie.png  used on input li
-ne 4580.
+ne 3298.
 (pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[104
+[102
 
 ]
 
-LaTeX Warning: Text page 105 contains only floats.
+LaTeX Warning: Text page 103 contains only floats.
 
-[105 <./Figures/PoissonDistributie2.png> <./Figures/PoissonNormalDistributie.pn
+[103 <./Figures/PoissonDistributie2.png> <./Figures/PoissonNormalDistributie.pn
 g>]
-<Figures/NormaleDistributie2.png, id=1549, 462.528pt x 346.896pt>
+<Figures/NormaleDistributie2.png, id=1529, 462.528pt x 346.896pt>
 File: Figures/NormaleDistributie2.png Graphic file (type png)
 <use Figures/NormaleDistributie2.png>
-Package pdftex.def Info: Figures/NormaleDistributie2.png  used on input line 46
-11.
+Package pdftex.def Info: Figures/NormaleDistributie2.png  used on input line 33
+22.
 (pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
-<Figures/NormaleVerdeling_1.png, id=1552, 260.47313pt x 152.06813pt>
+<Figures/NormaleVerdeling_1.png, id=1532, 260.47313pt x 152.06813pt>
 File: Figures/NormaleVerdeling_1.png Graphic file (type png)
 <use Figures/NormaleVerdeling_1.png>
-Package pdftex.def Info: Figures/NormaleVerdeling_1.png  used on input line 463
-8.
+Package pdftex.def Info: Figures/NormaleVerdeling_1.png  used on input line 334
+0.
 (pdftex.def)             Requested size: 260.48042pt x 152.07239pt.
- [106 <./Figures/NormaleDistributie2.png>]
-<Figures/NormaleVerdeling_2.png, id=1560, 272.51813pt x 155.83218pt>
+ [104 <./Figures/NormaleDistributie2.png>]
+<Figures/NormaleVerdeling_2.png, id=1540, 272.51813pt x 155.83218pt>
 File: Figures/NormaleVerdeling_2.png Graphic file (type png)
 <use Figures/NormaleVerdeling_2.png>
-Package pdftex.def Info: Figures/NormaleVerdeling_2.png  used on input line 464
-6.
+Package pdftex.def Info: Figures/NormaleVerdeling_2.png  used on input line 334
+9.
 (pdftex.def)             Requested size: 272.5216pt x 155.83417pt.
-<Figures/NormaleVerdeling_3.png, id=1561, 301.125pt x 164.11313pt>
+<Figures/NormaleVerdeling_3.png, id=1541, 301.125pt x 164.11313pt>
 File: Figures/NormaleVerdeling_3.png Graphic file (type png)
 <use Figures/NormaleVerdeling_3.png>
-Package pdftex.def Info: Figures/NormaleVerdeling_3.png  used on input line 465
-8.
+Package pdftex.def Info: Figures/NormaleVerdeling_3.png  used on input line 336
+0.
 (pdftex.def)             Requested size: 301.12885pt x 164.11522pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/NormaleVerdeling_4.png, id=1562, 280.04625pt x 152.06813pt>
+<Figures/NormaleVerdeling_4.png, id=1542, 280.04625pt x 152.06813pt>
 File: Figures/NormaleVerdeling_4.png Graphic file (type png)
 <use Figures/NormaleVerdeling_4.png>
-Package pdftex.def Info: Figures/NormaleVerdeling_4.png  used on input line 466
-6.
+Package pdftex.def Info: Figures/NormaleVerdeling_4.png  used on input line 336
+9.
 (pdftex.def)             Requested size: 280.0541pt x 152.07239pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[107 <./Figures/NormaleVerdeling_1.png> <./Figures/NormaleVerdeling_2.png>]
-[108 <./Figures/NormaleVerdeling_3.png> <./Figures/NormaleVerdeling_4.png>]
-[109] [110]
+[105 <./Figures/NormaleVerdeling_1.png> <./Figures/NormaleVerdeling_2.png>]
+[106 <./Figures/NormaleVerdeling_3.png> <./Figures/NormaleVerdeling_4.png>]
+[107] [108]
 Hoofdstuk 15.
-[111
+[109
 
 ]
-<Figures/VoorbeeldLeastSquares0.png, id=1604, 462.528pt x 346.896pt>
+<Figures/VoorbeeldLeastSquares0.png, id=1584, 462.528pt x 346.896pt>
 File: Figures/VoorbeeldLeastSquares0.png Graphic file (type png)
 <use Figures/VoorbeeldLeastSquares0.png>
 Package pdftex.def Info: Figures/VoorbeeldLeastSquares0.png  used on input line
- 4801.
+ 3473.
 (pdftex.def)             Requested size: 256.09206pt x 192.06905pt.
-<Figures/VoorbeeldLeastSquares.png, id=1605, 462.528pt x 346.896pt>
+<Figures/VoorbeeldLeastSquares.png, id=1585, 462.528pt x 346.896pt>
 File: Figures/VoorbeeldLeastSquares.png Graphic file (type png)
 <use Figures/VoorbeeldLeastSquares.png>
 Package pdftex.def Info: Figures/VoorbeeldLeastSquares.png  used on input line 
-4815.
+3483.
 (pdftex.def)             Requested size: 256.09206pt x 192.06905pt.
- [112 <./Figures/VoorbeeldLeastSquares0.png> <./Figures/VoorbeeldLeastSquares.p
+ [110 <./Figures/VoorbeeldLeastSquares0.png> <./Figures/VoorbeeldLeastSquares.p
 ng>]
-Underfull \hbox (badness 10000) in paragraph at lines 4827--4835
+Underfull \hbox (badness 10000) in paragraph at lines 3491--3492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4844--4849
+Underfull \hbox (badness 10000) in paragraph at lines 3498--3499
 
  []
 
-[113]
-Underfull \hbox (badness 10000) in paragraph at lines 4896--4899
+[111]
+Underfull \hbox (badness 10000) in paragraph at lines 3531--3532
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4932--4934
+Underfull \hbox (badness 10000) in paragraph at lines 3539--3540
 
  []
 
-[114]
-<Figures/ChiSquareDistributie.png, id=1632, 462.528pt x 346.896pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3555--3557
+
+ []
+
+[112]
+<Figures/ChiSquareDistributie.png, id=1612, 462.528pt x 346.896pt>
 File: Figures/ChiSquareDistributie.png Graphic file (type png)
 <use Figures/ChiSquareDistributie.png>
-Package pdftex.def Info: Figures/ChiSquareDistributie.png  used on input line 4
-937.
+Package pdftex.def Info: Figures/ChiSquareDistributie.png  used on input line 3
+561.
 (pdftex.def)             Requested size: 341.45372pt x 256.09029pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4964--4966
+Underfull \hbox (badness 10000) in paragraph at lines 3576--3578
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4971--4973
+Underfull \hbox (badness 10000) in paragraph at lines 3578--3582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4976--4978
+Underfull \hbox (badness 10000) in paragraph at lines 3583--3585
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4983--4985
-
- []
-
-[115 <./Figures/ChiSquareDistributie.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5003--5005
+Underfull \hbox (badness 10000) in paragraph at lines 3589--3591
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5009--5010
+Underfull \hbox (badness 10000) in paragraph at lines 3591--3595
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5014--5016
+Underfull \hbox (badness 10000) in paragraph at lines 3596--3598
+
+ []
+
+[113 <./Figures/ChiSquareDistributie.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3610--3612
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5021--5022
+Underfull \hbox (badness 10000) in paragraph at lines 3612--3616
 
  []
 
-[116] [117]
+
+Underfull \hbox (badness 10000) in paragraph at lines 3616--3617
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3620--3622
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3622--3626
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3626--3627
+
+ []
+
+[114] [115]
 Hoofdstuk 16.
-[118
+[116
 
-] [119] [120] [121] [122] [123] [124]
+] [117] [118] [119] [120] [121] [122]
 Hoofdstuk 17.
-[125
+
+LaTeX Warning: Reference `/informatie/inleveropdrachten' on page 123 undefined 
+on input line 3971.
+
+
+LaTeX Warning: Reference `/module-2/wet-van-grote-aantallen' on page 123 undefi
+ned on input line 3981.
+
+[123
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5569--5571
+Underfull \hbox (badness 10000) in paragraph at lines 4015--4016
+
+ []
+
+[124]
+Underfull \hbox (badness 10000) in paragraph at lines 4028--4030
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4035--4038
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4040--4041
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4049--4052
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4059--4064
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4059--4064
+
+ []
+
+[125]
+Underfull \hbox (badness 10000) in paragraph at lines 4097--4099
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4097--4099
 
  []
 
 [126]
-Underfull \hbox (badness 10000) in paragraph at lines 5589--5592
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5597--5603
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5607--5610
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5618--5624
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5630--5632
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5630--5632
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5633--5639
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5633--5639
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [127]
-Underfull \hbox (badness 10000) in paragraph at lines 5677--5679
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5677--5679
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5681--5683
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5681--5683
-
- []
-
-[128] [129]
-Overfull \hbox (12.63281pt too wide) in paragraph at lines 5779--5780
+Overfull \hbox (12.63281pt too wide) in paragraph at lines 4162--4163
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5827--5829
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5827--5829
+[127]
+Underfull \hbox (badness 10000) in paragraph at lines 4206--4208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5831--5833
+Underfull \hbox (badness 10000) in paragraph at lines 4206--4208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5831--5833
+Underfull \hbox (badness 10000) in paragraph at lines 4208--4209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5834--5836
+Underfull \hbox (badness 10000) in paragraph at lines 4208--4209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5834--5836
+Underfull \hbox (badness 10000) in paragraph at lines 4211--4212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5837--5838
+Underfull \hbox (badness 10000) in paragraph at lines 4211--4212
+
+ []
+
+[128]
+Underfull \hbox (badness 10000) in paragraph at lines 4231--4233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5837--5838
+Underfull \hbox (badness 10000) in paragraph at lines 4231--4233
 
  []
 
-[130]
-Underfull \hbox (badness 10000) in paragraph at lines 5856--5858
+[129]
 
- []
+LaTeX Warning: Reference `/informatie/inleveropdrachten' on page 130 undefined 
+on input line 4244.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5856--5858
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5859--5861
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5859--5861
-
- []
-
-[131] [132
+[130
 
 ]
 Hoofdstuk 18.
-[133
+[131
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5938--5939
+Underfull \hbox (badness 10000) in paragraph at lines 4278--4279
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5940--5943
+Underfull \hbox (badness 10000) in paragraph at lines 4280--4282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5944--5945
+Underfull \hbox (badness 10000) in paragraph at lines 4285--4286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5952--5959
+Underfull \hbox (badness 10000) in paragraph at lines 4287--4292
 
  []
 
-<Figures/Spectrum.png, id=1789, 462.528pt x 346.896pt>
+<Figures/Spectrum.png, id=1764, 462.528pt x 346.896pt>
 File: Figures/Spectrum.png Graphic file (type png)
 <use Figures/Spectrum.png>
-Package pdftex.def Info: Figures/Spectrum.png  used on input line 5960.
+Package pdftex.def Info: Figures/Spectrum.png  used on input line 4293.
 (pdftex.def)             Requested size: 237.29767pt x 177.97325pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [134]
-<Figures/Spectrum932.png, id=1796, 462.528pt x 346.896pt>
+[132]
+<Figures/Spectrum932.png, id=1771, 462.528pt x 346.896pt>
 File: Figures/Spectrum932.png Graphic file (type png)
 <use Figures/Spectrum932.png>
-Package pdftex.def Info: Figures/Spectrum932.png  used on input line 5996.
+Package pdftex.def Info: Figures/Spectrum932.png  used on input line 4312.
 (pdftex.def)             Requested size: 237.29767pt x 177.97325pt.
-<Figures/Emissiescan.png, id=1798, 462.528pt x 346.896pt>
+ [133 <./Figures/Spectrum.png>]
+<Figures/Emissiescan.png, id=1781, 462.528pt x 346.896pt>
 File: Figures/Emissiescan.png Graphic file (type png)
 <use Figures/Emissiescan.png>
-Package pdftex.def Info: Figures/Emissiescan.png  used on input line 6003.
+Package pdftex.def Info: Figures/Emissiescan.png  used on input line 4321.
 (pdftex.def)             Requested size: 237.29767pt x 177.97325pt.
-
-Underfull \vbox (badness 5939) has occurred while \output is active []
-
- [135 <./Figures/Spectrum.png>] [136 <./Figures/Spectrum932.png> <./Figures/Emi
-ssiescan.png>]
+ [134 <./Figures/Spectrum932.png> <./Figures/Emissiescan.png>] [135]
 Hoofdstuk 19.
-[137
+
+LaTeX Warning: Reference `/informatie/inleveropdrachten' on page 136 undefined 
+on input line 4349.
+
+[136
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6150--6161
+Underfull \hbox (badness 10000) in paragraph at lines 4441--4448
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6167--6169
+Underfull \hbox (badness 10000) in paragraph at lines 4453--4455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6167--6169
+Underfull \hbox (badness 10000) in paragraph at lines 4453--4455
 
  []
 
-[138]
-Overfull \hbox (45.70775pt too wide) in paragraph at lines 6204--6205
+[137]
+Overfull \hbox (45.70775pt too wide) in paragraph at lines 4477--4478
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
+[138]
+Underfull \hbox (badness 10000) in paragraph at lines 4480--4483
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4511--4516
+
+ []
+
 [139]
-Underfull \hbox (badness 10000) in paragraph at lines 6255--6262
+Underfull \hbox (badness 10000) in paragraph at lines 4554--4556
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4554--4556
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4556--4558
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4556--4558
 
  []
 
 [140]
-Underfull \hbox (badness 10000) in paragraph at lines 6306--6308
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6306--6308
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6310--6312
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6310--6312
-
- []
-
-[141]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 6325.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 6325.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4568.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4568.
  (./DASBoek.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 6325.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 6325.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4568.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4568.
 
 Package rerunfilecheck Info: File `DASBoek.out' has not changed.
-(rerunfilecheck)             Checksum: 23F3A66F3B04A08F8B883BA37578D926;17835.
+(rerunfilecheck)             Checksum: FC71BA3E432B766C03C701CB2CD18163;18909.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 40711 strings out of 493731
- 779198 string characters out of 6152121
- 950994 words of memory out of 5000000
- 43018 multiletter control sequences out of 15000+600000
- 628247 words of font info for 181 fonts, out of 8000000 for 9000
+ 40753 strings out of 493731
+ 780869 string characters out of 6152121
+ 959501 words of memory out of 5000000
+ 43061 multiletter control sequences out of 15000+600000
+ 628164 words of font info for 180 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 63i,10n,101p,1198b,1810s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,10n,101p,1350b,1814s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-ec.enc}{/opt/local/shar
 e/texmf-texlive/fonts/enc/dvips/lm/lm-mathit.enc}{/opt/local/share/texmf-texliv
 e/fonts/enc/dvips/lm/lm-mathsy.enc}{/opt/local/share/texmf-texlive/fonts/enc/dv
@@ -2812,10 +2684,10 @@ ocal/share/texmf-texlive/fonts/type1/public/lm/lmsy6.pfb></opt/local/share/texm
 f-texlive/fonts/type1/public/lm/lmsy8.pfb></opt/local/share/texmf-texlive/fonts
 /type1/public/lm/lmtk10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/
 lm/lmtt9.pfb>
-Output written on DASBoek.pdf (141 pages, 1625530 bytes).
+Output written on DASBoek.pdf (140 pages, 1626555 bytes).
 PDF statistics:
- 2102 PDF objects out of 2487 (max. 8388607)
- 1796 compressed objects within 18 object streams
- 687 named destinations out of 1000 (max. 500000)
+ 2081 PDF objects out of 2487 (max. 8388607)
+ 1776 compressed objects within 18 object streams
+ 688 named destinations out of 1000 (max. 500000)
  15562 words of extra memory for PDF output out of 17280 (max. 10000000)
 

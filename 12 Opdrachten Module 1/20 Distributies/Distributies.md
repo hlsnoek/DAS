@@ -1,4 +1,5 @@
 ## M1.2 - Kansdichtheid distributies **
+<!--REF\label{/opdrachten-module-1/distributies}-->
 
 We gaan in deze opgave kijken naar kansdichtheid distributie. Lees [hier](/module-1/verdelingsfuncties) meer over kansdichtheidsdistributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/verdelingsfuncties#Poisson">poisson</a> en <a href="/module-1/verdelingsfuncties#Uniform">uniforme</a> distributies.
 

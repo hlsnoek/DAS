@@ -1,4 +1,5 @@
 # Extra kans rekenregels
+<!--REF\label{/module-2/extra-kansrekenregels}-->
 
 In [module 1](/module-1/kanstheorie) hebben we de complement, de en-regel en de of-regel geleerd voor het rekenen met kansen. Aan deze regels waren enkele voorwaarden verbonden. 
 
