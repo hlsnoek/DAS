@@ -13,7 +13,7 @@ In deze module gaan we werken aan de volgende opdrachten.
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. Let op dat je deze week goed plant!
 
-
+<!--COMMENT\iffalse-->
 De antwoorden van de opdrachten moet je invoeren in [dit template](InlevertemplateModule2.docx) en als **pdf** bestand inleveren samen met de code voor de 3 opdrachten via ANS. De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/informatie/inleveropdrachten) vinden.
 
 Als je vragen hebt, stel deze dan aan de assistent of stuur een email naar de coördinator.
@@ -21,4 +21,5 @@ Als je vragen hebt, stel deze dan aan de assistent of stuur een email naar de co
 Vergeet niet om ook even te kijken naar de [oefen opgaves](/tussentoets-ii/oefenopgaves) ter voorbereiding van de tweede tussentoets die aan het einde van het derde hoorcollege plaats vindt.
 
 Veel succes! 
+<!--COMMENT\fi-->
 

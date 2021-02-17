@@ -1,4 +1,4 @@
-# Datasets visualiseren
+# Data visualiseren
 <!--REF\label{/module-1/data-visualiseren}-->
 1. Ordered TOC
 {:toc}
@@ -50,7 +50,7 @@ Zoals je ziet hebben we het formaat van de grafiek ook aangepast zodat de distri
 
 Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, tenzij de data dan onvolledig of onleesbaar wordt**. In het geval van het weergeven van de temperaturen wordt de data bijvoorbeeld onvolledig als we de temperatuur bij nul laten beginnen, we hebben immers ook temperaturen onder het vriespunt. In dit geval kunnen we de horizontale as wel bij nul laten beginnen, al is dat voor datums meestal anders. 
 
-De assen kunnen nog wat netter. Zo eindigt de verticale as net voor de waarde $$0$$, maar het is niet helemaal duidelijk bij welke waarde precies. De horizontale as begint een klein stukje voor 0 en eindigt een klein stukje na 30. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**.  In ons geval laten we het beginnen op de eerste dag van de maand en de laatste dag, daarnaast laten we de temperatuur beginnen op $$-2$$ C&deg; en eindigen op $$16$$ C&deg;. 
+De assen kunnen nog wat netter. Zo eindigt de verticale as net voor de waarde $$0$$, maar het is niet helemaal duidelijk bij welke waarde precies. De horizontale as begint een klein stukje voor 0 en eindigt een klein stukje na 30. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje**.  In ons geval laten we het beginnen op de eerste dag van de maand en de laatste dag, daarnaast laten we de temperatuur beginnen op $$-2$$ &deg;C en eindigen op $$16$$ &deg;C. 
 <!--FIG Dit tonen we in Fig. \ref{fig:plot4_grafiek_aslabel_lim}.-->
 
 ![Plot met correct as-bereik.](plot4_grafiek_aslabel_lim.png){:width="100%"}<br>

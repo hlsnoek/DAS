@@ -49,8 +49,8 @@ De functie **`functie`** die we straks gebruiken voor de fit ziet er in het alge
 
 De parameters die hier worden meegegeven zijn de parameters die worden geschat (of geoptimaliseerd) in de fit. Voor deze twee waardes zullen we straks ook de startwaardes moeten meegeven.
 
-> 1. Schrijf nu eerst de code voor de functie **`functie(d, N0, dhalf)`** die de relatie tussen dikte d en de counts aangeeft. Controleer  of die goed werkt. 
-> 2. Voor de fit hebben we ook een lijst met gewichten nodig, noem deze **`N_inv_err`**. Dit zijn de reciproke waardes van de fouten op de counts. Maak hiervoor een lijst aan. Als de onzekerheid op $$N$$, $$\Delta N$$ is, dan is het gewicht $$1/\Delta N$$.
+> - Schrijf nu eerst de code voor de functie **`functie(d, N0, dhalf)`** die de relatie tussen dikte d en de counts aangeeft. Controleer  of die goed werkt. 
+> - Voor de fit hebben we ook een lijst met gewichten nodig, noem deze **`N_inv_err`**. Dit zijn de reciproke waardes van de fouten op de counts. Maak hiervoor een lijst aan. Als de onzekerheid op $$N$$, $$\Delta N$$ is, dan is het gewicht $$1/\Delta N$$.
 
 Als we onze functie en de lijst met gewichten hebben gedefinieerd dan kunnen we de fit uitvoeren. 
 
@@ -79,13 +79,13 @@ De gefitte curve kunnen we ook weergeven in een grafiek. Maak zoals gebruikelijk
 	plt.plot(diktes, result.best_fit, 'r-', label='best fit')
 	plt.legend(loc='best')
 
-> - **M3.2b) Maak een grafiek met de datapunten, foutenvlaggen en het gefitte resultaat. Maak de grafiek netjes af.** <br><br>
+> - **M3.2b) Maak een grafiek met de datapunten, foutenvlaggen en het gefitte resultaat. Maak de grafiek netjes af.**  
 > 
-> - **M3.2c) Bekijk de gereduceerde $$\chi^2/df$$. Ziet deze waarde er goed uit? Beredeneer je antwoord. Wat is het aantal vrijheidsgraden in de fit?**<br><br>
+> - **M3.2c) Bekijk de gereduceerde $$\chi^2/df$$. Ziet deze waarde er goed uit? Beredeneer je antwoord. Wat is het aantal vrijheidsgraden in de fit?**  
 >
-> - **M3.2d) Wat is de geschatte waarde $$\hat{d}_{half}$$? Vergelijk deze met de 'true' waarde 'dtrue'.**<br><br> 
+> - **M3.2d) Wat is de geschatte waarde $$\hat{d}_{half}$$? Vergelijk deze met de 'true' waarde 'dtrue'.**  
 > 
-> - **M3.2e) De correlatiecoëfficiënt $$\rho$$ wordt ook uitgeprint. Hoe groot is deze en wat zegt dat?**<br><br>
+> - **M3.2e) De correlatiecoëfficiënt $$\rho$$ wordt ook uitgeprint. Hoe groot is deze en wat zegt dat?**  
 > 
 
 Definieer nu een polynoom met de volgende code: 
@@ -96,9 +96,9 @@ Definieer nu een polynoom met de volgende code:
 
 Fit deze functie aan de datapunten, zorg dat de startwaardes zo worden ingesteld dat de fit convergeert.
 
-> - **M3.2f) Maak een grafiek met de datapunten, foutenvlaggen en het gefitte resultaat. Maak de grafiek netjes af.** <br><br>
+> - **M3.2f) Maak een grafiek met de datapunten, foutenvlaggen en het gefitte resultaat. Maak de grafiek netjes af.**  
 >
-> - **M3.2g) Presenteer de fitresultaten van de poly fit op het inlevertemplate.**<br><br>
+> - **M3.2g) Presenteer de fitresultaten van de poly fit op het inlevertemplate.**  
 > 
 > - **M3.2h) Vergelijk nu de twee fits met elkaar. Bekijk de uitkomsten van de gefitte exponentiele functie met de gefitte polynoom. Welke functie beschrijft de data het beste? Op basis van welke variabelen trek je deze conclusie? Beargumenteer je antwoord.**
 

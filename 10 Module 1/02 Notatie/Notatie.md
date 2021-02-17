@@ -118,11 +118,13 @@ Voor het kiezen van het juiste aantal significante cijfers zijn er een aantal re
 
 - Bij het vermenigvuldigen of delen van getallen krijgt het resultaat de significantie van het oorspronkelijke getal dat de laagste significantie had. 
 
+> **Voorbeeld**
 > Vermenigvuldigen we bijvoorbeeld $$2.00$$ (drie significante cijfers) met $$3.5$$ (twee significante cijfers) dan is het 
 resultaat gelijk aan $$2.00 \times 3.5 = 7.0$$ (twee significante cijfers). 
 
 - Bij het optellen of aftrekken van getallen heeft het resultaat niet meer cijfers achter de decimale punt dan het gegeven met het minste aantal cijfers achter de decimale punt. 
 
+> **Voorbeeld** 
 > Tellen we bijvoorbeeld $$1.23$$ op bij $$0.1$$ dan is het resultaat 
-$$1.23 + 0.1 = 1.3 $$. 
+$$1.23 + 0.1 = 1.3 .$$ 
 

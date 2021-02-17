@@ -1,5 +1,6 @@
 # Opdrachten Module 1
 <!--REF\label{/opdrachten-module-1/opdrachten}-->
+
 Tijdens de laptopcolleges in de eerste week werken we aan de vijf opdrachten van de eerste module.
 
 

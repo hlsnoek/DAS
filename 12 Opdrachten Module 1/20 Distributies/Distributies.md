@@ -6,9 +6,9 @@ We gaan in deze opgave kijken naar kansdichtheid distributie. Lees [hier](/modul
 
 ### Poisson distributie
 
-**M1.2a) Reken (met de hand) de volgende Poisson kansen uit: $$P(k=1, \lambda=3)$$, $$P(k=2, \lambda =3)$$ en $$P(k=3, \lambda=3)$$. Kijk goed wat $$\lambda$$ en $$k$$ eigenlijk betekenen en wat de verwachtingswaarde is, en wat de geobserveerde waarde. Schrijf niet alleen het antwoord op maar begin bij de formule en werk het dan uit. Let ook op de regels van de notatie. Bekijk hiervoor het stukje over significantie in het hoofdstuk [notatie](/module-1/notatie).**
+> **M1.2a) Reken (met de hand) de volgende Poisson kansen uit: $$P(k=1, \lambda=3)$$, $$P(k=2, \lambda =3)$$ en $$P(k=3, \lambda=3)$$. Kijk goed wat $$\lambda$$ en $$k$$ eigenlijk betekenen en wat de verwachtingswaarde is, en wat de geobserveerde waarde. Schrijf niet alleen het antwoord op maar begin bij de formule en werk het dan uit. Let ook op de regels van de notatie. Bekijk hiervoor het stukje over significantie in het hoofdstuk [notatie](/module-1/notatie).**
 
-We gaan nu Poisson distributies met python grafisch weergeven. Download het bestand [M1.2_Distributies.py](M1.2_Distributies.py). De Poisson distributie is één van de belangrijkste distributies. We zullen hem vaak tegen gaan komen.
+We gaan nu Poisson distributies met python grafisch weergeven. Download het bestand [M1.2_Distributies.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/20%20Distributies/M1.2_Distributies.py). De Poisson distributie is één van de belangrijkste distributies. We zullen hem vaak tegen gaan komen.
 
 > Maak eerst een functie die de Poisson kans uitrekent. De bedoeling is dat je de functie $$k$$ en $$\lambda$$ meegeeft en deze de Poisson kans teruggeeft. In het bestand vind je al een lege functie die je kunt invullen.  
 

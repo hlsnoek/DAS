@@ -17,7 +17,7 @@ De Wet van de Grote Aantallen zegt dat als we een verdeling hebben van random (s
 We gaan onze metingen nu simuleren om een gevoel te krijgen hoe de wet van grote aantallen werkt.
 
 
-> Download het volgende bestand in je werkfolder op de computer: [M1.4_GroteAantallen.py](M1.4_GroteAantallen.py).
+> Download het volgende bestand in je werkfolder op de computer: [M1.4_GroteAantallen.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/40%20GroteAantallen/M1.4_GroteAantallen.py).
 Zorg dat dit bestand in dezelfde folder staat als de `DAS_DatasetGenerator.py` file die je in opgave M1.1 al hebt gebruikt.
 
 

@@ -40,25 +40,27 @@ for line in f:
         line += '{\\Huge{\\partname} \\thepart}{0pt}\n'
         line += '{\\titlerule[1pt]}\\titlespacing*{\\part}{0pt}{0pt}{3pt}\n'
 
+
+        
     if(line.count('usepackage{listings}')) :
         line += '\n \\lstset{breaklines=true, basicstyle=\\ttfamily, columns=fullflexible, frame=single}'
         
     if(line.count('begin{document}')) : 
         line = ''
-        line += '\\newcommand*{\\titleGM}{\\begingroup %\n'
-        line += '\\hbox{ % Horizontal box\n'
-        line += '\\hspace*{0.2\\textwidth} % Whitespace to the left of the title page\n'
-        line += '\\rule{1pt}{\\textheight}\n'
-        line += '\\hspace*{0.05\\textwidth} % Whitespace between the vertical line and title page text\n'
-        line += '\\parbox[b]{0.75\\textwidth}{'
-        line += '{\\noindent\\Huge\\bfseries Data Analyse en Statistiek}\n'
-        line += '{\\Large \\textsc{Hella Snoek \\& Marthe Schut}}\n'
-        line += '\\vspace{0.2\\textheight}}}\\endgroup}\n'
-        line += '\\usepackage{titletoc}\n'
-        line += '\\titlecontents{part}[0pt]{\\vskip20pt \\titlerule \\titlerule \\vskip5pt}{\\bfseries}{\\bfseries \\Large \\partname~~}{\\bfseries\\hfill\\contentspage}[]\n\n'
+        line += '\\newcommand*{\\titleGM}{\\begingroup\n'
+        line += '\\hbox{\\parbox[b]{\\textwidth}{\n'
+        line += '\\vspace{0.15\\textheight}'    
+        line += '{\\center\\Huge\\bfseries {Data Analyse en Statistiek}} \\\\ [3\\baselineskip]\n'
+        line += '{\\center\\huge\\bfseries {Bachelor Natuur- en Sterrenkunde}} \\\\ [3\\baselineskip]\n'
+        line += '{\\center\\huge\\bfseries studiejaar 2020-2021} \\\\ [3\\baselineskip]\n'
+        line += '\\vspace{0.33\\textheight} \\\\ [3\\baselineskip] \\newline\n'
+        line += '{\\filleft\\includegraphics[]{logoVUvA.jpeg}}}}'
+        line += '\\endgroup}'
 
         line += '\\begin{document}\n'
+        line += '\\thispagestyle{empty}\n' 
         line += '\\titleGM\n'
+        line += '\\parbox[b]{\\textwidth}{ \\vspace{0.8\\textheight}  dr H.L. Snoek \\&  M. F. L. Schut MSc \\\\  versie 2021-02-17 } \n'
         line += '\\tableofcontents\\newpage\n'
 
     if (line.count("begin{quote")) : 

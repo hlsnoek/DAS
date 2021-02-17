@@ -11,6 +11,8 @@ In deze module gaan we werken aan één opdracht.
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 
+<!--COMMENT\iffalse-->
+
 De antwoorden van de opdrachten moet je invoeren in [dit template](InlevertemplateModule4.docx) en als **pdf** bestand inleveren via ANS. De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/informatie/inleveropdrachten) vinden.
 
 
@@ -20,7 +22,7 @@ Vergeet niet om ook even te kijken naar de [oefen opgaves](/tussentoets-iii/oefe
 -->
 Veel succes! 
 
-
+<!--COMMENT\fi-->
 
 
 

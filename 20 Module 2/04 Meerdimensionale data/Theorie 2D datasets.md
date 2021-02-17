@@ -18,10 +18,9 @@ De covariantie bij een 2D dataset geeft aan in welke mate de data verspreid is o
 
 Voor twee variabelen $$x$$ en $$y$$ wordt de covariantie aangeduid met $$cov(x,y)$$ en gegeven door:
 
-$$cov(x,y) = E((x-E_x)(y-E_y))$$
+$$cov(x,y) = E \left( (x-E_x)(y-E_y) \right)$$
 
-Hier staat $$E$$ voor de *verwachtingswaarde*. De verwachtingswaarde voor
-$$x$$ en $$y$$ worden respectievelijk aangegeven met $$E_x$$ en $$E_y$$. De formule geeft dus aan dat de covariantie gelijk is aan de verwachtingswaarde van het verschil tussen de waarde van de variabele $$x$$ en de verwachtingswaarde van $$x$$ vermenigvuldigd met het verschil tussen de variabele $$y$$ en de verwachtingswaarde van $$y$$.
+Hier staat $$E$$ voor de *verwachtingswaarde*. De verwachtingswaarde voor $$x$$ en $$y$$ worden respectievelijk aangegeven met $$E_x$$ en $$E_y$$. De formule geeft dus aan dat de covariantie gelijk is aan de verwachtingswaarde van het verschil tussen de waarde van de variabele $$x$$ en de verwachtingswaarde van $$x$$ vermenigvuldigd met het verschil tussen de variabele $$y$$ en de verwachtingswaarde van $$y$$.
 
 Als voor waardes $$x$$ die bovengemiddeld zijn, overwegend samen gaan met relatief hoge waardes van $$y$$, dan hebben we te maken met een positieve waarde voor de covariantie. Als bij de waarden voor relatief hoge waardes van $$x$$ de waardes van $$y$$ voornamelijk onder de verwachtingswaarde liggen, dan is de covariantie negatief.
 Als de covariantie gelijk is aan nul dan is er, gemiddeld over de hele dataset, geen afhankelijkheid. Het kan zijn dat voor delen van de dataset wel degelijk een positieve covariantie bestaat, deze wordt dan opgeheven door een ander gedeelte met een negatieve covariantie. 
@@ -30,7 +29,7 @@ Als de covariantie gelijk is aan nul dan is er, gemiddeld over de hele dataset, 
 
 Met de volgende formules kun je de covariantie van een dataset uitrekenen: 
 
-* Voor discrete verdelingen geldt : 
+* Voor discrete verdelingen geldt: 
 $${\displaystyle cov(x,y) = \frac{1}{n}\sum^n_i (x_i-<{x}>)\cdot (y_i-<{y}>)}.$$
 
 * Voor continue verdelingen geldt: 
@@ -38,7 +37,7 @@ $${\displaystyle cov(x,y) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}xy \cd
 
 De covariantie geeft dus aan in hoeverre waarden van de ene variabele toenemen/afnemen bij toenemende waarden van de andere variabele. De covariantie is een heel nuttige maat maar lastig te interpreteren vanwege de dimensies die, net als bij de variantie, niet dezelfde zijn als de variabelen zelf. Eenvoudiger is om naar de correlatiecoëfficiënt $$\rho$$ te kijken. 
 
- <a href="https://www.youtube.com/watch?v=KDw3hC2YNFc"> Hier</a> kun je een filmpje zien die covariantie uitlegt. 
+ [Hier](https://www.youtube.com/watch?v=KDw3hC2YNFc) kun je een filmpje zien die covariantie uitlegt. 
 
 
 ## Correlatie 
@@ -54,7 +53,7 @@ Als er geen correlatie is tussen de twee variabelen, dan is
 correlatiecoëfficiënt gelijk aan nul. Is de correlatiecoëfficiënt tussen de twee variabelen gelijk aan $$1$$ of aan $$-1$$ dan zijn de twee
 variabelen maximaal afhankelijk. In het geval van een correlatiecoëfficiënt gelijk aan $$1$$ is dit een positief lineair verband, in het geval van een correlatiecoëfficiënt gelijk aan $$-1$$ is dit een lineair verband met negatieve helling. 
 
-Hier<!--FIG , Figures \ref{fig:Plot1_Correlatie_0-fig:Plot1_Correlatie_0punt3},--> zijn een aantal 2D datasets weergegeven met verschillende correlatiecoëfficiënten.
+Hier<!--FIG , in figuur \ref{fig:Plot1_Correlatie_0} en \ref{fig:Plot1_Correlatie_0punt3},--> zijn een aantal 2D datasets weergegeven met verschillende correlatiecoëfficiënten.
 
 Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 0 $$.
 
@@ -82,7 +81,7 @@ Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} =
 Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter is de afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit des te kleiner is de correlatie tussen de variabelen. 
 
 
-Je kunt <a href="https://www.youtube.com/watch?v=ugd4k3dC_8Y">hier</a> een filmpje vinden waarin correlatie ook wordt uitgelegd.
+Je kunt [hier](https://www.youtube.com/watch?v=ugd4k3dC_8Y) een filmpje vinden waarin correlatie ook wordt uitgelegd.
 Er zijn meerdere 'spelletjes' op internet waarbij je kunt oefenen met het herkennen en raden van de correlatiecoëfficiënt
 van twee variabelen. Kijk bijvoorbeeld eens bij [Geogebra-Correlatie game](https://www.geogebra.org/m/KE6JfuF9) of 
 [Guess the correlation](http://guessthecorrelation.com/).

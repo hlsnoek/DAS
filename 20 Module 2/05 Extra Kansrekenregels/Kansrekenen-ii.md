@@ -11,14 +11,18 @@ De of-regel geldt alleen als de metingen A en B wederzijds uitsluitend zijn. Dat
 We breiden de regels hier verder uit en gaan kijken naar het combineren van kansen die niet wederzijds uitsluitend zijn. We kijken ook naar het begrip conditionele kans en introduceren Bayes theorema die gebruikt kan worden om informatie van kansen om te rekenen. 
 
 
-## De of regel wanneer A en B niet wederzijds uitsluitend zijn:
-In het geval A en B niet wederzijds uitsluitend zijn dan:<br>
+## De of regel wanneer A en B niet wederzijds uitsluitend zijn
+In het geval A en B niet wederzijds uitsluitend zijn dan:  
+
 $$P(\text{A en B}) \equiv P(A \cap B) >0.$$
+
 De kans dat A of B gemeten wordt is dan:
 
 $$P(\text{A of B}) = P(A) + P(B) - P(\text{A en B}).$$
 
-> Voorbeeld: De kans dat een kaart rood is en een vier heeft is 2/52. De kans dat een kaart rood is of een vier is nu gelijk aan P(1/2) + P(4/52) - P(2/52) = 28/52.
+> **Voorbeeld** De kans dat een kaart rood is en een vier heeft is 2/52. De kans dat een kaart rood is of een vier is nu gelijk aan 
+> 
+> $$P(1/2) + P(4/52) - P(2/52) = 28/52.$$
 
 De term $$(\text{A en B})$$ noemen we ook wel de doorsnede, of intersectie, van A en B. Het is het overlappende deel van elementen in de verzameling. Hier<!--FIG , in Fig. \ref{fig:180px-Venn0001.svg},--> zie je het uitgebeeld in een Venn diagram. De doorsnede wordt ook wel genoteerd met $$A \cap B$$. <br>
 ![Doorsnede van A en B (bron wikipedia)](180px-Venn0001.svg.png){:width="60%"}
@@ -46,13 +50,13 @@ Visueel is dit wellicht het meest eenvoudige om te zien. Als het gegeven is dat 
 
 ## Bayes theorema
 Met behulp van de conditionele kans formule kunnen we nu Bayes theorema afleiden. <br>
-Het combineren van de formules van $$P(A \mid B)$$ en $$P(B \mid A)$$:
+Het combineren van de formules van $$P(A \mid B)$$ en $$P(B \mid A)$$ geeft
 
 $$P(A \cap B) \equiv P(B \cap A) =  P(B \mid A) \cdot P(A) = P(A \mid B) \cdot P(B)$$ 
 
-geeft:
+ofwel
 
-$$\displaystyle P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}$$
+$$\displaystyle P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}.$$
 
 Dit theorema maakt het mogelijk om nieuwe informatie toe te voegen aan de kennis van de kans. In [module 1](/module-1/kanstheorie) hebben we het kort over Bayesiaanse kans definitie gehad. Dit theorema staat centraal in Bayesiaanse kans. Het is wel belangrijk om te weten dat deze wiskundige vergelijking ook opgaat in de Frequentist benadering van kans.  
 

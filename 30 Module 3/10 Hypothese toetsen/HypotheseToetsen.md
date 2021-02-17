@@ -9,8 +9,7 @@ Als je een steekproef hebt genomen en je wilt hiermee iets kunnen zeggen over de
 Dit wordt hypothese toetsen genoemd. Bij hypothese toetsen doorloop je de volgende stappen:
 
 1. Hypothese opstellen
-2. Significantielevel kiezen 
-    - Let op! Dit is iets anders dan de significantie waarin je een meetwaarde noteert.
+2. Significantielevel kiezen (*Let op! Dit is iets anders dan de significantie waarin je een meetwaarde noteert.*)
 3. p-waarde bepalen
 4. Conclusie trekken
 
@@ -20,18 +19,21 @@ Deze stappen worden hieronder toegelicht.
 
 Een hypothese is een uitspraak over een bepaalde eigenschap van een populatie. Je weet nog niet of deze uitspraak correct is. Een hypothese wordt geformuleerd als stelling.  
 
-> Voorbeelden van hypotheses:
+> **Voorbeelden van hypotheses**
 >
->- 20% van de auto's in Nederland is blauw.
->- 50% van de Nederlanders heeft blauwe ogen
->- De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}$$
->- Studenten in Amsterdam halen hogere cijfers dan studenten in Groningen 
+> - 20% van de auto's in Nederland is blauw.
+> - 50% van de Nederlanders heeft blauwe ogen
+> - De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}$$
+> - Studenten in Amsterdam halen hogere cijfers dan studenten in Groningen 
 
 Bij hypothese toetsen is er sprake van twee hypotheses. De zogenoemde *nulhypothese* en de *alternatieve hypothese*. 
 
 Bij hypothese toetsen wordt eerst aangenomen dat de eigenschap die onderzocht wordt niet waar is. Dit wordt de *nulhypothese* genoemd. De stelling dat de gewenste eigenschap wel waar is wordt de *alternatieve hypothese* genoemd. De nulhypotese wordt aangegeven met $$H_0$$, de alternatieve hypothese met $$H_{\alpha}$$ (ook $$H_1$$ is veelvoorkomend). 
 
 De procedure bij hypothese toetsen is dat je in eerste instantie aanneemt dat de eigenschap niet waar is (dus je houdt de nulhypothese aan) en dan onderzoekt of dit standhoudt in het kader van de gevonden resultaten. Uiteindelijk hoop je dat je de nulhypothese kunt verwerpen waardoor de alternatieve hypothese (en dus de gewenste waarde van de eigenschap) kunt aannemen.  
+
+De term nulhypothese komt overigens uit het Engels van de 'null hypothesis' en de naamgeving slaat op de hypothese die verworpen (oftewel 'nullified') moet worden.
+
 
 Dus:
 
@@ -40,32 +42,32 @@ Dus:
 
 Onderstaand de eerdere hypothesen met bijbehorende nulhypothesen:
 
-> Voorbeelden van alternatieve hypothese en nulhypothese:
+> **Voorbeelden van alternatieve hypothese en nulhypothese**
+> 
+> - $$H_{\alpha}$$: 20% van de auto's in Nederland is blauw.
+> - $$H_0$$: Het percentage blauwe auto's in Nederland is geen 20%.
 
->- $$H_{\alpha}$$: 20% van de auto's in Nederland is blauw.
->- $$H_0$$: Het percentage blauwe auto's in Nederland is geen 20%.
-
->- $$H_{\alpha}$$: Meer dan 20% van de auto's in Nederland is blauw.
->- $$H_0$$: Minder dan 20% van de auto's in Nederland is blauw.
-
->- $$H_{\alpha}$$: Het percentage Nederlanders met blauwe ogen is 50%.
->- $$H_0$$: Het percentage Nederlanders met blauwe ogen is geen 50%.
-
->- $$H_{\alpha}$$: De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}$$.
->- $$H_0$$: De valversnelling in Nederland is niet gelijk aan $$9.81 \text{ ms}^{-2}$$.
-
->- $$H_{\alpha}$$: Studenten in Amsterdam halen hogere cijfers dan studenten in Groningen 
->- $$H_0$$: De studenten in Amsterdam halen lagere cijfers dan de studenten in Groningen.
-
->- $$H_{\alpha}$$: Het aantal katten in Nederland is groter dan 20 000
->- $$H_0$$: Het aantal katten in Nederland is kleiner of gelijk aan 20 000
-
->- $$H_{\alpha}$$: Het percentage mensen over de gehele wereld met een hond is kleiner dan 40%
->- $$H_0$$: Het percentage mensen over de gehele wereld met een hond is groter of gelijk aan 40%
+> - $$H_{\alpha}$$: Meer dan 20% van de auto's in Nederland is blauw.
+> - $$H_0$$: Minder dan 20% van de auto's in Nederland is blauw.
+ 
+> - $$H_{\alpha}$$: Het percentage Nederlanders met blauwe ogen is 50%.
+> - $$H_0$$: Het percentage Nederlanders met blauwe ogen is geen 50%.
+ 
+> - $$H_{\alpha}$$: De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}$$.
+> - $$H_0$$: De valversnelling in Nederland is niet gelijk aan $$9.81 \text{ ms}^{-2}$$.
+ 
+> - $$H_{\alpha}$$: Studenten in Amsterdam halen hogere cijfers dan studenten in Groningen 
+> - $$H_0$$: De studenten in Amsterdam halen lagere cijfers dan de studenten in Groningen.
+ 
+> - $$H_{\alpha}$$: Het aantal katten in Nederland is groter dan 20 000
+> - $$H_0$$: Het aantal katten in Nederland is kleiner of gelijk aan 20 000
+ 
+> - $$H_{\alpha}$$: Het percentage mensen over de gehele wereld met een hond is kleiner dan 40%
+> - $$H_0$$: Het percentage mensen over de gehele wereld met een hond is groter of gelijk aan 40%
 
 In alle bovenstaande gevallen is het dus de procedure om te kijken of we genoeg bewijs hebben om de nulhypothese te kunnen verwerpen zodat we de alternatieve hypothese kunnen aannemen.
 
->Extra opmerking: De term nulhypothese komt van het Engels 'null hypothesis' en de naamgeving slaat op de hypothese die verworpen (oftewel 'nullified') moet worden.
+
 
 ## Significantielevel kiezen
 

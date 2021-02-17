@@ -104,7 +104,8 @@ Als je de z-score hebt berekend kun je uit de z-waarden [tabel](https://www.ztab
 > $$P(X<16) = P\left(Z<\frac{x-\mu}{\sigma}\right) = 0.02275$$
 >
 > Er is in dit geval dus een kans van 2% dat we bij de gegeven dataset een waarde onder de 15 zullen vinden.
->
+
+
 > **Voorbeeld 2:** Een stochast $$X$$ is normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$. Bereken de kans op een waarde $$X>22$$.
 > 
 > Uitwerking: Het gaat hier om een eenzijdige overschijdingskans. Nu:

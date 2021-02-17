@@ -12,6 +12,8 @@ In deze module gaan we werken aan twee opdrachten.
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 
+<!--COMMENT\iffalse-->
+
 De antwoorden van de opdrachten moet je invoeren in [dit template](InlevertemplateModule3.docx) en als **pdf** bestand inleveren via ANS. De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/informatie/inleveropdrachten) vinden.
 
 
@@ -20,4 +22,6 @@ Als je vragen hebt, stel deze dan aan de assistent of stuur een email naar de co
 Vergeet niet om ook even te kijken naar de [oefen opgaves](/tussentoets-iii/oefenopgaves) ter voorbereiding van de derde tussentoets die aan het einde van het vierde werkcollege plaats vindt.
 -->
 Veel succes! 
+
+<!--COMMENT\fi-->
 

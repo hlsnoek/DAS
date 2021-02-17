@@ -22,7 +22,7 @@ Hierbij is de intensiteit $$I$$ gelijk aan het aantal counts per seconde:
 
 $$I = \frac{N}{\Delta T}$$
 
-We gaan het experiment nu simuleren. Download het bestand [M1.5_Halfwaardedikte.py](M1.5_Halfwaardedikte.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand. 
+We gaan het experiment nu simuleren. Download het bestand [M1.5_Halfwaardedikte.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/50%20Halfwaardedikte/M1.5_Halfwaardedikte.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand. 
 
 De volgende regel in de code maakt de dataset aan: 
 
@@ -54,5 +54,8 @@ Beantwoord nu de volgende vragen:
 > 
 > - **M1.5h) Hoe zou je dit experiment willen verbeteren. Dit kunnen verbeteringen zijn aan de kant van de opstelling maar ook aan de kant van de data analyse. Noem een verbetering voor de opstelling en een voor de data analyse.**<br><br>
 
+<!--COMMENT\iffalse-->
 
 Je hebt nu alle opdrachten van module 1 afgerond. Sla het ingevulde template nu op als pdf en lever deze samen met de 5 python scriptjes in. Kijk nog eens bij de [informatie](/informatie/inleveropdrachten) over de inleveropdrachten voor de link naar ANS en de deadlines.
+
+<!--COMMENT\fi-->

@@ -86,7 +86,8 @@ Wat in elk geval belangrijk is, is om altijd heel precies te vermelden wat de vo
 
 Er zijn een paar basisregels waar kansen aan voldoen. 
 
-1. <a name =BehoudKans>**Behoud van kans:**</a> Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekent dat: <br>
+1. **Behoud van kans:** <a name =BehoudKans></a>
+Een gebeurtenis, $$A$$, kan plaatsvinden, of het kan niet plaatsvinden. De kans is behouden en dat betekent dat: <br>
 $$ P(A) + P(\text{niet A}) = 1$$<br>
 
 2. **Complementregel:** <a name="ComplementRegel"></a>
@@ -95,36 +96,45 @@ $$ P(\text{niet A}) = 1 - P(A) .$$<br>
 3. Als de uitkomst $$B$$ *bestaat* dan geldt: <br> 
 $$0 < P(B) \leq 1.$$<br>
 Een kans moet dus altijd groter zijn dan nul voor alle elementen in de uitkomstenverzameling. 
-3. <a name="OfRegel"></a> **De *of* Regel**:
+3. **De *of* Regel**:  <a name="OfRegel"></a> 
 Als de uitkomsten $$A$$ en $$B$$ *wederzijds uitsluitend* zijn, ofwel als $$A$$ plaats vindt, dan kan $$B$$ nooit plaats vinden, dan geldt:<br>
 $$P(A\text{ of }B) \equiv P(A \cup B) = P(A) + P(B).$$<br>
 We mogen in dit geval de kansen dus optellen.
-4. <a name="EnRegel"></a> **De *en* regel**: Als de uitkomsten $$A$$ en $$B$$ onafhankelijk zijn, dus als je $$A$$ een uitkomst is dan zegt dat niets over de kans op $$B$$, dan geldt: <br>
+4. **De *en* regel**: <a name="EnRegel"></a>
+Als de uitkomsten $$A$$ en $$B$$ onafhankelijk zijn, dus als je $$A$$ een uitkomst is dan zegt dat niets over de kans op $$B$$, dan geldt: <br>
 $$P(A\text{ en }B) = P(A) \cdot P(B).$$<br>
 
 
 We gaan voor elk van deze regels een voorbeeld geven. We kijken hiervoor naar een kaartendek.
 De uitkomstenverzameling van een kaartendek is: <br><br>
 {<span style="color:red">1♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,H♥,D♥,K♥,A♥,<br>
-1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,</span><br>1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,A♠,<br>
+1♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,H♦,D♦,K♦,A♦,</span><br>
+1♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,H♠,D♠,K♠,A♠,<br>
 1♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,H♣,D♣,K♣,A♣}<br><br>
 Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. We trekken in de volgende voorbeelden steeds 1 kaart.
 
 > **Voorbeeld 1 - behoud van kans/complement regel:** <br>
-* De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. <br>
-* De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
-* De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een zwarte kaart te trekken (1-1/2 = 1/2).
+>
+> - De kans om een harten 5 uit een dek kaarten te trekken is precies: P(<span style="color:red">5♥</span>)= 1/52. <br>
+> - De kans om een *andere kaart dan een harten 5* te trekken is gelijk aan: 1-P(<span style="color:red">5♥</span>) = 1-1/52 = 51/52.<br>
+> - De kans om een rode kaart te trekken is precies 26/52 = 1/2 en is precies gelijk aan de kans om een zwarte kaart te trekken (1-1/2 = 1/2).
+
 
 > **Voorbeeld 2 - groter dan nul:** <br>
-* Voor elke kaart in het dek is er een kans dat je hem trekt. 
+>
+> - Voor elke kaart in het dek is er een kans dat je hem trekt. 
+
 
 > **Voorbeeld 3 - de of-regel:** <br>
-* De kans dat je een 3 of een 5 trekt is gelijk aan P(3)+P(5) = 1/13+1/13 = 2/13. <br>
-* De kans dat je een 3 of een rode kaart trekt kunnen we niet zomaar optellen. Er bestaan ook rode kaarten met een 3. 
+>
+> - De kans dat je een 3 of een 5 trekt is gelijk aan P(3)+P(5) = 1/13+1/13 = 2/13. <br>
+> - De kans dat je een 3 of een rode kaart trekt kunnen we niet zomaar optellen. Er bestaan ook rode kaarten met een 3. 
+
 
 > **Voorbeeld 4 - de en-regel:** <br>
-* De kans dat je een 3 trekt die ook een rode kaart is kunnen we uitrekenen met: <br>
-$$P(\text{rood en }3) = P(\text{rood}) \cdot P(3) =  1/2 \cdot 4/52 = 2/52$$<br>
-Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rode drie kaarten als zwarte drie kaarten en daarom mag je ze in dit geval vermenigvuldigen. De uitkomsten zijn onafhankelijk. <br>
-* De kans dat je een 9♥ en een A♣ trekt. Deze kansen zijn niet onafhankelijk. Als je een 9♥ trekt, zegt dat al direct iets over de kans dat deze kaart ook een A♣ is (die is namelijk gereduceerd tot 0).
+>
+> - De kans dat je een 3 trekt die ook een rode kaart is kunnen we uitrekenen met: <br>
+> $$P(\text{rood en }3) = P(\text{rood}) \cdot P(3) =  1/2 \cdot 4/52 = 2/52$$<br>
+> Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rode drie kaarten als zwarte drie kaarten en daarom mag je ze in dit geval vermenigvuldigen. De uitkomsten zijn onafhankelijk. <br>
+> - De kans dat je een 9♥ en een A♣ trekt. Deze kansen zijn niet onafhankelijk. Als je een 9♥ trekt, zegt dat al direct iets over de kans dat deze kaart ook een A♣ is (die is namelijk gereduceerd tot 0).
 

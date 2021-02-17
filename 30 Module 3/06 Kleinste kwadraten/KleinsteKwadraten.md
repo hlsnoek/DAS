@@ -58,7 +58,7 @@ In de vergelijkingen hierboven hebben we maar één afhankelijke parameter gezie
 Met behulp van een computerprogramma kun je het minimum ook vinden door de $$\chi^2$$ voor veel waardes van $$a$$ en $$b$$ uit te rekenen en uit deze set van waardes het punt met de laagste $$\chi^2$$ te bepalen. 
 Uiteraard werkt dat ook voor functies die nog meer vrije parameters kennen. 
 
-Twee filmpjes die het principe van de kleinste kwadraten goed illustreren vind je <a href="https://www.youtube.com/watch?v=YwZYSTQs-Hk">hier</a> en <a href = "https://www.youtube.com/watch?v=0T0z8d0_aY4">hier</a>. 
+Twee filmpjes die het principe van de kleinste kwadraten goed illustreren vind je [hier](https://www.youtube.com/watch?v=YwZYSTQs-Hk) en [hier](https://www.youtube.com/watch?v=0T0z8d0_aY4).
 
 
 Om in te schatten **hoe goed** je fit gelukt is moeten we eerst meer weten over de $$\chi^2$$-distributie. Daar gaat het volgende hoofdstuk over.
