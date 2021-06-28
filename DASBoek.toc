@@ -1,0 +1,103 @@
+\contentsline {part}{I\hspace {1em}}{7}{part.1}% 
+\contentsline {chapter}{\numberline {1}Basisbegrippen in de statistiek}{8}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Datasets beschrijven}{8}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Populatie en steekproef}{8}{subsection.1.1.1}% 
+\contentsline {section}{\numberline {1.2}Veel gebruikte parameters en statistieken}{9}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}Het gemiddelde}{9}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}De mediaan}{10}{subsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.2.3}De modus}{11}{subsection.1.2.3}% 
+\contentsline {section}{\numberline {1.3}Spreiding van data}{12}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}Spreidingsbreedte (range)}{12}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}Standaarddeviatie en variantie}{13}{subsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.3.3}Variatieco\IeC {\"e}ffici\IeC {\"e}nt}{13}{subsection.1.3.3}% 
+\contentsline {section}{\numberline {1.4}Samenvatting}{14}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Voorbeelden}{14}{section.1.5}% 
+\contentsline {chapter}{\numberline {2}Het correct noteren van resultaten}{16}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Significantie en precisie}{17}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Wetenschappelijke notatie}{18}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Hoeveel significante cijfers noteren?}{19}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Significantie en berekeningen}{20}{section.2.4}% 
+\contentsline {chapter}{\numberline {3}Data visualiseren}{21}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Grafieken \& Scatterplots}{21}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Richtlijnen voor de opmaak van diagrammen}{22}{subsection.3.1.1}% 
+\contentsline {section}{\numberline {3.2}Staafdiagrammen \& Histogrammen}{25}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Breedte van de bins bij een histogram}{26}{subsection.3.2.1}% 
+\contentsline {section}{\numberline {3.3}Wanneer gebruik je wat?}{28}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Data plotten met Python}{29}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Voorbeeld: een grafiek plotten}{29}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Voorbeeld een histogram plotten}{33}{subsection.3.4.2}% 
+\contentsline {chapter}{\numberline {4}Metingen en onzekerheid}{34}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Fouten en onzekerheden}{34}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Meetfouten}{34}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Onzekerheden met natuurlijke oorzaak}{36}{subsection.4.1.2}% 
+\contentsline {section}{\numberline {4.2}Reduceren van meet-onnauwkeurigheden}{36}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Onderliggende verdelingen}{37}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Meetonzekerheden noteren}{38}{section.4.4}% 
+\contentsline {chapter}{\numberline {5}Kanstheorie}{40}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Definitie van Kans}{40}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Frequentist versus Bayesiaanse methode}{42}{subsection.5.1.1}% 
+\contentsline {section}{\numberline {5.2}Rekenen met kansen}{43}{section.5.2}% 
+\contentsline {chapter}{\numberline {6}Kansdichtheidsfuncties}{46}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Wat is een stochast?}{46}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Kansdichtheidsfuncties}{46}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Verwachtingswaarde en standaarddeviatie}{47}{section.6.3}% 
+\contentsline {section}{\numberline {6.4}Bekende kansdichtheidsfuncties}{48}{section.6.4}% 
+\contentsline {subsection}{\numberline {6.4.1}Uniform}{48}{subsection.6.4.1}% 
+\contentsline {subsection}{\numberline {6.4.2}Binomiaal}{49}{subsection.6.4.2}% 
+\contentsline {subsection}{\numberline {6.4.3}Poisson}{51}{subsection.6.4.3}% 
+\contentsline {subsection}{\numberline {6.4.4}Normaal (ofwel Gauss)}{51}{subsection.6.4.4}% 
+\contentsline {chapter}{\numberline {7}Opdrachten Module 1}{54}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}M1.1 - Mooi Plotten * }{54}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}M1.2 - Kansdichtheid distributies ** }{57}{section.7.2}% 
+\contentsline {subsection}{\numberline {7.2.1}Poisson distributie}{57}{subsection.7.2.1}% 
+\contentsline {subsection}{\numberline {7.2.2}Uniforme distributie}{58}{subsection.7.2.2}% 
+\contentsline {section}{\numberline {7.3}M1.3 - Eigenschappen van distributies ** }{60}{section.7.3}% 
+\contentsline {subsection}{\numberline {7.3.1}Normale distributie}{60}{subsection.7.3.1}% 
+\contentsline {subsection}{\numberline {7.3.2}Poisson}{62}{subsection.7.3.2}% 
+\contentsline {section}{\numberline {7.4}M1.4 - Grote Aantallen ***}{62}{section.7.4}% 
+\contentsline {section}{\numberline {7.5}M1.5 - Halfwaardedikte I * }{64}{section.7.5}% 
+\contentsline {part}{II\hspace {1em}}{68}{part.2}% 
+\contentsline {chapter}{\numberline {8}Foutenpropagatie}{69}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Basisregel}{70}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Som en verschil}{75}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Vermenigvuldigen met constante}{75}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}Vermenigvuldigen met variabelen}{75}{section.8.4}% 
+\contentsline {chapter}{\numberline {9}Wet van Grote Aantallen}{77}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}De $\sqrt {n}$-wet}{77}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}De wet van Grote Aantallen}{79}{section.9.2}% 
+\contentsline {chapter}{\numberline {10}Meerdimensionale datasets}{81}{chapter.10}% 
+\contentsline {section}{\numberline {10.1}Variantie en covariantie}{81}{section.10.1}% 
+\contentsline {section}{\numberline {10.2}Correlatie}{82}{section.10.2}% 
+\contentsline {section}{\numberline {10.3}Correlatie en causaliteit}{85}{section.10.3}% 
+\contentsline {chapter}{\numberline {11}Extra kans rekenregels}{87}{chapter.11}% 
+\contentsline {section}{\numberline {11.1}De of regel wanneer A en B niet wederzijds uitsluitend zijn}{87}{section.11.1}% 
+\contentsline {section}{\numberline {11.2}Conditionele kans}{89}{section.11.2}% 
+\contentsline {section}{\numberline {11.3}Bayes theorema}{89}{section.11.3}% 
+\contentsline {chapter}{\numberline {12}Opdrachten module 2}{91}{chapter.12}% 
+\contentsline {section}{\numberline {12.1}Opdracht M2.1 Grote Aantallen II **}{91}{section.12.1}% 
+\contentsline {section}{\numberline {12.2}M2.2 Meesjes ****}{93}{section.12.2}% 
+\contentsline {section}{\numberline {12.3}M2.3 Halfwaardedikte II *** }{96}{section.12.3}% 
+\contentsline {part}{III\hspace {1em}}{99}{part.3}% 
+\contentsline {chapter}{\numberline {13}De Centrale Limietstelling}{100}{chapter.13}% 
+\contentsline {chapter}{\numberline {14}De Normaalverdeling}{102}{chapter.14}% 
+\contentsline {section}{\numberline {14.1}Poisson en Normaal}{102}{section.14.1}% 
+\contentsline {section}{\numberline {14.2}Z-waardes en waarschijnlijkheden}{104}{section.14.2}% 
+\contentsline {chapter}{\numberline {15}De kleinste-kwadraten methode}{109}{chapter.15}% 
+\contentsline {section}{\numberline {15.1}Schatters}{109}{section.15.1}% 
+\contentsline {section}{\numberline {15.2}De kleinste-kwadraten methode en $\chi ^2$}{109}{section.15.2}% 
+\contentsline {chapter}{\numberline {16}De $\chi ^2$ distributie}{112}{chapter.16}% 
+\contentsline {section}{\numberline {16.1}Akaike Informatie Criterium}{114}{section.16.1}% 
+\contentsline {chapter}{\numberline {17}Hypothese toetsen}{117}{chapter.17}% 
+\contentsline {section}{\numberline {17.1}Hypothese opstellen}{117}{section.17.1}% 
+\contentsline {section}{\numberline {17.2}Significantielevel kiezen}{119}{section.17.2}% 
+\contentsline {section}{\numberline {17.3}p-Waarde bepalen}{120}{section.17.3}% 
+\contentsline {section}{\numberline {17.4}Conclusie trekken}{121}{section.17.4}% 
+\contentsline {chapter}{\numberline {18}Opdrachten module 3}{124}{chapter.18}% 
+\contentsline {section}{\numberline {18.1}M3.1 Grote Aantallen III **** }{124}{section.18.1}% 
+\contentsline {section}{\numberline {18.2}M3.2 Halfwaardedikte III ***}{127}{section.18.2}% 
+\contentsline {part}{IV\hspace {1em}}{131}{part.4}% 
+\contentsline {chapter}{\numberline {19}Hypothese toetsen II}{132}{chapter.19}% 
+\contentsline {section}{\numberline {19.1}Wald test}{132}{section.19.1}% 
+\contentsline {section}{\numberline {19.2}p-Waarde scan}{134}{section.19.2}% 
+\contentsline {chapter}{\numberline {20}Opdrachten module 4}{137}{chapter.20}% 
+\contentsline {section}{\numberline {20.1}M4.1 Een Nieuw Deeltje ***}{137}{section.20.1}% 

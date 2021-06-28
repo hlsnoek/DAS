@@ -6,7 +6,7 @@ Als student en later wellicht ook als wetenschapper zul je te maken krijgen met 
 - Wanneer kun je zeggen dat een hypothese moet worden verworpen of bewijs je juist dat deze correct is? 
 - Hoe moet je inschatten of je meetnauwkeurigheid goed genoeg is?
 Wanneer heb je eigenlijk genoeg data verzameld? 
-- Hoe kun je een zo experiment ontwerpen dat je een hypothese kunt onderzoeken. 
+- Hoe kun je een experiment zo ontwerpen dat je een hypothese kunt onderzoeken. 
 - Hoe kom je erachter wat jouw hypothese toetsbaar maakt - in welke observabele onderscheidt zij zich voldoende van andere hypotheses?
 
 Alle kennis die we tot nu toe hebben over de Natuur- en Sterrenkunde is tot stand gekomen met het uitvoeren van experimenten en het analyseren van de uitkomsten hiervan.
