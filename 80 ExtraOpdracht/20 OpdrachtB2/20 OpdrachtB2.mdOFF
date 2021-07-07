@@ -47,7 +47,7 @@ In deze opdracht krijg je data die genomen is met een Geiger Muller telbuis waar
    $$N(t) = N_0 \left(\frac{1}{2}\right)^{t/t_{half}}$$
 
 Presenteer de meetresultaten en de fit in een grafiek. <br>
-**[d]** Wat is de gereduceerde $$\chi^2$$ van de fit? Vermeld hierbij expliciet de tussenwaardes.<br>
+**[d]** Wat is de gereduceerde $$\chi^2$$ van de fit? Hoeveel vrijheidsgraden heeft de fit?<br>
 
 
 ## Opdracht 3 - Correlatie en Covariantie [2.5 punten]
