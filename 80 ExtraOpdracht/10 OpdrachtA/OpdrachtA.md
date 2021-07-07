@@ -47,7 +47,7 @@ In deze opdracht krijg je data die genomen is met een Geiger Muller telbuis waar
    $$N(t) = N_0 \left(\frac{1}{2}\right)^{t/t_{half}}$$
 
 Presenteer de meetresultaten en de fit in een grafiek. <br>
-**[d]** Wat is de gereduceerde $$\chi^2$$ van de fit? Vermeld hierbij expliciet de tussenwaardes.<br>
+**[d]** Wat is de gereduceerde $$\chi^2$$ van de fit en hoeveel vrijheidsgraden heeft de fit?<br>
 
 
 ## Opdracht 3 - Correlatie en Covariantie [2.5 punten]
@@ -57,4 +57,4 @@ set onbekende voorwerpen. De lengte is steeds gegeven in meter, de massa in gram
 **[a]** Maak een grafische presentatie van de data. <br>
 **[b]** Bereken de correlatie en de covariantie van de dataset. Presenteer ook al je tussenresultaten.<br>
 **[c]** Bereken de gemiddelde massa van de objecten en de geef de onzekerheid op dit berekende gemiddelde. <br>
-**[d]** Stel nu dat ik nog drie andere verzamelingen van gelijke objecten heb opgemeten. De gemiddelde massas van deze verzamelingen zijn: $$M_A = 23.2 \pm 0.4 kg$$, $$M_B = 24.0 \pm 0.2 kg $$ en $$M_C = 22.8 \pm 1.5 kg $$. Bereken de gemiddelde massa van het totaal van verzamelingen A, B en C en bereken hierop de onzekerheid.
+**[d]** Stel nu dat ik nog drie andere verzamelingen van gelijke objecten heb opgemeten. De gemiddelde massas van deze verzamelingen zijn: $$M_A = 23.2 \pm 0.4 g$$, $$M_B = 24.0 \pm 0.2 g $$ en $$M_C = 22.8 \pm 1.5 g $$. Bereken de gemiddelde massa van het totaal van verzamelingen A, B en C en bereken hierop de onzekerheid.
