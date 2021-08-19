@@ -1,5 +1,7 @@
 ##Herkansingsopdracht A1
 
+<!--Opgave 3c bekijken. Er is geen onzekerheid gegeven en de dataset doet hele grote nauwkeurigheid vermoeden.-->
+
 
 Presenteer je antwoorden en je berekeningen in een pdf document. Let hierbij op het volgende: 
 
