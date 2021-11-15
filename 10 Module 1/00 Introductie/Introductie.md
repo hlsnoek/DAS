@@ -1,7 +1,7 @@
 # Introductie Module 1
 <!--REF\label{/module-1/introductie}-->
-Statistische data analyse is een belangrijk onderdeel in vele werkvelden.
-Als student en later wellicht ook als wetenschapper zul je te maken krijgen met het verzamelen en interpreteren van data bij het het prakticum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
+Statistische data analyse is een belangrijk onderdeel in vele werk- en onderzoeksvelden.
+Als student, en later wellicht ook als wetenschapper, zul je te maken krijgen met het verzamelen en interpreteren van data bij het het prakticum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
 
 - Wanneer kun je zeggen dat een hypothese moet worden verworpen of bewijs je juist dat deze correct is? 
 - Hoe moet je inschatten of je meetnauwkeurigheid goed genoeg is?
@@ -27,13 +27,12 @@ Of beter als het Higgs boson niet zou bestaan, is de kans 1 in 3.5 miljoen dat w
 Dat klinkt heel omslachtig, maar het is belangrijk in de wetenschap om heel precies te formuleren wat je eigenlijk hebt gedaan.-->
 
 
-
 Bij het presenteren van onderzoeksresultaten is het belangrijk om helder uit te kunnen leggen hoe het onderzoek precies is uitgevoerd, hoe de metingen zijn verkregen en wat de resultaten zijn. 
 Vaak maken we hierbij gebruik van histogrammen, grafieken en tabellen. Om een hypothese te toetsen moeten we metingen ook kunnen interpreteren. Hiervoor zijn verschillende methodes, bijvoorbeeld kunnen we de data proberen te 'fitten' met een functie, een wiskundige vergelijking. Bij al deze methodes speelt statistiek een belangrijke rol.  
 
 
 In deze cursus zullen we vaardigheden gaan leren voor data analyse en statistiek. 
-We beginnen deze week beginnen we met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over hoe we meetresultaten moeten presenteren, het gebruik van de wetenschappelijke [notatie](/module-1/notatie) en hoe we ze kunnen [visualiseren](/module-1/data-visualiseren). We gaan in op het begrip [meetonzekerheid](/module-1/meetonzekerheid). Ook maken we een begin met [kansrekening](/module-1/kanstheorie) en[kansdichtheidsverdelingen](/module-1/verdelingsfuncties).
+We beginnen deze week met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over hoe we meetresultaten moeten presenteren, het gebruik van de wetenschappelijke [notatie](/module-1/notatie) en hoe we ze kunnen [visualiseren](/module-1/data-visualiseren). We gaan in op het begrip [meetonzekerheid](/module-1/meetonzekerheid). Ook maken we een begin met [kansrekening](/module-1/kanstheorie) en [kansdichtheidsverdelingen](/module-1/verdelingsfuncties).
 Niet elk van deze onderwerpen is even moeilijk. Let goed op dat je genoeg tijd overhoudt om de introductie van de kanstheorie te bestuderen.
 
 <!--COMMENT\iffalse-->

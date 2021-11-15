@@ -7,7 +7,7 @@ De inleveropdrachten tellen voor 80% mee voor je eindcijfer. Je moet een gemidde
 |     | Module 1 | Module 2 | Module 3 | Module 4 |
 |------|-------|--------|--------|--------|
 | Werkcolleges | LC 1, LC 2 | LC 3, LC 4 | LC 5, LC 6 | LC 7 | 
-| Deadlines | za 9 jan 20:00 | za 16 jan 20:00 | za 23 jan 20:00 | za 30 jan 20:00 |
+| Deadlines | vr 14 jan 20:00 | vr 21 jan 20:00 | vr 28 jan 20:00 | vr 4 feb 20:00 |
 | Gewicht| 1 | 1 | 1 | 1 |
 
 
