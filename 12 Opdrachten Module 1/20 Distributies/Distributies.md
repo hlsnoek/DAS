@@ -1,14 +1,16 @@
 ## M1.2 - Kansdichtheid distributies **
 <!--REF\label{/opdrachten-module-1/distributies}-->
 
-We gaan in deze opgave kijken naar kansdichtheid distributie. Lees [hier](/module-1/verdelingsfuncties) meer over kansdichtheidsdistributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/verdelingsfuncties#Poisson">poisson</a> en <a href="/module-1/verdelingsfuncties#Uniform">uniforme</a> distributies.
+We gaan in deze opgave kijken naar kansdichtheid distributie. Lees [hier](/module-1/verdelingsfuncties) meer over kansdichtheidsdistributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/verdelingsfuncties#Poisson">poisson</a>  en  <a href="/module-1/verdelingsfuncties#Uniform">uniforme</a>  distributies.
 
 
 ### Poisson distributie
 
 > **M1.2a) Reken (met de hand) de volgende Poisson kansen uit: $$P(k=1, \lambda=3)$$, $$P(k=2, \lambda =3)$$ en $$P(k=3, \lambda=3)$$. Kijk goed wat $$\lambda$$ en $$k$$ eigenlijk betekenen en wat de verwachtingswaarde is, en wat de geobserveerde waarde. Schrijf niet alleen het antwoord op maar begin bij de formule en werk het dan uit. Let ook op de regels van de notatie. Bekijk hiervoor het stukje over significantie in het hoofdstuk [notatie](/module-1/notatie).**
 
-We gaan nu Poisson distributies met python grafisch weergeven. Download het bestand [M1.2_Distributies.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/20%20Distributies/M1.2_Distributies.py). De Poisson distributie is één van de belangrijkste distributies. We zullen hem vaak tegen gaan komen.
+De Poisson distributie is één van de belangrijkste distributies. We zullen hem vaak tegen gaan komen.
+We gaan nu Poisson distributies met python grafisch weergeven. Download het bestand [M1.2_Distributies.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/20%20Distributies/M1.2_Distributies.py).
+
 
 > Maak eerst een functie die de Poisson kans uitrekent. De bedoeling is dat je de functie $$k$$ en $$\lambda$$ meegeeft en deze de Poisson kans teruggeeft. In het bestand vind je al een lege functie die je kunt invullen.  
 
@@ -59,10 +61,8 @@ Zet nu de **`seed`** van de random nummer generator op 1. Dit kan je zien als he
 
 Er zijn verschillende functies die je kan gebruiken. Kijk eens naar de **`uniform()`** en de **`randint()`** functies van random en bedenk een manier om je simulatie te schrijven.
 
-> Genereer nu een dataset waarin je simuleert dat je 30 keer met een dobbelsteen gooit.  
-
-**TIP** Als je het nodig hebt: gebruik **`(int)`** om naar een natuurlijk getal af te ronden. Controleer dat je alle getallen in de set {1,2,3,4,5,6} kunt maken. 
-  
+> - Genereer nu een dataset waarin je simuleert dat je 30 keer met een dobbelsteen gooit.  <br>
+**TIP** Als je het nodig hebt: gebruik **`(int)`** om naar een natuurlijk getal af te ronden. Controleer dat je alle getallen in de set {1,2,3,4,5,6} kunt maken. <br><br>  
 > - **M1.2g) Plot de waarden in je dataset in een histogram. Kijk naar de code in opgave M1.1 om te zien hoe je een histogram maakt. Let goed op de binning en range van je histogram. Als deze niet in orde zijn krijg je de verkeerde indruk van de dataset. Controleer je histogram desnoods door je dataset uit te printen en met de hand te tellen of je de juiste hoeveelheid in de juiste bin hebt. Kijk goed naar de richtlijnen en maak je histogram helemaal netjes.** <br><br>
 >
 > - **M1.2h)  Komt de distributie overeen met je verwachting?**<br><br>

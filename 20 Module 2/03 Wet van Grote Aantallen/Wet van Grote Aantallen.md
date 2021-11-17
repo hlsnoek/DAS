@@ -1,53 +1,76 @@
 # Wet van Grote Aantallen
 <!--REF\label{/module-2/wet-van-grote-aantallen}-->
 
-In opgave M1.4 hebben we gezien hoe de spreiding van een gemeten gemiddelde van 
-metingen steeds kleiner wordt als we meer data gebruiken om het gemiddelde te bepalen. 
+In opgave M1.4 hebben we gezien hoe de spreiding van het steekproef gemiddelde steeds kleiner wordt als we meer data gebruiken om het gemiddelde te bepalen. De gemeten waardes liggen steeds dichter bij elkaar.
 Dit is een belangrijke observatie. Het geeft aan dat hoe meer data we hebben, hoe nauwkeuriger we ons resultaat weten. Je voelt misschien al aan dat dit niet altijd op gaat. Wanneer dit wel en wanneer dit niet opgaat zullen we hier bespreken. 
 
-We bespreken hier twee regels, of wetten, de $$\sqrt{n}$$-wet en de wet van grote aantallen. De eerste wet zegt dat we een gemiddelde, onder bepaalde voorwaarden, steeds beter kennen als we meer datapunten meenemen. De tweede wet zegt dat het gemiddelde van de steekproef langzaam zal convergeren naar het gemiddelde van de populatie.
+We bespreken hier twee regels, of wetten, de $$\sqrt{n}$$-wet en de wet van grote aantallen. De eerste wet zegt dat we een gemiddelde, onder bepaalde voorwaarden, steeds beter kennen als we meer datapunten meenemen. De tweede wet zegt dat het steekproef gemiddelde langzaam zal convergeren naar het gemiddelde van de populatie naarmate de steekproef steeds groter wordt.
 
 ## De $$\sqrt{n}$$-wet
-We kijken naar twee onafhankelijke stochasten, $$X$$ en $$Y$$. De verwachtingswaarde van $$X+Y$$ is gelijk aan:
+Stel dat we een grootheid willen weten die de som is van twee onafhankelijke variabelen die beide stochastisch verdeeld zijn. Dit betekent dat beide variabelen gemeten kunnen worden maar ook dat de waardes die we meten een onderliggende verdeling volgen die afhangt van een kansproces. We hebben hier dus twee onafhankelijke stochasten, die we $$X$$ en $$Y$$ noemen. De verwachtingswaarde van de som $$X+Y$$ is gelijk aan:
 
-$$\displaystyle{ E(X+Y)= E(X)+E(Y) }$$ 
+$$\displaystyle{ E(X+Y)= E(X)+E(Y) }.$$ 
 
+Ofwel de verwachtingswaarde van de som is gelijk aan de verwachtingswaarde van $$X$$ plus de verwachtingswaarde van $$Y$$. 
+De verwachtingswaarde is hier niets anders dan het steekproefgemiddelde. Dus 
+
+$$\displaystyle{ E(X) = \frac{1}{n} \sum_i^n X_i}.$$
+
+We kunnen ook naar de spreiding van waardes van de som $$(X+Y)$$ kijken. 
 Als $$X$$ en $$Y$$ onafhankelijk zijn dan geldt ook:
 
-$$\displaystyle{Var(X+Y)= Var(X)+Var(Y)}$$
+$$\displaystyle{Var(X+Y)= Var(X)+Var(Y)}.$$
 
-Het ziet er misschien ingewikkeld uit, maar het enige wat we doen is een nieuwe variabele definiëren die de som is van twee variabelen. De variantie op de som vinden we via de gewone fouten propagatie [regels](/module-2/foutenpropagatiei). 
+Het ziet er misschien ingewikkeld uit, maar het enige wat we doen is een nieuwe variabele definiëren die de som is van twee variabelen. De som van stochasten is zelf ook een stochast. De variantie op de som vinden we via de[regels](/module-2/foutenpropagatiei) van de foutenpropagatie. 
 
-Stel nu dat we dit uitbreiden. En we nemen de som van $$N$$ onafhankelijk stochasten, $$X_1,X_2,...,X_N$$  die elk dezelfde onderliggende verdeling kennen. Dat wil zeggen dat ze allemaal dezelfde verwachtingswaarde en dezelfde variantie hebben. 
-
-NB. De verwachtingswaarde is niet gelijk aan de gemeten waarde. Kijk voor dit verschil nog eens naar [basisbegrippen](/module-1/basisbegrippen) in module 1. Als je terugdenkt aan de opgave van de kogels is de verwachtingswaarde van de massa van een kogel gelijk aan de gemiddelde massa van alle kogels. Als we een willekeurige kogel uit de ton pakken, dan is de gemiddelde massa van de kogels in de ton, de *verwachting* die we hebben van de massa van de kogel die we pakken.   De verwachtingswaarde is dus hier het gemiddelde.
-
-De variantie is de spreiding op de massa distributie. Als je een willekeurige kogel uit de ton pakt is de kans heel klein dat de massa precies gelijk is aan de verwachtingswaarde van de massa. De variantie geeft aan in welk gebied van waardes we verwachten de massa van de kogel te vinden.
+Stel nu dat we dit uitbreiden. En we nemen de som van $$n$$ onafhankelijk stochasten, $$X_1,X_2,...,X_n$$  die elk *dezelfde* onderliggende verdeling kennen. Dat wil zeggen dat ze allemaal dezelfde verwachtingswaarde en dezelfde variantie hebben. Je kan dit bijvoorbeeld zien als $$n$$ onafhankelijke metingen van eenzelfde grootheid van een steekproef.
 
 
-De formule voor de som kunnen we nu schrijven als:
+De formule voor de som $$S_n$$, kunnen we nu schrijven als:
 
-$$\displaystyle{ Som_N = X_1 + X_2 + ... + X_N.}$$ 
+$$\displaystyle{ S_n = X_1 + X_2 + ... + X_n.}$$ 
 
-En het gemiddelde kunnen we schrijven als:
+En de verwachtingswaarde van $$S_n$$ is dan:
 
-$$\displaystyle { E(<{X_1 ... X_N}>) = \frac{Som_n}{N}.}$$
+$$\displaystyle { E( S_n ) = E( X_1 + X_2 + ... + X_n ) = E(X_1) + E(X_2) + ... + E(X_n).}$$
 
-Als de verwachtingswaarde van een enkele stochast $$E(X_i)$$ gelijk is aan het gemiddelde $$\mu$$ en de variantie gelijk is aan $$Var(X_i) = \sigma^2$$, dan geldt nu voor de verwachtingswaarde van de som:  
+Omdat we eerder stelden dat elke stochast *dezelfde* onderliggende verdeling betekent dit dat 
+$$\mu_{X_1} =\mu_{X_2} = ... = \mu_{X_n} \equiv \mu.$$
 
-$$\displaystyle{ E(S_N)= \mu N} $$
 
-en voor het gemiddelde:
+Als de verwachtingswaarde (steekproefgemiddelde) van een enkele stochast $$E(X_i)$$ gelijk is aan het populatiegemiddelde $$\mu$$ dan geldt nu voor de verwachtingswaarde van de som:  
 
-$$\displaystyle{E(<{X_1 ... X_N}>) = \mu.}$$  
+$$\displaystyle{ E(S_n)= \mu \cdot n} .$$
 
-En dan geldt voor de variantie  
+En als de variantie van de steekproef is gelijk aan de variantie van de populatie $$Var(X_i) = \sigma^2$$, dan geldt
 
-$$\displaystyle{ Var(S_N) = N \sigma^2 } $$ 
+$$\displaystyle{ Var(S_n) = n \cdot \sigma^2 } .$$ 
+
+ofwel de standaardafwijking van de som is gelijk aan:
+
+$$\displaystyle{ s_{(S_n)} = \sqrt{n} \cdot \sigma } .$$ 
+
+
+In plaats van naar de eigenschappen van de som $$S_n$$ te kijken, kunnen we ook naar de eigenschappen van het gemiddelde van de stochasten $$X_i$$ kijken. We hoeven hiervoor alleen maar de som waarde te delen door het aantal metingen $$n$$. 
+
+Behalve de som $$S_n$$ kunnen we ook het gemiddelde van de stochasten, $$G_n$$, definieren. Dit gemiddelde is gedefinieerd als: 
+
+$$\displaystyle{ G_n = \frac{S_n}{n}.}$$
+
+We zijn nu geïnterresseerd in de standaardafwijking van het gemiddelde $$G_n$$. Het eerste wat opvalt is dat we vinden dat 
+
+
+De variabele $$n$$ mogen we zien als een constante en daarom kunnen we
+
+\begin{equation}
+X^2
+\label{eq:test}
+\end{equation}
+
 
 en 
 
-$$\displaystyle{ Var(<{X_1 ... X_N}>) = \frac{\sigma^2}{N}.}$$
+$$\displaystyle{ Var(<{X_1 ... X_n}>) = \frac{\sigma^2}{n}.}$$
 
 Dit betekent dat **de standaarddeviatie van de som van de stochasten** gelijk is aan 
 

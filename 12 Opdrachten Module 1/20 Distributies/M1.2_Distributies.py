@@ -21,7 +21,7 @@ fig_d1 = plt.figure('Poisson Distributies')
 
 ##  maak een grafiek (plt.plot) van de data, geef hiervoor de lijsten met x en y waardes:
 ##  de optie -o zorgt ervoor dat de punten zelf worden getekend en verbonden met een lijn.
-##  gebruik de optie label om een referentie aan te maken voor een legende
+##  gebruik de optie label om een referentie aan te maken voor een legenda
 
 
 ##  Hiermee laat je de grafiek uiteindelijk zien.
@@ -36,5 +36,5 @@ fig_d1.show()
 # Een nieuw figure aanmaken (zodat je ze allebei kan plotten)
 fig_du = plt.figure('Uniforme Distributie')
 #Hier je plots maken
-fig_du.show()
+plt.show()
 

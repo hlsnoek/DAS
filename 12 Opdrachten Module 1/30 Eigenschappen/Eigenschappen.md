@@ -1,7 +1,7 @@
 ## M1.3 - Eigenschappen van distributies **
 <!--REF\label{/opdrachten-module-1/eigenschappen}-->
 
-In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen) van distributies en deze veranderen als een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en Poisson distributies. 
+In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen) van distributies en hoe deze veranderen als je een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en Poisson distributies. 
 
 Download voor deze opdracht het bestand [M1.3_Eigenschappen.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/30%20Eigenschappen/M1.3_Eigenschappen.py) zorg dat deze in dezelfde folder staat as het `DAS_DatasetGenerator.py` bestand. 
 
@@ -19,7 +19,15 @@ Deze regel code vind je in het `M1.3_Eigenschappen.py` bestand.
 > 	* de variantie
 > 	* de standaarddeviatie
 
-**NB:** Het is de bedoeling dat je de formules zelf programmeert. Je mag geen gebruik maken van standaard functies van python die dit direct voor je teruggeven. Uiteraard mag je wel gebruiken maken van functies als **`len()`** en **`sort()`**.
+**NB:** Het is de bedoeling dat je de formules zelf programmeert. Je mag geen gebruik maken van standaard functies van python die dit direct voor je teruggeven. Uiteraard mag je wel gebruiken maken van functies als **`len()`** en **`sort()`**.<br>
+Let wel op dat als je de functie **`sort()`** gebruikt bij een lijst, dat de oorspronkelijke volgorde van de lijst daarna weg is. Dat is vaak niet zo handig als je met data bezig bent. Gebruik daarom liever de **`sorted()`** functie en maak een kopie van de data: 
+
+	p = [3,2,4,1]
+	l = sorted(p)
+
+`l` is nu de gesorteerde lijst `[1,2,3,4]`. 
+
+
 
 > **M1.3a) Stel nu dat je de dataset vergroot en dat je niet 500 maar 1000 meetwaardes hebt in je set. Wat denk je dan dat er gebeurt met elk van deze statistieken? Schrijf hier eerst op wat je verwacht, kwantificeer het resultaat waar het kan.**
 
@@ -39,7 +47,10 @@ Nu gaan we kijken naar het effect van een vermenigvuldiging van x.
 > 
 > - Plot nu de gemultipliceerde dataset toe aan je plot zodat je de originele, de translatie en multiplicatie in 1 figuur ziet. <br><br>
 >
-> - **M1.3b) Maak nu één plot waar de drie histogrammen voor de normaalverdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**  <br><br>
+> - **M1.3b) Maak nu één plot waar de drie histogrammen voor de normaalverdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**  <br>
+> TIP: gebruik de plot optie `alpha` om de histogrammen doorzichtig te maken. Dit helpt bij het zichtbaar maken van de overlappende gebieden.
+> 	`plt.hist(dg, alpha=0.6)`
+> <br><br>
 >
 > - **M1.3c) Maak een tabel met de vier berekende statistieken voor de 3 normaalverdelingen. Let goed op de notatie.**  <br><br>
 >
