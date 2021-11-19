@@ -76,8 +76,8 @@ Systematische onzekerheden zijn lastig te vinden in opstellingen en zijn vooral 
 
 ## Onderliggende verdelingen
 
-Je begrijpt nu dat veel metingen wel herhaalbaar zijn, maar dat je niet altijd precies dezelfde resultaten kunt verwachten. Het gevolg hiervan is dat je een verdeling of distributie krijgt van je meetresultaten. 
-Van deze verdeling kunnen we bepaalde eigenschappen uitrekenen. Meer hierover kun je vinden in het hoofdstuk [basisbegrippen](/module-1/basisbegrippen).
+Je begrijpt nu dat veel metingen wel herhaalbaar zijn, maar dat je niet altijd precies dezelfde resultaat verwacht te meten. Het gevolg hiervan is dat je een verdeling of distributie krijgt van je meetresultaten. 
+Van deze verdeling kunnen we bepaalde eigenschappen uitrekenen. Meer hierover kun je vinden in het hoofdstuk [basisbegrippen](/module-1/basisbegrippen). Als je de onderliggende verdeling zou kennen (soms is dat zo, maar soms ook niet) dan hoor de meetonzekerheid overeen te komen met de standaardafwijking van de onderliggende verdeling van resultaten.
 Het is belangrijk om de verdelingen goed te presenteren, meer daarover kun je [hier](/module-1/data-visualiseren) lezen. 
 
 

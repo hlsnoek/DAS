@@ -18,7 +18,7 @@ Succes!
 Gegeven zijn [metingen](lengtesLeerlingen.txt) van lengtes in cm van leerlingen van de middelbare school. In het bestand vind je de klas en de opgemeten lengte van alle leerlingen van de school.
 
 **[a]** Presenteer de lengtes van alle leerlingen van de school in een histogram.<br>
-**[b]** Bereken het gemiddelde, de mediaan en de standaard deviatie van de distributie.<br> 
+**[b]** Bereken het gemiddelde, de mediaan en de standaardafwijking van de distributie.<br> 
 **[c]** Als je een willekeurige leerling van de school om zijn of haar lengte vraagt, wat is dan de kans dat deze langer is dan 1,75 m?<br>
 **[d]** Als je een willekeurige leerling uit de brugklas haalt, wat is dan de kans dat de leerling groter is dan 1,75 m?<br>
 **[e]** Wat is de kans dat een leerling met lengte kleiner dan 1,65 m in klas 1 zit? <br>
@@ -26,7 +26,7 @@ Gegeven zijn [metingen](lengtesLeerlingen.txt) van lengtes in cm van leerlingen 
 Stel nu dat blijkt dat er een probleem is met het meetlint dat gebruikt is voor de metingen. Het meetlint begint bij 10 cm in plaats van bij 0 en dit is niet opgevallen tijdens het meten. 
 
 **[f]** Hoe noem je dit type fout?<br>
-**[g]** Wat gebeurt er met het gemiddelde, de mediaan en de standaard deviatie?<br>
+**[g]** Wat gebeurt er met het gemiddelde, de mediaan en de standaardafwijking?<br>
 
  Op een **andere school** is bekend dat: 
 

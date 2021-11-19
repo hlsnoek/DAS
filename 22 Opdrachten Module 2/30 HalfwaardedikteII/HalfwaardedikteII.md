@@ -9,7 +9,7 @@ In opgave M1.5 gebruikten we een methode om de halfwaardedikte te bepalen waarbi
 
 Een **schatter** is een recept om de waarde van een parameter af te schatten. De parameter die we hier willen bepalen is de halwaardedikte van lood (voor de energie van onze bron). De schatter is in dit geval $$d_{half}$$.
 
-Nu gaan we het experiment 50 keer herhalen en gaan we kijken naar de distributie van de gevonden halfwaardediktes. We gaan uit deze distributie de standaarddeviatie halen en dit gebruiken om de onzekerheid op de gevonden dikte $$d_{half}$$ te bepalen.
+Nu gaan we het experiment 50 keer herhalen en gaan we kijken naar de distributie van de gevonden halfwaardediktes. We gaan uit deze distributie de standaardafwijking halen en dit gebruiken om de onzekerheid op de gevonden dikte $$d_{half}$$ te bepalen.
 
 Schrijf een loop waarin je 50x een nieuwe dataset genereert waaruit je 50x opnieuw een halfwaardedikte bepaald. Om 50 unieke dataset te maken moet je steeds de zogeheten ***seed*** veranderen. Dat kan je doen door een seed mee te geven aan de DAS dataset generator:
  	
@@ -23,7 +23,7 @@ Binnen deze loop maak je 50 unieke datasets aan waarbij de counts die gemeten wo
 >
 > - **M2.3c) Ziet de distributie eruit zoals je verwacht had? Beredeneer je antwoord.**<br><br>
 > 
-> - **M2.3d) Bepaal nu het gemiddelde van de meetuitkomsten en de standaarddeviatie van de distributie.**  <br><br>
+> - **M2.3d) Bepaal nu het gemiddelde van de meetuitkomsten en de standaardafwijking van de distributie.**  <br><br>
 > 
 > - **M2.3e) Zeggen deze getallen ook iets of de gemeten waardes gemiddeld te hoog of te laag uitkomen. Beredeneer je antwoord.**
 

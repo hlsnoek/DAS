@@ -9,12 +9,12 @@ Lees goed het [lijstje](/tussentoets-i/inhoud) door ter voorbereiding voor de tu
 
 <center>18.3 19.7 20.4 19.2 18.7 19.4 17.6 20.6 18.5 20.2</center>
 
-**a**  Bereken het gemiddelde, de mediaan, de standaarddeviatie en de variantie.<br>
+**a**  Bereken het gemiddelde, de mediaan, de standaardafwijking en de variantie.<br>
 
 **b** De docent van de groep is 44.5 jaar oud.  
-Bereken nu opnieuw het gemiddelde, de standaarddeviatie en de variantie waarbij je de leeftijd van de docent ook meeneemt. <br>
+Bereken nu opnieuw het gemiddelde, de standaardafwijking en de variantie waarbij je de leeftijd van de docent ook meeneemt. <br>
 
-de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.   
+de standaardafwijking is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.   
 
 
 -----

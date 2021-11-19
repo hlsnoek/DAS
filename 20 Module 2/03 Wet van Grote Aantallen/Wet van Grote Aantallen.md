@@ -57,50 +57,43 @@ Behalve de som $$S_n$$ kunnen we ook het gemiddelde van de stochasten, $$G_n$$, 
 
 $$\displaystyle{ G_n = \frac{S_n}{n}.}$$
 
-We zijn nu geïnterresseerd in de standaardafwijking van het gemiddelde $$G_n$$. Het eerste wat opvalt is dat we vinden dat 
-
-
 De variabele $$n$$ mogen we zien als een constante en daarom kunnen we
+gebruik maken van de regels die we in het vorige hoofdstuk hebben afgeleid (in het eerste voorbeeld)
 
-\begin{equation}
-X^2
-\label{eq:test}
-\end{equation}
+$$\displaystyle{ E(cX) = c \cdot E(x),\\ Var(cX) = c^2 \cdot Var(X).}$$
 
+De verwachtingswaarde van het gemiddelde $$G_n$$ is dus gelijk aan: 
 
-en 
+$$\displaystyle{ E\left( G_n \right) = E\left( \frac{S_n}{n} \right) = \frac{E\left( S_n \right)}{n} = \frac{(n \cdot \mu)}{n} =\mu.}$$
 
-$$\displaystyle{ Var(<{X_1 ... X_n}>) = \frac{\sigma^2}{n}.}$$
+Precies wat we verwachten. Het de verwachtingswaarde van de steekproef is gelijk aan de verwachtingswaarde van de populatie. Voor de standaardafwijking vinden we 
 
-Dit betekent dat **de standaarddeviatie van de som van de stochasten** gelijk is aan 
+$$\displaystyle{ Var(G_n) = Var\left( \frac{S_n}{n}\right)  = \frac{Var\left( S_n \right)}{n^2}  = \frac{n \cdot \sigma^2}{ n^2} = \frac{\sigma^2}{n}.}$$
 
-$$\sigma \cdot \sqrt{N}.$$  
+Dit betekent dat **de standaardafwijking voor het gemiddelde $$G_n$$** kan worden geschreven als
 
-De standaarddeviatie van het gemiddelde is dan gelijk aan:  
+$$\displaystyle{ s_{G_n} = \frac{\sigma}{\sqrt{n}}.}$$
 
-$$\displaystyle{\text{standaarddeviatie op het gemiddelde is: }\frac{\sigma \cdot \sqrt{N}}{N} = \frac{\sigma}{\sqrt{N}}}.$$
-
-Dit betekent dus dat als we het gemiddelde van de massa van N aantal kogels nemen waarbij de kogels een Normale distributie hebben met een gemiddelde $$\mu$$ en een standaarddeviatie van $$\sigma$$, de onzekerheid op de bepaalde gemiddelde massa gelijk is aan $$\sigma/\sqrt{N}$$.  
-Hoe meer kogels we wegen en meenemen in ons gemiddelde, hoe nauwkeuriger we dit gemiddelde kennen. 
-
+Dit is een belangrijk resultaat. Het zegt dat als we het gemiddelde van een steekproef steeds beter kennen als we meer metingen verrichten. In het voorbeeld van de ton met N kogels waarvan de massas van de kogels een Normale distributie hebben met een gemiddelde $$\mu$$ en een standaardafwijking $$\sigma$$, de onzekerheid op het bepaalde gemiddelde massa van een steekproef gelijk is aan $$\sigma/\sqrt{n}$$.  
+Hoe meer kogels we wegen en meenemen in het berekende steekproefgemiddelde, hoe nauwkeuriger we dit gemiddelde kennen. 
 
 
 ## De wet van Grote Aantallen
-Intuïtief voelen we aan dat hoe meer metingen we doen, hoe meer informatie we hebben, en hoe nauwkeuriger ons resultaat is. 
+Intuïtief voelen we aan dat hoe meer metingen we doen, hoe meer informatie we hebben, en hoe nauwkeuriger ons resultaat is. We hebben in de $$\sqrt{n}$$-wet al gezien dat de standaardafwijking op een gemeten stochast afneemt met 1/$$\sqrt{n}$$. We laten nu zien dat we, in de meeste gevallen, ook kunnen verwachten dat de gemeten steekproefgemiddelde steeds meer in de buurt komt van het populatiegemiddelde. 
 
 De **wet van grote aantallen** zegt dat het berekende steekproef gemiddelde, $$<{X}>$$, van een distributie met een eindige variantie, convergeert naar het populatie gemiddelde $$\mu$$ voor steeds grote steekproeven:<br>
-$${\displaystyle lim_{N \to \infty} P( \mid \lt X \gt - \mu \mid \gt \epsilon) = 0 } $$
+$${\displaystyle lim_{n \to \infty} P( \mid \lt X \gt - \mu \mid \gt \epsilon) = 0 } $$
 
-Ofwel de kans dat het steekproef gemiddelde meer afwijkt van het populatie gemiddelde dan een heel klein getal convergeert naar 0 voor oneindig grote steekproeven. 
+Ofwel de kans dat het steekproef gemiddelde meer afwijkt van het populatie gemiddelde dan een heel klein getal, convergeert naar 0 voor oneindig grote steekproeven. 
 Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan  oneindig grote, of nagenoeg oneindig grote populaties, zoals bijvoorbeeld als je de gemiddelde massa van het electron wilt bepalen. 
 
 **Tip:** In deze [video](https://www.youtube.com/watch?v=MntX3zWNWec) wordt de wet van grote aantallen nogmaals duidelijk uitgelegd. 
 
-Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk dat de variantie van de stochast eindig moet zijn, en dat dus de verwachtingswaarde van de stochast bepaald is. Er bestaan distributies, zoals de [Cauchy](https://nl.wikipedia.org/wiki/Cauchy-verdeling) of de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie waarvoor dit dus niet geldt. Deze distributies hebben oneindig lange staarten. Hier<!--FIG , in Fig. \ref{fig:CauchyDistributie}--> zie je hoe de Cauchy distributie eruit ziet.
+Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk dat de variantie van de stochast eindig moet zijn, en dat dus de verwachtingswaarde van de stochast bepaald is. Er bestaan distributies, zoals de [Cauchy](https://nl.wikipedia.org/wiki/Cauchy-verdeling) of de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie waarvoor dit dus niet geldt. Deze distributies hebben oneindig lange staarten. In het figuur hier<!--FIG , in Fig. \ref{fig:CauchyDistributie}--> zie je hoe de Cauchy distributie eruit ziet.
 
 ![Cauchy verdeelde kansdistributies.](CauchyDistributie.png){:width="80%"} 
 
-Wiskundig kan de wet van de grote aantallen dus weleens voor problemen zorgen. In Natuurkundige experimenten zijn verdelingen uiteindelijk vaak beknot door bijvoorbeeld de eindigheid van energie. Voor Natuurkundige experimenten gaat de wet van grote aantallen dus vaak wel op.
+Wiskundig gezien kan de wet van de grote aantallen dus weleens voor problemen zorgen. In Natuurkundige experimenten zijn verdelingen uiteindelijk vaak beknot door bijvoorbeeld de eindigheid van energie. Voor Natuurkundige experimenten gaat de wet van grote aantallen eigenlijk altijd wel op. 
 
 Overigens noemen we deze wet van grote aantallen de *zwakke* wet van grote aantallen, er bestaat ook een *sterke* wet. We gaan hier niet in op de kleine verschillen tussen deze twee wetten, online kun je er eventueel genoeg over vinden.
  

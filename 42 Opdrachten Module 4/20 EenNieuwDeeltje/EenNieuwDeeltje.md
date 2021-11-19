@@ -76,7 +76,7 @@ Als je een standaardfunctie gebruikt is het altijd even goed om uit te zoeken ho
 
  We zien nu dat er drie variabelen zijn **`amplitude`**, **`center`** en **`sigma`**. Vergelijk de functie op de website met de normale verdeling voor het deeltje $$X$$. We zien nu dat de variabele **`x`** de variabele $$m$$ is. <br>
 
-Met de informatie die we hierboven gegeven hebben weten we dat we een van deze parameters (namelijk de standaarddeviatie van de normaalfunctie) moeten *fixeren*. We bedoelen hiermee dat deze niet een vrije parameter in de fit mag zijn, hij moet constant worden gehouden in de optimalisatie van de $$\chi^2$$. <br>
+Met de informatie die we hierboven gegeven hebben weten we dat we een van deze parameters (namelijk de standaardafwijking van de normaalfunctie) moeten *fixeren*. We bedoelen hiermee dat deze niet een vrije parameter in de fit mag zijn, hij moet constant worden gehouden in de optimalisatie van de $$\chi^2$$. <br>
 We kunnen een parameter fixeren met het volgende statement: 
  
 	signaal_model.set_param_hint(par_name, vary=False)

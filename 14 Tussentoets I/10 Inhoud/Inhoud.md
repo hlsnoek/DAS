@@ -11,7 +11,7 @@ Hieronder vind je een lijstje met de stof die je moet kennen. Gebruik deze om te
 
 - Het verschil tussen de populatie en een steekproef, tussen een parameter en een statistiek.
 - De definities (en eventueel formules) van: het gemiddelde, de mediaan, de modus.
-- De definities (en eventueel formules) van: de range, de standaarddeviatie, de variantie, de variatiecoëfficiënt.
+- De definities (en eventueel formules) van: de range, de standaardafwijking, de variantie, de variatiecoëfficiënt.
 
 <!--Voor 2022: Scheefheid en assymetrie-->
 
@@ -43,6 +43,6 @@ Hieronder vind je een lijstje met de stof die je moet kennen. Gebruik deze om te
 ### Kansdichtheidsfuncties [link](/module-1/verdelingsfuncties)
 - Weten wat een stochast is. 
 - De definitie en de voorwaardes kennen van de kansdichtheidsdistributie.
-- Het kunnen berekenen van het gemiddelde en de standaarddeviatie voor eenvoudige discrete en continue kansdichtheidsdistributies (de afleiding voor de formules zelf van het gemiddelde en de standaarddeviatie wordt niet gevraagd voor de Binomiaal, de Poisson en de Normaal verdeling).
+- Het kunnen berekenen van het gemiddelde en de standaardafwijking voor eenvoudige discrete en continue kansdichtheidsdistributies (de afleiding voor de formules zelf van het gemiddelde en de standaardafwijking wordt niet gevraagd voor de Binomiaal, de Poisson en de Normaal verdeling).
 - De Uniforme, de Binomiale, de Poisson en de normale distributie kunnen herkennen en kansen kunnen berekenen met deze functies.
 

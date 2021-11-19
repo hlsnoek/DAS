@@ -36,7 +36,7 @@ We willen weten wat het gemiddelde aantal pakjes is dat je nodig hebt om het boe
 > 
 > - **M2.4e) Presenteer de modus, het gemiddelde en de mediaan van de distributie?**  <br><br>
 > 
-> - **M2.4f) Wat is de variantie en de standaarddeviatie van de distributie?**<br><br>
+> - **M2.4f) Wat is de variantie en de standaardafwijking van de distributie?**<br><br>
 > Tip: Denk bij het noteren van de antwoorden ook aan de juiste notatie en de eenheden.<br><br>
 
 

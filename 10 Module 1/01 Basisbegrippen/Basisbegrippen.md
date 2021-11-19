@@ -102,7 +102,7 @@ Voor unimodale symmetrische distributies ligt het gemiddelde, de mediaan en de m
 
 ## Spreiding van data
 
-De spreiding geeft een beeld van de mate waarin datapunten in een set verspreid zijn. Er zijn verschillende maten om de spreiding van een dataset mee aan te geven. Hieronder zullen we **de spreidingsbreedte ** (ook wel de *range*), **de variantie**, **coëfficiënt van variantie** en **de standaarddeviatie** (ook wel de *standaardafwijking*) bespreken. 
+De spreiding geeft een beeld van de mate waarin datapunten in een set verspreid zijn. Er zijn verschillende maten om de spreiding van een dataset mee aan te geven. Hieronder zullen we **de spreidingsbreedte ** (ook wel de *range*), **de variantie**, **coëfficiënt van variantie** en **de standaardafwijking** (ook wel de *standaarddeviatie*) bespreken. 
 
 ### Spreidingsbreedte (range)
 
@@ -123,13 +123,13 @@ $$1,2,3,4,5,5,5,6,6,6,7,7,10,30$$
 De range wordt nu $$30-1=29.$$ Dus onder invloed van één foutief datapunt geeft de range nu een veel grotere mate van spreiding aan. 
 
 
-### Standaarddeviatie en variantie
+### Standaardafwijking en variantie
 
-De standaarddeviatie (ook wel de standaardafwijking) geeft aan in welke mate de data verspreid is rondom het gemiddelde van de dataset. Dit geeft met name ook een maat voor de spreiding van de datapunten onderling. Hoe groter de standaarddeviatie des te groter is de spreiding tussen de afzonderlijke punten. De standaarddeviatie voor de populatie wordt aangeduid met $$\sigma$$, voor een steekproef noteren we dit met $$s.$$
+De standaardafwijking geeft aan in welke mate de data verspreid is rondom het gemiddelde van de dataset. Dit geeft met name ook een maat voor de spreiding van de datapunten onderling. Hoe groter de standaardafwijking des te groter is de spreiding tussen de afzonderlijke punten. De standaardafwijking voor de populatie wordt aangeduid met $$\sigma$$, voor een steekproef noteren we dit met $$s.$$
 
-De variantie, *var*, is direct gerelateerd aan de standaarddeviatie, namelijk de variantie is gelijk aan de standaarddeviatie in het kwadraat. Voor de populatie geldt dus var = $$\sigma^2.$$ De variantie van een steekproef noteren we met $$s^2.$$
+De variantie, *var*, is direct gerelateerd aan de standaardafwijking, namelijk de variantie is gelijk aan de standaardafwijking in het kwadraat. Voor de populatie geldt dus var = $$\sigma^2.$$ De variantie van een steekproef noteren we met $$s^2.$$
 
-De variantie en standaarddeviatie van een populatie kunnen worden berekend met de volgende formule:
+De variantie en standaardafwijking van een populatie kunnen worden berekend met de volgende formule:
 
 $$var = \sigma^2 = \displaystyle \frac{1}{N} \sum_{i=1}^{N}(x_i - \mu)^2$$
 
@@ -137,7 +137,7 @@ of in het geval van de steekproef:
 
 $$s^2 = \frac{1}{n} \sum_{i=1}^{n}(x_i - \bar{x})^2 $$
 
-Let op dat de eenheid van de variantie het kwadraat is van de eenheid van $$x.$$ In het geval dat je bijvoorbeeld lengtes van luciferstokjes hebt opgemeten, dan zullen de waardes in cm zijn genoteerd. De variantie heeft dan de eenheid cm$$^2.$$ Dat kan soms best onhandig zijn, vandaar dat we vaker de standaarddeviatie gebruiken. De standaarddeviatie heeft altijd dezelfde eenheid als de originele elementen van de dataset. 
+Let op dat de eenheid van de variantie het kwadraat is van de eenheid van $$x.$$ In het geval dat je bijvoorbeeld lengtes van luciferstokjes hebt opgemeten, dan zullen de waardes in cm zijn genoteerd. De variantie heeft dan de eenheid cm$$^2.$$ Dat kan soms best onhandig zijn, vandaar dat we vaker de standaardafwijking gebruiken. De standaardafwijking heeft altijd dezelfde eenheid als de originele elementen van de dataset. 
 
 
 ### Variatiecoëfficiënt
@@ -169,7 +169,7 @@ Een nadeel van het gebruik van de variatiecoëfficiënt is dat er gedeeld wordt 
 |----|----|----|
 | grootte |  $$N$$ | $$n$$ |
 | gemiddelde | $$\mu = \frac{1}{N} \sum_i^N x_i$$ | $$\bar{x} = \frac{1}{n} \sum_i^n x_i$$ |
-| standaarddeviatie | $$\sigma = \sqrt{\frac{1}{N} \sum_i^N (x_i - \mu)^2}$$ | $$s = \sqrt{\frac{1}{n} \sum_i^n (x_i - \bar{x})^2}$$ | 
+| standaardafwijking | $$\sigma = \sqrt{\frac{1}{N} \sum_i^N (x_i - \mu)^2}$$ | $$s = \sqrt{\frac{1}{n} \sum_i^n (x_i - \bar{x})^2}$$ | 
 | variantie | $$ var = \sigma^2 $$ | $$s^2$$ |
 |variatiecoëfficiënt | $$c_{v} = \sigma/\mu$$| $$\hat{c_v} = s/\bar{x}$$|
 
@@ -197,7 +197,7 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 > - Het gemiddelde: 
 > $$\mu_Y = \frac{1}{7}\cdot (285-20+31+60+12+53+133) = 79.1$$  
 > 
-> - De standaarddeviatie is:
+> - De standaardafwijking is:
 > $$\sigma_Y^2 = \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 \right.$$
 > $$\left. + (31-79.1)^2 + (60-79.1)^2 + (12-79.1)^2 + \right.$$
 > $$\left.(53-79.1)^2 + (133-79.1)^2 \right] = 8997.6$$
@@ -225,5 +225,5 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 > $$\left.+ (1.61-1.77)^2 + (1.84-1.77)^2 + (1.79-1.77)^2 \right]$$
 > $$ = 0.0100 \text{m}^2$$  
 > 
-> - De standaarddeviatie is $$ s = 0.10$$ m.  
-> - De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$
+> - De standaardafwijking is $$ s = 0.10$$ m.  
+> - De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$d

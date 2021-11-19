@@ -27,7 +27,7 @@ We gaan eerst naar de twee massaverdelingen van de meesjes kijken.
 > - **M2.2a) Plot de massaverdelingen van beide meesjes in een histogram. Laat in een legenda zien welke meesje bij welke kleur hoort. Maak ook een apart histogram waarin je spanwijdtes van de twee soorten meesjes plot. Maak de twee histogrammen netjes af en zorg dat duidelijk is welke distributie bij welk soort meesje hoort.**<br><br>
 > TIP: Gebruik de plot optie **`alpha=0.8`** zodat je histogrammen wat doorzichtig worden. Zo kan je het achterste histogram ook nog altijd goed zien.<br><br>
 >  
-> - **M2.2b) Maak een tabel waarin je voor beide soorten meesjes de gemiddeldes, de standaarddeviaties en de varianties noteert. Let goed op de notatie en denk ook even aan de eenheden.**
+> - **M2.2b) Maak een tabel waarin je voor beide soorten meesjes de gemiddeldes, de standaardafwijkingen en de varianties noteert. Let goed op de notatie en denk ook even aan de eenheden.**
 
 
 We meten nu de massa op van het meesje dat je gevonden hebt. Gebruik de volgende regel code om dat te doen: 

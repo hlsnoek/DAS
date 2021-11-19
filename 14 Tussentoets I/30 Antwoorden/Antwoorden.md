@@ -8,13 +8,13 @@ Lees goed het [lijstje](/tussentoets-i/inhoud) door ter voorbereiding voor de tu
 
 <center>18.3 19.7 20.4 19.2 18.7 19.4 17.6 20.6 18.5 20.2</center>
 
-**a**  Bereken het gemiddelde, de mediaan, de standaarddeviatie en de variantie.<br>
-<span style = "color:blue"> Het gemiddelde is 19.3 jaar, de mediaan is 19.3 jaar, de standaarddeviatie is 0.936 jaar, de variantie is 0.876 $$\textrm{jaar}^2$$.</span><br>
+**a**  Bereken het gemiddelde, de mediaan, de standaardafwijking en de variantie.<br>
+<span style = "color:blue"> Het gemiddelde is 19.3 jaar, de mediaan is 19.3 jaar, de standaardafwijking is 0.936 jaar, de variantie is 0.876 $$\textrm{jaar}^2$$.</span><br>
 **b** De docent van de groep is 44.5 jaar oud.  
-Bereken nu opnieuw het gemiddelde, de standaarddeviatie en de variantie waarbij je de leeftijd van de docent ook meeneemt. <br>
+Bereken nu opnieuw het gemiddelde, de standaardafwijking en de variantie waarbij je de leeftijd van de docent ook meeneemt. <br>
 <span style = "color: blue"> Het gemiddelde is 21.6 jaar, de mediaan is 19.4 jaar,  
-de standaarddeviatie is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.   
-NB Zie je dat het gemiddelde niet veel groter is geworden maar de standaarddeviatie en de variantie wel?</span>
+de standaardafwijking is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.   
+NB Zie je dat het gemiddelde niet veel groter is geworden maar de standaardafwijking en de variantie wel?</span>
 
 -----
 
@@ -102,9 +102,9 @@ $${\displaystyle P(k=6;n=10,p=1/6) = \frac{10!}{6!(4)!} (1/6)^6 (5/6)^{4} = 0.00
 
 **12** In een stad gebeuren jaarlijks 1020 ongelukken. Het afgelopen jaar zijn er maar 900 ongelukken geweest. De autoriteiten claimen dat dit komt door nieuwe regels in het verkeer. <br>
 **a** Denk je dat deze verklaring klopt?<br>
-<span style = 'color:blue'>De spreiding op het aantal ongelukken is $$\sqrt{1020} = 42$$. Het verschil is uitgedrukt in standaarddeviaties: $$\frac{1020-900}{42} \sigma = 3.8 \sigma $$. Dat is zeker uitzonderlijk, maar het komt natuurlijk weleens voor. Het is goed om voorzichtig te zijn met zo' n uitspraak. </span><br>
+<span style = 'color:blue'>De spreiding op het aantal ongelukken is $$\sqrt{1020} = 42$$. Het verschil is uitgedrukt in standaardafwijkingen: $$\frac{1020-900}{42} \sigma = 3.8 \sigma $$. Dat is zeker uitzonderlijk, maar het komt natuurlijk weleens voor. Het is goed om voorzichtig te zijn met zo' n uitspraak. </span><br>
 **b** Als de getallen tien keer zo klein zouden zijn (102 en 90), zou je denken dat de verklaring dan nog klopt?<br>
-<span style = 'color:blue'>De standaarddeviatie is nu $$\sigma = 10$$. Het verschil is dus net iets groter dan $$1\sigma$$, zo'n afwijking komt vaak voor. De uitspraak lijkt ongegrond.  </span>
+<span style = 'color:blue'>De standaardafwijking is nu $$\sigma = 10$$. Het verschil is dus net iets groter dan $$1\sigma$$, zo'n afwijking komt vaak voor. De uitspraak lijkt ongegrond.  </span>
 
 -----
 

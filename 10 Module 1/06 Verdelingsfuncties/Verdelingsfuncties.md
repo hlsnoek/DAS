@@ -25,9 +25,9 @@ In formule notatie: $$f(x) \geq 0$$ en $$\int^\infty_{-\infty} f(x) dx =1$$.
 
 Wellicht komt dit allemaal wat abstract over en helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsfuncties. Er zijn veel meer kansdichtheidsfuncties gedefinieerd, kijk bijvoorbeeld maar eens naar [deze](https://en.wikipedia.org/wiki/List_of_probability_distributions) lijst op Wikipedia. 
 
-Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaarddeviatie kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](/module-1/basisbegrippen), voor dichtheidsfuncties zien de formules er net iets anders uit dan voor datasets. 
+Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaardafwijking kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk [Basisbegrippen](/module-1/basisbegrippen), voor dichtheidsfuncties zien de formules er net iets anders uit dan voor datasets. 
 
-## Verwachtingswaarde en standaarddeviatie
+## Verwachtingswaarde en standaardafwijking
 Voor **discrete** verdelingen gelden de volgende vergelijkingen:
 
 * de verwachtingswaarde: $$ \mu = E(x) = { \sum_{i=1}^{N} x_i P(x_i) } ,$$<br>
@@ -67,11 +67,11 @@ De **verwachtingswaarde** kunnen we uitrekenen met behulp van de algemene formul
 
 $$\begin{aligned}\displaystyle E(x) & = \int^{\infty}_{-\infty} { x f(x) dx}\\ & =  \int^b_a x\cdot \frac{1}{b-a}  dx\\ & = \left. \frac{1}{2} \frac{1}{(b-a)} x^2 \right|^b_a\\ & = \frac{b^2-a^2}{2(b-a)}\\ & = \frac{a+b}{2}. \end{aligned}$$ 
 
-De **standaarddeviatie** berekenen we met de formule:
+De **standaardafwijking** berekenen we met de formule:
  
 $$\begin{aligned}\displaystyle \sigma^2 &= \int^{\infty}_{-\infty} \left( x-E(x) \right) ^2 f(x) dx = \int^b_a \left( x-\frac{a+b}{2} \right)^2 \cdot \frac{1}{b-a} dx \\ &= \frac{1}{12} \cdot \frac{(b-a)^3}{b-a} = \frac{(b-a)^2}{12}. \end{aligned}$$
 
-Dit geeft de vergelijking voor de standaarddeviatie: 
+Dit geeft de vergelijking voor de standaardafwijking: 
 $$\sigma = \frac{(b-a)}{\sqrt{12}}.$$
 
 
@@ -82,7 +82,7 @@ Om de binomiale verdelingsfunctie uit te leggen beginnen we eerst met het Bernou
 Als we precies $$n$$ onafhankelijke Bernoulli experimenten uitvoeren dan is de kans op een totaal aantal malen succes uit deze $$n$$ experiment gedefinieerd als $$k$$. Dit wordt beschreven door de binomiale verdeling: <br>
 $${\displaystyle P(k;n,p) = \left( \begin{array}{c} n\\ k \end{array} \right) p^k (1-p)^{n-k} \equiv \frac{n!}{k!(n-k)!} p^k q^{n-k} } .$$
 
-Het gemiddelde en de standaarddeviatie van de Binomiale verdeling zijn: <br>
+Het gemiddelde en de standaardafwijking van de Binomiale verdeling zijn: <br>
 $$E(k) = np$$ 
 en 
 $$\sigma = \sqrt{npq}$$.
@@ -124,7 +124,7 @@ De Poisson is een discrete verdelingsfunctie die, in veel gevallen, de onzekerhe
 $${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}.$$
 
 De Poisson kent, in tegenstelling tot de binomiaal dus maar 1 parameter.
-De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de variantie is ook $$\lambda$$. De onzekerheid op een stochast, als deze de Poisson statistiek volgt, is gelijk aan de standaarddeviatie: $$\sigma = \sqrt{\text{var}} = \sqrt{\lambda}$$.
+De verwachtingswaarde van de Poisson vergelijking (het gemiddelde) is $$\lambda$$ en de variantie is ook $$\lambda$$. De onzekerheid op een stochast, als deze de Poisson statistiek volgt, is gelijk aan de standaardafwijking: $$\sigma = \sqrt{\text{var}} = \sqrt{\lambda}$$.
 
 Het is dus een bijzondere vergelijking!
 In het figuur hier<!--FIG , Fig. \ref{fig:PoissonDistributie}--> zie hoe de Poisson distributie eruit ziet voor verschillende waardes van $$\lambda$$.
@@ -142,7 +142,7 @@ Stochastische variabelen zijn Normaal-verdeeld (ook wel Gaussisch) als ze door d
 
 $${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} }.$$
 
-De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaarddeviatie is precies $$\sigma$$. <!--Dat is zeker geen toevalligheid.--> 
+De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaardafwijking is precies $$\sigma$$. <!--Dat is zeker geen toevalligheid.--> 
 
 Over de mathematische beginselen van de Normale verdelingsfunctie gaan we hier verder niet in. Het is wel goed om te weten dat de Normale verdelingsfunctie zonder twijfel de meest belangrijke functie is in de statische data analyse. De verdelingsfunctie komt erg vaak voor. Dat is geen toevalligheid, we zullen later in module 3 zien waarom dit zo is.
 

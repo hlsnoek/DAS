@@ -1,7 +1,7 @@
 # Extra kans rekenregels
 <!--REF\label{/module-2/extra-kansrekenregels}-->
 
-In [module 1](/module-1/kanstheorie) hebben we de complement, de en-regel en de of-regel geleerd voor het rekenen met kansen. Aan deze regels waren enkele voorwaarden verbonden. 
+In [module 1](/module-1/kanstheorie) hebben we de complement-regel, de en-regel en de of-regel geleerd voor het rekenen met kansen. Aan deze regels waren enkele voorwaarden verbonden. 
 
 De of-regel geldt alleen als de metingen A en B wederzijds uitsluitend zijn. Dat betekent dat een meting A niet kan voorkomen als B gemeten is. 
 
@@ -29,7 +29,7 @@ De term $$(\text{A en B})$$ noemen we ook wel de doorsnede, of intersectie, van 
 
 
 De vereniging van $$A$$ en $$B$$ wordt genoteerd met $$A \cup B$$ en is de verzameling van alle elementen van A en B. Hier<!--FIG , in Fig. \ref{fig:180px-Venn0111.svg}--> het Venn diagram voor de verzameling.<br>
-![Doorsnede van A en B (bron wikipedia)](180px-Venn0111.svg.png){:width="60%"}
+![Vereniging van A en B (bron wikipedia)](180px-Venn0111.svg.png){:width="60%"}
 
 
 En zo kun je ook het complement van A laten zien<!--FIG , zie in Fig. \ref{fig:180px-Venn1010.svg}-->. <br>
@@ -37,11 +37,11 @@ En zo kun je ook het complement van A laten zien<!--FIG , zie in Fig. \ref{fig:1
 
 
 ## Conditionele kans
-Een conditionele kans wordt geschreven als $$P(A \mid B)$$ en kun je lezen als "Wat is de kans op meting A gegeven dat B is gemeten.". Let op dat $$P(A \mid B)\neq P(B \mid A)$$! Een sprekend voorbeeld hiervan is de volgende. De kans dat een persoon zwanger is gegeven dat de persoon een vrouw is, $$P(\text{zwanger} \mid \text{vrouw})$$, is niet gelijk aan de kans dat iemand een vrouw is gegeven dat de persoon zwanger is, $$P(\text{vrouw} \mid \text{zwanger})$$. De laatste kans is duidelijk gelijk aan 1, als je zwanger bent ben je zeker een vrouw. De eerste kans is een stuk kleiner!
+Een conditionele kans wordt geschreven als $$P(A \mid B)$$ en kun je lezen als "Wat is de kans op meting A gegeven dat B is gemeten". Let op dat $$P(A \mid B)\neq P(B \mid A)$$! Een sprekend voorbeeld hiervan is de volgende. De kans dat een persoon zwanger is gegeven dat de persoon een vrouw is, $$P(\text{zwanger} \mid \text{vrouw})$$, is niet gelijk aan de kans dat iemand een vrouw is gegeven dat de persoon zwanger is, $$P(\text{vrouw} \mid \text{zwanger})$$. De laatste kans is duidelijk gelijk aan 1, als je zwanger bent ben je zeker een vrouw. De eerste kans is een stuk kleiner!
 
 De conditionele kans kunnen we berekenen met: <br>
 
-$$\displaystyle{P(A \mid B) = \frac{P(A \cap B)}{P(B)}}.$$
+$$\displaystyle{P(A \mid B) = \frac{P(A \cap B)}{P(  B)}}.$$
 
 De noemer in deze vergelijking, $$P(B)$$, noemen we ook wel een normalisatie  term. De kans $$P(A \cap B)$$ moet genormaliseerd worden naar de kans $$P(B)$$, immers het is al een gegeven dat $$B$$ waar is. 
 

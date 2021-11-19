@@ -8,7 +8,7 @@ Vaak kunnen we de grootheid die we willen weten niet direct meten, maar meten we
 
 Dit is bijvoorbeeld het geval als we de gemiddelde snelheid van een auto willen bepalen. Dit zouden we kunnen doen door de tijd te meten die de auto nodig heeft om een bepaald traject af te leggen. We meten dan de door de auto gebruikte tijd, $$T$$ en de lengte van het traject, $$L$$, en die zetten we dan om in snelheid via de bekende formule $$v=L/T$$. Of we bepalen bijvoorbeeld de massa van een elementair deeltje (in rust) en willen dit omzetten naar de energie van het deeltje via de formule $$E=mc^2$$. 
 
-Als we de onzekerheid weten op de gemeten grootheden dan kunnen we deze  omzetten naar de grootheid die we eigenlijk willen bepalen. Dit noemen we het **propageren** van fouten. In dit hoofdstuk leren we je de basisregels voor het propageren van **ongecorreleerde** fouten. Dat wil zeggen dat als er meerdere onzekerheden worden gepropageerd deze onzekerheden onafhankelijk zijn; De meting van de ene observabele heeft geen invloed op de meting van de andere observabele; de fout die we maken in het meten van de ene grootheid hangt niet af van de fout die we maken op de andere gemeten grootheid. 
+Als we de onzekerheid (de standaardafwijking) weten op een gemeten grootheden dan kunnen we deze omzetten naar de grootheid die we eigenlijk willen bepalen. Dit noemen we het **propageren** van fouten. In dit hoofdstuk leren we je de basisregels voor het propageren van **ongecorreleerde** fouten. Dat wil zeggen dat als er meerdere onzekerheden worden gepropageerd deze onzekerheden onafhankelijk zijn; De meting van de ene observabele heeft geen invloed op de meting van de andere observabele; de fout die we maken in het meten van de ene grootheid hangt niet af van de fout die we maken op de andere gemeten grootheid. 
 
 Het is goed om alvast te beseffen dat er ook gecorreleerde fouten bestaan. Er zijn twee oorzaken voor het ontstaan van gecorreleerde fouten:
 
@@ -20,7 +20,7 @@ Hier behandelen we dus alleen ongecorreleerde fouten.
 
 ## Basisregel
 We beginnen met de **algemene regel voor het propageren van ongecorreleerde fouten**. Daarna zullen we laten zien hoe deze regel eruitziet voor eenvoudige relaties. Deze zou je apart kunnen leren, maar je kunt ook altijd de basisregel gebruiken. Het resultaat behoort hetzelfde te zijn. 
-We noteren de onzekerheid op variabele $$x$$ in dit hoofdstuk met $$\Delta x$$ waar we eerder ook wel $$\sigma_x$$ hebben gebruikt. 
+We noteren de onzekerheid op variabele $$x$$ in dit hoofdstuk met $$\Delta x$$ waar we eerder ook wel $$\sigma_x$$ of $$s_x$$ hebben gebruikt. 
 
 Als $$q = q(x,y,z,\dots)$$ een functie is met meerdere ongecorreleerde variabelen, dan wordt de onzekerheid op $$q$$ gegeven door:
 
@@ -32,16 +32,20 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 
 > **Voorbeeld 1: Factor** 
 > 
-> Stel we hebben een vergelijking $$y = c\cdot x$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
+> Stel we hebben een vergelijking $$y = c\cdot x$$ met een standaardafwijking op $$x$$ van $$\Delta x$$. Dan is de standaardafwijking op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
 > 
 > $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = c \cdot \Delta x.$$<br>
 > In dit geval schaalt de onzekerheid op $$x$$ ($$\Delta x$$) dus met dezelfde factor $$c$$ tot de onzekerheid op $$y$$ ($$\Delta y$$). In de grafiek hieronder<!--FIG (Fig. \ref{fig:Foutenpropagatie_const})--> wordt voor een willekeurige waarde $$x_i$$ het effect van de propagatie van $$\Delta x$$ rond de waarde $$x_i$$ naar de fout $$\Delta y$$ rond $$y_i$$ visueel weergegeven. Je kunt duidelijk zien dat de grootte van $$\Delta y$$ veranderd is met de factor $$c.$$<br>
 > ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een lineaire functie.](Foutenpropagatie_const.png){:width="65%"}
+> De onzekerheid op een meting is direct gerelateerd aan de standaardafwijking van de verwachtingswaarde van de te meten grootheid (de stochast). De variantie van de is zoals gebruikelijk het kwadraat van de standaardafwijking. In dit geval is dus de variantie op $$y$$: 
+> 
+> $$\displaystyle{ Var(y) = (\Delta y)^2 = \left( c \cdot \Delta x\right)^2 = c^2 \cdot Var(x) .}$$
+
 
 
 > **Voorbeeld 2: Translatie** 
 > 
-> Stel we hebben een vergelijking $$y = x + a$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
+> Stel we hebben een vergelijking $$y = x + a$$ met een standaardafwijking op $$x$$ van $$\Delta x$$. Dan is de standaardafwijking op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
 > 
 > $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = \Delta x.$$
 > 
@@ -51,14 +55,14 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 
 > **Voorbeeld 3: Macht** 
 > 
-> Stel we hebben een vergelijking $$y = x^3$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
+> Stel we hebben een vergelijking $$y = x^3$$ met een standaardafwijking op $$x$$ van $$\Delta x$$. Dan is de standaardafwijking op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
 > $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = 3x^2 \cdot \Delta x.$$<br>
 > Het effect van de foutenpropagatie volgens deze formule van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ wordt weer grafisch weergegeven in het plaatje hieronder<!--FIG (Fig \ref{fig:Foutenpropagatie_cube})-->. Je kunt zien dat de mate waarin de grootte van $$\Delta x$$ verandert afhangt van de gekozen waarde van $$x_i$$, op sommige plekken is hij kleiner geworden, op andere plekken groter.  <br>
 > ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een macht.](Foutenpropagatie_cube.png){:width="65%"}
 
 > **Voorbeeld 4** 
 > 
-> Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaarddeviatie op $$x$$ van $$\Delta x$$. Dan is de standaarddeviatie op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
+> Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaardafwijking op $$x$$ van $$\Delta x$$. Dan is de standaardafwijking op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
 > $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x.$$<br>
 > In het plaatje hieronder<!--FIG (Fig. \ref{fig:Foutenpropagatie_func})--> geven we nu voor verschillende waardes $$x_i$$ de foutenpropagatie van $$\Delta x$$ naar $$\Delta y$$ de grafische interpretatie. We zien dat het niet alleen de relatieve grootte van $$\Delta y$$ afhangt van de gekozen waarde van $$x_i$$ maar dat op sommige plaatsen de boven en ondergrens van de onzekerheid zijn geïnverteerd.<br>
 > ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een kwadratische vergelijking.](Foutenpropagatie_func.png){:width="65%"}
@@ -66,14 +70,14 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 
 > **Voorbeeld 5** 
 > 
-> Stel we hebben een vergelijking $$z = ax + y^2$$ met standaarddeviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaarddeviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
+> Stel we hebben een vergelijking $$z = ax + y^2$$ met standaardafwijkingen $$\Delta x$$ en $$\Delta y$$ . Dan is de standaardafwijking op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
 > $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{(a \Delta x)^2 + (2y \Delta y)^2}.$$
 
 
 
 > **Voorbeeld 6** 
 > 
-> Stel we hebben een vergelijking $$z = ax + y^2 + 2xy$$ met standaarddeviaties $$\Delta x$$ en $$\Delta y$$ . Dan is de standaarddeviatie op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
+> Stel we hebben een vergelijking $$z = ax + y^2 + 2xy$$ met standaardafwijkingen $$\Delta x$$ en $$\Delta y$$ . Dan is de standaardafwijking op $$z$$, ($$\Delta z$$), gelijk aan: <br> 
 > $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{\left( (a + 2y) \cdot \Delta x \right)^2 + \left( (2y + 2x)\cdot  \Delta y \right)^2}.$$
 
 

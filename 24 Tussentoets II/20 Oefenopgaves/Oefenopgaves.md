@@ -39,12 +39,12 @@ Bereken de kinetische energie.<br>
 ### De Wet van Grote aantallen
 
 **8.**
-We hebben een dataset met de gemeten massa van 80 kogels. Het gemiddelde van de massa-distributie is bepaald op 108.2 kg. De standaarddeviatie van de massa-distributie is 11.2 kg. Wat is de fout op het berekende gemiddelde?<br>
+We hebben een dataset met de gemeten massa van 80 kogels. Het gemiddelde van de massa-distributie is bepaald op 108.2 kg. De standaardafwijking van de massa-distributie is 11.2 kg. Wat is de fout op het berekende gemiddelde?<br>
 
 
 -----
 **9.**
-We combineren onafhankelijke datasets waarbij de spanwijdte van koolmeesjes zijn gemeten. Dataset A heeft informatie over 1100 koolmeesjes met een gemiddelde spanwijdte van 13.4 cm met een standaarddeviatie van 2.0 cm. Dataset B heeft informatie over 2000 koolmeesjes met gemiddelde van 14.0 cm en een standaarddeviatie van 1.8 cm.<br>
+We combineren onafhankelijke datasets waarbij de spanwijdte van koolmeesjes zijn gemeten. Dataset A heeft informatie over 1100 koolmeesjes met een gemiddelde spanwijdte van 13.4 cm met een standaardafwijking van 2.0 cm. Dataset B heeft informatie over 2000 koolmeesjes met gemiddelde van 14.0 cm en een standaardafwijking van 1.8 cm.<br>
 Wat is het gemiddelde van de gecombineerde dataset T?<br>
 
 ----
@@ -54,7 +54,7 @@ Onder welke voorwaarde mogen we aannemen dat de onzekerheid op het berekende gem
 
 ---
 **11.**
-We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten. Het gemiddelde waarde van $$\mu = 22$$ met een standaarddeviatie van $$\sigma = 4 $$. <br>
+We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten. Het gemiddelde waarde van $$\mu = 22$$ met een standaardafwijking van $$\sigma = 4 $$. <br>
 **a.** Wat is de onzekerheid op het gemiddelde van deze dataset?<br>
 **b.** We voegen nog 9 extra waardes aan onze dataset toe. Wat is de onzekerheid op het gemiddelde nu?<br>
 
