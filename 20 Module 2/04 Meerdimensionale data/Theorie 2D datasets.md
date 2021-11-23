@@ -53,32 +53,15 @@ Als er geen correlatie is tussen de twee variabelen, dan is
 correlatiecoëfficiënt gelijk aan nul. Is de correlatiecoëfficiënt tussen de twee variabelen gelijk aan $$1$$ of aan $$-1$$ dan zijn de twee
 variabelen maximaal afhankelijk. In het geval van een correlatiecoëfficiënt gelijk aan $$1$$ is dit een positief lineair verband, in het geval van een correlatiecoëfficiënt gelijk aan $$-1$$ is dit een lineair verband met negatieve helling. 
 
-In het figuur hier,<!--FIG in figuur \ref{fig:Plot1_Correlatie_0} en \ref{fig:Plot1_Correlatie_0punt3},--> zijn een aantal 2D datasets weergegeven met verschillende correlatiecoëfficiënten.
+In het figuur,<!--FIG in figuur \ref{fig:Correlations}--> zijn een aantal 2D datasets weergegeven met verschillende correlatiecoëfficiënten. 
 
-Het figuur geeft een dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 0 $$.
-
-<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0$$.](Plot1_Correlatie_0.png){:width="60%"}</p>
-
-Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = 1 $$.
-
-<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=1$$.](Plot1_Correlatie1.png){:width="60%"}</p>
-
-Dataset met een correlatiecoëfficiënt $$\rho_{x,y} = -1 $$.
-
-<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-1$$.](Plot1_Correlatie_min1.png){:width="60%"}</p>
-
-Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.8$$ en $$\rho_{x,y} = 0.8$$:
-
-<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.8$$.](Plot1_Correlatie_min0punt8.png){:width="45%"}
-![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.8$$.](Plot1_Correlatie_0punt8.png){:width="45%"}</p>
-
-Datasets met een correlatiecoëfficiënt $$\rho_{x,y} = -0.3$$ en $$\rho_{x,y} = 0.3$$:
-
-<p align="center">![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=-0.3$$.](Plot1_Correlatie_min0punt3.png){:width="45%"}
-![Tweedimensionale dataset met correlatiecoëfficiënt $$\rho_{x,y}=0.3$$.](Plot1_Correlatie_0punt3.png){:width="45%"}</p>
-
+![Tweedimensionale datasets met verschillende correlatiecoëfficiënten.](Correlations.png){:width="80%"}
 
 Hoe dichter de correlatiecoëfficiënt bij een waarde van $$1$$ of $$-1$$ zit des te groter is de afhankelijkheid van de variabelen. Hoe te dichter de correlatiecoëfficiënt bij nul zit des te kleiner is de correlatie tussen de variabelen. 
+
+In het figuur,<!--FIG in figuur \ref{fig:Correlations0}--> zie je een aantal voorbeelden van datasets die allen een correlatiecoëfficiënt hebben met waarde $$\rho=0$$. Zoals je ziet hoeft een waarde van 0 niet te betekenen dat er helemaal geen verband is tussen de waardes van $$x$$ en $$y$$. Wat het wel zegt is dat er over de gehele dataset even veel bovengemiddelde punten van $$x$$ met een bovengemiddeld punt $$y$$ corresponderen als het omgekeerde.
+
+![Tweedimensionale datasets met correlatiecoëfficiënt $$\rho=0$$.](Correlations0.png){:width="80%"}
 
 
 Je kunt [hier](https://www.youtube.com/watch?v=ugd4k3dC_8Y) een filmpje vinden waarin correlatie ook wordt uitgelegd.
