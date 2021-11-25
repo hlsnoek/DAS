@@ -21,7 +21,7 @@ Als $$X$$ en $$Y$$ onafhankelijk zijn dan geldt ook:
 
 $$\displaystyle{Var(X+Y)= Var(X)+Var(Y)}.$$
 
-Het ziet er misschien ingewikkeld uit, maar het enige wat we doen is een nieuwe variabele definiëren die de som is van twee variabelen. De som van stochasten is zelf ook een stochast. De variantie op de som vinden we via de[regels](/module-2/foutenpropagatiei) van de foutenpropagatie. 
+Het ziet er misschien ingewikkeld uit, maar het enige wat we doen is een nieuwe variabele definiëren die de som is van twee variabelen. De som van stochasten is zelf ook een stochast. De variantie op de som vinden we via de [regels](/module-2/foutenpropagatiei) van de foutenpropagatie. 
 
 Stel nu dat we dit uitbreiden. En we nemen de som van $$n$$ onafhankelijk stochasten, $$X_1,X_2,...,X_n$$  die elk *dezelfde* onderliggende verdeling kennen. Dat wil zeggen dat ze allemaal dezelfde verwachtingswaarde en dezelfde variantie hebben. Je kan dit bijvoorbeeld zien als $$n$$ onafhankelijke metingen van eenzelfde grootheid van een steekproef.
 
@@ -51,7 +51,7 @@ ofwel de standaardafwijking van de som is gelijk aan:
 $$\displaystyle{ s_{(S_n)} = \sqrt{n} \cdot \sigma } .$$ 
 
 
-In plaats van naar de eigenschappen van de som $$S_n$$ te kijken, kunnen we ook naar de eigenschappen van het gemiddelde van de stochasten $$X_i$$ kijken. We hoeven hiervoor alleen maar de som waarde te delen door het aantal metingen $$n$$. 
+In plaats van naar de eigenschappen van de som $$S_n$$ te kijken, kunnen we ook naar de eigenschappen van het gemiddelde van de stochasten $$X_i$$ kijken. We hoeven hiervoor alleen maar de waarde van de som te delen door het aantal metingen $$n$$. 
 
 Behalve de som $$S_n$$ kunnen we ook het gemiddelde van de stochasten, $$G_n$$, definieren. Dit gemiddelde is gedefinieerd als: 
 
@@ -66,22 +66,23 @@ De verwachtingswaarde van het gemiddelde $$G_n$$ is dus gelijk aan:
 
 $$\displaystyle{ E\left( G_n \right) = E\left( \frac{S_n}{n} \right) = \frac{E\left( S_n \right)}{n} = \frac{(n \cdot \mu)}{n} =\mu.}$$
 
-Precies wat we verwachten. Het de verwachtingswaarde van de steekproef is gelijk aan de verwachtingswaarde van de populatie. Voor de standaardafwijking vinden we 
+Precies wat we verwachten. De verwachtingswaarde van de steekproef is gelijk aan de verwachtingswaarde van de populatie. Voor de standaardafwijking vinden we 
 
 $$\displaystyle{ Var(G_n) = Var\left( \frac{S_n}{n}\right)  = \frac{Var\left( S_n \right)}{n^2}  = \frac{n \cdot \sigma^2}{ n^2} = \frac{\sigma^2}{n}.}$$
 
 Dit betekent dat **de standaardafwijking voor het gemiddelde $$G_n$$** kan worden geschreven als
 
-$$\displaystyle{ s_{G_n} = \frac{\sigma}{\sqrt{n}}.}$$
+$$\displaystyle{ s_{(G_n)} = \frac{\sigma}{\sqrt{n}}.}$$
 
-Dit is een belangrijk resultaat. Het zegt dat als we het gemiddelde van een steekproef steeds beter kennen als we meer metingen verrichten. In het voorbeeld van de ton met N kogels waarvan de massas van de kogels een Normale distributie hebben met een gemiddelde $$\mu$$ en een standaardafwijking $$\sigma$$, de onzekerheid op het bepaalde gemiddelde massa van een steekproef gelijk is aan $$\sigma/\sqrt{n}$$.  
-Hoe meer kogels we wegen en meenemen in het berekende steekproefgemiddelde, hoe nauwkeuriger we dit gemiddelde kennen. 
+Dit is een belangrijk resultaat. Het zegt dat we het gemiddelde van een steekproef steeds beter kennen als we meer metingen verrichten. 
+Denk bijvoorbeeld aan de ton met N kogels waarvan de massa's van de kogels een Normale distributie hebben met een gemiddelde $$\mu$$ en een standaardafwijking $$\sigma$$, de onzekerheid op het bepaalde gemiddelde massa van een steekproef gelijk is aan $$\sigma/\sqrt{n}$$. Hoe meer kogels we wegen en meenemen in het berekende steekproefgemiddelde, hoe nauwkeuriger we dit gemiddelde kennen. 
 
 
 ## De wet van Grote Aantallen
 Intuïtief voelen we aan dat hoe meer metingen we doen, hoe meer informatie we hebben, en hoe nauwkeuriger ons resultaat is. We hebben in de $$\sqrt{n}$$-wet al gezien dat de standaardafwijking op een gemeten stochast afneemt met 1/$$\sqrt{n}$$. We laten nu zien dat we, in de meeste gevallen, ook kunnen verwachten dat de gemeten steekproefgemiddelde steeds meer in de buurt komt van het populatiegemiddelde. 
 
 De **wet van grote aantallen** zegt dat het berekende steekproef gemiddelde, $$<{X}>$$, van een distributie met een eindige variantie, convergeert naar het populatie gemiddelde $$\mu$$ voor steeds grote steekproeven:<br>
+
 $${\displaystyle lim_{n \to \infty} P( \mid \lt X \gt - \mu \mid \gt \epsilon) = 0 } $$
 
 Ofwel de kans dat het steekproef gemiddelde meer afwijkt van het populatie gemiddelde dan een heel klein getal, convergeert naar 0 voor oneindig grote steekproeven. 
@@ -93,7 +94,7 @@ Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk dat
 
 ![Cauchy verdeelde kansdistributies.](CauchyDistributie.png){:width="80%"} 
 
-Wiskundig gezien kan de wet van de grote aantallen dus weleens voor problemen zorgen. In Natuurkundige experimenten zijn verdelingen uiteindelijk vaak beknot door bijvoorbeeld de eindigheid van energie. Voor Natuurkundige experimenten gaat de wet van grote aantallen eigenlijk altijd wel op. 
+Wiskundig gezien kan de wet van grote aantallen dus weleens voor problemen zorgen. In Natuurkundige experimenten zijn verdelingen uiteindelijk vaak beknot door bijvoorbeeld de eindigheid van energie. Voor Natuurkundige experimenten gaat de wet van grote aantallen eigenlijk altijd wel op. 
 
 Overigens noemen we deze wet van grote aantallen de *zwakke* wet van grote aantallen, er bestaat ook een *sterke* wet. We gaan hier niet in op de kleine verschillen tussen deze twee wetten, online kun je er eventueel genoeg over vinden.
  
