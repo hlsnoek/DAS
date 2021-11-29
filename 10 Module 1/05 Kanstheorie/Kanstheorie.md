@@ -46,7 +46,7 @@ De kans om nu een 4 te gooien is groter dan met een normale eerlijke dobbelsteen
 En stel nu dat we een normale dobbelsteen hebben die gemanipuleerd is? Dan zal de kans om een 4 te gooien anders zijn. Een goede manier om dan de kans te bepalen is met behulp van de **Frequentist** formule. 
 De algemene formule voor de **Frequentist definitie** van kans is: <br><br>
 
-$${P(\text{uitkomst A}) = \lim_{n \to \infty} \frac{\text{aantal uitkomsten A}}{n}.}$$<br><br>
+$${ P(\text{uitkomst A}) = \lim_{n \to \infty} \frac{\text{aantal uitkomsten A}}{n}.}$$
 
 Waarbij we het aantal malen dat we uitkomst A krijgen uit ons experiment delen door het totaal aantal metingen, $$n$$, dat we hebben verricht. 
 
