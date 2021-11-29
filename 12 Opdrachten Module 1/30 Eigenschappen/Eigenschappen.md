@@ -14,10 +14,10 @@ Deze regel code vind je in het `M1.3_Eigenschappen.py` bestand.
 
 > Schrijf een functie die de volgende statistieken uitrekent voor deze meetwaardes in de dataset:
 > 
-> 	- het gemiddelde
-> 	- de mediaan
-> 	- de variantie
-> 	- de standaardafwijking
+> - het gemiddelde
+> - de mediaan
+> - de variantie
+> - de standaardafwijking
 
 **NB:** Het is de bedoeling dat je de formules zelf programmeert. Je mag geen gebruik maken van standaard functies van python die dit direct voor je teruggeven. Uiteraard mag je wel gebruiken maken van functies als **`len()`** en **`sort()`**.<br>
 Let wel op dat als je de functie **`sort()`** gebruikt bij een lijst, dat de oorspronkelijke volgorde van de lijst daarna weg is. Dat is vaak niet zo handig als je met data bezig bent. Gebruik daarom liever de **`sorted()`** functie en maak een kopie van de data: 
