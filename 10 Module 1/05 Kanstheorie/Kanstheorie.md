@@ -29,8 +29,8 @@ Een kans van 1 zegt dat het **zeker** zal gebeuren en een kans van 0 dat het **z
 Wat is de kans dat je een 4 gooit als je de dobbelsteen 1 keer gooit? 
 Voor een normale dobbelsteen kunnen we deze kans uitrekenen met behulp van de volgende formule: <br>
 ><br>
-> $$P(\text{uitkomst is }4) = {\displaystyle \frac{\text{aantal uitkomsten met een 4}}{\text{totaal aantal uitkomsten}} = \frac{1}{6}.}$$ <br>
-><br>
+> $${\displaystyle P(\text{uitkomst is }4) = {\displaystyle \frac{\text{aantal uitkomsten met een 4}}{\text{totaal aantal uitkomsten}} = \frac{1}{6}.}$$ 
+>
 
 Dit is de kans voor een normale eerlijke dobbelsteen. Met eerlijk bedoelen we hier dat de dobbelsteen niet gemanipuleerd is en dat elk vlak van de dobbelsteen evenveel kans heeft om boven te eindigen. 
 
@@ -40,19 +40,19 @@ De kans om nu een 4 te gooien is groter dan met een normale eerlijke dobbelsteen
 
 > **Voorbeeld** Als we de kans nu berekenen voor de speciale dobbelsteen met vlakken {1,2,2,3,4,4} dan is de kans om vier te gooien: 
 > <br>
-> $$\displaystyle{P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totale aantal uitkomsten}} = \frac{2}{6}.}$$ <br>
+> $${ \displaystyle P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totale aantal uitkomsten}} = \frac{2}{6}.}$$ 
 >
 
 En stel nu dat we een normale dobbelsteen hebben die gemanipuleerd is? Dan zal de kans om een 4 te gooien anders zijn. Een goede manier om dan de kans te bepalen is met behulp van de **Frequentist** formule. 
 De algemene formule voor de **Frequentist definitie** van kans is: <br><br>
 
-$${ P(\text{uitkomst A}) = \lim_{n \to \infty} \frac{\text{aantal uitkomsten A}}{n}.}$$
+$${\displaystyle P(\text{uitkomst A}) = \lim_{n \to \infty} \frac{\text{aantal uitkomsten A}}{n}.}$$
 
 Waarbij we het aantal malen dat we uitkomst A krijgen uit ons experiment delen door het totaal aantal metingen, $$n$$, dat we hebben verricht. 
 
 In het geval van de dobbelsteen wordt deze formule dan: 
 
-$$\displaystyle{P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}.}$$<br>
+$$\displaystyle{P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}.}$$
 
 Hoe vaker we de dobbelsteen gooien des te nauwkeuriger kunnen we de kans dat we een 4 gooien, bepalen.
 
