@@ -29,7 +29,7 @@ Een kans van 1 zegt dat het **zeker** zal gebeuren en een kans van 0 dat het **z
 Wat is de kans dat je een 4 gooit als je de dobbelsteen 1 keer gooit? 
 Voor een normale dobbelsteen kunnen we deze kans uitrekenen met behulp van de volgende formule: <br>
 ><br>
-> $$ P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totaal aantal uitkomsten}} = \frac{1}{6}$$ <br>
+> $$\displaystyle{P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totaal aantal uitkomsten}} = \frac{1}{6}.}$$ <br>
 ><br>
 
 Dit is de kans voor een normale eerlijke dobbelsteen. Met eerlijk bedoelen we hier dat de dobbelsteen niet gemanipuleerd is en dat elk vlak van de dobbelsteen evenveel kans heeft om boven te eindigen. 
@@ -39,19 +39,19 @@ Stel nu dat we een speciale, maar wel eerlijke, dobbelsteen zouden hebben met de
 De kans om nu een 4 te gooien is groter dan met een normale eerlijke dobbelsteen. Dit werken we uit in het volgende voorbeeld.
 
 > **Voorbeeld** Als we de kans nu berekenen voor de speciale dobbelsteen met vlakken {1,2,2,3,4,4} dan is de kans om vier te gooien: 
-> 
-> $$P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totale aantal uitkomsten}} = \frac{2}{6}$$ <br>
+> <br>
+> $$\displaystyle{P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totale aantal uitkomsten}} = \frac{2}{6}.}$$ <br>
 >
 
 En stel nu dat we een normale dobbelsteen hebben die gemanipuleerd is? Dan zal de kans om een 4 te gooien anders zijn. Een goede manier om dan de kans te bepalen is met behulp van de **Frequentist** formule. 
 De algemene formule voor de **Frequentist definitie** van kans is: <br><br>
-$$P(\text{uitkomst A}) = \lim_{n \to \infty} \frac{\text{aantal uitkomsten A}}{n}.$$<br><br>
+$$\displaystyle{P(\text{uitkomst A}) = \lim_{n \to \infty} \frac{\text{aantal uitkomsten A}}{n}.}$$<br><br>
 
 Waarbij we het aantal malen dat we uitkomst A krijgen uit ons experiment delen door het totaal aantal metingen, $$n$$, dat we hebben verricht. 
 
 In het geval van de dobbelsteen wordt deze formule dan: 
 
-$$P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}$$<br>
+$$\displaystyle{P(4) = lim_{n \to \infty} \frac{\text{uitkomst is 4}}{\text{totaal aantal worpen}}.}$$<br>
 
 Hoe vaker we de dobbelsteen gooien des te nauwkeuriger kunnen we de kans dat we een 4 gooien, bepalen.
 
@@ -133,7 +133,7 @@ Dit zijn in totaal 52 kaarten verdeeld over 2 kleuren: rood en zwart. We trekken
 > **Voorbeeld 4 - de en-regel:** <br>
 >
 > - De kans dat je een 3 trekt die ook een rode kaart is kunnen we uitrekenen met: <br>
-> $$P(\text{rood en }3) = P(\text{rood}) \cdot P(3) =  1/2 \cdot 4/52 = 2/52$$<br>
+> $$\displaystyle{P(\text{rood en }3) = P(\text{rood}) \cdot P(3) =  1/2 \cdot 4/52 = 2/52.}$$<br>
 > Er zijn maar twee rode 3 kaarten in het dek, dus dat klopt. Er zijn evenveel rode drie kaarten als zwarte drie kaarten en daarom mag je ze in dit geval vermenigvuldigen. De uitkomsten zijn onafhankelijk. <br>
 > - De kans dat je een 9♥ en een A♣ trekt. Deze kansen zijn niet onafhankelijk. Als je een 9♥ trekt, zegt dat al direct iets over de kans dat deze kaart ook een A♣ is (die is namelijk gereduceerd tot 0). Hier kunnen we de en-regel dus niet toepassen.
 
