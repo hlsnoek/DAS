@@ -102,7 +102,7 @@ Voor unimodale symmetrische distributies ligt het gemiddelde, de mediaan en de m
 
 ## Spreiding van data
 
-De spreiding geeft een beeld van de mate waarin datapunten in een set verspreid zijn. Er zijn verschillende maten om de spreiding van een dataset mee aan te geven. Hieronder zullen we **de spreidingsbreedte ** (ook wel de *range*), **de variantie**, **coëfficiënt van variantie** en **de standaardafwijking** (ook wel de *standaarddeviatie*) bespreken. 
+De spreiding geeft een beeld van de mate waarin datapunten in een set verspreid zijn. Er zijn verschillende maten om de spreiding van een dataset mee aan te geven. Hieronder zullen we **de spreidingsbreedte** (ook wel de *range*), **de variantie**, **coëfficiënt van variantie** en **de standaardafwijking** (ook wel de *standaarddeviatie*) bespreken. 
 
 ### Spreidingsbreedte (range)
 

@@ -128,3 +128,15 @@ resultaat gelijk aan $$2.00 \times 3.5 = 7.0$$ (twee significante cijfers).
 > Tellen we bijvoorbeeld $$1.23$$ op bij $$0.1$$ dan is het resultaat 
 $$1.23 + 0.1 = 1.3 .$$ 
 
+- Bij het vermenigvuldigen of delen van constante waardes (zoals $$\pi, e, 100\%$$ of $$1$$) dan verandert de significantie niet. En bij optellen of aftrekken bij constante waardes verandert het aantal decimalen niet. 
+
+> **Voorbeeld**
+> We berekenen het complement van de winkans van $$5.3\%$$ en vinden de kans om te verliezen:<br>
+>  $$100\% - 5.3\% = 94.7\%$$.
+>  (Want, het is een optelling en we behouden dus het aantal decimalen van de winkans.)
+<br>
+
+> **Voorbeeld**
+> We meten de straal van een cirkel $$r = 3.15$$ m en berekenen de omtrek.<br>
+> omtrek = $$2 \cdot \pi r = 2 \cdot \pi \cdot 3.15$$ m $$= 19.8$$ m <br>
+>  (Want, $$r$$ heeft 3 significante getallen, dan moet de omtrek dat ook hebben.)
