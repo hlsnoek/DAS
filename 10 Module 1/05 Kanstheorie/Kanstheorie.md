@@ -27,8 +27,8 @@ Een kans van 1 zegt dat het **zeker** zal gebeuren en een kans van 0 dat het **z
 
 >  **Voorbeeld** We kijken naar een dobbelsteen. 
 Wat is de kans dat je een 4 gooit als je de dobbelsteen 1 keer gooit? 
-Voor een normale dobbelsteen kunnen we deze kans uitrekenen met behulp van de volgende formule: <br>
-><br>
+Voor een normale dobbelsteen kunnen we deze kans uitrekenen met behulp van de volgende formule: 
+>
 > $${\displaystyle P(\text{uitkomst is }4) = {\displaystyle \frac{\text{aantal uitkomsten met een 4}}{\text{totaal aantal uitkomsten}} = \frac{1}{6}.}}$$ 
 >
 
@@ -39,7 +39,7 @@ Stel nu dat we een speciale, maar wel eerlijke, dobbelsteen zouden hebben met de
 De kans om nu een 4 te gooien is groter dan met een normale eerlijke dobbelsteen. Dit werken we uit in het volgende voorbeeld.
 
 > **Voorbeeld** Als we de kans nu berekenen voor de speciale dobbelsteen met vlakken {1,2,2,3,4,4} dan is de kans om vier te gooien: 
-> <br>
+> 
 > $${ \displaystyle P(\text{uitkomst is }4) = \frac{\text{aantal uitkomsten met een 4}}{\text{totale aantal uitkomsten}} = \frac{2}{6}.}$$ 
 >
 
