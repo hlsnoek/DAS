@@ -11,7 +11,7 @@ We hebben een opstelling gemaakt waarmee we steeds per tijdsinterval van 2 minut
 
 <!--XX als het nog lukt een plaatje maken-->
 
-> - **M1.5a) Welke kansverdeling volgt de onzekerheid op de telling van de Geiger-Müller telbuis? Als we bijvoorbeeld N counts hebben gemeten, hoe groot is dan de onzekerheid op de centrale waarde N? Beredeneer je antwoord.**
+> - **M1.5a) Welke kansverdeling volgt de onzekerheid op de telling van de Geiger-Müller telbuis? Als we bijvoorbeeld N counts hebben gemeten, hoe groot is dan de onzekerheid op de centrale waarde N? Geef de formule en beredeneer je antwoord.**
 
 De intensiteit van de $$\gamma$$-bron, $$I(d)$$, hangt af van de dikte van het lood (in cm) dat tussen de bron en de telbuis is geplaatst. Deze volgt de volgende vergelijking:
 

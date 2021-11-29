@@ -12,7 +12,7 @@ We beginnen met het maken van een Gaussische dataset $$\text{dg}(x)$$ met 500 pu
 
 Deze regel code vind je in het `M1.3_Eigenschappen.py` bestand.
 
-> Schrijf een functie die de volgende statistieken uitrekent voor deze meetwaardes in de dataset:
+> Schrijf een functie die de volgende statistieken uitrekent voor de dataset:
 > 
 > - het gemiddelde
 > - de mediaan
