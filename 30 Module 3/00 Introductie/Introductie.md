@@ -3,7 +3,7 @@
 
 Deze week gaan we kijken naar het begrip lineaire regressie. Hoe kunnen we een functie fitten aan een set meetwaardes. Er komen verschillende concepten aan bod. 
 
-Allereerst gaan we kijken waarom we meeste verdelingen die we tegenkomen Normaal verdeeld zijn. Hiervoor behandelen we de [centrale limietstelling](/module-3/de-centrale-limietstelling). Daarna gaan we kijken naar de [kleinste kwadraten methode](/module-3/kleinste-kwadraten) en de [$$\chi^2$$](/module-3/chi-2) verdeling. Uiteindelijk introduceren we ook methodes om [hypotheses](/module-3/hypothese-toetsen) te toetsen. 
+Allereerst gaan we kijken waarom de meeste verdelingen die we in de natuur tegenkomen Normaal verdeeld zijn. Hiervoor behandelen we de [centrale limietstelling](/module-3/de-centrale-limietstelling). Daarna gaan we kijken naar de [kleinste kwadraten methode](/module-3/kleinste-kwadraten) en de [$$\chi^2$$](/module-3/chi-2) verdeling. Uiteindelijk introduceren we ook methodes om [hypotheses](/module-3/hypothese-toetsen) te toetsen. 
 
 <!--COMMENT\iffalse-->
 
