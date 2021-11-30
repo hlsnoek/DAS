@@ -61,5 +61,4 @@ Dit pakket kun je downloaden op de website van [Microsoft](https://code.visualst
 
 Nu je zowel Anaconda als Visual Studio Code hebt geïnstalleerd, kunnen we gaan kijken of alles werkt. Volg de voorbeelden uit de video:
 
-![embed](https://player.vimeo.com/video/287248505)
 
