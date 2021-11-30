@@ -6,7 +6,7 @@ Waarschijnlijk heb je eerder al, bijvoorbeeld bij Inleiding Programmeren, je eig
 
 Hieronder staan instructies om een nieuwe python omgeving te maken in anaconda waarin we in dit vak gaan werken. Hierbij hoort ook een testfile om te kijken of alle pakketten goed zijn geïnstalleerd. 
 
-Mocht je nog helemaal geen installatie hebben dan vind je onderaan de pagina instructies om Anaconda en Visual Studio code te installeren. Hou er wel rekening mee dat we voor dit vak voorkennis van programmeren verwachten. 
+Mocht je nog helemaal geen installatie hebben dan vind je onderaan de pagina instructies om Anaconda en Visual Studio code te installeren. Houd er wel rekening mee dat we voor dit vak voorkennis van programmeren verwachten. 
 
 ## De DAS omgeving
 Als je nog geen Anaconda hebt geïnstalleerd, doe dat dan eerst met de instructies onderaan de pagina, en kom dan hier terug. 
@@ -23,8 +23,7 @@ Als je nog geen Anaconda hebt geïnstalleerd, doe dat dan eerst met de instructi
 > 			conda create -n das matplotlib numpy lmfit -c conda-forge 
 > 
 > 3. **Activeer je nieuwe conda omgeving**<br>
->  - Als je in Visual Studio werkt dan activeer je de conda omgeving door eerst een *Command Palette* te openen met (⇧⌘P) in MacOS en (Ctrl+Shift+p) in windows. Je typt dan *Python: Select Interpreter*. Scroll dan in de lijst naar beneden om je net gemaakte **das** omgeving te vinden (waarschijnlijk onderaan).
-> 
+>  - Als je in Visual Studio werkt dan activeer je de conda omgeving door eerst een *Command Palette* te openen met (⇧⌘P) in MacOS en (Ctrl+Shift+p) in windows. Je typt dan *Python: Select Interpreter*. Scroll dan in de lijst naar beneden om je net gemaakte **das** omgeving te vinden (waarschijnlijk onderaan).<br>
 >  - Als je in een terminal werkt, dan type je 
 > 
 > 			conda activate das
