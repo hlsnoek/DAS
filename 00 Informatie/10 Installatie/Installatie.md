@@ -23,6 +23,7 @@ Als je nog geen Anaconda hebt geïnstalleerd, doe dat dan eerst met de instructi
 >  Type het volgende commando in: 
 >
 > 			conda create -n das matplotlib numpy lmfit -c conda-forge 
+> 
 > Met dit commando heb je een nieuwe python omgeving gemaakt speciaal voor dit vak. 
 > 
 > 3. **Activeer je nieuwe conda omgeving**<br>
