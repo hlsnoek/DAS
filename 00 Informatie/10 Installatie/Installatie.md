@@ -12,7 +12,7 @@ Mocht je nog helemaal geen installatie hebben dan vind je onderaan de pagina ins
 Als je nog geen Anaconda hebt geïnstalleerd, doe dat dan eerst met de instructies onderaan de pagina, en kom dan hier terug. 
 
 > 1. **Start een terminal**<br> 
-> Je moet eerst een terminal openen. Dit kan op verschillende manieren. 
+> Je moet eerst een terminal openen. Dit kan op verschillende manieren. <br>
 >  - Open Visual Studio Code en type de sneltoets combinatie  Ctrl + \` (tegelijk de Ctrl of command toets met een \`). Je kan ook een terminal openen vanuit het menu.<br>
 >  - MacOS: Applications -> Utilities -> Terminal<br>
 >  - Windows: Start -> Anaconda3 -> Anaconda Prompt
