@@ -4,7 +4,6 @@ from random import seed
 from random import random
 import math as math
 import os
-from scipy.optimize import curve_fit
 from lmfit import models
 
 print('Even controleren of je installatie helemaal werkt... ')
@@ -26,10 +25,7 @@ x = [i for i in range(1,40)]
 def functie(x,a) : 
     return a
 
-start = (0.5)
-popt, pcov = curve_fit(functie,x,p,p0 = start)
+ons_model = models.Model(functie)
 
-f = lambda R, R_u, U_0: R / (R_u + R) * U_0
-mod_spanning = models.Model(f, name="Spanningsdeler")
 
 print('    ... Je bent geslaagd!')

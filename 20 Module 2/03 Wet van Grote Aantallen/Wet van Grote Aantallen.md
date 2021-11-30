@@ -35,6 +35,7 @@ En de verwachtingswaarde van $$S_n$$ is dan:
 $$\displaystyle { E( S_n ) = E( X_1 + X_2 + ... + X_n ) = E(X_1) + E(X_2) + ... + E(X_n).}$$
 
 Omdat we eerder stelden dat elke stochast *dezelfde* onderliggende verdeling betekent dit dat 
+
 $$\mu_{X_1} =\mu_{X_2} = ... = \mu_{X_n} \equiv \mu.$$
 
 
