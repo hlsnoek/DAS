@@ -56,8 +56,3 @@ Let op: kies op Windows altijd de “advanced” installatie en kruis onderstaan
 
 Dit pakket kun je downloaden op de website van [Microsoft](https://code.visualstudio.com/). Ook hier geldt dat je het bestand nog moet uitvoeren en installeren. Je hoeft niks aan te passen aan de installatie-opties. Heb je een Mac? Dan wordt het programma in je Downloads-map gezet. Je kunt het vanuit daar gewoon opstarten, maar je kan het ook even naar de Applications folder verplaatsen.
 
-## Proefrit
-
-Nu je zowel Anaconda als Visual Studio Code hebt geïnstalleerd, kunnen we gaan kijken of alles werkt. Volg de voorbeelden uit de video:
-
-
