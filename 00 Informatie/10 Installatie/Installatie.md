@@ -14,7 +14,9 @@ Als je nog geen Anaconda hebt geïnstalleerd, doe dat dan eerst met de instructi
 > 1. **Start een terminal**<br> 
 > Je moet eerst een terminal openen. Dit kan op verschillende manieren. 
 >  - Open Visual Studio Code en type de sneltoets combinatie  Ctrl + \` (tegelijk de Ctrl of command toets met een \`). Je kan ook een terminal openen vanuit het menu.
+> 
 >  - MacOS: Applications -> Utilities -> Terminal
+> 
 >  - Windows: Start -> Anaconda3 -> Anaconda Prompt
 >
 > 2. **Maak een nieuwe conda omgeving voor DAS**<br>
@@ -25,6 +27,7 @@ Als je nog geen Anaconda hebt geïnstalleerd, doe dat dan eerst met de instructi
 > 
 > 3. **Activeer je nieuwe conda omgeving**<br>
 >  - Als je in Visual Studio werkt dan activeer je de conda omgeving door eerst een *Command Palette* te openen met (⇧⌘P) in MacOS en (Ctrl+Shift+p) in windows. Je typt dan *Python: Select Interpreter*. Scroll dan in de lijst naar beneden om je net gemaakte **das** omgeving te vinden (waarschijnlijk onderaan).
+> 
 >  - Als je in een terminal werkt, dan type je 
 > 
 > 			conda activate das
