@@ -20,10 +20,9 @@ Als je nog geen Anaconda hebt geïnstalleerd, doe dat dan eerst met de instructi
 >  - Windows: Start -> Anaconda3 -> Anaconda Prompt
 >
 > 2. **Maak een nieuwe conda omgeving voor DAS**<br>
-> Type het volgende commando in: 
+> Met het volgende commando heb je een nieuwe python omgeving gemaakt speciaal voor dit vak.  
 >
 > 			conda create -n das matplotlib numpy lmfit -c conda-forge 
-> Met dit commando heb je een nieuwe python omgeving gemaakt speciaal voor dit vak. 
 > 
 > 3. **Activeer je nieuwe conda omgeving**<br>
 >  - Als je in Visual Studio werkt dan activeer je de conda omgeving door eerst een *Command Palette* te openen met (⇧⌘P) in MacOS en (Ctrl+Shift+p) in windows. Je typt dan *Python: Select Interpreter*. Scroll dan in de lijst naar beneden om je net gemaakte **das** omgeving te vinden (waarschijnlijk onderaan).
