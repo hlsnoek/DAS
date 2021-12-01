@@ -69,12 +69,13 @@ De mediaan is een maat voor het midden van de elementen in een gesorteerde datas
 Als we alle datapunten in een dataset sorteren van lage naar hoge waarde, dan is de mediaan de waarde van het element in het midden van de set. Is er sprake van een even aantal elementen dan is de mediaan de gemiddelde waarde van de twee elementen in het midden van de set.
 
 
-> **Voorbeeld** Stel dat we de volgende dataset hebben: <br>
+> **Voorbeeld** Stel dat we de volgende dataset hebben: 
+> 
 > $$X = \{ 13,11,10,14,12,9 \} .$$ 
 > 
 > Het eerste wat we moeten doen om de mediaan te vinden is de dataset sorteren:  
 > 
-> $$\{9,10,11,12,13,14\}$$ . 
+> $$\{9,10,11,12,13,14\}.$$ 
 > 
 > We hebben een dataset met een even aantal datapunten, de mediaan ligt hier dus tussen twee waardes in: 
 > 
