@@ -192,20 +192,24 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 > Het is een even aantal datapunten en de mediaan ligt tussen 53 en 60 in. Dit komt dan uit op 56.5.
 >
 > - De spreidingsbreedte: 
+> 
 > $$285 - (-20) = 305.$$  
 > 
 > - Het gemiddelde: 
+> 
 > $$\mu_Y = \frac{1}{7}\cdot (285-20+31+60+12+53+133) = 79.1$$  
 > 
 > - De standaardafwijking is:
-> $$\sigma_Y^2 = \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 \right.$$
-> $$\left. + (31-79.1)^2 + (60-79.1)^2 + (12-79.1)^2 + \right.$$
-> $$\left.(53-79.1)^2 + (133-79.1)^2 \right] = 8997.6$$
+> $$\begin{aligned}\frac{\Delta V}{|V|} &= \sqrt{\left(\frac{\Delta l}{l}\right)^2+\left(\frac{\Delta b}{b}\right)^2+\left(\frac{\Delta h}{h}\right)^2} \\ &= \sqrt{\left(\frac{0.1}{7.6}\right)^2+\left(\frac{0.2}{4.1}\right)^2+\left(\frac{0.2}{2.0}\right)^2}\\ &= 0.01255 \dots \end{aligned}$$
+> 
+>   $$\begin{aligned} \sigma_Y^2 &= \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 \right. \\
+    & \left. + (31-79.1)^2 + (60-79.1)^2 + (12-79.1)^2 + \right. \\
+    & \left.(53-79.1)^2 + (133-79.1)^2 \right] = 8997.6\\\end{aligned}$$ 
 > geeft $$\sigma_Y = 94.9.$$   
 > 
 > - De variantie $$var_Y$$ = 8997.6. 
 > - De variatiecoëfficiënt  $$c_{v} = 1.20.$$
-
+<br>
 
 >  **Voorbeeld: Een steekproef**
 > 
