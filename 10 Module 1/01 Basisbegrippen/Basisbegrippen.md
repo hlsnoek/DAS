@@ -53,7 +53,10 @@ Hierbij is $$N$$ het aantal elementen in de populatie, en zijn $$x_i,\dots,x_N$$
 
 Je ziet dat het steekproef gemiddelde erg lijkt op de uitdrukking voor het populatiegemiddelde. Het verschil is dat het steekproefgemiddelde niet persé gelijk is aan de verwachtingswaarde van de populatie. Het is wel zo dat, hoe beter de steekproef overeenkomt met de populatie, des te dichter komt het steekproef gemiddelde bij de verwachtingswaarde van de populatie. Met behulp van een goed uitgevoerde steekproef kan het statistische gedrag van een populatie dus benaderd worden.
 
-> **Voorbeeld** Stel je voor dat we de volgende steekproef hebben: $$ X = \{-5,1,14,12,0\} .$$ De gemiddelde waarde voor de data is nu dus 
+> **Voorbeeld** Stel je voor dat we de volgende steekproef hebben: <br>
+> $$ X = \{-5,1,14,12,0\} .$$ 
+> 
+> De gemiddelde waarde voor de data is nu dus 
 > 
 > $$ \bar{x} = \frac{1}{5} \cdot ( -5 + 1+ 14+12+0)= \frac{1}{5} \cdot 22 = 4.4$$
 
@@ -66,14 +69,29 @@ De mediaan is een maat voor het midden van de elementen in een gesorteerde datas
 Als we alle datapunten in een dataset sorteren van lage naar hoge waarde, dan is de mediaan de waarde van het element in het midden van de set. Is er sprake van een even aantal elementen dan is de mediaan de gemiddelde waarde van de twee elementen in het midden van de set.
 
 
-> **Voorbeeld** Stel dat we de volgende dataset hebben: $$X = \{ 13,11,10,14,12,9 \} .$$ <br>
-> Het eerste wat we moeten doen om de mediaan te vinden is de dataset sorteren:  $$\{9,10,11,12,13,14\}$$ . <br>
-> We hebben een dataset met een even aantal datapunten, de mediaan ligt hier dus tussen twee waardes in: $$\frac{(11+12)}{2} = 11.5.$$
+> **Voorbeeld** Stel dat we de volgende dataset hebben: <br>
+> $$X = \{ 13,11,10,14,12,9 \} .$$ 
+> 
+> Het eerste wat we moeten doen om de mediaan te vinden is de dataset sorteren:  
+> 
+> $$\{9,10,11,12,13,14\}$$ . 
+> 
+> We hebben een dataset met een even aantal datapunten, de mediaan ligt hier dus tussen twee waardes in: 
+> 
+> $$\mathrm{de mediaan ~is:~} ~\frac{(11+12)}{2} = 11.5.$$
 
 De mediaan en het gemiddelde *kunnen* dezelfde waarde hebben, maar dat hoeft niet zo te zijn. 
 Voor het voorbeeld hierboven is dat wel het geval (reken maar na). Maar voor de dataset uit het voorbeeld voor het berekenen van het gemiddelde is dit niet zo. Kijk maar!
 
-> **Voorbeeld** We bekijken de steekproef $$ X = \{-5,1,14,12,0\} .$$ Het gemiddelde was berekend op 4.4. We gaan nu kijken waar de mediaan ligt. Eerst sorteren we de dataset: $$ \{ -5,0,1,12,14\}.$$ Dit is een oneven dataset en de mediaan ligt dus op de middelste waarde van de gesorteerde dataset: 1. 
+> **Voorbeeld** We bekijken de steekproef 
+> 
+> $$ X = \{-5,1,14,12,0\} .$$ 
+> 
+> Het gemiddelde was berekend op 4.4. We gaan nu kijken waar de mediaan ligt. Eerst sorteren we de dataset: 
+> 
+> $$ \{ -5,0,1,12,14\}.$$ 
+> 
+> Dit is een oneven dataset en de mediaan ligt dus op de middelste waarde van de gesorteerde dataset: 1. 
 
 
 Voor symmetrische datasets zijn het gemiddelde en de mediaan altijd gelijk aan elkaar, voor asymmetrische datasets is dit niet het geval. Bij een symmetrische dataset is de data precies gespiegeld rond het gemiddelde. Dit is makkelijker uit te leggen aan de hand van datadistributies. We komen hier later op terug.
@@ -199,12 +217,11 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 > 
 > $$\mu_Y = \frac{1}{7}\cdot (285-20+31+60+12+53+133) = 79.1$$  
 > 
-> - De standaardafwijking is:
-> $$\begin{aligned}\frac{\Delta V}{|V|} &= \sqrt{\left(\frac{\Delta l}{l}\right)^2+\left(\frac{\Delta b}{b}\right)^2+\left(\frac{\Delta h}{h}\right)^2} \\ &= \sqrt{\left(\frac{0.1}{7.6}\right)^2+\left(\frac{0.2}{4.1}\right)^2+\left(\frac{0.2}{2.0}\right)^2}\\ &= 0.01255 \dots \end{aligned}$$
-> 
->   $$\begin{aligned} \sigma_Y^2 &= \frac{1}{7} \cdot \left[ (285-79.1)^2 + (-20-79.1)^2 \right. \\
-    & \left. + (31-79.1)^2 + (60-79.1)^2 + (12-79.1)^2 + \right. \\
-    & \left.(53-79.1)^2 + (133-79.1)^2 \right] = 8997.6\\\end{aligned}$$ 
+> - De standaardafwijking is: <br>
+>   $$\begin{aligned} \sigma_Y^2 =  \frac{1}{7} \cdot &   \left[ (285-79.1)^2 + (-20-79.1)^2 \right. \\
+    & \left. + ~(31-79.1)^2 + (60-79.1)^2 + (12-79.1)^2  \right. \\
+    &  \left. + ~(53-79.1)^2 + (133-79.1)^2 \right] = 8997.6 \\ 
+    \end{aligned}$$ <br>
 > geeft $$\sigma_Y = 94.9.$$   
 > 
 > - De variantie $$var_Y$$ = 8997.6. 
@@ -213,7 +230,7 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 
 >  **Voorbeeld: Een steekproef**
 > 
-> Stel we hebben een steekproef gedaan van de lengte van eerstejaars studenten. De volgende dataset is hiervoor verzameld: 
+> Stel we hebben een steekproef gedaan van de lengte van eerstejaars studenten. De volgende dataset is hiervoor verzameld: <br>
 > 
 > $$L = \{ 1.90 ~\text{m}; 1.72 ~\text{m}; 1.61~\text{m}; 1.84~\text{m}; 1.79~\text{m} \}.$$ 
 > 
@@ -225,9 +242,9 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 > - Het gemiddelde $$\bar{L} = 1.77$$ m.  
 > - De variantie is:  
 > 
-> $$s^2 = \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 \right.$$
-> $$\left.+ (1.61-1.77)^2 + (1.84-1.77)^2 + (1.79-1.77)^2 \right]$$
-> $$ = 0.0100 \text{m}^2$$  
+> $$\begin{aligned} s^2 = & \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 \right. \\
+> & \left. +~ (1.61-1.77)^2 + (1.84-1.77)^2 + (1.79-1.77)^2 \right] \\
+>  = & ~ 0.0100 ~\text{m}^2 \end{aligned}$$  
 > 
 > - De standaardafwijking is $$ s = 0.10$$ m.  
 > - De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$d
