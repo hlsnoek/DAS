@@ -25,7 +25,7 @@ fig_d1 = plt.figure('Poisson Distributies')
 
 
 ##  Hiermee laat je de grafiek uiteindelijk zien.
-fig_d1.show()
+plt.show()
 
 
 ### ---  Deel twee Uniforme distributies:

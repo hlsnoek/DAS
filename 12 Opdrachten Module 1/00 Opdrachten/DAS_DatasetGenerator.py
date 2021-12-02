@@ -132,7 +132,6 @@ def GroteAantallenStdGenerator() :
     checkSD()
     N = [1,2,5,10,60]
     sigma = (random_getal%100)/10. + 1
-    print(sigma)
     std = [np.random.normal(sigma/np.sqrt(ni),sigma/np.sqrt(ni)/np.sqrt(200)) for ni in N]
     std_err = [s/np.sqrt(200) for s in std]
     return 1/np.sqrt(N),std,std_err
