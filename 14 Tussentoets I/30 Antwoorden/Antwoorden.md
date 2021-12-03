@@ -14,7 +14,7 @@ Lees goed het [lijstje](/tussentoets-i/inhoud) door ter voorbereiding voor de tu
 Bereken nu opnieuw het gemiddelde, de standaardafwijking en de variantie waarbij je de leeftijd van de docent ook meeneemt. <br>
 <span style = "color: blue"> Het gemiddelde is 21.6 jaar, de mediaan is 19.4 jaar,  
 de standaardafwijking is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.   
-NB Zie je dat het gemiddelde niet veel groter is geworden maar de standaardafwijking en de variantie wel?</span>
+**NB** Zie je dat het gemiddelde niet veel groter is geworden maar de standaardafwijking en de variantie wel?</span>
 
 -----
 
@@ -40,7 +40,7 @@ NB Meestal weten we het echte gemiddelde niet en kunnen dan ook de fout niet exa
 
 -----
 
-**5** We hebben een zak met gekleurde snoepjes met een tekst erop. Er zijn 6 blauwe snoepjes en 4 rode. Er bestaan drie teksten: "Joepie", "Hoera!" en "Gefeliciteerd". De kans verdeling onder de rode snoepjes is P(Joepie) = 0.5 en P(Hoera) = 0.5. Er zijn geen rode snoepjes met gefeliciteerd. <br>
+**5** We hebben een zak met gekleurde snoepjes met een tekst erop. Er zijn 6 blauwe snoepjes en 4 rode. Er bestaan drie teksten: "Joepie", "Hoera!" en "Gefeliciteerd". De kansverdeling onder de rode snoepjes is P(Joepie) = 0.5 en P(Hoera) = 0.5. Er zijn geen rode snoepjes met gefeliciteerd. <br>
 **a** Als je een snoepje uit de zak pakt, wat is de kans dat je een rood snoepje pakt?<br>
 <span style = "color: blue">4/10 = 0.4 </span><br>
 **b** Als je een snoepje uit de zak pakt, wat is dan de kans dat je een rood snoepje pakt met de tekst Joepie?<br>
@@ -83,9 +83,9 @@ $${\displaystyle P(k=6;n=10,p=1/6) = \frac{10!}{6!(4)!} (1/6)^6 (5/6)^{4} = 0.00
 
 -----
 
-**10** Een raketschild houdt 99% van de raketten tegen. <br>
+**10** Een raketschild houdt 99.0% van de raketten tegen. <br>
 **a** Als door de tegenstander 20 raketten worden afgevuurd, wat is dan de kans dat het raketschild alle 20 tegen houdt? <br>
-<span style = 'color:blue'>$$P = 0.99^{20} =  0.82$$</span><br>
+<span style = 'color:blue'>$$P = 0.990^{20} =  0.818$$</span><br>
 **b** Als er 50 raketten worden afgevuurd door de tegenstander, hoeveel raketten worden er dan gemiddeld tegengehouden? <br>
 <span style = 'color:blue'>$$E = 50\cdot 0.99 = 49.5$$</span>
 
@@ -95,7 +95,7 @@ $${\displaystyle P(k=6;n=10,p=1/6) = \frac{10!}{6!(4)!} (1/6)^6 (5/6)^{4} = 0.00
 **11** In een call-center komen gemiddeld 100 telefoontjes per dag. <br>
 **a** Wat is de verwachte onzekerheid op het aantal telefoontjes per dag?<br>
 <span style = 'color:blue'>Gebruik de Poisson verdeling: $$\sigma = \sqrt{100} = 10$$.</span><br>
-**b** Als er op een dag 70 telefoontjes binnenkomen. Is dat gek?<br>
+**b** Op een dag komen maar 70 telefoontjes binnenkomen. Is dat gek?<br>
 <span style = 'color:blue'>100-70/10 = 3 $$ \sigma $$ Het is zeker uitzonderlijk het ligt $$3\sigma$$ van het gemiddelde af.</span>
 
 -----
@@ -111,6 +111,6 @@ $${\displaystyle P(k=6;n=10,p=1/6) = \frac{10!}{6!(4)!} (1/6)^6 (5/6)^{4} = 0.00
 **13** We verwachten op een dag gemiddeld 4.3 poststukken bij een klein bedrijf. <br>
 **a** Op een dag komen er wel 7 binnen. Reken de kans uit dat dit gebeurt. <br>
 <span style = 'color:blue'>$$P(k=7;\lambda=4.3) =0.073$$</span><br>
-**b** Reken de kans uit dat er 0 binnenkomen. <br>
+**b** Reken de kans uit dat er op een dag 0 binnenkomen. <br>
 <span style = 'color:blue'>$$P(k=0;\lambda=4.3) =0.014$$</span><br>
 

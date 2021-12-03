@@ -40,7 +40,7 @@ de standaardafwijking is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 
 -----
 
-**5** We hebben een zak met gekleurde snoepjes met een tekst erop. Er zijn 6 blauwe snoepjes en 4 rode. Er bestaan drie teksten: "Joepie", "Hoera!" en "Gefeliciteerd". De kans verdeling onder de rode snoepjes is P(Joepie) = 0.5 en P(Hoera) = 0.5. Er zijn geen rode snoepjes met gefeliciteerd. <br><br>
+**5** We hebben een zak met gekleurde snoepjes met een tekst erop. Er zijn 6 blauwe snoepjes en 4 rode. Er bestaan drie teksten: "Joepie", "Hoera!" en "Gefeliciteerd". De kansverdeling onder de rode snoepjes is P(Joepie) = 0.5 en P(Hoera) = 0.5. Er zijn geen rode snoepjes met gefeliciteerd. <br><br>
 **a** Als je een snoepje uit de zak pakt, wat is de kans dat je een rood snoepje pakt?<br>
 
 **b** Als je een snoepje uit de zak pakt, wat is dan de kans dat je een rood snoepje pakt met de tekst Joepie?<br>
@@ -81,7 +81,7 @@ de standaardafwijking is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 
 -----
 
-**10** Een raketschild houdt 99% van de raketten tegen. <br>
+**10** Een raketschild houdt 99.0% van de raketten tegen. <br>
 
 **a** Als door de tegenstander 20 raketten worden afgevuurd, wat is dan de kans dat het raketschild alle 20 tegen houdt? <br>
 
@@ -95,7 +95,7 @@ de standaardafwijking is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 
 **a** Wat is de verwachte onzekerheid op het aantal telefoontjes per dag?<br>
 
-**b** Als er op een dag 70 telefoontjes binnenkomen. Is dat gek?<br>
+**b** Op een dag komen maar 70 telefoontjes binnenkomen. Is dat gek?<br>
 
 
 -----
@@ -113,7 +113,7 @@ de standaardafwijking is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.
 
 **a** Op een dag komen er wel 7 binnen. Reken de kans uit dat dit gebeurt. <br>
 
-**b** Reken de kans uit dat er 0 binnenkomen. <br>
+**b** Reken de kans uit dat er op een dag 0 binnenkomen. <br>
 
 
 

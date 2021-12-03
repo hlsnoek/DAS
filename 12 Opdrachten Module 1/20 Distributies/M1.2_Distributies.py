@@ -28,11 +28,6 @@ fig_d1 = plt.figure('Poisson Distributies')
 plt.show()
 
 
-### ---  Deel twee Uniforme distributies:
-
-
-
-
 # Een nieuw figure aanmaken (zodat je ze allebei kan plotten)
 fig_du = plt.figure('Uniforme Distributie')
 #Hier je plots maken
