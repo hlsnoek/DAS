@@ -119,8 +119,8 @@ Voor het kiezen van het juiste aantal significante cijfers zijn er een aantal re
 - Bij het vermenigvuldigen of delen van getallen krijgt het resultaat de significantie van het oorspronkelijke getal dat de laagste significantie had. 
 
 > **Voorbeeld**
-> Vermenigvuldigen we bijvoorbeeld $$2.00$$ (drie significante cijfers) met $$3.5$$ (twee significante cijfers) dan is het 
-resultaat gelijk aan $$2.00 \times 3.5 = 7.0$$ (twee significante cijfers). 
+> Vermenigvuldigen we bijvoorbeeld $$20.5$$ (drie significante cijfers) met $$3.5$$ (twee significante cijfers) dan is het 
+resultaat gelijk aan $$20.5 \times 3.5 = 72$$ (twee significante cijfers). 
 
 - Bij het optellen of aftrekken van getallen heeft het resultaat niet meer cijfers achter de decimale punt dan het gegeven met het minste aantal cijfers achter de decimale punt. 
 
