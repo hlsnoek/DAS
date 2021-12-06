@@ -21,7 +21,7 @@ We hebben hier gebruik gemaakt van een *list comprehension*. Dat is een verkorte
 
 Je hebt nu een **`list`** die **`datasets`** heet met 100 items. Elke item in **`datasets`** is op zichzelf een lijst met 80 meetwaardes.
 		
-> - **M2.1a) Maak nu eerst een histogram van *alle eerste* elementen, $$m_1$$, van de 100 datasets. Zorg dat je histogram er netjes uitziet.** 
+> - **M2.1a) Maak nu eerst een histogram van *alle eerste* elementen, $$m_1$$, van de 100 datasets. Zorg dat je histogram er netjes uitziet.** <br>
 > Tip: Kijk eens of je hier een *list comprehension* voor kunt gebruiken. Welke index heeft het eerste element van een lijst in python?
 ><br><br>
 > - **M2.1b) Wat is het gemiddelde, $$g_1$$, en de standaardafwijking $$s_1$$ van dit histogram? Denk bij het noteren aan de eenheden en de juiste notatie!** 
@@ -30,7 +30,7 @@ Je hebt nu een **`list`** die **`datasets`** heet met 100 items. Elke item in **
 We nemen nu uit elke ton een steekproef van 10 kogels. We berekenen eerst het gemiddelde $$g_{10}$$ per steekproef, daarna bepalen we het gemiddelde van het gemiddelde. 
 
 
-> - **M2.1c) Bereken voor elk van de 100 datasets het gemiddelde over de eerste 10 metingen en laat de distributie van deze gemiddeldes $$g_{10}$$ zien in een histogram.** 
+> - **M2.1c) Bereken voor elk van de 100 datasets het gemiddelde over de eerste 10 metingen en laat de distributie van deze gemiddeldes $$g_{10}$$ zien in een histogram.**<br> 
 > Tip: Denk hierbij aan de functie die je al voor M1.4 hebt geschreven.
 
 Je ziet nu duidelijk dat niet elke steekproef hetzelfde gemiddelde oplevert. Er is een bepaalde spreiding van de gemiddeldes $$g_{10}$$ die we hebben berekend. De distributie van gemiddeldes heeft dus zelf ook weer een gemiddelde en een spreiding. 
