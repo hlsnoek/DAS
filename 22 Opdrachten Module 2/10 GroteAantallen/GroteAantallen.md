@@ -6,16 +6,16 @@ In deze opgave begonnen we met een ton met 80 kogels en berekenden we  het gemid
 Voordat je verder gaat, controleer eerst even in ANS of je dit goed hebt gedaan en corrigeer eventueel je fouten. 
 
 We gaan nu naar meerdere tonnen kijken, steeds met 80 kogels en uit dezelfde fabriek. 
-We gaan steeds de waardes van $$g_n$$ opnieuw berekenen, voor elke ton weer. We gaan het effect van de grootte van een steekproef bekijken. Eerst nemen we een steekproef van 10 kogels uit elke ton en gaan we daar het gemiddelde van bepalen. Daarna vergroten we de steekproef en kijken we hoe het gemiddelde verandert. Hierbij zijn we vooral benieuwd hoe groot de steekproef meot zijn om dicht bij het populatiegemidelde te komen. 
+We gaan steeds de waardes van $$g_n$$ opnieuw berekenen, voor elke ton weer. We gaan het effect van de grootte van een steekproef bekijken. Eerst nemen we een steekproef van 10 kogels uit elke ton en gaan we daar het gemiddelde van bepalen. Daarna vergroten we de steekproef en kijken we hoe het gemiddelde verandert. Hierbij zijn we vooral benieuwd hoe groot de steekproef moet zijn om dicht bij het populatiegemiddelde te komen. 
 
 We gaan er in deze opgave stap voor stap doorheen.
 
  
-> - Maak eerst 100 verschillende datasets. Elke dataset is een ton met 80 kogels. Dit kan je doen door steeds een andere seed mee te geven aan de datasetgenerator: 
+> - Maak eerst 100 verschillende datasets. Elke dataset is een ton met 80 kogels. Dit kan je doen door steeds een andere seed mee te geven aan de dataset generator: 
 >	
 >		datasets = [ds.DataSetGroteAantallen(i) for i in range(0,100)]
 >
-> De seed zorgt ervoor dat de datasets verschillend zijn van mekaar.
+> De seed zorgt ervoor dat de datasets verschillend zijn.
 
 We hebben hier gebruik gemaakt van een *list comprehension*. Dat is een verkorte manier van het toepassen van een *for* statement waarbij het resultaat direct de gewenste lijst oplevert zonder dat de commando's *extend* of *append* nodig zijn. Als je hier meer over wilt weten dan vind je op het internet veel voorbeelden, bijvoorbeeld [hier](https://www.w3schools.com/python/python_lists_comprehension.asp). 
 
