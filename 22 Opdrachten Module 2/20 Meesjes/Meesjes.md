@@ -8,7 +8,7 @@ Er zijn [manieren](https://www.tuinvogeltelling.nl/herkenningstips/?tip=17) om p
 Voordat we aan deze opdracht beginnen moeten we eerst een nieuwe versie downloaden van de [DAS_DatasetGenerator.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/DAS_DatasetGenerator.py). Zonder de nieuwe versie werkt deze opgave niet. Download ook het bestand [M2.2_Meesjes.py](https://das.mprog.nl/course/22%20Opdrachten%20Module%202/20%20Meesjes/M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand.
 
 
-We genereren eerst een twee datasets met behulp van de volgende regel code: 
+We genereren eerst twee datasets met behulp van de volgende regel code: 
 
 	m_km, span_km, m_pm, span_pm = ds.datasetVogeltjes()
 	
@@ -24,10 +24,10 @@ Voor de twee variabelen van de pimpelmeesjes geldt precies hetzelfde.
 
 We gaan eerst naar de twee massaverdelingen van de meesjes kijken. 
 
-> - **M2.2a) Plot de massaverdelingen van beide meesjes in een histogram. Laat in een legenda zien welke meesje bij welke kleur hoort. Maak ook een apart histogram waarin je spanwijdtes van de twee soorten meesjes plot. Maak de twee histogrammen netjes af en zorg dat duidelijk is welke distributie bij welk soort meesje hoort.**<br><br>
+> - **M2.2a) Plot de massaverdelingen van beide meesjes in een histogram. Maak een apart histogram waarin je spanwijdtes van de twee soorten meesjes plot.** Laat in een legenda zien welke meesje bij welke kleur hoort. Maak de twee histogrammen netjes af en zorg dat duidelijk is welke distributie bij welk soort meesje hoort.<br><br>
 > TIP: Gebruik de plot optie **`alpha=0.8`** zodat je histogrammen wat doorzichtig worden. Zo kan je het achterste histogram ook nog altijd goed zien.<br><br>
 >  
-> - **M2.2b) Maak een tabel waarin je voor beide soorten meesjes de gemiddeldes, de standaardafwijkingen en de varianties noteert. Let goed op de notatie en denk ook even aan de eenheden.**
+> - **M2.2b) Maak een tabel waarin je voor beide soorten meesjes de gemiddeldes, de standaardafwijkingen en de varianties noteert.** Let goed op de notatie en denk ook even aan de eenheden.
 
 
 We meten nu de massa op van het meesje dat je gevonden hebt. Gebruik de volgende regel code om dat te doen: 
@@ -35,7 +35,6 @@ We meten nu de massa op van het meesje dat je gevonden hebt. Gebruik de volgende
 		mees_m_laag, mees_m_hoog = ds.meetMassaMeesje()
 		
 Je krijgt nu een onderwaarde **`mees_m_laag`** en een bovenwaarde **`mees_m_hoog`** terug. Deze geven de onzekerheid op de meting aan. Het gemiddelde van deze twee is de gemeten massa, de centrale waarde. De waarde van de massa van de mees ligt **zeker** tussen de boven- en onderwaarde in. 
-NB. Als je een foutmelding krijgt dat **`meetMassaMeesje()`** niet bestaat controleer dan of je wel een nieuwe **`DAS_DatasetGenerator.py`** hebt downgeload voor Module 2.
 
 Met deze informatie kunnen we nu met de Frequentist Methode de kans uitrekenen dat onze mees een Koolmeesje is. 
 

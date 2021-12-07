@@ -24,7 +24,7 @@ Je hebt nu een **`list`** die **`datasets`** heet met 100 items. Elke item in **
 > - **M2.1a) Maak nu eerst een histogram van *alle eerste* elementen, $$m_1$$, van de 100 datasets. Zorg dat je histogram er netjes uitziet.** <br>
 > Tip: Kijk eens of je hier een *list comprehension* voor kunt gebruiken. Welke index heeft het eerste element van een lijst in python?
 ><br><br>
-> - **M2.1b) Wat is het gemiddelde, $$g_1$$, en de standaardafwijking $$s_1$$ van dit histogram? Denk bij het noteren aan de eenheden en de juiste notatie!** 
+> - **M2.1b) Wat is het gemiddelde, $$g_1$$, en de standaardafwijking $$s_1$$ van dit histogram? Denk bij het noteren aan de eenheden en de juiste notatie!** Kijk naar je histogram uit M2.1a en controleer of je resultaat overeen komt met je verwachting.
  
  
 We nemen nu uit elke ton een steekproef van 10 kogels. We berekenen eerst het gemiddelde $$g_{10}$$ per steekproef, daarna bepalen we het gemiddelde van het gemiddelde. 
@@ -35,9 +35,9 @@ We nemen nu uit elke ton een steekproef van 10 kogels. We berekenen eerst het ge
 
 Je ziet nu duidelijk dat niet elke steekproef hetzelfde gemiddelde oplevert. Er is een bepaalde spreiding van de gemiddeldes $$g_{10}$$ die we hebben berekend. De distributie van gemiddeldes heeft dus zelf ook weer een gemiddelde en een spreiding. 
 
-> - **M2.1d) Bereken van deze distributie het gemiddelde $$\bar{g_{10}}$$, dit is het gemiddelde van de gemiddeldes $$g_{10}$$. Bereken ook de standaardafwijking van de gemiddeldes $$s_{g_{10}}$$.**
+> - **M2.1d) Bereken van deze distributie het gemiddelde $$\bar{g_{10}}$$, dit is het gemiddelde van de gemiddeldes $$g_{10}$$. Bereken ook de standaardafwijking van de gemiddeldes: $$s_{g_{10}}$$.**
 
-De spreiding van de berekende gemiddeldes kun je in dit geval zien als een maat voor de meetonzekerheid. Immers we zien dat de berekende grootheid ($$g_n$$) niet altijd hetzelfde resultaat geeft. Het berekende resultaat $varieert$. Als mate van de meetonzekerheid nemen we de standaardafwijking van de distributie. 
+De spreiding van de berekende gemiddeldes kun je in dit geval zien als een maat voor de meetonzekerheid. Immers we zien dat de berekende grootheid ($$g_10$$) niet altijd hetzelfde resultaat geeft. Het berekende resultaat $varieert$. Als mate van de meetonzekerheid nemen we de standaardafwijking van de distributie. 
 
 We gaan dit nu herhalen voor met verschillende groottes van de steekproef $$n$$. 
 
