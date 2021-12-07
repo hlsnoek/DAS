@@ -40,7 +40,7 @@ Met deze informatie kunnen we nu met de Frequentist Methode de kans uitrekenen d
 
 > - **M2.2c) Gebruik de dataset `m_km` om de kans uit te rekenen dat je een koolmeesje vindt die een massa heeft die in het gebied `mees_m_laag` en `mees_m_hoog` in ligt. Dit noem je ook wel de voorwaardelijke kans $$P($$`mees_m_laag`$$ < m < $$`mees_m_hoog`$$ \mid \text{koolmees})$$. Voor het gemak noteren we dit even als $$P(m_{\text{obs}} \mid \text{koolmees} )$$. Herhaal dit voor het pimpelmeesje, bereken dus ook $$P(m_{\text{obs}} \mid \text{pimpelmees} )$$.**  
 >
-> - **M2.2d) Als je kijkt naar de uitkomst van M2.2c), wat vogeltje denk je dan dat het is?**
+> - **M2.2d) Als je kijkt naar de uitkomst van M2.2c), wat voor soort vogeltje denk je dat het is? Beredeneer je antwoord.**
 
 De frequentist methode, zoals we die hierboven gebruiken, is uiteindelijk een ratio tussen twee getallen. Deze twee getallen hebben een onzekerheid volgens de Poisson verdeling. 
 
@@ -52,25 +52,25 @@ Je besluit ook de spanwijdte van de mees op te meten. Misschien geeft dat wel me
 		
 De output volgt dezelfde logica als hiervoor.
 
-> - **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen $$ P(w_{\text{obs}} \mid \text{koolmees} )$$ en $$P(w_{\text{obs}} \mid \text{pimpelmees} )$$ uit te rekenen maar nu door (alleen) gebruik te maken van de informatie van de spanwijdtes. Noteer ook de onzekerheden op de uitgerekende kansen.**
+> - **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen $$ P(w_{\text{obs}} \mid \text{koolmees} )$$ en $$P(w_{\text{obs}} \mid \text{pimpelmees} )$$ uit te rekenen maar nu door (alleen) gebruik te maken van de informatie van de spanwijdtes. Noteer ook de onzekerheden op de uitgerekende kansen.**<br><br>
 > 
-> - **M2.2g) Op basis van deze informatie, wat denk je nu dat het voor vogeltje is?**
+> - **M2.2g) Op basis van deze informatie, wat denk je nu dat het voor vogeltje is? Beredeneer je antwoord.**
 
 We kunnen nu natuurlijk ook de gecombineerde informatie gebruiken. Hiervoor gaan we eerst de data visualiseren.
 
 > - **M2.2h) Maak een tweedimensionale scatterplot die de tweedimensionale dataset van de massa versus de spanwijdte voor zowel de pimpelmezen als de koolmezen.**  
-> **TIP** gebruik de opties **`'o',markersize=3, alpha=0.4`** in de plot functie. Zorg dat beide datasets weer hun eigen kleur hebben en vergeet de legenda niet. 
+> **TIP** gebruik de opties **`'o',markersize=3`** in de plot functie. Zorg dat beide datasets weer hun eigen kleur hebben en vergeet de legenda niet. 
 
 Het valt misschien op dat er een verband lijkt te zijn tussen beide variabelen. We gaan daar eerst naar kijken naar [de covariantie](/module-2/meerdimensionale-data) en de correlatie tussen de massa en de spanwijdte voor beide vogelsoorten. 
 
-> - **M2.2i) Bereken de covariantie en de correlatie tussen de massa en de spanwijdte voor zowel de koolmeesje als de pimpelmeesjes meetgegevens.**
+> - **M2.2i) Bereken de covariantie en de correlatie tussen de massa en de spanwijdte voor zowel de koolmeesje als de pimpelmeesjes meetgegevens.**<br><br>
 > 
 >  
-> - **M2.2j) Als je naar de berekende correlaties kijkt wat valt dan op, wat voor verband zit er tussen de twee variabelen? Als je toch even als een Bioloog nadenkt, is dit dan wat je verwacht?**<br><br>
+> - **M2.2j) Als je naar de berekende correlaties kijkt wat valt dan op, wat voor verband zit er tussen de twee variabelen? Als je toch even als een Bioloog nadenkt, is dit dan wat je verwacht? Leg uit.**<br><br>
 
 We gaan terug naar de kansberekeningen. 
 
-> - **M2.2k) Combineer nu de gegevens en bereken de kansen $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} \mid \text{koolmees})}$$ en $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} \mid \text{pimpelmees})}$$.**
+> - **M2.2k) Combineer nu de gegevens en bereken de kansen $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} \mid \text{koolmees})}$$ en $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} \mid \text{pimpelmees})}$$.**<br><br>
 > 
 > - **M2.2l) Welk vogeltje denk je nu dat het is? Beredeneer je antwoord.**
 
