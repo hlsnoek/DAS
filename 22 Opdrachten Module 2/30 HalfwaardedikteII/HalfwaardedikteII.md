@@ -11,9 +11,10 @@ Zodra deze ratio onder de 0.5 komt nemen we $$d$$ als de halfwaardedikte. Hierbi
 
 > - **M2.3a) Wat is de onzekerheid op de ratio R? Bereken deze door gebruik te maken van de onzekerheden op $$N_0$$ en $$N_{half}$$ en de regels voor propagatie van ongecorreleerde fouten ([Deze kan je hier vinden](/module-2/foutenpropagatiei)). Schrijf je berekening helemaal uit.** 
 
-Een **schatter** is een recept om de waarde van een parameter af te schatten. De parameter die we hier willen bepalen is de halwaardedikte van lood (voor de energie van onze bron). De schatter is in dit geval $$d_{half}$$.
+We maken bij het bepalen van de halfwaardedikte gebruik van een recept. 
+Zo'n recept om de waarde van een parameter te bepalen noemen we ook wel een **schatter**. De parameter die we hier willen bepalen is de halwaardedikte van lood (voor de energie van onze bron). De schatter is in dit geval:<br> $$d_{half} = $$ kleinste waarde van $$d$$ waarvoor geldt dat $$R = \frac{N_d}{N_0} < 0.5$$.
 
-Nu gaan we het experiment 50 keer herhalen en gaan we kijken naar de distributie van de gevonden halfwaardediktes. We gaan uit deze distributie de standaardafwijking bepalen en gebruiken dit als onzekerheid op de gevonden dikte $$d_{half}$$.
+We gaan het experiment nu 50 keer herhalen en kijken naar de distributie van de gevonden halfwaardediktes. Uit deze distributie bepalen we de standaardafwijking en gebruiken dit als onzekerheid op de gevonden dikte $$d_{half}$$.
 
 > Schrijf een loop waarin je 50 maal een nieuwe dataset genereert. Uit elk van deze dataset bepaal je een de halfwaardedikte met de ratio-methode. Om 50 unieke dataset te maken moet je steeds de zogeheten ***seed*** veranderen. Dat kan je doen door een seed mee te geven aan de DAS dataset generator:
 > 	
