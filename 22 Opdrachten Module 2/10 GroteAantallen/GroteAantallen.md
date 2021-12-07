@@ -43,7 +43,7 @@ We gaan dit nu herhalen voor met verschillende groottes van de steekproef $$n$$.
 
 > Maak een functie die voor een steekproefgrootte $$n$$ de standaardafwijking van de gemiddeldes $$g_n$$ terug geeft. Bereken hiervoor in de functie voor elk van de 100 datasets het gemiddelde over de eerste $$n$$ metingen. 
 >
-> Roep nu de functie aan voor de volgende waardes van $$n$$: 1, 5, 10, 20, 30, 40, 50, 60, 70, 80. Controleer of de punten voor $$n=1$$ en $$n=10$$ dezelfde resultaten opleveren als dat je net had. 
+> Roep nu de functie aan voor de volgende waardes van $$n$$: 1, 5, 10, 20, 30, 40, 50, 60, 70, 80. Controleer of de punten voor $$n=1$$ en $$n=10$$ dezelfde resultaten opleveren als dat je net had. <br><br>
 >
 > - **M2.1e) Maak nu een grafiek waarin je de berekende standaardafwijking $$s_{g_n}$$ uitzet tegen de grootte van de steekproeven, $$n$$.** <br><br>
 > 
