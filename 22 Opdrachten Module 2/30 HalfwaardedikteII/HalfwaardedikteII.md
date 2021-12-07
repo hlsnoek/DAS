@@ -61,6 +61,6 @@ Nu kun je het gedrag bekijken over meerdere waardes rond de **`d_true`** waarde.
 > - **M2.3g) Zet de gevonden gemiddelde waardes in een grafiek uit tegen de gekozen waardes van `d_input`. Let goed op de leesbaarheid van je grafiek.**<br>
 > Tip: Bedenk hoe je de lezer helpt om makkelijk af te lezen waar de zuivere meting zou liggen (dus als d\_half = d\_input). <br><br>
 >
-> - **M2.3h) Is de onzuiverheid altijd constant of varieert die afhankelijk van de halfwaardedikte?**<br><br>
+> - **M2.3h) Is de onzuiverheid altijd constant of varieert die afhankelijk van de waarde van de halfwaardedikte?**<br><br>
 > 
 > - **M2.3i) In dit geval simuleren we het experiment. Zou je een methode kunnen bedenken om de onzuiverheid van je experiment te onderzoeken bij een echte meting?**
