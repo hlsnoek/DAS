@@ -45,7 +45,7 @@ We gaan dit nu herhalen voor met verschillende groottes van de steekproef $$n$$.
 >
 > Roep nu de functie aan voor de volgende waardes van $$n$$: 1, 5, 10, 20, 30, 40, 50, 60, 70, 80. Controleer of de punten voor $$n=1$$ en $$n=10$$ dezelfde resultaten opleveren als dat je net had. <br><br>
 >
-> - **M2.1e) Maak nu een grafiek waarin je de berekende standaardafwijking $$s_{g_n}$$ uitzet tegen de grootte van de steekproeven, $$n$$.** <br><br>
+> - **M2.1e) Maak nu een grafiek waarin je de berekende standaardafwijking $$s_{g_n}$$ uitzet tegen de grootte van de steekproef, $$n$$.** <br><br>
 > 
 >  
 > - **M2.1f) Maak een nieuwe grafiek waarin je de berekende $$s_{g_n}$$ uitzet tegen $$1/\sqrt{n}$$.**<br><br>
