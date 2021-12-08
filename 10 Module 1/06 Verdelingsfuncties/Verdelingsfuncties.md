@@ -152,7 +152,7 @@ In het figuur hier<!--FIG , Fig. \ref{fig:NormaleDistributie}--> zie je enkele v
 
 ![Normaal-verdeelde kansdichtheidsverdelingen.](NormaleDistributie.png){:width="60%"}
 
-Het is goed om op te merken dat de Normalverdeling een symmetrische continue verdeling is. Bij de Normalverdeling zijn de meeste uitkomst waardes gegroepeerd rond het gemiddelde en hoe meer we van het gemiddelde afwijken, hoe kleiner de kans is dat we een meetwaarde aantreffen.
+Het is goed om op te merken dat de Normaalverdeling een symmetrische continue verdeling is. Bij de Normaalverdeling zijn de meeste uitkomst waardes gegroepeerd rond het gemiddelde en hoe meer we van het gemiddelde afwijken, des kleiner de kans is dat we een meetwaarde aantreffen.
 
 
 Voorbeelden van Normaalverdelingen vinden we overal om ons heen. De verdeling van lichaamslengtes van mensen (of bijvoorbeeld olifanten), de grote van zandkorrels op een strand, de luminositeit van sterren in het melkwegstelsel. 
