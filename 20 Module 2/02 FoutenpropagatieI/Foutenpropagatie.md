@@ -133,7 +133,7 @@ Ofwel de relatieve fout $$\frac{\Delta q}{q}$$ is gelijk aan de kwadratische som
 >
 > We gebruiken de regel dat als $$q = x\cdot y\cdot \dots$$ dan: 
 >
-> $$\frac{\Delta q}{|q|} = \sqrt{\left(\frac{\Delta x}{x}\right)^2 \left(\frac{\Delta y}{y}\right)^2+\left(\frac{\Delta z}{z}\right)^2} $$
+> $$\frac{\Delta q}{|q|} = \sqrt{\left(\frac{\Delta x}{x}\right)^2 +\left(\frac{\Delta y}{y}\right)^2+\left(\frac{\Delta z}{z}\right)^2} $$
 >
 >Dus:
 >

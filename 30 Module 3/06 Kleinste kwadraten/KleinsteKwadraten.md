@@ -18,7 +18,7 @@ Als we een meting doen maken we altijd meetfouten, en als we een schatting doen 
 
 $$b = E(\hat{x}) - \mu$$
 
-Waarbij $$b$$ de onzuiverheid is, $$E(\hat{x})$$ de verwachtingswaarde van de te schattengrootheid en $$\mu$$ het populatiegemiddelde van de te schatten grootheid.
+Waarbij $$b$$ de onzuiverheid is, $$E(\hat{x})$$ de verwachtingswaarde van de te schatten grootheid en $$\mu$$ het populatiegemiddelde van de te schatten grootheid.
 
 
 ## De kleinste-kwadraten methode en $$\chi^2$$

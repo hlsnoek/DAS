@@ -35,8 +35,21 @@ We gaan het experiment nu 50 keer herhalen en kijken naar de distributie van de 
 
  
 We gaan nu kijken hoe zuiver de meting is. 
-De zuiverheid is gedefinieerd als als het verschil tussen de verwachtingswaarde van een schatter en de 'echte' waarde van de te meten parameter. Hoe groter dit verschil, hoe meer onzuiver de meting is. In ons geval is het het dus het verschil tussen de gemiddelde gemeten $$d_{\mathrm{half}}$$ en de 'echte' halfwaardedikte.
+De zuiverheid is gedefinieerd als als het verschil tussen de verwachtingswaarde van een schatter en de 'echte' waarde van de te meten parameter. Het symbool voor de zuiverheid is $$b$$ (van het Engelse bias). De formule van de onzuiverheid is: 
+
+$${\displaystyle b = {\text{gemeten waarde}} − {\text{echte waarde}}}.$$
+ 
+Bijvoorbeeld als het gemiddelde meten van een parameter is de onzuiverheid gedefinieerd als: 
+
+$${\displaystyle b = \overline{x} − \mu}.$$
+
+Waarbij $$\overline{x}$$ het steekproefgemiddelde en $$\mu$$ het populatiegemiddelde is. 
+
+
+Hoe groter dit verschil, hoe meer onzuiver de meting is. In ons geval is het het dus het verschil tussen de gemiddelde gemeten $$d_{\mathrm{half}}$$ en de 'echte' halfwaardedikte.
 Bij gesimuleerde data kunnen we dit onderzoeken. We kunnen de verwachtingswaarde van de schatter vergelijken met de initiële waardes die we hebben gebruikt om in de simulatie de dataset aan te maken.
+
+
 
  
 > Om de zuiverheid van ons experiment te bepalen gaan we dus de bepaalde halfwaardedikte te vergelijken met de initiële halfwaardedikte die gebruikt is om de data te simuleren. Roep hiervoor de volgende functie aan in de dataset generator:
