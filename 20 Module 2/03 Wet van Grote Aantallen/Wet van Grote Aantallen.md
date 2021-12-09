@@ -71,23 +71,26 @@ Precies wat we verwachten. De verwachtingswaarde van de steekproef is gelijk aan
 
 $$\displaystyle{ Var(G_n) = Var\left( \frac{S_n}{n}\right)  = \frac{Var\left( S_n \right)}{n^2}  = \frac{n \cdot \sigma^2}{ n^2} = \frac{\sigma^2}{n}.}$$
 
-Dit betekent dat **de standaardafwijking voor het gemiddelde $$G_n$$** kan worden geschreven als
+> Dit betekent dat **de standaardafwijking voor het gemiddelde $$G_n$$** kan worden geschreven als
+>
+> $$\displaystyle{ s_{(G_n)} = \frac{\sigma}{\sqrt{n}}.}$$
+>
+> Dit is een belangrijk resultaat. Het zegt dat we het gemiddelde van een steekproef steeds beter kennen als we meer metingen verrichten. 
 
-$$\displaystyle{ s_{(G_n)} = \frac{\sigma}{\sqrt{n}}.}$$
 
-Dit is een belangrijk resultaat. Het zegt dat we het gemiddelde van een steekproef steeds beter kennen als we meer metingen verrichten. 
 Denk bijvoorbeeld aan de ton met N kogels waarvan de massa's van de kogels een Normale distributie hebben met een gemiddelde $$\mu$$ en een standaardafwijking $$\sigma$$, de onzekerheid op het bepaalde gemiddelde massa van een steekproef gelijk is aan $$\sigma/\sqrt{n}$$. Hoe meer kogels we wegen en meenemen in het berekende steekproefgemiddelde, hoe nauwkeuriger we dit gemiddelde kennen. 
 
 
 ## De wet van Grote Aantallen
 Intuïtief voelen we aan dat hoe meer metingen we doen, hoe meer informatie we hebben, en hoe nauwkeuriger ons resultaat is. We hebben in de $$\sqrt{n}$$-wet al gezien dat de standaardafwijking op een gemeten stochast afneemt met 1/$$\sqrt{n}$$. We laten nu zien dat we, in de meeste gevallen, ook kunnen verwachten dat de gemeten steekproefgemiddelde steeds meer in de buurt komt van het populatiegemiddelde. 
 
-De **wet van grote aantallen** zegt dat het berekende steekproef gemiddelde, $$<{X}>$$, van een distributie met een eindige variantie, convergeert naar het populatie gemiddelde $$\mu$$ voor steeds grote steekproeven:<br>
+> De **wet van grote aantallen** zegt dat het berekende steekproef gemiddelde, $$<{X}>$$, van een distributie met een eindige variantie, convergeert naar het populatie gemiddelde $$\mu$$ voor steeds grote steekproeven:<br>
+>
+>  $${\displaystyle lim_{n \to \infty} P( \mid \lt X \gt - \mu \mid \gt \epsilon) = 0 } $$
+>
+> Ofwel de kans dat het steekproef gemiddelde meer afwijkt van het populatie gemiddelde dan e en heel klein getal, convergeert naar 0 voor oneindig grote steekproeven. 
 
-$${\displaystyle lim_{n \to \infty} P( \mid \lt X \gt - \mu \mid \gt \epsilon) = 0 } $$
-
-Ofwel de kans dat het steekproef gemiddelde meer afwijkt van het populatie gemiddelde dan een heel klein getal, convergeert naar 0 voor oneindig grote steekproeven. 
-Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan  oneindig grote, of nagenoeg oneindig grote populaties, zoals bijvoorbeeld als je de gemiddelde massa van het electron wilt bepalen. 
+Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan oneindig grote, of nagenoeg oneindig grote populaties, zoals bijvoorbeeld als je de gemiddelde massa van het electron wilt bepalen. 
 
 **Tip:** In deze [video](https://www.youtube.com/watch?v=MntX3zWNWec) wordt de wet van grote aantallen nogmaals duidelijk uitgelegd. 
 
