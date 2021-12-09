@@ -79,3 +79,19 @@ Je hebt de volgende dataset met waardes van x en y: <br>
 Op een zomerse avond zie je rook en waar rook is is vuur. Op een zomerse avond is de kans dat je rook ziet (10%), meestal door gebruik van barbeques. Gevaarlijke branden zijn heel zeldzaam (1%) de kans dat rook bij een gevaarlijke brand vrijkomt is groot (90%). Wat is de kans dat de rook die je ziet van een een gevaarlijk brand afkomt?<br>
 <span style = 'color=blue'>
 Gebruik Bayes theorema om dit uit te rekenen.<br>
+
+## Zuiverheid
+**14.**
+Van een dataset is het populatiegemiddelde en het steekproefgemiddelde bekend. $$\mu = 5.3 $$ kg en $$s = 5.1$$ kg. Bereken de onzuiverheid van de meeting. <br>
+
+ 
+**15.**
+Je meet met een meetlat die 2 cm te kort blijkt te zijn. Wat is de onzuiverheid van de metingen die je verricht? <br>
+
+
+**16.**
+**a** Je weegt de massa van stenen op. De onzuiverheid van de weegschaal is bekend, deze is +42 gram. Je meet een massa van 160 gram. Wat is de daadwerkelijke massa van de steen?<br>
+
+**b**
+Mag je zo'n correctie toepassen?<br>
+

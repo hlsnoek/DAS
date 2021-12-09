@@ -107,3 +107,28 @@ Op een zomerse avond zie je rook en waar rook is is vuur. Op een zomerse avond i
 <span style = 'color:blue'>Gebruik Bayes theorema om dit uit te rekenen.<br>
 $$\displaystyle{ P(\text{gevaarlijke brand} \mid \text{rook}) = \frac{P(\text{rook} \mid \text{gevaarlijke brand})\cdot{P(\text{gevaarlijke brand})}}{P(\text{rook})} }$$
 $$\displaystyle{= \frac{0.9 \times 0.01}{0.10} = 0.09}$$<br></span>
+
+
+## Zuiverheid
+**14.**
+Van een dataset is het populatiegemiddelde en het steekproefgemiddelde bekend. $$\mu = 5.3 $$ kg en $$s = 5.1$$ kg. Bereken de onzuiverheid van de meeting. <br>
+<span style = 'color:blue'>
+De onzuiverheid is: $$b = s - \mu = 5.1 - 5.3$$ kg $$= -0.2$$ kg. 
+</span>
+ 
+**15.**
+Je meet met een meetlat die 2 cm te kort blijkt te zijn. Wat is de onzuiverheid van de metingen die je verricht? <br>
+<span style = 'color:blue'>
+De onzuiverheid  = - 2 cm
+</span> 
+
+**16.**
+**a** Je weegt de massa van stenen op. De onzuiverheid van de weegschaal is bekend, deze is +42 gram. Je meet een massa van 160 gram. Wat is de daadwerkelijke massa van de steen?<br>
+<span style = 'color:blue'>
+de eigenlijke massa van de steen is 160 - 42 = 128 gram.
+</span> <br>
+**b**
+Mag je zo'n correctie toepassen?<br>
+<span style = 'color:blue'>
+Ja, zo'n correctie mag je wel toepassen.
+</span> 
