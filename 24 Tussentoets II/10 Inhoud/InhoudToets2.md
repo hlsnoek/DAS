@@ -1,9 +1,6 @@
 # Voorbereiding op tussentoets 2
 
-De tweede tussentoets vindt plaats aan het einde van het derde hoorcollege. 
-Voor de tussentoets krijg je een half uur de tijd, het werk wordt gemaakt op ANS. Tijdens de tussentoets mag je een gewone rekenmachine gebruiken. 
-
-Hieronder vind je een lijstje met de stof die je moet kennen. Gebruik deze om te kijken of je alle stof hebt bestudeerd die wordt getoetst op de eerste tussentoets. Kijk ook naar de [oefenopgaves](/tussentoets-ii/oefenopgaves) die bij deze tussentoets horen.
+Hieronder vind je een lijstje met de stof die je moet kennen. Gebruik deze om te kijken of je alle stof hebt bestudeerd. Kijk ook naar de [oefenopgaves](/tussentoets-ii/oefenopgaves) die bij deze tussentoets horen.
 
 **Vergeet niet uit de opmerking uit de eerste week: 
 Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet noteren.**
@@ -36,8 +33,8 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 * Begrijpen wanneer je welke regel moet toepassen.
 * Bayes theorema kennen en kunnen toepassen. Bekijk ook de kennisclip op Canvas.
 
-### Overig
-* De definitie van een schatter kennen. Deze vind je in de opgave [M2.3](/opdrachten-module-2/halfwaardedikteii) hier.
+### Schatters en Zuiverheid
+* De definitie van een schatter kennen. Deze vind je in de opgave [M2.3](/opdrachten-module-2/halfwaardedikteii).
 * Weten wat een zuivere of een onzuivere meting is. Zie hiervoor ook het hoorcollege en de opgave M2.3. Ken ook de formule voor onzuiverheid.
 
 

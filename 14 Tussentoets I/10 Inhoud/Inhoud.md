@@ -1,9 +1,6 @@
 # Voorbereiding op tussentoets 1
 
-De eerste tussentoets vindt plaats aan het einde van het tweede college. 
-Tijdens de tussentoets mag je een gewone rekenmachine gebruiken. 
-
-Hieronder vind je een lijstje met de stof die je moet kennen. Gebruik deze om te kijken of je alle stof hebt bestudeerd die wordt getoetst op de eerste tussentoets. Kijk ook naar de [oefenopgaves](/tussentoets-i/oefenopgaves) die bij deze tussentoets horen.
+Hieronder vind je een lijstje met de stof die je moet kennen. Kijk ook naar de [oefenopgaves](/tussentoets-i/oefenopgaves) die bij deze tussentoets horen.
 
 ## Stof checklist
 

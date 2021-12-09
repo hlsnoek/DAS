@@ -8,8 +8,13 @@ Lees goed het [lijstje](/tussentoets-iii/inhoud) door ter voorbereiding voor de 
 
 **1** We hebben de volgende meetpunten voor {x,y}: <br>
 {2.0,-1.1}, {4.0,-7.2}, {6.0,-13.3} <br>
-De onzekerheden op de gemeten waardes y zijn $$\sigma_y = 1.0$$.
-De meetwaardes kunnen worden omschreven met de volgende functie $$f(x;a,b) = a+bx$$ waarvan $$a=2.0$$. Vind de waarde voor $$b$$ die de dataset optimaal beschrijft.
+De onzekerheden op de gemeten waardes y zijn $$\sigma_y = 1.0$$. <br>
+De meetwaardes kunnen worden omschreven met de volgende functie:
+
+  $$f(x;a,b) = a+bx$$ waarvan $$a=2.0$$. 
+  
+Vind de waarde voor $$b$$ die de dataset optimaal beschrijft.
+
 
 <span style = 'color:blue'>We vinden de optimale waarde voor $$b$$ door de afgeleide van de $$\chi^2$$ op nul te stellen:
 $${\displaystyle \frac{\partial \chi^2}{\partial b} = \sum_i^N \frac{1}{\sigma_y^2} \frac{\partial f(x_i;a,b)}{\partial b} \left(y_i - f(x_i;a,b)\right) = 0 }$$ <br>

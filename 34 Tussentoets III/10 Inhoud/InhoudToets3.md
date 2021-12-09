@@ -1,9 +1,7 @@
 # Voorbereiding op tussentoets 3
 
-De derde tussentoets vindt plaats aan het einde van het vierde college. 
-Voor de tussentoets krijg je een half uur de tijd, het werk wordt gemaakt op een ANS tentamenformulier. Tijdens de tussentoets mag je een gewone rekenmachine gebruiken. 
 
-Hieronder vind je een lijstje met de stof die je moet kennen. Gebruik deze om te kijken of je alle stof hebt bestudeerd die wordt getoetst op de derde tussentoets. Kijk ook naar de [oefenopgaves](/tussentoets-iii/oefenopgaves) die bij deze tussentoets horen.
+Hieronder vind je een lijstje met de stof die je moet kennen.  Kijk ook naar de [oefenopgaves](/tussentoets-iii/oefenopgaves) die bij deze tussentoets horen.
 
 **Vergeet niet uit de opmerking uit de eerste week: 
 Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet noteren.**

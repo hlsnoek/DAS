@@ -1,5 +1,5 @@
 # Opgaves bij Module 2
-Lees goed het [lijstje](/tussentoets-ii/inhoud) door ter voorbereiding voor de tussentoets. Niet voor alle element op het lijstje zijn oefenopgaves.
+Lees goed het [lijstje](/tussentoets-ii/inhoud) door ter voorbereiding voor de tussentoets. Niet voor alle element op het lijstje zijn oefenopgaves!
 
 **Let op:** Voor alle opgaven in dit vak geldt dat je bij het noteren van resultaten je moet houden aan de regels. Kijk hiervoor goed naar het stukje 'significantie en notatie' in het hoofdstuk [Notatie](/module-1/notatie).
 
@@ -38,7 +38,7 @@ Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$),
 Stel je wil de kinetische energie berekenen van een object. De formule is $$E_k = 1/2 m \cdot v^2$$. Je meet de massa van het object, deze is $$m=2.3 \pm 0.2$$ kg. De snelheid is $$v=0.20 \pm 0.05$$ m/s. <br>
 Bereken de kinetische energie.<br>
 <span style = 'color:blue'> $${E_k = 1/2 m \cdot v^2 = 0.046}$$ J<br>
-$$\Delta E_k = \sqrt{\frac{\partial E_k}{\partial m})^2 ( \Delta m)^2 + \left(\frac{\partial E_k}{\partial v}\right)^2 \left( \Delta v \right)^2} = \sqrt{\left( \frac{1}{2}v^2 \Delta m\right)^2 + \left( mv \Delta m \right)^2 } = 0.02$$<br>
+$$\Delta E_k = \sqrt{\frac{\partial E_k}{\partial m})^2 ( \Delta m)^2 + \left(\frac{\partial E_k}{\partial v}\right)^2 \left( \Delta v \right)^2} = \sqrt{\left( \frac{1}{2}v^2 \Delta m\right)^2 + \left( mv \Delta m \right)^2 } = 0.02$$ J<br>
 $$E_k =  0.046 \pm 0.02$$ J</span>
 
 ## De Wet van Grote aantallen
@@ -53,12 +53,12 @@ $${ \Delta \mu = \frac{\sigma}{\sqrt{N}} = \frac{11.2}{\sqrt{80}}} \text{ kg} = 
 We combineren onafhankelijke datasets waarbij de spanwijdte van koolmeesjes zijn gemeten. Dataset A heeft informatie over 1100 koolmeesjes met een gemiddelde spanwijdte van 13.4 cm met een standaardafwijking van 2.0 cm. Dataset B heeft informatie over 2000 koolmeesjes met gemiddelde van 14.0 cm en een standaardafwijking van 1.8 cm.<br>
 Wat is het gemiddelde van de gecombineerde dataset T?<br>
 <span style = 'color:blue'> $${ \mu_A = \sum_a^{N_A=1100} \frac{x_a}{N_A} \text{ en } \mu_B = \sum_b^{N_B=2000} \frac{x_b}{N_B} \text{ ook geldt: }  \mu_T = \frac{\sum^{N_A} x_a + \sum^{N_B} x_b}{N_T}}$$<br>
-$${ \mu_T =  \frac{N_A \cdot \mu_A + N_B \cdot \mu_B}{N_A + N_B}} = 13.8 \text{ kg}$$</span><br>
+$${ \mu_T =  \frac{N_A \cdot \mu_A + N_B \cdot \mu_B}{N_A + N_B}} = 13.8 \text{ cm}$$</span><br>
 
 ----
 **9.**
 Onder welke voorwaarde mogen we aannemen dat de onzekerheid op het berekende gemiddelde van een dataset kleiner wordt als we datapunten toevoegen?<br>
-<span style = 'color:blue'>Dat mogen we doen als voor de onderliggende verdeling van de dataset een goed gedefinieerde variantie bestaat.</span>
+<span style = 'color:blue'>Dat mogen we doen als voor de onderliggende verdeling van de dataset een goed gedefinieerde (eindige) variantie bestaat.</span>
 
 ---
 **10.**
@@ -75,14 +75,14 @@ Je hebt de volgende dataset met waardes van x en y: <br>
 **a.** Bereken de covariantie.<br>
 <span style = 'color:blue'> $$<{x}> = (2+1+5+3)/4 = 2.75$$ <br>
 $$<{y}> = (5+4+2+0)/4 = 2.75$$<br>
-$$\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = $$<br>
+$$\text{cov}(x,y) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = $$<br>
 $$\frac{1}{4}\cdot ((2-2.75)\cdot(5-2.75)  
 +(1-2.75)\cdot(4-2.75)+(5-2.75)\cdot(2-2.75) +(3-2.75)\cdot(0-2.75)) $$ 
 $$ = -1.6$$</span><br>
 **b.** Bereken de correlatie.<br>
 <span style = 'color:blue'> $$\sigma_x^2 = <{x^2}>-<{x}>^2 = (4+1+25+9)/4 - 2.75^2 = 2.1875$$ <br>
 $$\sigma_y^2 = <{y^2}>-<{y}>^2 = (25+16+4+0)/4 - 2.75^2 = 3.6875$$ <br>
-$$\sigma_x = 1.48$$, $$\sigma_y = 1.48$$
+$$\sigma_x = 1.48$$, $$\sigma_y = 1.48$$<br>
 $$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{-1.56}{1.48\times 1.92} = -0.55$$</span><br>
 
 ---
@@ -93,7 +93,7 @@ Je hebt de volgende dataset met waardes van x en y: <br>
 **a.** Bereken de covariantie.<br>
 <span style = 'color:blue'>$$<{x}> = 2.5$$ <br>
 $$<{y}> = 4.5$$<br>
-$$\text{cov}(xy) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = 2.75$$<br></span><br>
+$$\text{cov}(x,y) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = 2.75$$<br></span><br>
 **b.** Bereken de correlatie.<br>
 <span style = 'color:blue'> $$\sigma_x^2 = <{x^2}>-<{x}>^2 = 1.118^2$$<br>
 $$\sigma_y^2 = <{y^2}>-<{y}>^2 = 2.958^2$$<br>
@@ -105,4 +105,5 @@ $$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{2.75}{1.118\times 2.9
 Op een zomerse avond zie je rook en waar rook is is vuur. Op een zomerse avond is de kans dat je rook ziet (10%), meestal door gebruik van barbeques. Gevaarlijke branden zijn heel zeldzaam (1%) de kans dat rook bij een gevaarlijke brand vrijkomt is groot (90%). Wat is de kans dat de rook die je ziet van een een gevaarlijk brand afkomt?<br>
 
 <span style = 'color:blue'>Gebruik Bayes theorema om dit uit te rekenen.<br>
-$${ \text{P(gevaarlijke brand \mid rook)} = \frac{\text{P(rook \mid gevaarlijke brand)}\cdot{\text{P(gevaarlijke brand)}}}{\text{P(rook)}} = \frac{0.9 \times 0.01}{0.10} = 0.09}$$<br></span>
+$$\displaystyle{ P(\text{gevaarlijke brand} \mid \text{rook}) = \frac{P(\text{rook} \mid \text{gevaarlijke brand})\cdot{P(\text{gevaarlijke brand})}}{P(\text{rook})} }$$
+$$\displaystyle{= \frac{0.9 \times 0.01}{0.10} = 0.09}$$<br></span>

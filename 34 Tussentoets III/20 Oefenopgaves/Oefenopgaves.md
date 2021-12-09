@@ -1,5 +1,5 @@
 # Oefenopgaves als voorbereiding voor tussentoets 3
-Lees goed het [lijstje](/tussentoets-iii/inhoud) door ter voorbereiding voor de tussentoets. Niet voor alle elementen op het lijstje zijn oefenopgaves.
+Lees goed het [lijstje](/tussentoets-iii/inhoud) door ter voorbereiding voor de tussentoets. Niet voor alle elementen op het lijstje zijn oefenopgaves!
 
 **Let op:** Voor alle opgaven in dit vak geldt dat je bij het noteren van resultaten je moet houden aan de regels. Kijk hiervoor goed naar het stukje 'significantie en notatie' in het hoofdstuk [Notatie](/module-1/notatie).
 
@@ -7,8 +7,12 @@ Lees goed het [lijstje](/tussentoets-iii/inhoud) door ter voorbereiding voor de 
 
 **1** We hebben de volgende meetpunten voor {x,y}: <br>
 {2.0,-1.1}, {4.0,-7.2}, {6.0,-13.3} <br>
-De onzekerheden op de gemeten waardes y zijn $$\sigma_y = 1.0$$.
-De meetwaardes kunnen worden omschreven met de volgende functie $$f(x;a,b) = a+bx$$ waarvan $$a=2.0$$. Vind de waarde voor $$b$$ die de dataset optimaal beschrijft.
+De onzekerheden op de gemeten waardes $$y$$ zijn $$\sigma_y = 1.0$$.<br>
+De meetwaardes kunnen worden omschreven met de volgende functie:
+
+ $$f(x;a,b) = a+bx$$ waarvan $$a=2.0$$. 
+ 
+Vind de waarde voor $$b$$ die de dataset optimaal beschrijft.
 
 
 **2** We hebben een dataset met de volgende meetpunten voor {x,y}:<br>
