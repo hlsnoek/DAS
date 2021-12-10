@@ -36,7 +36,7 @@ We werken het voorbeeld van de dobbelstenen nog verder uit.
 > 
 > Hieronder zie je de kansdistributies voor experimenten waarbij met 1,2,3 en 4 dobbelstenen tegelijk wordt geworpen.
 > 
-> ![De kansdistributie van de uikomstenverzameling van experimenten met 1,2,3 of 4 dobbelstenen.](Dobbelstenen.png){:width="60%"}
+> ![De kansdistributie van de uikomstenverzameling van experimenten met 1,2,3 of 4 dobbelstenen.](Dobbelstenen.png){:width="80%"}
 > 
 > We zien dat kansdistributie van de uitkomsten voor het experiment met 1 dobbelsteen uniform is. Voor het experiment met 2 dobbelstenen lijkt het op een piramide vorm. Daarna zien we dat de vorm steeds meer een Normaalverdeling benadert.
 
@@ -57,7 +57,8 @@ Dat is een belangrijke voorwaarde. Wiskundig kun je laten zien dat bijvoorbeeld 
 
 De convergentie van de distributie naar de Normaal verdeling hangt af van de onderliggende stochastische verdelingen. 
 
-Het bewijs van deze stelling is bijzonder ingewikkeld en zullen we hier niet behandelen. Eventueel kun je [hier](http://www.cs.toronto.edu/~yuvalf/CLT.pdf) hier</a> verder lezen over de bewijsstelling.
+Het bewijs van deze stelling is bijzonder ingewikkeld en zullen we hier niet behandelen. Eventueel kun je 
+[hier](http://www.cs.toronto.edu/~yuvalf/CLT.pdf) verder lezen over de bewijsstelling.
 
 Meestal is er in de natuur of in experimenten sprake van een combinatie van een grote hoeveelheid toevalligheden die een rol spelen bij de onzekerheid van een meting. Hetzelfde geldt vaak voor de eigenschappen van een populatie, de natuurlijke verdeling van deze eigenschappen zijn vaak ook Normaal verdeeld om dezelfde reden.
 
