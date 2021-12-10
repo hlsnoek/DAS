@@ -3,10 +3,12 @@
 
 
 
-In dit hoofdstuk gaan we kijken hoe de kansverdeling eruit ziet van parameters die afhangen van meerdere parameters met elk hun eigen kansverdeling. 
+
+Stel dat we een schatter hebben die afhangt van meerdere meetwaardes. Deze meetwaardes hebben elk hun eigen onzekerheden die bijvoorbeeld uniform of poisson verdeeld zijn. Hoe ziet de verwachte kansverdeling van de schattter er dan uit?  In dit hoofdstuk zullen we zien dat deze vaak de Normaalverdeling volgen.  
 
 
-> **Voorbeeld: Dobbelstenen gooien** 
+
+> **Voorbeeld: Twee dobbelstenen gooien** 
 > We gooien een enkele (eerlijke) dobbelsteen. De uitkomstenverzameling is $$\mathscr{U} = \{1,2,3,4,5,6\}$$. De kans op elk van deze uitkomsten is gelijk, dat wil zeggen:
 > 
 >  $$\displaystyle{P(1) = P(2) = P(3) = P(4) = P(5) = P(6) = \frac{1}{6}.}$$
@@ -18,13 +20,22 @@ In dit hoofdstuk gaan we kijken hoe de kansverdeling eruit ziet van parameters d
 >  $$\displaystyle{W_2 = D_1 + D_2.}$$
 > 
 > Waarbij we de uitkomst van elke individuele dobbelsteen hebben weergegeven als $$D_1$$ en $$D_2$$. De uitkomst van de worp met twee dobbelstenen noteren we hier met $$W_2$$.<br>
-> Je zou misschien denk dat de kansverdeling van de uitkomstenverzameling van het experiment met twee dobbelstenen ook weer uniform is. Immers zijn de onderliggende kansdistributies van $$D_1$$ en $$D_2$$ beiden uniform. Toch is dat niet zo. <br>
+> Je zou misschien denken dat de kansverdeling van de uitkomstenverzameling van het experiment met twee dobbelstenen ook weer uniform is. Immers zijn de onderliggende kansdistributies van $$D_1$$ en $$D_2$$ beiden uniform. Toch is dat niet zo. <br>
 > De uitkomsten verzameling van $$W_2$$ is:
 > 
 >  $${\displaystyle \mathscr{U}_2 = \{2,3,4,5,6,7,8,9,10,11,12\}.}$$ 
 > 
->  De kans op de uitkomsten is niet gelijk. We kunnen bijvoorbeeld maar op 1 manier de uitkomst $$W_2 = 12$$ krijgen, met $$D_1 = 6$$ *en* $$D_2 = 6$$. Maar bijvoorbeeld de uitkomst $$W_2 = 3 $$ kunnen we op twee manieren verkrijgen: $$D_1 = 1, D_2 = 2$$ en $$D_1 = 2, D_2 = 1$$.  
-> De kansverdeling van $$W_2$$ is dus niet uniform.
+>  De kans op deze uitkomsten is niet gelijk. Er bestaat bijvoorbeeld maar één manier om de uitkomst $$W_2 = 12$$ te krijgen, namelijk met $$D_1 = 6$$ *en* $$D_2 = 6$$. Maar bijvoorbeeld de uitkomst $$W_2 = 3 $$ kunnen we op twee manieren verkrijgen: $$D_1 = 1, D_2 = 2$$ en $$D_1 = 2, D_2 = 1$$.  
+> **De kansverdeling van $$W_2$$ is dus niet uniform.**
+> Probeer zelf eens uit te werken hoe de kansverdeling eruit ziet.
+
+
+We zien in het voorbeeld met de dobbelstenen al dat de als we twee metingen combineren die elk uniform verdeeld zijn de som van de metingen niet unifom verdeeld is. 
+
+We werken het voorbeeld van de dobbelstenen nog verder uit. 
+
+> **Voorbeeld Veel dobbelstenen gooien**
+> 
 
 
 
