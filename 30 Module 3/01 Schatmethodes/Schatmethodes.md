@@ -51,6 +51,6 @@ Naarmate de steekproef groter wordt benaderen we de populatiegrootheid met de sc
 Als er meerdere schatters kunnen worden gedefinïeerd dan heeft een goede schatter relatief de kleinste variantie.
 Anders gezegd, als we meerdere recepten kunnen bedenken om tot een inschatting te komen van de populatiegrootheid die we willen meten dan is de beste schatter met de kleinste meetonzekerheid heeft. 
 
->  **Voorbeeld** We hebben twee schatters, $$\theta_1$$ en $$\theta_2$$, die allebei het doel hebben dezelfde populatiegrootheid $$\mu$$ te bepalen. De variantie op de schatters zijn $$s_1^2$$ en $$s_2^2$$ waarbij $$s_1<s_2$$. Beide schatters voldoen aan de zuiverheid en consistentheid criterea. De beste schatter is degene met de kleinste variantie. In dit voorbeeld is dat $$\theta_1$$.
+>  **Voorbeeld** We hebben twee schatters, $$\theta_1$$ en $$\theta_2$$, die allebei het doel hebben dezelfde populatiegrootheid $$\mu$$ te bepalen. De variantie op de schatters zijn $$s_1^2$$ en $$s_2^2$$ waarbij $$s_1 < s_2$$. Beide schatters voldoen aan de zuiverheid en consistentheid criterea. De beste schatter is degene met de kleinste variantie. In dit voorbeeld is dat $$\theta_1$$.
 
 
