@@ -10,17 +10,6 @@ De methode van de kleinste kwadraten is een manier om onbekende parameters te be
 De methode van de kleinste kwadraten wordt ook wel lineaire regressie, of 'fitten' genoemd. De methode kan wiskundig worden afgeleid met behulp van de zogeheten 'maximale waarschijnlijkheid principes'. 
 
 
-
-## Schatters
-Eerst staan we nog even stil bij wat een *schatter* eigenlijk is. Vaak willen we met behulp van een meting een bepaalde grootheid te weten komen. Soms kunnen we die direct opmeten, maar vaak hebben we een methode of een recept nodig om dit te doen. Denk bijvoorbeeld bij de proef met de halfwaardedikte. We nemen eerst een set metingen en vervolgens hebben we een recept om hieruit de halfwaardedikte te bepalen. Deze halfwaardedikte *schatten* we met behulp van de methode die we een *schatter* noemen (Engels: estimator). 
-
-Als we een meting doen maken we altijd meetfouten, en als we een schatting doen dan is dus ook de nauwkeurigheid van de schatting begrensd. We hebben al een andere eigenschap van de schatter bekeken in de opgaves namelijk de onzuiverheid die wordt gegeven door: 
-
-$$b = E(\hat{x}) - \mu$$
-
-Waarbij $$b$$ de onzuiverheid is, $$E(\hat{x})$$ de verwachtingswaarde van de te schatten grootheid en $$\mu$$ het populatiegemiddelde van de te schatten grootheid.
-
-
 ## De kleinste-kwadraten methode en $$\chi^2$$
 Een van de meest krachtige schatters is de methode van de kleinste-kwadraten. Deze gaan we hier bespreken.
 

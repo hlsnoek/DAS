@@ -17,7 +17,7 @@ Zo'n recept om de waarde van een parameter te bepalen noemen we ook wel een **sc
 
 We gaan het experiment nu 50 keer herhalen en kijken naar de distributie van de gevonden halfwaardediktes. Uit deze distributie bepalen we de standaardafwijking en gebruiken dit als onzekerheid op de gevonden dikte $$d_{half}$$.
 
-> Schrijf een loop waarin je 50 maal een nieuwe dataset genereert. Uit elk van deze dataset bepaal je een de halfwaardedikte met de ratio-methode. Om 50 unieke dataset te maken moet je steeds de *seed* veranderen. Dat kan je doen door deze mee te geven aan de DAS dataset generator:
+> Schrijf een loop waarin je 50 maal een nieuwe dataset genereert. Uit elk van deze datasets bepaal je een de halfwaardedikte met de ratio-methode. Om 50 unieke dataset te maken moet je steeds de *seed* veranderen. Dat kan je doen door deze mee te geven aan de DAS dataset generator:
 > 	
 >		for j in range(0,50) :
 		counts, diktes = ds.DataSetHalfwaardeDikte(j)
@@ -34,7 +34,7 @@ We gaan het experiment nu 50 keer herhalen en kijken naar de distributie van de 
 > - **M2.3e) Zeggen deze getallen ook iets of de gemeten waardes systematisch te hoog of te laag uitkomen. Beredeneer je antwoord.**
 
  
-We gaan nu kijken hoe zuiver de meting is. 
+We gaan nu bekijken hoe zuiver de meting is. 
 De zuiverheid is gedefinieerd als als het verschil tussen de verwachtingswaarde van een schatter en de 'echte' waarde van de te meten parameter. Het symbool voor de zuiverheid is $$b$$ (van het Engelse bias). De formule van de onzuiverheid is: 
 
 $${\displaystyle b = {\text{gemeten waarde}} − {\text{echte waarde}}}.$$
