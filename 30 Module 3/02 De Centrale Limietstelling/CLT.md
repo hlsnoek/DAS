@@ -45,10 +45,11 @@ We hebben in het voorbeeld hierboven gekeken naar het combineren van metingen wa
 
 De Centrale Limietstelling verklaart waarom zoveel grootheden Normaal zijn verdeeld.
 
->De **Centrale Limietstelling** zegt dat als je $$n$$ onafhankelijk stochasten $$x_j$$ hebt, waarvan elke stochast zijn eigen verdeling heeft met gemiddelde  $$\mu_j$$ en variantie $$\sigma^2_j$$ (die niet persé dezelfde hoeven te zijn!), de som van deze stochasten $$\sum_j x_j$$ een normale verdeling zal volgen met het gemiddelde $$\sum_j \mu_j$$ en de variantie $$\sum_j \sigma^2_j$$. 
+>De **Centrale Limietstelling** zegt dat als je $$n$$ onafhankelijk stochasten $$x_j$$ hebt, waarvan elke stochast zijn eigen verdeling heeft met gemiddelde  $$\mu_j$$ en variantie $$\sigma^2_j$$, **de som van deze stochasten $$\sum_j x_j$$ een Normaalverdeling zal volgen** met het gemiddelde $$\sum_j \mu_j$$ en de variantie $$\sum_j \sigma^2_j$$, als $$n \to \infty$$. Hierbij hoeven de populatiegemiddeldes van de stochasten, noch de varianties hiervan ($$mu_j$$ en $$\sigma^2_j$$ dezelfde te zijn.
 
+De Centrale Limietselling (Engels: Central Limit Theorem of CLT) zegt dat als we $$n \to \infty$$ stochasten optellen, de som van deze stochasten een Normaalverdeling zullen volgen. Het maakt hierbij niet uit wat voor vorm de kansverdelingen de stochasten hebben, ze kunnen exponentieel, uniform, Normaal verdeeld zijn om welke vorm dan ook. Zolang ze maar een gedefinieerd gemiddelde en variantie hebben.
 
-De Centrale Limietstelling (Engels: Central Limit Theorem of CLT) is zonder meer de meest belangrijke stelling in de statistiek en in data analyses. De Centrale Limietstelling verklaart waarom we in de natuur zoveel parameters vinden die Normaal zijn verdeeld.
+De Centrale Limietstelling  is zonder meer de meest belangrijke stelling in de statistiek en in data analyses. De Centrale Limietstelling verklaart waarom we in de natuur zoveel parameters vinden die Normaal zijn verdeeld.
 
 Wat deze stelling zegt is dat als je een combinatie hebt van vele bronnen van onzekerheden, de uiteindelijke verdeling de Normaalverdeling zal hebben. En het maakt hierbij niet uit hoe de onderliggende verdelingen van de onzekerheden die je combineert eruit zien. 
 
@@ -60,9 +61,40 @@ De convergentie van de distributie naar de Normaal verdeling hangt af van de ond
 Het bewijs van deze stelling is bijzonder ingewikkeld en zullen we hier niet behandelen. Eventueel kun je 
 [hier](http://www.cs.toronto.edu/~yuvalf/CLT.pdf) verder lezen over de bewijsstelling.
 
+
+**Twee leuke video's die de Centrale Limietstelling illustreren vindt kun je [hier](https://www.youtube.com/watch?v=jvoxEYmQHNM) en [hier](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-mean/v/central-limit-theorem) vinden.** 
+
 Meestal is er in de natuur of in experimenten sprake van een combinatie van een grote hoeveelheid toevalligheden die een rol spelen bij de onzekerheid van een meting. Hetzelfde geldt vaak voor de eigenschappen van een populatie, de natuurlijke verdeling van deze eigenschappen zijn vaak ook Normaal verdeeld om dezelfde reden.
 
 Denk maar eens aan de vorming van een zandkorrel of van een ster. Het is dan begrijpelijk dat de sterren in een bolhoop een Normale massa verdeling kennen. Of de grootte van de zandkorrel op een strand. 
 Bij de vorming van een ster of zandkorrel zijn er ook vele toevalligheden die invloed hebben op de grootte van zo'n object.
 
-**Twee leuke video's die de Centrale Limietstelling illustreren vindt kun je [hier](https://www.youtube.com/watch?v=jvoxEYmQHNM) en [hier](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-mean/v/central-limit-theorem) vinden.** 
+
+
+### Overeenkomsten tussen de Poisson en de Normaalverdeling
+
+Als laatste bekijken we nogmaals de Poisson verdeling en laten we in het voorbeeld hieronder zien dat voor grotere waardes van $$\lambda$$ de Poisson steeds meer overeen komst met een Normaalverdeling.
+
+
+De Poisson onzekerheid zie we veel terug omdat het de onzekerheid op tel experimenten beschrijft, en veel van de metingen die we uitvoeren zijn telexperimenten. Voor een verwachtingswaarde van $$\lambda$$ vinden we een standaardafwijking van $$\sqrt{\lambda}$$ en zoals we al eerder hebben gezien mogen we deze bij het uitvoeren van een experiment vaak zien als de onzekerheid op de verwachtingswaarde zelf.
+
+We herhalen de formule van de Poisson vergelijking hier: 
+
+$${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}.$$
+
+![De Poisson distributie.](PoissonDistributie2.png){:width="60%"} 
+
+Zoals we <!--FIG in Fig. \ref{fig:PoissonDistributie2}--> zien is de Poisson verdeling is asymmetrisch, vooral voor lage waardes van $$\lambda$$. Voor grotere waardes van $$\lambda$$ zien we dat de verdeling steeds symmetrischer is en ook steeds meer overeenkomsten vertoont met een Normaalverdeling. 
+
+Aan de hand van de Centrale Limietstelling kunnen we dit nu begrijpen. We leggen het uit aan de hand van een voorbeeld. Stel dat we de tellingen in ons experiment uitvoeren in een tijdsinterval. De meetwaarde die we vinden, $$k$$, is het aantal waarnemingen per tijdsinterval $$Delta t.$$ We zouden het tijdsinterval ook kunnen opdelen in bijvoorbeeld 100 stukjes. We verwachten nu $$k_{\text{kort}} = k/100$$ waarnemingen te meten per tijdsinterval van $$\Delta t_{\text{kort}}= 1/100 \times \Delta t.$$
+Deze kortere tijdsintervallen volgen ook de Poisson statistiek, immers we hebben de voorwaardes van het experiment verandert, maar het is nog steeds een telexperiment. Om weer bij het originele resultaat uit te komen, met de langere tijdsintervallen, kunnen we simpel de som nemen van de uitkomsten van de korte metingen, $$\sum^{100} k_{\text{kort}}$$. Het moet niet uitmaken of we 100 maal een korte of 1 maal een lang tijdsinteval tellen. En omdat we de som nemen van de onafhankelijke metingen, moet de Centrale Limietstelling gelden. 
+
+**We verwachten voor grotere waardes van $$\lambda$$ dat de Poisson de Normaalverdeling zal gaan volgen.**
+
+Om dit te visualiseren tonen we de twee functies over elkaar heen voor een waarde van $$\lambda=60$$. Deze vergelijken we nu met de normaal verdeling met $$\mu =60$$ en $$\sigma = \sqrt{60}$$. <!--FIG Zie figuur \ref{fig:PoissonNormalDistributie}.-->
+
+![Vergelijking tussen de Poisson en de Normaal distributie.](PoissonNormalDistributie.png){:width="80%"}
+
+Het is duidelijk dat de overeenkomst tussen de Poisson verdeling en de Normaalverdeling bij deze waarde van $$\lambda$$ al heel groot is.
+
+Er blijven natuurlijk verschillen, zo is de Poissonverdeling een discrete verdeling, maar de grote gelijkenis verklaart wel waarom we, voor grotere waardes van $$\lambda$$ gebruik mogen maken van vergelijkingen die eigenlijk alleen voor de Normale verdeling gelden. Zoals bijvoorbeeld de regels voor de foutenpropagatie.
