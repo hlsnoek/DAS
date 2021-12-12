@@ -4,7 +4,7 @@
 1. Ordered TOC
 {:toc}
 
-We hebben in het hoofdstuk [De Centrale Limietstelling](/module-3/de-centrale-limietstelling) gezien waarom onzekerheden op waarnemingen zo vaak Normaal zijn verdeeld. Het is nu duidelijk waarom de Normaalverdeling zo'n belangrijke rol in de statiek speelt. In dit hoofdstuk bekijken we nogmaals de Normaalverdeling en introduceren we de zogeheten $$z$$-waarde die we later gaan gebruiken voor Hypothese toetsen.
+We hebben in het hoofdstuk [De Centrale Limietstelling](/module-3/de-centrale-limietstelling) gezien waarom onzekerheden op metingen zo vaak Normaal zijn verdeeld. Het is nu duidelijk dat de Normaalverdeling een belangrijke rol speelt in de statiek. In dit hoofdstuk bekijken we nogmaals de Normaalverdeling en introduceren we de zogeheten $$z$$-score methode die we later gaan toepassen bij de $$\chi^2$$-methode en bij het toetsen van Hypotheses.
 
 
 ## De Normaalverdeling
@@ -69,9 +69,9 @@ Bij de tweezijdige overschrijdingskans wordt de kans op een waarde groter dan de
 
 $${\displaystyle \begin{aligned}P(X=x) &= P\left(Z<\frac{x-\mu}{\sigma}\right) + P\left(Z>\frac{x-\mu}{\sigma} \right)\\ &= P\left( Z<\frac{x-\mu}{\sigma}\right) + \left(1 - P\left( Z<\frac{x-\mu}{\sigma}\right) \right) \\ &= 2\cdot P\left( Z<\frac{x-\mu}{\sigma} \right) - 1 \end{aligned}.}$$
 
-Als je de $$z$$-score hebt berekend kun je uit een voorberekende  [tabel](https://www.ztable.net/) aflezen wat de bijbehorende kans is. 
+**Als je de $$z$$-score hebt berekend, kun je uit een voorberekende  [tabel](https://www.ztable.net/) aflezen wat de bijbehorende kans is.** 
 
-
+Hieronder laten we in twee voorbeelden zien hoe je deze methode toepast.
 
 
 > **Voorbeeld 1:** Een stochast $$X$$ is Normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$. Bereken de kans op een waarde $$X<16$$.
