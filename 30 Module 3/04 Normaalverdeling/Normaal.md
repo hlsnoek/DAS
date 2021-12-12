@@ -55,19 +55,19 @@ $$Z = \frac{x-\mu}{\sigma}.$$
 
 Het oppervlak onder de Normaalkromme, behorende bij de kans op een bepaalde waarde, hangt op de volgende manier van de $$z$$-score af.
 
-De éénzijdige overschrijdingskans om een waarde $$X< x$$ te vinden is gelijk aan:
+De kans om een waarde $$X< x$$ te vinden is gelijk aan:
 
 $$P(X< x) = P\left( Z<\frac{x-\mu}{\sigma} \right)$$
 
-De éénzijdige overschrijdingskans om een waarde $$X>x$$ te vinden is gelijk aan:
+De kans om een waarde $$X>x$$ te vinden is gelijk aan:
 
 $$P(X>x) = 1 - P(X< x>) = 1-P\left( Z<\frac{x-\mu}{\sigma} \right)$$
 
 Dit kun je zelf nagaan door schetsen te maken van de bijbehorende oppervlakken onder de normaalkromme.
 
-Bij de tweezijdige overschrijdingskans wordt de kans op een waarde groter dan de gestelde waarde opgeteld bij de kans op een waarde kleiner dan de gestelde waarde:
+<!-- Bij de tweezijdige overschrijdingskans wordt de kans op een waarde groter dan de gestelde waarde opgeteld bij de kans op een waarde kleiner dan de gestelde waarde:
 
-$${\displaystyle \begin{aligned}P(X=x) &= P\left(Z<\frac{x-\mu}{\sigma}\right) + P\left(Z>\frac{x-\mu}{\sigma} \right)\\ &= P\left( Z<\frac{x-\mu}{\sigma}\right) + \left(1 - P\left( Z<\frac{x-\mu}{\sigma}\right) \right) \\ &= 2\cdot P\left( Z<\frac{x-\mu}{\sigma} \right) - 1 \end{aligned}.}$$
+$${\displaystyle \begin{aligned}P(X=x) &= P\left(Z<\frac{x-\mu}{\sigma}\right) + P\left(Z>\frac{x-\mu}{\sigma} \right)\\ &= P\left( Z<\frac{x-\mu}{\sigma}\right) + \left(1 - P\left( Z<\frac{x-\mu}{\sigma}\right) \right) \\ &= 2\cdot P\left( Z<\frac{x-\mu}{\sigma} \right) - 1 \end{aligned}.}$$ -->
 
 **Als je de $$z$$-score hebt berekend, kun je uit een voorberekende  [tabel](https://www.ztable.net/) aflezen wat de bijbehorende kans is.** 
 
