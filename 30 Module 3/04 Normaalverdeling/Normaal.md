@@ -4,59 +4,56 @@
 1. Ordered TOC
 {:toc}
 
-
-De Normaalverdeling is een van de drie belangrijkste distributies in de statistische data analyse. Samen met de Poisson verdeling en de $$\chi^2$$ verdeling. <br>
-(De Poisson verdeling omdat het de onzekerheid op tel-experimenten beschrijft, de $$\chi^2$$ wordt in de volgende hoofdstukken in deze module beschreven.)
-We hebben in het hoofdstuk [De Centrale Limietstelling](/module-3/de-centrale-limietstelling) gezien waarom onzekerheden op waarnemingen zo vaak Normaal zijn verdeeld. 
+We hebben in het hoofdstuk [De Centrale Limietstelling](/module-3/de-centrale-limietstelling) gezien waarom onzekerheden op waarnemingen zo vaak Normaal zijn verdeeld. Het is nu duidelijk waarom de Normaalverdeling zo'n belangrijke rol in de statiek speelt. In dit hoofdstuk bekijken we nogmaals de Normaalverdeling en introduceren we de zogeheten $$z$$-waarde die we later gaan gebruiken voor Hypothese toetsen.
 
 
+## De Normaalverdeling
 
-## Z-waardes en waarschijnlijkheden
-We richten ons nu op de Normaalverdeling en herhalen nogmaals de vergelijking. 
+Allereerst herhalen we de formule die jullie ook al in Module 1 hebben gezien. De normaalverdeling is gedefinieerd als:
 
+$${\Large \displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\left( \frac{x-\mu}{\sigma} \right)^2} .}$$
 
-$${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} }.$$
+De functie heeft twee parameters, $$\mu$$ en $$\sigma$$. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaardafwijking is precies $$\sigma$$. (De notering is niet toevallig!)
 
-De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaardafwijking is precies $$\sigma$$. 
+In de figuur <!--FIG  \ref{fig:NormaleDistributie}--> zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$\mu$$ en $$\sigma$$. 
 
-Hier<!--FIG in figuur \ref{fig:NormaleDistributie}--> zie je enkele voorbeelden van de Normale verdeling met verschillende waardes voor $$\mu$$ en $$\sigma$$. 
+![De Normaalverdeling.](NormaleDistributie2.png){:width="60%"}
 
-![De Normaalverdeling.](NormaleDistributie2.png){:width="80%"}
+We zien dat voor hogere waardes voor $$\sigma$$ de datapunten meer verspreidt zijn. Met andere woorden als de onzekerheid op een meting wordt uitgedrukt met de standaardafwijking $$\sigma$$ en de onzekerheid is groter, dat is de spreiding van de onderliggende kansdichtheidsverdeling ook groter. Er is geen relatie tussen de het gemiddelde $$mu$$ en de standaardafwijking $$\sigma$$, lage waardes van $$\mu$$ kunnen een grotere of kleinere standaardafwijking hebben. (Anders dan bij de Poisson verdeling.)
 
-We zien dat voor hogere waardes voor $$\sigma$$ de datapunten meer verspreidt zullen zijn. Met andere woorden als de onzekerheid op een meting wordt uitgedrukt met de standaardafwijking $$\sigma$$ en de onzekerheid is groter, dat is de spreiding van de onderliggende kansdichtheidsverdeling ook groter. 
+> **Voorbeeld** Stel nu dat we een meting doen $$L$$ en we kennen het populatiegemiddelde $$\mu_L = 10.0$$ cm met een spreiding van $$\sigma_L = 2.0$$ cm. De kans dat we een meting doen $$L=4.0$$ cm is dan niet zo groot. Als de spreiding op het populatiegemiddelde daarentegen groter is, bijvoorbeeld $$\sigma=5.0$$ cm dan is de kans veel groter om de meting van  $$L=4.0$$ cm te doen. 
 
-Stel nu dat we een meting doen $$L$$ en we kennen het populatiegemiddelde $$\mu_L = 10.0$$ cm met een spreiding van $$\sigma_L = 2.0$$ cm. De kans dat we een meting doen $$L=4.0$$ cm is dan niet zo groot. Als de spreiding op het populatiegemiddelde daarentegen groter is, bijvoorbeeld $$\sigma=5.0$$ cm dan is de kans veel groter om de meting van  $$L=4.0$$ cm te doen. 
-
-We kunnen dit uitdrukken met behulp van de Z-waarde ofwel Z-score. 
-
-
-Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, is hier<!--FIG in figuur \ref{fig:NormaleVerdeling_1} en \ref{fig:NormaleVerdeling_2}--> schematisch weergegeven: 
-
-![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden.](NormaleVerdeling_1.png){:width="70%"}
-![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaleVerdeling_2.png){:width="70%"}
-
-Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X> x$$ te vinden, is hier<!--FI\
-G in figuur \ref{fig:NormaleVerdeling_3} en \ref{fig:NormaleVerdeling_4}--> schematisch weergegeven:
-
-![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaleVerdeling_3.png){:width="70%"}
-![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaleVerdeling_4.png){:width="70%"}
-
-Om dit oppervlak uit te rekenen gebruiken we de zogenoemde *Z-toets*. Stel een dataset met $$n > 30$$ datapunten is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. De $$Z-score$$, voor een bepaalde observatiewaarde $$x$$, is dan gelijk aan:
-
-$$Z = \frac{x-\mu}{\sigma}$$  
-
-<!--De p-waarde, oftewel de kans op de geobserveerde uitkomst met de gegeven dataset-->
-
-Stel een stochastische variabele $$X$$, met $$n > 30$$ datapunten, is normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. 
-
-<!--Dan wordt de Z-score voor een waarde $$x$$ van de stochast $$X$$ gegeven door:
-
-$$Z = \frac{x-\mu}{\sigma}$$-->
+Deze kansen kunnen we exact berekenen met behulp van de Normaalverdeling. 
 
 
-<!--In onderstaand overzicht staat bij elke gewenste kans de bijbehorende Z-score -->
 
-Het oppervlak onder de normaalkromme, behorende bij de kans op een bepaalde waarde, hangt op de volgende manier van de z-score af.
+## Z-score en waarschijnlijkheden
+
+Om de kans op een bepaalde meting uit te drukken maken we gebruik van de oppervlaktes onder de Normaalverdeling. 
+Dit kunnen we schematisch weergeven.
+
+
+> **Voorbeeld: Onderkans**
+> Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, kun je schematisch weergegeven. <!--FIG Zie figuur \ref{fig:NormaleVerdeling_1} en \ref{fig:NormaleVerdeling_2}.--> 
+> 
+> ![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden.](NormaalLinks.png){:width="80%"}
+> XX plaatje vervangen
+
+<br>
+
+> **Voorbeeld: Bovenkans**
+> Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X> x$$ te vinden, is hier<!--FIG in figuur \ref{fig:NormaleVerdeling_3} en \ref{fig:NormaleVerdeling_4}--> schematisch weergegeven:
+>
+> ![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaalRechts.png){:width="70%"}
+> XX plaatje vervangen
+
+
+Het oppervlak onder een van een Normaalverdeling is lastig uit te rekenen. We maken hierom een tussenstap en berekenen eerst de 
+zogenoemde $$z$$-score. Stel een dataset is Normaalverdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. De $$z$$-score, voor een bepaalde observatiewaarde $$x$$, is dan gelijk aan:
+
+$$Z = \frac{x-\mu}{\sigma}.$$  
+
+Het oppervlak onder de Normaalkromme, behorende bij de kans op een bepaalde waarde, hangt op de volgende manier van de $$z$$-score af.
 
 De éénzijdige overschrijdingskans om een waarde $$X< x$$ te vinden is gelijk aan:
 
@@ -70,9 +67,10 @@ Dit kun je zelf nagaan door schetsen te maken van de bijbehorende oppervlakken o
 
 Bij de tweezijdige overschrijdingskans wordt de kans op een waarde groter dan de gestelde waarde opgeteld bij de kans op een waarde kleiner dan de gestelde waarde:
 
-$$\begin{aligned}P(X=x) &= P(Z<\frac{x-\mu}{\sigma}) + P(Z>\frac{x-\mu}{\sigma})\\ &= P(Z<\frac{x-\mu}{\sigma}) + \left(1 - P(Z<\frac{x-\mu}{\sigma})\right) \\ &= 2\cdot P(Z<\frac{x-\mu}{\sigma}) - 1 \end{aligned}$$
+$${\displaystyle \begin{aligned}P(X=x) &= P\left(Z<\frac{x-\mu}{\sigma}\right) + P\left(Z>\frac{x-\mu}{\sigma} \right)\\ &= P\left( Z<\frac{x-\mu}{\sigma}\right) + \left(1 - P\left( Z<\frac{x-\mu}{\sigma}\right) \right) \\ &= 2\cdot P\left( Z<\frac{x-\mu}{\sigma} \right) - 1 \end{aligned}.}$$
 
-Als je de z-score hebt berekend kun je uit de z-waarden [tabel](https://www.ztable.net/) aflezen wat $$P(Z<\frac{x-\mu}{\sigma})$$ is. 
+Als je de $$z$$-score hebt berekend kun je uit een voorberekende  [tabel](https://www.ztable.net/) aflezen wat de bijbehorende kans is. 
+
 
 
 
@@ -82,13 +80,15 @@ Als je de z-score hebt berekend kun je uit de z-waarden [tabel](https://www.ztab
 >
 > $$\begin{aligned} P(X<16) &= P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= P\left(Z<\frac{16-20}{2}\right) \\ &= P(Z<-2) \end{aligned}$$
 >
-> Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.02275$$ bij deze Z-score.
+> Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.02275$$ bij deze $$z$$-score.
 >
 > Dus 
 >
 > $$P(X<16) = P\left(Z<\frac{x-\mu}{\sigma}\right) = 0.02275$$
 >
-> Er is in dit geval dus een kans van 2% dat we bij de gegeven dataset een waarde onder de 15 zullen vinden.
+> Er is in dit geval dus een kans van 0.02 dat we bij de gegeven dataset een waarde onder de 15 zullen vinden.
+
+<br>
 
 
 > **Voorbeeld 2:** Een stochast $$X$$ is normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$. Bereken de kans op een waarde $$X>22$$.
@@ -97,12 +97,12 @@ Als je de z-score hebt berekend kun je uit de z-waarden [tabel](https://www.ztab
 >
 > $$\begin{aligned}P(X>22) &= 1-P(X<22>) \\ &= 1-P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= 1 - P\left(Z<\frac{22-20}{2}\right) \\ &= 1 - P(Z<1)\end{aligned}$$
 >
-> Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.84134$$ bij deze Z-score.
+> Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.84134$$ bij deze $$z$$-score.
 >
 > Dus 
 >
 > $$P(X>22) = 1 - P\left(Z<\frac{x-\mu}{\sigma}\right) = 1-0.84134 = 0.15866$$
 >
-> Er is in dit geval dus een kans van 15% dat we bij de gegeven dataset een waarde boven de 22 zullen vinden.
+> Er is in dit geval dus een kans van 0.16 dat we bij de gegeven dataset een waarde boven de 22 zullen vinden.
 
 
