@@ -29,7 +29,7 @@ De parameters van de functie $$\theta_i$$ willen we nu afschatten met behulp van
 > **Voorbeeld: Lineair verband**
 > In het figuur <!--FIG \ref{fig:VoorbeeldLeastSquares}, --> zien we twee voorbeelden van oplossingen van een functie $$y=a+b\cdot x,$$ de rode lijn en de gestreepte zwarte lijn. De vraag is nu hoe bepaal je welke combinatie van de paramaters $$a$$ en $$b$$ het beste de data beschrijft? 
 > 
-> ![Een set metingen met twee lijnen.](VoorbeeldLeastSquares.png) {:width="60%"}
+> ![Een set metingen met twee lijnen.](VoorbeeldLeastSquares.png){:width="60%"}
 > 
 > Als we een schatter kunnen definïeren voor ons functie dan vinden we de geschatte waardes van $$a$$ en $$b$$ . Deze noemen we $$\hat{a}$$ en $$\hat{b}$$. Oftewel, $$\hat{a}$$ en $$\hat{b}$$ zijn de waardes van $$a$$ en $$b$$ waarbij de lineaire functie onze dataset optimaal beschrijft. 
 
