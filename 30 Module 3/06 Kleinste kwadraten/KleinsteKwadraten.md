@@ -48,7 +48,7 @@ Door het kwadraat te gebruiken en niet het absolute verschil tussen de datapunte
 > **Voorbeeld: Afstanden**
 > In onderstaande figuur is elk datapunt van de meetset apart weergeven. Voor elke meetwaarde zien we een normaalverdeling die gecentreerd is op de meetwaarde met als breedte de betreffende meetfout. Ook zijn in de grafiek de voorspelde waardes weergegeven die volgen uit de functie met de gepostuleerde waardes van $$a$$ en $$b$$. 
 >
->![Een set metingen met twee lijnen.](VoorbeeldLeastSquaresDataPunten.png) {:width="80%"}
+>![Een set metingen met twee lijnen.](VoorbeeldLeastSquaresDataPunten.png){:width="80%"}
 >
 > De afstanden tussen de voorspelde waardes en de gemeten waardes zijn de ingredïenten van de kleinste kwadraten methode.
 
