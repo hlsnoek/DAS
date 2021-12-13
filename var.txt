@@ -1,0 +1,15 @@
+10 Module 1/03 Data visualiseren/Data visualiseren.md:
+10 Module 1/06 Verdelingsfuncties/Verdelingsfuncties.md:
+12 Opdrachten Module 1/10 MooiPlotten/MooiPlotten.md:
+12 Opdrachten Module 1/30 Eigenschappen/Eigenschappen.md:
+20 Module 2/02 FoutenpropagatieI/Foutenpropagatie.md:
+20 Module 2/03 Wet van Grote Aantallen/Wet van Grote Aantallen.md:
+20 Module 2/04 Meerdimensionale data/Theorie 2D datasets.md:
+22 Opdrachten Module 2/20 Meesjes/Meesjes.md:
+22 Opdrachten Module 2/30 HalfwaardedikteII/HalfwaardedikteII.md:
+24 Tussentoets II/10 Inhoud/InhoudToets2.md:
+32 Opdrachten Module 3/10 GroteAantallenIII/GroteAantallenIII.md:
+32 Opdrachten Module 3/20 HalfwaardedikteIII/HalfwaardedikteIII.md:
+34 Tussentoets III/20 Oefenopgaves/Oefenopgaves.md:
+34 Tussentoets III/30 AntwoordenIIIa/Antwoorden.md:
+42 Opdrachten Module 4/20 EenNieuwDeeltje/EenNieuwDeeltje.md:
