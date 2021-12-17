@@ -37,7 +37,7 @@ Je ziet nu duidelijk dat niet elke steekproef hetzelfde gemiddelde oplevert. Er 
 
 > - **M2.1d) Bereken van deze distributie het gemiddelde $$\overline{g_{10}}$$, dit is het gemiddelde van de gemiddeldes $$g_{10}$$. Bereken ook de standaardafwijking van de gemiddeldes: $$s_{g_{10}}$$.**
 
-De spreiding van de berekende gemiddeldes kun je in dit geval zien als een maat voor de meetonzekerheid. Immers we zien dat de berekende grootheid ($$g_{10}$$) niet altijd hetzelfde resultaat geeft. Het berekende resultaat *varieert*. Als mate van de meetonzekerheid nemen we de standaardafwijking van de distributie. 
+De spreiding van de berekende gemiddeldes kun je in dit geval zien als een maat voor de meetonzekerheid. Immers, we zien dat de berekende grootheid ($$g_{10}$$) niet altijd hetzelfde resultaat geeft. Het berekende resultaat *varieert*. Als mate van de meetonzekerheid nemen we de standaardafwijking van de distributie. 
 
 We gaan dit nu herhalen voor met verschillende groottes van de steekproef $$n$$. 
 
