@@ -13,9 +13,9 @@ We breiden de regels hier verder uit en gaan kijken naar het combineren van kans
 
 We introduceren eerste de begrippen die we nodig hebben in dit hoofdstuk. 
 
-De term $$(\text{A en B})$$ noemen we ook wel de **doorsnede**, of intersectie, van A en B. Het is het overlappende deel van elementen in de verzameling. De doorsnede wordt ook wel genoteerd met $$A \cap B$$. 
-
 De **vereniging**, ook wel de unie, van $$A$$ en $$B$$ wordt genoteerd met $$A \cup B$$ en is de verzameling van alle elementen van A en B. 
+
+De term $$(\text{A en B})$$ noemen we ook wel de **doorsnede**, of intersectie, van A en B. Het is het overlappende deel van elementen in de verzameling. De doorsnede wordt ook wel genoteerd met $$A \cap B$$. 
 
 Het **complement** van $$A$$ wordt genoteerd met $$A^c$$ en is het deel van de uitkomstenverzameling dat *niet* in $$A$$ ligt. 
 
@@ -32,9 +32,9 @@ De kans dat A of B gemeten wordt is dan:
 
 $$P(\text{A of B}) = P(A) + P(B) - P(\text{A en B}).$$
 
-> **Voorbeeld** De kans dat een kaart rood is en een vier heeft is 2/52. De kans dat een kaart rood is of een vier is nu gelijk aan 
+> **Voorbeeld** De kans dat een kaart rood is en een vier heeft is \(\frac{2}{52}\). De kans dat een kaart rood is of een vier is nu gelijk aan 
 > 
-> $$P(1/2) + P(4/52) - P(2/52) = 28/52.$$
+> $$P\left(\frac{1}{2}\right) + P\left(\frac{4}{52}\right) - P\left(\frac{2}{52}\right) = 28/52.$$
 
 
 
@@ -59,7 +59,7 @@ Een belangrijke stap is om te realiseren dat de doorsnede van $$A$$ en $$B$$ nat
 
 $$\displaystyle{P(A \cap B) \equiv P(B \cap A).}$$
 
-Het combineren van de formules van $$P(A \mid B)$$ en $$P(B \mid A)$$ geeft. Als we de formule van de conditionele kans nu anders opschrijven vinden we de vergelijking
+Als we de formule van de conditionele kans nu anders opschrijven vinden we de vergelijking
 
 $$\displaystyle{P(A \cap B) = P(A \mid B) \cdot P(B).}$$
 
@@ -74,7 +74,7 @@ $$\displaystyle P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}.$$
 
 Deze formule heet het Bayes theorema en blijkt een van de meest krachtige formules om kansen te berekenen. Het beste is om dit te demonstreren met een voorbeeld.
 
-> **Voorbeeld** Een patiënt komt de huisartsenpost met pijn klachten, de doktersassistent vermoedt een blaasontsteking en onderzoekt de urine met een zogeheten combinatietest. De test is relatief betrouwbaar. Slechts in 5% van de tests volgt er een positieve testuitslag terwijl de patiënt niet ziek is. Dit noem je een fout-positieve uitslag. In 3% van de testuitslagen is fout-negatief; de patiënt heeft een blaasontsteking maar de uitslag is toch negatief. Voordat de testuitslag bekend is weet de assistent al wat de *voorafkans* is, de voorafkans is de kans dat een patiënt met die type klachten een blaasontsteking heeft. Dit weet met door jarenlange ervaring in de praktijk. De voorafkans is verschillend voor kinderen ($$20\%$$) en volwassen ($$60\%$$). Kinderen hebben vaak om andere reden buikpijn. <br>
+> **Voorbeeld** Een patiënt komt de huisartsenpost met pijn klachten in de buik, de doktersassistent vermoedt een blaasontsteking en onderzoekt de urine met een zogeheten combinatietest. De test is relatief betrouwbaar. Slechts in 5% van de tests volgt er een positieve testuitslag terwijl de patiënt niet ziek is. Dit noem je een fout-positieve uitslag. In 3% van de gevallen is de testuitslag fout-negatief; de patiënt heeft een blaasontsteking maar de uitslag is toch negatief. Voordat de testuitslag bekend is weet de assistent al wat de *voorafkans* is, de voorafkans is de kans dat een patiënt met die type klachten een blaasontsteking heeft. Dit weet men door jarenlange ervaring in de praktijk. De voorafkans is verschillend voor kinderen ($$20\%$$) en volwassen ($$60\%$$). Kinderen hebben ook vaak om andere reden buikpijn. <br>
 > De testuitslag is positief. Wat is nu de kans dat de patiënt daadwerkelijk een blaasonsteking heeft? <br>
 > Wat we willen weten is de kans $$P(\mathrm{ziek} \mid +)$$, namelijk wat is de kans dat de patiënt ziek is gegeven de positieve testuitslag. <br>
 > We gebruiken Bayes theorema om dit te berekenen. We kennen $$P(+\mid \mathrm{niet ~ziek}) = 0.05$$, namelijk dit is de fout-positief en we kennen de fout-negatief $$P(- \mid \mathrm{ziek}) = 0.03$$. De voorafkans is $$P(\mathrm{ziek})$$ hangt af van de leeftijd van de patiënt. Voor Bayes theorema moeten we ook nog de kans op een positieve test uitslag, $$P(+)$$ weten. Deze kunnen we berekenen met de volgende formule: <br>
