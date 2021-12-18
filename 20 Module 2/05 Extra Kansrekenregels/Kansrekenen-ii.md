@@ -11,7 +11,7 @@ De of-regel geldt alleen als de metingen A en B wederzijds uitsluitend zijn. Dat
 
 We breiden de regels hier verder uit en gaan kijken naar het combineren van kansen die niet wederzijds uitsluitend zijn. We kijken ook naar het begrip conditionele kans en introduceren Bayes theorema die gebruikt kan worden om informatie van kansen om te rekenen. 
 
-We introduceren eerste de begrippen die we nodig hebben in dit hoofdstuk. 
+We introduceren eerst de begrippen die we nodig hebben in dit hoofdstuk. 
 
 De **vereniging**, ook wel de unie, van $$A$$ en $$B$$ wordt genoteerd met $$A \cup B$$ en is de verzameling van alle elementen van A en B. 
 
@@ -32,9 +32,9 @@ De kans dat A of B gemeten wordt is dan:
 
 $$P(\text{A of B}) = P(A) + P(B) - P(\text{A en B}).$$
 
-> **Voorbeeld** De kans dat een kaart rood is en een vier heeft is \(\frac{2}{52}\). De kans dat een kaart rood is of een vier is nu gelijk aan 
+> **Voorbeeld** De kans dat een kaart rood is en een vier als uitkomst heeft is $$\frac{2}{52}\$$. De kans dat een kaart rood is of een vier is nu gelijk aan 
 > 
-> $$P\left(\frac{1}{2}\right) + P\left(\frac{4}{52}\right) - P\left(\frac{2}{52}\right) = 28/52.$$
+> $$P\left(\frac{1}{2}\right) + P\left(\frac{4}{52}\right) - P\left(\frac{2}{52}\right) = \frac{28}{52}.$$
 
 
 
@@ -74,24 +74,46 @@ $$\displaystyle P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}.$$
 
 Deze formule heet het Bayes theorema en blijkt een van de meest krachtige formules om kansen te berekenen. Het beste is om dit te demonstreren met een voorbeeld.
 
-> **Voorbeeld** Een patiënt komt de huisartsenpost met pijn klachten in de buik, de doktersassistent vermoedt een blaasontsteking en onderzoekt de urine met een zogeheten combinatietest. De test is relatief betrouwbaar. Slechts in 5% van de tests volgt er een positieve testuitslag terwijl de patiënt niet ziek is. Dit noem je een fout-positieve uitslag. In 3% van de gevallen is de testuitslag fout-negatief; de patiënt heeft een blaasontsteking maar de uitslag is toch negatief. Voordat de testuitslag bekend is weet de assistent al wat de *voorafkans* is, de voorafkans is de kans dat een patiënt met die type klachten een blaasontsteking heeft. Dit weet men door jarenlange ervaring in de praktijk. De voorafkans is verschillend voor kinderen ($$20\%$$) en volwassen ($$60\%$$). Kinderen hebben ook vaak om andere reden buikpijn. <br>
-> De testuitslag is positief. Wat is nu de kans dat de patiënt daadwerkelijk een blaasonsteking heeft? <br>
-> Wat we willen weten is de kans $$P(\mathrm{ziek} \mid +)$$, namelijk wat is de kans dat de patiënt ziek is gegeven de positieve testuitslag. <br>
-> We gebruiken Bayes theorema om dit te berekenen. We kennen $$P(+\mid \mathrm{niet ~ziek}) = 0.05$$, namelijk dit is de fout-positief en we kennen de fout-negatief $$P(- \mid \mathrm{ziek}) = 0.03$$. De voorafkans is $$P(\mathrm{ziek})$$ hangt af van de leeftijd van de patiënt. Voor Bayes theorema moeten we ook nog de kans op een positieve test uitslag, $$P(+)$$ weten. Deze kunnen we berekenen met de volgende formule: <br>
+> **Voorbeeld** Een patiënt komt de huisartsenpost met pijnklachten in de buik, de doktersassistent vermoedt een blaasontsteking en onderzoekt de urine met een zogeheten combinatietest. 
+> 
+> De test is relatief betrouwbaar. Slechts in 5% van de tests volgt er een positieve testuitslag terwijl de patiënt niet ziek is. Dit noem je een fout-positieve uitslag en noteren we hier als $$P(+ \mid \text{niet ziek})$$. In 3% van de gevallen is de testuitslag fout-negatief; de patiënt heeft een blaasontsteking maar de uitslag is toch negatief. De fout-negatieve kans noteren we met $$P(- \mid \text{ziek})$$.
+> 
+>  Voordat de testuitslag bekend is weet de assistent al wat de *voorafkans* is, de voorafkans is de kans dat een patiënt met die type klachten een blaasontsteking heeft. Dit weet men door jarenlange ervaring in de praktijk. De voorafkans is verschillend voor kinderen ($$20\%$$) en volwassen ($$60\%$$). Kinderen hebben ook vaak om andere reden buikpijn. 
+> 
+> 
+> De testuitslag is positief. **Wat is nu de kans dat de patiënt daadwerkelijk een blaasonsteking heeft?** 
+> 
+> 
+> Wat we dus willen weten is de kans $$P(\mathrm{ziek} \mid +)$$, namelijk wat is de kans dat de patiënt ziek is gegeven de positieve testuitslag. 
+> 
+> Hiervoor gebruiken we Bayes theorema om dit te berekenen. 
+> 
+> $$\displaystyle{ P(\mathrm{ziek} \mid +) = \frac{P(+ \mid \mathrm{ziek}) \cdot P(\mathrm{ziek}) }{P(+)}.}$$
+> 
+> 
+> We kennen $$P(+\mid \mathrm{niet ~ziek}) = 0.05$$, namelijk dit is de fout-positief en we kennen de fout-negatief $$P(- \mid \mathrm{ziek}) = 0.03$$. De voorafkans is $$P(\mathrm{ziek})$$ hangt af van de leeftijd van de patiënt. Voor Bayes theorema moeten we ook nog de kans op uberhaupt een positieve testuitslag weten, dit is $$P(+)$$. Deze kunnen we berekenen met de volgende formule: 
+> 
 > $$\displaystyle{P(+) = P(+\mid \mathrm{ziek})\cdot P(\mathrm{ziek}) + P(+ \mid \mathrm{niet ~ziek})\cdot P(\mathrm{niet~ ziek}).}$$
 > 
-> We zijn er hierbij vanuit gegaan dat een testuitslag altijd positief of negatief is. Invullen voor kinderen geeft:<br>
+> Namelijk, er zijn twee opties. Je krijg een positieve uitslag en je bent inderdaad ziek. Of je krijgt een positieve uitslag terwijl je helemaal niet ziek bent. In beide gevallen moet je dit vermenigvuldigen met de kans op de bijbehorende toestand (ziek of niet ziek). We zijn er hierbij vanuit gegaan dat een testuitslag altijd positief of negatief is. 
+> 
+> De kans $$P(+ \mid \text{niet ziek})$$ hebben we al gezien, dat is de fout-positief. De kans $$P(+ \mid \text{ziek})$$ is gelijk aan het complement van de fout-negatief dus $$P(+ \mid \text{ziek}) = 1 - P(- \mid \text{ziek}).$$
+> 
+> Invullen voor kinderen geeft:
 > 
 > $$\displaystyle{P(+) = (1-0.03)\cdot 0.20 + 0.05 \cdot (1 - 0.20) = 0.234 ~.}$$
 > 
-> We vullen dit in in Bayes theorema:<br>
+> We vullen dit in in Bayes theorema:
 > 
-> $$\displaystyle{ P(\mathrm{ziek} \mid +) = \frac{P(+ \mid \mathrm{ziek}) \cdot P(\mathrm{ziek}) }{P(+)} = \frac{(1-0.03) \cdot 0.20}{0.234} = 0.83 \%.}$$ 
+> $$\displaystyle{ P(\mathrm{ziek} \mid +) = \frac{P(+ \mid \mathrm{ziek}) \cdot P(\mathrm{ziek}) }{P(+)} = \frac{(1-0.03) \cdot 0.20}{0.234} = 0.83.}$$ 
 > 
 > Van de kinderen met een positieve test uitslag heeft dus $$83\%$$ ook 
-> daadwerkelijk een blaasontsteking. Dit is een stuk lager dan we misschien zouden verwachten. De test is namelijk betrouwbaar, in $$97\%$$ van de gevallen met blaasonsteking geeft de test immers het juiste resultaaat. Deze afwijking heeft te maken met de lage voorkans bij kinderen; het is nog redelijk waarschijnlijker dat het kind niet ziek is maar een fout-positieve uitslag heeft. <br>
-> De kans dat het kind niet ziek is bij een positieve uitslag is dus $$1-0.83 = 0.17 = 17\%$$. <br>
-> Reken nu zelf de kans $$P(\mathrm{ziek} \mid +)$$ uit voor een volwassene en controleer dat dit gelijk is aan $$97\%$$. Deze kans is veel groter dan bij de kinderen. Dit heeft alles te maken met de voorkans.
+> daadwerkelijk een blaasontsteking. Dit is een stuk lager dan we misschien zouden verwachten. De test is namelijk betrouwbaar, in $$97\%$$ van de gevallen met blaasonsteking geeft de test immers het juiste resultaaat. Deze afwijking heeft te maken met de lage voorkans bij kinderen; het is nog redelijk waarschijnlijk dat het kind niet ziek is maar een fout-positieve uitslag heeft.
+> 
+> De kans dat het kind niet ziek is bij een positieve uitslag is dus $$1-0.83 = 0.17 = 17\%$$. 
+>
+>
+> Reken nu zelf de kans $$P(\mathrm{ziek} \mid +)$$ uit voor een volwassene en controleer dat dit gelijk is aan $$0.97$$. Deze kans is veel groter dan bij de kinderen. Dit heeft alles te maken met de voorkans.
 
 
 We hebben in deze twee voorbeelden gezien hoe we informatie over conditionele kansen kunnen omzetten. Het theorema van Bayes maakt het mogelijk om nieuwe informatie te gebruiken. De nakans wordt berekend met een test uit voorkans (ook wel prior), een testuitslag en een normalisatie. De normalisatie is in het geval van het voorbeeld de kans $$P(+)$$, de kans dat er uberhaupt een positieve uitslag volgt. 
