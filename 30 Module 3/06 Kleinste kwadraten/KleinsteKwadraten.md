@@ -31,7 +31,7 @@ De parameters van de functie $$\theta_i$$ willen we nu afschatten met behulp van
 > 
 > ![Een set metingen met twee lijnen.](VoorbeeldLeastSquares.png){:width="60%"}
 > 
-> Als we een schatter kunnen definïeren voor onze functie dan vinden we de geschatte waardes van $$a$$ en $$b$$ . Deze noemen we $$\hat{a}$$ en $$\hat{b}$$. Oftewel, $$\hat{a}$$ en $$\hat{b}$$ zijn de waardes van $$a$$ en $$b$$ waarbij de lineaire functie onze dataset optimaal beschrijft. 
+> Als we een schatter kunnen definïeren voor onze functie dan vinden we de geschatte optimale waardes van $$a$$ en $$b$$ . Deze noemen we $$\hat{a}$$ en $$\hat{b}$$. Oftewel, $$\hat{a}$$ en $$\hat{b}$$ zijn de waardes van $$a$$ en $$b$$ waarbij de lineaire functie onze dataset optimaal beschrijft. Dit schatten van de waardes van $$\hat{a}$$ en $$\hat{b}$$ noemen we ook wel fitten. 
 
 We introduceren nu een definitie van de $$\chi^2$$ schatter. Deze methode noemen we ook wel de kleinste kwadraten methode.
 
