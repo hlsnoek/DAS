@@ -32,7 +32,7 @@ Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \
 > Waarbij $$\lambda$$ de golflengte is.  
 > De emissielijn van $$X$$, verwachten we rond 930 nm en de resolutie van de spectroscoop is 1 nm. De intensiteit van de emissielijn wordt dan beschreven door: <br>
 > 
-> $$ I_\alpha(\lambda;J,\lamda_0=930nm,\sigma=1nm) = J \cdot \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\left(\frac{\lambda - \lambda_0}{\sigma}\right)^2}$$<br>
+> $$ I_\alpha(\lambda;J,\lambda_0=930nm,\sigma=1nm) = J \cdot \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\left(\frac{\lambda - \lambda_0}{\sigma}\right)^2}$$<br>
 > 
 > We zien dat in principe er geen vrije parameters zijn in deze fit, behalve een schaalfactor $$J$$ die de hoeveelheid intensiteit van het signaal schaalt.  
 > 
