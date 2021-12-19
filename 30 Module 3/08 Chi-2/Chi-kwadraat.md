@@ -37,7 +37,7 @@ Hier<!--FIG in figuur \ref{fig:ChiSquareDistributie}--> zie je hoe de $$\chi^2$$
 De $$\chi^2$$ distributie heeft een verwachtingswaarde $$\mu = \nu$$ en een variantie van $$var(\chi^2) = 2 \cdot \nu$$. Voor een gefitte functie met $$\nu$$ vrijheidsgraden verwachten we dus een waarde voor de $$\chi^2$$ te vinden die gelijk is aan het aantal vrijheidsgraden. 
 
 Met behulp van de $$\chi^2$$-curve kunnen we de overschrijdingskansen uitrekenen en aangeven hoe waarschijnlijk het is dat een functie $$f$$ met geoptimaliseerde parameters $$\hat{a},\hat{b},...$$ de waarnemingen uit het experiment beschrijft.
-Je kan nu de overschrijdingskansen voor verschillende waardes van $$\chi^2$$ en vrijheidsgraden $$\nu$$ bepalen, bijvoorbeeld met behulp van [deze tabel](/module-3/appendix). 
+Je kan nu de overschrijdingskansen voor verschillende waardes van $$\chi^2$$ en vrijheidsgraden $$\nu$$ bepalen, bijvoorbeeld met behulp van [deze tabel](/appendix/chi-kwadraat-toets). 
 
 Het is gemakkelijker om de waarde van de $$\chi^2$$ direct te delen door het aantal vrijheidsgraden. De verwachtingswaarde voor de ratio $$\chi^2/\nu$$ is dan altijd gelijk aan 1 en de variantie is gelijk aan $$var(\chi^2/\nu) = 2/\nu$$. (Deze laatste stap kan je controleren door toepassing van de regels van de foutenpropagatie.) 
 We definïeren de **gereduceerde** $$\chi^2$$ als: 
