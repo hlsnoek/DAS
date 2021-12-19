@@ -2,7 +2,7 @@
 <!--REF\label{/module-3/chi-2}-->
 
 1. Ordered TOC
-{:toc}\nu
+{:toc}
 
 We hebben in het vorige hoofdstuk over de kleinste-kwadraten methode de definitie van de $$\chi^2$$ schatter gezien. 
 De $$\chi^2$$ is een maat voor het verschil tussen de voorspelde en de gemeten waardes. Als een functie $$f$$ de data goed beschrijft voor de geoptimaliseerde parameters van de functie, dan zal de $$\chi^2$$ klein zijn. Als de $$\chi^2$$ dus groot blijft na het optimaliseren van de parameters van $$f$$ dan is er iets misgegaan. Het kan zijn dat de functie $$f$$ de datapunten niet goed *kan* beschrijven, maar het kan ook zijn dat als je minimalisatie uitvoert met een computer deze het minimum niet goed heeft weten te vinden. 

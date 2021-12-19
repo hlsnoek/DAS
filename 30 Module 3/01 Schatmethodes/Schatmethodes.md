@@ -1,4 +1,7 @@
 # Schatmethodes
+<!--REF\label{/module-3/schatmethodes}-->
+1. Ordered TOC
+{:toc}
 
 Voordat we met de andere hoofdstukken in deze module beginnen staan we nog even stil bij wat een **schatter** eigenlijk is. 
 Dit begrip is al kort geïntroduceerd in opgave [M2.3](opdrachten-module-2/halfwaardedikteii). 
