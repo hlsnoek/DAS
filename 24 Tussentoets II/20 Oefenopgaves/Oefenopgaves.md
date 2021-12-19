@@ -24,7 +24,7 @@ Als $$y = \frac{1}{x^2}$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fou
 
 ----
 **5.**
-Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$), wat is dan de fout op $$E$$? <br><br>
+Als $$z = \frac{4 \cdot x}{3\cdot y}$$ en de onzekerheden op $$x$$ en $$y$$ volgende de Poisson statistiek. Wat is dan de onzekerheid op $$z$$? Schrijf de onzekerheid zo kort mogelijk op. <br>
 
 ----
 **6.**
@@ -81,15 +81,15 @@ Op een zomerse avond zie je rook, en waar rook is is vuur. Op een zomerse avond 
 Gebruik Bayes theorema om dit uit te rekenen.<br>
 
 ## Zuiverheid
-**14.**
+**15.**
 Van een dataset is het populatiegemiddelde en het steekproefgemiddelde bekend. $$\mu = 5.3 $$ kg en $$s = 5.1$$ kg. Bereken de onzuiverheid van de meeting. <br>
 
  
-**15.**
+**16.**
 Je meet met een meetlat die 2 cm te kort blijkt te zijn. Wat is de onzuiverheid van de metingen die je verricht? <br>
 
 
-**16.**
+**17.**
 **a**
 Je weegt de massa van een steen. De onzuiverheid van de weegschaal is bekend, deze is +42 gram. Je meet een massa van 160 gram. Wat is de daadwerkelijke massa van de steen?<br>
 
