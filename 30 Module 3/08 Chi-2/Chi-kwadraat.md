@@ -37,13 +37,9 @@ Hier<!--FIG in figuur \ref{fig:ChiSquareDistributie}--> zie je hoe de $$\chi^2$$
 De $$\chi^2$$ distributie heeft een verwachtingswaarde $$\mu = \nu$$ en een variantie van $$var(\chi^2) = 2 \cdot \nu$$. Voor een gefitte functie met $$\nu$$ vrijheidsgraden verwachten we dus een waarde voor de $$\chi^2$$ te vinden die gelijk is aan het aantal vrijheidsgraden. 
 
 Met behulp van de $$\chi^2$$-curve kunnen we de overschrijdingskansen uitrekenen en aangeven hoe waarschijnlijk het is dat een functie $$f$$ met geoptimaliseerde parameters $$\hat{a},\hat{b},...$$ de waarnemingen uit het experiment beschrijft.
-Hieronder vind je een tabel met overschrijdingskansen (de bovenkansen) voor verschillende waardes van $$\chi^2$$ en vrijheidsgraden $$\nu$$. 
+Je kan nu de overschrijdingskansen voor verschillende waardes van $$\chi^2$$ en vrijheidsgraden $$\nu$$ bepalen, bijvoorbeeld met behulp van [deze tabel](/module-3/appendix). 
 
-
-
-
-
-Het gemakkelijker om de waarde van de $$\chi^2$$ direct te delen door het aantal vrijheidsgraden. De verwachtingswaarde voor de ratio $$\chi^2/\nu$$ is dan altijd gelijk aan 1 en de variantie is gelijk aan $$var(\chi^2/\nu) = 2/\nu$$. (Deze laatste stap kan je controleren door toepassing van de regels van de foutenpropagatie.) 
+Het is gemakkelijker om de waarde van de $$\chi^2$$ direct te delen door het aantal vrijheidsgraden. De verwachtingswaarde voor de ratio $$\chi^2/\nu$$ is dan altijd gelijk aan 1 en de variantie is gelijk aan $$var(\chi^2/\nu) = 2/\nu$$. (Deze laatste stap kan je controleren door toepassing van de regels van de foutenpropagatie.) 
 We definïeren de **gereduceerde** $$\chi^2$$ als: 
 
 $${\displaystyle \chi^2_\nu = \frac{\chi^2}{\nu}.}$$
@@ -52,17 +48,12 @@ De gereduceerde $$\chi^2$$ wordt ook wel geschreven als $$\chi^2/df$$, $$\chi^2_
 
 Als nu $$\chi^2_\nu$$ veel afwijkt van 1 dan is het waarschijnlijk dat er een probleem is met de fit. Het kan zijn dat de functie de relatie tussen de datapunten niet goed beschrijft, of dat er iets mis is met de onzekerheden op de datapunten. 
 
-
-
-
-
-
-
+Doorgaans betekent een veel te kleine gereduceerde chi-kwadraat ($$\chi^2_\nu \ll 1$$) dat de onzekerheden op de meetwaardes overschat zijn. Een te grote waarde ($$\chi^2 \gg 1$$) betekent meestal dat de functie de datapunten niet goed kan beschrijven of dat de onzekerheden zijn onderschat. 
 
 
 
 ## Akaike Informatie Criterium
-Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze wordt beschreven. Je probeert twee functies uit, $$f_1$$ en $$f_2$$. En je minimaliseert voor beide functies de $$\chi^2$$, deze zijn dan $$\chi^2_1$$ en $$\chi^2_2$$. Als algemene vuistvuistregelregel geldt dat de functie met de kleinste geminimaliseerde $$\chi^2_\nu$$ het beste de data beschrijft. Als in dat geval de betreffende $$\chi^2_\nu$$ dicht bij 1 ligt werkt deze vuistregel goed. 
+Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze wordt beschreven. Je probeert twee functies uit, $$f_1$$ en $$f_2$$. Voor beide functies schat je de beste waardes voor de parameters waar de functies van afhangen. De geschatte $$\chi^2$$ waardes noemen we dan $$\chi^2_1$$ en $$\chi^2_2$$. Als algemene vuistregel geldt dat de functie met de kleinste geminimaliseerde $$\chi^2_\nu$$ de data het beschrijft. Als in dat geval de betreffende $$\chi^2_\nu$$ dicht bij 1 ligt werkt deze vuistregel goed. 
 
 > **Voorbeeld 1** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit: <br>
 > $$f_1(x;a,b) = a\cdot x +b$$ 
@@ -81,6 +72,7 @@ Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze 
 > 
 > Op basis van de vuistregel zou je functie $$f_1$$ kiezen. 
 
+ 
 
 > **Voorbeeld 2** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit:
 > 
@@ -101,7 +93,10 @@ Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze 
 > 
 > Op basis van de vuistregel zou je functie $$f_1$$ kiezen. 
 
-Als deze echter veel kleiner is dan 1 dan kun je betwijfelen of de bijbehorende functie wel echt de beste is. 
+
+
+Als de gereduceerde chi-kwadraat echter veel kleiner is dan 1 dan kun je betwijfelen of de bijbehorende functie wel echt de beste is. Je zou dan de waarde kunnen kiezen die het dichtste bij 1 bevindt. Meestal komt die wel goed uit, maar het hangt erg af van de verschillen tussen de twee functies, voor het aantal vrijheidsgraden speelt hier een rol. 
+
 Beter is om dan het Akaike Informatie Criterium kun je gebruiken om uit te vinden welke functie het beste aan een dataset fit. Stel dat je een dataset hebt waarbij je $$n$$ meetwaardes hebt die je beschreven hebt met een functie met $$p$$ vrije parameters met een geminimaliseerde $$\chi^2$$. Dan heeft het Akaike Informatie Criterium de volgende waarde: 
 
 $${\displaystyle AIC  = \chi^2 + 2p + \frac{2p(p+1)}{n-p-1}.}$$
@@ -126,6 +121,7 @@ Als we deze $$AIC$$ berekenen voor beide functies dan is de functie met de laags
 > 
 > Op basis van het Akaike Informatie criterium zou je functie $$f_1$$ kiezen. 
 
+ 
 
 > **Voorbeeld 2** Stel dat we een dataset hebben met 10 gemeten waardes. We proberen twee functies uit:
 > 
