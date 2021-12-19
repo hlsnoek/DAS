@@ -37,7 +37,7 @@ We introduceren nu een definitie van de $$\chi^2$$ schatter. Deze methode noemen
 
 > Stel dat we een functie $$f(x;\theta)$$ hebben die waardes van $$y$$ voorspelt. En we hebben een dataset met $$n$$ waardes voor $$x: {x_1,x_2,...,x_n}$$ met corresponderende waardes voor $$y: {y_1,y_2,...,y_n}$$ waarbij elke waarde van $$y$$ gemeten is met precisie $$\sigma_i$$. Nu kunnen we de som nemen van het kwadratische verschil van alle punten in de dataset met de voorspelde waardes $$f(x_i;\theta)$$, geschaald met de onzekerheden $$\sigma_i$$. Deze som noemen we $$\chi^2:$$
 >
-$${\displaystyle \chi^2 = \sum_{i=1}^N \left( \frac{y_i - f(x_i;\theta)}{\sigma_i}\right)^2 }$$
+$${\displaystyle \chi^2 = \sum_{i=1}^N \left( \frac{y_i - f(x_i;\theta)}{\sigma_i}\right)^2 .}$$
 >
 > Dit is de definitie van de $$\chi^2$$ schatter.
 
@@ -54,11 +54,11 @@ Door het kwadraat te gebruiken en niet het absolute verschil tussen de datapunte
 
 In de meeste gevallen kunnen we het minimum van de $$\chi^2$$ algebraïsch vinden. Als we nu kijken naar een functie die afhangt van slechts één parameter $$a$$ dan kunnen we het minimum vinden op het punt dat de afgeleide gelijk is aan nul:<br>
 
-$${\displaystyle \frac{\partial \chi^2}{\partial a} =0}$$
+$${\displaystyle \frac{\partial \chi^2}{\partial a} =0.}$$
 
 Dit geeft: 
 
-$${\displaystyle \frac{\partial \chi^2}{\partial a} = \sum_{i=1}^N \frac{1}{\sigma_i^2} \frac{\partial f(x_i;a)}{\partial a} \left( y_i - f(x_i;a)\right) = 0 }$$
+$${\displaystyle \frac{\partial \chi^2}{\partial a} = \sum_{i=1}^N \frac{1}{\sigma_i^2} \frac{\partial f(x_i;a)}{\partial a} \left( y_i - f\left( x_i;a\right) \right) = 0 .}$$
 
 De betreffende waarde van $$a$$ waarvoor dit geldt is de schatter van $$a$$, genoteerd als $$\hat{a}$$.
 
