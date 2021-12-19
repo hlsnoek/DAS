@@ -30,9 +30,9 @@ Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \
 > **Voorbeeld Wald test** Stel dat we een chemisch element willen traceren en gebruik maken van spectroscopie. Als het chemische element $$X$$ aanwezig is dan verwachten we een verhoogde intensiteit te zien bij de emissielijn van het specifieke element. We verwachten ook een achtergrondspectrum te zien. Dat wil zeggen we meten over alle golflengtes normaal gesproken een bepaalde intensiteit, ook zonder dat het chemische element aanwezig is. We kunnen nu de twee functies opstellen. Stel dat de achtergrond een lineaire functie volgt  
 > $$ I_0(\lambda;a,b) = a+ b\cdot \lambda$$  
 > Waarbij $$\lambda$$ de golflengte is.  
-> De emissielijn van $$X$$, verwachten we rond 930nm en de resolutie van de spectroscoop is 1nm. De intensiteit van de emissielijn wordt dan beschreven door: <br>
+> De emissielijn van $$X$$, verwachten we rond 930 nm en de resolutie van de spectroscoop is 1 nm. De intensiteit van de emissielijn wordt dan beschreven door: <br>
 > 
-> $$ I_\alpha(\lambda;J,\mu=930nm,\sigma=1nm) = J \cdot \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\left(\frac{\lambda - \mu}{\sigma}\right)^2}$$<br>
+> $$ I_\alpha(\lambda;J,\lamda_0=930nm,\sigma=1nm) = J \cdot \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\left(\frac{\lambda - \lambda_0}{\sigma}\right)^2}$$<br>
 > 
 > We zien dat in principe er geen vrije parameters zijn in deze fit, behalve een schaalfactor $$J$$ die de hoeveelheid intensiteit van het signaal schaalt.  
 > 
@@ -47,7 +47,7 @@ Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \
 > We gaan even naar de data kijken. We hebben het spectrum waargenomen dat hier<!--FIG in figuur \ref{fig:Spectrum}--> wordt getoond.  
 > ![Het waargenomen spectrum met de gefitte lijn.](Spectrum.png){:width="60%"}
 > 
-> In de grafiek zien we een duidelijk piekje rond 930nm, precies waar we het signaal van het chemische element $$X$$ door $$H_\alpha$$ voorspeld is. De fit resultaten van beide hypotheses zijn in het plaatje weergegeven. Met het verschil in $$\chi^2$$ kunnen we nu een p-waarde uitrekenen. In dit geval is die gelijk aan $$1.6\cdot 10^{-8}$$. Het is dus uitermate waarschijnlijk dat we het chemische element $$X$$ hebben aangetoond in de spectraal analyse.
+> In de grafiek zien we een duidelijk piekje rond 930 nm, precies waar we het signaal van het chemische element $$X$$ door $$H_\alpha$$ voorspeld is. De fit resultaten van beide hypotheses zijn in het plaatje weergegeven. Met het verschil in $$\chi^2$$ kunnen we nu een p-waarde uitrekenen. In dit geval is die gelijk aan $$1.6\cdot 10^{-8}$$. Het is dus uitermate waarschijnlijk dat we het chemische element $$X$$ hebben aangetoond in de spectraal analyse.
 
 De berekende p-waarde wordt vaak weer omgerekend in een $$z$$-score. De enige reden waarom dit gedaan wordt is omdat de waardes van de $$z$$-score over het algemeen wat makkelijker liggen. Het is zeg maar een handigere manier om een kans uit te drukken. In het voorbeeld hierboven komt de kans van $$1.6\cdot 10^{-8}$$ overeen met een $$z$$-score van 5.5. Ga maar na, het laatste spreekt een stuk makkelijker uit. 
 
@@ -57,18 +57,18 @@ In het voorbeeld hierboven hebben we een nulhypothese (waarbij alleen een achter
 
 ## p-Waarde scan
 
-In het voorbeeld hierboven is er een duidelijk stelling over de golflengte van de emissielijn van het element $$X$$, namelijk $$\mu= 930$$ nm. Stel nu dat dat niet zo is, dan zouden we een extra vrije parameter hebben in de functie die $$H_\alpha$$ beschrijft. In dat geval kunnen we de Wald methode niet toepassen. Wat we in dat geval wèl kunnen doen is een zogeheten p-waarde scan uitvoeren. We fixeren dan telkens de waarde van de golflengte van de emissielijn en berekenen voor elk van deze golflengtes de p-waarde. Als er een emissielijn aanwezig is die sterk genoeg is zullen we op die locatie een dip zien in de p-waarde. 
+In het voorbeeld hierboven is er een duidelijk stelling over de golflengte van de emissielijn van het element $$X$$, namelijk $$\lambda_0= 930$$ nm. Stel nu dat dat niet zo is, dan zouden we een extra vrije parameter hebben in de functie die $$H_\alpha$$ beschrijft. In dat geval kunnen we de Wald methode niet toepassen. Wat we in dat geval wèl kunnen doen is een zogeheten p-waarde scan uitvoeren. We fixeren dan telkens de waarde van de golflengte van de emissielijn en berekenen voor elk van deze golflengtes de p-waarde. Als er een emissielijn aanwezig is die sterk genoeg is zullen we op die locatie een dip zien in de p-waarde. 
 
 We moeten ook bij deze toets van te voren bepalen bij welke p-waarde we de nulhypothese verwerpen.
 
 
 > **Voorbeeld p-waarde scan** Hieronder zie je de spectraalfit waarbij we het
 > spectrum hebben gefit met een centrale waarde van de spectraallijn op
-> 932 nm, net rechts van het piekje op 930 nm. Zoals je in de figuur<!--FIG in figuur \ref{fig:Spectrum932}--> ziet is de waarde voor $$J$$ die de intensiteit van een eventuele emissielijn op 932nm beschrijft, erg klein: De gefitte functie voor $$H_\alpha$$ wijkt nauwelijks af van de functie die de $$H_0$$ hypothese beschrijft. De berekende p-waarde zal voor deze golflengte dan ook niet heel klein zijn.  
+> 932 nm, net rechts van het piekje op 930 nm. Zoals je in de figuur<!--FIG in figuur \ref{fig:Spectrum932}--> ziet is de waarde voor $$J$$ die de intensiteit van een eventuele emissielijn op 932 nm beschrijft, erg klein: De gefitte functie voor $$H_\alpha$$ wijkt nauwelijks af van de functie die de $$H_0$$ hypothese beschrijft. De berekende p-waarde zal voor deze golflengte dan ook niet heel klein zijn.  
 > ![Het waargenomen spectrum met de gefitte lijn voor $$\lambda = 932$$ nm.](Spectrum932.png){:width="60%"}   
 > Als we alle p-waardes van de scan nu grafisch weergeven dan krijgen we het hier <!--FIG in figuur \ref{fig:Emissiescan} --> getoonde resultaat.  
 > ![De p-waarde scan van de emissiedata.](Emissiescan.png){:width="60%"}  
-> Je ziet nu dat er op een aantal plekken in het spectrum een kleine afwijking van de $$H_0$$ hypothese te zien is. Deze komen allemaal overeen met golflengtes waar op het oog een piekje zichtbaar lijkt. Op slechts 1 locatie is er een heel duidelijke afwijking zichtbaar. Precies bij 930nm. 
+> Je ziet nu dat er op een aantal plekken in het spectrum een kleine afwijking van de $$H_0$$ hypothese te zien is. Deze komen allemaal overeen met golflengtes waar op het oog een piekje zichtbaar lijkt. Op slechts 1 locatie is er een heel duidelijke afwijking zichtbaar. Precies bij 930 nm. 
 
 Eigenlijk hadden  we van tevoren ook bij deze een significantie moeten afspreken waarbij we de aanwezigheid van het chemische element kunnen aantonen. Zodra de gemeten p-waarde onder deze afgesproken significantie zakt in de p-waarde scan kunnen we claimen het element te hebben aangetoond. Als we hem weer bij een waarde van $$1 \cdot 10^{-6}$$ hadden afgesproken hadden we ook in de p-waarde scan het element $$X$$ kunnen claimen. 
 
