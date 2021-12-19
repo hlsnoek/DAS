@@ -131,9 +131,9 @@ $$1.23 + 0.1 = 1.3 .$$
 - Bij het vermenigvuldigen of delen van constante waardes (zoals $$\pi, e, 100\%$$ of $$1$$) dan verandert de significantie niet. En bij optellen of aftrekken bij constante waardes verandert het aantal decimalen niet. 
 
 > **Voorbeeld**
-> We berekenen het complement van de winkans van $$5.3\%$$ en vinden de kans om te verliezen:<br>
+> Ongeveer $$7.8\%$$ van de mannen in Nederland is kleurenblind. Dat betekend  dat het percentage van de mannen die niet kleurenblind is gelijk is aan:<br>
 >  $$100\% - 5.3\% = 94.7\%$$.
->  (Want, het is een optelling en we behouden dus het aantal decimalen van de winkans.)
+>  (Want, het is een aftreksom en we behouden dus het aantal decimalen.)
 <br>
 
 > **Voorbeeld**

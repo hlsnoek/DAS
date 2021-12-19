@@ -78,7 +78,7 @@ Deze formule heet het Bayes theorema en blijkt een van de meest krachtige formul
 > 
 > De test is relatief betrouwbaar. Slechts in 5% van de tests volgt er een positieve testuitslag terwijl de patiënt niet ziek is. Dit noem je een fout-positieve uitslag en noteren we hier als $$P(+ \mid \text{niet ziek})$$. In 3% van de gevallen is de testuitslag fout-negatief; de patiënt heeft een blaasontsteking maar de uitslag is toch negatief. De fout-negatieve kans noteren we met $$P(- \mid \text{ziek})$$.
 > 
->  Voordat de testuitslag bekend is weet de assistent al wat de *voorafkans* is, de voorafkans is de kans dat een patiënt met die type klachten een blaasontsteking heeft. Dit weet men door jarenlange ervaring in de praktijk. De voorafkans is verschillend voor kinderen ($$20\%$$) en volwassen ($$60\%$$). Kinderen hebben ook vaak om andere reden buikpijn. 
+>  Voordat de testuitslag bekend is weet de assistent al wat de *voorafkans* is, de voorafkans is de kans dat een patiënt met die type klachten een blaasontsteking heeft. Dit weet men door jarenlange ervaring in de praktijk. De voorafkans is verschillend voor kinderen ($$0.20$$) en volwassen ($$0.60$$). Kinderen hebben ook vaak om andere reden buikpijn. 
 > 
 > 
 > De testuitslag is positief. **Wat is nu de kans dat de patiënt daadwerkelijk een blaasonsteking heeft?** 
