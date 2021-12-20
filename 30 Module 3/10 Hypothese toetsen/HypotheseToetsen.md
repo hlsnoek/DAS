@@ -100,7 +100,7 @@ Als de waargenomen kans (zie p-waarde hierna) kleiner is of gelijk aan het gekoz
 Kiezen we bijvoorbeeld een significantieniveau van $$\alpha=5\%$$ dan verwerpen we de nulhypothese zodra de waargenomen kans kleiner is dan $$5\%$$. Is de waargenomen kans groter dan $$5\%$$, dan verwerpen we de nulhypothese niet. 
 
 <!--Hoe kleiner de waarde van het significantieniveau des te zekerder zijn we ervan dat we de nulhypothese mogen verwerpen.-->
-Hoe kleiner de kans is op de nulhypothese des te zekerder we ervan kunnen zijn dat we deze rechtmatig verwerpen. In principe wil je het significantieleven daarom zo laag mogelijk kiezen. Maar het kiezen van $$\alpha=1\%$$ heeft een nadeel. Hoe kleiner het significantieniveau des te groter de meetonzekerheid op de gemeten eigenschap. Het is dus altijd een afweging tussen het zo zeker mogelijk zijn van correctheid van het verwerpen van de nulhypothese, en het zo klein mogelijk houden van de meetonzekerheid op de waarde van de eigenschap.
+Hoe kleiner de kans is op de nulhypothese des te zekerder we ervan kunnen zijn dat we deze rechtmatig verwerpen. In principe wil je het significantielevel daarom zo laag mogelijk kiezen. Maar het kiezen van $$\alpha=1\%$$ heeft een nadeel. Hoe kleiner het significantieniveau des te groter de meetonzekerheid op de gemeten eigenschap. Het is dus altijd een afweging tussen het zo zeker mogelijk zijn van correctheid van het verwerpen van de nulhypothese, en het zo klein mogelijk houden van de meetonzekerheid op de waarde van de eigenschap.
 
 ## p-Waarde bepalen
 
@@ -158,7 +158,7 @@ Dit bekijken we aan de hand van een paar voorbeelden:
 >
 > We meten de staartlengte van 300 lapjeskatten in Nederland (met alle gevolgen van dien voor de onderzoekers), en zetten het resultaat uit in een histogram. Dit resulteert in een normale verdeling met gemiddelde $$\mu=25$$ cm en een standaardafwijking $$5$$ cm.
 >
-> De nulhypothese stelde dat de lengte van de staart van een volgroeide lapjeskat kleiner is aan 10 cm. We bepalen dus de p-waarde die hierbij hoort:
+> De nulhypothese stelde dat de lengte van de staart van een volgroeide lapjeskat kleiner is dan 10 cm. We bepalen dus de p-waarde die hierbij hoort:
 >
 > $$\begin{aligned}P(X<10) &= P\left( Z<\frac{10-25}{5} \right)\\ &= P(Z<-3) \end{aligned}$$
 >
