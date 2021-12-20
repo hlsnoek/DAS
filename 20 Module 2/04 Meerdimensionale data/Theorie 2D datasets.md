@@ -29,7 +29,7 @@ Als de covariantie nul is, betekent dat dus niet persé dat er geen afhankelijkh
 Met de volgende formules kun je de covariantie van een dataset uitrekenen: 
 
 * Voor discrete verdelingen geldt: 
-$${\displaystyle cov(x,y) = \frac{1}{n}\sum^n_i \left( x_i- \overline{x} \right) \cdot \left( y_i- \overline{y} \right)}.$$
+$${\displaystyle cov(x,y) = \frac{1}{n}\sum^n_i \left( x_i- \bar{x} \right) \cdot \left( y_i- \overline{y} \right)}.$$
 
 * Voor continue verdelingen geldt: 
 $${\displaystyle cov(x,y) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}x~y \cdot f(x,y) ~dy ~dx }$$
