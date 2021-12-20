@@ -5,11 +5,11 @@
 {:toc}
 
 We hebben in het vorige hoofdstuk over de kleinste-kwadraten methode de definitie van de $$\chi^2$$ schatter gezien. 
-De $$\chi^2$$ is een maat voor het verschil tussen de voorspelde en de gemeten waardes. Als een functie $$f$$ de data goed beschrijft voor de geoptimaliseerde parameters van de functie, dan zal de $$\chi^2$$ klein zijn. Als de $$\chi^2$$ dus groot blijft na het optimaliseren van de parameters van $$f$$ dan is er iets misgegaan. Het kan zijn dat de functie $$f$$ de datapunten niet goed *kan* beschrijven, maar het kan ook zijn dat als je minimalisatie uitvoert met een computer deze het minimum niet goed heeft weten te vinden. 
+De $$\chi^2$$ is een maat voor het verschil tussen de voorspelde en de gemeten waardes. Als een functie $$f$$ de data goed beschrijft voor de geoptimaliseerde parameters van de functie, dan zal de $$\chi^2$$ klein zijn. Als de $$\chi^2$$ dus groot blijft na het optimaliseren van de parameters van $$f$$ dan is er iets misgegaan. Het kan zijn dat de functie $$f$$ de datapunten niet goed *kan* beschrijven, maar het kan ook zijn dat als je minimalisatie uitvoert met een computer, deze het minimum niet goed heeft weten te vinden. 
 
 Als daarentegen de $$\chi^2$$ heel klein is gaat er ook iets mis. Waarschijnlijk heb je de onzekerheden op de datapunten heel erg overschat. 
 
-Maar wat is precies heel groot of heel klein? Wat is de verwachtingswaarde van de $$\chi^2$$? Deze vraag gaan we in dit hoofdstuk beantwoorden.
+Maar wat is precies heel groot of heel klein? Wat is de verwachtingswaarde van de $$\chi^2$$? Deze vragen gaan we in dit hoofdstuk beantwoorden.
 
 ## De $$\chi^2$$-toets
 
@@ -44,7 +44,7 @@ We definïeren de **gereduceerde** $$\chi^2$$ als:
 
 $${\displaystyle \chi^2_\nu = \frac{\chi^2}{\nu}.}$$
 
-De gereduceerde $$\chi^2$$ wordt ook wel geschreven als $$\chi^2/df$$, $$\chi^2_{red}$$ of $${\tilde{\chi}}^2$$. Je kan met de gereduceerde $$\chi^2_\nu$$ ook zonder de tabel al makkelijk inschatten of de fit aan de $$\chi^2$$ toets voldoet. Namelijk je verwacht dat een waarde van ongeveer 1. 
+De gereduceerde $$\chi^2$$ wordt ook wel geschreven als $$\chi^2/df$$, $$\chi^2_{red}$$ of $${\tilde{\chi}}^2$$. Je kan met de gereduceerde $$\chi^2_\nu$$ ook zonder de tabel al makkelijk inschatten of de fit aan de $$\chi^2$$ toets voldoet. Namelijk je verwacht dan een waarde van ongeveer 1. 
 
 Als nu $$\chi^2_\nu$$ veel afwijkt van 1 dan is het waarschijnlijk dat er een probleem is met de fit. Het kan zijn dat de functie de relatie tussen de datapunten niet goed beschrijft, of dat er iets mis is met de onzekerheden op de datapunten. 
 
