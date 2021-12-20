@@ -37,7 +37,7 @@ Het gemiddelde van een dataset geeft een maat voor het centrum van de waarden di
 Het gemiddelde kun je berekenen door alle waardes in de dataset te sommeren en te delen door de grootte van de dataset. We maken onderscheid in de notatie voor het gemiddelde van een steekproef en die van het populatiegemiddelde.
 
 
-Het steekproef gemiddelde $$\overline{x}$$ (x-streep of in het Engels: x-bar) van een dataset is de som van de waarden $$x_1,\dots,x_n$$ in de set gedeeld door het aantal datapunten in de steekproef: $$n$$:
+Het steekproef gemiddelde $$\overline{~x~}$$ (x-streep of in het Engels: x-bar) van een dataset is de som van de waarden $$x_1,\dots,x_n$$ in de set gedeeld door het aantal datapunten in de steekproef: $$n$$:
 
 $$\overline{x}=\frac{1}{n}{\displaystyle \sum_{i=1}^{n}x_{i}}$$
 
