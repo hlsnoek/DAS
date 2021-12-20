@@ -55,7 +55,7 @@ Een voordeel van deze notatie is dat je hiermee ook hele kleine getallen en hele
 >
 > $$0.000000000004563 = 4.6\cdot 10^{-12}$$
 
-In het voorbeeld hierboven mag je natuurlijk zowel $$4.6\cdot 10^{-12}$$ als $$4.6 \times 10^{-12}$$ schrijven. Dat maakt niet uit.
+In het voorbeeld hierboven mag je natuurlijk zowel $$4.6\cdot 10^{-12}$$ als $$0.000000000004563$$ schrijven. Dat maakt niet uit.
 Bij grote ronde getallen is het vaak niet duidelijk hoe groot de significantie is. Met de wetenschappelijk notatie kunnen we dit duidelijk maken.
 
 
