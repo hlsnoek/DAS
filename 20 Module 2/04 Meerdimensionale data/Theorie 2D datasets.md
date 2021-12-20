@@ -18,7 +18,7 @@ De covariantie bij een 2D dataset geeft aan in welke mate de data verspreid is o
 
 Voor twee variabelen $$x$$ en $$y$$ wordt de covariantie aangeduid met $$cov(x,y)$$ en gegeven door:
 
-$$cov(x,y) = E \left( (x-E_x)(y-E_y) \right)$$
+$${\displaystyle cov(x,y) = E \left( (x-E_x)(y-E_y) \right) }$$
 
 Hier staat $$E$$ voor de *verwachtingswaarde*. De verwachtingswaarde voor $$x$$ en $$y$$ worden respectievelijk aangegeven met $$E_x$$ en $$E_y$$. De formule geeft dus aan dat de covariantie gelijk is aan de verwachtingswaarde van het verschil tussen de waarde van de variabele $$x$$ en de verwachtingswaarde van $$x$$ vermenigvuldigd met het verschil tussen de variabele $$y$$ en de verwachtingswaarde van $$y$$.
 
