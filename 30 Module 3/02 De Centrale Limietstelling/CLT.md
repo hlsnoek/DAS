@@ -73,7 +73,7 @@ Bij de vorming van een ster of zandkorrel zijn er ook vele toevalligheden die in
 Als laatste bekijken we nogmaals de Poisson verdeling en laten we in het voorbeeld hieronder zien dat voor grotere waardes van $$\lambda$$ de Poisson steeds meer overeen komst met een Normaalverdeling.
 
 
-De Poisson onzekerheid zie we veel terug omdat het de onzekerheid op tel experimenten beschrijft, en veel van de metingen die we uitvoeren zijn telexperimenten. Voor een verwachtingswaarde van $$\lambda$$ vinden we een standaardafwijking van $$\sqrt{\lambda}$$ en zoals we al eerder hebben gezien mogen we deze bij het uitvoeren van een experiment vaak zien als de onzekerheid op de verwachtingswaarde zelf.
+De Poisson onzekerheid zie we veel terug omdat het de onzekerheid op telexperimenten beschrijft, en veel van de metingen die we uitvoeren zijn telexperimenten. Voor een verwachtingswaarde van $$\lambda$$ vinden we een standaardafwijking van $$\sqrt{\lambda}$$ en zoals we al eerder hebben gezien mogen we deze bij het uitvoeren van een experiment vaak zien als de onzekerheid op de verwachtingswaarde zelf.
 
 We herhalen de formule van de Poisson vergelijking hier: 
 
@@ -81,9 +81,9 @@ $${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}.$$
 
 ![De Poisson distributie.](PoissonDistributie2.png){:width="60%"} 
 
-Zoals we <!--FIG in Fig. \ref{fig:PoissonDistributie2}--> zien is de Poisson verdeling is asymmetrisch, vooral voor lage waardes van $$\lambda$$. Voor grotere waardes van $$\lambda$$ zien we dat de verdeling steeds symmetrischer is en ook steeds meer overeenkomsten vertoont met een Normaalverdeling. 
+Zoals we <!--FIG in Fig. \ref{fig:PoissonDistributie2}--> zien is de Poisson verdeling asymmetrisch, vooral voor lage waardes van $$\lambda$$. Voor grotere waardes van $$\lambda$$ zien we dat de verdeling steeds symmetrischer is en ook steeds meer overeenkomsten vertoont met een Normaalverdeling. 
 
-Aan de hand van de Centrale Limietstelling kunnen we dit nu begrijpen. We leggen het uit aan de hand van een voorbeeld. Stel dat we de tellingen in ons experiment uitvoeren in een tijdsinterval. De meetwaarde die we vinden, $$k$$, is het aantal waarnemingen per tijdsinterval $$Delta t.$$ We zouden het tijdsinterval ook kunnen opdelen in bijvoorbeeld 100 stukjes. We verwachten nu $$k_{\text{kort}} = k/100$$ waarnemingen te meten per tijdsinterval van $$\Delta t_{\text{kort}}= 1/100 \times \Delta t.$$
+Aan de hand van de Centrale Limietstelling kunnen we dit nu begrijpen. We leggen het uit aan de hand van een voorbeeld. Stel dat we de tellingen in ons experiment uitvoeren in een tijdsinterval. De meetwaarde die we vinden, $$k$$, is het aantal waarnemingen per tijdsinterval $$\Delta t.$$ We zouden het tijdsinterval ook kunnen opdelen in bijvoorbeeld 100 stukjes. We verwachten nu $$k_{\text{kort}} = k/100$$ waarnemingen te meten per tijdsinterval van $$\Delta t_{\text{kort}}= 1/100 \times \Delta t.$$
 Deze kortere tijdsintervallen volgen ook de Poisson statistiek, immers we hebben de voorwaardes van het experiment verandert, maar het is nog steeds een telexperiment. Om weer bij het originele resultaat uit te komen, met de langere tijdsintervallen, kunnen we simpel de som nemen van de uitkomsten van de korte metingen, $$\sum^{100} k_{\text{kort}}$$. Het moet niet uitmaken of we 100 maal een korte of 1 maal een lang tijdsinteval tellen. En omdat we de som nemen van de onafhankelijke metingen, moet de Centrale Limietstelling gelden. 
 
 **We verwachten voor grotere waardes van $$\lambda$$ dat de Poisson de Normaalverdeling zal gaan volgen.**
