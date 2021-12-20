@@ -26,14 +26,13 @@ Als bovengemiddelde waardes van $$x$$ overwegend samen gaan met relatief hoge wa
 Als de covariantie gelijk is aan nul dan is er, gemiddeld over de hele dataset, geen afhankelijkheid. Het kan zijn dat voor delen van de dataset wel degelijk een positieve covariantie bestaat, deze wordt dan opgeheven door een ander gedeelte met een negatieve covariantie. 
 Als de covariantie nul is, betekent dat dus niet persé dat er geen afhankelijkheid is van $$x$$ ten opzichte van $$y$$. 
 
-
 Met de volgende formules kun je de covariantie van een dataset uitrekenen: 
 
 * Voor discrete verdelingen geldt: 
-$${\displaystyle cov(x,y) = \frac{1}{n}\sum^n_i (x_i-<{x}>)\cdot (y_i-<{y}>)}.$$
+$${\displaystyle cov(x,y) = \frac{1}{n}\sum^n_i \left( x_i- \overline{x} \right) \cdot \left( y_i- \overline{y} \right)}.$$
 
 * Voor continue verdelingen geldt: 
-$${\displaystyle cov(x,y) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}xy \cdot f(x,y) dy dx }$$
+$${\displaystyle cov(x,y) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}x~y \cdot f(x,y) ~dy ~dx }$$
 
 De covariantie geeft dus aan in hoeverre waarden van de ene variabele toenemen/afnemen bij toenemende waarden van de andere variabele. De covariantie is een heel nuttige maat maar lastig te interpreteren vanwege de dimensies die, net als bij de variantie, niet dezelfde zijn als de variabelen zelf. Eenvoudiger is om naar de correlatiecoëfficiënt $$\rho$$ te kijken. 
 
