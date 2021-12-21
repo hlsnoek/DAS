@@ -21,7 +21,7 @@ In de figuur <!--FIG  \ref{fig:NormaleDistributie}--> zie je enkele voorbeelden 
 
 We zien dat voor hogere waardes voor $$\sigma$$ de datapunten meer verspreidt zijn. Met andere woorden als de onzekerheid op een meting wordt uitgedrukt met de standaardafwijking $$\sigma$$ en de onzekerheid is groter, dat is de spreiding van de onderliggende kansdichtheidsverdeling ook groter. Er is geen relatie tussen de het gemiddelde $$mu$$ en de standaardafwijking $$\sigma$$, lage waardes van $$\mu$$ kunnen een grotere of kleinere standaardafwijking hebben. (Anders dan bij de Poisson verdeling.)
 
-> **Voorbeeld** Stel nu dat we een meting doen $$L$$ en we kennen het populatiegemiddelde $$\mu_L = 10.0$$ cm met een spreiding van $$\sigma_L = 2.0$$ cm. De kans dat we een meting doen $$L=4.0$$ cm is dan niet zo groot. Als de spreiding op het populatiegemiddelde daarentegen groter is, bijvoorbeeld $$\sigma=5.0$$ cm dan is de kans veel groter om de meting van  $$L=4.0$$ cm te doen. 
+> **Voorbeeld** Stel nu dat we een meting doen $$L$$ en we kennen het populatiegemiddelde $$\mu_L = 10.0$$ cm met een spreiding van $$\sigma_L = 2.0$$ cm. De kans dat we een meting doen die $$L=4.0$$ cm oplevert is dan niet zo groot. Als de spreiding op het populatiegemiddelde daarentegen groter is, bijvoorbeeld $$\sigma=5.0$$ cm dan is de kans veel groter dat de meting een waarde van  $$L=4.0$$ cm oplevert. 
 
 Deze kansen kunnen we exact berekenen met behulp van de Normaalverdeling. 
 
@@ -34,7 +34,7 @@ Dit kunnen we schematisch weergeven.
 
 
 > **Voorbeeld: Onderkans**
-> Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, kun je schematisch weergegeven. <!--FIG Zie figuur \ref{fig:NormaleVerdeling_1} en \ref{fig:NormaleVerdeling_2}.--> 
+> Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, kun je als volgt schematisch weergeven: <!--FIG Zie figuur \ref{fig:NormaleVerdeling_1} en \ref{fig:NormaleVerdeling_2}.--> 
 > 
 > ![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden.](NormaalLinks.png){:width="90%"}
 
@@ -48,7 +48,7 @@ Dit kunnen we schematisch weergeven.
 
 
 
-Het oppervlak onder een van een Normaalverdeling is lastig uit te rekenen. We maken hierom een tussenstap en berekenen eerst de 
+Het oppervlak onder de kromme van een Normaalverdeling is lastig uit te rekenen. We maken hierom een tussenstap en berekenen eerst de 
 zogenoemde $$z$$-score. Stel een dataset is Normaalverdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$. De $$z$$-score, voor een bepaalde observatiewaarde $$x$$, is dan gelijk aan:
 
 $$Z = \frac{x-\mu}{\sigma}.$$  
@@ -61,7 +61,7 @@ $$P(X< x) = P\left( Z<\frac{x-\mu}{\sigma} \right)$$
 
 De kans om een waarde $$X>x$$ te vinden is gelijk aan:
 
-$$P(X>x) = 1 - P(X< x>) = 1-P\left( Z<\frac{x-\mu}{\sigma} \right)$$
+$$P(X>x) = 1 - P(X< x) = 1-P\left( Z<\frac{x-\mu}{\sigma} \right)$$
 
 Dit kun je zelf nagaan door schetsen te maken van de bijbehorende oppervlakken onder de normaalkromme.
 

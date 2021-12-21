@@ -15,7 +15,7 @@ Vaak willen we met behulp van een meting een bepaalde grootheid te weten komen. 
 Het woord schatten is in het Nederlands vaak geassocieerd met een wat slordige manier om iets te bepalen. "Even schatten hoeveel knikkers er in de pot zitten in plaats ze nauwkeurig te tellen." 
 Het begrip **schatter** in de statistiek is veel algemener en probeert juist uit te gaan van nauwkeurigheid.
 
-Zonder dat we dit expliciet benoemd hebben zijn we al veel schatters tegengekomen. Bijvoorbeeld het steekproefgemiddelde is een voorbeeld van een schatter. 
+Zonder dat we dit expliciet benoemd hebben zijn we al veel schatters tegengekomen. Het steekproefgemiddelde is bijvoorbeeld een schatter. 
 
 > **Voorbeeld** Het gemiddelde van een steekproef met waardes $$x_i$$ en grootte $$n$$ is gedefinieerd als: 
 > 
