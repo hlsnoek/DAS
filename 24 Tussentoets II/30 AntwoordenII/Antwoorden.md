@@ -93,15 +93,15 @@ We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten
 Je hebt de volgende dataset met waardes van x en y: <br>
 <center>{2,5}, {1,4}, {5,2}, {3,0} </center><br>
 **a.** Bereken de covariantie.<br>
-<span style = 'color:blue'> $$<{x}> = (2+1+5+3)/4 = 2.75$$ <br>
-$$<{y}> = (5+4+2+0)/4 = 2.75$$<br>
-$$\text{cov}(x,y) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = $$<br>
+<span style = 'color:blue'> $$\bar{x} = (2+1+5+3)/4 = 2.75$$ <br>
+$$\bar{y} = (5+4+2+0)/4 = 2.75$$<br>
+$$\text{cov}(x,y) = \frac{1}{n} \sum_n (x_i- \bar{x})\cdot (y_i - \bar{y}) = $$<br>
 $$\frac{1}{4}\cdot ((2-2.75)\cdot(5-2.75)  
 +(1-2.75)\cdot(4-2.75)+(5-2.75)\cdot(2-2.75) +(3-2.75)\cdot(0-2.75)) $$ 
 $$ = -1.6$$</span><br>
 **b.** Bereken de correlatie.<br>
-<span style = 'color:blue'> $$\sigma_x^2 = <{x^2}>-<{x}>^2 = (4+1+25+9)/4 - 2.75^2 = 2.1875$$ <br>
-$$\sigma_y^2 = <{y^2}>-<{y}>^2 = (25+16+4+0)/4 - 2.75^2 = 3.6875$$ <br>
+<span style = 'color:blue'> $$\sigma_x^2 = \overline{~x^2}-\bar{x}^2 = (4+1+25+9)/4 - 2.75^2 = 2.1875$$ <br>
+$$\sigma_y^2 = \overline{~y^2}- \bar{y}^2 = (25+16+4+0)/4 - 2.75^2 = 3.6875$$ <br>
 $$\sigma_x = 1.48$$, $$\sigma_y = 1.48$$<br>
 $$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{-1.56}{1.48\times 1.92} = -0.55$$</span><br>
 
@@ -111,12 +111,12 @@ $$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{-1.56}{1.48\times 1.9
 Je hebt de volgende dataset met waardes van x en y: <br>
 <center>{1,0}, {3,4}, {2,6}, {4,8} </center><br>
 **a.** Bereken de covariantie.<br>
-<span style = 'color:blue'>$$<{x}> = 2.5$$ <br>
-$$<{y}> = 4.5$$<br>
-$$\text{cov}(x,y) = \frac{1}{n} \sum_n (x_i-<{x}>)\cdot (y_i - <{y}>) = 2.75$$<br></span><br>
+<span style = 'color:blue'>$$\bar{x} = 2.5$$ <br>
+$$\bar{y} = 4.5$$<br>
+$$\text{cov}(x,y) = \frac{1}{n} \sum_n (x_i-\bar{x})\cdot (y_i - \bar{y}) = 2.75$$<br></span><br>
 **b.** Bereken de correlatie.<br>
-<span style = 'color:blue'> $$\sigma_x^2 = <{x^2}>-<{x}>^2 = 1.118^2$$<br>
-$$\sigma_y^2 = <{y^2}>-<{y}>^2 = 2.958^2$$<br>
+<span style = 'color:blue'> $$\sigma_x^2 = \overline{~x^2}>-\bar{x}^2 = 1.118^2$$<br>
+$$\sigma_y^2 = \overline{~y^2}-\overline{y}^2 = 2.958^2$$<br>
 $$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{2.75}{1.118\times 2.958} = 0.83$$</span><br>
 
 

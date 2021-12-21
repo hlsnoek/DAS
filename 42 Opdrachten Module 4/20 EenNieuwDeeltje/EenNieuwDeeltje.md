@@ -10,7 +10,7 @@ Alleen hebben de theoreten geen enkel idee van de exacte massa is van het $$X$$ 
 
 In het vakgebied van de deeltjesfysica hanteren we de volgende normen: 
 
-| z-waarde | p-waarde | statement |
+| z-score | p-waarde | statement |
 |---|---|---|
 | $$\geq$$ 3 $$\sigma$$ | $$\leq 0.003$$ |  observatie van afwijking|
 | $$\geq$$ 5 $$\sigma$$ | $$\leq 2.87 \times 10^{-07}$$ | ontdekking|
@@ -58,9 +58,9 @@ We gaan weer fitten met het pakket [**lmfit**](https://lmfit.github.io/lmfit-py/
 > 			plt.plot(m, result.init_fit, 'k--', label='initial fit')
 > 
 > 
-> - **M4.1c) Hoeveel vrijheidsgraden, $$df$$ heeft deze fit?**<br><br>
+> - **M4.1c) Hoeveel vrijheidsgraden, $$\nu$$ heeft deze fit?**<br><br>
 > 
-> - **M4.1d) Wat is de $$\chi^2$$ en de $$\chi^2/df$$ voor deze fit?**
+> - **M4.1d) Wat is de $$\chi^2$$ en de $$\chi^2_\nu$$ voor deze fit?**
 >
 
 Zoals je ziet wordt de massaverdeling van deeltje $$X$$ beschreven met een normaalverdeling. Als het deeltje $$X$$ bestaat, dan ligt deze normaalverdeling als het ware op de achtergrond. We zullen dus een model moeten programmeren die de som is van de normaal verdeling die het 'signaal' beschrijft en de achtergrond functie. 
@@ -127,7 +127,7 @@ Waarbij we $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierove
 > - **M4.1h) Maak een grafiek met de dataset en de gefitte modellen (achtergrond en signaal) voor deze waarde van $$\hat{m}_0$$.**<br><br>
 > 
 > 
-> - **M4.1i) Bereken voor $$\hat{m}_0$$ de p-waarde en de z-waarde. De z-waarde kun je met het volgende statement uitrekenen:**
+> - **M4.1i) Bereken voor $$\hat{m}_0$$ de p-waarde en de z-score. De z-score kun je met het volgende statement uitrekenen:**
 >
 >		    z_waarde = -stats.norm.ppf(p_waarde)
 >

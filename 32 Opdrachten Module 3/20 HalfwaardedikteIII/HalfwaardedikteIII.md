@@ -81,7 +81,7 @@ De gefitte curve kunnen we ook weergeven in een grafiek. Maak zoals gebruikelijk
 
 > - **M3.2b) Maak een grafiek met de datapunten, foutenvlaggen en het gefitte resultaat. Maak de grafiek netjes af.**  
 > 
-> - **M3.2c) Bekijk de gereduceerde $$\chi^2/df$$. Ziet deze waarde er goed uit? Beredeneer je antwoord. Wat is het aantal vrijheidsgraden in de fit?**  
+> - **M3.2c) Bekijk de gereduceerde $$\chi^2_\nu$$. Ziet deze waarde er goed uit? Beredeneer je antwoord. Wat is het aantal vrijheidsgraden in de fit?**  
 >
 > - **M3.2d) Wat is de geschatte waarde $$\hat{d}_{half}$$? Vergelijk deze met de 'true' waarde 'dtrue'.**  
 > 

@@ -84,9 +84,9 @@ Denk bijvoorbeeld aan de ton met N kogels waarvan de massa's van de kogels een N
 ## De wet van Grote Aantallen
 Intuïtief voelen we aan dat hoe meer metingen we doen, hoe meer informatie we hebben, en hoe nauwkeuriger ons resultaat is. We hebben in de $$\sqrt{n}$$-wet al gezien dat de standaardafwijking op een gemeten stochast afneemt met 1/$$\sqrt{n}$$. We laten nu zien dat we, in de meeste gevallen, ook kunnen verwachten dat de gemeten steekproefgemiddelde steeds meer in de buurt komt van het populatiegemiddelde. 
 
-> De **wet van grote aantallen** zegt dat het berekende steekproef gemiddelde, $$<{X}>$$, van een distributie met een eindige variantie, convergeert naar het populatie gemiddelde $$\mu$$ voor steeds grote steekproeven:<br>
+> De **wet van grote aantallen** zegt dat het berekende steekproef gemiddelde, $$\overline{X}$$, van een distributie met een eindige variantie, convergeert naar het populatie gemiddelde $$\mu$$ voor steeds grote steekproeven:<br>
 >
->  $${\displaystyle lim_{n \to \infty} P( \mid \lt X \gt - \mu \mid \gt \epsilon) = 0 } $$
+>  $${\displaystyle lim_{n \to \infty} P( \mid  \overline{X} - \mu \mid \gt \epsilon) = 0 } $$
 >
 > Ofwel de kans dat het steekproef gemiddelde meer afwijkt van het populatie gemiddelde dan e en heel klein getal, convergeert naar 0 voor oneindig grote steekproeven. 
 

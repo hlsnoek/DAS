@@ -40,26 +40,26 @@ $$(1.0^2 \cdot 3.2 - \hat{b} \cdot 1.0^3)$$ +  $$(2.0^2 \cdot 13.3 - \hat{b} \cd
 
 ## Chi-2 en AIC
 **3** Stel je hebt een dataset met 32 meetwaardes die je fit met de functie $$f(x;a,b,c,d)$$ waarbij je alle vier de variabelen optimaliseert. Hoeveel vrijheidsgraden heeft deze fit?<br>
-<span style = 'color:blue'>df =32-4 = 28</span>
+<span style = 'color:blue'>$$\nu$$ =32-4 = 28</span>
 
 -----
 
 **4** Stel je hebt een dataset met 45 meetwaardes gefit met een functie $$f(x;a,b)$$. De $$\chi^2$$ van de fit is bepaald op 98. Is dit een goede fit?<br>
-<span style = 'color:blue'>df= 45-2 = 43, $$\chi^2/{df} = 98/43 =2.3$$. Dit is niet een goede fit, het lijkt erop dat de functie de dataset niet goed beschrijft.</span>
+<span style = 'color:blue'>$$\nu$$= 45-2 = 43, $$\chi^2_\nu = 98/43 =2.3$$. Dit is niet een goede fit, het lijkt erop dat de functie de dataset niet goed beschrijft.</span>
 
 ----
 
 **5** Stel je hebt een dataset met 14 punten. Je fit deze met een functie $$f=a\cdot x^2$$. De $$\chi^2$$ van de fit is 10. Is dit een goede fit?<br>
-<span style = 'color:blue'>df=14-1 = 13. $$\chi^2/{df} = 0.8$$ Dit is een redelijk goede fit.</span>
+<span style = 'color:blue'>$$\nu$$=14-1 = 13. $$\chi^2_\nu = 0.8$$ Dit is een redelijk goede fit.</span>
 
 **6** Stel je hebt een dataset met 14 punten. Je fit deze met een functie $$f1 = a+ b\cdot x$$ en met een functie $$f2 = a+b\cdot x+ c\cdot x^2$$. Voor $$f1$$ vind je een $$\chi^2_{f1} = 15.2$$, voor $$f2$$ vind je een $$\chi^2_{f2} = 16.8$$. Vergelijk de twee fits, welke is het beste? 
 <span style = 'color:blue'>Voor $$f1$$: <br>
-$$df_1 = 14-2 = 12$$ <br>
-$$\chi^2/df_1 = 15.2/12 = 1.3$$<br>
+$$\nu_1 = 14-2 = 12$$ <br>
+$$\chi^2_{\nu_1} = 15.2/12 = 1.3$$<br>
 $$AIC_1 = 15.2 + 4 + 12/11 = 20.3$$<br>
 Voor $$f2$$:<br>
-$$df_2 = 14 -3 = 11$$<br>
-$$\chi^2/df_2 = 1.53 $$ <br>
+$$\nu_2 = 14 -3 = 11$$<br>
+$$\chi^2_{\nu_2} = 1.53 $$ <br>
 $$AIC_2 = 16.8 + 6 + 24/10 = 25.2$$ <br>
 De $$AIC_1$$ is kleiner dan $$AIC_2$$ : fit 1 geeft het beste resultaat.</span>
 
@@ -106,10 +106,10 @@ Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met ee
 <br><br>
 <span style = "color:blue"> $$H_{0}:$$ De gemiddelde lengte van kleurpotloden die wordt afgeleverd door de machines is kleiner dan 177 cm</span><br>
 
-**c.** Bereken de z-waarde behorende bij 177 mm.
+**c.** Bereken de z-score behorende bij 177 mm.
 <br><br>
 <span style = "color:blue"> $$z=\frac{x-\mu}{\sigma} = \frac{177-176}{1} = 1$$</span><br>
-**d.** Bereken de p-waarde en noteer je antwoord als een percentage met het juiste aantal significante cijfers. De tabel met z-waarden kun je [hier](https://www.ztable.net/) vinden.
+**d.** Bereken de p-waarde en noteer je antwoord als een percentage met het juiste aantal significante cijfers. De tabel met z-score kun je [hier](https://www.ztable.net/) vinden.
 <br><br>
 <span style = "color:blue"> $$P(X< 177) = P(Z< 1) = 0.84134$$ 
 Dus de p-waarde is 84%.</span><br>
@@ -123,7 +123,7 @@ Dus de p-waarde is 84%.</span><br>
 **10.**
 Een vliegtuig heeft op een bepaalde vlucht een gemiddeld brandstofverbruikt van 640 liter. Het brandstofverbruik is normaal verdeeld met een standaardafwijking van 15 liter. De eerste brandstoftank van het vliegtuig bevat 660 liter. Er is ook een reservetank. Bereken de kans dat het vliegtuig tijdens de vlucht brandstof uit de reservetank nodig heeft.
 <br><br>
-<span style = "color:blue">De z-waarde behorende bij 660 Liter is:<br>
+<span style = "color:blue">De z-score behorende bij 660 Liter is:<br>
 <br>
 $$Z=\frac{660-640}{15} = 1.33$$<br><br>
 Wat wordt gevraagd is de kans $$P(X>660)$$ dit is gelijk aan de kans:<br><br>

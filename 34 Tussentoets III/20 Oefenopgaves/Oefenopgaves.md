@@ -81,10 +81,10 @@ Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met ee
 <br><br>
 
 
-**c.** Bereken de z-waarde behorende bij 177 mm.
+**c.** Bereken de z-score behorende bij 177 mm.
 <br><br>
 
-**d.** Bereken de p-waarde en noteer je antwoord als een percentage met het juiste aantal significante cijfers. De tabel met z-waarden kun je [hier](https://www.ztable.net/) vinden.
+**d.** Bereken de p-waarde en noteer je antwoord als een percentage met het juiste aantal significante cijfers. De tabel met z-scores kun je [hier](https://www.ztable.net/) vinden.
 <br><br>
 
 
