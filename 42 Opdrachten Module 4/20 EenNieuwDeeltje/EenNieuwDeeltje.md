@@ -6,7 +6,7 @@ We gaan op zoek naar een nieuw elementair deeltje $$X$$. Dit deeltje is gepostul
 We kunnen het deeltje misschien maken bij botsingen bij de Large Hadron Collider op het [CERN](http://www.cern.ch) onderzoekscentrum. Als deze deeltjes $$X$$ bestaan dan zouden we dit moeten kunnen zien in de gereconstrueerde massaverdeling van de restproducten van de $$X$$-deeltjes in een heel precies geselecteerde dataset. 
 
 We hebben een beschrijving van de massaverdeling eruit zou zien *zonder* het bestaan van het deeltje, dit noemen we de achtergrond. En we weten hoe een massaverdeling eruit zou zien als er *wel* $$X$$-deeltjes zouden bestaan. 
-Alleen hebben de theoreten geen enkel idee van de exacte massa is van het $$X$$ deeltje. We gaan in een massagebied de p-waarde scannen door deze voor elk punt te berekenen en kijken of we een significante afwijking vinden. 
+Alleen hebben de theoreten geen enkel idee wat de exacte massa is van het $$X$$ deeltje. We gaan in een massagebied de p-waarde scannen door deze voor elk punt te berekenen en kijken of we een significante afwijking vinden. 
 
 In het vakgebied van de deeltjesfysica hanteren we de volgende normen: 
 
