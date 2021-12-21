@@ -159,6 +159,11 @@ $$s^2 = \frac{1}{n} \sum_{i=1}^{n}(x_i - \bar{x})^2 $$
 
 Let op dat de eenheid van de variantie het kwadraat is van de eenheid van $$x.$$ In het geval dat je bijvoorbeeld lengtes van luciferstokjes hebt opgemeten, dan zullen de waardes in cm zijn genoteerd. De variantie heeft dan de eenheid cm$$^2.$$ Dat kan soms best onhandig zijn, vandaar dat we vaker de standaardafwijking gebruiken. De standaardafwijking heeft altijd dezelfde eenheid als de originele elementen van de dataset. 
 
+Je kan wiskundig aantonen dat je voor het berekenen van de variantie ook de volgende formule mag gebruiken: 
+
+$$s_x^2 = \overline{x^2}-{\overline{x}}^2.$$
+
+Soms is deze formule makkelijker in het gebruik.
 
 ### Variatiecoëfficiënt
 

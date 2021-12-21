@@ -5,7 +5,7 @@ In opgave M2.3 hebben we gezien dat de meetmethode die we gebruikten om de halfw
 
 In deze opgave zullen we zien dat de onzuiverheid te maken heeft met de methode waarop we de halfwaardedikte hebben bepaald. Het heeft niets te maken met de opstelling van de meting of met de verzamelde datapunten. Het is de analyse techniek die zorgt voor de onzuiverheid.
 
-In deze opdracht gaan we een fit gebruiken om de waarde van $$d_{half}$$ te achterhalen. In opdracht M3.1 hebben we onze eigen lineaire regressie methode geprogrammeerd met behulp van de kleinste kwadraten methode. In deze opdracht gebruiken we een fit pakket **`lmfit`**. Dit programma rekent de $$\chi^2$$ uit en minimaliseert deze voor ons. Dat scheelt op zich een hoop werk, maar je zal in deze opdracht zien dat het toch ook weer niet helemaal vanzelf gaat. 
+In deze opdracht gaan we een fit gebruiken om de waarde van $$d_{half}$$ te achterhalen. In opdracht M3.1 hebben we onze eigen lineaire regressie methode geprogrammeerd met behulp van de kleinste kwadraten methode. In deze opdracht gebruiken we een fit pakket **`lmfit`**. Dit programma rekent de $$\chi^2$$ uit en minimaliseert deze voor ons. Dat scheelt op zich een hoop werk, maar je zult in deze opdracht zien dat het toch ook weer niet helemaal vanzelf gaat. 
 
 Om dit fit pakket te kunnen gebruiken moet het volgende import statement gebruiken: 
 
@@ -39,7 +39,7 @@ We hebben eerst een functie nodig die de datapunten beschrijft en een set met st
 
 $${\displaystyle I(d; N_0, d_{half}) = I_0 \times \left( \frac{1}{2} \right) ^{d/d_{half}}}$$
 
-We zien dat de functie uiteindelijk afhangt van twee parameters: $$I_0$$ en $$d_{half}$$. De waardes $$I_0$$ en $$I(d)$$ zijn natuurlijk direct gerelateerd aan de gemeten waardes voor $$N_0$$ en $$N(d)$$. In principe is $$N_0$$ en dus $$I_0$$ gemeten, maar hier zit een (bekende) onzekerheid op en om die reden wil je hem 'vrijlaten' in de fit.
+We zien dat de functie uiteindelijk afhangt van twee parameters: $$I_0$$ en $$d_{half}$$. De waardes $$I_0$$ en $$I(d)$$ zijn natuurlijk direct gerelateerd aan de gemeten waardes voor $$N_0$$ en $$N(d)$$. Met de vergelijking $$I =  N/(\Delta T).$$ In principe is $$N_0$$ en dus $$I_0$$ gemeten, maar hier zit een (bekende) onzekerheid op en om die reden wil je hem 'vrijlaten' in de fit.
 
 De functie **`functie`** die we straks gebruiken voor de fit ziet er in het algemeen als volgt uit: 
 
@@ -50,7 +50,7 @@ De functie **`functie`** die we straks gebruiken voor de fit ziet er in het alge
 De parameters die hier worden meegegeven zijn de parameters die worden geschat (of geoptimaliseerd) in de fit. Voor deze twee waardes zullen we straks ook de startwaardes moeten meegeven.
 
 > - Schrijf nu eerst de code voor de functie **`functie(d, N0, dhalf)`** die de relatie tussen dikte d en de counts aangeeft. Controleer  of die goed werkt. 
-> - Voor de fit hebben we ook een lijst met gewichten nodig, noem deze **`N_inv_err`**. Dit zijn de reciproke waardes van de fouten op de counts. Maak hiervoor een lijst aan. Als de onzekerheid op $$N$$, $$\Delta N$$ is, dan is het gewicht $$1/\Delta N$$.
+> - Voor de fit hebben we ook een lijst met gewichten nodig. Deze gewichten zijn gelijk zijn gelijk aan de reciproke waardes van de fouten op de counts.  Het is de deler in de $$\Chi^2$$ vergelijking. Noem deze gewichten **`N_inv_err`** en maak hiervoor een lijst aan. Als de onzekerheid op $$N$$, $$\Delta N$$ is, dan is het gewicht dus $$1/\Delta N$$.
 
 Als we onze functie en de lijst met gewichten hebben gedefinieerd dan kunnen we de fit uitvoeren. 
 
@@ -66,12 +66,12 @@ We definiëren eerst **`ons_model`** en vervolgens fitten we deze. Je moet een a
 	N0= startwaarde : hier moet je de startwaarde voor de fit meegeven op N0
 	dhalf = startwaarde : hier moet je de startwaarde voor dhalf meegeven
 
-Je ziet dat je nog zelf twee startwaardes mee moet geven voordat de fit kan werken.  
+Je ziet dat je nog zelf twee startwaardes mee moet geven voordat de fit kan werken. Je kan eventueel eerst even de data plotten om zo de startwaardes voor $$N_0$$ en $$d_{\text{half}}.$$
 Met het volgende commando kun je de fitresultaten uitprinten: 
 
 	print(result.fit_report())
 
-> - **M3.2a) Voer de fit uit en bekijk het resultaat. Als je tevreden bent met de fit kopieer dan je resultaat op het inlevertemplate. Het kan zijn dat je de startwaardes van de parameters nog iets moet aanpassen als de fit niet convergeert.**
+> - **M3.2a) Voer de fit uit en bekijk het fitresultaat. Als je tevreden bent met de fit kopieer dan je resultaat op het inlevertemplate. Het kan zijn dat je de startwaardes van de parameters nog iets moet aanpassen als de fit niet convergeert.**
 
 De gefitte curve kunnen we ook weergeven in een grafiek. Maak zoals gebruikelijk een grafiek met foutenvlaggen. Het fitresultaat kun je dan als volgt toevoegen: 
 
@@ -79,14 +79,16 @@ De gefitte curve kunnen we ook weergeven in een grafiek. Maak zoals gebruikelijk
 	plt.plot(diktes, result.best_fit, 'r-', label='best fit')
 	plt.legend(loc='best')
 
-> - **M3.2b) Maak een grafiek met de datapunten, foutenvlaggen en het gefitte resultaat. Maak de grafiek netjes af.**  
+**TIP** Pas op de je de juiste waardes kiest voor de foutenvlaggen, deze zijn dus niet hetzelfde als de gewichten die je gebruikt hebt in de fit. 
+
+> - **M3.2b) Maak een grafiek met de datapunten, foutenvlaggen en het gefitte resultaat. Maak de grafiek netjes af.**  <br><br>
 > 
-> - **M3.2c) Bekijk de gereduceerde $$\chi^2_\nu$$. Ziet deze waarde er goed uit? Beredeneer je antwoord. Wat is het aantal vrijheidsgraden in de fit?**  
+> - **M3.2c) Bekijk de gereduceerde $$\chi^2_\nu$$. Ziet deze waarde er goed uit? Beredeneer je antwoord. Wat is het aantal vrijheidsgraden in de fit?**  <br><br>
 >
-> - **M3.2d) Wat is de geschatte waarde $$\hat{d}_{half}$$? Vergelijk deze met de 'true' waarde 'dtrue'.**  
+> - **M3.2d) Wat is de geschatte waarde $$\hat{d}_{half}$$? Vergelijk deze met de 'true' waarde 'dtrue'.**  <br><br>
 > 
 > - **M3.2e) De correlatiecoëfficiënt $$\rho$$ wordt ook uitgeprint. Hoe groot is deze en wat zegt dat?**  
-> 
+
 
 Definieer nu een polynoom met de volgende code: 
 
@@ -94,13 +96,13 @@ Definieer nu een polynoom met de volgende code:
   		y = N0 + a*d + b*d*d
   		return y
 
-Fit deze functie aan de datapunten, zorg dat de startwaardes zo worden ingesteld dat de fit convergeert.
+Fit deze functie aan de datapunten, zorg dat de startwaardes zo worden ingesteld dat de fit convergeert. Meestal kies je voor de startwaardes eerst 1 en als dat niet convergeert, probeer dan wat andere waardes. 
 
-> - **M3.2f) Maak een grafiek met de datapunten, foutenvlaggen en het gefitte resultaat. Maak de grafiek netjes af.**  
+> - **M3.2f) Maak een grafiek met de datapunten, foutenvlaggen en het gefitte resultaat. Maak de grafiek netjes af.**   <br><br>
 >
-> - **M3.2g) Presenteer de fitresultaten van de poly fit op het inlevertemplate.**  
+> - **M3.2g) Presenteer de fitresultaten van de poly fit op het inlevertemplate.**   <br><br>
 > 
-> - **M3.2h) Vergelijk nu de twee fits met elkaar. Bekijk de uitkomsten van de gefitte exponentiele functie met de gefitte polynoom. Welke functie beschrijft de data het beste? Op basis van welke variabelen trek je deze conclusie? Beargumenteer je antwoord.**
+> - **M3.2h) Vergelijk nu de twee fits met elkaar. Bekijk de uitkomsten van de gefitte exponentiele functie met de gefitte polynoom. Welke functie beschrijft de data het beste? Op basis van welke variabelen trek je deze conclusie? Beargumenteer je antwoorden.** 
 
 
 

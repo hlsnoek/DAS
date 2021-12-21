@@ -142,6 +142,7 @@ def GroteAantallenStdTrue() :
 def GroteAantallenFitSetGenerator() :
     checkSD()
     N = [1,2,5,10,60]
+    np.random.seed(1)
     sigma = (random_getal%100)/10. + 1
     std = [np.random.normal(sigma/np.sqrt(ni),sigma/np.sqrt(ni)/np.sqrt(200)) for ni in N]
     std_err = [(std[0])/np.sqrt(200) for s in range(0,len(std))]

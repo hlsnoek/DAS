@@ -66,7 +66,7 @@ $$E_k =  0.046 \pm 0.02$$ J</span>
 **8.**
 We hebben een dataset met de gemeten massa van 80 kogels. Het gemiddelde van de massa-distributie is bepaald op 108.2 kg. De standaardafwijking van de massa-distributie is 11.2 kg. Wat is de fout op het berekende gemiddelde?<br>
 <span style = 'color:blue'>De fout (onzekerheid) op het bepaalde gemiddelde is gelijk aan:<br>
-$${ \Delta \mu = \frac{\sigma}{\sqrt{N}} = \frac{11.2}{\sqrt{80}}} \text{ kg} = 1.25\text{ kg}$$</span>
+$${ \Delta \overline{m} = \frac{s}{\sqrt{n}} = \frac{11.2}{\sqrt{80}}} \text{ kg} = 1.25\text{ kg}$$</span>
 
 -----
 **9.**
@@ -82,11 +82,11 @@ Onder welke voorwaarde mogen we aannemen dat de onzekerheid op het berekende gem
 
 ---
 **11.**
-We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten. Het gemiddelde waarde van $$\mu = 22$$ met een standaardafwijking van $$\sigma = 4 $$. <br>
+We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten. Het gemiddelde waarde van $$\overline{x} = 22$$ met een standaardafwijking van $$x = 4 $$. <br>
 **a.** Wat is de onzekerheid op het gemiddelde van deze dataset?<br>
-<span style = 'color:blue'>De onzekerheid is: $$\sigma_\mu (=\Delta \mu)= \frac{\sigma}{\sqrt{N}} = 4/\sqrt{16} = 1 $$</span><br>
+<span style = 'color:blue'>De onzekerheid is: $$s_\overline{x} (=\Delta \overline{x})= \frac{s}{\sqrt{n}} = 4/\sqrt{16} = 1 $$</span><br>
 **b.** We voegen nog 9 extra waardes aan onze dataset toe. Wat is de onzekerheid op het gemiddelde nu?<br>
-<span style = 'color:blue'>De onzekerheid is: $$\sigma_\mu (=\Delta \mu)= \frac{\sigma}{\sqrt{N}} = 4/\sqrt{25} = 0.8 $$</span><br>
+<span style = 'color:blue'>De onzekerheid is: $$s_\overline{x} (=\Delta \overline{x})= \frac{s}{\sqrt{n}} = 4/\sqrt{25} = 0.8 $$</span><br>
 
 ## Meerdimensionale data
 **12.**
@@ -100,10 +100,10 @@ $$\frac{1}{4}\cdot ((2-2.75)\cdot(5-2.75)
 +(1-2.75)\cdot(4-2.75)+(5-2.75)\cdot(2-2.75) +(3-2.75)\cdot(0-2.75)) $$ 
 $$ = -1.6$$</span><br>
 **b.** Bereken de correlatie.<br>
-<span style = 'color:blue'> $$\sigma_x^2 = \overline{~x^2}-\bar{x}^2 = (4+1+25+9)/4 - 2.75^2 = 2.1875$$ <br>
-$$\sigma_y^2 = \overline{~y^2}- \bar{y}^2 = (25+16+4+0)/4 - 2.75^2 = 3.6875$$ <br>
-$$\sigma_x = 1.48$$, $$\sigma_y = 1.48$$<br>
-$$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{-1.56}{1.48\times 1.92} = -0.55$$</span><br>
+<span style = 'color:blue'> $$s_x^2 = \overline{~x^2}-\bar{x}^2 = (4+1+25+9)/4 - 2.75^2 = 2.1875$$ <br>
+$$s_y^2 = \overline{~y^2}- \bar{y}^2 = (25+16+4+0)/4 - 2.75^2 = 3.6875$$ <br>
+$$s_x = 1.48$$, $$s_y = 1.48$$<br>
+$$\rho = \frac{\text{cov}_{xy}}{s_x s_y} = \frac{-1.56}{1.48\times 1.92} = -0.55$$</span><br>
 
 ---
 
@@ -115,9 +115,9 @@ Je hebt de volgende dataset met waardes van x en y: <br>
 $$\bar{y} = 4.5$$<br>
 $$\text{cov}(x,y) = \frac{1}{n} \sum_n (x_i-\bar{x})\cdot (y_i - \bar{y}) = 2.75$$<br></span><br>
 **b.** Bereken de correlatie.<br>
-<span style = 'color:blue'> $$\sigma_x^2 = \overline{~x^2}>-\bar{x}^2 = 1.118^2$$<br>
-$$\sigma_y^2 = \overline{~y^2}-\overline{y}^2 = 2.958^2$$<br>
-$$\rho = \frac{\text{cov}_{xy}}{\sigma_x \sigma_y} = \frac{2.75}{1.118\times 2.958} = 0.83$$</span><br>
+<span style = 'color:blue'> $$s_x^2 = \overline{~x^2}-\bar{x}^2 = 1.118^2$$<br>
+$$s_y^2 = \overline{~y^2}-\overline{y}^2 = 2.958^2$$<br>
+$$\rho = \frac{\text{cov}_{xy}}{s_x s_y} = \frac{2.75}{1.118\times 2.958} = 0.83$$</span><br>
 
 
 ## Extra kansrekenregels 

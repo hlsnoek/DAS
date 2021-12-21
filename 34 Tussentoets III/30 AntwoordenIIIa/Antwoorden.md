@@ -21,8 +21,9 @@ $${\displaystyle \frac{\partial \chi^2}{\partial b} = \sum_i^N \frac{1}{\sigma_y
 $$\frac{\partial f(x_i;a,b)}{\partial b} = x$$<br>
 geeft met a=2.0:<br>
 $${\displaystyle \sum_i^N \frac{1}{1} x_i(y_i - (2.0 + \hat{b} x_i )) = 0}$$<br>
-Invullen:
-$$(2.0\cdot -1.1 - 2.0\cdot 2.0 - \hat{b} \cdot 2.0^2)$$ +  $$(4.0\cdot -5.4 - 2.0\cdot 4.0 - \hat{b} \cdot 4.0^2) + (6.0\cdot -13.3 - 2.0 \cdot 6.0 - \hat{b} \cdot 6.0^2) = 0$$ geeft $$\hat{b} = -2.35$$</span>
+Invullen:<br>
+$$(2.0\cdot -1.1 - 2.0\cdot 2.0 - \hat{b} \cdot 2.0^2)$$ +  $$(4.0\cdot -5.4 - 2.0\cdot 4.0 - \hat{b} \cdot 4.0^2) + (6.0\cdot -13.3 - 2.0 \cdot 6.0 - \hat{b} \cdot 6.0^2) = 0$$<br>
+ geeft $$\hat{b} = -2.35$$</span>
 
 **2** We hebben een dataset met de volgende meetpunten voor {x,y}:<br>
 {1.0,3.2}, {2.0,13.3}, {3.0,26.5} met meetonzekerheden $$\sigma_y = 0.5$$<br>
@@ -30,9 +31,10 @@ De dataset fitten we met de functie $$y = a\cdot x^2$$. Bereken de optimale waar
 <span style = 'color:blue'> $${\displaystyle \frac{\partial \chi^2}{\partial a} = \sum_i^N \frac{1}{\sigma_y^2} \frac{\partial f(x_i;a)}{\partial a} \left(y_i - f(x_i;a)\right) = 0 }$$ <br>
 $$\frac{\partial f(x_i;a)}{\partial a} = x^2$$<br>
 geeft:<br>
-$${\displaystyle \sum_i^N \frac{1}{4} x^2_i(y_i - \hat{a} x_i^2 ) = 0}$$<br>
-Invullen:
-$$(1.0^2 \cdot 3.2 - \hat{b} \cdot 1.0^3)$$ +  $$(2.0^2 \cdot 13.3 - \hat{b} \cdot 2.0^3) + (3.0^2 \cdot 26.5 - \hat{b} \cdot 3.0^3) = 0$$ geeft $$\hat{b} = 3.0$$</span>
+$${\displaystyle \sum_i^N \frac{1}{4} x^2_i \left( y_i - \hat{a} \cdot x_i^2 \right) = 0}$$<br>
+Invullen:<br>
+$$(1.0^2 \cdot 3.2 - \hat{b} \cdot 1.0^3)$$ +  $$(2.0^2 \cdot 13.3 - \hat{b} \cdot 2.0^3) + (3.0^2 \cdot 26.5 - \hat{b} \cdot 3.0^3) = 0$$ <br>
+geeft $$\hat{b} = 3.0$$</span>
 
 
 -----
