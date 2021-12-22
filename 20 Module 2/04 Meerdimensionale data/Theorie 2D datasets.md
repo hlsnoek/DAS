@@ -26,7 +26,7 @@ Als bovengemiddelde waardes van $$x$$ overwegend samen gaan met relatief hoge wa
 Als de covariantie gelijk is aan nul dan is er, gemiddeld over de hele dataset, geen afhankelijkheid. Het kan zijn dat voor delen van de dataset wel degelijk een positieve covariantie bestaat, deze wordt dan opgeheven door een ander gedeelte met een negatieve covariantie. 
 Als de covariantie nul is, betekent dat dus niet persé dat er geen afhankelijkheid is van $$x$$ ten opzichte van $$y$$. 
 
-Met de volgende formules kun je de covariantie van een dataset uitrekenen: 
+Met de volgende formules kun je de covariantie van een steekproef uitrekenen: 
 
 * Voor discrete verdelingen geldt: 
 $${\displaystyle cov(x,y) = \frac{1}{n}\sum^n_i \left( x_i- \bar{x} \right) \cdot \left( y_i- \overline{y} \right)}.$$
@@ -41,12 +41,19 @@ De covariantie geeft dus aan in hoeverre waarden van de ene variabele toenemen/a
 
 ## Correlatie 
 
-De correlatiecoëfficiënt $$\rho$$ is gedefinieerd als:
+De correlatiecoëfficiënt $$\rho$$ van een populatie is gedefinieerd als:
 
-$$\rho_{x,y} = \frac{cov(x,y)}{\sigma_x \sigma_y}$$  
+$$\rho_{x,y} = \frac{cov(x,y)}{\sigma_x \cdot \sigma_y}.$$  
 
 Hierbij is $$cov(x,y)$$ de covariantie tussen variabele $$x$$ en variabele $$y$$, en zijn $$\sigma_x$$ en $$\sigma_y$$ de standaardafwijkingen van variabele $$x$$ en $$y$$ respectievelijk.
 Deze reken je dus uit met de formule die hierboven is gedefinieerd.
+
+Voor een steekproef gebruiken we de notatie $$r_{xy}$$ en de volgende vergelijking: 
+
+$$r_{xy} = \frac{cov(x,y)}{s_x \cdot s_y}.$$ 
+
+De correlatiecoëfficiënt kan een waarde aannemen tussen de -1 en 1. 
+
 
 Als er geen correlatie is tussen de twee variabelen, dan is
 correlatiecoëfficiënt gelijk aan nul. Is de correlatiecoëfficiënt tussen de twee variabelen gelijk aan $$1$$ of aan $$-1$$ dan zijn de twee

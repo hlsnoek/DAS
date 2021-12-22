@@ -87,7 +87,7 @@ De gefitte curve kunnen we ook weergeven in een grafiek. Maak zoals gebruikelijk
 >
 > - **M3.2d) Wat is de geschatte waarde $$\hat{d}_{half}$$? Vergelijk deze met de 'true' waarde 'dtrue'.**  <br><br>
 > 
-> - **M3.2e) De correlatiecoëfficiënt $$\rho$$ wordt ook uitgeprint. Hoe groot is deze en wat zegt dat?**  
+> - **M3.2e) De correlatiecoëfficiënt $$r$$ wordt ook uitgeprint. Hoe groot is deze en wat zegt dat?**  Bedenk goed voor welke parameters deze correlatiecoëfficiënt berekend is.
 
 
 Definieer nu een polynoom met de volgende code: 

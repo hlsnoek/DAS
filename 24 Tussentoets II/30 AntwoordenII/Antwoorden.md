@@ -103,7 +103,7 @@ $$ = -1.6$$</span><br>
 <span style = 'color:blue'> $$s_x^2 = \overline{~x^2}-\bar{x}^2 = (4+1+25+9)/4 - 2.75^2 = 2.1875$$ <br>
 $$s_y^2 = \overline{~y^2}- \bar{y}^2 = (25+16+4+0)/4 - 2.75^2 = 3.6875$$ <br>
 $$s_x = 1.48$$, $$s_y = 1.48$$<br>
-$$\rho = \frac{\text{cov}_{xy}}{s_x s_y} = \frac{-1.56}{1.48\times 1.92} = -0.55$$</span><br>
+$$r_{xy} = \frac{\text{cov}_{xy}}{s_x s_y} = \frac{-1.56}{1.48\times 1.92} = -0.55$$</span><br>
 
 ---
 
@@ -117,7 +117,7 @@ $$\text{cov}(x,y) = \frac{1}{n} \sum_n (x_i-\bar{x})\cdot (y_i - \bar{y}) = 2.75
 **b.** Bereken de correlatie.<br>
 <span style = 'color:blue'> $$s_x^2 = \overline{~x^2}-\bar{x}^2 = 1.118^2$$<br>
 $$s_y^2 = \overline{~y^2}-\overline{y}^2 = 2.958^2$$<br>
-$$\rho = \frac{\text{cov}_{xy}}{s_x s_y} = \frac{2.75}{1.118\times 2.958} = 0.83$$</span><br>
+$$r_{xy} = \frac{\text{cov}_{xy}}{s_x s_y} = \frac{2.75}{1.118\times 2.958} = 0.83$$</span><br>
 
 
 ## Extra kansrekenregels 
