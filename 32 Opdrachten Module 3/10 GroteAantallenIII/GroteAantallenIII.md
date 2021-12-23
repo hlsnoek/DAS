@@ -50,10 +50,11 @@ De parameter $$\sigma$$ is nu de standaardafwijking van de originele verdeling v
 > 
 > - **M3.1a) Welke waarde voor $$\sigma$$ geeft de beste fit? Met andere woorden wat is, na het optimaliseren met de kleinste kwadraten methode, je geschatte $$\hat{\sigma}$$?** <br>
 > 
-> - **M3.1b) Maak een grafiek met de datapunten, de foutenvlaggen en het fit resultaat.**<br>
+> - **M3.1b) Maak een grafiek waarin je de waarde voor $$\chi^2$$ uitzet tegen $$\sigma$$.**
+> 
+> - **M3.1c) Maak een grafiek met de datapunten, de foutenvlaggen en het fit resultaat.**<br>
 >  **Tip:** De gefitte functie kun je het makkelijkste plotten door met behulp van de **`inv_sqrt_n`** lijst een bijbehorende lijst te maken met behulp van de functie die je in stap 1 hebt gemaakt.<br><br>
->    
-> - **M3.1c) Maak een grafiek waarin je de waarde voor $$\chi^2$$ uitzet tegen $$\sigma$$. Bij welke waarde van $$\chi^2$$ vind je $$\hat{\sigma}$$?**
+
 
 Met de functie:
 	
