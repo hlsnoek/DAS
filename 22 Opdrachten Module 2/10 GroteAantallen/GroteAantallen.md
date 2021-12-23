@@ -2,7 +2,7 @@
 <!--REF\label{/opdrachten-module-2/groteaantallen}-->
 
 We gaan in deze opdracht verder kijken naar de ton met kogels uit opgave M1.4. 
-In die opgave begonnen we met een ton met 80 kogels en berekenden we  het gemiddelde, $$g_n = \bar{m_n}$$ over de eerste $$n$$ kogels van de set. Zo kregen we de distributie van $$g_n$$ versus $$n$$.
+In die opgave begonnen we met een ton met 80 kogels en berekenden we  het gemiddelde, $$g_n = \overline{m_n}$$ over de eerste $$n$$ kogels van de set. Zo kregen we de distributie van $$g_n$$ versus $$n$$.
 ***Voordat je met deze opdracht begint, controleer eerst even in ANS of je dit goed hebt gedaan en corrigeer eventueel je fouten.*** 
 
 We gaan nu naar meerdere tonnen kijken, steeds met 80 kogels en uit dezelfde fabriek. 
