@@ -6,7 +6,7 @@ Er worden 3 tussentoetsen afgenomen in week 2, week 3 en week 4 van het vak. Dez
 
 | tussentoets |  1 | 2 | 3 |
 |------|-------|------|------|
-|  | TBA | TBA | TBA |
+|  | 17 jan 12:20-12:50 | 24 jan 12:20-12:50 | 31 jan 12:20-12:50 |
 
 <!-- | datum | di 18 jan | di 25 jan | di 1 feb |-->
 
@@ -16,4 +16,4 @@ Er worden 3 tussentoetsen afgenomen in week 2, week 3 en week 4 van het vak. Dez
 
 Om je voor te bereiden voor de tussentoetsen hebben we oefenvragen gemaakt die je kan gebruiken om te controleren of je de stof voldoende beheerst. Let op dat je ook de stof checklist even bekijkt, niet voor alle onderwerpen zijn opdrachten. Je vindt deze later in het menu onder **Tussentoets I, II en III**. 
 
-De tussentoetsen zullen online worden afgenomen in ANS. 
+De tussentoetsen zullen online worden afgenomen in ANS en vinden plaats aan het einde van de hoorcolleges. 
