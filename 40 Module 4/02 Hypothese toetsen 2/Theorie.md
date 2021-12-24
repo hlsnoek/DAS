@@ -69,7 +69,7 @@ We moeten ook bij deze toets van te voren bepalen bij welke p-waarde we de nulhy
 > 
 > We laten de fit nu voor vier waardes van $$\lambda_0$$ <!--FIG in figuur \ref{fig:SpectrumFits}--> zien. Voor elke waarde van $$\lambda_0$$ fitten we nu de twee functies alsof we weten dat de spectraallijn van element Y zich precies daar bevindt. 
 >   
-> ![Het waargenomen spectrum met de gefitte lijn voor $$\lambda = 932$$ nm.](SpectrumFits.png){:width="60%"}  
+> ![Het waargenomen spectrum met de gefitte lijn voor $$\lambda = 932$$ nm.](SpectrumFits.png){:width="80%"}  
 > 
 > We zien voor de fit met waarde $$\lambda_0 = 930~\text{nm}$$ dat de $$\Delta \chi^2$$ gelijk is aan 0. Maar als we goed kijken in het plaatje zien we ook geen enkel piekje bij $$\lambda=930~\text{nm}$$. Bij de waardes van $$\lambda = 940$$ en $$980~\text{nm}$$ zien we wel een klein piekje. Maar vooral bij de waarde van $$\lambda = 968~\text{nm}$$ is een echte piek te vinden. 
 >  
