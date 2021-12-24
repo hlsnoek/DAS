@@ -1,7 +1,7 @@
 # Introductie Module 2
 <!--REF\label{/module-2/introductie}-->
 
-Deze week verdiepen we ons in het concept meetonzekerheid. We leren hoe we [onzekerheden kunnen doorrekenen](/module-2/foutenpropagatiei) in vergelijkingen. We zien hoe [onzekerheden veranderen](/module-2/wet-van-grote-aantallen) als we meer meetpunten aan onze dataset toevoegen. We kijken ook naar relaties tussen onzekerheden in [meerdimensionale datasets](/module-2/meerdimensionale-data), en we introduceren [extra kans rekenregels](/module-2/extra-kansrekenregels) die vooral voor multidimensionale data belangrijk is. 
+Deze week verdiepen we ons in het concept meetonzekerheid. We leren hoe we [onzekerheden kunnen doorrekenen](/module-2/foutenpropagatiei) in vergelijkingen. We zien hoe [onzekerheden veranderen](/module-2/wet-van-grote-aantallen) als we meer meetpunten aan onze dataset toevoegen. We kijken ook naar relaties tussen onzekerheden in [meerdimensionale datasets](/module-2/meerdimensionale-data), en we introduceren [extra kans rekenregels](/module-2/extra-kansrekenregels) die vooral voor multidimensionale data belangrijk zijn. 
 
 <!--COMMENT\iffalse-->
 

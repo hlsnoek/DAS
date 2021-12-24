@@ -42,9 +42,9 @@ $${\displaystyle b = {\text{gemeten waarde}} − {\text{echte waarde}}}.$$
  
 Bijvoorbeeld als het gemiddelde meten van een parameter is de onzuiverheid gedefinieerd als: 
 
-$${\displaystyle b = \overline{x} − \mu}.$$
+$${\displaystyle b = \bar{x} − \mu}.$$
 
-Waarbij $$\overline{x}$$ het steekproefgemiddelde en $$\mu$$ het populatiegemiddelde is. 
+Waarbij $$\bar{x}$$ het steekproefgemiddelde en $$\mu$$ het populatiegemiddelde is. 
 
 
 Hoe groter dit verschil, hoe meer onzuiver de meting is. In ons geval is het het dus het verschil tussen de gemiddelde gemeten $$d_{\mathrm{half}}$$ en de 'echte' halfwaardedikte.
