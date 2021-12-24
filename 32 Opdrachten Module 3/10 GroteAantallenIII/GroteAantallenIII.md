@@ -50,9 +50,11 @@ De parameter $$\sigma$$ is nu de standaardafwijking van de originele verdeling v
 > 
 > - **M3.1a) Welke waarde voor $$\sigma$$ geeft de beste fit? Met andere woorden wat is, na het optimaliseren met de kleinste kwadraten methode, je geschatte $$\hat{\sigma}$$?** <br>
 > 
-> - **M3.1b) Maak een grafiek waarin je de waarde voor $$\chi^2$$ uitzet tegen $$\sigma$$.**
+> - **M3.1b) Wat is de waarde voor de geminimaliseerde $$\chi^2$$? Noteer ook hoeveel vrijheidsgraden er zijn en bereken de $$\chi^2_\nu.$$**
 > 
-> - **M3.1c) Maak een grafiek met de datapunten, de foutenvlaggen en het fit resultaat.**<br>
+> - **M3.1c) Maak een grafiek waarin je de waarde voor $$\chi^2$$ uitzet tegen $$\sigma$$.**
+> 
+> - **M3.1d) Maak een grafiek met de datapunten, de foutenvlaggen en het fit resultaat.**<br>
 >  **Tip:** De gefitte functie kun je het makkelijkste plotten door met behulp van de **`inv_sqrt_n`** lijst een bijbehorende lijst te maken met behulp van de functie die je in stap 1 hebt gemaakt.<br><br>
 
 
@@ -62,16 +64,16 @@ Met de functie:
 
 Kun je de werkelijke 'true'-waarde van $$\sigma$$ terugvragen. 
 
-> - **M3.1d) Controleer of jouw gefitte waarde van $$\hat{\sigma}$$ overeen komt met je uitkomst met je uitkomst voor `s_true`. Je verwacht altijd nog wel wat verschillen te zien - vooral omdat de onzekerheden op de waardes van `s_n` niet realistisch waren.** 
+> - **M3.1e) Controleer of jouw gefitte waarde van $$\hat{\sigma}$$ overeen komt met je uitkomst met je uitkomst voor `s_true`. Je verwacht altijd nog wel wat verschillen te zien - vooral omdat de onzekerheden op de waardes van `s_n` niet realistisch waren.** 
 
 We gaan nu de fit uitvoeren met realistische onzekerheden op de datapunten. Deze datapunten genereer je met de volgende functie: 
 
 	 inv_sqrt_n,std_n,std_n_err = ds.GroteAantallenStdGenerator()
  
-> - **M3.1e) Vind nu de meest optimale waarde van $$\hat{\sigma}$$ door gebruik te maken van de realistische foutenvlaggen. Bij welke $$\chi^2$$ ligt deze optimale waarde?**  <br><br>
+> - **M3.1f) Vind nu de meest optimale waarde van $$\hat{\sigma}$$ door gebruik te maken van de realistische foutenvlaggen. Bij welke $$\chi^2$$ ligt deze optimale waarde?**  <br><br>
 >
-> - **M3.1f) Maak nu een grafiek met de datapunten, de foutenvlaggen en het fit resultaat voor de dataset met reële foutenvlaggen.**  <br><br>
+> - **M3.1g) Maak nu een grafiek met de datapunten, de foutenvlaggen en het fit resultaat voor de dataset met reële foutenvlaggen.**  <br><br>
 >
-> - **M3.1g) Vergelijk nu de gevonden $$\hat{\sigma}$$ met de 'true' waarde van $$\sigma$$. Komt deze nu meer of minder overeen in vergelijking met je eerste fit?**  <br><br>
+> - **M3.1h) Vergelijk nu de gevonden $$\hat{\sigma}$$ met de 'true' waarde van $$\sigma$$. Komt deze nu meer of minder overeen in vergelijking met je eerste fit?**  <br><br>
 >
-> - **M3.1h) Bereken nu de gereduceerde $$\chi^2$$, dat wil zeggen corrigeer de gevonden $$\chi^2$$ voor het aantal vrijheidsgraden van de fit. Interpreteer nu deze $$\chi^2_\nu$$. Is deze beter of slechter dan een $$\chi^2_\nu= 0.1$$? Zoals gebruikelijk, beredeneer je antwoord.**
+> - **M3.1i) Bereken nu de gereduceerde $$\chi^2$$, dat wil zeggen corrigeer de gevonden $$\chi^2$$ voor het aantal vrijheidsgraden van de fit. Is deze beter of slechter dan de gevonden waarde in opgave b. Geef hiervoor een verklaring.**
