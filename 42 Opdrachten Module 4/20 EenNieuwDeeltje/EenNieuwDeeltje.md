@@ -116,7 +116,7 @@ We zijn nu klaar om de zogeheten p-waarde scan uitvoeren. We kiezen steeds een w
 > 			result.chisqr
 >	
 >  
-> - **M4.1e) Hoeveel vrijheidsgraden heeft de signaal fit? Schrijf de formule helemaal uit. **
+> - **M4.1e) Hoeveel vrijheidsgraden heeft de signaal fit? Schrijf de formule helemaal uit.**
 
 
 Voor elke waarde van $$m_0$$ kunnen we nu het verschil in $$\chi^2$$ tussen de fit met het achtergrond model en het de $$\chi^2$$ en de fit van het signaal model bij die waarde van $$m_0$$. Dit verschil noteren we als: 
