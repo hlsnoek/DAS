@@ -12,7 +12,7 @@ We hebben in module 3 een eerste stap gemaakt met hypothese toetsen. We hebben g
 In dit hoofdstuk leggen we nu een bijzondere vorm van hypothese toetsen uit waarbij we gebruik maken van de kleinste kwadraten methode en de daarbij berekende $$\chi^2$$. 
 
 
-## Wald test
+## De Wald test
 De Wald test is een bijzondere test die kan worden gebruikt om met behulp van de kleinste kwadraten methode een hypothese te toetsen. 
 
 Het idee is om aan een set meetwaardes twee functies te fitten. De eerste functie, $$f_0$$, beschrijft de dataset onder de hypothese $$H_0$$, de tweede functie, $$f_\alpha$$, beschrijft de dataset onder de alternatieve hypothese $$H_\alpha$$. Het verschil in de geminimaliseerde $$\chi^2$$ voor beide functies wordt gedefinieerd als 
@@ -32,7 +32,7 @@ Alleen als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \
 > Waarbij $$\lambda$$ de golflengte is.  <br>
 > De emissielijn van $$X$$, verwachten we rond 930 nm en de resolutie van de spectroscoop is 1 nm. De intensiteit van de emissielijn wordt dan beschreven door: <br>
 ><br> 
-> $$ I_\alpha(\lambda;J,\lambda_0=930nm,\sigma=1nm) = J \cdot \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\left(\frac{\lambda - \lambda_0}{\sigma}\right)^2}$$<br>
+> $$ I_\alpha(\lambda;J,\lambda_0, \sigma) = J \cdot \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\left(\frac{\lambda - \lambda_0}{\sigma}\right)^2}$$<br>
 > <br>
 > We zien dat in principe er geen vrije parameters zijn in deze fit, behalve een schaalfactor $$J$$ die de hoeveelheid intensiteit van het signaal schaalt.  
 > <br><br>
@@ -62,15 +62,23 @@ In het voorbeeld hierboven is er een duidelijk stelling over de golflengte van d
 We moeten ook bij deze toets van te voren bepalen bij welke p-waarde we de nulhypothese verwerpen.
 
 
-> **Voorbeeld p-waarde scan** Hieronder zie je de spectraalfit waarbij we het
-> spectrum hebben gefit met een centrale waarde van de spectraallijn op
-> 932 nm, net rechts van het piekje op 930 nm. Zoals je in de figuur<!--FIG in figuur \ref{fig:Spectrum932}--> ziet is de waarde voor $$J$$ die de intensiteit van een eventuele emissielijn op 932 nm beschrijft, erg klein: De gefitte functie voor $$H_\alpha$$ wijkt nauwelijks af van de functie die de $$H_0$$ hypothese beschrijft. De berekende p-waarde zal voor deze golflengte dan ook niet heel klein zijn.  
-> ![Het waargenomen spectrum met de gefitte lijn voor $$\lambda = 932$$ nm.](Spectrum932.png){:width="60%"}   
-> Als we alle p-waardes van de scan nu grafisch weergeven dan krijgen we het hier <!--FIG in figuur \ref{fig:Emissiescan} --> getoonde resultaat.  
+> **Voorbeeld p-waarde scan** 
+> We gaan terug naar ons experiment met de spectraalfit. In dit experiment is er een deeltje Y dat wel wellicht kunnen waarnemen. Echter, in dit geval weten is er geen voorspelde waarde van de golflengte $$\lambda_0$$, ook kennen we de verwachte intensiteit niet. We kunnen de Wald test hierdoor niet zomaar uitvoeren. Immers moeten we precies één vrije parameter extra fitten in de $$H_\alpha$$ hypothese ten opzichte van de $$H_0$$ hypothese. 
+> 
+> De oplossing vinden we door 1 variabele te fixeren, deze houden we constant. We kunnen dan de p-waarde scannen als functie van de gefixeerde parameter. In het voorbeeld hier scannen we over de golflengte $$\lambda_0$$. 
+> 
+> We laten de fit nu voor vier waardes van $$\lambda_0$$ <!--FIG in figuur \ref{fig:SpectrumFits}--> zien. Voor elke waarde van $$\lambda_0$$ fitten we nu de twee functies alsof we weten dat de spectraallijn van element Y zich precies daar bevindt. 
+>   
+> ![Het waargenomen spectrum met de gefitte lijn voor $$\lambda = 932$$ nm.](SpectrumFits.png){:width="60%"}  
+> 
+> We zien voor de fit met waarde $$\lambda_0 = 930~\text{nm}$$ dat de $$\Delta \chi^2$$ gelijk is aan 0. Maar als we goed kijken in het plaatje zien we ook geen enkel piekje bij $$\lambda=930~\text{nm}$$. Bij de waardes van $$\lambda = 940$$ en $$980~\text{nm}$$ zien we wel een klein piekje. Maar vooral bij de waarde van $$\lambda = 968~\text{nm}$$ is een echte piek te vinden. 
+>  
+> Als we alle p-waardes van de scan (maar dan over alle waardes van $$\lambda_0$$) nu grafisch weergeven dan krijgen we het volgende <!--FIG, in figuur \ref{fig:Emissiescan} -->  resultaat.  
 > ![De p-waarde scan van de emissiedata.](Emissiescan.png){:width="60%"}  
-> Je ziet nu dat er op een aantal plekken in het spectrum een kleine afwijking van de $$H_0$$ hypothese te zien is. Deze komen allemaal overeen met golflengtes waar op het oog een piekje zichtbaar lijkt. Op slechts 1 locatie is er een heel duidelijke afwijking zichtbaar. Precies bij 930 nm. 
+> Je ziet nu dat er op een aantal plekken in het spectrum een kleine afwijking van de $$H_0$$ hypothese te zien is. Deze komen allemaal overeen met golflengtes waar op het oog een piekje zichtbaar lijkt. Op slechts 1 locatie is er een heel duidelijke afwijking zichtbaar. Precies bij 968 nm. De $$\Delta \chi^2$$ is op dat punt 21.4  en dit kunnen we omrekenen naar een p-waarde van $$3.7 \cdot 10^{-6}.$$
+> 
 
-Eigenlijk hadden  we van tevoren ook bij deze een significantie moeten afspreken waarbij we de aanwezigheid van het chemische element kunnen aantonen. Zodra de gemeten p-waarde onder deze afgesproken significantie zakt in de p-waarde scan kunnen we claimen het element te hebben aangetoond. Als we hem weer bij een waarde van $$1 \cdot 10^{-6}$$ hadden afgesproken hadden we ook in de p-waarde scan het element $$X$$ kunnen claimen. 
+Eigenlijk hadden  we van tevoren ook bij dit experiment van te voren een significantieniveau moeten afspreken waarbij we de aanwezigheid van het chemische element kunnen aantonen. Zodra de gemeten p-waarde onder deze afgesproken significantie zakt in de p-waarde scan kunnen we claimen het element te hebben aangetoond. Als we hem weer bij een waarde van $$1 \cdot 10^{-6}$$ hadden afgesproken hadden we ook in de p-waarde scan het element $$Y$$ kunnen claimen. 
 
 
 De Wald test is een krachtige methode om hypotheses te toetsen. We gaan hem in opdracht M4.1 toepassen. 
