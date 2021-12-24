@@ -143,10 +143,10 @@ Waarbij we $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierove
 > - **M4.1h) Maak een grafiek met de dataset en de gefitte modellen (achtergrond en signaal) voor deze waarde van $$\hat{m}_0$$.**<br><br>
 > 
 > 
-> - **M4.1i) Bereken voor $$\hat{m}_0$$ de p-waarde en de z-score. De z-score kun je met het volgende statement uitrekenen:**
+> - **M4.1i) Bereken voor $$\hat{m}_0$$ de p-waarde en de z-score.** De z-score kun je met het volgende statement uitrekenen:
 >
 >		    z_waarde = -stats.norm.ppf(p_waarde)
 >
 >
-> - **M4.1j) Denk je dat je de achtergrond hypothese kunt verwerpen. Zo ja, redeneer waarom. Zo nee redeneer waarom niet. Kijk even naar de afspraken die hierover zijn gemaakt in de deeltjefysica.**
+> - **M4.1j) Denk je dat je de achtergrond hypothese kunt verwerpen. Zo ja, redeneer waarom. Zo nee redeneer waarom niet.** Kijk even naar de afspraken die hierover zijn gemaakt in de deeltjefysica.
 
