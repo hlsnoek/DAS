@@ -50,7 +50,7 @@ De functie **`functie`** die we straks gebruiken voor de fit ziet er in het alge
 De parameters die hier worden meegegeven zijn de parameters die worden geschat (of geoptimaliseerd) in de fit. Voor deze twee waardes zullen we straks ook de startwaardes moeten meegeven.
 
 > - Schrijf nu eerst de code voor de functie **`functie(d, N0, dhalf)`** die de relatie tussen dikte d en de counts aangeeft. Controleer  of die goed werkt. 
-> - Voor de fit hebben we ook een lijst met gewichten nodig. Deze gewichten zijn gelijk zijn gelijk aan de reciproke waardes van de fouten op de counts.  Het is de deler in de $$\Chi^2$$ vergelijking. Noem deze gewichten **`N_inv_err`** en maak hiervoor een lijst aan. Als de onzekerheid op $$N$$, $$\Delta N$$ is, dan is het gewicht dus $$1/\Delta N$$.
+> - Voor de fit hebben we ook een lijst met gewichten nodig. Deze gewichten zijn gelijk zijn gelijk aan de reciproke waardes van de fouten op de counts.  Het is de deler in de $$\chi^2$$ vergelijking. Noem deze gewichten **`N_inv_err`** en maak hiervoor een lijst aan. Als de onzekerheid op $$N$$, $$\Delta N$$ is, dan is het gewicht dus $$1/\Delta N$$.
 
 Als we onze functie en de lijst met gewichten hebben gedefinieerd dan kunnen we de fit uitvoeren. 
 
