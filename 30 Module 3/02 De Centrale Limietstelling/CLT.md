@@ -47,14 +47,15 @@ De Centrale Limietstelling verklaart waarom zoveel grootheden Normaal zijn verde
 
 >De **Centrale Limietstelling** zegt dat als je $$n$$ onafhankelijk stochasten $$x_j$$ hebt, waarvan elke stochast zijn eigen verdeling heeft met gemiddelde  $$\mu_j$$ en variantie $$\sigma^2_j$$, **de som van deze stochasten $$\sum_j x_j$$ een Normaalverdeling zal volgen** met het gemiddelde $$\sum_j \mu_j$$ en de variantie $$\sum_j \sigma^2_j$$, als $$n \to \infty$$. Hierbij hoeven de populatiegemiddeldes van de stochasten, noch de varianties hiervan ($$mu_j$$ en $$\sigma^2_j$$ dezelfde te zijn.
 
-De Centrale Limietselling (Engels: Central Limit Theorem of CLT) zegt dat als we $$n \to \infty$$ stochasten optellen, de som van deze stochasten een Normaalverdeling zullen volgen. Het maakt hierbij niet uit wat voor vorm de kansverdelingen de stochasten hebben, ze kunnen exponentieel, uniform, Normaal verdeeld zijn om welke vorm dan ook. 
+De Centrale Limietselling (Engels: Central Limit Theorem of CLT) zegt dat als we $$n \to \infty$$ stochasten optellen, de som van deze stochasten een Normaalverdeling zullen volgen. Het maakt hierbij niet uit wat voor vorm de kansverdelingen de stochasten hebben, ze kunnen exponentieel, uniform, Normaal verdeeld zijn om welke vorm dan ook hebben. 
 
 Er is één voorwaarde en dat is dat de onderliggende verdelingen een gedefinieerd gemiddelde en eindige variantie moeten hebben. 
 Dat is een belangrijke voorwaarde. Wiskundig kun je laten zien dat bijvoorbeeld stochasten die volgens de Cauchy of Landau verdeeld zijn bij combinatie geen Normaal verdeling opleveren. Toch is die beperking niet heel groot. In de natuur zijn praktisch alle stochastische verdelingen beperkt en voldoen dus aan de Centrale Limietstelling.
 
-De Centrale Limietstelling  is zonder meer de meest belangrijke stelling in de statistiek. De Centrale Limietstelling verklaart waarom we in de natuur zoveel parameters vinden die Normaal zijn verdeeld.
 
-De convergentiesnelheid van de distributie naar de Normaal verdeling hangt af van de onderliggende stochastische verdelingen. 
+De convergentiesnelheid van de distributie naar de Normaal verdeling hangt af van de onderliggende stochastische verdelingen. Bijvoorbeeld hoef je minder uniform verdeelde stochasten bij elkaar op te tellen om een Normaalcurve te benaderen dan stochasten die van zichzelf exponentieel verdeeld zijn.
+
+De Centrale Limietstelling is zonder meer de meest belangrijke stelling in de statistiek. De Centrale Limietstelling verklaart waarom we in de natuur zoveel parameters vinden die Normaal zijn verdeeld.
 
 Het bewijs van deze stelling is bijzonder ingewikkeld en zullen we hier niet behandelen. Eventueel kun je 
 [hier](http://www.cs.toronto.edu/~yuvalf/CLT.pdf) verder lezen over de bewijsstelling.
@@ -81,12 +82,21 @@ $${\displaystyle P(k;\lambda) =  \frac{\lambda^k e^{-\lambda}}{k!}}.$$
 
 ![De Poisson distributie.](PoissonDistributie2.png){:width="60%"} 
 
-Zoals we <!--FIG in Fig. \ref{fig:PoissonDistributie2}--> zien is de Poisson verdeling asymmetrisch, vooral voor lage waardes van $$\lambda$$. Voor grotere waardes van $$\lambda$$ zien we dat de verdeling steeds symmetrischer is en ook steeds meer overeenkomsten vertoont met een Normaalverdeling. 
-
-Aan de hand van de Centrale Limietstelling kunnen we dit nu begrijpen. We leggen het uit aan de hand van een voorbeeld. Stel dat we de tellingen in ons experiment uitvoeren in een tijdsinterval. De meetwaarde die we vinden, $$k$$, is het aantal waarnemingen per tijdsinterval $$\Delta t.$$ We zouden het tijdsinterval ook kunnen opdelen in bijvoorbeeld 100 stukjes. We verwachten nu $$k_{\text{kort}} = k/100$$ waarnemingen te meten per tijdsinterval van $$\Delta t_{\text{kort}}= 1/100 \times \Delta t.$$
-Deze kortere tijdsintervallen volgen ook de Poisson statistiek, immers we hebben de voorwaardes van het experiment verandert, maar het is nog steeds een telexperiment. Om weer bij het originele resultaat uit te komen, met de langere tijdsintervallen, kunnen we simpel de som nemen van de uitkomsten van de korte metingen, $$\sum^{100} k_{\text{kort}}$$. Het moet niet uitmaken of we 100 maal een korte of 1 maal een lang tijdsinteval tellen. En omdat we de som nemen van de onafhankelijke metingen, moet de Centrale Limietstelling gelden. 
-
+Zoals we <!--FIG in Fig. \ref{fig:PoissonDistributie2}--> zien is de Poisson verdeling asymmetrisch, vooral voor lage waardes van $$\lambda$$. Voor grotere waardes van $$\lambda$$ zien we dat de verdeling steeds symmetrischer is en ook steeds meer overeenkomsten vertoont met een Normaalverdeling. Dit komt door de Centrale Limietstelling. 
 **We verwachten voor grotere waardes van $$\lambda$$ dat de Poisson de Normaalverdeling zal gaan volgen.**
+We leggen het uit aan de hand van een voorbeeld. 
+
+> Stel dat we de tellingen in ons experiment uitvoeren in een tijdsinterval. De meetwaarde die we vinden, $$k$$, is het aantal waarnemingen per tijdsinterval $$\Delta t.$$ We zouden het tijdsinterval ook kunnen opdelen in bijvoorbeeld 100 stukjes. We verwachten nu $$k_{\text{kort}} = k/100$$ waarnemingen te meten per tijdsinterval van $$\Delta t_{\text{kort}}= 1/100 \times \Delta t.$$
+Deze kortere tijdsintervallen volgen ook de Poisson statistiek, immers we hebben de voorwaardes van het experiment verandert, maar het is nog steeds een telexperiment. 
+> 
+> Rachid en Belia voeren een telexperiment tegelijkertijd op twee manieren uit. Rachid noteert 100 uitkomsten elke 10 secondes en Belia wacht precies 1000 secondes en noteert precies 1 uitkomst. De metingen van Rachid noemen we $$r_i$$ en de meting van Belia noemen we $$b$$. De 100 metingen van Rachid zijn 100 onafhankelijke stochasten. Dit omdat je verwacht dat de meetwaardes statistische fluctuaties hebben (stochastisch) en omdat de ene meting geen invloed heeft op de volgende meting (onafhankelijk). 
+> 
+> De  fluctuaties volgen de Poisson statistiek (telexperiment). Als de verwachting op 1 enkele meting gelijk is aan $$\lambda_r$$, dan is de spreiding van de punten ook gelijk aan $$\lambda_r$$, dit is de variantie. De standaardafwijking is dus gelijk aan $$\sqrt{\lambda_r}$$. (Kijk hiervoor ook nog eens naar het hoofdstuk (Kansdichtheidsfuncties)[module-1/verdelingsfuncties].)  Voor de meting van Belia verwachten we als uitkomst $$\lambda_b$$ met een standaardafwijking $$\sqrt{\lambda_b}$$. 
+> 
+> We weten in dit experiment dan precies geldt dat $$\sum_i^{100} r_i \equiv b$$. Immers  Rachid en Belia zitten naast elkaar en nemen dezelfde getallen waar. Rachid telt zijn 100 uitkomsten bij elkaar op en de Centrale Limietstelling zegt nu dat de som van deze 100 stochasten de Normaalverdeling zal benaderen. Ofwel de verwachting van de som van de 100 uitkomsten van Rachid heeft de waarde $$\sum_i^{100} \lambda_r$$ en de standaardafwijking op deze verwachting is, redelijk, Normaalverdeeld (niet exact omdat $$n$$ is groot maar nog geen $$\infty$$). 
+> 
+> De verwachtingswaarde van de uitkomst van het experiment van Belia zoals eerder gezegd gelijk aan $$\lambda_b$$ en deze moet overeenkomen met de verwachtingswaarde van de uitkomst van het experiment van Rachid. De onzekerheid op de verwachte uitkomst van het experiment van Belia hoort de Poisson verdeling te volgen (want telexperiment), maar we zien nu ook dat de som van de uitkomsten van Rachid de Normaalcurve zal benaderen. Hieruit kunnen we concluderen dat voor stochasten die de Poisson verdeling volgen we verwachten dat de Poisson verdeling steeds meer de Normaalcurve zal benaderen voor hogere waardes van $$\lambda$$. 
+  
 
 Om dit te visualiseren tonen we de twee functies over elkaar heen voor een waarde van $$\lambda=60$$. Deze vergelijken we nu met de normaal verdeling met $$\mu =60$$ en $$\sigma = \sqrt{60}$$. <!--FIG Zie figuur \ref{fig:PoissonNormalDistributie}.-->
 
