@@ -69,7 +69,7 @@ Denk maar eens aan de vorming van een zandkorrel of van een ster. Het is dan beg
 Bij de vorming van een ster of zandkorrel zijn er ook vele toevalligheden die invloed hebben op de grootte van zo'n object.
 
 
-### Overeenkomsten tussen de Poisson en de Normaalverdeling
+## Overeenkomsten tussen de Poisson en de Normaalverdeling
 
 Als laatste bekijken we nogmaals de Poisson verdeling en laten we in het voorbeeld hieronder zien dat voor grotere waardes van $$\lambda$$ de Poisson steeds meer overeen komst met een Normaalverdeling.
 
@@ -101,6 +101,7 @@ Deze kortere tijdsintervallen volgen ook de Poisson statistiek, immers we hebben
 Om dit te visualiseren tonen we de twee functies over elkaar heen voor een waarde van $$\lambda=60$$. Deze vergelijken we nu met de normaal verdeling met $$\mu =60$$ en $$\sigma = \sqrt{60}$$. <!--FIG Zie figuur \ref{fig:PoissonNormalDistributie}.-->
 
 ![Vergelijking tussen de Poisson en de Normaal distributie.](PoissonNormalDistributie.png){:width="80%"}
+
 
 Het is duidelijk dat de overeenkomst tussen de Poisson verdeling en de Normaalverdeling bij deze waarde van $$\lambda$$ al heel groot is.
 

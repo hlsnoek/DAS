@@ -10,4 +10,4 @@ Eerst gaan we kijken waarom de meeste verdelingen die we in de natuur tegenkomen
 We werken in de werkcolleges aan de opdrachten van deze module [M3](/opdrachten-module-3/opdrachten). Je vindt in het [schema](/informatie/inleveropdrachten) wanneer je aan welke opdrachten werkt en wanneer je deze moet inleveren.
 Vergeet ook niet te kijken naar het [oefenmateriaal](/tussentoets-iii/inhoud) voor de derde tussentoets. 
 
-<!--COMMENTE\fi-->
+<!--COMMENT\fi-->

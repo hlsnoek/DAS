@@ -14,11 +14,13 @@
 12 Opdrachten Module 1/40 GroteAantallen/GroteAantallen.md		
 12 Opdrachten Module 1/50 Halfwaardedikte/Halfwaardedikte.md		
 
-20 Module 2/00 Introductie/Introductie.md				
+
+20 Module 2/00 Introductie/Introductie.md
 20 Module 2/02 FoutenpropagatieI/Foutenpropagatie.md			
 20 Module 2/03 Wet van Grote Aantallen/Wet van Grote Aantallen.md	
 20 Module 2/04 Meerdimensionale data/Theorie 2D datasets.md		
 20 Module 2/05 Extra Kansrekenregels/Kansrekenen-ii.md			
+20 Module 2/07 Schatmethodes/Schatmethodes.md
 22 Opdrachten Module 2/00 Opdrachten/Opdrachten.md		   
 22 Opdrachten Module 2/10 GroteAantallen/GroteAantallen.md	   
 22 Opdrachten Module 2/20 Meesjes/Meesjes.md			   
@@ -33,11 +35,14 @@
 32 Opdrachten Module 3/00 Opdrachten/Opdrachten.md		   
 32 Opdrachten Module 3/10 GroteAantallenIII/GroteAantallenIII.md   
 32 Opdrachten Module 3/20 HalfwaardedikteIII/HalfwaardedikteIII.md 
-
+31 Appendix/10 Chi-Kwadraat Toets/ChiKwadraatOverschrijdingskansen.md 
+#
 40 Module 4/00 Introductie/Introductie.md			   
 40 Module 4/02 Hypothese toetsen 2/Theorie.md
 42 Opdrachten Module 4/00 Opdrachten/Opdrachten.md		   
 42 Opdrachten Module 4/20 EenNieuwDeeltje/EenNieuwDeeltje.md
+
+
 
 
 #14 Tussentoets I/30 Antwoorden/Antwoorden.md				

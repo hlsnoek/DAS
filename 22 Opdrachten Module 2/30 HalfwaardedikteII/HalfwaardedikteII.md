@@ -20,8 +20,8 @@ We gaan het experiment nu 50 keer herhalen en kijken naar de distributie van de 
 
 > - Schrijf een loop waarin je 50 maal een nieuwe dataset genereert. Uit elk van deze datasets bepaal je een de halfwaardedikte met de ratio-methode. Om 50 unieke dataset te maken moet je steeds de *seed* veranderen. Dat kan je doen door deze mee te geven aan de DAS dataset generator:
 > 	
->			for j in range(0,50) : 
->       		counts, diktes = ds.DataSetHalfwaardeDikte(j)
+>		for j in range(0,50) : 
+>			counts, diktes = ds.DataSetHalfwaardeDikte(j)
 >
 > - Met bovenstaande loop maak je 50 unieke datasets aan waarbij de counts die gemeten worden steeds worden gevarieerd volgens de Poisson statistiek. Bereken nu, binnen de loop, voor elk van deze dataset de halfwaardedikte met de ratio-methode. Zorg dat je dit getal bewaart in een lijst.
 >
@@ -39,11 +39,11 @@ We gaan nu bekijken hoe zuiver de meting is. Lees hiervoor eerst het hoofdstuk [
 
 De zuiverheid is gedefinieerd als als het verschil tussen de verwachtingswaarde van een schatter en de 'echte' waarde van de te meten parameter. Het symbool voor de zuiverheid is $$b$$ (van het Engelse bias). De formule van de onzuiverheid is: 
 
-$${\displaystyle b = {\text{gemeten waarde}} − {\text{echte waarde}}}.$$
+$${\displaystyle b = {\text{gemeten waarde}} - {\text{echte waarde}}}.$$
  
 Bijvoorbeeld als het gemiddelde meten van een parameter is de onzuiverheid gedefinieerd als: 
 
-$${\displaystyle b = \bar{x} − \mu}.$$
+$${\displaystyle b = \bar{x} - \mu}.$$
 
 Waarbij $$\bar{x}$$ het steekproefgemiddelde en $$\mu$$ het populatiegemiddelde is. 
 
@@ -56,7 +56,7 @@ Bij gesimuleerde data kunnen we dit onderzoeken. We kunnen de verwachtingswaarde
  
 > Om de zuiverheid van ons experiment te bepalen gaan we dus de bepaalde halfwaardedikte te vergelijken met de initiële halfwaardedikte die gebruikt is om de data te simuleren. Roep hiervoor de volgende functie aan in de dataset generator:
 >
->		metingen, diktes, d_true = ds.DataSetHalfwaardeDikteVariatie(s,d_input)
+>	metingen, diktes, d_true = ds.DataSetHalfwaardeDikteVariatie(s,d_input)
 >
 > Je geeft twee variabelen mee aan de functie: de seed (**`s`**) en een waarde(**`d_input`**). We komen er zo op terug wat deze variabelen betekenen.
 > De functie geeft drie objecten terug. De eerste twee zijn de lists met de counts en de looddikte (zoals je eerder ook terugkreeg), de derde variabele is halfwaardedikte die gebruikt is als input voor de simulatie. Dit noemen we meestal de *true* waarde in simulaties vandaar dat we hem **`d_true`** noemen. Met de variabele **`d_input`** kunnen we nu de input waarde van de simulatie controleren. In principe is **`d_input`** gelijk aan **`d_true`**, tenzij je de waarde -1 kiest. 

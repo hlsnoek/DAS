@@ -32,7 +32,7 @@ Er zijn 3 criterea waarmee we evalueren waaraan een goede schatter voldoet:
 
 Als we verschillende schatters definïeren bieden de criterea een houvast om te bepalen wat de beste schatter is. We gaan kort op deze 3 criterea in.
 
-### Zuiver
+## Zuiver
 De zuiverheid van een schatter wordt gedefinieerd als:
 
 $$b = E(\bar{x}) - \mu$$
@@ -44,12 +44,12 @@ Een goede schatter is zuiver. Dat wil zeggen dat de verwachtingswaarde van de sc
 
 > **Voorbeeld** Het steekproefgemiddelde is zuiver als de verwachtingswaarde van het steekproefgemiddelde $$E(\overline{x})$$ gelijk is aan het populatiegemiddelde $$\mu.$$
 
-### Consistent
+## Consistent
 Naarmate de steekproef groter wordt benaderen we de populatiegrootheid met de schatter. Met andere woorden, de schatter voldoet aan de wet van grote aantallen. 
 
 > **Voorbeeld** Naarmate we meer data nemen benadert het steekproefgemiddelde (de schatter) het populatiegemiddelde (de populatiegrootheid).
 
-### Efficïent
+## Efficïent
 Als er meerdere schatters kunnen worden gedefinïeerd dan heeft een goede schatter relatief de kleinste variantie.
 Anders gezegd, als we meerdere recepten kunnen bedenken om tot een inschatting te komen van de populatiegrootheid die we willen meten dan heeft de beste schatter de kleinste meetonzekerheid. 
 

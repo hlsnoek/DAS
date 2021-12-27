@@ -78,9 +78,9 @@ Als we alle datapunten in een dataset sorteren van lage naar hoge waarde, dan is
 > 
 > $$\{9,10,11,12,13,14\}.$$ 
 > 
-> We hebben een dataset met een even aantal datapunten, de mediaan ligt hier dus tussen twee waardes in: 
+> We hebben een dataset met een even aantal datapunten, de mediaan ligt hier dus tussen twee waardes in. 
 > 
-> $$\mathrm{de mediaan ~is:~} ~\frac{(11+12)}{2} = 11.5.$$
+> $$\mathrm{de~mediaan ~is:~} ~\frac{(11+12)}{2} = 11.5.$$
 
 De mediaan en het gemiddelde *kunnen* dezelfde waarde hebben, maar dat hoeft niet zo te zijn. 
 Voor het voorbeeld hierboven is dat wel het geval (reken maar na). Maar voor de dataset uit het voorbeeld voor het berekenen van het gemiddelde is dit niet zo. Kijk maar!
@@ -248,11 +248,10 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 > - De spreidingsbreedte is $$1.90$$ m-$$1.61$$ m $$= 39$$ cm.  
 > - De mediaan ligt in het midden van de gesorteerde dataset. Dit is 1.79 m.  
 > - Het gemiddelde $$\bar{L} = 1.77$$ m.  
-> - De variantie is:  
-> 
-> $$\begin{aligned} s^2 = & \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 \right. \\
+> - De variantie is: <br> 
+>   $$\begin{aligned} s^2 = & \frac{1}{5} \cdot \left[ (1.90 - 1.77)^2 + (1.72-1.77)^2 \right. \\
 > & \left. +~ (1.61-1.77)^2 + (1.84-1.77)^2 + (1.79-1.77)^2 \right] \\
->  = & ~ 0.0100 ~\text{m}^2 \end{aligned}$$  
+>  = & ~ 0.0100 ~\text{m}^2 \end{aligned}$$ <br> 
 > 
 > - De standaardafwijking is $$ s = 0.10$$ m.  
 > - De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$d

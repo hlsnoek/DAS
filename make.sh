@@ -20,5 +20,7 @@ python postproc.py DASBoek.p.latex > DASBoek.latex
 
 # Finally create the pdf
 pdflatex DASBoek.latex
+python tocproc.py DASBoek.toc > DASBoek.toc.new
+cp DASBoek.toc.new DASBoek.toc
 pdflatex DASBoek.latex
 open DASBoek.pdf

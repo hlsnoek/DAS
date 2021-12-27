@@ -1,3 +1,5 @@
+<!--APP BEGINAPPENDICES-->
+
 # De $$\chi^2$$ -toets tabel
 <!--REF\label{/appendix/chi-kwadraat-toets}-->
 
@@ -47,3 +49,5 @@ De onderkansen kun je vinden door het complement te nemen. Slechts in $$5\%$$ va
 | **80** | 51.172 | 53.540 | 57.153 | 60.391 | 64.278 | 96.578 | 101.879 | 106.629 | 112.329 | 116.321 |
 | **90** | 59.196 | 61.754 | 65.647 | 69.126 | 73.291 | 107.565 | 113.145 | 118.136 | 124.116 | 128.299 |
 | **100** | 67.328 | 70.065 | 74.222 | 77.929 | 82.358 | 118.498 | 124.342 | 129.561 | 135.807 | 140.169 |
+
+<!--APP ENDAPPENDICES-->

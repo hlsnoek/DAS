@@ -65,6 +65,10 @@ for line in f:
         line = line.replace( r'<!--COMMENT', r'')
         line = line.replace( r'-->', r' ')
 
+    if (line.count('<!--APP')) :
+        line = line.replace( r'<!--APP', r'')
+        line = line.replace( r'-->', r' ')
+
 
     l = line    
 

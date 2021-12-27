@@ -7,23 +7,28 @@ inExEnv = False
 
 for line in f:
     line  = line[:-1] # trailing newline removal
+    line = line.replace( r"]{book}", " ")
+    line = line.replace( r"\lstset{defaultdialect=[5.3]Lua}"," ")
+    line = line.replace( r"\lstset{defaultdialect=[x86masm]Assembler}"," ")
+    
     if(line.count("documentclass")) :
         line = '\documentclass[11pt,oneside,a4paper,pdftex,openany]{book}'
         line += '\\usepackage{capt-of}\n\\usepackage{xcolor}'
+        line += '\\usepackage[titletoc,toc,title]{appendix}'
         line += '\n\\usepackage[most]{tcolorbox}\n'
+        line += '\\usepackage{mathrsfs}\n'
         line += '\\usepackage{tikz, lipsum}\n\\usepackage{fancyvrb}\n'
         line += '\\tcbuselibrary{breakable,skins}\n\\tcbset{enhanced jigsaw}'
-        line += '\n\\newenvironment{example}{\\vspace{0.5cm}\\begin{tcolorbox}[breakable,enhanced,title='',colframe=teal,colback=teal!5!white]}{\\end{tcolorbox}\\vspace{0.5cm}}'
         line += '\n\\newenvironment{antwoord}{\\begin{tcolorbox}[enhanced,breakable, colback=grey]}{\\end{tcolorbox}}\n'
-
+        line+='\n\\newenvironment{example}{\\vspace{0.5cm}\\begin{tcolorbox}[tile,breakable,enhanced,title=,borderline west={1mm}{0pt}{cyan},colframe=cyan,toprule=0.25mm,right=1mm,width=\\linewidth,colback=cyan!20!white]}{\\end{tcolorbox}\\vspace{0.5cm}}'
         line += '\\setlength{\\textheight}{21.5cm}\\setlength{\\textwidth}{15.0cm}\n'
         line += '\\setlength{\\topmargin}{0.0cm}\n'
         line += '\\setlength{\\oddsidemargin}{0.0cm}\n'
         line += '\\setlength{\\evensidemargin}{0.0cm}\n'
-        line += '\\renewcommand{\\appendixname}{}\n'
+        line += '\\renewcommand{\\appendixname}{APPENDIX}\n'
         line += '\\renewcommand{\\chaptername}{Hoofdstuk}\n'
         line += '\\renewcommand{\\contentsname}{Inhoud}\n'
-        line += '\\renewcommand{\\partname}{Module}\n'
+        line += '\\renewcommand{\\partname}{MODULE}\n'
         line += '\\graphicspath{{Figures/}}\n'
         line += '\\usepackage{titlesec}\n'
         #        line += '\\titleformat{\\chapter}[display]\n'
@@ -42,9 +47,16 @@ for line in f:
 
 
         
-    if(line.count('usepackage{listings}')) :
-        line += '\n \\lstset{breaklines=true, basicstyle=\\ttfamily, columns=fullflexible, frame=single}'
-        
+    if(line.count('\\lstset{')) :
+        line += '\n     language=python,'
+    line = line.replace("  linewidth=\\textwidth","linewidth=\\linewidth ")
+    line = line.replace("backgroundcolor=\color{yellow!10}","backgroundcolor=\color{green!60!gray!15!white}")
+    line = line.replace("    breaklines=false","     breaklines=true")
+    line = line.replace("    showtabs=false,","     showtabs=true,")
+    line = line.replace("    numbers=right,"," numbers = none,")
+
+
+    
     if(line.count('begin{document}')) : 
         line = ''
         line += '\\newcommand*{\\titleGM}{\\begingroup\n'
@@ -52,15 +64,15 @@ for line in f:
         line += '\\vspace{0.15\\textheight}'    
         line += '{\\center\\Huge\\bfseries {Data Analyse en Statistiek}} \\\\ [3\\baselineskip]\n'
         line += '{\\center\\huge\\bfseries {Bachelor Natuur- en Sterrenkunde}} \\\\ [3\\baselineskip]\n'
-        line += '{\\center\\huge\\bfseries studiejaar 2020-2021} \\\\ [3\\baselineskip]\n'
+        line += '{\\center\\huge\\bfseries studiejaar 2021-2022} \\\\ [3\\baselineskip]\n'
         line += '\\vspace{0.33\\textheight} \\\\ [3\\baselineskip] \\newline\n'
-        line += '{\\filleft\\includegraphics[]{logoVUvA.jpeg}}}}'
-        line += '\\endgroup}'
+        line += '{\\filleft\\includegraphics[width=450pt]{logoVUvA.jpeg}}}}'
+        line += '\\endgroup}\n'
 
         line += '\\begin{document}\n'
         line += '\\thispagestyle{empty}\n' 
         line += '\\titleGM\n'
-        line += '\\parbox[b]{\\textwidth}{ \\vspace{0.8\\textheight}  dr H.L. Snoek \\&  M. F. L. Schut MSc \\\\  versie 2021-02-17 } \n'
+        line += '\\parbox[b]{\\textwidth}{ \\vspace{0.8\\textheight}\\textbf{dr H.L. Snoek en M.F.L. Schut MSc} \\\\  \\tiny{versie 2021-12-27 }} \n'
         line += '\\tableofcontents\\newpage\n'
 
     if (line.count("begin{quote")) : 
@@ -70,9 +82,12 @@ for line in f:
         inExEnv = False
         line = line.replace( r"\end{quote}", r"\end{example}" )
 
-
+    line = line.replace( r"BEGINAPPENDICES",r"\begin{appendices}" )
+    line = line.replace( r"ENDAPPENDICES",r"\end{appendices}" )
+        
     line = line.replace( r"\[", r"$" )
     line = line.replace( r"\]", r"$" )
+
 
     line = line.replace( r"$$", r"$")
     line = line.replace( r"♥" , r"$\heartsuit$")
@@ -84,7 +99,9 @@ for line in f:
     line = line.replace( r"</center>" , r"")
     line = line.replace( r"\lt" , r"<")
     line = line.replace( r"\gt" , r">")
-
+    line = line.replace( "\\text{mees_m_laag}","\\text{mees\\_m\\_laag}")
+    line = line.replace( "\\text{mees_m_hoog}","\\text{mees\\_m\\_hoog}")
+    
 #    if (line.count('LatexPart')) :
 #        line = line.replace( r"chapter", r"part")
 #        line = line.replace( r"LatexPart", r"")
@@ -95,6 +112,10 @@ for line in f:
         line = line.replace( r"Introductie Module 2", r"")
         line = line.replace( r"Introductie Module 3", r"")
         line = line.replace( r"Introductie Module 4", r"")
+
+#    if (line.count('hypertarget{de-chi2--toets-tabel}')) :
+#        line = '\\begin{appendices}\n' + line
+
 
     if (line.startswith('\\newline')) : line = ""
     

@@ -32,7 +32,7 @@ De kans dat A of B gemeten wordt is dan:
 
 $$P(\text{A of B}) = P(A) + P(B) - P(\text{A en B}).$$
 
-> **Voorbeeld** De kans dat een kaart rood is en een vier als uitkomst heeft is $$\frac{2}{52}\$$. De kans dat een kaart rood is of een vier is nu gelijk aan 
+> **Voorbeeld** De kans dat een kaart rood is en een vier als uitkomst heeft is $$\frac{2}{52}$$. De kans dat een kaart rood is of een vier is nu gelijk aan 
 > 
 > $$P\left(\frac{1}{2}\right) + P\left(\frac{4}{52}\right) - P\left(\frac{2}{52}\right) = \frac{28}{52}.$$
 
