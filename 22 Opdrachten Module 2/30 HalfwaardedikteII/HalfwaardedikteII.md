@@ -35,7 +35,8 @@ We gaan het experiment nu 50 keer herhalen en kijken naar de distributie van de 
 > - **M2.3e) Zeggen deze getallen ook iets of de gemeten waardes systematisch te hoog of te laag uitkomen. Beredeneer je antwoord.**
 
  
-We gaan nu bekijken hoe zuiver de meting is. 
+We gaan nu bekijken hoe zuiver de meting is. Lees hiervoor eerst het hoofdstuk [schatmethodes](/module-2/schatmethodes).
+
 De zuiverheid is gedefinieerd als als het verschil tussen de verwachtingswaarde van een schatter en de 'echte' waarde van de te meten parameter. Het symbool voor de zuiverheid is $$b$$ (van het Engelse bias). De formule van de onzuiverheid is: 
 
 $${\displaystyle b = {\text{gemeten waarde}} − {\text{echte waarde}}}.$$

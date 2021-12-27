@@ -1,5 +1,5 @@
 # Schatmethodes
-<!--REF\label{/module-3/schatmethodes}-->
+<!--REF\label{/module-2/schatmethodes}-->
 1. Ordered TOC
 {:toc}
 

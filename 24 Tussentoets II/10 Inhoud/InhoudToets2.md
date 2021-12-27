@@ -33,9 +33,10 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 * Begrijpen wanneer je welke regel moet toepassen.
 * Bayes theorema kennen en kunnen toepassen. Bekijk ook de kennisclip op Canvas.
 
-### Schatters en Zuiverheid
-* De definitie van een schatter kennen. Deze vind je in de opgave [M2.3](/opdrachten-module-2/halfwaardedikteii).
-* Weten wat een zuivere of een onzuivere meting is. Zie hiervoor ook het hoorcollege en de opgave M2.3. Ken ook de formule voor onzuiverheid.
+### Schatmethodes [link](/module-2/schatmethodes)
+* De definitie van een schatter kennen. 
+* Weten wat een zuivere, consistente en efficïente meting is. 
+* Ken ook de formule voor onzuiverheid en weet hoe je die moet toepassen.
 
 
 
