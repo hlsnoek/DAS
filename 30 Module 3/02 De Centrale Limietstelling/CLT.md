@@ -86,7 +86,7 @@ Zoals we <!--FIG in Fig. \ref{fig:PoissonDistributie2}--> zien is de Poisson ver
 **We verwachten voor grotere waardes van $$\lambda$$ dat de Poisson de Normaalverdeling zal gaan volgen.**
 We leggen het uit aan de hand van een voorbeeld. 
 
-> Stel dat we de tellingen in ons experiment uitvoeren in een tijdsinterval. De meetwaarde die we vinden, $$k$$, is het aantal waarnemingen per tijdsinterval $$\Delta t.$$ We zouden het tijdsinterval ook kunnen opdelen in bijvoorbeeld 100 stukjes. We verwachten nu $$k_{\text{kort}} = k/100$$ waarnemingen te meten per tijdsinterval van $$\Delta t_{\text{kort}}= 1/100 \times \Delta t.$$
+> **Voorbeeld** Stel dat we de tellingen in ons experiment uitvoeren in een tijdsinterval. De meetwaarde die we vinden, $$k$$, is het aantal waarnemingen per tijdsinterval $$\Delta t.$$ We zouden het tijdsinterval ook kunnen opdelen in bijvoorbeeld 100 stukjes. We verwachten nu $$k_{\text{kort}} = k/100$$ waarnemingen te meten per tijdsinterval van $$\Delta t_{\text{kort}}= 1/100 \times \Delta t.$$
 Deze kortere tijdsintervallen volgen ook de Poisson statistiek, immers we hebben de voorwaardes van het experiment verandert, maar het is nog steeds een telexperiment. 
 > 
 > Rachid en Belia voeren een telexperiment tegelijkertijd op twee manieren uit. Rachid noteert 100 uitkomsten elke 10 secondes en Belia wacht precies 1000 secondes en noteert precies 1 uitkomst. De metingen van Rachid noemen we $$r_i$$ en de meting van Belia noemen we $$b$$. De 100 metingen van Rachid zijn 100 onafhankelijke stochasten. Dit omdat je verwacht dat de meetwaardes statistische fluctuaties hebben (stochastisch) en omdat de ene meting geen invloed heeft op de volgende meting (onafhankelijk). 
