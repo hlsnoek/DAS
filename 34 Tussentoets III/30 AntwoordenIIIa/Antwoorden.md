@@ -40,19 +40,19 @@ geeft $$\hat{b} = 3.0$$</span>
 -----
 
 
-## Chi-2 en AIC
+## Chi-kwadraat en AIC
 **3** Stel je hebt een dataset met 32 meetwaardes die je fit met de functie $$f(x;a,b,c,d)$$ waarbij je alle vier de variabelen optimaliseert. Hoeveel vrijheidsgraden heeft deze fit?<br>
 <span style = 'color:blue'>$$\nu$$ =32-4 = 28</span>
 
 -----
 
 **4** Stel je hebt een dataset met 45 meetwaardes gefit met een functie $$f(x;a,b)$$. De $$\chi^2$$ van de fit is bepaald op 98. Is dit een goede fit?<br>
-<span style = 'color:blue'>$$\nu$$= 45-2 = 43, $$\chi^2_\nu = 98/43 =2.3$$. Dit is niet een goede fit, het lijkt erop dat de functie de dataset niet goed beschrijft.</span>
+<span style = 'color:blue'>$$\nu$$= 45-2 = 43, $$\chi^2_\nu = 98/43 =2.3$$. De fit wijkt veel af van $$1$$ en uit de [tabel](/appendix/chi-kwadraat-toets) schatten we af dat dit in minder dan $$0.5\%$$ van de fits voorkomt. Het lijkt erop dat de functie de dataset niet goed beschrijft.</span>
 
 ----
 
 **5** Stel je hebt een dataset met 14 punten. Je fit deze met een functie $$f=a\cdot x^2$$. De $$\chi^2$$ van de fit is 10. Is dit een goede fit?<br>
-<span style = 'color:blue'>$$\nu$$=14-1 = 13. $$\chi^2_\nu = 0.8$$ Dit is een redelijk goede fit.</span>
+<span style = 'color:blue'>$$\nu$$=14-1 = 13. $$\chi^2_\nu = 0.8$$ Dit is een redelijk goede fit. We zien in de [tabel](/appendix/chi-kwadraat-toets) dat deze $$\chi^2$$ met voor dit aantal vrijheidsgraden in meer dan $$90\%$$ van de fits voorkomt.</span>
 
 **6** Stel je hebt een dataset met 14 punten. Je fit deze met een functie $$f1 = a+ b\cdot x$$ en met een functie $$f2 = a+b\cdot x+ c\cdot x^2$$. Voor $$f1$$ vind je een $$\chi^2_{f1} = 15.2$$, voor $$f2$$ vind je een $$\chi^2_{f2} = 16.8$$. Vergelijk de twee fits, welke is het beste? 
 <span style = 'color:blue'>Voor $$f1$$: <br>

@@ -1,4 +1,5 @@
 # De $$\chi^2$$ -toets tabel
+<!--REF\label{/appendix/chi-kwadraat-toets}-->
 
 In deze kansen kan je voor verschillende overschrijdingskansen aan de bovenzijde (0.995, 0.99, ..., 0.005) de $$\chi^2$$ waardes aflezen per hoeveelheid vrijheidsgraden $$\nu$$.
 
