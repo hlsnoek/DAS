@@ -26,19 +26,10 @@ Een hypothese is een uitspraak over een bepaalde eigenschap van een populatie. J
 > - De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}.$$
 > - Studenten in Amsterdam halen hogere cijfers dan studenten in Groningen.
 
-Bij hypothese toetsen is er sprake van twee hypotheses. De zogenoemde *nulhypothese* en de *alternatieve hypothese*. 
+Bij hypothese toetsen is er sprake van twee hypotheses. De zogenoemde *nulhypothese* en de *alternatieve hypothese*. Het doel van de toets is om behulp van een steekproef een effect aan te tonen. Dit effect verwachten we te zien als een stelling waar is. Dit is de *alternatieve hypothese*, als we geen effect waarnemen dan gaan we ervan uit dat de *nulhypothese* de juiste is. Bij het opstellen van de hypothese toets is de alternatieve hypothese dus de *spannende* hypothese. Een nieuwe natuurkundige theorie die er anders uitziet dan hetgeen we algemeen voor waar wordt aangenomen. De nulhypothese wordt aangegeven met $$H_0$$, de alternatieve hypothese met $$H_{\alpha}$$ (ook $$H_1$$ is veelvoorkomend). 
 
-Bij hypothese toetsen wordt eerst aangenomen dat de eigenschap die onderzocht wordt niet waar is. Dit wordt de *nulhypothese* genoemd. De stelling dat de gewenste eigenschap wel waar is wordt de *alternatieve hypothese* genoemd. De nulhypothese wordt aangegeven met $$H_0$$, de alternatieve hypothese met $$H_{\alpha}$$ (ook $$H_1$$ is veelvoorkomend). 
+De term nulhypothese komt overigens uit het Engels van de 'null hypothesis' en de naamgeving slaat op de hypothese die verworpen (oftewel 'nullified') moet worden. De nulhypothese is over het algemeen het complement (het tegenovergestelde) van de alternatieve hypothese. 
 
-De procedure bij hypothese toetsen is dat je in eerste instantie aanneemt dat de eigenschap niet waar is (dus je houdt de nulhypothese aan) en dan onderzoekt of dit stand houdt in het kader van de gevonden resultaten. Uiteindelijk hoop je dat je de nulhypothese kunt verwerpen waardoor de alternatieve hypothese (en dus de gewenste waarde van de eigenschap) kunt aannemen.  
-
-De term nulhypothese komt overigens uit het Engels van de 'null hypothesis' en de naamgeving slaat op de hypothese die verworpen (oftewel 'nullified') moet worden.
-
-
-Dus:
-
-- Alternatieve hypothese $$H_{\alpha}$$: De hypothese die zegt wat je verwacht te vinden in de dataset 
-- Nulhypothese: Het omgekeerde van de alternatieve hypothese.
 
 Onderstaand de eerdere hypothesen met bijbehorende nulhypothesen:
 
