@@ -85,11 +85,11 @@ Hier zie je voorbeelden van een staafdiagram en een histogram.
 
 ![Een voorbeeld van een staafdiagram.](autos-in-nederland.png){:width="60%"}<br>
 
-Hier<!--FIG , in Fig. \ref{fig:autos-in-nederland}--> zie je een **staafdiagram** die de hoeveelheid auto's in Nederland laat zien over drie verschillende jaren opgesplitst naar drie auto categorieën. 
+Hier<!--FIG , in Fig. \ref{fig:autos-in-nederland}--> zie je een **staafdiagram** dat de hoeveelheid auto's in Nederland laat zien over drie verschillende jaren opgesplitst naar drie auto categorieën. 
 
 ![Een voorbeeld van een histogram.](verdeling-van-inkomens-2.png){:width="60%"}<br>
 
-Hierboven<!--FIG , in Fig. \ref{fig:verdeling-van-inkomens-2}--> zie je een **histogram** die de inkomensverdeling in Nederland laat zien. 
+Hierboven<!--FIG , in Fig. \ref{fig:verdeling-van-inkomens-2}--> zie je een **histogram** dat de inkomensverdeling in Nederland laat zien. 
 
 Er is een belangrijk verschil tussen een staafdiagram en een histogram. Een staafdiagram laat de frequentie zien voor *gecategoriseerde* verdelingen. Een histogram wordt gebruikt om het resultaat van een *numeriek sorteerbare* verdeling mee weer te geven. In het geval van een histogram gaat het vaak om data met een continue variabele, zoals bijvoorbeeld bij het opmeten van lengte of gewicht. In dat geval sorteer je de data per interval.
 

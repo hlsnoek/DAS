@@ -254,4 +254,4 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 >  = & ~ 0.0100 ~\text{m}^2 \end{aligned}$$ <br> 
 > 
 > - De standaardafwijking is $$ s = 0.10$$ m.  
-> - De variatiecoëfficiënt is $$\hat{c_v} = 0.0057$$d
+> - De variatiecoëfficiënt is $$\hat{c_v} = 0.0057.$$

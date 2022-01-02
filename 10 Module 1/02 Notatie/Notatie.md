@@ -11,7 +11,7 @@ De hoeveelheid getallen die we noteren zegt vaak iets over nauwkeurig we denken 
 
 Een ander voorbeeld is als we de gemiddelde lengte van drie stokken willen uitrekenen. De stokken zijn 45, 50 en 54 cm lang. We rekenen het gemiddelde uit met onze rekenmachine en we kopiëren het resultaat: 49.66666666 cm. Het lijkt nu of we het resultaat super-nauwkeurig weten terwijl we voor de stoklengtes alleen de centimeters hebben genoteerd. Dat klopt natuurlijk niet!  
 
-Voor het noteren van wetenschappelijke resultaten maken we in dit vak nu afspraken die jullie ook zuleln toepassen in de overige bachelorvakken. Hetzelfde geldt voor het visualiseren van data, daarvoor maken we in het volgende hoofdstuk afspraken. Het is goed om je te realiseren dat er soms wat kleine verschillen kunnen zijn in de afspraken omtrent de visualisatie en de notatie. Als je later in je bachelor een project gaat doen kan het zijn dat de consensus over het presenteren van resultaten net iets anders ligt. Voor nu spreken we de regels af zoals die hieronder volgen.
+Voor het noteren van wetenschappelijke resultaten maken we in dit vak nu afspraken die jullie ook zullen toepassen in de overige bachelorvakken. Hetzelfde geldt voor het visualiseren van data, daarvoor maken we in het volgende hoofdstuk afspraken. Het is goed om je te realiseren dat er soms wat kleine verschillen kunnen zijn in de afspraken omtrent de visualisatie en de notatie. Als je later in je bachelor een project gaat doen kan het zijn dat de consensus over het presenteren van resultaten net iets anders ligt. Voor nu spreken we de regels af zoals die hieronder volgen.
 
 We beginnen met het uitleggen van wat begrippen die we nodig hebben om de afspraken uit te kunnen leggen.
 
@@ -131,7 +131,7 @@ $$1.23 + 0.1 = 1.3 .$$
 - Bij het vermenigvuldigen of delen van constante waardes (zoals $$\pi, e, 100\%$$ of $$1$$) dan verandert de significantie niet. En bij optellen of aftrekken bij constante waardes verandert het aantal decimalen niet. 
 
 > **Voorbeeld**
-> Ongeveer $$7.8\%$$ van de mannen in Nederland is kleurenblind. Dat betekend  dat het percentage van de mannen die niet kleurenblind is gelijk is aan:<br>
+> Ongeveer $$7.8\%$$ van de mannen in Nederland is kleurenblind. Dat betekent  dat het percentage van de mannen die niet kleurenblind is gelijk is aan:<br>
 >  $$100\% - 5.3\% = 94.7\%$$.
 >  (Want, het is een aftreksom en we behouden dus het aantal decimalen.)
 <br>

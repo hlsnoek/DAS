@@ -5,7 +5,7 @@
 
 In dit hoofdstuk leren we over kanstheorie en kansdichtheidsfuncties. Kanstheorie
 speelt een belangrijke rol in het begrijpen en bepalen van meetonzekerheden. 
-Zoals in het hoofdstuk over [meetonzekerheden](/module-1/meetonzekerheid) is uitgelegd kunnen meetonzekerheden verschillende oorzaken hebben. Bij elk van die oorzaken hoort een bepaalde waarschijnlijkheidsverdeling en deze zijn verbonden aan kansprocessen. 
+Zoals in het hoofdstuk over [meetonzekerheden](/module-1/meetonzekerheid) is uitgelegd kunnen meetonzekerheden verschillende oorzaken hebben. Bij elk van die oorzaken hoort een bepaalde waarschijnlijkheidsverdeling en deze zijn verbonden aan kans processen. 
 
 Vaak willen we metingen gebruiken om voorspellingen te doen of hypotheses te toetsen. Als we hiervoor een bepaalde
 serie meetgegevens willen gebruiken, dan is het belangrijk om te weten wat de

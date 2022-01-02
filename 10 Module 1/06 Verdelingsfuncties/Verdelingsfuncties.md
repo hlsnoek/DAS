@@ -4,7 +4,7 @@
 1. Ordered TOC
 {:toc}
 
-We gaan nu kijken naar kansverdelingen. In het voorbeeld van de simpele dobbelsteen zou je kunnen kijken hoe de kansen verdeeld zijn over de verschillende uitkomsten. Voor een normale dobbelsteen is dit misschien een beetje saai, voor elke uitkomst verwacht je een andere waarde. Voor de speciale dobbelsteen die we eerder beschreven ziet het er al wat interessanter uit. 
+We gaan nu kijken naar kansverdelingen. In het voorbeeld van de simpele dobbelsteen zou je kunnen kijken hoe de kansen verdeeld zijn over de verschillende uitkomsten. Voor een gewone dobbelsteen is dit misschien een beetje saai, voor elke uitkomst verwacht je een andere waarde. Voor de speciale dobbelsteen die we eerder beschreven ziet het er al wat interessanter uit. 
 
 Om over kansverdelingen te kunnen leren moeten we eerst weten wat stochasten zijn. Daarna introduceren we enkele veelgebruikte kansdichtheidsverdelingen.
 
@@ -59,7 +59,7 @@ Een algemene formule voor een **continue uniforme** verdeling is:
 $${\displaystyle f(x;a,b) = \frac{1}{b-a}} \quad\text{voor}\quad a \leq x \leq b.$$
 
 Hierbij is $$f(x)$$ de kans dat je de waarde $$x$$ vindt. De stochast is hier dus $$x$$.
-Hier <!--FIG in Fig. \ref{fig:UniformeDistributieAlgemeen} --> zie je hoe de uniforme verdeling eruit ziet voor een continue verdeling.
+Hier <!--FIG in Fig. \ref{fig:UniformeDistributieAlgemeen} --> zie je hoe de uniforme verdeling eruitziet voor een continue verdeling.
 
 ![Een voorbeeld van de kansdichtheidsverdeling van een uniforme distributie.](UniformeDistributieAlgemeen.png){:width="80%"}
  
@@ -96,7 +96,7 @@ $$\sigma = \sqrt{npq}$$.
 > $$0.91 - 0.49 = 0.42.$$ <br>
 > 
 > 
-> We kunnen deze kansen ook met de Binomiaal vergelijking uitrekenen:
+> We kunnen deze kansen ook met de Binomiaalvergelijking uitrekenen:
 > 
 >  - 2 trekkingen, 0 gele knikkers: <br>
 > $$P(k;n,p) = p(0;2,0.3) = \frac{2!}{(0! \cdot 2!)} 0.3^0 \cdot 0.7^2 =  0.49 $$
@@ -142,7 +142,7 @@ Stochastische variabelen zijn Normaal-verdeeld (ook wel Gaussisch) als ze door d
 
 $${\displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} }.$$
 
-De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaardafwijking is precies $$\sigma$$. <!--Dat is zeker geen toevalligheid.--> 
+De functie heeft twee parameters, $$\mu$$ en $$\sigma$$, de notering is niet toevallig. De verwachtingswaarde van de Normaalverdeling is precies $$\mu$$ en de standaardafwijking is precies $$\sigma$$. <!--Dat is zeker geen toevalligheid.--> 
 
 Over de mathematische beginselen van de Normale verdelingsfunctie gaan we hier verder niet in. Het is wel goed om te weten dat de Normale verdelingsfunctie zonder twijfel de meest belangrijke functie is in de statische data analyse. De verdelingsfunctie komt erg vaak voor. Dat is geen toevalligheid, we zullen later in module 3 zien waarom dit zo is.
 
