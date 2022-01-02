@@ -47,7 +47,7 @@ we uit in het aantal proton massa's omdat het anders onhandig wordt met de eenhe
 
 We gaan weer fitten met het pakket [**lmfit**](https://lmfit.github.io/lmfit-py/model.html).
 
-> - Schrijf eerst een functie die je **`achtergrond_functie(x,N0,c)`** noemt. Het is misschien logischer om in plaats de  `x` variabele `m` te gebruiken, maar later in het programma maken we gebruik van een standaard functie van **`models`** en hiervoor is het nodig om het nu alvast `x` te noemen. 
+> - Schrijf eerst een functie die je **`achtergrond_functie(x,N0,c)`** noemt. Het is misschien logischer om in plaats de  `x` grootheid `m` te gebruiken, maar later in het programma maken we gebruik van een standaard functie van **`models`** en hiervoor is het nodig om het nu alvast `x` te noemen. 
 > 
 > Nadat je de functie hebt geschreven die de achtergrond beschrijft maken we het model voor de fit en die noemen we **`achtergrond_model`**. 
 > 
@@ -80,12 +80,12 @@ We beginnen eerst met het opzetten van een functie die alleen de signaal compone
 Als je een standaardfunctie gebruikt is het altijd even goed om uit te zoeken hoe die precies werkt. Je kan bijvoorbeeld even op de website van [lmfit](https://lmfit.github.io/lmfit-py/builtin_models.html) kijken en zoeken naar **`GaussianModel()`**. 
 
 
-> We bekijken in elk geval even hoe de vrije parameters en de variabele heten in dit model. Dit kun je doen met het volgende statement.
+> We bekijken in elk geval even hoe de vrije parameters en de grootheid heten in dit model. Dit kun je doen met het volgende statement.
 >
 >		print('De parameters: ',normaal_model.param_names,' de variabele: ', normaal_model.independent_vars)
 
 
- We zien nu dat er drie variabelen zijn **`amplitude`**, **`center`** en **`sigma`**. Vergelijk de functie op de website met de normale verdeling voor het deeltje $$X$$. We zien nu dat de variabele **`x`** de variabele $$m$$ is. <br>
+ We zien nu dat er drie variabelen zijn **`amplitude`**, **`center`** en **`sigma`**. Vergelijk de functie op de website met de normale verdeling voor het deeltje $$X$$. We zien nu dat de variabele **`x`** de grootheid $$m$$ is. <br>
 
 Nu maken we eerst het model voor de $$H_\alpha$$ hypothese. 
 

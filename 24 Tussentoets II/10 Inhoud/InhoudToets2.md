@@ -20,7 +20,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 
 ### Meerdimensionale data [link](/module-2/meerdimensionale-data)
 * De covariantie definitie kennen.
-* De covariantie van een dataset met twee variabelen kunnen uitrekenen.
+* De covariantie van een dataset met twee grootheden kunnen uitrekenen.
 * De formule van de correlatie kennen.
 * De correlatie tussen twee variabelen in een dataset kunnen uitrekenen.
 * Het concept causaliteit kennen.

@@ -63,12 +63,12 @@ We kunnen nu natuurlijk ook de gecombineerde informatie gebruiken. Hiervoor gaan
 > - **M2.2h) Maak een tweedimensionale scatterplot die de tweedimensionale dataset van de massa versus de spanwijdte voor zowel de pimpelmezen als de koolmezen.**  
 > **TIP** gebruik de opties **`'o',markersize=3`** in de plot functie. Zorg dat beide datasets weer hun eigen kleur hebben en vergeet de legenda niet. 
 
-Het valt misschien op dat er een verband lijkt te zijn tussen beide variabelen. We gaan daar eerst naar kijken naar [de covariantie](/module-2/meerdimensionale-data) en de correlatie tussen de massa en de spanwijdte voor beide vogelsoorten. 
+Het valt misschien op dat er een verband lijkt te zijn tussen beide grootheden. We gaan daar eerst naar kijken naar [de covariantie](/module-2/meerdimensionale-data) en de correlatie tussen de massa en de spanwijdte voor beide vogelsoorten. 
 
 > - **M2.2i) Bereken de covariantie en de correlatie tussen de massa en de spanwijdte voor zowel de koolmeesje als de pimpelmeesjes meetgegevens.**<br><br>
 > 
 >  
-> - **M2.2j) Als je naar de berekende correlaties kijkt wat valt dan op, wat voor verband zit er tussen de twee variabelen? Als je toch even als een Bioloog nadenkt, is dit dan wat je verwacht? Leg uit.**<br><br>
+> - **M2.2j) Als je naar de berekende correlaties kijkt wat valt dan op, wat voor verband zit er tussen de twee grootheden? Als je toch even als een Bioloog nadenkt, is dit dan wat je verwacht? Leg uit.**<br><br>
 
 We gaan terug naar de kansberekeningen. 
 

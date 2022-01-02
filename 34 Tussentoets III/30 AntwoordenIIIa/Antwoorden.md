@@ -41,7 +41,7 @@ geeft $$\hat{b} = 3.0$$</span>
 
 
 ## Chi-kwadraat en AIC
-**3** Stel je hebt een dataset met 32 meetwaardes die je fit met de functie $$f(x;a,b,c,d)$$ waarbij je alle vier de variabelen optimaliseert. Hoeveel vrijheidsgraden heeft deze fit?<br>
+**3** Stel je hebt een dataset met 32 meetwaardes die je fit met de functie $$f(x;a,b,c,d)$$ waarbij je alle vier de parameters optimaliseert. Hoeveel vrijheidsgraden heeft deze fit?<br>
 <span style = 'color:blue'>$$\nu$$ =32-4 = 28</span>
 
 -----

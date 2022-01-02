@@ -23,7 +23,7 @@ De dataset fitten we met de functie $$y = a\cdot x^2$$. Bereken de optimale waar
 
 
 ### Chi-2 en AIC
-**3** Stel je hebt een dataset met 32 meetwaardes die je fit met de functie $$f(x;a,b,c,d)$$ waarbij je alle vier de variabelen optimaliseert. Hoeveel vrijheidsgraden heeft deze fit?<br>
+**3** Stel je hebt een dataset met 32 meetwaardes die je fit met de functie $$f(x;a,b,c,d)$$ waarbij je alle vier de parameters optimaliseert. Hoeveel vrijheidsgraden heeft deze fit?<br>
 
 
 -----
