@@ -120,7 +120,7 @@ Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$|x - 
 > 
 > $$\begin{aligned} P(|x-\mu| > 2) &= 2 \times P\left(Z > \frac{X}{\sigma}\right) \\  &= 2 \times P\left(Z > \frac{2}{4}\right) \\  &= 2\times P\left( Z > 0.5 \right).  \end{aligned}$$ 
 > 
-> In de z-score tabel kunnen we nu de bijbehorende kans waarde opzoeken. Dit is een waarde van $$(2 \times 0.30854) = 0.69146$$.
+> In de z-score tabel kunnen we nu de bijbehorende kans waarde opzoeken, dit is een waarde van $$(2 \times 0.30854) = 0.69146$$.
 > We schrijven dus 
 >
 > $$P(|x - \mu| >X) =  0.69146.$$
