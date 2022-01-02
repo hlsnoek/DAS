@@ -33,7 +33,7 @@ De parameters van de functie $$\theta_i$$ willen we nu afschatten met behulp van
 > 
 > ![Een set metingen met twee lijnen.](VoorbeeldLeastSquares.png){:width="60%"}
 > 
-> Als we een schatter kunnen definïeren voor onze functie dan vinden we de geschatte optimale waardes van $$a$$ en $$b$$ . Deze noemen we $$\hat{a}$$ en $$\hat{b}$$. Oftewel, $$\hat{a}$$ en $$\hat{b}$$ zijn de waardes van $$a$$ en $$b$$ waarbij de lineaire functie onze dataset optimaal beschrijft. Dit schatten van de waardes van $$\hat{a}$$ en $$\hat{b}$$ noemen we ook wel fitten. 
+> Als we een schatter kunnen definiëren voor onze functie dan vinden we de geschatte optimale waardes van $$a$$ en $$b$$ . Deze noemen we $$\hat{a}$$ en $$\hat{b}$$. Oftewel, $$\hat{a}$$ en $$\hat{b}$$ zijn de waardes van $$a$$ en $$b$$ waarbij de lineaire functie onze dataset optimaal beschrijft. Dit schatten van de waardes van $$\hat{a}$$ en $$\hat{b}$$ noemen we ook wel fitten. 
 
 We introduceren nu een definitie van de $$\chi^2$$ schatter. Deze methode noemen we ook wel de kleinste kwadraten methode.
 
@@ -48,13 +48,13 @@ De meest optimale waarde voor $$\theta$$ geeft de kleinste $$\chi^2$$. Door de $
 Door  het kwadraat te gebruiken en niet het absolute verschil tussen de datapunten en de voorspelling geven we meer waarde aan de punten die ver van de voorspelling afliggen. 
 
 > **Voorbeeld: Afstanden**
-> In onderstaande figuur is elk datapunt van de meetset apart weergeven. Voor elke meetwaarde zien we een normaalverdeling die gecentreerd is op de meetwaarde met als standaardafwijking de grootte van de betreffende meetfout. Ook zijn in de grafiek de voorspelde waardes weergegeven met pijlen die volgen uit de functie met de gepostuleerde waardes van $$a$$ en $$b$$. De rode (zwart gestreepte) pijlen horen bij de rode (zwart gestreepte) lijn uit het figuur <!--FIG  (\ref{fig:VoorbeeldLeastSquares})-->uit het vorige voorbeeld. 
+> In onderstaande figuur is elk datapunt van de set metingen apart weergeven. Voor elke meetwaarde zien we een normaalverdeling die gecentreerd is op de meetwaarde met als standaardafwijking de grootte van de betreffende meetfout. Ook zijn in de grafiek de voorspelde waardes weergegeven met pijlen die volgen uit de functie met de gepostuleerde waardes van $$a$$ en $$b$$. De rode (zwart gestreepte) pijlen horen bij de rode (zwart gestreepte) lijn uit het figuur <!--FIG  (\ref{fig:VoorbeeldLeastSquares})-->uit het vorige voorbeeld. 
 >
 >![Een set metingen met twee lijnen.](VoorbeeldLeastSquaresDataPunten.png){:width="80%"}
 >
-> De afstanden tussen de voorspelde waardes en de gemeten waardes zijn de ingredïenten van de kleinste kwadraten methode.
+> De afstanden tussen de voorspelde waardes en de gemeten waardes zijn de ingrediënten van de kleinste kwadraten methode.
 
-In de meeste gevallen kunnen we het minimum van de $$\chi^2$$ algebraïsch vinden. Voor een  functie die afhangt van slechts één parameter $$a$$ dan kunnen we het minimum vinden op het punt dat de afgeleide gelijk is aan nul:<br>
+In de meeste gevallen kunnen we het minimum van de $$\chi^2$$ analytisch vinden. Voor een  functie die afhangt van slechts één parameter $$a$$ dan kunnen we het minimum vinden op het punt dat de afgeleide gelijk is aan nul:<br>
 
 $${\displaystyle \frac{\partial \chi^2}{\partial a} =0.}$$
 
@@ -64,7 +64,7 @@ $${\displaystyle \frac{\partial \chi^2}{\partial a} = \sum_{i=1}^N \frac{1}{\sig
 
 De betreffende waarde van $$a$$ waarvoor dit geldt is de schatting van $$a$$, genoteerd als $$\hat{a}$$.
 
-In de vergelijkingen hierboven hebben we een functie bekeken met maar één parameter maar dit principe kun je ook toepassen op functies met meerdere  parameters die je dan tegelijkertijd afschat. Parameters die je met de $$\chi^2$$ methode afschat noem je ook **vrije parameters**. Soms zijn er functies waarvan je sommige parameters vastzet, bijvoorbeeld omdat je de waarde ervan al kent, terwijl je andere paramaters juist optimaliseert. De vastgezete parameters noemen we vaak **gefixeerde** parameters in een fit.
+In de vergelijkingen hierboven hebben we een functie bekeken met maar één parameter maar dit principe kun je ook toepassen op functies met meerdere  parameters die je dan tegelijkertijd afschat. Parameters die je met de $$\chi^2$$ methode afschat noem je ook **vrije parameters**. Soms zijn er functies waarvan je sommige parameters vastzet, bijvoorbeeld omdat je de waarde ervan al kent, terwijl je andere paramaters juist optimaliseert. De vastgezette parameters noemen we vaak **gefixeerde** parameters in een fit.
 
 Een andere, niet analytische, methode om de $$\chi^2$$ formule te minimaliseren is door gebruik te maken van een computerprogramma waarbij de $$\chi^2$$ voor veel waardes van de vrije parameters uit te rekenen en uit deze set van waardes het punt met de laagste $$\chi^2$$ te vinden. Bij deze methode is het belangrijk om je bewust te zijn van de beperkingen van het computerprogramma. Het echte minimum van de $$\chi^2$$ kan bijvoorbeeld buiten het zoekgebied van de betreffende parameter liggen. 
 
