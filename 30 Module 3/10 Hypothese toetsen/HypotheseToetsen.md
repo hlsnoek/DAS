@@ -1,4 +1,4 @@
-# Hypothese toetsen
+# Hypothese toetsen I
 <!--REF\label{/module-3/hypothese-toetsen}-->
 
 1. Ordered TOC
@@ -8,27 +8,27 @@ Als je een steekproef hebt genomen en je wil hiermee iets kunnen zeggen over de 
 
 Dit wordt hypothese toetsen genoemd. Bij hypothese toetsen doorloop je de volgende stappen:
 
-1. Hypothese opstellen
-2. Significantieniveau kiezen (*Let op! Dit is iets anders dan de significantie waarin je een meetwaarde noteert.*)
-3. p-waarde bepalen
-4. Conclusie trekken
+1. Een hypothese opstellen.
+2. Een significantieniveau kiezen.<br> (*Let op! Dit is iets anders dan de significantie waarin je een meetwaarde noteert.*)
+3. De p-waarde bepalen.
+4. Een conclusie trekken.
 
-Deze stappen worden hieronder toegelicht.
+Deze vier stappen worden hieronder toegelicht.
 
-## Hypothese opstellen
+## Een hypothese opstellen
 
 Een hypothese is een uitspraak over een bepaalde eigenschap van een populatie. Je weet nog niet of deze uitspraak correct is. Een hypothese wordt geformuleerd als stelling.  
 
-> **Voorbeelden van hypotheses**
+> **Voorbeeld: Verschillende hypotheses.**
 >
 > - 20% van de auto's in Nederland is blauw.
-> - 50% van de Nederlanders heeft blauwe ogen
-> - De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}$$
-> - Studenten in Amsterdam halen hogere cijfers dan studenten in Groningen 
+> - 50% van de Nederlanders heeft blauwe ogen.
+> - De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}.$$
+> - Studenten in Amsterdam halen hogere cijfers dan studenten in Groningen.
 
 Bij hypothese toetsen is er sprake van twee hypotheses. De zogenoemde *nulhypothese* en de *alternatieve hypothese*. 
 
-Bij hypothese toetsen wordt eerst aangenomen dat de eigenschap die onderzocht wordt niet waar is. Dit wordt de *nulhypothese* genoemd. De stelling dat de gewenste eigenschap wel waar is wordt de *alternatieve hypothese* genoemd. De nulhypotese wordt aangegeven met $$H_0$$, de alternatieve hypothese met $$H_{\alpha}$$ (ook $$H_1$$ is veelvoorkomend). 
+Bij hypothese toetsen wordt eerst aangenomen dat de eigenschap die onderzocht wordt niet waar is. Dit wordt de *nulhypothese* genoemd. De stelling dat de gewenste eigenschap wel waar is wordt de *alternatieve hypothese* genoemd. De nulhypothese wordt aangegeven met $$H_0$$, de alternatieve hypothese met $$H_{\alpha}$$ (ook $$H_1$$ is veelvoorkomend). 
 
 De procedure bij hypothese toetsen is dat je in eerste instantie aanneemt dat de eigenschap niet waar is (dus je houdt de nulhypothese aan) en dan onderzoekt of dit stand houdt in het kader van de gevonden resultaten. Uiteindelijk hoop je dat je de nulhypothese kunt verwerpen waardoor de alternatieve hypothese (en dus de gewenste waarde van de eigenschap) kunt aannemen.  
 
@@ -53,74 +53,69 @@ Onderstaand de eerdere hypothesen met bijbehorende nulhypothesen:
 > - $$H_{\alpha}$$: Het percentage Nederlanders met blauwe ogen is 50%.
 > - $$H_0$$: Het percentage Nederlanders met blauwe ogen is geen 50%.
  
-> - $$H_{\alpha}$$: De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}$$.
-> - $$H_0$$: De valversnelling in Nederland is niet gelijk aan $$9.81 \text{ ms}^{-2}$$.
+> - $$H_{\alpha}$$: De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}.$$
+> - $$H_0$$: De valversnelling in Nederland is niet gelijk aan $$9.81 \text{ ms}^{-2}.$$
  
-> - $$H_{\alpha}$$: Studenten in Amsterdam halen hogere cijfers dan studenten in Groningen 
+> - $$H_{\alpha}$$: Studenten in Amsterdam halen hogere cijfers dan studenten in Groningen.
 > - $$H_0$$: De studenten in Amsterdam halen lagere cijfers dan de studenten in Groningen.
  
-> - $$H_{\alpha}$$: Het aantal katten in Nederland is groter dan 20 000
-> - $$H_0$$: Het aantal katten in Nederland is kleiner of gelijk aan 20 000
+> - $$H_{\alpha}$$: Het aantal katten in Nederland is groter dan 20 000.
+> - $$H_0$$: Het aantal katten in Nederland is kleiner of gelijk aan 20 000.
  
-> - $$H_{\alpha}$$: Het percentage mensen over de gehele wereld met een hond is kleiner dan 40%
-> - $$H_0$$: Het percentage mensen over de gehele wereld met een hond is groter of gelijk aan 40%
+> - $$H_{\alpha}$$: Het percentage mensen over de gehele wereld met een hond is kleiner dan 40%.
+> - $$H_0$$: Het percentage mensen over de gehele wereld met een hond is groter of gelijk aan 40%.
 
 In alle bovenstaande gevallen is het dus de procedure om te kijken of we genoeg bewijs hebben om de nulhypothese te kunnen verwerpen zodat we de alternatieve hypothese kunnen aannemen.
 
 
 
-## Significantieniveau kiezen
+## Een significantieniveau kiezen
 
 De volgende stap in hypothese toetsen is het kiezen van het significantieniveau. Dit houdt in dat we bepalen hoe zeker we ervan willen zijn dat we de correcte conclusie trekken, zonder precisie te verliezen.
 
 Niet elke steekproef zal daadwerkelijk iets kunnen zeggen over de bijbehorende populatie. Als we bijvoorbeeld willen weten of het klopt dat 20% van de auto's in Nederland de kleur blauw heeft, maar in de steekproef kiezen we toevallig alleen auto's met een andere kleur, dan zouden we als conclusie kunnen trekken dat er in Nederland geen blauwe auto's rondrijden. Dit klopt echter niet met de daadwerkelijke populatie. Als je op de weg rijdt zie je namelijk wel degelijk blauwe auto's voorbij komen.
 
-In het bovenstaande geval is de alternatieve hypothese dat 20% van de Auto's in Nederland blauw is maar we trekken de conclusie dat de nulhypothese (het percentage blauwe auto's in Nederland is geen 20%) correct is.
+In het bovenstaande geval is de alternatieve hypothese dat 20% van de auto's in Nederland blauw is maar we trekken de conclusie dat de nulhypothese (het percentage blauwe auto's in Nederland is geen 20%) correct is.
 
-Er bestaat dus de kans dat we de berekeningen en statistiek op de juiste manier uitvoeren, maar alsnog de verkeerde conclusie trekken doordat de steekproef niet representatief is.
+Er bestaat dus de kans dat we de berekeningen op de juiste manier uitvoeren, maar alsnog de verkeerde conclusie trekken doordat de steekproef niet representatief is. Ook heeft de gemeten grootheid waarop we onze conclusies kunnen trekken altijd een meetonzekerheid. Ook binnen deze onzekerheid kan het net zo uitvallen dat we de verkeerde conclusie trekken.
 
-Er zijn twee manieren waarop de juiste conclusie wordt getrokken:
+De statistiek die we gebruiken om de hypothese mee te testen noemen we de **test-statistiek**. In het voorbeeld van de auto's is de test-statistiek het percentage blauwe auto's. Test-statistieken zijn meetbare grootheden waarvan we verwachten dat de uitkomst gevoelig is om de hypothese te kunnen toetsen. 
 
-- De nulhypothese is correct en we concluderen ook daadwerkelijk vanuit de data dat deze correct is.
-- De nulhypothese is niet correct en we concluderen ook daadwerkelijk vanuit de data dat we deze mogen verwerpen.
+Er zijn twee manieren waarop we een verkeerde conclusie kunnen trekken: 
 
-Omdat we de eigenschap alleen van de steekproef bekijken en niet van de gehele populatie weten we nooit helemaal zeker of we wel de juiste conclusie hebben getrokken (je weet immers niet of de nulhypothese in het echt correct/incorrect is).
+- Type I: De nulhypothese is correct maar we verwerpen hem. Dit noemen we ook wel een fout-positieve of vals-positieve uitkomst. De kans op het maken van een type-I fout noemen we $$\alpha.$$
+- Type II: Het lukt niet om de nulhypothese te verwerpen maar deze is niet correct. We noemen deze fout ook wel fout-negatief. De kans op het maken noemen we $$\beta.$$
 
-Het zogenoemde *significantieniveau* $$\alpha$$ geeft aan welk risico we willen lopen dat we de nulhypothese foutief verwerpen (d.w.z. de nulhypothese is eigenlijk wel waar maar we concluderen vanuit de data dat deze niet waar is).
-<!--Een maat die aangeeft in hoeverre we er zeker van zijn dat we de nulhypothese op de juiste grond verwerpen wordt gegeven met het significantieniveau $$\alpha$$. -->
+Het lukt nooit helemaal om de kans op een fout-positieve of een fout-negatieve uitkomst te voorkomen. Wel kun je de kans hierop verkleinen door de onzekerheden op de gemeten test-statistiek zo klein mogelijk te houden bijvoorbeeld door een zo groot mogelijke steekproef te nemen of door een meting nauwkeurig te verrichten. 
 
-Doorgaans wordt er voor het significantieniveau gekozen uit de volgende drie waarden:
+Voordat we de metingen uitvoeren om de waarde van onze test-statistiek te bepalen en de hypothese toets uit te voeren spreken we het zogenoemde  *significantieniveau* af. Dit is de kans die we maximaal toestaan om een type-I fout te maken. We kunnen bijvoorbeeld kiezen voor de waarde $$\alpha = 10\%$$ of $$\alpha = 1\%.$$
 
-- $$\alpha = 10\%$$
-- $$\alpha = 5\%$$
-- $$\alpha = 1\%$$
-
-Als de waargenomen kans (zie p-waarde hierna) kleiner is of gelijk aan het gekozen significantieniveau $$a$$  dan verwerpen we de nulhypothese. Is de waargenomen kans groter dan $$\alpha$$ dan verwerpen we de nulhypothese niet. 
+Als de overschrijdingskans van de waargenomen test-statiek kleiner is of gelijk aan het gekozen significantieniveau dan verwerpen we de nulhypothese. Is de waargenomen kans groter dan de gekozen waarde, dan verwerpen we de nulhypothese niet. De overschrijdingskans noemen we ook wel de p-waarde en leggen we in de volgende paragraaf uit. 
 
 Kiezen we bijvoorbeeld een significantieniveau van $$\alpha=5\%$$ dan verwerpen we de nulhypothese zodra de waargenomen kans kleiner is dan $$5\%$$. Is de waargenomen kans groter dan $$5\%$$, dan verwerpen we de nulhypothese niet. 
 
-<!--Hoe kleiner de waarde van het significantieniveau des te zekerder zijn we ervan dat we de nulhypothese mogen verwerpen.-->
-Hoe kleiner de kans is op de nulhypothese des te zekerder we ervan kunnen zijn dat we deze rechtmatig verwerpen. In principe wil je het significantieniveau daarom zo laag mogelijk kiezen. Maar het kiezen van $$\alpha=1\%$$ heeft een nadeel. Hoe de lager we het significantieniveau kiezen, hoe meer gegevens we nodig hebben om de nulhypothese te kunnen verwerpen. Dit betekend dat je langer moet meten of meer tests moet uitvoeren. In sommige onderzoeken is dit een groter probleem dan in andere. 
+Hoe kleiner de vooraf gekozen waarde van $$\alpha$$ is, des te zekerder we ervan kunnen zijn dat we de nulhypothese rechtmatig verwerpen. In principe wil je het significantieniveau daarom zo laag mogelijk kiezen. Maar het kiezen van een zeer kleine waarde van $$\alpha$$ heeft ook een nadeel. Hoe de lager we het significantieniveau kiezen, hoe meer gegevens we nodig hebben om de nulhypothese te kunnen verwerpen. De onzekerheid op de gemeten waarde van de test-statistiek zullen we heel nauwkeurig moeten bepalen. Dit betekent dat je langer moet meten of meer tests moet uitvoeren. In sommige onderzoeken is dit een groter probleem dan in andere. 
 
 Denk maar eens aan de effectiviteit bepalen van een bepaald medicijn. Je moet dan veel patiënten vinden waar het medicijn voor zou moeten helpen. Als je de werking van paracetamol bij hoofdpijn wil onderzoeken is dit misschien geen groot probleem, maar wil je de werking van een medicijn testen die werkt bij een zeer zeldzame ziekte, dan is het gewoon erg lastig zo niet onmogelijk om hele grote groepen te testen. 
 
-Ook binnen de natuur- en sterrenkunde verschilt het nogal of je grote datasets kunt verkrijgen. In een experiment in de deeltjesfysica is het bijvoorbeeld relatief eenvoudig om een grote dataset te verkrijgen in een bostingsexperiment zoals op CERN. Maar het onderzoek naar de smaak van neutrino die bij supernova's worden geprodueerd is lastig, er zijn niet heel veel supernova's. 
+Ook binnen de natuur- en sterrenkunde verschilt het nogal of je grote datasets kunt verkrijgen. In een experiment in de deeltjesfysica is het bijvoorbeeld relatief eenvoudig om een grote dataset te verkrijgen in een bostingsexperiment zoals op CERN en zo de de onzekerheid op je test-statistiek te verkleinen met enorm grote steekproeven. Maar het onderzoek naar de smaak van neutrino die bij supernova's worden geprodueerd is lastig, er zijn niet heel veel supernova's. 
 
-H Het is dus altijd een afweging tussen het zo zeker mogelijk zijn van correctheid van het verwerpen van de nulhypothese, en de uitvoerbaarheid van het onderzoek.
+Het is dus altijd een afweging tussen het zo zeker mogelijk zijn van correctheid van het verwerpen van de nulhypothese, en de uitvoerbaarheid van het onderzoek.
 
 ## p-Waarde bepalen
 
-Na het kiezen van het significantieniveau, bepalen (of meten) we de *p-waarde* behorende bij de nulhypothese. De p-waarde is de kans om de geobserveerde meetwaarden te vinden onder de aanname dat de nulhypothese correct is.
+Na het kiezen van het significantieniveau, bepalen (of meten) we de *p-waarde* behorende bij de gemeten test-statistiek. De p-waarde is de kans om de geobserveerde meetwaarden te vinden onder de aanname dat de nulhypothese correct is.
 
-> Stel we hebben de nulhypothese dat het percentage blauwe auto's in Nederland geen 20% is. 
+> **Voorbeeld** Stel we hebben de nulhypothese dat het percentage blauwe auto's in Nederland geen 20% is. 
 > We doen een meting waarbij we gedurende een dag het aantal blauwe auto's tellen die op de A6 voorbij komen. De kans dat we een uitkomst kunnen hebben van 25% blauwe auto's, **onder de aanname dat de nulhypothese correct is** (geen 20% blauwe auto's), is de p-waarde. Hoe kleiner de p-waarde die we vinden des te meer grond we hebben om de nulhypothese te verwerpen.  
 
 <!--De p-waarde is dus eigenlijk het laagste niveau van significantie waarop de nulhypothese verworpen kan worden. vinden we bijvoorbeeld een p-waarde van 10%-->   
 
-Er zijn verscheidene methodes voor het hypothese toetsen. In deze sectie behandelen we het bepalen van de p-waarde voor een normaal verdeelde dataset, middels de zogenoemde 
+Er zijn verscheidene methodes voor het hypothese toetsen. In deze sectie behandelen we het bepalen van de p-waarde voor een Normaal verdeelde dataset, middels de zogenoemde 
 *z-toets*. 
 
-Ook voor data met een andere distributie kan de p-waarde bepaald worden via de z-toets voor een normale verdeling. Wel moet er dan een voldoende aantal metingen gedaan zijn zodat de **wet van grote aantallen** toegepast kan worden, en de data benaderd kan worden met een normale verdeling.
+Ook voor data met een andere distributie kan de p-waarde bepaald worden via de z-toets voor een Normale verdeling zolang de kansdichtheidsdistributie van de test-statistiek bekend is. 
+
 
 Afhankelijk van de manier waarop de nulhypothese en alternatieve hypothese opgesteld zijn, bepalen we de *eenzijdige overschrijdingskans* of de *tweezijdige overschrijdingskans*. Is de nulhypothese opgesteld met de formulering 'is gelijk aan' of 'is ongelijk aan', dan bepalen we de tweezijdige overschrijdingskans. Is de nulhypothese opgesteld met de formulering 'groter/kleiner dan' of 'groter/kleiner of gelijk aan' dan is het noodzakelijk om de eenzijdige overschrijdingskans te bepalen. Dus:
 
@@ -135,7 +130,9 @@ Afhankelijk van de manier waarop de nulhypothese en alternatieve hypothese opges
 >
 >- $$H_0$$: Het percentage blauwe auto's in Nederland is geen 20%.
 >- $$H_0$$: Het percentage Nederlanders met blauwe ogen is 50%.
->
+
+ <br>
+
 > **Voorbeelden van nulhypothesen waarbij er sprake is van het bepalen van de eenzijdige overschrijdingskans:**
 >
 >- $$H_0$$: De studenten in Amsterdam halen lagere cijfers dan de studenten in Groningen.
@@ -146,7 +143,7 @@ Afhankelijk van de manier waarop de nulhypothese en alternatieve hypothese opges
 Hebben we bijvoorbeeld de nulhypothese dat het percentage mensen met blauwe ogen geen 50% is, dan -->
 
 Zoals eerder vermeld geeft de p-waarde de kans dat waargenomen uitkomst gevonden kan worden onder de aanname dat de nulhypothese correct is. 
-De p-waarde is dus gelijk aan een zeker oppervlak onder de normaalkromme. Deze kun je berekenen met de $$z$$-score.
+De p-waarde is dus gelijk aan een zeker oppervlak onder de Normaalkromme. Deze kun je berekenen met de $$z$$-score.
 
 
 ## Conclusie trekken
@@ -162,7 +159,7 @@ Dit bekijken we aan de hand van een paar voorbeelden:
 >
 > Bij voorbaat kiezen we als significantieniveau $$\alpha=5\%$$.
 >
-> We meten de staartlengte van 300 lapjeskatten in Nederland (met alle gevolgen van dien voor de onderzoekers), en zetten het resultaat uit in een histogram. Dit resulteert in een normale verdeling met gemiddelde $$\mu=25$$ cm en een standaardafwijking $$5$$ cm.
+> We meten de staartlengte van 300 lapjeskatten in Nederland (met alle gevolgen van dien voor de onderzoekers), en zetten het resultaat uit in een histogram. Dit resulteert in een Normale verdeling met gemiddelde $$\mu=25$$ cm en een standaardafwijking $$5$$ cm.
 >
 > De nulhypothese stelde dat de lengte van de staart van een volgroeide lapjeskat kleiner is dan 10 cm. We bepalen dus de p-waarde die hierbij hoort:
 >
@@ -185,7 +182,7 @@ Het is goed om te beseffen dat we **niet** kunnen zeggen dat onze alternatieve h
 >
 > Bij voorbaat kiezen we als significantieniveau $$\alpha=5\%$$.
 >
-> We meten de lengte van 500 Nederlandse vrouwen boven de 18 jaar. De resultaten volgen een normale verdeling met gemiddelde $$\mu=165$$ cm en een standaardafwijking $$10$$ cm.
+> We meten de lengte van 500 Nederlandse vrouwen boven de 18 jaar. De resultaten volgen een Normale verdeling met gemiddelde $$\mu=165$$ cm en een standaardafwijking $$10$$ cm.
 >
 > De nulhypothese stelde dat de gemiddelde lengte van de Nederlandse vrouwen hoger is dan 180 cm. We bepalen dus de p-waarde die hierbij hoort:
 >
