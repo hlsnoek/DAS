@@ -29,6 +29,8 @@ for line in f:
         line += '\\renewcommand{\\chaptername}{Hoofdstuk}\n'
         line += '\\renewcommand{\\contentsname}{Inhoud}\n'
         line += '\\renewcommand{\\partname}{MODULE}\n'
+        line += '\\renewcommand{\\figurename}{Figuur}\n'
+        line += '\\renewcommand{\\tablename}{Tabel}\n'
         line += '\\graphicspath{{Figures/}}\n'
         line += '\\usepackage{titlesec}\n'
         #        line += '\\titleformat{\\chapter}[display]\n'
@@ -167,8 +169,8 @@ for line in f:
             front_line = line[0:start]
             fix_line = line[start:end+1]
             end_line = line[end+1:]
-            #            print('font_line ', front_line)
-            #            print('fix_line ', fix_line)
+            #print('font_line ', front_line)
+            #print('fix_line ', fix_line)
             #            print('end_line ', end_line)
             go = end_line.count('\\href')
             #            print('go ',go)
@@ -176,6 +178,32 @@ for line in f:
                 temp_line = front_line
                 temp_line += line[mid+2:end]
                 temp_line += ' (Hfdst. \\'+line[start+2:mid+1]+')'
+                temp_line += end_line
+                line = temp_line
+            start = line.find('\href',end)
+            mid = line.find('}',start)
+            end = line.find('}',mid+1)
+            
+    go = line.count('\\href')
+    if (go) :
+        start = line.find('\href')
+        mid = line.find('}',start)
+        end = line.find('}',mid+1)
+        while(go) : 
+            front_line = line[0:start]
+            fix_line = line[start:end+1]
+            end_line = line[end+1:]
+            go = end_line.count('\\href')
+            if (fix_line.count('http')==1) :
+                temp_line = front_line
+                eerste_start = fix_line.find('{')
+                eerste_eind = fix_line.find('}')
+                tweede_start = fix_line.find('{',eerste_eind+1)
+                hyper = fix_line[eerste_start+1:eerste_eind]
+                hyper = hyper.replace(r'_',r'\_')
+                fix_front = fix_line[0:tweede_start+1]
+                fix_end = fix_line[tweede_start+1:]
+                temp_line += fix_front + '\\color{blue}' + fix_end + '\\footnote{\\texttt{'+ hyper+'}}'
                 temp_line += end_line
                 line = temp_line
             start = line.find('\href',end)

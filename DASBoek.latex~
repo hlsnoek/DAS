@@ -327,7 +327,7 @@ Een voorbeeld van een bimodale dataset is:
 
 zowel het getal 4 als het getal 11 komen drie keer voor in de set. De set is dus bimodaal met modus 4 en modus 11.
 
-Bij sommige soorten dataverdelingen is het gebruikelijker om over de modus te praten dan over het gemiddelde of de mediaan. Een voorbeeld hiervan is de \href{https://en.wikipedia.org/wiki/Landau_distribution}{Landau}
+Bij sommige soorten dataverdelingen is het gebruikelijker om over de modus te praten dan over het gemiddelde of de mediaan. Een voorbeeld hiervan is de \href{https://en.wikipedia.org/wiki/Landau_distribution}{Landau}\footnote{\texttt{https://en.wikipedia.org/wiki/Landau\\_distribution}}
 distributie die een slecht gedefinieerd gemiddelde of mediaan kent door een lange staart in de distributie.
 
 Voor unimodale symmetrische distributies ligt het gemiddelde, de mediaan en de modus precies op dezelfde plek.
@@ -1214,7 +1214,7 @@ De bijbehorende plot (Fig. \ref{fig:PLOT17_MeerdereLijnen_legenda}) .
 
 In de allereerste opgave M1.1 ga je een histogram plotten. In die opgave staat stap voor stap uitgelegd hoe je dat moet doen.
 
-Maar kijk vooral ook in de \href{https://matplotlib.org/3.1.1/tutorials/introductory/pyplot.html}{online manual}
+Maar kijk vooral ook in de \href{https://matplotlib.org/3.1.1/tutorials/introductory/pyplot.html}{online manual}\footnote{\texttt{https://matplotlib.org/3.1.1/tutorials/introductory/pyplot.html}}
 van matplotlib.
 
 Succes!
@@ -1305,7 +1305,7 @@ Een van de methodes om het aantal sterren te meten in een bolhoop berust op het 
 van het centrum van de bolhoop overal dezelfde dichtheid voorkomt. In het echt zijn er fluctuaties in de dichtheid. De fluctuaties zorgen uiteindelijk ook voor een onzekerheid in de telling.
 \item
   \textbf{De snelheid van het licht.}
-Ook hier spelen kans processen een rol. Als je opstelling een roterend radartje bevat, dan zijn er hoogstwaarschijnlijk variaties in de tanden van het radartje. Kijk bijvoorbeeld naar het experiment dat \href{https://en.wikipedia.org/wiki/Fizeau\%E2\%80\%93Foucault_apparatus}{hier}
+Ook hier spelen kans processen een rol. Als je opstelling een roterend radartje bevat, dan zijn er hoogstwaarschijnlijk variaties in de tanden van het radartje. Kijk bijvoorbeeld naar het experiment dat \href{https://en.wikipedia.org/wiki/Fizeau\%E2\%80\%93Foucault_apparatus}{hier}\footnote{\texttt{https://en.wikipedia.org/wiki/Fizeau\%E2\%80\%93Foucault\\_apparatus}}
 beschreven staat.
 \end{itemize}
 
@@ -1609,7 +1609,7 @@ aan een kansdichtheidsfuncties die je misschien bekend zullen voorkomen: \newlin
 In formule notatie: $f(x) \geq 0$ en $\int^\infty_{-\infty}
 f(x) dx =1$.
 
-Wellicht komt dit allemaal wat abstract over en helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsfuncties. Er zijn veel meer kansdichtheidsfuncties gedefinieerd, kijk bijvoorbeeld maar eens naar \href{https://en.wikipedia.org/wiki/List_of_probability_distributions}{deze}
+Wellicht komt dit allemaal wat abstract over en helpt het om wat concrete voorbeelden te zien. Hieronder definiëren we vier belangrijke kansdichtheidsfuncties. Er zijn veel meer kansdichtheidsfuncties gedefinieerd, kijk bijvoorbeeld maar eens naar \href{https://en.wikipedia.org/wiki/List_of_probability_distributions}{deze}\footnote{\texttt{https://en.wikipedia.org/wiki/List\\_of\\_probability\\_distributions}}
 lijst op Wikipedia.
 
 Voor we gaan kijken naar de voorbeelden is het handig om uit te leggen hoe we de verwachtingswaarde en de standaardafwijking kunnen uitrekenen voor kansdichtheidsfuncties. De definities hiervan heb je gezien in het hoofdstuk Basisbegrippen (Hfdst. \ref{/module-1/basisbegrippen}), voor dichtheidsfuncties zien de formules er net iets anders uit dan voor datasets.
@@ -1794,7 +1794,7 @@ zie hoe de Poisson distributie eruit ziet voor verschillende waardes van $\lambd
 \label{fig:PoissonDistributie}
 \end{figure}
 
-De Poisson verdeling is, net als de Binomiaal vergelijking asymmetrisch voor lage waardes van $\lambda$ en wordt steeds meer symmetrisch voor hogere waardes van $\lambda$. Dat is ook geen toeval, de Poisson vergelijking is een speciale vorm van de Binomiaal. Als je hier meer over wilt weten kun je \href{https://www.youtube.com/watch?v=eexQyHj6hEA}{dit}
+De Poisson verdeling is, net als de Binomiaal vergelijking asymmetrisch voor lage waardes van $\lambda$ en wordt steeds meer symmetrisch voor hogere waardes van $\lambda$. Dat is ook geen toeval, de Poisson vergelijking is een speciale vorm van de Binomiaal. Als je hier meer over wilt weten kun je \href{https://www.youtube.com/watch?v=eexQyHj6hEA}{dit}\footnote{\texttt{https://www.youtube.com/watch?v=eexQyHj6hEA}}
 filmpje bekijken.
 
 \hypertarget{normaal-ofwel-gauss}{%
@@ -1879,13 +1879,13 @@ Je krijgt hiervoor een python programmaatje dat je moet aanpassen.\\
 We gaan ervan uit dat je Anaconda en Visual Studio Code (VSC) hebt geïnstalleerd. Zo niet zie dan hier (Hfdst. \ref{/informatie/installatie})
 de instructies.
 
-De dikgedrukte vragen die je in deze opdracht vindt moet je uiteindelijke ook invullen op het \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/InlevertemplateModule1.docx}{inlevertemplate}. De rest van de opdracht moet je uitvoeren om de vragen correct te kunnen beantwoorden dus sla de rest niet zomaar over! In deze opdracht zijn er twee dikgedrukte vragen en staan ze helemaal onderaan. In andere opdrachten vind je ze vaak tussendoor.
+De dikgedrukte vragen die je in deze opdracht vindt moet je uiteindelijke ook invullen op het \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/InlevertemplateModule1.docx}{inlevertemplate}\footnote{\texttt{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/InlevertemplateModule1.docx}}. De rest van de opdracht moet je uitvoeren om de vragen correct te kunnen beantwoorden dus sla de rest niet zomaar over! In deze opdracht zijn er twee dikgedrukte vragen en staan ze helemaal onderaan. In andere opdrachten vind je ze vaak tussendoor.
 
 \fi
 
 \begin{example}
-Installeer de volgende twee bestanden naar een werkfolder op je computer \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/10\%20MooiPlotten/M1.1_MooiPlotten.py}{\textbf{\passthrough{\lstinline!M1.1\_MooiPlotten.py!}}}
-en \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/DAS_DatasetGenerator.py}{\textbf{\passthrough{\lstinline!DAS\_DatasetGenerator.py!}}}.
+Installeer de volgende twee bestanden naar een werkfolder op je computer \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/10\%20MooiPlotten/M1.1_MooiPlotten.py}{\textbf{\passthrough{\lstinline!M1.1\_MooiPlotten.py!}\footnote{\texttt{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/10\%20MooiPlotten/M1.1\\_MooiPlotten.py}}}}
+en \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/DAS_DatasetGenerator.py}{\textbf{\passthrough{\lstinline!DAS\_DatasetGenerator.py!}\footnote{\texttt{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/DAS\\_DatasetGenerator.py}}}}.
 \end{example}
 
 Open de bestanden in het VSCode programma en lees de code. We zullen hieronder wat uitleg over de code geven.
@@ -1988,7 +1988,7 @@ plt.savefig('M1.1_MooiPlotten.png')
 \end{lstlisting}
 
 \begin{example}
-Open nu het \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/InlevertemplateModule1.docx}{inlevertemplate}
+Open nu het \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/InlevertemplateModule1.docx}{inlevertemplate}\footnote{\texttt{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/InlevertemplateModule1.docx}}
 voor Module 1 en beantwoord de volgende twee vragen.
 
 \textbf{M1.1a) Plaats hier je histogram.}
@@ -2019,7 +2019,7 @@ meer over kansdichtheidsdistributies. Er zijn een paar belangrijke en bekende di
 \textbf{M1.2a) Reken (met de hand) de volgende Poisson kansen uit: $P(k=1, \lambda=3)$, $P(k=2, \lambda =3)$ en $P(k=3, \lambda=3)$. Kijk goed wat $\lambda$ en $k$ eigenlijk betekenen en wat de verwachtingswaarde is, en wat de geobserveerde waarde. Schrijf niet alleen het antwoord op maar begin bij de formule en werk het dan uit. Let ook op de regels van de notatie. Bekijk hiervoor het stukje over significantie in het hoofdstuk notatie (Hfdst. \ref{/module-1/notatie}).}
 \end{example}
 
-De Poisson distributie is één van de belangrijkste distributies. We zullen hem vaak tegen gaan komen. We gaan nu Poisson distributies met python grafisch weergeven. Download het bestand \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/20\%20Distributies/M1.2_Distributies.py}{\textbf{\passthrough{\lstinline!M1.2\_Distributies.py!}}}.
+De Poisson distributie is één van de belangrijkste distributies. We zullen hem vaak tegen gaan komen. We gaan nu Poisson distributies met python grafisch weergeven. Download het bestand \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/20\%20Distributies/M1.2_Distributies.py}{\textbf{\passthrough{\lstinline!M1.2\_Distributies.py!}\footnote{\texttt{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/20\%20Distributies/M1.2\\_Distributies.py}}}}.
 
 \begin{example}
 Maak eerst een functie die de Poisson kans uitrekent. De bedoeling is dat je de functie $k$ en $\lambda$ meegeeft en deze de Poisson kans teruggeeft. In het bestand vind je al een lege functie die je kunt invullen.
@@ -2121,7 +2121,7 @@ Verzamel je antwoorden op het template voor module 1, zorg dat je de code ook be
 In deze opdracht gaan we kijken naar de eigenschappen (Hfdst. \ref{/module-1/basisbegrippen})
 van distributies en hoe deze veranderen als je een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en Poisson distributies.
 
-Download voor deze opdracht het bestand \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/30\%20Eigenschappen/M1.3_Eigenschappen.py}{\textbf{\passthrough{\lstinline!M1.3\_Eigenschappen.py!}}}
+Download voor deze opdracht het bestand \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/30\%20Eigenschappen/M1.3_Eigenschappen.py}{\textbf{\passthrough{\lstinline!M1.3\_Eigenschappen.py!}\footnote{\texttt{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/30\%20Eigenschappen/M1.3\\_Eigenschappen.py}}}}
 zorg dat deze in dezelfde folder staat as het \passthrough{\lstinline!DAS\_DatasetGenerator.py!}
 bestand.
 
@@ -2259,7 +2259,7 @@ De Wet van de Grote Aantallen zegt dat als we een verdeling hebben van random (s
 We gaan onze metingen nu simuleren om een gevoel te krijgen hoe de wet van grote aantallen werkt.
 
 \begin{example}
-Download het volgende bestand in je werkfolder op de computer: \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/40\%20GroteAantallen/M1.4_GroteAantallen.py}{\textbf{\passthrough{\lstinline!M1.4\_GroteAantallen.py!}}}. Zorg dat dit bestand in dezelfde folder staat als de \passthrough{\lstinline!DAS\_DatasetGenerator.py!}
+Download het volgende bestand in je werkfolder op de computer: \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/40\%20GroteAantallen/M1.4_GroteAantallen.py}{\textbf{\passthrough{\lstinline!M1.4\_GroteAantallen.py!}\footnote{\texttt{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/40\%20GroteAantallen/M1.4\\_GroteAantallen.py}}}}. Zorg dat dit bestand in dezelfde folder staat als de \passthrough{\lstinline!DAS\_DatasetGenerator.py!}
 file die je in opgave M1.1 al hebt gebruikt.
 \end{example}
 
@@ -2337,7 +2337,7 @@ Hierbij is de intensiteit $I$ gelijk aan het aantal counts per seconde:
 
 \begin{equation}I = \frac{N}{\Delta T}\end{equation}
 
-We gaan het experiment nu simuleren. Download het bestand \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/50\%20Halfwaardedikte/M1.5_Halfwaardedikte.py}{\textbf{\passthrough{\lstinline!M1.5\_Halfwaardedikte.py!}}}
+We gaan het experiment nu simuleren. Download het bestand \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/50\%20Halfwaardedikte/M1.5_Halfwaardedikte.py}{\textbf{\passthrough{\lstinline!M1.5\_Halfwaardedikte.py!}\footnote{\texttt{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/50\%20Halfwaardedikte/M1.5\\_Halfwaardedikte.py}}}}
 en zorg dat deze in dezelfde folder staat als het \passthrough{\lstinline!DAS\_DatasetGenerator.py!}
 bestand.
 
@@ -2764,11 +2764,11 @@ Ofwel de kans dat het steekproef gemiddelde meer afwijkt van het populatie gemid
 Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan oneindig grote, of nagenoeg oneindig grote populaties, zoals bijvoorbeeld als je de gemiddelde massa van het electron wilt bepalen.
 
 \textbf{Tip:}
-In deze \href{https://www.youtube.com/watch?v=MntX3zWNWec}{video}
+In deze \href{https://www.youtube.com/watch?v=MntX3zWNWec}{video}\footnote{\texttt{https://www.youtube.com/watch?v=MntX3zWNWec}}
 wordt de wet van grote aantallen nogmaals duidelijk uitgelegd.
 
-Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk dat de variantie van de stochast eindig moet zijn, en dat dus de verwachtingswaarde van de stochast bepaald is. Er bestaan distributies, zoals de \href{https://nl.wikipedia.org/wiki/Cauchy-verdeling}{Cauchy}
-of de \href{https://en.wikipedia.org/wiki/Landau_distribution}{Landau}
+Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk dat de variantie van de stochast eindig moet zijn, en dat dus de verwachtingswaarde van de stochast bepaald is. Er bestaan distributies, zoals de \href{https://nl.wikipedia.org/wiki/Cauchy-verdeling}{Cauchy}\footnote{\texttt{https://nl.wikipedia.org/wiki/Cauchy-verdeling}}
+of de \href{https://en.wikipedia.org/wiki/Landau_distribution}{Landau}\footnote{\texttt{https://en.wikipedia.org/wiki/Landau\\_distribution}}
 distributie waarvoor dit dus niet geldt. Deze distributies hebben oneindig lange staarten. In het figuur hier , in Fig. \ref{fig:CauchyDistributie}
 zie je hoe de Cauchy distributie eruit ziet.
 
@@ -2825,7 +2825,7 @@ Met de volgende formules kun je de covariantie van een steekproef uitrekenen:
 
 De covariantie geeft dus aan in hoeverre waarden van de ene variabele toenemen/afnemen bij toenemende waarden van de andere variabele. De covariantie is een heel nuttige maat maar lastig te interpreteren vanwege de dimensies die, net als bij de variantie, niet dezelfde zijn als de variabelen zelf. Eenvoudiger is om naar de correlatiecoëfficiënt $\rho$ te kijken.
 
-\href{https://www.youtube.com/watch?v=KDw3hC2YNFc}{Hier}
+\href{https://www.youtube.com/watch?v=KDw3hC2YNFc}{Hier}\footnote{\texttt{https://www.youtube.com/watch?v=KDw3hC2YNFc}}
 kun je een filmpje zien die covariantie uitlegt.
 
 \hypertarget{correlatie}{%
@@ -2871,9 +2871,9 @@ zie je een aantal voorbeelden van datasets die allen een correlatiecoëfficiënt
 \label{fig:Correlations0}
 \end{figure}
 
-Je kunt \href{https://www.youtube.com/watch?v=ugd4k3dC_8Y}{hier}
-een filmpje vinden waarin correlatie ook wordt uitgelegd. Er zijn meerdere `spelletjes' op internet waarbij je kunt oefenen met het herkennen en raden van de correlatiecoëfficiënt van twee variabelen. Kijk bijvoorbeeld eens bij \href{https://www.geogebra.org/m/KE6JfuF9}{Geogebra-Correlatie game}
-of \href{http://guessthecorrelation.com/}{Guess the correlation}.
+Je kunt \href{https://www.youtube.com/watch?v=ugd4k3dC_8Y}{hier}\footnote{\texttt{https://www.youtube.com/watch?v=ugd4k3dC\\_8Y}}
+een filmpje vinden waarin correlatie ook wordt uitgelegd. Er zijn meerdere `spelletjes' op internet waarbij je kunt oefenen met het herkennen en raden van de correlatiecoëfficiënt van twee variabelen. Kijk bijvoorbeeld eens bij \href{https://www.geogebra.org/m/KE6JfuF9}{Geogebra-Correlatie game}\footnote{\texttt{https://www.geogebra.org/m/KE6JfuF9}}
+of \href{http://guessthecorrelation.com/}{Guess the correlation}\footnote{\texttt{http://guessthecorrelation.com/}}.
 
 \hypertarget{correlatie-en-causaliteit}{%
 \section{Correlatie en causaliteit}\label{correlatie-en-causaliteit}}
@@ -3224,7 +3224,7 @@ De seed zorgt ervoor dat de datasets verschillend zijn, het is als het ware het 
 We hebben hier gebruik gemaakt van een \emph{list comprehension}. Dat is een verkorte manier van het toepassen van een \emph{for}
 statement waarbij het resultaat direct de gewenste lijst oplevert zonder dat de commando's \emph{extend}
 of \emph{append}
-nodig zijn. Als je hier meer over wilt weten dan vind je op het internet veel voorbeelden, bijvoorbeeld \href{https://www.w3schools.com/python/python_lists_comprehension.asp}{hier}.
+nodig zijn. Als je hier meer over wilt weten dan vind je op het internet veel voorbeelden, bijvoorbeeld \href{https://www.w3schools.com/python/python_lists_comprehension.asp}{hier}\footnote{\texttt{https://www.w3schools.com/python/python\\_lists\\_comprehension.asp}}.
 
 Je hebt nu een \textbf{\passthrough{\lstinline!list!}}
 die \textbf{\passthrough{\lstinline!datasets!}}
@@ -3294,10 +3294,10 @@ Wat we hebben gedaan in deze opdracht is illustreren wat er gebeurd als we een s
 
 \label{/opdrachten-module-2/meesjes}
 
-Je vindt helaas een dood meesje in de tuin. Het lijkt op een koolmeesje maar het zou ook een pimpelmeesje kunnen zijn. Deze twee vogeltjes lijken erg veel op elkaar. Er zijn \href{https://www.tuinvogeltelling.nl/herkenningstips/?tip=17}{manieren}
+Je vindt helaas een dood meesje in de tuin. Het lijkt op een koolmeesje maar het zou ook een pimpelmeesje kunnen zijn. Deze twee vogeltjes lijken erg veel op elkaar. Er zijn \href{https://www.tuinvogeltelling.nl/herkenningstips/?tip=17}{manieren}\footnote{\texttt{https://www.tuinvogeltelling.nl/herkenningstips/?tip=17}}
 om pimpelmeesjes van koolmeesjes te onderscheiden met behulp van uiterlijke kenmerken. Maar je bent een Natuurkundige en geen Bioloog. Online vind je een dataset met informatie over het massa en de spanwijdte van beide soorten meesjes.
 
-Voordat we aan deze opdracht beginnen moeten we eerst een nieuwe versie downloaden van de \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/DAS_DatasetGenerator.py}{\textbf{\passthrough{\lstinline!DAS\_DatasetGenerator.py!}}}. Zonder de nieuwe versie werkt deze opgave niet. Download ook het bestand \href{https://das.mprog.nl/course/22\%20Opdrachten\%20Module\%202/20\%20Meesjes/M2.2_Meesjes.py}{\textbf{\passthrough{\lstinline!M2.2\_Meesjes.py!}}}
+Voordat we aan deze opdracht beginnen moeten we eerst een nieuwe versie downloaden van de \href{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/DAS_DatasetGenerator.py}{\textbf{\passthrough{\lstinline!DAS\_DatasetGenerator.py!}\footnote{\texttt{https://das.mprog.nl/course/12\%20Opdrachten\%20Module\%201/00\%20Opdrachten/DAS\\_DatasetGenerator.py}}}}. Zonder de nieuwe versie werkt deze opgave niet. Download ook het bestand \href{https://das.mprog.nl/course/22\%20Opdrachten\%20Module\%202/20\%20Meesjes/M2.2_Meesjes.py}{\textbf{\passthrough{\lstinline!M2.2\_Meesjes.py!}\footnote{\texttt{https://das.mprog.nl/course/22\%20Opdrachten\%20Module\%202/20\%20Meesjes/M2.2\\_Meesjes.py}}}}
 en zorg dat deze in dezelfde folder staat als het \passthrough{\lstinline!DAS\_DatasetGenerator.py!}
 bestand.
 
@@ -3650,11 +3650,11 @@ De convergentiesnelheid van de distributie naar de Normaalverdeling hangt af van
 
 De Centrale Limietstelling is zonder meer de meest belangrijke stelling in de statistiek. De Centrale Limietstelling verklaart waarom we in de natuur zoveel parameters vinden die Normaal zijn verdeeld.
 
-Het bewijs van deze stelling is bijzonder ingewikkeld en zullen we hier niet behandelen. Eventueel kun je \href{http://www.cs.toronto.edu/~yuvalf/CLT.pdf}{hier}
+Het bewijs van deze stelling is bijzonder ingewikkeld en zullen we hier niet behandelen. Eventueel kun je \href{http://www.cs.toronto.edu/~yuvalf/CLT.pdf}{hier}\footnote{\texttt{http://www.cs.toronto.edu/~yuvalf/CLT.pdf}}
 verder lezen over de bewijs stelling.
 
-\textbf{Twee leuke video's die de Centrale Limietstelling illustreren kun je \href{https://www.youtube.com/watch?v=jvoxEYmQHNM}{hier}
-en \href{https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-mean/v/central-limit-theorem}{hier}
+\textbf{Twee leuke video's die de Centrale Limietstelling illustreren kun je \href{https://www.youtube.com/watch?v=jvoxEYmQHNM}{hier}\footnote{\texttt{https://www.youtube.com/watch?v=jvoxEYmQHNM}}
+en \href{https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-mean/v/central-limit-theorem}{hier}\footnote{\texttt{https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-mean/v/central-limit-theorem}}
 vinden.}
 
 Meestal is er in de natuur of in experimenten sprake van een combinatie van een grote hoeveelheid toevalligheden die een rol speelt bij de onzekerheid van een meting. Hetzelfde geldt vaak voor de eigenschappen van een populatie, de natuurlijke verdeling van deze eigenschappen zijn vaak ook Normaal verdeeld om dezelfde reden.
@@ -3725,14 +3725,14 @@ gezien waarom onzekerheden op metingen zo vaak Normaal zijn verdeeld. Het is nu 
 \hypertarget{de-normaalverdeling-1}{%
 \section{De Normaalverdeling}\label{de-normaalverdeling-1}}
 
-Allereerst herhalen we de formule die jullie ook al in Module 1 hebben gezien. De normaalverdeling is gedefinieerd als:
+Allereerst herhalen we de formule die jullie ook al in Module 1 hebben gezien. De Normaalverdeling is gedefinieerd als:
 
 \begin{equation}{\Large  f(x) = \frac{1}{\sigma \sqrt{2 \pi}}
 e^{-\frac{1}{2}\left( \frac{x-\mu}{\sigma}
 \right)^2}
 .}\end{equation}
 
-De functie heeft twee parameters, $\mu$ en $\sigma$. De verwachtingswaarde van de normaal verdeling is precies $\mu$ en de standaardafwijking is precies gelijk aan $\sigma$. (De notering is niet toevallig!)
+De functie heeft twee parameters, $\mu$ en $\sigma$. De verwachtingswaarde van de Normale verdeling is precies $\mu$ en de standaardafwijking is precies gelijk aan $\sigma$. (De notering is niet toevallig!)
 
 In de figuur hieronder, \ref{fig:NormaleDistributie2}, zie je enkele voorbeelden van de Normale verdeling voor verschillende waardes voor $\mu$ en $\sigma$.
 
@@ -3758,29 +3758,31 @@ Als de uitkomsten uit een experiment Normaal verdeeld zijn, en we kennen $\mu$ e
 
 Om de kans op een bepaalde meetuikomst uit te drukken maken we gebruik van de oppervlaktes onder de Normaalverdeling. Dit kunnen we schematisch weergeven.
 
-\begin{example}
-\textbf{Voorbeeld:}
-\textbf{\emph{Onderkans}}
-Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $X< x$ te vinden, kun je als volgt schematisch weergeven. Dit noemen we ook wel de \emph{linkszijdige overschrijding}.
+Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $X< x$ te vinden, kun je als volgt schematisch weergeven in figuur \ref{fig:NormaalLinks}
+. Dit noemen we ook wel de \emph{linkszijdige overschrijding}
+en we berekenen de \emph{onderkans}.
 
-{\begin{center}\includegraphics[width=1.0\textwidth]{NormaalLinks.png}
-\captionof{figure}{Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $X< x$ te vinden.}
-\label{fig:NormaalLinks}\vspace{0.2cm}\end{center}}
-\end{example}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1.0\textwidth]{NormaalLinks.png}
 
+\caption{Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $X< x$ te vinden.}
+\label{fig:NormaalLinks}
+\end{figure}
 
+Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $X>x$ te vinden, is hier schematisch weergegeven in figuur \ref{fig:NormaalRechts}
+. Dit noemen we ook wel de \emph{rechtszijdige overschrijding}
+en we berekenen de \emph{bovenkans}.
 
-\begin{example}
-\textbf{Voorbeeld:}
-\textbf{\emph{Bovenkans}}
-Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $X>x$ te vinden, is hier schematisch weergegeven. Dit noemen we ook wel de \emph{rechtszijdige overschrijding}.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1.0\textwidth]{NormaalRechts.png}
 
-{\begin{center}\includegraphics[width=1.0\textwidth]{NormaalRechts.png}
-\captionof{figure}{Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $X< x$ te vinden}
-\label{fig:NormaalRechts}\vspace{0.2cm}\end{center}}
-\end{example}
+\caption{Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $X< x$ te vinden}
+\label{fig:NormaalRechts}
+\end{figure}
 
-Het oppervlak onder de kromme van een Normaalverdeling is lastig uit te rekenen, zie bijvoorbeeld de uitleg op \href{https://en.wikipedia.org/wiki/Gaussian_integral}{wikipedia}. We maken hierom een tussenstap en berekenen eerst de zogenoemde $z$-score. Stel een dataset is Normaal verdeeld met gemiddelde $\mu$ en standaardafwijking $\sigma$, de $z$-score, voor een bepaalde gemeten waarde $x$, is dan gelijk aan:
+Het oppervlak onder de kromme van een Normaalverdeling is lastig uit te rekenen, zie bijvoorbeeld de uitleg op \href{https://en.wikipedia.org/wiki/Gaussian_integral}{wikipedia}\footnote{\texttt{https://en.wikipedia.org/wiki/Gaussian\\_integral}}. We maken hierom een tussenstap en berekenen eerst de zogenoemde $z$-score. Stel een dataset is Normaal verdeeld met gemiddelde $\mu$ en standaardafwijking $\sigma$, de $z$-score, voor een bepaalde gemeten waarde $x$, is dan gelijk aan:
 
 \begin{equation}Z = \frac{x-\mu}{\sigma}.\end{equation}
 
@@ -3798,13 +3800,13 @@ De kans om een waarde $X>x$ te vinden is gelijk aan:
 
 Dit kun je zelf nagaan door schetsen te maken van de bijbehorende oppervlakken onder de normaalkromme.
 
-\textbf{Als je de $z$-score hebt berekend, kun je uit een voorberekende \href{https://www.ztable.net/}{tabel}
+\textbf{Als je de $z$-score hebt berekend, kun je uit een voorberekende \href{https://www.ztable.net/}{tabel}\footnote{\texttt{https://www.ztable.net/}}
 aflezen wat de bijbehorende overschrijdingskans is.}
 
 Hieronder laten we in twee voorbeelden zien hoe je deze methode toepast.
 
 \begin{example}
-\textbf{Voorbeeld 1:}
+\textbf{Voorbeeld Onderkans:}
 Een stochast $X$ is Normaal verdeeld met gemiddelde $\mu = 20$ en standaardafwijking $\sigma=2$. De kans op een waarde $X<16$ is nu gelijk aan
 
 \begin{equation*}\begin{aligned}
@@ -3820,16 +3822,46 @@ Er is in dit geval dus een kans van 0.02 dat we bij de gegeven dataset een waard
 
 
 \begin{example}
-\textbf{Voorbeeld 2:}
+\textbf{Voorbeeld Bovenkans:}
 Een stochast $X$ is Normaal verdeeld met gemiddelde $\mu = 20$ en standaardafwijking $\sigma=2$, de kans op een waarde $X>22$ is nu gelijk aan
 
-\begin{equation*}\begin{aligned}P(X>22) &= 1-P(X<22>) \\ &= 1-P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= 1 - P\left(Z<\frac{22-20}{2}\right) \\ &= 1 - P(Z<1).\end{aligned}\end{equation*}
+\begin{equation*}\begin{aligned}P(X>22) &= 1-P(X<22) \\ &= 1-P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= 1 - P\left(Z<\frac{22-20}{2}\right) \\ &= 1 - P(Z<1).\end{aligned}\end{equation*}
 
 Dit is een rechtszijdige overschrijding. In de z-score tabel kunnen we nu de bijbehorende kans waarde opzoeken. Dit is een waarde van $0.84134$. We schrijven dus
 
 \begin{equation*}P(X>22) = 1 - P\left(Z<\frac{x-\mu}{\sigma}\right) = 1-0.84134 = 0.15866.\end{equation*}
 
 Er is in dit geval dus een kans van 0.16 dat we bij de gegeven dataset een waarde boven de 22 zullen vinden.
+\end{example}
+
+Bij een tweezijdige overschrijdingskans bereken we de waarde van een absolute afstand tot het gemiddelde. We berekenen dit door de kans op een waarde groter dan de gestelde waarde opgeteld bij de kans op een waarde kleiner dan de gestelde waarde:
+
+\begin{equation}{ \begin{aligned}P(|x-\mu|>X) &= P\left(Z<\frac{-X}{\sigma}\right) + P\left(Z>\frac{X}{\sigma}
+\right)\\ &= 2\cdot P\left( Z>\frac{X}{\sigma}
+\right). \end{aligned}}\end{equation}
+
+Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $|x - \mu|>X$ te vinden, is hier schematisch weergegeven in figuur \ref{fig:NormaalDubbel}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1.0\textwidth]{NormaalDubbel.png}
+
+\caption{Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $\mid x - \mu \mid >X$ te vinden}
+\label{fig:NormaalDubbel}
+\end{figure}
+
+\begin{example}
+\textbf{Voorbeeld Dubbelzijdige kans:}
+Een stochast $X$ is Normaal verdeeld met gemiddelde $\mu = 20$ en standaardafwijking $\sigma=4$. De kans op een waarde die meer afwijkt dan 2 van het gemiddelde is nu gelijk aan
+
+\begin{equation*}\begin{aligned}
+P(|x-\mu| >2) &= 2 \times P\left(Z >\frac{X}{\sigma}\right) \\  &= 2 \times P\left(Z >\frac{2}{4}\right) \\  &= 2\times P\left( Z >0.5 \right).  \end{aligned}\end{equation*}
+
+In de z-score tabel kunnen we nu de bijbehorende kans waarde opzoeken, dit is een waarde van $(2 \times 0.30854) = 0.69146$. We schrijven dus
+
+\begin{equation*}P(|x - \mu| >X) =  0.69146.\end{equation*}
+
+Er is in dit geval dus een kans van 0.69 dat we bij de gegeven dataset een waarde vinden die in absolute zin meer dan 2 afwijkt van het gemiddelde.
 \end{example}
 
 \hypertarget{de-kleinste-kwadraten-methode}{%
@@ -3916,8 +3948,8 @@ In de vergelijkingen hierboven hebben we maar één afhankelijke parameter gezie
 
 Een andere, niet analytische oplossing kan gevonden worden met een computerprogramma door de $\chi^2$ voor veel waardes van $a$ en $b$ uit te rekenen en uit deze set van waardes het punt met de laagste $\chi^2$ te bepalen. Uiteraard werkt dat ook voor functies met meerder onbekende (ook wel vrije) parameters kennen.
 
-Twee filmpjes die het principe van de kleinste kwadraten goed illustreren vind je \href{https://www.youtube.com/watch?v=YwZYSTQs-Hk}{hier}
-en \href{https://www.youtube.com/watch?v=0T0z8d0_aY4}{hier}.
+Twee filmpjes die het principe van de kleinste kwadraten goed illustreren vind je \href{https://www.youtube.com/watch?v=YwZYSTQs-Hk}{hier}\footnote{\texttt{https://www.youtube.com/watch?v=YwZYSTQs-Hk}}
+en \href{https://www.youtube.com/watch?v=0T0z8d0_aY4}{hier}\footnote{\texttt{https://www.youtube.com/watch?v=0T0z8d0\\_aY4}}.
 
 Om in te schatten \textbf{hoe goed}
 je fit gelukt is moeten we eerst meer weten over de $\chi^2$-distributie. Daar gaat het volgende hoofdstuk over.
@@ -3953,7 +3985,7 @@ De $\chi^2$ verdeling zelf is een kansdichtheidsverdeling, en voldoet dus ook aa
 \chi^{n-2}
 e^{-\chi^2/2}.}\end{equation}
 
-De $\Gamma$ in de noemer is een speciale wiskundige functie. Deze zal pas in jullie tweede jaar volledig worden uitgelegd. Op dit moment kun je hem simpelweg interpreteren als een functie waar een normalisatie term uitkomt. Het is best een gekke functie, voorbeelden van uitkomsten: $\Gamma(1/2) = \sqrt{\pi}$, $\Gamma(1) = 1$ en $\Gamma(3/2) = 1/2 \sqrt{\pi}$. Als je al meer wilt weten over de $\Gamma$-functie dan kun je daar bijvoorbeeld \href{https://nl.wikipedia.org/wiki/Gammafunctie}{hier}
+De $\Gamma$ in de noemer is een speciale wiskundige functie. Deze zal pas in jullie tweede jaar volledig worden uitgelegd. Op dit moment kun je hem simpelweg interpreteren als een functie waar een normalisatie term uitkomt. Het is best een gekke functie, voorbeelden van uitkomsten: $\Gamma(1/2) = \sqrt{\pi}$, $\Gamma(1) = 1$ en $\Gamma(3/2) = 1/2 \sqrt{\pi}$. Als je al meer wilt weten over de $\Gamma$-functie dan kun je daar bijvoorbeeld \href{https://nl.wikipedia.org/wiki/Gammafunctie}{hier}\footnote{\texttt{https://nl.wikipedia.org/wiki/Gammafunctie}}
 meer over lezen.
 
 Zoals je ziet hangt de $\chi^2$ kans ook af van een parameter $\nu$, dit is het aantal meetpunten, $n$, gereduceerd met het aantal parameters van de functie $f$. We noemen $\nu$ het aantal \textbf{vrijheidsgraden}
@@ -4375,7 +4407,7 @@ De nulhypothese stelde dat de lengte van de staart van een volgroeide lapjeskat 
 \begin{equation*}\begin{aligned}P(X<10) &= P\left( Z<\frac{10-25}{5}
 \right)\\ &= P(Z<-3) \end{aligned}\end{equation*}
 
-Als we in de \href{https://www.ztable.net/}{tabel}
+Als we in de \href{https://www.ztable.net/}{tabel}\footnote{\texttt{https://www.ztable.net/}}
 kijken dan hoort er een waarde van $0.00135$ bij deze Z-score. Dus:
 
 \begin{equation*}P(X<10) = P(Z<-3) = 0.00135\end{equation*}
@@ -4408,7 +4440,7 @@ De nulhypothese stelde dat de gemiddelde lengte van de Nederlandse vrouwen hoger
 
 \begin{equation*}\begin{aligned}P(X>180) &= 1-P(X<180) \\ &= 1-P(Z<\frac{180-165}{10})\\ &= 1-P(Z<1.5) \end{aligned}\end{equation*}
 
-Als we in de \href{https://www.ztable.net/}{tabel}
+Als we in de \href{https://www.ztable.net/}{tabel}\footnote{\texttt{https://www.ztable.net/}}
 kijken dan hoort er een waarde van $0.93319$ bij deze Z-score. Dus:
 
 \begin{equation*}P(X>180) = 1-P(Z<1.5) = 0.06681\end{equation*}
@@ -4947,10 +4979,10 @@ Als je vragen hebt, stel deze dan aan de assistent of stuur een email naar de co
 
 \label{/opdrachten-module-4/eennieuwdeeltje}
 
-We gaan op zoek naar een nieuw elementair deeltje $X$. Dit deeltje is gepostuleerd door een groep Natuurkundigen die daarmee het bestaan van de \href{https://nl.wikipedia.org/wiki/Donkere_materie}{Donkere Materie}
+We gaan op zoek naar een nieuw elementair deeltje $X$. Dit deeltje is gepostuleerd door een groep Natuurkundigen die daarmee het bestaan van de \href{https://nl.wikipedia.org/wiki/Donkere_materie}{Donkere Materie}\footnote{\texttt{https://nl.wikipedia.org/wiki/Donkere\\_materie}}
 in het heelal denken te kunnen verklaren.
 
-We kunnen het deeltje misschien maken met botsingen bij de Large Hadron Collider op het \href{http://www.cern.ch}{CERN}
+We kunnen het deeltje misschien maken met botsingen bij de Large Hadron Collider op het \href{http://www.cern.ch}{CERN}\footnote{\texttt{http://www.cern.ch}}
 onderzoekscentrum. Als deze deeltjes $X$ bestaan dan zouden we dit moeten kunnen zien in de gereconstrueerde massaverdeling van de restproducten van de $X$-deeltjes in een heel precies geselecteerde dataset.
 
 We hebben een beschrijving van hoe de massaverdeling eruit zou zien \emph{zonder}
@@ -5009,7 +5041,7 @@ e^{-\frac{1}{2}(\frac{m-m_0}{\sigma})^2}}\end{equation}
 
 We weten niet wat de waarde is van $m_0$ en ook niet hoeveel $X$-deeltjes we zouden kunnen hebben in onze dataset ($N_X$). Wel kennen we de resolutie van onze meting ($\sigma=5$ pm). Hiermee bedoelen we dat we op de massapiek van het $X$ deeltje een spreiding verwachten van ($\sigma=5$ pm). De eenheid van $m$ drukken we uit in het aantal proton massa's omdat het anders onhandig wordt met de eenheid (1 proton massa is gelijk aan $1.6726 \times 10^{-27}$ kg). Voor de Wald test mogen we maar 1 vrije parameter verschil hebben tussen de achtergrond ($H_0$) en de deeltjeshypothese ($H_{\alpha}$), maar we hebben dus twee onbekende parameters die we moeten schatten. We gebruiken hier de methode van de p-waarde scan en scannen de massa $m$, zo hebben we maar 1 vrije parameter in de fit en dat is de hoeveelheid deeltjes, $N_x$.
 
-We gaan weer fitten met het pakket \href{https://lmfit.github.io/lmfit-py/model.html}{\textbf{lmfit}}.
+We gaan weer fitten met het pakket \href{https://lmfit.github.io/lmfit-py/model.html}{\textbf{lmfit}\footnote{\texttt{https://lmfit.github.io/lmfit-py/model.html}}}.
 
 \begin{example}
 \begin{itemize}
@@ -5073,7 +5105,7 @@ pakket bevat. Deze kunnen we aanroepen met:
 \end{itemize}
 \end{example}
 
-Als je een standaardfunctie gebruikt is het altijd even goed om uit te zoeken hoe die precies werkt. Je kan bijvoorbeeld even op de website van \href{https://lmfit.github.io/lmfit-py/builtin_models.html}{lmfit}
+Als je een standaardfunctie gebruikt is het altijd even goed om uit te zoeken hoe die precies werkt. Je kan bijvoorbeeld even op de website van \href{https://lmfit.github.io/lmfit-py/builtin_models.html}{lmfit}\footnote{\texttt{https://lmfit.github.io/lmfit-py/builtin\\_models.html}}
 kijken en zoeken naar \textbf{\passthrough{\lstinline!GaussianModel()!}}.
 
 \begin{example}

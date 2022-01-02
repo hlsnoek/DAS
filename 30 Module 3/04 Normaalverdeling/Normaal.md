@@ -23,14 +23,14 @@ Er is geen relatie tussen de het gemiddelde $$\mu$$ en de standaardafwijking $$\
 
 > **Voorbeeld** Stel nu dat we een meting doen $$L$$ en we kennen het populatiegemiddelde $$\mu_L = 10.0$$ cm met een spreiding van $$\sigma_L = 2.0$$ cm. De kans dat we een meting doen die $$L=4.0$$ cm oplevert is dan niet zo groot. Als de spreiding rond het populatiegemiddelde daarentegen groter is, bijvoorbeeld $$\sigma=5.0$$ cm dan is de kans veel groter dat de meting een waarde van  $$L=4.0$$ cm oplevert. 
 
-Als de uitkomsten uit een experiment Normaal verdeeld zijn, en we kennen $$\mu$$ en $$\sigma$$, dan kunnen we de kans op een bepaalde uitkomst exact berekenen. Hoe grotere de afstand met $$\mu$$, hoe kleiner de kans op dat meetresultaat. Hoe groter de standaardafwijking $$\sigma$$, hoe meer verpreid de meetuikomsten zijn en hoe groter de kans op een grotere afstand ten op zichte van het gemiddelde $$\mu$$. 
+Als de uitkomsten uit een experiment Normaal verdeeld zijn, en we kennen $$\mu$$ en $$\sigma$$, dan kunnen we de kans op een bepaalde uitkomst exact berekenen. Hoe grotere de afstand met $$\mu$$, hoe kleiner de kans op dat meetresultaat. Hoe groter de standaardafwijking $$\sigma$$, hoe meer verspreid de meetuitkomsten zijn en hoe groter de kans op een grotere afstand ten opzichte van het gemiddelde $$\mu$$. 
 Deze kansen kunnen we exact berekenen met behulp van de Normaalverdeling. 
 
 
 
 ## Z-score en waarschijnlijkheden
 
-Om de kans op een bepaalde meetuikomst uit te drukken maken we gebruik van de oppervlaktes onder de Normaalverdeling. 
+Om de kans op een bepaalde meetuitkomst uit te drukken maken we gebruik van de oppervlaktes onder de Normaalverdeling. 
 Dit kunnen we schematisch weergeven.
 
 
@@ -52,7 +52,7 @@ Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$X> x$
 
 
 Het oppervlak onder de kromme van een Normaalverdeling is lastig uit te rekenen, zie bijvoorbeeld de uitleg op [wikipedia](https://en.wikipedia.org/wiki/Gaussian_integral). We maken hierom een tussenstap en berekenen eerst de 
-zogenoemde $$z$$-score. Stel een dataset is Normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$, de $$z$$-score, voor een bepaalde gemeten waarde $$x$$, is dan gelijk aan:
+zo genoemde $$z$$-score. Stel een dataset is Normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$, de $$z$$-score, voor een bepaalde gemeten waarde $$x$$, is dan gelijk aan:
 
 $$Z = \frac{x-\mu}{\sigma}.$$  
 
@@ -110,7 +110,7 @@ $${\displaystyle \begin{aligned}P(|x-\mu|>X) &= P\left(Z<\frac{-X}{\sigma}\right
 
 
 Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$|x - \mu|> X$$ te vinden, is hier schematisch weergegeven
-<!--FIG in figuur \ref{fig:NormaalDubbel}-->.
+<!--FIG in figuur \ref{fig:NormaalDubbel}.-->
 
 ![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$\mid x - \mu \mid >X$$ te vinden](NormaalDubbel.png){:width="70%"}
 
