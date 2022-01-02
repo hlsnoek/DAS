@@ -106,7 +106,7 @@ We schrijven dus
 Bij een tweezijdige overschrijdingskans bereken we de waarde van een absolute afstand tot het gemiddelde. We berekenen dit door 
 de kans op een waarde groter dan de gestelde waarde opgeteld bij de kans op een waarde kleiner dan de gestelde waarde:
 
-$${\displaystyle \begin{aligned}P(|x-\mu|>X) &= P\left(Z<\frac{-X}{\sigma}\right) + P\left(Z>\frac{X}{\sigma} \right)\\ &= 2\cdot P\left( Z>\frac{X}{\sigma} \right) \end{aligned}.}$$ 
+$${\displaystyle \begin{aligned}P(|x-\mu|>X) &= P\left(Z<\frac{-X}{\sigma}\right) + P\left(Z>\frac{X}{\sigma} \right)\\ &= 2\cdot P\left( Z>\frac{X}{\sigma} \right). \end{aligned}}$$ 
 
 
 Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$|x - \mu|> X$$ te vinden, is hier schematisch weergegeven
@@ -116,9 +116,9 @@ Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$|x - 
 
 
 
-> **Voorbeeld Dubbelzijdige kans:** Een stochast $$X$$ is Normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$. De kans op een waarde die meer afwijkt dan 4 van het gemiddelde is nu gelijk aan
+> **Voorbeeld Dubbelzijdige kans:** Een stochast $$X$$ is Normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=4$$. De kans op een waarde die meer afwijkt dan 2 van het gemiddelde is nu gelijk aan
 > 
-> $$\begin{aligned} P(|x-\mu|<4) &= 2 \times P\left(Z > \frac{2}{4}\right) \\  &= 2\times P\left( Z > 0.5 \right)  \end{aligned}.$$ 
+> $$\begin{aligned} P(|x-\mu| > 2) &= 2 \times P\left(Z > \frac{X}{\sigma}\right) \\  &= 2 \times P\left(Z > \frac{2}{4}\right) \\  &= 2\times P\left( Z > 0.5 \right).  \end{aligned}$$ 
 > 
 > In de z-score tabel kunnen we nu de bijbehorende kans waarde opzoeken. Dit is een waarde van $$(2 \times 0.30854) = 0.69146$$.
 > We schrijven dus 
