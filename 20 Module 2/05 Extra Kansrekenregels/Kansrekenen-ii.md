@@ -1,4 +1,4 @@
-# Extra kansrekenregels
+# Extra kans rekenregels
 <!--REF\label{/module-2/extra-kansrekenregels}-->
 
 1. Ordered TOC
@@ -91,7 +91,7 @@ Deze formule heet het Bayes theorema en blijkt een van de meest krachtige formul
 > 
 > <br><br>
 > 
-> De testuitslag is positief. **Wat is nu de kans dat de patiënt daadwerkelijk een blaasonsteking heeft?**  
+> De testuitslag is positief. **Wat is nu de kans dat de patiënt daadwerkelijk een blaasontsteking heeft?**  
 > Wat we dus willen weten is de kans $$P(\mathrm{ziek} \mid +)$$, namelijk wat is de kans dat de patiënt ziek is gegeven de positieve testuitslag. 
 > 
 > We gebruiken Bayes theorema om dit te berekenen. 
@@ -118,7 +118,7 @@ Deze formule heet het Bayes theorema en blijkt een van de meest krachtige formul
 > $$\displaystyle{ P(\mathrm{ziek} \mid +) = \frac{P(+ \mid \mathrm{ziek}) \cdot P(\mathrm{ziek}) }{P(+)} = \frac{(1-0.03) \cdot 0.20}{0.234} = 0.83.}$$ 
 > 
 > Van de kinderen met een positieve test uitslag heeft dus $$83\%$$ ook 
-> daadwerkelijk een blaasontsteking. Dit is een stuk lager dan we misschien zouden verwachten. De test is namelijk betrouwbaar, in $$97\%$$ van de gevallen met blaasonsteking geeft de test immers het juiste resultaaat. Deze afwijking heeft te maken met de lage voorafkans bij kinderen; het is nog redelijk waarschijnlijk dat het kind niet ziek is maar een fout-positieve uitslag heeft.
+> daadwerkelijk een blaasontsteking. Dit is een stuk lager dan we misschien zouden verwachten. De test is namelijk betrouwbaar, in $$97\%$$ van de gevallen met blaasontsteking geeft de test immers het juiste resultaat. Deze afwijking heeft te maken met de lage voorafkans bij kinderen; het is nog redelijk waarschijnlijk dat het kind niet ziek is maar een fout-positieve uitslag heeft.
 > 
 > De kans dat het kind niet ziek is bij een positieve uitslag is dus $$1-0.83 = 0.17 = 17\%$$. 
 >
@@ -126,7 +126,7 @@ Deze formule heet het Bayes theorema en blijkt een van de meest krachtige formul
 > Reken nu zelf de kans $$P(\mathrm{ziek} \mid +)$$ uit voor een volwassene en controleer dat dit gelijk is aan $$0.97$$. Deze kans is veel groter dan bij de kinderen. Dit heeft alles te maken met de grotere voorafkans.
 
 
-We hebben in deze twee voorbeelden gezien hoe we informatie over conditionele kansen kunnen omzetten. Het theorema van Bayes maakt het mogelijk om nieuwe informatie te gebruiken. De achterafkans wordt berekend met een test uit voorafkans (ook wel prior), een testuitslag en een normalisatie. De normalisatie is in het geval van het voorbeeld de kans $$P(+)$$, de kans dat er uberhaupt een positieve uitslag volgt. 
+We hebben in deze twee voorbeelden gezien hoe we informatie over conditionele kansen kunnen omzetten. Het theorema van Bayes maakt het mogelijk om nieuwe informatie te gebruiken. De achterafkans wordt berekend met een test uit voorafkans (ook wel prior), een testuitslag en een normalisatie. De normalisatie is in het geval van het voorbeeld de kans $$P(+)$$, de kans dat er überhaupt een positieve uitslag volgt. 
 
 Voordat de patiënt de test afnam konden we alleen afgaan op de praktijkervaring van de assistent. Een blaasontsteking bij een kind is onwaarschijnlijk (slechts $$20\%$$) en bij een volwassene waarschijnlijk ($$60\%$$). Na het uitvoeren van de test hebben we meer informatie, maar nog steeds is het belangrijk om de ervaring van de assistent mee te nemen (de voorafkans), maar ook mee te nemen hoe groot de kans is op een positieve testuitslag (de normalisatie). Dat een patiënt daadwerkelijk een blaasontsteking heeft is in beide gevallen (kind/volwassene) waarschijnlijk, maar bij een kind is het misschien goed om ook nog even wat andere oorzaken uit te sluiten.
 
