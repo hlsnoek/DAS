@@ -26,7 +26,7 @@ $${\displaystyle P(\chi^2;\nu) = \frac{2^{-\nu/2}}{\Gamma (\nu/2)} \chi^{n-2} e^
 De $$\Gamma$$ in de noemer is een speciale wiskundige functie. Deze zal pas in het tweede jaar volledig worden uitgelegd. Op dit moment kun je hem simpelweg interpreteren als een functie waar een normalisatie term uitkomt. Het is best een gekke functie, voorbeelden van uitkomsten: $$\Gamma(1/2) = \sqrt{\pi}$$, $$\Gamma(1) = 1$$ en $$\Gamma(3/2) = 1/2 \sqrt{\pi}$$.
 Als je al meer wilt weten over de $$\Gamma$$-functie dan kun je daar bijvoorbeeld [hier](https://nl.wikipedia.org/wiki/Gammafunctie) meer over lezen. 
 
-Zoals je ziet hangt de $$\chi^2$$ kans ook af van een parameter $$\nu$$, dit is het aantal meetpunten, $$n$$, gereduceerd met het aantal parameters van de functie $$f$$. We noemen $$\nu$$ het aantal **vrijheidsgraden** (Engels: degrees of freedom). Het aantal vrijheidsgraden bereken je alsvolgt
+Zoals je ziet hangt de $$\chi^2$$ kans ook af van een parameter $$\nu$$, dit is het aantal meetpunten, $$n$$, gereduceerd met het aantal parameters van de functie $$f$$. We noemen $$\nu$$ het aantal **vrijheidsgraden** (Engels: degrees of freedom). Het aantal vrijheidsgraden bereken je als volgt
 
 $${\displaystyle \nu = \textrm{aantal meetpunten} - \textrm{aantal vrije paramaters}.}$$
 
@@ -45,7 +45,7 @@ Met behulp van de $$\chi^2$$-curve kunnen we de overschrijdingskansen uitrekenen
 Je kan nu de overschrijdingskansen voor verschillende waardes van $$\chi^2$$ en vrijheidsgraden $$\nu$$ bepalen, bijvoorbeeld met behulp van [deze tabel](/appendix/chi-kwadraat-toets). 
 
 Het is gemakkelijker om de waarde van de $$\chi^2$$ direct te delen door het aantal vrijheidsgraden. De verwachtingswaarde voor de ratio $$\chi^2/\nu$$ is dan altijd gelijk aan 1 en de variantie is gelijk aan $$var(\chi^2/\nu) = 2/\nu$$. (Deze laatste stap kan je controleren door toepassing van de regels van de foutenpropagatie.) 
-We definïeren de **gereduceerde** $$\chi^2$$ als: 
+We definiëren de **gereduceerde** $$\chi^2$$ als: 
 
 $${\displaystyle \chi^2_\nu = \frac{\chi^2}{\nu}.}$$
 
