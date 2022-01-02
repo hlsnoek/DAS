@@ -112,7 +112,7 @@ $${\displaystyle \begin{aligned}P(|x-\mu|>X) &= P\left(Z<\frac{-X}{\sigma}\right
 Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$|x - \mu|> X$$ te vinden, is hier schematisch weergegeven
 <!--FIG in figuur \ref{fig:NormaalDubbel}-->.
 
-![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$|x - \mu|>X$$ te vinden](NormaalDubbel.png){:width="90%"}
+![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$\mid x - \mu \mid >X$$ te vinden](NormaalDubbel.png){:width="90%"}
 
 
 
