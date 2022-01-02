@@ -7,3 +7,4 @@ rm DASBoek.toc.new
 rm DASBoek.aux
 rm DASBoek.toc
 rm DASBoek.log
+rm -r Figures
