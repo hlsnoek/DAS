@@ -177,7 +177,9 @@ for line in f:
             if ((fix_line.count('http')==0) & (fix_line.count('.py')==0) & (fix_line.count('.docx')==0)) :
                 temp_line = front_line
                 temp_line += line[mid+2:end]
-                temp_line += ' (Hfdst. \\'+line[start+2:mid+1]+')'
+                if (fix_line.count('appendix')) : verw = 'Appendix'
+                else : verw = 'Hfdst.'
+                temp_line += ' (' + verw + ' \\'+line[start+2:mid+1]+')'
                 temp_line += end_line
                 line = temp_line
             start = line.find('\href',end)
