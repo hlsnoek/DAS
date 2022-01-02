@@ -11,5 +11,6 @@ for line in f:
     line = line.replace("{part}{II\\hspace {1em}}","{part}{MODULE II\\hspace {1em}}")
     line = line.replace("{part}{III\\hspace {1em}}","{part}{MODULE III\\hspace {1em}}")
     line = line.replace("{part}{IV\\hspace {1em}}","{part}{MODULE IV\\hspace {1em}}")
+    if (line.count('{Appendices}')) : line = '' 
     l = line
     print(l)

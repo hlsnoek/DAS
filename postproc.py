@@ -20,7 +20,7 @@ for line in f:
         line += '\\usepackage{tikz, lipsum}\n\\usepackage{fancyvrb}\n'
         line += '\\tcbuselibrary{breakable,skins}\n\\tcbset{enhanced jigsaw}'
         line += '\n\\newenvironment{antwoord}{\\begin{tcolorbox}[enhanced,breakable, colback=grey]}{\\end{tcolorbox}}\n'
-        line+='\n\\newenvironment{example}{\\vspace{0.5cm}\\begin{tcolorbox}[tile,breakable,enhanced,title=,borderline west={1mm}{0pt}{cyan},colframe=cyan,toprule=0.25mm,right=1mm,width=\\linewidth,colback=cyan!20!white]}{\\end{tcolorbox}\\vspace{0.5cm}}'
+        line+='\n\\newenvironment{example}{\\vspace{0.5cm}\\begin{tcolorbox}[tile,breakable,enhanced,title=,borderline west={1.2mm}{0pt}{cyan},colframe=cyan,toprule=0.45mm,bottomrule=0.4mm,right=1mm,width=\\linewidth,colback=cyan!20!white]}{\\end{tcolorbox}\\vspace{0.5cm}}'
         line += '\\setlength{\\textheight}{21.5cm}\\setlength{\\textwidth}{15.0cm}\n'
         line += '\\setlength{\\topmargin}{0.0cm}\n'
         line += '\\setlength{\\oddsidemargin}{0.0cm}\n'
@@ -45,7 +45,9 @@ for line in f:
         line += '{\\Huge{\\partname} \\thepart}{0pt}\n'
         line += '{\\titlerule[1pt]}\\titlespacing*{\\part}{0pt}{0pt}{3pt}\n'
 
-
+    if(line.count('\end{center}')) :
+       line += '\n'
+        
         
     if(line.count('\\lstset{')) :
         line += '\n     language=python,'
@@ -72,7 +74,7 @@ for line in f:
         line += '\\begin{document}\n'
         line += '\\thispagestyle{empty}\n' 
         line += '\\titleGM\n'
-        line += '\\parbox[b]{\\textwidth}{ \\vspace{0.8\\textheight}\\textbf{dr H.L. Snoek en M.F.L. Schut MSc} \\\\  \\tiny{versie 2021-12-27 }} \n'
+        line += '\\parbox[b]{\\textwidth}{ \\vspace{0.8\\textheight}\\textbf{dr H.L. Snoek en M.F.L. Schut MSc} \\\\  \\tiny{2022.v1 }} \n'
         line += '\\tableofcontents\\newpage\n'
 
     if (line.count("begin{quote")) : 

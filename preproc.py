@@ -49,8 +49,9 @@ for line in f:
         name = line[line.rfind('(')+1:line.find('.png')]
         if (inExEnv) : line += '\n\\captionof{figure}{'+title+'}'
         else : line += '\n\\caption{'+title+'}'
-        line += '\n\\label{fig:'+name+'}\n'
-    
+        line += '\n\\label{fig:'+name+'}'
+        if(inExEnv) : line += '\\vspace{0.2cm}'
+        
     #    line = line.replace( r"#", r"##",1 )
 
     if (line.count('<!--FIG')) :
