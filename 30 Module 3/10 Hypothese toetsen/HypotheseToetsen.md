@@ -64,7 +64,7 @@ In alle bovenstaande gevallen is het dus de procedure om te kijken of we genoeg 
 
 De volgende stap in hypothese toetsen is het kiezen van het significantieniveau. Dit houdt in dat we bepalen hoe zeker we ervan willen zijn dat we de correcte conclusie trekken, zonder precisie te verliezen.
 
-Niet elke steekproef zal daadwerkelijk iets kunnen zeggen over de bijbehorende populatie. Als we bijvoorbeeld willen weten of het klopt dat 20% van de auto's in Nederland de kleur blauw heeft, maar in de steekproef kiezen we toevallig alleen auto's met een andere kleur, dan zouden we als conclusie kunnen trekken dat er in Nederland geen blauwe auto's rondrijden. Dit klopt echter niet met de daadwerkelijke populatie. Als je op de weg rijdt zie je namelijk wel degelijk blauwe auto's voorbij komen.
+Niet elke steekproef zal daadwerkelijk iets kunnen zeggen over de bijbehorende populatie. Als we bijvoorbeeld willen weten of het klopt dat 20% van de auto's in Nederland de kleur blauw heeft, maar in de steekproef kiezen we toevallig alleen auto's met een andere kleur, dan zouden we als conclusie kunnen trekken dat er in Nederland geen blauwe auto's rondrijden. Dit klopt echter niet met de daadwerkelijke populatie. Als je op de weg rijdt zie je namelijk wel degelijk blauwe auto's voorbijkomen.
 
 In het bovenstaande geval is de alternatieve hypothese dat 20% van de auto's in Nederland blauw is maar we trekken de conclusie dat de nulhypothese (het percentage blauwe auto's in Nederland is geen 20%) correct is.
 
@@ -89,7 +89,7 @@ Hoe kleiner de vooraf gekozen waarde van $$\alpha$$ is, des te zekerder we ervan
 
 Denk maar eens aan de effectiviteit bepalen van een bepaald medicijn. Je moet dan veel patiënten vinden waar het medicijn voor zou moeten helpen. Als je de werking van paracetamol bij hoofdpijn wil onderzoeken is dit misschien geen groot probleem, maar wil je de werking van een medicijn testen die werkt bij een zeer zeldzame ziekte, dan is het gewoon erg lastig zo niet onmogelijk om hele grote groepen te testen. 
 
-Ook binnen de natuur- en sterrenkunde verschilt het nogal of je grote datasets kunt verkrijgen. In een experiment in de deeltjesfysica is het bijvoorbeeld relatief eenvoudig om een grote dataset te verkrijgen in een bostingsexperiment zoals op CERN en zo de de onzekerheid op je test-statistiek te verkleinen met enorm grote steekproeven. Maar het onderzoek naar de smaak van neutrino die bij supernova's worden geprodueerd is lastig, er zijn niet heel veel supernova's. 
+Ook binnen de natuur- en sterrenkunde verschilt het nogal of je grote datasets kunt verkrijgen. In een experiment in de deeltjesfysica is het bijvoorbeeld relatief eenvoudig om een grote dataset te verkrijgen in een bostingsexperiment zoals op CERN en zo de onzekerheid op je test-statistiek te verkleinen met enorm grote steekproeven. Maar het onderzoek naar de smaak van neutrino die bij supernova's worden geproduceerd is lastig, er zijn niet heel veel supernova's. 
 
 Het is dus altijd een afweging tussen het zo zeker mogelijk zijn van correctheid van het verwerpen van de nulhypothese, en de uitvoerbaarheid van het onderzoek.
 
@@ -102,7 +102,7 @@ Na het kiezen van het significantieniveau, bepalen (of meten) we de *p-waarde* b
 
 <!--De p-waarde is dus eigenlijk het laagste niveau van significantie waarop de nulhypothese verworpen kan worden. vinden we bijvoorbeeld een p-waarde van 10%-->   
 
-Er zijn verscheidene methodes voor het hypothese toetsen. In deze sectie behandelen we het bepalen van de p-waarde voor een Normaal verdeelde dataset, middels de zogenoemde 
+Er zijn verscheidene methodes voor het hypothese toetsen. In deze sectie behandelen we het bepalen van de p-waarde voor een Normaal verdeelde dataset, met de zogenoemde 
 *z-toets*. 
 
 Ook voor data met een andere distributie kan de p-waarde bepaald worden via de z-toets voor een Normale verdeling zolang de kansdichtheidsdistributie van de test-statistiek bekend is. 
@@ -164,7 +164,7 @@ Dit bekijken we aan de hand van een paar voorbeelden:
 
 Is de p-waarde kleiner dan het gekozen significantieniveau dan verwerpen we de nulhypothese. Is de p-waarde groter dan het gekozen significantieniveau dan verwerpen we de nulhypothese niet.
 
-Het is goed om te beseffen dat we **niet** kunnen zeggen dat onze alternatieve hypothese correct is of dat de nulhypothese fout is. De p-waarde geeft namelijk geen bewijs. Wel hebben we met de p-waarde een onderbouwing om de nulhypothese, met inachtname van het gekozen significantieniveau, wel/niet te verwerpen.
+Het is goed om te beseffen dat we **niet** kunnen zeggen dat onze alternatieve hypothese correct is of dat de nulhypothese fout is. De p-waarde geeft namelijk geen bewijs. Wel hebben we met de p-waarde een onderbouwing om de nulhypothese, met inachtneming van het gekozen significantieniveau, wel/niet te verwerpen.
 
 > **Voorbeeld 2:** We onderzoeken de gemiddelde lengte van alle vrouwen ($$> 18$$ jaar) in Nederland, en stellen de volgende hypotheses op:
 >
