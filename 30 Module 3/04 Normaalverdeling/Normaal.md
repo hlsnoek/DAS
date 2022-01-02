@@ -15,7 +15,7 @@ $${\Large \displaystyle f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\lef
 
 De functie heeft twee parameters, $$\mu$$ en $$\sigma$$. De verwachtingswaarde van de normaal verdeling is precies $$\mu$$ en de standaardafwijking is precies gelijk aan $$\sigma$$. (De notering is niet toevallig!)
 
-In de figuur hieronder, <!--FIG \ref{fig:NormaleDistributie},--> zie je enkele voorbeelden van de Normale verdeling voor verschillende waardes voor $$\mu$$ en $$\sigma$$. 
+In de figuur hieronder, <!--FIG \ref{fig:NormaleDistributie2},--> zie je enkele voorbeelden van de Normale verdeling voor verschillende waardes voor $$\mu$$ en $$\sigma$$. 
 
 ![De Normaalverdeling.](NormaleDistributie2.png){:width="60%"}
 
@@ -34,16 +34,20 @@ Om de kans op een bepaalde meetuikomst uit te drukken maken we gebruik van de op
 Dit kunnen we schematisch weergeven.
 
 
-> **Voorbeeld:** ***Onderkans***
-> Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, kun je als volgt schematisch weergeven. Dit noemen we ook wel de *linkszijdige overschrijding*.
-> ![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden.](NormaalLinks.png){:width="90%"}
+
+Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, kun je als volgt schematisch weergeven 
+<!--FIG in figuur \ref{fig:NormaalLinks}-->. Dit noemen we ook wel de *linkszijdige overschrijding* en we berekenen de *onderkans*. 
+ 
+![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden.](NormaalLinks.png){:width="90%"}
 
 
-<br>
 
-> **Voorbeeld:** ***Bovenkans***
-> Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X> x$$ te vinden, is hier schematisch weergegeven. Dit noemen we ook wel de *rechtszijdige overschrijding*.
-> ![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaalRechts.png){:width="90%"}
+
+
+Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X> x$$ te vinden, is hier schematisch weergegeven
+<!--FIG in figuur \ref{fig:NormaalRechts}-->. Dit noemen we ook wel de *rechtszijdige overschrijding* en we berekenen de *bovenkans*.
+ 
+![Het oppervlak onder de normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaalRechts.png){:width="90%"}
 
 
 
