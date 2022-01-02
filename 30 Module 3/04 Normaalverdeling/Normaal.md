@@ -35,36 +35,36 @@ Dit kunnen we schematisch weergeven.
 
 
 
-Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden, kun je als volgt schematisch weergeven 
+Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$x < X$$ te vinden, kun je als volgt schematisch weergeven 
 <!--FIG in figuur \ref{fig:NormaalLinks}-->. Dit noemen we ook wel de *linkszijdige overschrijding* en we berekenen de *onderkans*. 
  
-![Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden.](NormaalLinks.png){:width="90%"}
+![Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$x < X$$ te vinden.](NormaalLinks.png){:width="90%"}
 
 
 
 
 
-Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$X> x$$ te vinden, is hier schematisch weergegeven
+Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$x > X$$ te vinden, is hier schematisch weergegeven
 <!--FIG in figuur \ref{fig:NormaalRechts}-->. Dit noemen we ook wel de *rechtszijdige overschrijding* en we berekenen de *bovenkans*.
  
-![Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$X< x$$ te vinden](NormaalRechts.png){:width="90%"}
+![Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$x < X$$ te vinden](NormaalRechts.png){:width="90%"}
 
 
 
 Het oppervlak onder de kromme van een Normaalverdeling is lastig uit te rekenen, zie bijvoorbeeld de uitleg op [wikipedia](https://en.wikipedia.org/wiki/Gaussian_integral). We maken hierom een tussenstap en berekenen eerst de 
-zo genoemde $$z$$-score. Stel een dataset is Normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$, de $$z$$-score, voor een bepaalde gemeten waarde $$x$$, is dan gelijk aan:
+zo genoemde $$z$$-score. Stel een dataset is Normaal verdeeld met gemiddelde $$\mu$$ en standaardafwijking $$\sigma$$, de $$z$$-score, voor een bepaalde gemeten waarde $$X$$, is dan gelijk aan:
 
-$$Z = \frac{x-\mu}{\sigma}.$$  
+$$Z = \frac{X-\mu}{\sigma}.$$  
 
 Het oppervlak onder de Normaalkromme, behorende bij de kans op een bepaalde waarde, hangt op de volgende manier van de $$z$$-score af.
 
-De kans om een waarde $$X< x$$ te vinden is gelijk aan:
+De kans om een waarde $$x < X$$ te vinden is gelijk aan:
 
-$$P(X< x) = P\left( Z<\frac{x-\mu}{\sigma} \right)$$
+$$P(x < X) = P\left( Z<\frac{X-\mu}{\sigma} \right)$$
 
-De kans om een waarde $$X>x$$ te vinden is gelijk aan:
+De kans om een waarde $$x>X$$ te vinden is gelijk aan:
 
-$$P(X>x) = 1 - P(X< x) = 1-P\left( Z<\frac{x-\mu}{\sigma} \right)$$
+$$P(x>X) = 1 - P(x< X) = 1-P\left( Z<\frac{X-\mu}{\sigma} \right)$$
 
 Dit kun je zelf nagaan door schetsen te maken van de bijbehorende oppervlakken onder de normaalkromme.
 
@@ -74,28 +74,28 @@ Dit kun je zelf nagaan door schetsen te maken van de bijbehorende oppervlakken o
 Hieronder laten we in twee voorbeelden zien hoe je deze methode toepast.
 
 
-> **Voorbeeld Onderkans:** Een stochast $$X$$ is Normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$. De kans op een waarde $$X<16$$ is nu gelijk aan
+> **Voorbeeld Onderkans:** Een stochast $$x$$ is Normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$. De kans op een waarde $$x<16$$ is nu gelijk aan
 > 
-> $$\begin{aligned} P(X<16) &= P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= P\left(Z<\frac{16-20}{2}\right) \\ &= P(Z<-2). \end{aligned}$$
+> $$\begin{aligned} P(x<16) &= P\left(Z<\frac{X-\mu}{\sigma}\right) \\ &= P\left(Z<\frac{16-20}{2}\right) \\ &= P(Z<-2). \end{aligned}$$
 >
 > Dit is een linkszijdige overschrijding. In de z-score tabel kunnen we nu de bijbehorende kans waarde opzoeken. Dit is een waarde van $$0.02275$$.
 > We schrijven dus 
 >
-> $$P(X<16) = P\left(Z<\frac{x-\mu}{\sigma}\right) = 0.02275.$$
+> $$P(x<16) = P\left(Z<\frac{X-\mu}{\sigma}\right) = 0.02275.$$
 >
 > Er is in dit geval dus een kans van 0.02 dat we bij de gegeven dataset een waarde onder de 15 zullen vinden.
 
 <br>
 
 
-> **Voorbeeld Bovenkans:** Een stochast $$X$$ is Normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$, de kans op een waarde $$X>22$$ is nu gelijk aan
+> **Voorbeeld Bovenkans:** Een stochast $$x$$ is Normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=2$$, de kans op een waarde $$x>22$$ is nu gelijk aan
 > 
-> $$\begin{aligned}P(X>22) &= 1-P(X<22) \\ &= 1-P\left(Z<\frac{x-\mu}{\sigma}\right) \\ &= 1 - P\left(Z<\frac{22-20}{2}\right) \\ &= 1 - P(Z<1).\end{aligned}$$
+> $$\begin{aligned}P(x>22) &= 1-P(x<22) \\ &= 1-P\left(Z<\frac{X-\mu}{\sigma}\right) \\ &= 1 - P\left(Z<\frac{22-20}{2}\right) \\ &= 1 - P(Z<1).\end{aligned}$$
 >
 > Dit is een rechtszijdige overschrijding. In de z-score tabel kunnen we nu de bijbehorende kans waarde opzoeken. Dit is een waarde van $$0.84134$$.
 We schrijven dus 
 >
-> $$P(X>22) = 1 - P\left(Z<\frac{x-\mu}{\sigma}\right) = 1-0.84134 = 0.15866.$$
+> $$P(x>22) = 1 - P\left(Z<\frac{X-\mu}{\sigma}\right) = 1-0.84134 = 0.15866.$$
 >
 > Er is in dit geval dus een kans van 0.16 dat we bij de gegeven dataset een waarde boven de 22 zullen vinden.
 
@@ -116,7 +116,7 @@ Het oppervlak onder de Normaalkromme behorende bij de kans om een waarde $$|x - 
 
 
 
-> **Voorbeeld Dubbelzijdige kans:** Een stochast $$X$$ is Normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=4$$. De kans op een waarde die meer afwijkt dan 2 van het gemiddelde is nu gelijk aan
+> **Voorbeeld Dubbelzijdige kans:** Een stochast $$x$$ is Normaal verdeeld met gemiddelde $$\mu = 20$$ en standaardafwijking $$\sigma=4$$. De kans op een waarde die meer afwijkt dan 2 van het gemiddelde is nu gelijk aan
 > 
 > $$\begin{aligned} P(|x-\mu| > 2) &= 2 \times P\left(Z > \frac{X}{\sigma}\right) \\  &= 2 \times P\left(Z > \frac{2}{4}\right) \\  &= 2\times P\left( Z > 0.5 \right).  \end{aligned}$$ 
 > 
