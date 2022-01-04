@@ -7,12 +7,12 @@ Dit is een belangrijke observatie. Het geeft aan dat hoe groter de steekproef, h
 We bespreken hier twee wetten, de $$\sqrt{n}$$-wet en de wet van grote aantallen. De eerste wet zegt dat we een gemiddelde, onder bepaalde voorwaarden, steeds beter kennen als we meer datapunten meenemen. De tweede wet zegt dat het steekproef gemiddelde langzaam zal convergeren naar het gemiddelde van de populatie naarmate de steekproef steeds groter wordt.
 
 ## De $$\sqrt{n}$$-wet
-Stel dat we een grootheid willen bepalen die de som is van twee onafhankelijke variabelen die beide stochastisch verdeeld zijn. Dit betekent dat beide variabelen gemeten kunnen worden maar ook dat de waardes die we meten een onderliggende verdeling volgen die afhangt van een kansproces. We hebben hier dus twee onafhankelijke stochasten, die we $$X$$ en $$Y$$ noemen. De verwachtingswaarde van de som $$X+Y$$ is gelijk aan:
+Stel dat we een grootheid willen bepalen die de som is van twee onafhankelijke variabelen die beide stochastisch verdeeld zijn. Dit betekent dat beide variabelen gemeten kunnen worden maar ook dat de waardes die we meten een onderliggende verdeling volgen die afhangt van een kans proces. We hebben hier dus twee onafhankelijke stochasten, die we $$X$$ en $$Y$$ noemen. De verwachtingswaarde van de som $$X+Y$$ is gelijk aan:
 
 $$\displaystyle{ E(X+Y)= E(X)+E(Y) }.$$ 
 
 Ofwel de verwachtingswaarde van de som is gelijk aan de verwachtingswaarde van $$X$$ plus de verwachtingswaarde van $$Y$$. 
-De verwachtingswaarde is de waarde die je verwacht te meten en is hier gelijk aan het verwachttte steekproefgemiddelde. Dus
+De verwachtingswaarde is de waarde die je verwacht te meten en is hier gelijk aan het verwachtte steekproefgemiddelde. Dus
 
 $$\displaystyle{ E(X) = \frac{1}{n} \sum_i^n X_i}.$$
 
@@ -53,7 +53,7 @@ $$\displaystyle{ s_{(S_n)} = \sqrt{n} \cdot \sigma } .$$
 
 In plaats van naar de eigenschappen van de som $$S_n$$ te kijken, kunnen we ook naar de eigenschappen van het gemiddelde van de stochasten $$X_i$$ kijken. We hoeven hiervoor alleen maar de waarde van de som te delen door het aantal metingen $$n$$. 
 
-Behalve de som $$S_n$$ kunnen we ook het gemiddelde van de stochasten, $$G_n$$, definieren. Dit gemiddelde is gedefinieerd als: 
+Behalve de som $$S_n$$ kunnen we ook het gemiddelde van de stochasten, $$G_n$$, definiëren. Dit gemiddelde is gedefinieerd als: 
 
 $$\displaystyle{ G_n = \frac{S_n}{n}.}$$
 
@@ -89,11 +89,11 @@ Intuïtief voelen we aan dat hoe meer metingen we doen, hoe meer informatie we h
 >
 > Ofwel de kans dat het steekproef gemiddelde meer afwijkt van het populatie gemiddelde dan een heel klein getal, convergeert naar 0 voor oneindig grote steekproeven. 
 
-Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan oneindig grote, of nagenoeg oneindig grote populaties, zoals bijvoorbeeld als je de gemiddelde massa van het electron wilt bepalen. 
+Voor eindige populaties is dit natuurlijk zeker waar. Maar denk hier ook aan oneindig grote, of nagenoeg oneindig grote populaties, zoals bijvoorbeeld als je de gemiddelde massa van het elektron wilt bepalen. 
 
 **Tip:** In deze [video](https://www.youtube.com/watch?v=MntX3zWNWec) wordt de wet van grote aantallen nogmaals duidelijk uitgelegd. 
 
-Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk dat de variantie van de stochast eindig moet zijn, en dat dus de verwachtingswaarde van de stochast bepaald is. Er bestaan distributies, zoals de [Cauchy](https://nl.wikipedia.org/wiki/Cauchy-verdeling) of de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie waarvoor dit dus niet geldt. Deze distributies hebben oneindig lange staarten. In het figuur hier<!--FIG \ref{fig:CauchyDistributie}--> zie je hoe de Cauchy distributie eruit ziet.
+Als je de wet goed leest zie je dat er een voorwaarde aan vast zit. Namelijk dat de variantie van de stochast eindig moet zijn, en dat dus de verwachtingswaarde van de stochast bepaald is. Er bestaan distributies, zoals de [Cauchy](https://nl.wikipedia.org/wiki/Cauchy-verdeling) of de [Landau](https://en.wikipedia.org/wiki/Landau_distribution) distributie waarvoor dit dus niet geldt. Deze distributies hebben oneindig lange staarten. In het figuur hier<!--FIG \ref{fig:CauchyDistributie}--> zie je hoe de Cauchy distributie eruitziet.
 
 ![Cauchy verdeelde kansdistributies.](CauchyDistributie.png){:width="80%"} 
 
