@@ -46,6 +46,7 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 > $$\displaystyle{ Var(y) = (\Delta y)^2 = \left( c \cdot \Delta x\right)^2 = c^2 \cdot Var(x) .}$$
 
 
+<!--FIG \newpage-->
 
 > **Voorbeeld 2: Translatie** 
 > 
@@ -57,6 +58,7 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 > 
 > ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een translatie.](Foutenpropagatie_trans.png){:width="65%"}
 
+<!--FIG \newpage-->
 
 > **Voorbeeld 3: Macht** 
 > 
@@ -67,7 +69,7 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 > Het effect van de foutenpropagatie volgens deze formule van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ wordt weer grafisch weergegeven in het plaatje hieronder<!--FIG (Fig \ref{fig:Foutenpropagatie_cube})-->. Je kunt zien dat de mate waarin de grootte van $$\Delta x$$ verandert afhangt van de gekozen waarde van $$x_i$$, op sommige plekken is hij kleiner geworden, op andere plekken groter.  <br>
 > ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een macht.](Foutenpropagatie_cube.png){:width="65%"}
 
- 
+ <!--FIG \newpage-->
 
 > **Voorbeeld 4: Parabool** 
 > 
@@ -78,6 +80,7 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 > In het plaatje hieronder<!--FIG (Fig. \ref{fig:Foutenpropagatie_func})--> geven we nu voor verschillende waardes $$x_i$$ de foutenpropagatie van $$\Delta x$$ naar $$\Delta y$$ de grafische interpretatie. We zien dat niet alleen de relatieve grootte van $$\Delta y$$ afhangt van de gekozen waarde van $$x_i$$ maar dat op sommige plaatsen de boven en ondergrens van de onzekerheid zijn geïnverteerd.<br>
 > ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een kwadratische vergelijking.](Foutenpropagatie_func.png){:width="65%"}
 
+<!--FIG \newpage-->
 
 > **Voorbeeld 5: Twee dimensionaal** 
 > 
