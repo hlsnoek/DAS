@@ -1,9 +1,9 @@
 # Introductie Module 1
 <!--REF\label{/module-1/introductie}-->
 Statistische data analyse is een belangrijk onderdeel in vele werk- en onderzoeksvelden.
-Als student, en later wellicht ook als wetenschapper, zul je te maken krijgen met het verzamelen en interpreteren van data bij het het prakticum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
+Als student, en later wellicht ook als wetenschapper, zal je te maken krijgen met het verzamelen en interpreteren van data bij het practicum, bij het doen van onderzoek, of juist bij het begrijpen van de interpretatie van andermans resultaten.
 
-- Wanneer kun je zeggen dat een hypothese moet worden verworpen of bewijs je juist dat deze correct is? 
+- Hoe interpreteer je de meetgegevens van een experiment?
 - Hoe moet je inschatten of je meetnauwkeurigheid goed genoeg is?
 Wanneer heb je eigenlijk genoeg data verzameld? 
 - Hoe kun je een experiment zo ontwerpen dat je een hypothese kunt onderzoeken. 
@@ -33,7 +33,7 @@ Vaak maken we hierbij gebruik van histogrammen, grafieken en tabellen. Om een hy
 
 In deze cursus zullen we vaardigheden gaan leren voor data analyse en statistiek. 
 We beginnen deze week met een aantal [basisbegrippen](/module-1/basisbegrippen) in de beschrijvende statistiek. We gaan kijken naar het gemiddelde, variantie, de standaardafwijking, en coëfficiënt van variantie. We leren over hoe we meetresultaten moeten presenteren, het gebruik van de wetenschappelijke [notatie](/module-1/notatie) en hoe we ze kunnen [visualiseren](/module-1/data-visualiseren). We gaan in op het begrip [meetonzekerheid](/module-1/meetonzekerheid). Ook maken we een begin met [kansrekening](/module-1/kanstheorie) en [kansdichtheidsverdelingen](/module-1/verdelingsfuncties).
-Niet elk van deze onderwerpen is even moeilijk. Let goed op dat je genoeg tijd overhoudt om de introductie van de kanstheorie te bestuderen.
+Let goed op dat je genoeg tijd overhoudt om de introductie van de kanstheorie te bestuderen.
 
 <!--COMMENT\iffalse-->
 We werken in de werkcolleges aan de opdrachten van deze module [M1](/opdrachten-module-1/opdrachten). Je vindt in het [schema](/informatie/inleveropdrachten) wanneer je deze moet inleveren.
