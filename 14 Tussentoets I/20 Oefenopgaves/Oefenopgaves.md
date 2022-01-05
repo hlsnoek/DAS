@@ -20,7 +20,8 @@ Bereken nu opnieuw het gemiddelde, de standaardafwijking en de variantie waarbij
 -----
 
 **2** Lees in de onderstaande grafiek het punt voor x=6 af en noteer het resultaat met de wetenschappelijke notatie. 
-![](Aflezen.png){:width="80%"}
+
+![](Aflezen.png){:width="60%"}
 
 
 -----
