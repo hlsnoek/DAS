@@ -16,11 +16,11 @@ De covariantie bij een twee dimensionale dataset geeft aan in welke mate de data
 
 Voor twee grootheden $$x$$ en $$y$$ wordt de covariantie aangeduid met $$cov(x,y)$$ en gegeven door:
 
-$${\displaystyle cov(x,y) = E \left( (x-E_x)(y-E_y) \right) }$$
+$${\displaystyle cov(x,y) = E \left( (x-E_x)(y-E_y) \right). }$$
 
 Hier staat $$E$$ voor de *verwachtingswaarde*. De verwachtingswaarde voor $$x$$ en $$y$$ worden respectievelijk aangegeven met $$E_x$$ en $$E_y$$. De formule geeft dus aan dat de covariantie gelijk is aan de verwachtingswaarde van het verschil tussen de waarde van de grootheid $$x$$ en de verwachtingswaarde van $$x$$ vermenigvuldigd met het verschil tussen de grootheid $$y$$ en de verwachtingswaarde van $$y$$.
 
-Als bovengemiddelde waardes van $$x$$ overwegend samen gaan met relatief hoge waardes van $$y$$, dan hebben we te maken met een positieve waarde voor de covariantie. Als bij bovengemiddelde waardes van $$x$$ de waardes van $$y$$ voornamelijk onder het gemiddelde van $$y$$ liggen, dan is de covariantie negatief.
+Als bovengemiddelde waardes van $$x$$ overwegend samengaan met relatief hoge waardes van $$y$$, dan hebben we te maken met een positieve waarde voor de covariantie. Als bij bovengemiddelde waardes van $$x$$ de waardes van $$y$$ voornamelijk onder het gemiddelde van $$y$$ liggen, dan is de covariantie negatief.
 Als de covariantie gelijk is aan nul dan is er, gemiddeld over de hele dataset, geen afhankelijkheid. Het kan zijn dat voor delen van de dataset wel degelijk een positieve covariantie bestaat, deze wordt dan opgeheven door een ander gedeelte met een negatieve covariantie. 
 Als de covariantie nul is, betekent dat dus niet persé dat er geen afhankelijkheid is van $$x$$ ten opzichte van $$y$$. 
 
