@@ -169,11 +169,7 @@ for line in f:
             front_line = line[0:start]
             fix_line = line[start:end+1]
             end_line = line[end+1:]
-            #print('font_line ', front_line)
-            #print('fix_line ', fix_line)
-            #            print('end_line ', end_line)
             go = end_line.count('\\href')
-            #            print('go ',go)
             if ((fix_line.count('http')==0) & (fix_line.count('.py')==0) & (fix_line.count('.docx')==0)) :
                 temp_line = front_line
                 temp_line += line[mid+2:end]
@@ -211,7 +207,15 @@ for line in f:
             start = line.find('\href',end)
             mid = line.find('}',start)
             end = line.find('}',mid+1)
-            
+
+    go = line.count('\\subsubsection')
+    if (go) :
+        start = line.find('string')
+        mid = line.find('{',start)
+        end = line.find('}',mid+1)
+        line = '\\bf ' + line[mid+1:end+3]
+
+     
     l = line
     print(l)
 

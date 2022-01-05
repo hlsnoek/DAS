@@ -36,7 +36,11 @@ for line in f:
     if line.startswith('$$') :
         line = line.replace( r"$$", r"\begin{equation}",1 )
         line = line.replace( r"$$", r"\end{equation}",1 )
-        
+
+    if line.startswith('####') :
+        line = line.replace( r"#### ", r"**",1 )
+        line = line + '**'
+
 
     if (line.count('.py]')) :
         line = line.replace( r'.py]', r".py`**]" )

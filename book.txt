@@ -1,5 +1,7 @@
 #merge
 
+
+
 10 Module 1/00 Introductie/Introductie.md				
 10 Module 1/01 Basisbegrippen/Basisbegrippen.md				
 10 Module 1/02 Notatie/Notatie.md					
@@ -13,6 +15,13 @@
 12 Opdrachten Module 1/30 Eigenschappen/Eigenschappen.md		
 12 Opdrachten Module 1/40 GroteAantallen/GroteAantallen.md		
 12 Opdrachten Module 1/50 Halfwaardedikte/Halfwaardedikte.md		
+
+14 Tussentoets I/10 Inhoud/Inhoud.md
+#14 Tussentoets I/20 Oefenopgaves/Oefenopgaves.md
+#14 Tussentoets I/30 Antwoorden/Antwoorden.md
+
+#24 Tussentoets II/30 AntwoordenII/Antwoorden.md
+##34 Tussentoets III/30 AntwoordenIIIa/Antwoorden.md
 
 
 20 Module 2/00 Introductie/Introductie.md
