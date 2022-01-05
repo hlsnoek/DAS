@@ -13,8 +13,9 @@ Zodra deze ratio onder de 0.5 komt nemen we $$d$$ als de halfwaardedikte. Hierbi
 > - **M2.3a) Wat is de onzekerheid op de ratio R? Bereken deze door gebruik te maken van de onzekerheden op $$N_0$$ en $$N_{half}$$ en de regels voor propagatie van ongecorreleerde fouten ([Deze kan je hier vinden](/module-2/foutenpropagatiei)). Schrijf je berekening helemaal uit.** 
 
 We maken bij het bepalen van de halfwaardedikte gebruik van een recept. 
-Zo'n recept om de waarde van een parameter te bepalen noemen we ook wel een **schatter**. De parameter die we hier willen bepalen is de halwaardedikte van lood (voor de energie van onze bron). De schatter is in dit geval:<br>
- $$d_{half} = $$ kleinste waarde van $$d$$ waarvoor geldt dat $$R = \frac{N_d}{N_0} < 0.5$$.
+Zo'n recept om de waarde van een parameter te bepalen noemen we ook wel een **schatter**. De parameter die we hier willen bepalen is de halfwaardedikte van lood (voor de energie van onze bron). De schatter is in dit geval:<br>
+
+$$d_{half} = $$ kleinste waarde van $$d$$ waarvoor geldt dat $$R = \frac{N_d}{N_0} < 0.5$$.
 
 We gaan het experiment nu 50 keer herhalen en kijken naar de distributie van de gevonden halfwaardediktes. Uit deze distributie bepalen we de standaardafwijking en gebruiken dit als onzekerheid op de gevonden dikte $$d_{half}$$.
 
@@ -37,7 +38,7 @@ We gaan het experiment nu 50 keer herhalen en kijken naar de distributie van de 
  
 We gaan nu bekijken hoe zuiver de meting is. Lees hiervoor eerst het hoofdstuk [schatmethodes](/module-2/schatmethodes).
 
-De zuiverheid is gedefinieerd als als het verschil tussen de verwachtingswaarde van een schatter en de 'echte' waarde van de te meten parameter. Het symbool voor de zuiverheid is $$b$$ (van het Engelse bias). De formule van de onzuiverheid is: 
+De zuiverheid is gedefinieerd als het verschil tussen de verwachtingswaarde van een schatter en de 'echte' waarde van de te meten parameter. Het symbool voor de zuiverheid is $$b$$ (van het Engelse bias). De formule van de onzuiverheid is: 
 
 $${\displaystyle b = {\text{gemeten waarde}} - {\text{echte waarde}}}.$$
 
