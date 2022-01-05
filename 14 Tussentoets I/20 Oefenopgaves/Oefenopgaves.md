@@ -1,7 +1,10 @@
-# Oefenopgaves als voorbereiding voor tussentoets 1
+## Oefenopgaves 
+
+<!--COMMENT\iffalse-->
 
 Lees goed het [lijstje](/tussentoets-i/inhoud) door ter voorbereiding voor de tussentoets. **Niet voor alle element op het lijstje zijn oefenopgaves**.
 
+<!--COMMENT\fi-->
 
 -----
 
@@ -13,9 +16,6 @@ Lees goed het [lijstje](/tussentoets-i/inhoud) door ter voorbereiding voor de tu
 
 **b** De docent van de groep is 44.5 jaar oud.  
 Bereken nu opnieuw het gemiddelde, de standaardafwijking en de variantie waarbij je de leeftijd van de docent ook meeneemt. <br>
-
-de standaardafwijking is 7.31 jaar en de variantie is 53.4 $$\textrm{jaar}^2$$.   
-
 
 -----
 

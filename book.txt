@@ -17,7 +17,7 @@
 12 Opdrachten Module 1/50 Halfwaardedikte/Halfwaardedikte.md		
 
 14 Tussentoets I/10 Inhoud/Inhoud.md
-#14 Tussentoets I/20 Oefenopgaves/Oefenopgaves.md
+14 Tussentoets I/20 Oefenopgaves/Oefenopgaves.md
 #14 Tussentoets I/30 Antwoorden/Antwoorden.md
 
 #24 Tussentoets II/30 AntwoordenII/Antwoorden.md

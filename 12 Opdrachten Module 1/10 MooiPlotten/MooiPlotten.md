@@ -73,8 +73,8 @@ Als je tevreden bent met het resultaat kun je het histogram opslaan door de laat
 
 	plt.savefig('M1.1_MooiPlotten.png')   
 
-> Open nu het [inlevertemplate](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/InlevertemplateModule1.docx) voor Module 1 en beantwoord de volgende twee vragen. 
-> 
+Open nu het inlevertemplate [inlevertemplate](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/InlevertemplateModule1.docx) voor Module 1 en beantwoord de volgende twee vragen. 
+ 
 > **M1.1a)  Plaats hier je histogram.**    <br><br>
 >   
 > **M1.1b) Valt je iets op aan de data? Probeer het te omschrijven.**
