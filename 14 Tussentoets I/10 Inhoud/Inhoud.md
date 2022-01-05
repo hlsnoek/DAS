@@ -43,6 +43,6 @@ Hieronder vind je een lijstje met de stof die je moet kennen. Kijk ook naar de [
 
 - Weten wat een stochast is. 
 - De definitie en de voorwaardes kennen van de kansdichtheidsdistributie.
-- Het kunnen berekenen van het gemiddelde en de standaardafwijking voor eenvoudige discrete en continue kansdichtheidsdistributies (de afleiding voor de formules zelf van het gemiddelde en de standaardafwijking wordt niet gevraagd voor de Binomiaal, de Poisson en de Normaal verdeling).
+- Het kunnen berekenen van het gemiddelde en de standaardafwijking voor eenvoudige discrete en continue kansdichtheidsdistributies (de afleiding voor de formules zelf van het gemiddelde en de standaardafwijking wordt niet gevraagd voor de Binomiaal, de Poisson en de Normaalverdeling).
 - De Uniforme, de Binomiale, de Poisson en de normale distributie kunnen herkennen en kansen kunnen berekenen met deze functies.
 

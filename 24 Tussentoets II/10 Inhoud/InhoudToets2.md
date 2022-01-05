@@ -7,18 +7,20 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 
 ## Stof checklist
 
-### Foutenpropagatie [link](/module-2/foutenpropagatiei) 
+#### [Foutenpropagatie](/module-2/foutenpropagatiei) 
 
 * Het kennen en kunnen toepassen van de algemene regel voor foutenpropagatie.
 * Afronden van getallen bij foutenpropagatie
 
 
-### De Wet van Grote aantallen [link](/module-2/wet-van-grote-aantallen)
+#### [De Wet van Grote aantallen](/module-2/wet-van-grote-aantallen)
+
 * De wortel N wet kunnen toepassen. Kunnen uitrekenen hoe een meetonzekerheid schaalt met de grootte van de dataset.
 * De wet van grote aantallen kennen en kunnen toepassen.
 * De voorwaardes kennen van de wet van grote aantallen.
 
-### Meerdimensionale data [link](/module-2/meerdimensionale-data)
+#### [Meerdimensionale data](/module-2/meerdimensionale-data)
+
 * De covariantie definitie kennen.
 * De covariantie van een dataset met twee grootheden kunnen uitrekenen.
 * De formule van de correlatie kennen.
@@ -26,16 +28,18 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 * Het concept causaliteit kennen.
 * Weten wat een verborgen parameter is.
 
-### Extra kansrekenregels [link](/module-2/extra-kansrekenregels)
+#### [Extra kansrekenregels](/module-2/extra-kansrekenregels)
+
 * Alle kansrekenregels (ook uit module 1) paraat hebben en kunnen toepassen.
 * De wiskundige notaties $$(A \cap B)$$, $$(A \cup B)$$ en $$(A
 |B)$$ kennen en begrijpen.
 * Begrijpen wanneer je welke regel moet toepassen.
 * Bayes theorema kennen en kunnen toepassen. Bekijk ook de kennisclip op Canvas.
 
-### Schatmethodes [link](/module-2/schatmethodes)
+#### [Schatmethodes](/module-2/schatmethodes)
+
 * De definitie van een schatter kennen. 
-* Weten wat een zuivere, consistente en efficïente meting is. 
+* Weten wat een zuivere, consistente en efficiënte meting is. 
 * Ken ook de formule voor onzuiverheid en weet hoe je die moet toepassen.
 
 
