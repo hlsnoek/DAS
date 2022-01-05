@@ -46,7 +46,7 @@ Volg deze instructie alleen als je nog geen Anaconda of editor hebt geïnstallee
 Dit pakket kunt je downloaden op de [website](https://www.anaconda.com/download/). 
 Kies daar voor de “Anaconda Individual Edition”. De download is vrij groot, het kan dus even duren voordat het klaar is!
 
-Zodra de download klaar is, moet je het gedownloade bestand uitvoeren (dubbelklik?). Volg dan de installatieinstructies en kies waar nodig voor “Install for me only”; als het goed is hoef je verder niks te veranderen.
+Zodra de download klaar is, moet je het gedownloade bestand uitvoeren (dubbelklik?). Volg dan de installatie instructies en kies waar nodig voor “Install for me only”; als het goed is hoef je verder niks te veranderen.
 
 Let op: kies op Windows altijd de “advanced” installatie en kruis onderstaande vinkje aan! Als je dit niet hebt gedaan moet je het verwijderen en opnieuw installeren!
 

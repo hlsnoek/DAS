@@ -18,7 +18,7 @@ Je kunt via Canvas vragen stellen over het vak.
 ### Voorbereiding
 Bereid je vast voor op dit vak door te zorgen dat python goed geïnstalleerd is en dat je je kennis hierover even opfrist.<br>
 Zorg dat je weet hoe 'for' loops werken en hoe je een functie definieert. <br>
-Volg de instatllatie kun je deze [instructies](/informatie/installatie)  volgen. Als het test programmaatje goed draait dan kun je straks meteen aan de slag.<br>
+Volg de installatie kun je deze [instructies](/informatie/installatie)  volgen. Als het test programmaatje goed draait dan kun je straks meteen aan de slag.<br>
 
 
 ### Hoorcolleges
@@ -43,7 +43,7 @@ Het opnieuw insturen van opdrachten is niet meer mogelijk na de deadline.
 
 Als je niet zowel een voldoende hebt voor (het gewogen gemiddelde van) de inlevertoetsen als voor de tussentoetsen kun je het vak herkansen. Toegang tot de herkansing wordt alleen verleend als je **alle** opdrachten op tijd hebt ingeleverd.
 
-Let op! De toetsvorm van de herkansing staat voor dit jaar nog niet vast. Het zal afhangen van de Corona regels op dat moment en de hoeveelheid studenten die een herkansing nodig heeft. 
+Let op! De toets vorm van de herkansing staat voor dit jaar nog niet vast. Het zal afhangen van de Corona regels op dat moment en de hoeveelheid studenten die een herkansing nodig heeft. 
 
 ### Samenwerken, fraude en plagiaat
 
