@@ -24,13 +24,13 @@ Zonder dat we dit expliciet benoemd hebben zijn we al veel schatters tegengekome
 
 Het doel van de schattingstheorie is een functie of methode te vinden die een goede schatting oplevert van de grootheid die we willen meten. Dat we deze grootheid nooit exact kunnen bepalen is inmiddels duidelijk, alle metingen zijn onderhevig aan meetfouten en onzekerheden.
 
-Er zijn drie criterea waarmee we evalueren waaraan een goede schatter voldoet:
+Er zijn drie criteria waarmee we evalueren waaraan een goede schatter voldoet:
 
 - de schatter moet **zuiver** zijn, 
 - de schatter moet **consistent** zijn,
-- de schatter moet **relatief efficïent** zijn. 
+- de schatter moet **relatief efficiënt** zijn. 
 
-Als we verschillende schatters definïeren bieden de criterea een houvast om te bepalen wat de beste schatter is. We gaan kort op deze drie criterea in.
+Als we verschillende schatters definiëren bieden de criteria een houvast om te bepalen wat de beste schatter is. We gaan kort op deze drie criteria in.
 
 ## Zuiver
 De zuiverheid van een schatter wordt gedefinieerd als:
@@ -49,11 +49,11 @@ Naarmate de steekproef groter wordt benaderen we met de schatter de populatiegro
 
 > **Voorbeeld** Naarmate we meer data nemen benadert het steekproefgemiddelde (de schatter) het populatiegemiddelde (de populatiegrootheid).
 
-## Efficïent
-Als er meerdere schatters kunnen worden gedefinïeerd dan heeft een goede schatter relatief de kleinste variantie.
+## Efficiënt
+Als er meerdere schatters kunnen worden gedefinieerd dan heeft een goede schatter relatief de kleinste variantie.
 Anders gezegd, als we meerdere recepten kunnen bedenken om tot een inschatting te komen van de populatiegrootheid die we willen meten dan heeft de beste schatter de kleinste meetonzekerheid. 
 
->  **Voorbeeld** We hebben twee schatters, $$\theta_1$$ en $$\theta_2$$, die allebei het doel hebben dezelfde populatiegrootheid $$\mu$$ te bepalen. De variantie op de schatters zijn $$s_1^2$$ en $$s_2^2$$ waarbij $$s_1 < s_2$$. Beide schatters voldoen aan de zuiverheid en consistentheid criterea. De beste schatter is degene met de kleinste variantie. In dit voorbeeld is dat $$\theta_1$$.
+>  **Voorbeeld** We hebben twee schatters, $$\theta_1$$ en $$\theta_2$$, die allebei het doel hebben dezelfde populatiegrootheid $$\mu$$ te bepalen. De variantie op de schatters zijn $$s_1^2$$ en $$s_2^2$$ waarbij $$s_1 < s_2$$. Beide schatters voldoen aan de zuiverheid en consistent criteria. De beste schatter is degene met de kleinste variantie. In dit voorbeeld is dat $$\theta_1$$.
 
 
 ## Voorbeelden
@@ -62,7 +62,7 @@ We bekijken een aantal voorbeelden.
 
 
 > **Onzuiver: Een ongeijkte meetlat**
-> Je meet in een experiment de gemiddelde lengte van lucifers. Elke lucifer leg je langs een nauwkeurige lineaal en je noteert heel precies de lengte in millimeters. De meetlat zelf is helaas ongeijkt en 1 millimeter op de schaal van de meetlat is in werkelijkheid $$10\%$$ groter. Als we een lengte van 1.0 cm meten, dan is de daadwerkelijke lengte 1.1 cm. Hierdoor ontstaat er een vertekend beeld van de lengte van de lucifers. De verwachtingwaarde van het gemiddelde is dat die $$10\%$$ te klein zal uitvallen. De relatieve onzuiverheid zal dan ook precies $$-10\%$$ zijn. Als we de het gemeten gemiddelde kennen kunnen we deze omrekenen naar de absolute onzuiverheid $$b.$$
+> Je meet in een experiment de gemiddelde lengte van lucifers. Elke lucifer leg je langs een nauwkeurige liniaal en je noteert heel precies de lengte in millimeters. De meetlat zelf is helaas ongeijkt en 1 millimeter op de schaal van de meetlat is in werkelijkheid $$10\%$$ groter. Als we een lengte van 1.0 cm meten, dan is de daadwerkelijke lengte 1.1 cm. Hierdoor ontstaat er een vertekend beeld van de lengte van de lucifers. De verwachtingswaarde van het gemiddelde is dat die $$10\%$$ te klein zal uitvallen. De relatieve onzuiverheid zal dan ook precies $$-10\%$$ zijn. Als we de het gemeten gemiddelde kennen kunnen we deze omrekenen naar de absolute onzuiverheid $$b.$$
 
  <br>
 
@@ -73,22 +73,22 @@ We bekijken een aantal voorbeelden.
 > 
 > In dit voorbeeld heeft de onzuiverheid niet te maken met een ongeijkt meetinstrument maar met een onzuivere schatmethode.  
 > 
-> Het zou goed zijn om nog iets meer te weten over dit onderzoek. Kan het zo zijn dat bij sommige vissen waarbij maar twee strepen geteld zijn de derde streep er wel was maar niet zichtbaar was? Ook dat kan een vertekening van het het eindresultaat opleveren.  
+> Het zou goed zijn om nog iets meer te weten over dit onderzoek. Kan het zo zijn dat bij sommige vissen waarbij maar twee strepen geteld zijn de derde streep er wel was maar niet zichtbaar was? Ook dat kan een vertekening van het eindresultaat opleveren.  
 
 
  <br>
 
 > **Niet consistent: De eerste waarde**
-> Het meest bekende voorbeeld van een schatter die niet consistent is is de volgende. Je neemt een steekproef met $$n$$ waardes van $$x$$. Je steekproef ziet er als volgt uit: $$\{x_1,x_2, .. , x_n \}.$$ We willen met de steekproef het populatiegemiddelde $$\mu_x$$ bepalen en gebruiken hiervoor de eerste waarde van de steekproef, $$x_1.$$ Op zich is dit een zuivere schatter, de waarde van $$x_1$$ geeft wellicht niet een heel nauwkeurige schatting van $$\mu_x$$, maar hij is niet vertekend. De schatmethode is echter niet consistent met de wet van grote aantallen. De nauwkeurigheid van de schatting wordt niet beter als we de steekproef vergroten en de schatmethode noemen we dus *niet consistent*. 
+> Het meest bekende voorbeeld van een schatter die niet consistent is, is de volgende. Je neemt een steekproef met $$n$$ waardes van $$x$$. Je steekproef ziet er als volgt uit: $$\{x_1,x_2, .. , x_n \}.$$ We willen met de steekproef het populatiegemiddelde $$\mu_x$$ bepalen en gebruiken hiervoor de eerste waarde van de steekproef, $$x_1.$$ Op zich is dit een zuivere schatter, de waarde van $$x_1$$ geeft wellicht niet een heel nauwkeurige schatting van $$\mu_x$$, maar hij is niet vertekend. De schatmethode is echter niet consistent met de wet van grote aantallen. De nauwkeurigheid van de schatting wordt niet beter als we de steekproef vergroten en de schatmethode noemen we dus *niet consistent*. 
 
 
  <br>
 
-> **Efficïent: Een betere schatter**
-> Stel we hebben een verzameling van dinosaurusbotten en we weten dat de botten afkomstig zijn van twee soorten dinosaurussen. We gaan de botten klasificeren. We kunnen hierbij gebruik maken van de kleur van de botten. De botten van de ene dinosaurus lijken iets lichter van kleur te zijn dan de andere. Er is wel een grijs gebied, er zijn botten die we niet kunnen klassificeren omdat ze niet heel licht en ook niet heel donker van kleur zijn. Deze botten vallen er precies tussen in. 
+> **Efficiënt: Een betere schatter**
+> Stel we hebben een verzameling van dinosaurusbotten en we weten dat de botten afkomstig zijn van twee soorten dinosaurussen. We gaan de botten classificeren. We kunnen hierbij gebruik maken van de kleur van de botten. De botten van de ene dinosaurus lijken iets lichter van kleur te zijn dan de andere. Er is wel een grijs gebied, er zijn botten die we niet kunnen classificeren omdat ze niet heel licht en ook niet heel donker van kleur zijn. Deze botten vallen er precies tussen in. 
 > 
-> Een andere methode is om te kijken naar de dichtheid van de botten. Hier zit een groot verschil in. De botten van de ene soort dino's hebben een veel grotere massadichtheid dan de andere. We kunnen door het volume op te meten en het massa van de botten het soortelijk gewicht bepalen. Het verschil in massadichtheid is veel groter dan de onzekerheid van de meting en ook zit er maar een heel kleine spreiding in de massadichteid voor de verschillende exemplaren dino's van dezelfde soort. 
+> Een andere methode is om te kijken naar de dichtheid van de botten. Hier zit een groot verschil in. De botten van de ene soort dino's hebben een veel grotere massadichtheid dan de andere. We kunnen door het volume op te meten en het massa van de botten het soortelijk gewicht bepalen. Het verschil in massadichtheid is veel groter dan de onzekerheid van de meting en ook zit er maar een heel kleine spreiding in de massadichtheid voor de verschillende exemplaren dino's van dezelfde soort. 
 > 
-> Dit tweede methode is heel omslachtig maar wel zeer efficïent. Voor alle botten kun je uitsluitsel geven. Omdat er een alternatieve methode bestaat die beter is, noemen we de klassificatie methode met behulp van kleur *niet efficïent*.
+> Dit tweede methode is heel omslachtig maar wel zeer efficiënt. Voor alle botten kun je uitsluitsel geven. Omdat er een alternatieve methode bestaat die beter is, noemen we de classificatie methode met behulp van kleur *niet efficiënt*.
 
 
