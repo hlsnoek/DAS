@@ -1,5 +1,5 @@
-
 ## Tussentoetsen
+<!--REF\label{/informatie/tussentoetsen}-->
 
 Er worden 3 tussentoetsen afgenomen in week 2, week 3 en week 4 van het vak. Deze tellen voor 20% mee voor je eindcijfer. Je moet minimaal een 5.5 halen voor het gemiddelde van de drie toetsen om het vak te halen. 
 

@@ -1,5 +1,5 @@
 ## Python op je eigen computer
-
+<!--REF\label{/informatie/installatie}-->
 
 In dit vak gaan we met Python werken. We werken met scripts en macro's. 
 Waarschijnlijk heb je eerder al, bijvoorbeeld bij Inleiding Programmeren, je eigen versie van python geïnstalleerd met Anaconda en heb je al een programma, zoals Visual Studio code waarin je de scripts kunt schrijven. 
