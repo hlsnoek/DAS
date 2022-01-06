@@ -1,4 +1,5 @@
 # Voorbereiding op tussentoets 3
+<!--REF\label{/tussentoets-iii/inhoud}-->
 
 
 Hieronder vind je een lijstje met de stof die je moet kennen.  Kijk ook naar de [oefenopgaves](/tussentoets-iii/oefenopgaves) die bij deze tussentoets horen.

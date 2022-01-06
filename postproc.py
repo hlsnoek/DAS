@@ -13,7 +13,7 @@ for line in f:
     
     if(line.count("documentclass")) :
         line = '\documentclass[11pt,oneside,a4paper,pdftex,openany]{book}'
-        line += '\\usepackage{capt-of}\n\\usepackage{xcolor}'
+        line += '\\usepackage{capt-of}\n\\usepackage{xcolor}\n'
         line += '\\usepackage[titletoc,toc,title]{appendix}'
         line += '\n\\usepackage[most]{tcolorbox}\n'
         line += '\\usepackage{mathrsfs}\n'
@@ -117,9 +117,9 @@ for line in f:
         line = line.replace( r"Introductie Module 3", r"")
         line = line.replace( r"Introductie Module 4", r"")
 
-#    if (line.count('hypertarget{de-chi2--toets-tabel}')) :
-#        line = '\\begin{appendices}\n' + line
 
+    if (line.count('Studiewijzer')) :
+        line = line.replace( r"Studiewijzer", r"Introductie")
 
     if (line.startswith('\\newline')) : line = ""
     

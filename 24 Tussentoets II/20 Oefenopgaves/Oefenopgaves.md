@@ -1,9 +1,13 @@
-# Oefenopgaves als voorbereiding voor tussentoets 2
+## Oefenopgaves
+<!--REF\label{/tussentoets-ii/oefenopgaves}-->
+
+<!--COMMENT\iffalse-->
 Lees goed het [lijstje](/tussentoets-ii/inhoud) door ter voorbereiding voor de tussentoets. Niet voor alle element op het lijstje zijn oefenopgaves!
 
 **Let op:** Voor alle opgaven in dit vak geldt dat je bij het noteren van resultaten je moet houden aan de regels. Kijk hiervoor goed naar het stukje 'significantie en notatie' in het hoofdstuk [Notatie](/module-1/notatie).
+<!--COMMENT\fi-->
 
-### Foutenpropagatie 
+
 
 **1.**
 Als $$y = 2 x + 0.6$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
@@ -35,8 +39,8 @@ Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$),
 Stel je wil de kinetische energie berekenen van een object. De formule is $$E_k = 1/2 m \cdot v^2$$. Je meet de massa van het object, deze is $$m=2.3 \pm 0.2$$ kg. De snelheid is $$v=0.20 \pm 0.05$$ m/s. <br>
 Bereken de kinetische energie.<br>
 
+----
 
-### De Wet van Grote aantallen
 
 **8.**
 We hebben een dataset met de gemeten massa van 80 kogels. Het gemiddelde van de massa-distributie is bepaald op 108.2 kg. De standaardafwijking van de massa-distributie is 11.2 kg. Wat is de fout op het berekende gemiddelde?<br>
@@ -58,8 +62,9 @@ We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten
 **a.** Wat is de onzekerheid op het gemiddelde van deze dataset?<br>
 **b.** We voegen nog 9 extra waardes aan onze dataset toe. Wat is de onzekerheid op het gemiddelde nu?<br>
 
+-----
 
-### Meerdimensionale data
+
 **12.**
 Je hebt de volgende dataset met waardes van x en y: <br>
 <center>{2,5}, {1,4}, {5,2}, {3,0} </center><br>
@@ -74,20 +79,26 @@ Je hebt de volgende dataset met waardes van x en y: <br>
 **a.** Bereken de covariantie.<br>
 **b.** Bereken de correlatie.<br>
 
-### Extra kansrekenregels 
+-----
+
+
 **14.** 
 Op een zomerse avond zie je rook, en waar rook is is vuur. Op een zomerse avond is de kans dat je rook ziet (10%), meestal door gebruik van barbeques. Gevaarlijke branden zijn heel zeldzaam (1%) de kans dat rook bij een gevaarlijke brand vrijkomt is groot (90%). Wat is de kans dat de rook die je ziet van een een gevaarlijk brand afkomt?<br>
 <span style = 'color=blue'>
 Gebruik Bayes theorema om dit uit te rekenen.<br>
 
-## Zuiverheid
-**15.**
-Van een dataset is het populatiegemiddelde en het steekproefgemiddelde bekend. $$\mu = 5.3 $$ kg en $$s = 5.1$$ kg. Bereken de onzuiverheid van de meeting. <br>
+-----
 
+
+**15.**
+Van een dataset is het populatiegemiddelde en het steekproefgemiddelde bekend. $$\mu = 5.3 $$ kg en $$s = 5.1$$ kg. Bereken de onzuiverheid van de meeting.<br> 
+
+-----
  
 **16.**
 Je meet met een meetlat die 2 cm te kort blijkt te zijn. Wat is de onzuiverheid van de metingen die je verricht? <br>
 
+-----
 
 **17.**
 **a**
