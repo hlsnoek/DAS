@@ -10,7 +10,7 @@ $${\displaystyle R = \frac{N_d}{N_0}.}$$
 
 Zodra deze ratio onder de 0.5 komt nemen we $$d$$ als de halfwaardedikte. Hierbij geldt dan $$N_d \equiv N_{\mathrm{half}}$$.
 
-> - **M2.3a) Wat is de onzekerheid op de ratio R? Bereken deze door gebruik te maken van de onzekerheden op $$N_0$$ en $$N_{half}$$ en de regels voor propagatie van ongecorreleerde fouten ([Deze kan je hier vinden](/module-2/foutenpropagatiei)). Schrijf je berekening helemaal uit.** 
+> - **M2.3a) Wat is de onzekerheid op de ratio R? Bereken deze door gebruik te maken van de onzekerheden op $$N_0$$ en $$N_{half}$$ en de regels voor propagatie van ongecorreleerde fouten ([Deze kan je hier vinden](/module-2/foutenpropagatiei)). Schrijf je berekening helemaal uit en vul deze ook in om de waarde van de onzekerheid te berekenen.** 
 
 We maken bij het bepalen van de halfwaardedikte gebruik van een recept. 
 Zo'n recept om de waarde van een parameter te bepalen noemen we ook wel een **schatter**. De parameter die we hier willen bepalen is de halfwaardedikte van lood (voor de energie van onze bron). De schatter is in dit geval:<br>
