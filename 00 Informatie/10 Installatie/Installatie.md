@@ -30,7 +30,7 @@ Als je nog geen Anaconda hebt geïnstalleerd, doe dat dan eerst met de instructi
 >
 > Het activeren hoef je, als het goed is, maar één keer te doen. Als je VSCode afsluit en weer opstart wordt de das omgeving vanzelf weer geactiveerd. Je kan dit zelf controleren, linksonder in de blauwe balk zie je als het goed is het volgende staan: Python 2.10.0 64-bit ('das':conda)
 
-Controleer nu of je omgeving werkt door een testfile te draaien. Download de [testfile](AllePakketten.py), voeg hem toe aan een werkfolder voor dit vak en probeer hem te draaien. Je hoort, na een tijdje, de volgende output te zien: 
+Controleer nu of je omgeving werkt door een testfile te draaien. Download de [testfile](AllePakketten.py), voeg hem toe aan je werkfolder voor dit vak en probeer hem te draaien. Je hoort, na een tijdje, de volgende output in de terminal te zien: 
 
 	Even controleren of je installatie helemaal werkt... 
     ... Je bent geslaagd!
