@@ -61,9 +61,9 @@ Nu gaan we kijken naar het effect van een vermenigvuldiging van x.
 ### Poisson
 We gaan nu kijken wat het effect is van translatie en multiplicatie op een Poisson distributie $$dp(k)$$. De Poisson distributie krijg je door de volgende functie aan te roepen.
 
- 			dp = ds.genereerDistributieDP(500)
+	dp = ds.genereerDistributieDP(500)
 
-Herhaal nu de vragen b-d voor de Poisson verdeling: 
+Herhaal nu de vragen **M1.3b**-**M1.3d** voor de Poisson verdeling: 
 
 > - **M1.3e) Maak nu een plot waar de drie histogrammen voor de Poisson verdeling te zien zijn. De originele, de translatie en de multiplicatie. Zorg dat de histogram goed leesbaar is en kijk hiervoor nog eens naar de richtlijnen.**  <br><br>
 >
