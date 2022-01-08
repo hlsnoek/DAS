@@ -4,7 +4,6 @@
 %
 \documentclass[11pt,oneside,a4paper,pdftex,openany]{book}\usepackage{capt-of}
 \usepackage{xcolor}
-\usepackage{menukeys}
 \usepackage[titletoc,toc,title]{appendix}
 \usepackage[most]{tcolorbox}
 \usepackage{mathrsfs}
@@ -158,9 +157,12 @@
 
 \mainmatter
 \hypertarget{studiewijzer}{%
-\chapter{Studiewijzer}\label{studiewijzer}}
+\chapter{Introductie}\label{studiewijzer}}
 
-\#\#\emph{Data Analyse en Statistiek, Januari 2022}
+\label{/syllabus}
+
+\hypertarget{data-analyse-en-statistiek-januari-2022}{%
+\section{Data Analyse en Statistiek, Januari 2022}\label{data-analyse-en-statistiek-januari-2022}}
 
 Welkom bij het vak Data Analyse en Statistiek. In dit vak leer je de basisprincipes van statistiek en deze toe te passen op realistische gemodelleerde datasets.
 
@@ -173,7 +175,7 @@ Je kunt via Canvas vragen stellen over het vak.
 \textbf{Voorbereiding}
 Bereid je vast voor op dit vak door te zorgen dat python goed geïnstalleerd is en dat je je kennis hierover even opfrist.\newline
 Zorg dat je weet hoe `for' loops werken en hoe je een functie definieert. \newline
-Volg de installatie kun je deze instructies (Hfdst. \ref{/informatie/installatie})
+Voor de installatie kun je de instructies (Hfdst. \ref{/informatie/installatie})
 volgen. Als het test programmaatje goed draait dan kun je straks meteen aan de slag.\newline
 
 \textbf{Hoorcolleges}
@@ -224,6 +226,8 @@ Zie ook:
 \hypertarget{python-op-je-eigen-computer}{%
 \section{Python op je eigen computer}\label{python-op-je-eigen-computer}}
 
+\label{/informatie/installatie}
+
 In dit vak gaan we met Python werken. We werken met scripts en macro's. Waarschijnlijk heb je eerder al, bijvoorbeeld bij Inleiding Programmeren, je eigen versie van python geïnstalleerd met Anaconda en heb je al een programma, zoals Visual Studio code waarin je de scripts kunt schrijven.
 
 Hieronder staan instructies om een nieuwe python omgeving te maken in anaconda waarin we in dit vak gaan werken. Hierbij hoort ook een testfile om te kijken of alle pakketten goed zijn geïnstalleerd.
@@ -271,7 +275,7 @@ Met het volgende commando heb je een nieuwe python omgeving gemaakt speciaal voo
 \begin{itemize}
 \item
   Als je in Visual Studio werkt dan activeer je de conda omgeving door eerst een \emph{Command Palette}
-te openen met (⇧⌘P) in MacOS en (Ctrl+Shift+p) in windows. Je typt dan \emph{Python: Select Interpreter}. Scroll dan in de lijst naar beneden om je net gemaakte \textbf{das}
+te openen met (Cmd+Shift+p) in MacOS en (Ctrl+Shift+p) in windows. Je typt dan \emph{Python: Select Interpreter}. Scroll dan in de lijst naar beneden om je net gemaakte \textbf{das}
 omgeving te vinden (waarschijnlijk onderaan).\newline
 \item
   Als je in een terminal werkt, dan type je
@@ -280,9 +284,11 @@ omgeving te vinden (waarschijnlijk onderaan).\newline
     conda activate das
 \end{lstlisting}
 \end{itemize}
+
+Het activeren hoef je, als het goed is, maar één keer te doen. Als je VSCode afsluit en weer opstart wordt de das omgeving vanzelf weer geactiveerd. Je kan dit zelf controleren, linksonder in de blauwe balk zie je als het goed is het volgende staan: Python 2.10.0 64-bit (`das':conda)
 \end{example}
 
-Controleer nu of je omgeving werkt door een testfile te draaien. Download de \href{AllePakketten.py}{testfile}, voeg hem toe aan een werkfolder voor dit vak en probeer hem te draaien. Je hoort, na een tijdje, de volgende output te zien:
+Controleer nu of je omgeving werkt door een testfile te draaien. Download de \href{AllePakketten.py}{testfile}, voeg hem toe aan je werkfolder voor dit vak en probeer hem te draaien. Dit kan je in VSCode op verschillende manieren doen. Een handige manier door de file eerste te openen en dan op de `play' button te drukken (rechtsboven, gekantelde driehoekje). Je hoort, na een tijdje, de volgende output in de terminal te zien:
 
 \begin{lstlisting}
 Even controleren of je installatie helemaal werkt... 
@@ -311,6 +317,8 @@ Dit pakket kun je downloaden op de website van \href{https://code.visualstudio.c
 \hypertarget{inleveropdrachten}{%
 \section{Inleveropdrachten}\label{inleveropdrachten}}
 
+\label{/informatie/inleveropdrachten}
+
 Tijdens de laptopcolleges werken we aan verschillende opdrachten. Hieronder vind je een overzicht van wanneer er aan welke module wordt en wanneer deze moet worden ingeleverd.
 
 De inleveropdrachten tellen voor 80\% mee voor je eindcijfer. Je moet een gemiddelde van een 5.5 halen voor de inlevertoetsen om het vak te halen.
@@ -333,11 +341,13 @@ inleveren en de code van alle opdrachten van de module. Hier vind je een instruc
 .
 
 \textbf{NB}
-Zoals ook in de Studiewijzer (Hfdst. \ref{/syllabus})
+Zoals ook in de Introductie (Hfdst. \ref{/syllabus})
 vermeld staat: Alle opdrachten moeten worden ingeleverd. Als je niet alle opdrachten hebt ingeleverd krijg je geen cijfer voor dit vak en kun je ook niet meedoen aan het hertentamen. \textbf{Als je een deadline niet haalt trekken we 2 punten per dag af}.
 
 \hypertarget{tussentoetsen}{%
 \section{Tussentoetsen}\label{tussentoetsen}}
+
+\label{/informatie/tussentoetsen}
 
 Er worden 3 tussentoetsen afgenomen in week 2, week 3 en week 4 van het vak. Deze tellen voor 20\% mee voor je eindcijfer. Je moet minimaal een 5.5 halen voor het gemiddelde van de drie toetsen om het vak te halen.
 
@@ -2412,10 +2422,11 @@ om de histogrammen doorzichtig te maken. Dit helpt bij het zichtbaar maken van d
 We gaan nu kijken wat het effect is van translatie en multiplicatie op een Poisson distributie $dp(k)$. De Poisson distributie krijg je door de volgende functie aan te roepen.
 
 \begin{lstlisting}
-        dp = ds.genereerDistributieDP(500)
+dp = ds.genereerDistributieDP(500)
 \end{lstlisting}
 
-Herhaal nu de vragen b-d voor de Poisson verdeling:
+Herhaal nu de vragen \textbf{M1.3b}-\textbf{M1.3d}
+voor de Poisson verdeling:
 
 \begin{example}
 \begin{itemize}
@@ -2576,7 +2587,7 @@ Beantwoord nu de volgende vragen:
 \item
   \textbf{M1.5d) Hoe groot denk je dat de onzekerheid is op de bepaalde halfwaardedikte? Probeer dit te kwantificeren, schrijf niet alleen de geschatte waarde op maar leg ook uit hoe je tot die waarde bent gekomen.}\newline\newline
 \item
-  \textbf{M1.5e) Kun je bedenken wat voor soort kans distributie zou de onzekerheid op de halfwaardedikte beschrijven? Leg uit hoe je tot je antwoord komt en als je het niet weet, beredeneer dan waarom je het niet weet.}\newline\newline
+  \textbf{M1.5e) Kun je bedenken wat voor soort kans distributie de onzekerheid op de halfwaardedikte zal beschrijven? Leg uit hoe je tot je antwoord komt en als je het niet weet, beredeneer dan waarom je het niet weet.}\newline\newline
 \item
   \textbf{M1.5f) Is de methode om de halfwaardedikte te meten zuiver (Engels: unbiased), dat wil zeggen vind je niet steeds juist een te hoge of te lage waarde? Zo nee, waarom denk dat je dat dit niet zo is. Zo ja, kun je een manier bedenken om de onzuiverheid te verminderen?}\newline\newline
 \item
@@ -2595,6 +2606,8 @@ over de inleveropdrachten voor de link naar ANS en de deadlines.
 
 \hypertarget{voorbereiding-op-tussentoets-1}{%
 \chapter{Voorbereiding op tussentoets 1}\label{voorbereiding-op-tussentoets-1}}
+
+\label{/tussentoets-i/inhoud}
 
 Hieronder vind je een lijstje met de stof die je moet kennen. Kijk ook naar de oefenopgaves (Hfdst. \ref{/tussentoets-i/oefenopgaves})
 die bij deze tussentoets horen.
@@ -2680,6 +2693,8 @@ en \textbf{theoretische onzekerheid}.
 
 \hypertarget{oefenopgaves}{%
 \section{Oefenopgaves}\label{oefenopgaves}}
+
+\label{/tussentoets-i/oefenopgaves}
 
 \iffalse
 
@@ -2835,7 +2850,9 @@ Op een dag komen er wel 7 binnen. Reken de kans uit dat dit gebeurt. \newline
 \textbf{b}
 Reken de kans uit dat er op een dag 0 binnenkomen. \newline
 
+\include{"M1_Oefenopgaves.tex"}
 \hypertarget{introductie-module-2}{%
+\include{"M1_Oefenopgaves.tex"}
 \part{}\label{introductie-module-2}}
 
 \label{/module-2/introductie}
@@ -3923,7 +3940,7 @@ Zodra deze ratio onder de 0.5 komt nemen we $d$ als de halfwaardedikte. Hierbij 
 \begin{itemize}
 \tightlist
 \item
-  \textbf{M2.3a) Wat is de onzekerheid op de ratio R? Bereken deze door gebruik te maken van de onzekerheden op $N_0$ en $N_{half}$ en de regels voor propagatie van ongecorreleerde fouten (Deze kan je hier vinden (Hfdst. \ref{/module-2/foutenpropagatiei})). Schrijf je berekening helemaal uit.}
+  \textbf{M2.3a) Wat is de onzekerheid op de ratio R? Bereken deze door gebruik te maken van de onzekerheden op $N_0$ en $N_{half}$ en de regels voor propagatie van ongecorreleerde fouten (Deze kan je hier vinden (Hfdst. \ref{/module-2/foutenpropagatiei})). Schrijf je berekening helemaal uit en vul deze ook in om de waarde van de onzekerheid te berekenen.}
 \end{itemize}
 \end{example}
 
