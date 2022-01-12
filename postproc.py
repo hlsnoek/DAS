@@ -116,6 +116,9 @@ for line in f:
     if (line.count('\hypertarget{introductie-module-3}')) :
         line = '\\input{M2_Oefenopgaves}\n' + line
 
+    if (line.count('\\begin{appendices}')) :
+        line = '\\input{M3_Oefenopgaves}\n' + line
+        
     if (line.count('Introductie Module')) :
         line = line.replace( r"chapter", r"part")
         line = line.replace( r"Introductie Module 1", r"")

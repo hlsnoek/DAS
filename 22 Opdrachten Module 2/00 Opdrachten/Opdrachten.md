@@ -1,9 +1,6 @@
 # Opdrachten module 2
 <!--REF\label{/opdrachten-module-2/opdrachten}-->
 
-1. Ordered TOC
-{:toc}
-
 In deze module gaan we werken aan de volgende opdrachten. 
 
 * [M2.1 Grote Aantallen II \*\*](/opdrachten-module-2/groteaantallen)

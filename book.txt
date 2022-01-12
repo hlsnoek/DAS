@@ -46,8 +46,11 @@ README.md
 32 Opdrachten Module 3/00 Opdrachten/Opdrachten.md		   
 32 Opdrachten Module 3/10 GroteAantallenIII/GroteAantallenIII.md   
 32 Opdrachten Module 3/20 HalfwaardedikteIII/HalfwaardedikteIII.md 
+34 Tussentoets III/10 Inhoud/InhoudToets3.md			   
+
+
 31 Appendix/10 Chi-Kwadraat Toets/ChiKwadraatOverschrijdingskansen.md 
-#
+
 40 Module 4/00 Introductie/Introductie.md			   
 40 Module 4/02 Hypothese toetsen 2/Theorie.md
 42 Opdrachten Module 4/00 Opdrachten/Opdrachten.md		   
@@ -59,8 +62,6 @@ README.md
 
 ###24 Tussentoets II/20 Oefenopgaves/Oefenopgaves.md		   
 
-#34 Tussentoets III/10 Inhoud/InhoudToets3.md			   
-##34 Tussentoets III/20 Oefenopgaves/Oefenopgaves.md		   
 
 #42 Opdrachten Module 4/00 Opdrachten/Opdrachten.md		   
 #42 Opdrachten Module 4/10 TweeFuncties/TweeFuncties.md		   

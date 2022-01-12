@@ -1,10 +1,6 @@
 # Opdrachten module 3
 <!--REF\label{/opdrachten-module-3/opdrachten}-->
 
-1. Ordered TOC
-{:toc}
-
-Tijdens laptopcolleges 5 en 6 werken we aan het de opdrachten in module 3. 
 In deze module gaan we werken aan twee opdrachten. 
 
 * [M3.1 Grote Aantallen III \*\*\*\*](/opdrachten-module-3/groteaantalleniii)
@@ -12,16 +8,11 @@ In deze module gaan we werken aan twee opdrachten.
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. 
 
-<!--COMMENT\iffalse-->
 
-De antwoorden van de opdrachten moet je invoeren in [dit template](InlevertemplateModule3.docx) en als **pdf** bestand inleveren via ANS. De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/informatie/inleveropdrachten) vinden.
+De antwoorden van de opdrachten moet je invoeren in [dit template](https://das.mprog.nl/course/22%20Opdrachten%20Module%203/00%20Opdrachten/InlevertemplateModule3.docx) en als **pdf** bestand inleveren via ANS. 
 
 
-Als je vragen hebt, stel deze dan aan de assistent of stuur een email naar de coördinator.
-<!--
 Vergeet niet om ook even te kijken naar de [oefen opgaves](/tussentoets-iii/oefenopgaves) ter voorbereiding van de derde tussentoets die aan het einde van het vierde werkcollege plaats vindt.
--->
-Veel succes! 
 
-<!--COMMENT\fi-->
+Veel succes! 
 

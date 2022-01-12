@@ -14,6 +14,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 * Begrijpen wat de centrale limietstelling betekend.
 
 #### [De Normaalverdeling](/module-3/normaalverdeling)
+
 * De formule voor de z-score kennen en deze kunnen toepassen
 
 
