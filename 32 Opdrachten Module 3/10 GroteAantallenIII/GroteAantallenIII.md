@@ -11,7 +11,7 @@ We hebben een ton met kogels en een heel nauwkeurige weegschaal. We kunnen ons v
 - Als we een kogel uit de ton pakken: "Wat is de massa van deze kogel?". 
 	De massa van deze enkele kogel weten we in dit experiment met bijna oneindige precisie. In ons voorbeeld zelfs bijvoorbeeld: $$m_{kogel} = 85.07426079254506 \pm 0.0000000000001 $$ gram.
 
-- Wat is de massa van een ***willekeurige*** kogel uit de ton? Wat we hiermee bedoelen is: Als ik een *willekeurige* kogel uit de ton pak, wat is dan de massa? Het preciese getal kunnen we niet van teveroen voorspellen, maar we weten wel ongeveer wat we kunnen verwachten als we het populatiegemiddelde en de standaardafwijking van de populatie kennen.  Stel dat het gemiddelde van de populatie 25.0 gram is en de standaardafwijking 2.5 gram dan zeg je in dat geval dat een **typische** massa: $$m_{\text{kogel}} = 25.0 \pm 2.5$$ gram is. De standaardafwijking is hier dus een maat voor de onzekerheid op de massa die we kunnen verwachten te meten.
+- Wat is de massa van een ***willekeurige*** kogel uit de ton? Wat we hiermee bedoelen is: Als ik een *willekeurige* kogel uit de ton pak, wat is dan de massa? Het precieze getal kunnen we niet van tevoren voorspellen, maar we weten wel ongeveer wat we kunnen verwachten als we het populatiegemiddelde en de standaardafwijking van de populatie kennen.  Stel dat het gemiddelde van de populatie 25.0 gram is en de standaardafwijking 2.5 gram dan zeg je in dat geval dat een **typische** massa: $$m_{\text{kogel}} = 25.0 \pm 2.5$$ gram is. De standaardafwijking is hier dus een maat voor de onzekerheid op de massa die we kunnen verwachten te meten.
 
 - De derde vraag die je kunt stellen is: Wat is het gemiddelde van de kogel massa's? Om die vraag te beantwoorden kunnen we een steekproef nemen uit de ton. We zien dan al snel een spreiding ontstaan. Bij de eerste kogel kunnen we nog heel weinig zeggen over het populatiegemiddelde en zeker niets over de spreiding. Bij twee kogels heb je al wat meer informatie. Mocht je de standaardafwijking $$\sigma_m$$ van de populatie kennen dan kun je zelfs al uitrekenen wat de onzekerheid is op het steekproefgemiddelde met behulp van de $$\sqrt{n}$$ wet. Als je steekproef redelijk groot is, dan kun je ook de gemeten spreiding van de steekproef, $$s_n$$,  hiervoor gebruiken. De onzekerheid waar we hier over hebben gaat dus niet over de onzekerheid op de massa van een enkele kogel, maar over de onzekerheid op de centrale waarde van het kogelmassagemiddelde zelf.
 
@@ -57,7 +57,7 @@ De parameter $$\sigma$$ is nu de standaardafwijking van de originele verdeling v
 > - **M3.1d) Maak een grafiek met de datapunten, de foutenvlaggen en het fit resultaat.**<br>
 >  **Tip:** De gefitte functie kun je het makkelijkste plotten door met behulp van de **`inv_sqrt_n`** lijst een bijbehorende lijst te maken met behulp van de functie die je in stap 1 hebt gemaakt.<br><br>
 
-Nadat we de fit hebben uitgevoerd bekijken we of het resultaat overeen komt met de standaardafwijking van de populatie.
+Nadat we de fit hebben uitgevoerd bekijken we of het resultaat overeenkomt met de standaardafwijking van de populatie.
 
 Met de functie:
 	
@@ -65,7 +65,7 @@ Met de functie:
 
 Kun je de werkelijke 'true'-waarde van $$\sigma$$ terugvragen. 
 
-> - **M3.1e) Controleer of jouw gefitte waarde van $$\hat{\sigma}$$ overeen komt met je uitkomst met je uitkomst voor `s_true`. Je verwacht altijd nog wel wat verschillen te zien - vooral omdat de onzekerheden op de waardes van `s_n` niet realistisch waren.** 
+> - **M3.1e) Controleer of jouw gefitte waarde van $$\hat{\sigma}$$ overeenkomt met je uitkomst met je uitkomst voor `s_true`. Je verwacht altijd nog wel wat verschillen te zien - vooral omdat de onzekerheden op de waardes van `s_n` niet realistisch waren.** 
 
 We gaan nu de fit uitvoeren met realistische onzekerheden op de datapunten. Deze datapunten genereer je met de volgende functie: 
 
