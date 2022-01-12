@@ -102,7 +102,7 @@ $${\displaystyle P(k=6;n=10,p=1/6) = \frac{10!}{6!(4)!} (1/6)^6 (5/6)^{4} = 0.00
 
 **12** In een stad gebeuren jaarlijks 1020 ongelukken. Het afgelopen jaar zijn er maar 900 ongelukken geweest. De autoriteiten claimen dat dit komt door nieuwe regels in het verkeer. <br>
 **a** Denk je dat deze verklaring klopt?<br>
-<span style = 'color:blue'>De spreiding op het aantal ongelukken is $$\sqrt{1020} = 42$$. Het verschil is uitgedrukt in standaardafwijkingen: $$\frac{1020-900}{42} \sigma = 3.8 \sigma $$. Dat is zeker uitzonderlijk, maar het komt natuurlijk weleens voor. Het is goed om voorzichtig te zijn met zo' n uitspraak. </span><br>
+<span style = 'color:blue'>De spreiding op het aantal ongelukken is $$\sqrt{1020} = 32$$. Het verschil is uitgedrukt in standaardafwijkingen: $$\frac{1020-900}{42} \sigma = 3.8 \sigma $$. Dat is zeker uitzonderlijk, maar het komt natuurlijk weleens voor. Het is goed om voorzichtig te zijn met zo' n uitspraak. </span><br>
 **b** Als de getallen tien keer zo klein zouden zijn (102 en 90), zou je denken dat de verklaring dan nog klopt?<br>
 <span style = 'color:blue'>De standaardafwijking is nu $$\sigma = 10$$. Het verschil is dus net iets groter dan $$1\sigma$$, zo'n afwijking komt vaak voor. De uitspraak lijkt ongegrond.  </span>
 
