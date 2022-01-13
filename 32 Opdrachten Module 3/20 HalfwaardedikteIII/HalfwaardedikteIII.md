@@ -76,13 +76,14 @@ Met het volgende commando kun je de fitresultaten uitprinten:
 
 De gefitte curve kunnen we ook weergeven in een grafiek. Dan kunnen we ook zien of de gefitte functie de datapunten goed beschrijft. Maak zoals gebruikelijk een grafiek met foutenvlaggen. 
 
-> - Het fitresultaat kun je als volgt toevoegen: 
-> 
->		plt.plot(diktes, result.init_fit, 'k--', label='initial fit')
->		plt.plot(diktes, result.best_fit, 'r-', label='best fit')
->		plt.legend(loc='best')
->  **TIP** Pas op de je de juiste waardes kiest voor de foutenvlaggen, deze zijn dus niet hetzelfde als de gewichten die je gebruikt hebt in de fit.<br><br>
->
+Het fitresultaat kun je als volgt toevoegen: 
+ 
+	plt.plot(diktes, result.init_fit, 'k--', label='initial fit')
+	plt.plot(diktes, result.best_fit, 'r-', label='best fit')
+	plt.legend(loc='best')
+
+**TIP** Pas op de je de juiste waardes kiest voor de foutenvlaggen, deze zijn dus niet hetzelfde als de gewichten die je gebruikt hebt in de fit.
+
 > - **M3.2b) Maak een grafiek met de datapunten, foutenvlaggen en het gefitte resultaat. Maak de grafiek netjes af.**<br><br>
 > 
 > - **M3.2c) Bekijk de gereduceerde $$\chi^2_\nu$$. Ziet deze waarde er goed uit? Beredeneer je antwoord. Wat is het aantal vrijheidsgraden in de fit?**<br><br>
@@ -95,13 +96,15 @@ We kunnen natuurlijk ook eens een heel andere functie proberen, misschien beschr
 
 
 
-> - Definieer nu een polynoom met de volgende code: 
-> 
->			def poly(d,N0,a,b) :
->				y = N0 + a*d + b*d*d
->				return y
-> Fit deze functie aan de datapunten, zorg dat de startwaardes zo worden ingesteld dat de fit convergeert. Meestal kies je voor de startwaardes eerst 1 en als dat niet convergeert, probeer dan wat andere waardes.<br><br>
->
+Definieer nu een polynoom met de volgende code: 
+ 
+	def poly(d,N0,a,b) :
+		y = N0 + a*d + b*d*d
+		return y
+
+Fit deze functie aan de datapunten, zorg dat de startwaardes zo worden ingesteld dat de fit convergeert. Meestal kies je voor de startwaardes eerst 1 en als dat niet convergeert, probeer dan wat andere waardes.
+
+
 > - **M3.2f) Maak een grafiek met de datapunten, foutenvlaggen en het gefitte resultaat. Maak de grafiek netjes af.**<br><br>
 >
 > - **M3.2g) Presenteer de fitresultaten van de poly fit op het inlevertemplate.**<br><br>
