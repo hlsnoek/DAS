@@ -65,7 +65,8 @@ We kunnen nu natuurlijk ook de gecombineerde informatie gebruiken. Hiervoor gaan
 
 Het valt misschien op dat er een verband lijkt te zijn tussen beide grootheden. We gaan eerst kijken naar [de covariantie](/module-2/meerdimensionale-data) en de correlatie tussen de massa en de spanwijdte voor beide vogelsoorten. 
 
-> - **M2.2i) Bereken de covariantie en de correlatie tussen de massa en de spanwijdte voor zowel de meetgegevens van de koolmeesjes als voor de pimpelmeesjes.**<br><br>
+> - **M2.2i) Bereken de covariantie en de correlatie tussen de massa en de spanwijdte voor zowel de meetgegevens van de koolmeesjes als voor de pimpelmeesjes.**<br>
+> **NB** Het is ook hier de bedoeling dat je dit zelf programmeert. Je mag geen gebruik maken van standaard functies van python die dit direct voor je teruggeven. Uiteraard mag je wel gebruiken maken van functies als `len()`. Dit geldt ook voor de correlatie die je moet berekenen in de volgende opdracht.<br>
 > 
 >  
 > - **M2.2j) Als je naar de berekende correlaties kijkt wat valt dan op, wat voor verband zit er tussen de twee grootheden? Als je toch even als een Bioloog nadenkt, is dit dan wat je verwacht? Leg uit.**<br><br>
