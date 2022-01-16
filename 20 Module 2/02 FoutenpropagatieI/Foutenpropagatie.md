@@ -24,9 +24,9 @@ We noteren de onzekerheid op variabele $$x$$ in dit hoofdstuk met $$\Delta x$$ w
 
 Als $$q = q(x,y,z,\dots)$$ een functie is met meerdere ongecorreleerde variabelen, dan wordt de onzekerheid op $$q$$ gegeven door:
 
-$$\Delta q = \sqrt{\left(\frac{\delta q}{\delta x}\Delta x  \right)^2+\left(\frac{\delta q}{\delta y}\Delta y\right)^2+\left(\frac{\delta q}{\delta z}\Delta z\right)^2+\dots}$$
+$$\Delta q = \sqrt{\left(\frac{\partial q}{\partial x}\Delta x  \right)^2+\left(\frac{\partial q}{\partial y}\Delta y\right)^2+\left(\frac{\partial q}{\partial z}\Delta z\right)^2+\dots}$$
 
-Hierbij zijn $$\frac{\delta q}{\delta x}$$, $$\frac{\delta q}{\delta y}$$ etc. de partiële afgeleiden van $$q$$ naar de betreffende variabele.
+Hierbij zijn $$\frac{\partial q}{\partial x}$$, $$\frac{\partial q}{\partial y}$$ etc. de partiële afgeleiden van $$q$$ naar de betreffende variabele.
 
 We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden.
 <!--FIG \newpage-->
@@ -35,7 +35,7 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 > 
 > Stel we hebben een vergelijking $$y = c\cdot x$$ met een standaardafwijking op $$x$$ van $$\Delta x$$. Dan is de standaardafwijking op $$y$$, ($$\Delta y$$), gelijk aan:
 > 
-> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = c \cdot \Delta x.$$
+> $$\displaystyle \Delta y = \sqrt{\left( \frac{\partial y}{\partial x} \Delta x \right)^2} = c \cdot \Delta x.$$
 > 
 > In dit geval schaalt de onzekerheid op $$x$$ ($$\Delta x$$) dus met dezelfde factor $$c$$ tot de onzekerheid op $$y$$ ($$\Delta y$$). In de grafiek hieronder<!--FIG (Fig. \ref{fig:Foutenpropagatie_const})--> wordt voor een willekeurige waarde $$x_i$$ het effect van de propagatie van $$\Delta x$$ rond de waarde $$x_i$$ naar de fout $$\Delta y$$ rond $$y_i$$ visueel weergegeven. Je kunt in de grafiek zien dat de grootte $$\Delta x$$ geschaald met factor $$c$$ de grootte van $$\Delta y$$ oplevert.<br>
 > 
@@ -52,7 +52,7 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 > 
 > Stel we hebben een vergelijking $$y = x + a$$ met een standaardafwijking op $$x$$ van $$\Delta x$$. Dan is de standaardafwijking op $$y$$, ($$\Delta y$$), gelijk aan: <br> 
 > 
-> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = \Delta x.$$
+> $$\displaystyle \Delta y = \sqrt{\left( \frac{\partial y}{\partial x} \Delta x \right)^2} = \Delta x.$$
 > 
 > Wederom geven we het effect van de foutenpropagatie van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ grafisch weer in de grafiek  hieronder<!--FIG (Fig. \ref{fig:Foutenpropagatie_trans})-->. Je ziet dat de translatie geen effect heeft op de grootte van de onzekerheid.<br>
 > 
@@ -64,7 +64,7 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 > 
 > Stel we hebben een vergelijking $$y = x^3$$ met een standaardafwijking op $$x$$ van $$\Delta x$$. Dan is de standaardafwijking op $$y$$, ($$\Delta y$$), gelijk aan: 
 > 
-> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = 3x^2 \cdot \Delta x.$$
+> $$\displaystyle \Delta y = \sqrt{\left( \frac{\partial y}{\partial x} \Delta x \right)^2} = 3x^2 \cdot \Delta x.$$
 > 
 > Het effect van de foutenpropagatie volgens deze formule van $$\Delta x$$ rond $$x_i$$ naar $$\Delta y$$ rond $$y_i$$ wordt weer grafisch weergegeven in het plaatje hieronder<!--FIG (Fig \ref{fig:Foutenpropagatie_cube})-->. Je kunt zien dat de mate waarin de grootte van $$\Delta x$$ verandert afhangt van de gekozen waarde van $$x_i$$, op sommige plekken is hij kleiner geworden, op andere plekken groter.  <br>
 > ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ bij een macht.](Foutenpropagatie_cube.png){:width="65%"}
@@ -75,7 +75,7 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 > 
 > Stel we hebben een vergelijking $$y = ax + bx^2 + c$$ met een standaardafwijking op $$x$$ van $$\Delta x$$. Dan is de standaardafwijking op $$y$$, ($$\Delta y$$), gelijk aan: 
 > 
-> $$\displaystyle \Delta y = \sqrt{\left( \frac{\delta y}{\delta x} \Delta x \right)^2} = (a + 2bx) \Delta x.$$
+> $$\displaystyle \Delta y = \sqrt{\left( \frac{\partial y}{\partial x} \Delta x \right)^2} = (a + 2bx) \Delta x.$$
 > 
 > In het plaatje hieronder<!--FIG (Fig. \ref{fig:Foutenpropagatie_func})--> geven we nu voor verschillende waardes $$x_i$$ de foutenpropagatie van $$\Delta x$$ naar $$\Delta y$$ de grafische interpretatie. We zien dat niet alleen de relatieve grootte van $$\Delta y$$ afhangt van de gekozen waarde van $$x_i$$ maar dat op sommige plaatsen de boven en ondergrens van de onzekerheid zijn geïnverteerd.<br>
 > ![Visualisatie van de propagatie van $$\Delta x$$ naar $$\Delta y$$ voor een kwadratische vergelijking.](Foutenpropagatie_func.png){:width="65%"}
@@ -86,7 +86,7 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 > 
 > Stel we hebben een vergelijking $$z = ax + y^2$$ met standaardafwijkingen $$\Delta x$$ en $$\Delta y$$ . Dan is de standaardafwijking op $$z$$, ($$\Delta z$$), gelijk aan: 
 > 
-> $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{(a \Delta x)^2 + (2y \Delta y)^2}.$$
+> $$\displaystyle \Delta z = \sqrt{ \left( \frac{\partial z}{\partial x} \Delta x \right)^2 + \left( \frac{\partial z}{\partial y} \Delta y \right)^2} = \sqrt{(a \Delta x)^2 + (2y \Delta y)^2}.$$
 
  
 
@@ -94,28 +94,28 @@ We zullen laten zien hoe deze formule werkt aan de hand van een paar voorbeelden
 > 
 > Stel we hebben een vergelijking $$z = ax + y^2 + 2xy$$ met standaardafwijkingen $$\Delta x$$ en $$\Delta y$$ . Dan is de standaardafwijking op $$z$$, ($$\Delta z$$), gelijk aan: 
 > 
-> $$\displaystyle \Delta z = \sqrt{ \left( \frac{\delta z}{\delta x} \Delta x \right)^2 + \left( \frac{\delta z}{\delta y} \Delta y \right)^2} = \sqrt{\left( (a + 2y) \cdot \Delta x \right)^2 + \left( (2y + 2x)\cdot  \Delta y \right)^2}.$$
+> $$\displaystyle \Delta z = \sqrt{ \left( \frac{\partial z}{\partial x} \Delta x \right)^2 + \left( \frac{\partial z}{\partial y} \Delta y \right)^2} = \sqrt{\left( (a + 2y) \cdot \Delta x \right)^2 + \left( (2y + 2x)\cdot  \Delta y \right)^2}.$$
 
 
 ## Som en verschil 
 De algemene regel kan eenvoudig worden uitgeschreven naar de regel voor som en verschil.  
 Als $$q = x + y$$ of $$q = x - y $$ dan wordt de onzekerheid op $$q$$ gegeven door: 
 
-$$\displaystyle \Delta q = \sqrt{\left(\frac{\delta q}{\delta x} \Delta x \right)^2 + \left( \frac{\delta q}{\delta y} \Delta y \right)^2} = \sqrt{\left(\Delta x\right)^2+\left(\Delta y\right)^2}.$$
+$$\displaystyle \Delta q = \sqrt{\left(\frac{\partial q}{\partial x} \Delta x \right)^2 + \left( \frac{\partial q}{\partial y} \Delta y \right)^2} = \sqrt{\left(\Delta x\right)^2+\left(\Delta y\right)^2}.$$
 
 We mogen de varianties $$(\Delta x)^2 $$ en $$(\Delta y)^2$$ in het geval van een vergelijking met enkel sommen en/of verschillen dus optellen.
 
 ## Vermenigvuldigen met constante
 Als $$q$$ het exacte veelvoud $$c$$ is van de gemeten waarde $$x$$, dus $$q = c \cdot x$$, dan geldt:
 
-$$\displaystyle \Delta q = \sqrt{\left( \frac{\delta q}{\delta x} \Delta x \right) ^2} = |c| \Delta x.$$  
+$$\displaystyle \Delta q = \sqrt{\left( \frac{\partial q}{\partial x} \Delta x \right) ^2} = |c| \Delta x.$$  
 
 De onzekerheid op $$q$$ is dus gelijk aan de onzekerheid op $$x$$ geschaald met dezelfde factor $$c.$$
 
 ## Vermenigvuldigen en delen met variabelen
 Als $$q$$ een vermenigvuldiging is van meerdere variabelen, dus bijvoorbeeld  $$q = x\cdot y \cdot z$$ dan geldt: 
 
-$$\displaystyle \Delta q = \sqrt{\left( \frac{\delta q}{\delta x} \Delta x \right)^2 +\left( \frac{\delta q}{\delta y} \Delta y \right)^2 +\left( \frac{\delta q}{\delta z} \Delta z \right)^2} = \sqrt{\left( \frac{q}{x} \Delta x\right)^2 + \left( \frac{q}{y} \Delta y\right)^2 +\left( \frac{q}{z} \Delta z \right)^2 }.$$
+$$\displaystyle \Delta q = \sqrt{\left( \frac{\partial q}{\partial x} \Delta x \right)^2 +\left( \frac{\partial q}{\partial y} \Delta y \right)^2 +\left( \frac{\partial q}{\partial z} \Delta z \right)^2} = \sqrt{\left( \frac{q}{x} \Delta x\right)^2 + \left( \frac{q}{y} \Delta y\right)^2 +\left( \frac{q}{z} \Delta z \right)^2 }.$$
 
 Dit kan je eenvoudiger schrijven als: 
 
