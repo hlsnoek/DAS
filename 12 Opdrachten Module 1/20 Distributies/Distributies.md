@@ -3,6 +3,7 @@
 
 We gaan in deze opgave kijken naar kansdichtheid distributie. Lees [hier](/module-1/verdelingsfuncties) meer over kansdichtheidsdistributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/verdelingsfuncties#Poisson">poisson</a>  en  <a href="/module-1/verdelingsfuncties#Uniform">uniforme</a>  distributies.
 
+<!--2022: M1.2: Aangezien studenten deze fout een paar keer maakten bij mij stel ik voor dat we even noemen dat de random en np.random library elkaar niet beïnvloeden en de studenten ze dus niet samen gebruiken.-->
 
 ### Poisson distributie
 

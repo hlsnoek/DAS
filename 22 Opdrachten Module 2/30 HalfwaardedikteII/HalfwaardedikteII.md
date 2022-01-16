@@ -17,16 +17,16 @@ Zo'n recept om de waarde van een parameter te bepalen noemen we ook wel een **sc
 
 $$d_{half} = $$ kleinste waarde van $$d$$ waarvoor geldt dat $$R = \frac{N_d}{N_0} < 0.5$$.
 
-We gaan het experiment nu 50 keer herhalen en kijken naar de distributie van de gevonden halfwaardediktes. Uit deze distributie bepalen we de standaardafwijking en gebruiken dit als onzekerheid op de gevonden dikte $$d_{half}$$.
+We gaan het experiment nu 500 keer herhalen en kijken naar de distributie van de gevonden halfwaardediktes. Uit deze distributie bepalen we de standaardafwijking en gebruiken dit als onzekerheid op de gevonden dikte $$d_{half}$$.
 
-> - Schrijf een loop waarin je 50 maal een nieuwe dataset genereert. Uit elk van deze datasets bepaal je een de halfwaardedikte met de ratio-methode. Om 50 unieke dataset te maken moet je steeds de *seed* veranderen. Dat kan je doen door deze mee te geven aan de DAS dataset generator:
+> - Schrijf een loop waarin je 500 maal een nieuwe dataset genereert. Uit elk van deze datasets bepaal je een de halfwaardedikte met de ratio-methode. Om 500 unieke dataset te maken moet je steeds de *seed* veranderen. Dat kan je doen door deze mee te geven aan de DAS dataset generator:
 > 	
->		for j in range(0,50) : 
+>		for j in range(0,500) : 
 >			counts, diktes = ds.DataSetHalfwaardeDikte(j)
 >
-> - Met de bovenstaande loop maak je 50 unieke datasets aan waarbij de counts die gemeten worden steeds worden gevarieerd volgens de Poisson statistiek. Bereken nu, binnen de loop, voor elk van deze dataset de halfwaardedikte met de ratio-methode. Zorg dat je dit getal bewaart in een lijst.
+> - Met de bovenstaande loop maak je 500 unieke datasets aan waarbij de counts die gemeten worden steeds worden gevarieerd volgens de Poisson statistiek. Bereken nu, binnen de loop, voor elk van deze dataset de halfwaardedikte met de ratio-methode. Zorg dat je dit getal bewaart in een lijst.
 >
-> - **M2.3b) Maak een histogram waarin je de gevonden halfwaardediktes van de 50 verschillende experimenten laat zien.** Zorg dat het histogram de distributie netjes laat zien en dat de as-labels goed zijn aangemaakt.<br>
+> - **M2.3b) Maak een histogram waarin je de gevonden halfwaardediktes van de 500 verschillende experimenten laat zien.** Zorg dat het histogram de distributie netjes laat zien en dat de as-labels goed zijn aangemaakt.<br>
 > **TIP:** De binning in het histogram luistert nauw doordat er alleen bepaalde uitkomsten van de halfwaardedikte mogelijk zijn. Reken precies uit wat de range en de binning moet zijn in het histogram om te voorkomen dat je lege bins midden in de distributie krijgt, en de mogelijke uitkomsten gecentreerd zijn op de bin centra.<br><br>
 >
 > - **M2.3c) Ziet de distributie eruit zoals je verwacht had? Beredeneer je antwoord.**<br><br>
@@ -58,18 +58,18 @@ Bij gesimuleerde data kunnen we dit onderzoeken. We kunnen de verwachtingswaarde
 > 
 > Met deze dataset generator gaan we nu de zuiverheid van onze meting bestuderen.<br>
 > 
-> - Kijk eerst eens naar wat de *true* waarde was in je datasets die je hierboven hebt gebruikt! Als je voor **`d_input`** nu -1 invult krijg je de halfwaardedikte terug die gebruikt is voor het genereren van de 50 datasets die je eerder in deze opdracht hebt gebruikt. Het maakt hierbij niet uit wat voor waarde je aan de seed meegeeft, maar je moet wel iets meegeven, gebruik bijvoorbeeld **`s=1`**.<br><br>
+> - Kijk eerst eens naar wat de *true* waarde was in je datasets die je hierboven hebt gebruikt! Als je voor **`d_input`** nu -1 invult krijg je de halfwaardedikte terug die gebruikt is voor het genereren van de 500 datasets die je eerder in deze opdracht hebt gebruikt. Het maakt hierbij niet uit wat voor waarde je aan de seed meegeeft, maar je moet wel iets meegeven, gebruik bijvoorbeeld **`s=1`**.<br><br>
 >
-> - **M2.3f) Hoe groot is de onzuiverheid van ons experiment? Vergelijk hiervoor de gemiddelde bepaalde halfwaardediktes van de 50 experimenten met de `d_true`.**
+> - **M2.3f) Hoe groot is de onzuiverheid van ons experiment? Vergelijk hiervoor de gemiddelde bepaalde halfwaardediktes van de 500 experimenten met de `d_true`.**
 
 
 Nu kun je het gedrag bekijken over meerdere waardes rond de **`d_true`** waarde. 
 
 
-> - Pas nu je code aan en varieer de **`d_input`** waarde bijvoorbeeld met 5 of 10 procent rond de aanvankelijke waarde. Voor elke setting van **`d_input`** bepaal je over 50 experimenten het gemiddelde van de bepaalde waardes van $$\text{d}_{\text{half}}.$$<br><br> 
+> - Pas nu je code aan en varieer de **`d_input`** waarde bijvoorbeeld met 5 of 10 procent rond de aanvankelijke waarde. Voor elke setting van **`d_input`** bepaal je over 500 experimenten het gemiddelde van de bepaalde waardes van $$\text{d}_{\text{half}}.$$<br><br> 
 >
 > - **M2.3g) Zet de gevonden gemiddelde waardes in een grafiek uit tegen de gekozen waardes van `d_input`. Let goed op de leesbaarheid van je grafiek.**<br>
-> Tip: Bedenk hoe je de lezer helpt om makkelijk af te lezen waar de zuivere meting zou liggen (dus als d\_half = d\_input). <br><br>
+> Tip: Bedenk hoe je de lezer helpt om makkelijk af te lezen waar de zuivere meting zou liggen (dus als `d_half = d_input`).<br><br>
 >
 > - **M2.3h) Is de onzuiverheid altijd constant of varieert die afhankelijk van de waarde van de halfwaardedikte?**<br><br>
 > 
