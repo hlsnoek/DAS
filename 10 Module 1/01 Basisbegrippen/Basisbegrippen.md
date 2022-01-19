@@ -101,7 +101,7 @@ Voor symmetrische datasets zijn het gemiddelde en de mediaan altijd gelijk aan e
 
 ### De modus
 
-De modus van een dataset is de waarde die met de grootste frequentie in de dataset voorkomt. Hebben we bijvoorbeeld de dataset 
+De modus van een dataset is de waarde die met relatief de grootste frequentie in de dataset voorkomt ten opzichte van de omliggende punten. Hebben we bijvoorbeeld de dataset 
 
 $$2,2,3,4,7,7,7,9$$ 
 
@@ -111,7 +111,7 @@ Het komt ook voor dat er twee of meer getallen zijn die vaker voorkomen dan ande
 
 Een voorbeeld van een bimodale dataset is:
 
-$$1,2,3,3,4,4,4,5,6,11,11,11,15$$
+$$1,2,3,3,4,4,4,4,5,6,11,11,11,15$$
 
 zowel het getal 4 als het getal 11 komen drie keer voor in de set. De set is dus bimodaal met modus 4 en modus 11.
 

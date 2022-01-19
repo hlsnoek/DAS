@@ -46,7 +46,7 @@ $$ \begin{align} \displaystyle
 ----
 **6.**
 Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$), wat is dan de fout op $$E$$? <br><br>
-<span style = "color:blue"> $$ \Delta E = \sqrt{\left(\frac{\partial E}{\partial m}\right)^2 (\Delta m)^2 + \left(\frac{\partial E}{\partial c}\right)^2 (\Delta c)^2 } = \sqrt{(c)^2(\Delta m)^2 + (2mc)^2 (\Delta c)^2}.$$</span>
+<span style = "color:blue"> $$ \Delta E = \sqrt{\left(\frac{\partial E}{\partial m}\right)^2 (\Delta m)^2 + \left(\frac{\partial E}{\partial c}\right)^2 (\Delta c)^2 } = \sqrt{(c^2)^2(\Delta m)^2 + (2mc)^2 (\Delta c)^2}.$$</span>
 
 
 ----
@@ -137,19 +137,19 @@ $$\begin{aligned}
 **15.**
 Van een dataset is het populatiegemiddelde en het steekproefgemiddelde bekend. $$\mu = 5.3 $$ kg en $$s = 5.1$$ kg. Bereken de onzuiverheid van de meeting. <br>
 <span style = 'color:blue'>
-De onzuiverheid is: $$b = s - \mu = 5.1 - 5.3$$ kg $$= -0.2$$ kg. 
+De onzuiverheid is: $$b = s - \mu = 5.1 - 5.3$$ kg $$= - 0.2$$ kg. 
 </span>
  
 **16.**
 Je meet met een meetlat die 2 cm te kort blijkt te zijn. Wat is de onzuiverheid van de metingen die je verricht? <br>
 <span style = 'color:blue'>
-De onzuiverheid  = - 2 cm
+De onzuiverheid  = + 2 cm
 </span> 
 
 **17.**
 **a** Je weegt de massa van stenen op. De onzuiverheid van de weegschaal is bekend, deze is +42 gram. Je meet een massa van 160 gram. Wat is de daadwerkelijke massa van de steen?<br>
 <span style = 'color:blue'>
-de eigenlijke massa van de steen is 160 - 42 = 128 gram.
+de eigenlijke massa van de steen is 160 - 42 = 118 gram.
 </span> <br>
 **b**
 Mag je zo'n correctie toepassen?<br>
