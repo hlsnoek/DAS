@@ -5,7 +5,7 @@
 
 In deze kansen kan je voor verschillende overschrijdingskansen aan de bovenzijde (0.995, 0.99, ..., 0.005) de $$\chi^2$$ waardes aflezen per hoeveelheid vrijheidsgraden $$\nu$$.
 
-Bijvoorbeeld als je 5 vrijheidsgraden hebt in je fit, dan ligt slechts $$10\%$$ van de fits hoger dan een $$\chi^2$$ van $$15.086.$$ 
+Bijvoorbeeld als je 5 vrijheidsgraden hebt in je fit, dan ligt slechts $$1.0\%$$ van de fits hoger dan een $$\chi^2$$ van $$15.086.$$ 
 
 De onderkansen kun je vinden door het complement te nemen. Slechts in $$5\%$$ van de gevallen vind je een waarde van $$\chi^2 \leq 0.412$$ bij $$\nu = 5.$$ 
 

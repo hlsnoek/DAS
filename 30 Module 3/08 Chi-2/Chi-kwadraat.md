@@ -28,9 +28,9 @@ Als je al meer wilt weten over de $$\Gamma$$-functie dan kun je daar bijvoorbeel
 
 Zoals je ziet hangt de $$\chi^2$$ kans ook af van een parameter $$\nu$$, dit is het aantal meetpunten, $$n$$, gereduceerd met het aantal parameters van de functie $$f$$. We noemen $$\nu$$ het aantal **vrijheidsgraden** (Engels: degrees of freedom). Het aantal vrijheidsgraden bereken je als volgt
 
-$${\displaystyle \nu = \textrm{aantal meetpunten} - \textrm{aantal vrije paramaters}.}$$
+$${\displaystyle \nu = \textrm{aantal meetpunten} - \textrm{aantal vrije parameters}.}$$
 
-Hoe meer meetpunten je gebruikt in je fit, des te groter de verwachtte $$\chi^2$$, omdat er groter aantal waardes wordt gesommeerd. Het aantal gefitte parameters speelt ook een rol. Hoe meer *vrijheid* een functie heeft des te makkelijker het is om alle meetpunten nauwkeurig te beschrijven. 
+Hoe meer meetpunten je gebruikt in je fit, des te groter de verwachte $$\chi^2$$, omdat er groter aantal waardes wordt gesommeerd. Het aantal gefitte parameters speelt ook een rol. Hoe meer *vrijheid* een functie heeft des te makkelijker het is om alle meetpunten nauwkeurig te beschrijven. 
 
 
 > **Voorbeeld: Bepalen van het aantal vrijheidsgraden.** Stel we hebben 10 meetwaardes en we gebruiken de kleinste kwadraten methode om 2 parameters van een functie $$f$$ te optimaliseren. We hebben dan $$\nu=10-2=8$$ vrijheidsgraden.

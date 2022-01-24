@@ -73,6 +73,7 @@ Het valt misschien op dat er een verband lijkt te zijn tussen beide grootheden. 
 
 We gaan terug naar de kansberekeningen. 
 
+<!--FOR2023: Schrijf hier in de opgave expliciet dat ze de fouten ook moeten berekenen-->
 > - **M2.2k) Combineer nu de gegevens en bereken de kansen $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} \mid \text{koolmees})}$$ en $${P(m_{\text{obs}}\text{ en }w_{\text{obs}} \mid \text{pimpelmees})}$$.**<br><br>
 > 
 > - **M2.2l) Welk vogeltje denk je nu dat het is? Beredeneer je antwoord.**

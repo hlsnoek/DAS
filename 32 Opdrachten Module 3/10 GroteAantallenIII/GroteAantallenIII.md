@@ -16,7 +16,7 @@ We hebben een ton met kogels en een heel nauwkeurige weegschaal. We kunnen ons v
 - De derde vraag die je kunt stellen is: Wat is het gemiddelde van de kogel massa's? Om die vraag te beantwoorden kunnen we een steekproef nemen uit de ton. We zien dan al snel een spreiding ontstaan. Bij de eerste kogel kunnen we nog heel weinig zeggen over het populatiegemiddelde en zeker niets over de spreiding. Bij twee kogels heb je al wat meer informatie. Mocht je de standaardafwijking $$\sigma_m$$ van de populatie kennen dan kun je zelfs al uitrekenen wat de onzekerheid is op het steekproefgemiddelde met behulp van de $$\sqrt{n}$$ wet. Als je steekproef redelijk groot is, dan kun je ook de gemeten spreiding van de steekproef, $$s_n$$,  hiervoor gebruiken. De onzekerheid waar we hier over hebben gaat dus niet over de onzekerheid op de massa van een enkele kogel, maar over de onzekerheid op de centrale waarde van het kogelmassagemiddelde zelf.
 
 
-We willen bepalen  wat een **gemiddelde** kogel uit de ton weegt, en om dit in te schatten  nemen we een steekproef van kogels uit de ton. We onderzoeken hoe de onzekerheid op de centrale waarde van dit gemiddelde afhangt van de grootte van de steekproef. We focussen dus op de spreiding van de berekende gemiddeldes. In M2.1 hebben we een lineair verband gezien tussen de spreiding van de bepaalde gemiddeldes en de grootte van de steekproef. In deze opdracht gaan we deze nu 'fitten' met behulp van de kleinste kwadraten methode. 
+We willen bepalen  wat een **gemiddelde** kogel uit de ton weegt, en om dit in te schatten  nemen we een steekproef van kogels uit de ton. We onderzoeken hoe de onzekerheid op de centrale waarde van dit gemiddelde afhangt van de grootte van de steekproef. We focussen dus op de spreiding van de berekende gemiddeldes. In M2.1 hebben we een verband gezien tussen de spreiding van de bepaalde gemiddeldes en de grootte van de steekproef. In deze opdracht gaan we deze nu 'fitten' met behulp van de kleinste kwadraten methode. 
 
 
 We beginnen met het fitten van datapunten met gelijke fouten. Later gebruiken we meer realistische onzekerheden op de datapunten.
@@ -28,7 +28,7 @@ De **`inv_sqrt_n`** punten zijn de waardes van $$1/\sqrt{n}$$ waarbij $$n$$ de g
 
 Voor deze dataset zijn de waardes van $$\Delta s_n$$ dus nog allemaal gelijk, later in deze opdracht zullen we met meer realistische onzekerheden gaan werken en kijken we naar het effect van de fouten op het fit resultaat. Maar eerst gaan we de fit opzetten.
 
-Naar aanleiding van de $$\sqrt{n}$$-wet verwachten dat de relatie tussen $$n$$ en $$s_{n}$$ er als volgt uitziet:<br>
+Naar aanleiding van de $$\sqrt{n}$$-wet verwachten we dat de relatie tussen $$n$$ en $$s_{n}$$ er als volgt uitziet:<br>
 $${\displaystyle s_{n} = \sigma/\sqrt{n}.}$$
 
 
@@ -65,7 +65,7 @@ Met de functie:
 
 Kun je de werkelijke 'true'-waarde van $$\sigma$$ terugvragen. 
 
-> - **M3.1e) Controleer of jouw gefitte waarde van $$\hat{\sigma}$$ overeenkomt met je uitkomst met je uitkomst voor `s_true`. Je verwacht altijd nog wel wat verschillen te zien - vooral omdat de onzekerheden op de waardes van `s_n` niet realistisch waren.** 
+> - **M3.1e) Controleer of jouw gefitte waarde van $$\hat{\sigma}$$ overeenkomt met je uitkomst voor `s_true`. Je verwacht altijd nog wel wat verschillen te zien - vooral omdat de onzekerheden op de waardes van `s_n` niet realistisch waren.** 
 
 We gaan nu de fit uitvoeren met realistische onzekerheden op de datapunten. Deze datapunten genereer je met de volgende functie: 
 

@@ -4,7 +4,7 @@
 1. Ordered TOC
 {:toc}
 
-Als je een steekproef hebt genomen en je wil hiermee iets kunnen zeggen over de populatie dan moet er ook nagegaan worden in hoeverre de steekproef ons idee over de populatie ondersteund. 
+Als je een steekproef hebt genomen en je wil hiermee iets kunnen zeggen over de populatie dan moet er ook nagegaan worden in hoeverre de steekproef ons idee over de populatie ondersteunt. 
 
 Dit wordt hypothese toetsen genoemd. Bij hypothese toetsen doorloop je de volgende stappen:
 
@@ -26,7 +26,7 @@ Een hypothese is een uitspraak over een bepaalde eigenschap van een populatie. J
 > - De valversnelling heeft als waarde in Nederland $$9.81 \text{ ms}^{-2}.$$
 > - Studenten in Amsterdam halen hogere cijfers dan studenten in Groningen.
 
-Bij hypothese toetsen is er sprake van twee hypotheses. De zogenoemde *nulhypothese* en de *alternatieve hypothese*. Het doel van de toets is om behulp van een steekproef een effect aan te tonen. Dit effect verwachten we te zien als een stelling waar is. Dit is de *alternatieve hypothese*, als we geen effect waarnemen dan gaan we ervan uit dat de *nulhypothese* de juiste is. Bij het opstellen van de hypothese toets is de alternatieve hypothese dus de *spannende* hypothese. Een nieuwe natuurkundige theorie die er anders uitziet dan hetgeen we algemeen voor waar wordt aangenomen. De nulhypothese wordt aangegeven met $$H_0$$, de alternatieve hypothese met $$H_{\alpha}$$ (ook $$H_1$$ is veelvoorkomend). 
+Bij hypothese toetsen is er sprake van twee hypotheses. De zogenoemde *nulhypothese* en de *alternatieve hypothese*. Het doel van de toets is om behulp van een steekproef een effect aan te tonen. Dit effect verwachten we te zien als een stelling waar is. Dit is de *alternatieve hypothese*, als we geen effect waarnemen dan gaan we ervan uit dat de *nulhypothese* de juiste is. Bij het opstellen van de hypothese toets is de alternatieve hypothese dus de *spannende* hypothese. Een nieuwe natuurkundige theorie die er anders uitziet dan hetgeen we algemeen voor waar aannemen. De nulhypothese wordt aangegeven met $$H_0$$, de alternatieve hypothese met $$H_{\alpha}$$ (ook $$H_1$$ is veelvoorkomend). 
 
 De term nulhypothese komt overigens uit het Engels van de 'null hypothesis' en de naamgeving slaat op de hypothese die verworpen (oftewel 'nullified') moet worden. De nulhypothese is over het algemeen het complement (het tegenovergestelde) van de alternatieve hypothese. 
 
@@ -36,9 +36,9 @@ Onderstaand de eerdere hypothesen met bijbehorende nulhypothesen:
 > **Voorbeelden van alternatieve hypothese en nulhypothese**
 > 
 > - $$H_{\alpha}$$: 20% van de auto's in Nederland is blauw.
-> - $$H_0$$: Het percentage blauwe auto's in Nederland is geen 20%.
+> - $$H_0$$: Het percentage blauwe auto's in Nederland niet gelijk aan 20%.
 
-> - $$H_{\alpha}$$: Meer dan 20% van de auto's in Nederland is blauw.
+> - $$H_{\alpha}$$: 20% of meer van de auto's in Nederland is blauw.
 > - $$H_0$$: Minder dan 20% van de auto's in Nederland is blauw.
  
 > - $$H_{\alpha}$$: Het percentage Nederlanders met blauwe ogen is 50%.
@@ -89,7 +89,7 @@ Hoe kleiner de vooraf gekozen waarde van $$\alpha$$ is, des te zekerder we ervan
 
 Denk maar eens aan de effectiviteit bepalen van een bepaald medicijn. Je moet dan veel patiënten vinden waar het medicijn voor zou moeten helpen. Als je de werking van paracetamol bij hoofdpijn wil onderzoeken is dit misschien geen groot probleem, maar wil je de werking van een medicijn testen die werkt bij een zeer zeldzame ziekte, dan is het gewoon erg lastig zo niet onmogelijk om hele grote groepen te testen. 
 
-Ook binnen de natuur- en sterrenkunde verschilt het nogal of je grote datasets kunt verkrijgen. In een experiment in de deeltjesfysica is het bijvoorbeeld relatief eenvoudig om een grote dataset te verkrijgen in een bostingsexperiment zoals op CERN en zo de onzekerheid op je test-statistiek te verkleinen met enorm grote steekproeven. Maar het onderzoek naar de smaak van neutrino die bij supernova's worden geproduceerd is lastig, er zijn niet heel veel supernova's. 
+Ook binnen de natuur- en sterrenkunde verschilt het nogal of je grote datasets kunt verkrijgen. In een experiment in de deeltjesfysica is het bijvoorbeeld relatief eenvoudig om een grote dataset te verkrijgen in een botsingsexperiment zoals op CERN en zo de onzekerheid op je test-statistiek te verkleinen met enorm grote steekproeven. Maar het onderzoek naar de smaak van neutrino die bij supernova's worden geproduceerd is lastig, er zijn niet heel veel supernova's. 
 
 Het is dus altijd een afweging tussen het zo zeker mogelijk zijn van correctheid van het verwerpen van de nulhypothese, en de uitvoerbaarheid van het onderzoek.
 
@@ -133,7 +133,7 @@ Afhankelijk van de manier waarop de nulhypothese en alternatieve hypothese opges
 <!--De eenzijdige en tweezijdige overschreidignskansen kun je als volgt zien. Als we in de nulhypothese stellen dat een eigenschap gelijk is aan een bepaalde waarde,   
 Hebben we bijvoorbeeld de nulhypothese dat het percentage mensen met blauwe ogen geen 50% is, dan -->
 
-Zoals eerder vermeld geeft de p-waarde de kans dat waargenomen uitkomst gevonden kan worden onder de aanname dat de nulhypothese correct is. 
+Zoals eerder vermeld geeft de p-waarde de kans aan dat de waargenomen uitkomst gevonden kan worden onder de aanname dat de nulhypothese correct is. 
 De p-waarde is dus gelijk aan een zeker oppervlak onder de Normaalkromme. Deze kun je berekenen met de $$z$$-score.
 
 
@@ -154,15 +154,15 @@ Dit bekijken we aan de hand van een paar voorbeelden:
 >
 > De nulhypothese stelde dat de lengte van de staart van een volgroeide lapjeskat kleiner is dan 10 cm. We bepalen dus de p-waarde die hierbij hoort:
 >
-> $$\begin{aligned}P(X<10) &= P\left( Z<\frac{10-25}{5} \right)\\ &= P(Z<-3) \end{aligned}$$
+> $$\begin{aligned}P(X \leq 10) &= P\left( Z\leq \frac{10-25}{5} \right)\\ &= P(Z\leq -3) \end{aligned}$$
 >
 > Als we in de [tabel](https://www.ztable.net/) kijken dan hoort er een waarde van $$0.00135$$ bij deze Z-score. Dus:
 >
-> $$P(X<10) = P(Z<-3) = 0.00135$$
+> $$P(X \leq 10) = P(Z\leq -3) = 0.00135$$
 > 
 > De p-waarde is dus 0.14%. Op grond van het eerder gekozen significantieniveau van 5% verwerpen we de nulhypothese. In dit geval is het zo dat we de nulhypothese ook hadden verworpen als we $$\alpha=10\%$$ of $$\alpha=1\%$$ hadden gekozen.
 
-Is de p-waarde kleiner dan het gekozen significantieniveau dan verwerpen we de nulhypothese. Is de p-waarde groter dan het gekozen significantieniveau dan verwerpen we de nulhypothese niet.
+Is de p-waarde kleiner of gelijk aan het gekozen significantieniveau dan verwerpen we de nulhypothese. Is de p-waarde groter dan het gekozen significantieniveau dan verwerpen we de nulhypothese niet.
 
 Het is goed om te beseffen dat we **niet** kunnen zeggen dat onze alternatieve hypothese correct is of dat de nulhypothese fout is. De p-waarde geeft namelijk geen bewijs. Wel hebben we met de p-waarde een onderbouwing om de nulhypothese, met inachtneming van het gekozen significantieniveau, wel/niet te verwerpen.
 

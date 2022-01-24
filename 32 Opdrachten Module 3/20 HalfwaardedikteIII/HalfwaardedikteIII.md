@@ -49,8 +49,8 @@ De functie **`functie`** die we straks gebruiken voor de fit ziet er in het alge
 
 De parameters die hier worden meegegeven zijn de parameters die worden geschat (of geoptimaliseerd) in de fit. Voor deze twee waardes zullen we straks ook de startwaardes moeten meegeven.
 
-> - Schrijf nu eerst de code voor de functie **`functie(d, N0, dhalf)`** die de relatie tussen dikte d en de counts aangeeft. Controleer  of die goed werkt door een paar waardes te proberen en dan met de hand na te rekenen.
-> - Voor de fit hebben we ook een lijst met gewichten nodig. Deze gewichten zijn gelijk zijn gelijk aan de reciproke waardes van de fouten op de counts.  Het is de deler in de $$\chi^2$$ vergelijking. Noem deze gewichten **`N_inv_err`** en maak hiervoor een lijst aan. Als de onzekerheid op $$N$$, $$\Delta N$$ is, dan is het gewicht dus $$1/\Delta N$$.
+> - Schrijf nu eerst de code voor de functie **`functie(d, N0, dhalf)`** die de relatie tussen dikte $$d$$ en de counts aangeeft. Controleer  of die goed werkt door een paar waardes te proberen en dan met de hand na te rekenen.
+> - Voor de fit hebben we ook een lijst met gewichten nodig. Deze gewichten zijn gelijk aan de reciproke waardes van de fouten op de counts.  Het is de deler in de $$\chi^2$$ vergelijking. Noem deze gewichten **`N_inv_err`** en maak hiervoor een lijst aan. Als de onzekerheid op $$N$$, $$\Delta N$$ is, dan is het gewicht dus $$1/\Delta N$$.
 
 Als we onze functie en de lijst met gewichten hebben gedefinieerd dan kunnen we de fit uitvoeren. 
 
@@ -82,7 +82,7 @@ Het fitresultaat kun je als volgt toevoegen:
 	plt.plot(diktes, result.best_fit, 'r-', label='best fit')
 	plt.legend(loc='best')
 
-**TIP** Pas op de je de juiste waardes kiest voor de foutenvlaggen, deze zijn dus niet hetzelfde als de gewichten die je gebruikt hebt in de fit.
+**TIP** Pas op dat je de juiste waardes kiest voor de foutenvlaggen, deze zijn dus niet hetzelfde als de gewichten die je gebruikt hebt in de fit.
 
 > - **M3.2b) Maak een grafiek met de datapunten, foutenvlaggen en het gefitte resultaat. Maak de grafiek netjes af.**<br><br>
 > 
