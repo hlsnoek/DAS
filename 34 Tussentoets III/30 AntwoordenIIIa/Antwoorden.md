@@ -43,7 +43,6 @@ $$\begin{aligned}
 (3.0^2 \left( 26.5 - \hat{a} \cdot 3.0^2 \right) & = \\
 294.9 - 98.0 \cdot \hat{a} = 0 \\
 \end{aligned}$$
- 
 geeft $$\hat{a} = 3.0$$</span>
 
 
