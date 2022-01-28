@@ -33,7 +33,7 @@ Maak voor deze opdracht een nieuw python bestand aan.
 >	events - het aantal botsingen in de geselecteerde data in de massa bin
 >	events_err - de onzekerheid op het aantal events
 >	
-> Zorg dat je de volgorde van de lists in tact houdt zodat de juiste waarde van `m` bij de juiste waarde van `events` houdt.
+> Zorg dat je de volgorde van de lists intact houdt zodat de juiste waarde van `m` bij de juiste waarde van `events` houdt.
 
 
 Het aantal *events* (aantal evenementen) is het geobserveerde aantal botsingen die we in onze dataset hebben voor de specifieke massabin $$m$$. 	
@@ -63,7 +63,7 @@ we uit in het aantal proton massa's omdat het anders onhandig wordt met de eenhe
 > 
 > 			plt.plot(m, result.init_fit, 'k--', label='initial fit')
 > 
-> **Tip 1.** Zoals je ziet lijkt de functie erg op de functie die gefit moest worden in opgave M3.2, je kan een deel van je code dus hergebruiken. <br>
+> **Tip 1.** Zoals je ziet lijkt de functie erg op de functie die gefit moest worden in opgave M3.2, je kan een deel van je code opnieuw gebruiken. <br>
 > **Tip 2.** Het is voor deze fit erg belangrijk om de startwaardes goed mee te geven. Bekijk eerst eens de data goed en probeer af te schatten welke startwaardes voor `N0` en `c` je moet meegeven. De functie met startwaardes kun je op de volgende manier visualiseren. (Hiervoor moet je wel eerst het fit statement hebben uitgevoerd maar ook als de fit niet goed werkt zie je nog steeds of de startwaardes goed zijn ingeschat.)<br>
 > **Tip 3.** Voor de fit moet je de gewichten van de datapunten mee geven. In module 3 heb je al gezien dat deze niet precies hetzelfde zijn als de onzekerheden (`events_err`) maar dat je ze eerst even moet omrekenen met de formule $$w = 1/\sigma.$$<br>
 > **Tip 4.** Kijk nog even goed naar de fit in opgave M3.2 en op welke plek je welke informatie moet meegeven. <br><br>
@@ -73,7 +73,7 @@ we uit in het aantal proton massa's omdat het anders onhandig wordt met de eenhe
 > - **M4.1d) Wat is de $$\chi^2$$ en de $$\chi^2_\nu$$ voor deze fit?**
 >
 
-De massaverdeling van deeltje $$X$$ wordt beschreven met een Normaalverdeling. Als het deeltje $$X$$ bestaat, dan ligt deze Normaalverdeling als het ware op de achtergrond. We zullen dus een model moeten programmeren die de som is van de Normaalverdeling die het 'signaal' beschrijft en de achtergrond functie. 
+De massaverdeling van deeltje $$X$$ wordt beschreven met een Normaalverdeling. Als het deeltje $$X$$ bestaat, dan ligt deze Normaalverdeling als het ware op de achtergrond. We zullen een model moeten programmeren die de som is van de Normaalverdeling die het 'signaal' beschrijft en de achtergrond functie. 
 We beginnen eerst met het opzetten van een functie die alleen de signaal component beschrijft. 
 
 > - De functie die de massaverdeling van het deeltje $$X$$ beschrijft is een Normaalverdeling. We kunnen hiervoor een eigen functie programmeren maar we kunnen ook gebruik maken van de standaard functies die het **`lmfit`** pakket bevat. Deze kunnen we aanroepen met:
@@ -154,5 +154,5 @@ Waarbij we $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierove
 >
 >  <br>
 > - **M4.1j) Denk je dat je de achtergrond hypothese kunt verwerpen? Zo ja, redeneer waarom. Zo nee, beredeneer waarom niet.**<br>
-> **Tip:** Kijk even naar de afspraken die hierover zijn gemaakt in de deeltjefysica.
+> **Tip:** Kijk nog even naar de afspraken die hierover zijn gemaakt in de deeltjesfysica.
 
