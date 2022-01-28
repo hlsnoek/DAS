@@ -74,7 +74,9 @@ We moeten ook bij deze toets van tevoren bepalen bij welke p-waarde we de nulhyp
 > We zien voor de fit met waarde $$\lambda_0 = 930~\text{nm}$$ dat de $$\Delta \chi^2$$ gelijk is aan 0. Maar als we goed kijken in het plaatje zien we ook geen enkel piekje bij $$\lambda=930~\text{nm}$$. Bij de waardes van $$\lambda = 940$$ en $$980~\text{nm}$$ zien we wel een klein piekje. Maar vooral bij de waarde van $$\lambda = 968~\text{nm}$$ is een grote piek te vinden. 
 >  
 > Als we alle p-waardes van de scan (maar dan over alle waardes van $$\lambda_0$$) nu grafisch weergeven dan krijgen we het volgende resultaat<!--FIG zie figuur \ref{fig:Emissiescan}-->.  
+> 
 > ![De p-waarde scan van de emissiedata.](Emissiescan.png){:width="60%"}  
+> 
 > Je ziet nu dat er op een aantal plekken in het spectrum een kleine afwijking van de $$H_0$$ hypothese te zien is. Deze komen allemaal overeen met golflengtes waar op het oog een piekje zichtbaar lijkt. Op slechts één locatie is er een heel duidelijke afwijking zichtbaar, precies bij 968 nm. De $$\Delta \chi^2$$ is op dat punt 21.4  en dit kunnen we omrekenen naar een p-waarde van $$3.7 \cdot 10^{-6}.$$
 > 
 
