@@ -75,7 +75,7 @@ We moeten ook bij deze toets van tevoren bepalen bij welke p-waarde we de nulhyp
 >  
 > Als we alle p-waardes van de scan (maar dan over alle waardes van $$\lambda_0$$) nu grafisch weergeven dan krijgen we het volgende resultaat<!--FIG zie figuur \ref{fig:Emissiescan}-->.  
 > 
-> ![Het waargenomen spectrum met de gefitte lijn voor waardes van $$\lambda_0$$ bij = 930, 940, 968 en 990 nm.](SpectrumFits.png){:width="80%"}  
+> ![Het waargenomen spectrum met de gefitte lijn voor waardes van $$\lambda_0$$ bij = 930, 940, 968 en 990 nm.](Emissiescan.png){:width="80%"}  
 > 
 > ![De p-waarde scan van de emissiedata.](Emissiescan.png){:width="60%"}  
 > 
