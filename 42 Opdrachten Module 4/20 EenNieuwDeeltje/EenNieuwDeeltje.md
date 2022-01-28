@@ -36,7 +36,7 @@ Maak voor deze opdracht een nieuw python bestand aan.
 > Zorg dat je de volgorde van de lists intact houdt zodat de juiste waarde van `m` bij de juiste waarde van `events` houdt.
 
 
-Het aantal *events* (aantal evenementen) is het geobserveerde aantal botsingen die we in onze dataset hebben voor de specifieke massabin $$m$$. 	
+Het aantal *events* (aantal evenementen) is het geobserveerde aantal botsingen dat we in onze dataset hebben voor de specifieke massabin $$m$$. 	
 De achtergrond data wordt beschreven met de volgende functie: 
 
 $$\displaystyle f(m;N_0,c) = N_0 \cdot \left( \frac{1}{2} \right)^{m/c}$$
@@ -47,11 +47,11 @@ $${\displaystyle g(m;m_0,\sigma, N_X) = N_X \cdot \frac{1}{\sigma \sqrt{2 \pi}} 
 
 We weten niet wat de waarde is van $$m_0$$ en ook niet hoeveel $$X$$-deeltjes we zouden kunnen hebben in onze dataset ($$N_X$$). Wel kennen  we de resolutie van onze meting ($$\sigma=5$$ pm). Hiermee bedoelen we dat we op de massapiek van het $$X$$ deeltje een spreiding verwachten van ($$\sigma=5$$ pm).
 De eenheid van $$m$$ drukken 
-we uit in het aantal proton massa's omdat het anders onhandig wordt met de eenheid (1 proton massa is gelijk aan $$1.6726 \times 10^{-27}$$ kg). Zoals beschreven in het Hoofdstuk [Hypothese Toetsen II](/module-4/hypothese-toetsen-2) mogen we voor de Wald maar 1 vrije parameter verschil hebben tussen de achtergrond ($$H_0$$) en de deeltjeshypothese ($$H_{\alpha}$$), maar we hebben dus twee onbekende parameters die we moeten schatten. We gebruiken hier de methode van de p-waarde scan en scannen de massa $$m$$, zo hebben we maar 1 vrije parameter in de fit en dat is de hoeveelheid deeltjes, $$N_x$$.
+we uit in het aantal proton massa's omdat het anders onhandig wordt met de eenheid (1 proton massa is gelijk aan $$1.6726 \times 10^{-27}$$ kg). Zoals beschreven in het Hoofdstuk [Hypothese Toetsen II](/module-4/hypothese-toetsen-2) mogen we voor de Wald maar 1 vrije parameter verschil hebben tussen de achtergrond ($$H_0$$) en de deeltjeshypothese ($$H_{\alpha}$$), maar we hebben dus twee onbekende parameters die we moeten schatten. We gebruiken hier de methode van de p-waarde scan en scannen de massa $$m$$, zo hebben we maar 1 vrije parameter in de fit en dat is de hoeveelheid deeltjes, $$N_X$$.
 
 >  - We gaan weer fitten met het pakket [**lmfit**](https://lmfit.github.io/lmfit-py/model.html). Importeer hiervoor weer het models pakket uit lmfit zoals je ook in opgave (M3.2 Halfwaardedikte III)[/opdrachten-module-3/halfwaardedikteiii] hebt gedaan.
 >
-> - Schrijf eerst een functie die je **`achtergrond_functie(x,N0,c)`** noemt. Het is misschien logischer om in plaats van de  `x` variabele `m` te gebruiken, maar later in het programma maken we gebruik van een standaard functie van **`models`** en deze vereist dat we hem `x` noemen. 
+> - Schrijf eerst een functie die je **`achtergrond_functie(x,N0,c)`** noemt. Het is misschien logischer om in plaats van de  `x` variabele `m_0` te gebruiken, maar later in het programma maken we gebruik van een standaard functie van **`models`** en deze vereist dat we hem `x` noemen. 
 > 
 > Nadat je de functie hebt geschreven die de achtergrond beschrijft maken we het model voor de fit en die noemen we **`achtergrond_model`**. 
 > 
@@ -61,10 +61,11 @@ we uit in het aantal proton massa's omdat het anders onhandig wordt met de eenhe
 >   
 > - **M4.1b) Zet nu eerst een fit op waarbij je het achtergrond model fit.  Maak een grafiek waarbij je de datapunten, de onzekerheden op de datapunten en de gefitte curve laat zien.** Let goed op de presentatie van je grafiek en volg de richtlijnen uit de eerste module in [Data Visualiseren](/module-1/data-visualiseren).<br><br>
 > 
-> 			plt.plot(m, result.init_fit, 'k--', label='initial fit')
-> 
 > **Tip 1.** Zoals je ziet lijkt de functie erg op de functie die gefit moest worden in opgave M3.2, je kan een deel van je code opnieuw gebruiken. <br>
 > **Tip 2.** Het is voor deze fit erg belangrijk om de startwaardes goed mee te geven. Bekijk eerst eens de data goed en probeer af te schatten welke startwaardes voor `N0` en `c` je moet meegeven. De functie met startwaardes kun je op de volgende manier visualiseren. (Hiervoor moet je wel eerst het fit statement hebben uitgevoerd maar ook als de fit niet goed werkt zie je nog steeds of de startwaardes goed zijn ingeschat.)<br>
+> 
+> 			plt.plot(m, result.init_fit, 'k--', label='initial fit')
+> 
 > **Tip 3.** Voor de fit moet je de gewichten van de datapunten mee geven. In module 3 heb je al gezien dat deze niet precies hetzelfde zijn als de onzekerheden (`events_err`) maar dat je ze eerst even moet omrekenen met de formule $$w = 1/\sigma.$$<br>
 > **Tip 4.** Kijk nog even goed naar de fit in opgave M3.2 en op welke plek je welke informatie moet meegeven. <br><br>
 > 
@@ -94,7 +95,7 @@ Als je een standaardfunctie gebruikt is het altijd even goed om uit te zoeken ho
 Nu maken we eerst het model voor de $$H_\alpha$$ hypothese. 
 
 
-> - We gaan nu model voor het signaal maken dat bestaat uit de achtergrond component en de Normaal component: 
+> - We gaan nu het model voor het signaal maken dat bestaat uit de achtergrond component en de Normaal component: 
 > 
 >  
 >			 signaal_model = normaal_model + achtergrond_model
@@ -109,7 +110,7 @@ Met de informatie die we hierboven gegeven hebben weten we dat we een van deze p
 > 			signaal_model.set_param_hint("par_name", vary=False)
 > 	waarbij **`par_name`** de naam van de variabele is waarvoor we dat willen doen. Dit statement zegt dat de variabele **`par_name`** niet wordt geoptimaliseerd in de fit procedure, de variabele wordt gefixeerd op de waarde die je als startwaarde meegeeft.
  
-We zijn nu klaar om de zogeheten p-waarde scan uitvoeren. We kiezen steeds een waarde van $$m_0$$ en laten alleen de volgende parameters vrij in de fit: $$N_0, c$$ en $$N_x$$. De andere parameter $$\sigma$$ wordt vastgezet op 5 en $$m_0$$ wordt steeds op een andere gekozen waarde gefixeerd in **het gehele gebied die door de dataset wordt beschreven met stapjes van 1 proton massa**.
+We zijn nu klaar om de zogeheten p-waarde scan uitvoeren. We kiezen steeds een waarde van $$m_0$$ en laten alleen de volgende parameters vrij in de fit: $$N_0, c$$ en $$N_X$$. De andere parameter $$\sigma$$ wordt vastgezet op 5 en de parameter $$m_0$$ wordt steeds op een andere gekozen waarde gefixeerd in **het gehele gebied van $$m$$ dat door de dataset wordt beschreven met stapjes van 1 proton massa**.
 
 
 > - Fit nu voor elke integer waarde van $$m_0$$ in het massagebied van $$m$$ het signaal model en bereken de $$\chi^2$$ van de fit met het signaal model. Controleer of alle parameters die moeten worden gefixeerd in de fit, dat ook daadwerkelijk zijn. Kijk hiervoor naar het fit resultaat.<br><br>
