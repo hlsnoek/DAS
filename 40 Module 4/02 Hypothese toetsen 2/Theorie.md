@@ -24,7 +24,7 @@ Bij de Wald test gelden strikte voorwaardes voor het opstellen van de twee funct
 
 Als aan de bovengenoemde voorwaarde wordt voldaan dan wordt de $$\Delta \chi^2$$ beschreven door een $$\chi^2$$ functie met vrijheidsgraad $$n=1$$. En zoals we in module 3 hebben beschreven is de $$\chi^2$$ zelf een kansdichtheidsverdeling. We kunnen in dat geval de bepaalde $$\Delta \chi^2$$ direct omrekenen naar een waarschijnlijkheid, en deze is gelijk aan de p-waarde van de hypothese toets.
 
-> **Voorbeeld Wald test** Stel dat we met behulp van spectroscopie willen onderzoeken of een chemisch element $$X$$ aanwezig is in een sample. Als het chemische element $$X$$ aanwezig is dan verwachten we een verhoogde intensiteit te zien bij de emissielijn van het specifieke element. We verwachten ook een achtergrondspectrum te zien. Dat wil zeggen we meten over alle golflengtes normaal gesproken een bepaalde intensiteit, ook zonder dat het chemische element aanwezig is. We kunnen nu de twee functies opstellen, één die het  achtergrondspectrum beschrijft ($$I_0$$) en één die de emissielijn beschrijft ($$I_\alpha$$). 
+> **Voorbeeld: Wald test** Stel dat we met behulp van spectroscopie willen onderzoeken of een chemisch element $$X$$ aanwezig is in een sample. Als het chemische element $$X$$ aanwezig is dan verwachten we een verhoogde intensiteit te zien bij de emissielijn van het specifieke element. We verwachten ook een achtergrondspectrum te zien. Dat wil zeggen we meten over alle golflengtes normaal gesproken een bepaalde intensiteit, ook zonder dat het chemische element aanwezig is. We kunnen nu de twee functies opstellen, één die het  achtergrondspectrum beschrijft ($$I_0$$) en één die de emissielijn beschrijft ($$I_\alpha$$). 
 > 
 > Stel dat de achtergrond een lineaire functie volgt  
 > 
@@ -62,10 +62,10 @@ In het voorbeeld hierboven is er een duidelijk stelling over de golflengte van d
 We moeten ook bij deze toets van tevoren bepalen bij welke p-waarde we de nulhypothese verwerpen.
 
 
-> **Voorbeeld p-waarde scan** 
+> **Voorbeeld: p-waarde scan** 
 > Nu voeren we een vergelijkbaar experiment uit met een spectrometer en is er een deeltje Y dat wel wellicht kunnen waarnemen. Echter, in dit geval weten is er geen voorspelde waarde van de golflengte $$\lambda_0$$, ook kennen we de verwachte intensiteit niet. We kunnen de Wald test hierdoor niet zomaar uitvoeren. Immers moeten we precies één vrije parameter extra fitten in de $$H_\alpha$$ hypothese ten opzichte van de $$H_0$$ hypothese, en we zouden nu zowel $$J$$ als $$\lambda_0$$ moeten fitten. 
 > 
-> De oplossing vinden we door één van de parameters te fixeren, deze houden we constant. We kunnen dan de p-waarde scannen als functie van de gefixeerde parameter. In het voorbeeld hier scannen we over de golflengte $$\lambda_0$$. Voor elke gekozen waarde van $$\lambda_0$$ kunnen we de Wald test uitvoeren en de p-waarde berekenen. Door steeds een andere waarde van $$\lambda_0$$ te kiezen en de berekeningen van de Wald test te herhalen, kunnen we langzaam over de het gemeten spectrum scannen.
+> De oplossing vinden we door één van de parameters te fixeren, deze houden we constant. We kunnen dan de p-waarde scannen als functie van de gefixeerde parameter. In het voorbeeld hier scannen we over de golflengte $$\lambda_0$$. Voor elke gekozen (en gefixeerde) waarde van $$\lambda_0$$ kunnen we de Wald test uitvoeren en de p-waarde berekenen. Door steeds een andere waarde van $$\lambda_0$$ te kiezen en de berekeningen van de Wald test te herhalen, kunnen we langzaam over de het gemeten spectrum scannen.
 > 
 > We laten de fit nu voor vier waardes van $$\lambda_0$$ <!--FIG in figuur \ref{fig:SpectrumFits}--> zien. Voor elke waarde van $$\lambda_0$$ fitten we nu de twee functies waarbij we er even van uitgaan dat de spectraallijn van element Y zich precies daar bevindt. 
 >   
