@@ -4,7 +4,7 @@
 1. Ordered TOC
 {:toc}
 
-In module 3 hebben we uitgelegd hoe het toetsen van een hypothese in zijn werk gaat. We hebben gezien dat er vier belangrijke stappen zijn. Eerst stellen we de hypothese op die we willen toetsen en ook de nulhypothese. Vervolgens is het belangrijk om een statistiek te vinden die gevoelig is voor de stelling. Met andere woorden, een statistiek waarmee we de hypothese kunnen toetsen. We kiezen vervolgens een significantieniveau ($$p$$-waarde) waarbij we $$H_0$$ of $$H_\alpha$$ kunnen verwerpen. Daarna meten we de p-waarde met behulp van een meting en bekijken we of we de $$H_0$$ stelling kunnen verwerpen. We hebben ook gezien wat de $$z$$-score betekend. 
+In module 3 hebben we uitgelegd hoe het toetsen van een hypothese in zijn werk gaat. We hebben gezien dat er vier belangrijke stappen zijn. Eerst stellen we de hypothese op die we willen toetsen en ook de nulhypothese. Vervolgens is het belangrijk om een statistiek te vinden die gevoelig is voor de stelling. Met andere woorden, een statistiek waarmee we de hypothese kunnen toetsen. We kiezen vervolgens een significantieniveau ($$p$$-waarde) waarbij we $$H_0$$ of $$H_\alpha$$ kunnen verwerpen. Daarna meten we de p-waarde met behulp van een meting en bekijken we of we de $$H_0$$ stelling kunnen verwerpen. We hebben ook gezien wat de $$z$$-score betekent. 
 
 In dit hoofdstuk leggen we nu een bijzondere vorm van hypothese toetsen uit waarbij we gebruik maken van de kleinste kwadraten methode en de daarbij berekende $$\chi^2$$. 
 
@@ -57,15 +57,15 @@ In het voorbeeld hierboven hebben we een nulhypothese (waarbij alleen een achter
 
 ## p-Waarde scan
 
-In het voorbeeld hierboven is er een duidelijk stelling over de golflengte van de emissielijn van het element $$X$$, namelijk $$\lambda_0= 930$$ nm. Stel nu dat dat niet zo is, dat we niet weten bij welke golflengte we de emissielijn zouden waarnemen. In dat geval zouden we een extra vrije parameter hebben in de functie die $$H_\alpha$$ beschrijft. Omdat we dan meer dan 1 vrije parameter hebben kunnen we de Wald methode niet toepassen. Wat we in dat geval wèl kunnen doen is een zogeheten p-waarde scan uitvoeren. We fixeren dan telkens de waarde van de golflengte van de emissielijn en berekenen voor elk van deze golflengtes de p-waarde. Als er een emissielijn aanwezig is die sterk genoeg is zullen we op die locatie een dip zien in de p-waarde. 
+In het voorbeeld hierboven is er een duidelijke stelling over de golflengte van de emissielijn van het element $$X$$, namelijk $$\lambda_0= 930$$ nm. Stel nu dat dat niet zo is, dat we niet weten bij welke golflengte we de emissielijn zouden waarnemen. In dat geval zouden we een extra vrije parameter hebben in de functie die $$H_\alpha$$ beschrijft. Omdat we dan meer dan 1 vrije parameter hebben kunnen we de Wald methode niet toepassen. Wat we in dat geval wèl kunnen doen is een zogeheten p-waarde scan uitvoeren. We fixeren dan telkens de waarde van de golflengte van de emissielijn en berekenen voor elk van deze golflengtes de p-waarde. Als er een emissielijn aanwezig is die sterk genoeg is zullen we op die locatie een dip zien in de p-waarde. 
 
 We moeten ook bij deze toets van tevoren bepalen bij welke p-waarde we de nulhypothese verwerpen.
 
 
 > **Voorbeeld: p-waarde scan** 
-> Nu voeren we een vergelijkbaar experiment uit met een spectrometer en is er een deeltje Y dat wel wellicht kunnen waarnemen. Echter, in dit geval weten is er geen voorspelde waarde van de golflengte $$\lambda_0$$, ook kennen we de verwachte intensiteit niet. We kunnen de Wald test hierdoor niet zomaar uitvoeren. Immers moeten we precies één vrije parameter extra fitten in de $$H_\alpha$$ hypothese ten opzichte van de $$H_0$$ hypothese, en we zouden nu zowel $$J$$ als $$\lambda_0$$ moeten fitten. 
+> Nu voeren we een vergelijkbaar experiment uit met een spectrometer en is er een deeltje Y dat we wellicht kunnen waarnemen. Echter, in dit geval is er geen voorspelde waarde van de golflengte $$\lambda_0$$, ook kennen we de verwachte intensiteit niet. We kunnen de Wald test hierdoor niet zomaar uitvoeren. Immers moeten we precies één vrije parameter extra fitten in de $$H_\alpha$$ hypothese ten opzichte van de $$H_0$$ hypothese, en we zouden nu zowel $$J$$ als $$\lambda_0$$ moeten fitten. 
 > 
-> De oplossing vinden we door één van de parameters te fixeren, deze houden we constant. We kunnen dan de p-waarde scannen als functie van de gefixeerde parameter. In het voorbeeld hier scannen we over de golflengte $$\lambda_0$$. Voor elke gekozen (en gefixeerde) waarde van $$\lambda_0$$ kunnen we de Wald test uitvoeren en de p-waarde berekenen. Door steeds een andere waarde van $$\lambda_0$$ te kiezen en de berekeningen van de Wald test te herhalen, kunnen we langzaam over de het gemeten spectrum scannen.
+> De oplossing vinden we door één van de parameters te fixeren, deze houden we constant. We kunnen dan de p-waarde scannen als functie van de gefixeerde parameter. In het voorbeeld hier scannen we over de golflengte $$\lambda_0$$. Voor elke gekozen (en gefixeerde) waarde van $$\lambda_0$$ kunnen we de Wald test uitvoeren en de p-waarde berekenen. Door steeds een andere waarde van $$\lambda_0$$ te kiezen en de berekeningen van de Wald test te herhalen, kunnen we langzaam over het gemeten spectrum scannen.
 > 
 > We laten de fit nu voor vier waardes van $$\lambda_0$$ <!--FIG in figuur \ref{fig:SpectrumFits}--> zien. Voor elke waarde van $$\lambda_0$$ fitten we nu de twee functies waarbij we er even van uitgaan dat de spectraallijn van element Y zich precies daar bevindt. 
 >   
@@ -78,7 +78,7 @@ We moeten ook bij deze toets van tevoren bepalen bij welke p-waarde we de nulhyp
 > Je ziet nu dat er op een aantal plekken in het spectrum een kleine afwijking van de $$H_0$$ hypothese te zien is. Deze komen allemaal overeen met golflengtes waar op het oog een piekje zichtbaar lijkt. Op slechts één locatie is er een heel duidelijke afwijking zichtbaar, precies bij 968 nm. De $$\Delta \chi^2$$ is op dat punt 21.4  en dit kunnen we omrekenen naar een p-waarde van $$3.7 \cdot 10^{-6}.$$
 > 
 
-Eigenlijk hadden  we van tevoren ook bij dit experiment van tevoren een significantieniveau moeten afspreken waarbij we de aanwezigheid van het chemische element kunnen aantonen. Zodra de gemeten p-waarde onder deze afgesproken significantie zakt in de p-waarde scan kunnen we claimen het element te hebben aangetoond. Als we hem weer bij een waarde van $$1 \cdot 10^{-6}$$ hadden afgesproken hadden we ook in de p-waarde scan het element $$Y$$ kunnen claimen. 
+Eigenlijk hadden  we van tevoren ook bij dit experiment een significantieniveau moeten afspreken waarbij we de aanwezigheid van het chemische element kunnen aantonen. Zodra de gemeten p-waarde onder deze afgesproken significantie zakt in de p-waarde scan kunnen we claimen het element te hebben aangetoond. Als we hem weer bij een waarde van $$1 \cdot 10^{-6}$$ hadden afgesproken hadden we ook in de p-waarde scan het element $$Y$$ kunnen claimen. 
 
 
 De Wald test is een krachtige methode om hypotheses te toetsen. We gaan hem in opdracht M4.1 toepassen. 
