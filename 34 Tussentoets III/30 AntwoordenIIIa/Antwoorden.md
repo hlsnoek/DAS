@@ -25,9 +25,9 @@ $$\begin{aligned}
 & 2.0 \left( -1.1 -  2.0 - \hat{b} \cdot 2.0\right) & +  \\
 & 4.0 \left( -7.2 - 2.0 - \hat{b} \cdot 4.0 \right) & + \\
 & 6.0 \left( -13.3 - 2.0 - \hat{b} \cdot 6.0 \right) & = \\
-& 134.8 - 56.0 \hat{b} & = 0 \\
+& - 134.8 - 56.0 \hat{b} & = 0 \\
 \end{aligned}$$<br>
- geeft $$ \hat{b} = 134.8/56.0  = 2.4 $$</span>
+ geeft $$ \hat{b} = -134.8/56.0  = - 2.41 $$</span>
 
 **2** We hebben een dataset met de volgende meetpunten voor {x,y}:<br>
 {1.0,3.2}, {2.0,13.3}, {3.0,26.5} met meetonzekerheden $$\sigma_y = 0.5$$<br>
