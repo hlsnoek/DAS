@@ -55,8 +55,4 @@ Beantwoord nu de volgende vragen:
 <!-- Voor 2023 de laatste vraag aanpassen, middelste zin weghalen. -->
 
 
-<!--COMMENT\iffalse-->
-
 Je hebt nu alle opdrachten van module 1 afgerond. Sla het ingevulde template nu op als pdf en lever deze samen met de 5 python scriptjes in. Kijk nog eens bij de [informatie](/informatie/inleveropdrachten) over de inleveropdrachten voor de link naar ANS en de deadlines.
-
-<!--COMMENT\fi-->

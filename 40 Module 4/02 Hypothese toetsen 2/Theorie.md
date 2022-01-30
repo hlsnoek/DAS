@@ -73,7 +73,7 @@ We moeten ook bij deze toets van tevoren bepalen bij welke p-waarde we de nulhyp
 > 
 > We zien voor de fit met waarde $$\lambda_0 = 930~\text{nm}$$ dat de $$\Delta \chi^2$$ gelijk is aan 0. Maar als we goed kijken in het plaatje zien we ook geen enkel piekje bij $$\lambda=930~\text{nm}$$. Bij de waardes van $$\lambda = 940$$ en $$980~\text{nm}$$ zien we wel een klein piekje. Maar vooral bij de waarde van $$\lambda = 968~\text{nm}$$ is een grote piek te vinden. 
 >  
-> Als we alle p-waardes van de scan (maar dan over alle waardes van $$\lambda_0$$) nu grafisch weergeven dan krijgen we het volgende resultaat<!--FIG zie figuur \ref{fig:Emissiescan}-->.  
+> Als we alle p-waardes van de scan (maar dan over alle waardes van $$\lambda_0$$) nu grafisch weergeven dan krijgen we het volgende resultaat.  
 > 
 > ![De p-waarde scan van de emissiedata.](pWaardeScan.png){:width="60%"}  
 > 

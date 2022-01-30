@@ -1,11 +1,10 @@
 ## Oefenopgaves 
 <!--REF\label{/tussentoets-i/oefenopgaves}-->
 
-<!--COMMENT\iffalse-->
 
 Lees goed het [lijstje](/tussentoets-i/inhoud) door ter voorbereiding voor de tussentoets. **Niet voor alle element op het lijstje zijn oefenopgaves**.
 
-<!--COMMENT\fi-->
+
 
 -----
 

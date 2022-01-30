@@ -64,31 +64,31 @@ Bij de fabrikant zijn de afgelopen maand 30000 kleurpotloden geproduceert met ee
 \label{/tussentoets-iii/antwoorden}
 
 
-1. We vinden de optimale waarde voor $b$ door de afgeleide van de $\chi^2$ op nul te stellen: ${\frac{\partial \chi^2}{\partial b} = \sum_i^N \frac{1}{\sigma_y^2} \frac{\partial f(x_i;a,b)}{\partial b} \left(y_i - f(x_i;a,b)\right) = 0 }$,
-$\frac{\partial f(x_i;a,b)}{\partial b} = x$, 
-geeft met a=2.0: 
-${\sum_i^N \frac{1}{1} x_i(y_i - (2.0 + \hat{b} x_i )) = 0}$, 
-Invullen: 
+1. We vinden de optimale waarde voor $b$ door de afgeleide van de $\chi^2$ op nul te stellen: ${\frac{\partial \chi^2}{\partial b} = \sum_i^N \frac{1}{\sigma_y^2} \frac{\partial f(x_i;a,b)}{\partial b} \left(y_i - f(x_i;a,b)\right) = 0 }$,\\
+$\frac{\partial f(x_i;a,b)}{\partial b} = x$, \\
+geeft met a=2.0: \\
+${\sum_i^N \frac{1}{1} x_i(y_i - (2.0 + \hat{b} x_i )) = 0}$, \\
+Invullen: \\
 $\begin{aligned}
 2.0 \left( -1.1 -  2.0 - \hat{b} \cdot 2.0\right) & +  \\
 4.0 \left( -7.2 - 2.0 - \hat{b} \cdot 4.0 \right) & + \\
 6.0 \left( -13.3 - 2.0 - \hat{b} \cdot 6.0 \right) & = \\
 - 134.8 - 56.0 \hat{b} & = 0
-\end{aligned}$
+\end{aligned}$\\
 geeft $ \hat{b} = - 134.8/56.0  = - 2.4 $
 
 
-2. ${\frac{\partial \chi^2}{\partial a} = \sum_i^N \frac{1}{\sigma_y^2} \frac{\partial f(x_i;a)}{\partial a} \left(y_i - f(x_i;a)\right) = 0 }$,
-$\frac{\partial f(x_i;a)}{\partial a} = x^2$,
-geeft:
-${\sum_i^N {4} x^2_i \left( y_i - \hat{a} \cdot x_i^2 \right) = 0}$,
-Invullen:
+2. ${\frac{\partial \chi^2}{\partial a} = \sum_i^N \frac{1}{\sigma_y^2} \frac{\partial f(x_i;a)}{\partial a} \left(y_i - f(x_i;a)\right) = 0 }$,\\
+$\frac{\partial f(x_i;a)}{\partial a} = x^2$,\\
+geeft:\\
+${\sum_i^N {4} x^2_i \left( y_i - \hat{a} \cdot x_i^2 \right) = 0}$,\\
+Invullen:\\
 $\begin{aligned}
 (1.0^2 \left( 3.2 - \hat{a} \cdot 1.0^2 \right) & +  \\
 (2.0^2 \left( 13.3 - \hat{a} \cdot 2.0^2 \right) & + \\
 (3.0^2 \left( 26.5 - \hat{a} \cdot 3.0^2 \right) & = \\
 294.9 - 98.0 \cdot \hat{a} = 0 \\
-\end{aligned}$
+\end{aligned}$\\
 geeft $\hat{a} = 3.0$
 
 
