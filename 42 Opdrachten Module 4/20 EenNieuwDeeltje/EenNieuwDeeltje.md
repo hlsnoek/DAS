@@ -43,15 +43,15 @@ $$\displaystyle f(m;N_0,c) = N_0 \cdot \left( \frac{1}{2} \right)^{m/c}$$
 
 De massaverdeling van deeltje $$X$$ ziet er zo uit: 
 
-$${\displaystyle g(m;m_0,\sigma, N_X) = N_X \cdot \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{m-m_0}{\sigma})^2}}$$
+$${\displaystyle g(m;m_x,\sigma, N_X) = N_X \cdot \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{m-m_x}{\sigma})^2}}$$
 
-We weten niet wat de waarde is van $$m_0$$ en ook niet hoeveel $$X$$-deeltjes we zouden kunnen hebben in onze dataset ($$N_X$$). Wel kennen  we de resolutie van onze meting ($$\sigma=5$$ pm). Hiermee bedoelen we dat we op de massapiek van het $$X$$ deeltje een spreiding verwachten van ($$\sigma=5$$ pm).
+We weten niet wat de waarde is van $$m_x$$ en ook niet hoeveel $$X$$-deeltjes we zouden kunnen hebben in onze dataset ($$N_X$$). Wel kennen  we de resolutie van onze meting ($$\sigma=5$$ pm). Hiermee bedoelen we dat we op de massapiek van het $$X$$ deeltje een spreiding verwachten van ($$\sigma=5$$ pm).
 De eenheid van $$m$$ drukken 
-we uit in het aantal proton massa's omdat het anders onhandig wordt met de eenheid (1 proton massa is gelijk aan $$1.6726 \times 10^{-27}$$ kg). Zoals beschreven in het Hoofdstuk [Hypothese Toetsen II](/module-4/hypothese-toetsen-2) mogen we voor de Wald maar 1 vrije parameter verschil hebben tussen de achtergrond ($$H_0$$) en de deeltjeshypothese ($$H_{\alpha}$$), maar we hebben dus twee onbekende parameters die we moeten schatten. We gebruiken hier de methode van de p-waarde scan en scannen de massa $$m$$, zo hebben we maar 1 vrije parameter in de fit en dat is de hoeveelheid deeltjes, $$N_X$$.
+we uit in het aantal proton massa's omdat het anders onhandig wordt met de eenheid (1 proton massa is gelijk aan $$1.6726 \times 10^{-27}$$ kg). Zoals beschreven in het Hoofdstuk [Hypothese Toetsen II](/module-4/hypothese-toetsen-2) mogen we voor de Wald maar 1 vrije parameter verschil hebben tussen de achtergrond ($$H_0$$) en de deeltjeshypothese ($$H_{\alpha}$$), maar we hebben dus twee onbekende parameters die we moeten schatten. We gebruiken hier de methode van de p-waarde scan en scannen de massa $$m_x$$, zo hebben we maar 1 vrije parameter in de fit en dat is de hoeveelheid deeltjes, $$N_X$$.
 
 >  - We gaan weer fitten met het pakket [**lmfit**](https://lmfit.github.io/lmfit-py/model.html). Importeer hiervoor weer het models pakket uit lmfit zoals je ook in opgave (M3.2 Halfwaardedikte III)[/opdrachten-module-3/halfwaardedikteiii] hebt gedaan.
 >
-> - Schrijf eerst een functie die je **`achtergrond_functie(x,N0,c)`** noemt. Het is misschien logischer om in plaats van de  `x` variabele `m_0` te gebruiken, maar later in het programma maken we gebruik van een standaard functie van **`models`** en deze vereist dat we hem `x` noemen. 
+> - Schrijf eerst een functie die je **`achtergrond_functie(x,N0,c)`** noemt. Het is misschien logischer om in plaats van de  `x` variabele `m` te gebruiken, maar later in het programma maken we gebruik van een standaard functie van **`models`** en deze vereist dat we hem `x` noemen. 
 > 
 > Nadat je de functie hebt geschreven die de achtergrond beschrijft maken we het model voor de fit en die noemen we **`achtergrond_model`**. 
 > 
@@ -108,12 +108,13 @@ Met de informatie die we hierboven gegeven hebben weten we dat we een van deze p
 > - We kunnen een parameter fixeren met het volgende statement: 
 > 
 > 			signaal_model.set_param_hint("par_name", vary=False)
+> 
 > 	waarbij **`par_name`** de naam van de variabele is waarvoor we dat willen doen. Dit statement zegt dat de variabele **`par_name`** niet wordt geoptimaliseerd in de fit procedure, de variabele wordt gefixeerd op de waarde die je als startwaarde meegeeft.
  
-We zijn nu klaar om de zogeheten p-waarde scan uitvoeren. We kiezen steeds een waarde van $$m_0$$ en laten alleen de volgende parameters vrij in de fit: $$N_0, c$$ en $$N_X$$. De andere parameter $$\sigma$$ wordt vastgezet op 5 en de parameter $$m_0$$ wordt steeds op een andere gekozen waarde gefixeerd in **het gehele gebied van $$m$$ dat door de dataset wordt beschreven met stapjes van 1 proton massa**.
+We zijn nu klaar om de zogeheten p-waarde scan uitvoeren. We kiezen steeds een waarde van $$m_x$$ en laten alleen de volgende parameters vrij in de fit: $$N_0, c$$ en $$N_X$$. De andere parameter $$\sigma$$ wordt vastgezet op 5 en de parameter $$m_x$$ wordt steeds op een andere gekozen waarde gefixeerd in **het gehele gebied van $$m$$ dat door de dataset wordt beschreven met stapjes van 1 proton massa**.
 
 
-> - Fit nu voor elke integer waarde van $$m_0$$ in het massagebied van $$m$$ het signaal model en bereken de $$\chi^2$$ van de fit met het signaal model. Controleer of alle parameters die moeten worden gefixeerd in de fit, dat ook daadwerkelijk zijn. Kijk hiervoor naar het fit resultaat.<br><br>
+> - Fit nu voor elke integer waarde van $$m_x$$ in het massagebied van $$m$$ het signaal model en bereken de $$\chi^2$$ van de fit met het signaal model. Controleer of alle parameters die moeten worden gefixeerd in de fit, dat ook daadwerkelijk zijn. Kijk hiervoor naar het fit resultaat.<br><br>
 > 	**Tip 1:** Zorg dat je de juiste startwaardes meegeeft.<br>
 >  **Tip 2:** Je kunt de $$\chi^2$$ opvragen van het fit resultaat met het statement: 
 > 
@@ -123,7 +124,7 @@ We zijn nu klaar om de zogeheten p-waarde scan uitvoeren. We kiezen steeds een w
 > - **M4.1e) Hoeveel vrijheidsgraden heeft de signaal fit? Schrijf je berekening helemaal uit.**
 
 
-Voor elke waarde van $$m_0$$ kunnen we nu de $$\Delta \chi^2$$ berekenen. Dit is het verschil  tussen de  $$\chi^2$$ van achtergrond model fit en de $$\chi^2$$ van de signaal model fit bij die waarde van $$m_0$$. Dit verschil noteren we als: 
+Voor elke waarde van $$m_x$$ kunnen we nu de $$\Delta \chi^2$$ berekenen. Dit is het verschil  tussen de  $$\chi^2$$ van achtergrond model fit en de $$\chi^2$$ van de signaal model fit bij die waarde van $$m_x$$. Dit verschil noteren we als: 
 
 $${\displaystyle \Delta \chi^2 = \chi^2_{a} - \chi^2_{s}}$$
 
@@ -136,20 +137,20 @@ Waarbij we $$\Delta \chi^2$$ kunnen we omrekenen naar een p-waarde. Lees hierove
 >
 >
 >
-> - **M4.1f) Bereken voor *elke waarde* van $$m_0$$ nu de p-waarde en representeer deze in een grafiek waarbij je de p-waarde uitzet tegen $$m_0$$.** <br> 
+> - **M4.1f) Bereken voor *elke waarde* van $$m_x$$ nu de p-waarde en representeer deze in een grafiek waarbij je de p-waarde uitzet tegen $$m_x$$.** <br> 
 > **Tip:** Gebruik hiervoor de volgende plot opties om de grafiek duidelijker te maken: 
 > 
 >			plt.yscale('log')
 >			plt.grid(True)
 >
 >  <br>
-> - **M4.1g) Bij welke waarde van $$m_0$$ vind je de beste p-waarde in jouw massa gebied? Leg uit hoe je dat bepaald hebt.**<br><br>
+> - **M4.1g) Bij welke waarde van $$m_x$$ vind je de beste p-waarde in jouw massa gebied? Leg uit hoe je dat bepaald hebt.**<br><br>
 > 
 >  <br>
-> - **M4.1h) Maak een grafiek met de dataset en de gefitte modellen (achtergrond en signaal) voor deze waarde van $$\hat{m}_0$$.**<br><br>
+> - **M4.1h) Maak een grafiek met de dataset en de gefitte modellen (achtergrond en signaal) voor deze waarde van $$\hat{m}_x$$.**<br><br>
 > 
 >   <br>
-> - **M4.1i) Bereken voor $$\hat{m}_0$$ de p-waarde en de z-score.** De z-score kun je met het volgende statement uitrekenen:
+> - **M4.1i) Bereken voor $$\hat{m}_x$$ de p-waarde en de z-score.** De z-score kun je met het volgende statement uitrekenen:
 >
 >		    z_score = -stats.norm.ppf(p_waarde)
 >
