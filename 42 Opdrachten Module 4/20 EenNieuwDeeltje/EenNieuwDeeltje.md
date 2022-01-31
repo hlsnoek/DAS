@@ -25,13 +25,13 @@ Maak voor deze opdracht een nieuw python bestand aan.
 
 > Haal de dataset voor deze opdracht op met het volgende statement
 >
-> 	m,events,events_err = ds.DeeltjesDataset()
+> 		m,events,events_err = ds.DeeltjesDataset()
 >	
 > De drie `list`'s die worden teruggegeven zijn:
 >	
->	m - de berekende massa van de restproducten uitgedrukt in proton massa's (pm)
->	events - het aantal botsingen in de geselecteerde data in de massa bin
->	events_err - de onzekerheid op het aantal events
+>		m - de berekende massa van de restproducten uitgedrukt in proton massa's (pm)
+>		events - het aantal botsingen in de geselecteerde data in de massa bin
+>		events_err - de onzekerheid op het aantal events
 >	
 > Zorg dat je de volgorde van de lists intact houdt zodat de juiste waarde van `m` bij de juiste waarde van `events` houdt.
 
