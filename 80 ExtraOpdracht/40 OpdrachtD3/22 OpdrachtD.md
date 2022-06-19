@@ -1,6 +1,4 @@
-##Herkansingsopdracht A
-
-<!--Opgave 3c bekijken. Er is geen onzekerheid gegeven en de dataset doet hele grote nauwkeurigheid vermoeden.-->
+##Herkansingsopdracht D
 
 
 Presenteer je antwoorden en je berekeningen in een pdf document. Let hierbij op het volgende: 
@@ -17,27 +15,30 @@ Als je tussendoor vast loopt neem dan contact met me op.
 Succes!
 
 ##Opdracht 1 - Lange en Korte leerlingen [5 punten]
-Gegeven zijn [metingen](lengtesLeerlingen.txt) van lengtes in cm van leerlingen van de middelbare school. In het bestand vind je de klas en de opgemeten lengte van alle leerlingen van de school.
+Gegeven zijn [metingen](lengtesVanLeerlingen.txt) van lengtes in cm van leerlingen van de middelbare school. In het bestand vind je de klas en de opgemeten lengte van alle leerlingen van de school.
+
+
 
 **[a]** Presenteer de lengtes van alle leerlingen van de school in een histogram.<br>
-**[b]** Bereken het gemiddelde, de mediaan en de standaardafwijking van de distributie.<br> 
-**[c]** Als je een willekeurige leerling van de school om zijn of haar lengte vraagt, wat is dan de kans dat deze langer is dan 1,75 m?<br>
-**[d]** Als je een willekeurige leerling uit de brugklas haalt, wat is dan de kans dat de leerling groter is dan 1,75 m?<br>
-**[e]** Wat is de kans dat een leerling met lengte kleiner dan 1,65 m in klas 1 zit? <br>
+**[b]** Bereken het gemiddelde, de mediaan en de standaard deviatie van de distributie.<br> 
+**[c]** Als je een willekeurige leerling van de school om zijn of haar lengte vraagt, wat is dan de kans dat deze kleiner is dan 1,72 m?<br>
+**[d]** Als je een willekeurige leerling uit de zesde klas haalt, wat is dan de kans dat de leerling kleiner is dan 1,72 m?<br>
+**[e]** Wat is de kans dat een leerling met lengte kleiner dan 1,72 m in klas 6 zit? <br>
 
-Stel nu dat blijkt dat er een probleem is met het meetlint dat gebruikt is voor de metingen. Het meetlint begint bij 10 cm in plaats van bij 0 en dit is niet opgevallen tijdens het meten. 
+Stel nu dat blijkt dat er een probleem is met het meetlint dat gebruikt is voor de metingen. De eerste 10 centimeter zitten er dubbel in en als je 90 cm afleest dan blijkt het eigenlijk 100 cm te zijn. 
+
 
 **[f]** Hoe noem je dit type fout?<br>
-**[g]** Wat gebeurt er met het gemiddelde, de mediaan en de standaardafwijking?<br>
+**[g]** Wat gebeurt er met het gemiddelde, de mediaan en de standaard deviatie?<br>
 
  Op een **andere school** is bekend dat: 
 
- - 	exact 12% van de leerlingen van de school in klas 1 zit, 
- -  dat 20% van de leerlingen die in klas 1 zit groter is dan 1,75 meter,
+ - 	exact 18% van de leerlingen van de school in klas 5 zit, 
+ -  dat 75% van de leerlingen die in klas 5 zit groter is dan 1,75 meter,
  -  van alle leerlingen op de school 60% langer is dan 1,75 meter
  
-**[h]** Wat is de kans dat een willekeurige leerling van deze andere school die langer is dan 1,75 meter in groep 1 zit?  
-**[i]** Wat is de kans dat een willekeurige leerling van deze andere school die kleiner, of precies gelijk is aan 1,75 meter in groep 1 zit?		
+**[h]** Wat is de kans dat een willekeurige leerling van deze andere school die langer is dan 1,75 meter in klas 5 zit?  
+**[i]** Wat is de kans dat een willekeurige leerling van deze andere school die kleiner, of precies gelijk is aan 1,75 meter in groep 5 zit?		
 
 
 ## Opdracht 2 - Meten van de halfwaardetijd van een element [2.5 punten]
@@ -45,13 +46,13 @@ In deze opdracht krijg je data die genomen is met een Geiger Muller telbuis waar
 [Hier](dataOpdracht2.txt) vind je een dataset waarbij het aantal gemeten counts en de tijd in minuten is gegeven. Voor elke meetwaarde is 60 seconde lang gemeten, het aantal counts in dit tijdsinterval van 60 secondes is genoteerd in de dataset.
 
 **[a]** Bereken voor elk van de gemeten punten de onzekerheid op de meting. Leg uit welke formules je hiervoor gebruikt. <br>
-**[b]** Stel dat je berekent dat je op een bepaald tijdstip verwacht nog maar 20 counts te meten. Wat is dan de kans dat je er geen 20 maar 25 meet? Laat hierbij, net als voor alle andere opdrachten, je berekening zien en presenteer de formules die je gebruikt. <br>
+**[b]** Stel dat je berekent dat je op een bepaald tijdstip verwacht nog maar 15 counts te meten. Wat is dan de kans dat je er geen 15 maar 10 meet? Laat hierbij, net als voor alle andere opdrachten, je berekening zien en presenteer de formules die je gebruikt. <br>
 **[c]** Bepaal uit de dataset de halfwaardetijd door de volgende functie te fitten aan de dataset. Gebruik hiervoor de volgende formule voor de halfwaarde tijd: 
    
    $$N(t) = N_0 \left(\frac{1}{2}\right)^{t/t_{half}}$$
 
 Presenteer de meetresultaten en de fit in een grafiek. <br>
-**[d]** Wat is de gereduceerde $$\chi^2$$ van de fit en hoeveel vrijheidsgraden heeft de fit?<br>
+**[d]** Wat is de gereduceerde $$\chi^2$$ van de fit? Hoeveel vrijheidsgraden heeft de fit?<br>
 
 
 ## Opdracht 3 - Correlatie en Covariantie [2.5 punten]
@@ -61,4 +62,4 @@ set onbekende voorwerpen. De massa is steeds gegeven in gram, de lengte is gegev
 **[a]** Maak een grafische presentatie van de data. <br>
 **[b]** Bereken de correlatie en de covariantie van de dataset. Presenteer ook al je tussenresultaten.<br>
 **[c]** Bereken de gemiddelde massa van de objecten en de geef de onzekerheid op dit berekende gemiddelde. <br>
-**[d]** Stel nu dat ik nog drie andere verzamelingen van gelijke objecten heb opgemeten. De gemiddelde massas van deze verzamelingen zijn: $$M_A = 232 \pm 4 g$$, $$M_B = 240 \pm 2 g $$ en $$M_C = 228 \pm 15 g $$. Bereken de gemiddelde massa van het totaal van verzamelingen A, B en C en bereken hierop de onzekerheid. Schrijf de hele berekening uit.
+**[d]** Stel nu dat ik nog drie andere verzamelingen van gelijke objecten heb opgemeten. De gemiddelde massas van deze verzamelingen zijn: $$M_A = 244 \pm 5 g$$, $$M_B = 233 \pm 4 g $$ en $$M_C = 230 \pm 12 g $$. Bereken de gemiddelde massa van het totaal van verzamelingen A, B en C en bereken hierop de onzekerheid. Schrijf de hele berekening uit.
