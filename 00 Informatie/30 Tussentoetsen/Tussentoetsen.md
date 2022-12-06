@@ -6,7 +6,7 @@ Er worden 3 tussentoetsen afgenomen in week 2, week 3 en week 4 van het vak. Dez
 
 | tussentoets |  1 | 2 | 3 |
 |------|-------|------|------|
-|  | 17 jan 12:20-12:50 | 24 jan 12:20-12:50 | 31 jan 12:20-12:50 |
+|  | 17 jan 9:00-9:20 | 24 jan 9:00-9:20 | 31 jan 9:00-9:20 |
 
 <!-- | datum | di 18 jan | di 25 jan | di 1 feb |-->
 

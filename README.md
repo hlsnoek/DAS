@@ -1,7 +1,7 @@
 # Studiewijzer
 <!--REF\label{/syllabus}-->
 
-## Data Analyse en Statistiek, Januari 2022
+## Data Analyse en Statistiek, Januari 2023
 
 
 Welkom bij het vak Data Analyse en Statistiek. In dit vak leer je de basisprincipes van statistiek en deze toe te passen op realistische gemodelleerde datasets. 
@@ -17,7 +17,7 @@ Je kunt via Canvas vragen stellen over het vak.
 #### Voorbereiding
 Bereid je vast voor op dit vak door te zorgen dat python goed geïnstalleerd is en dat je je kennis hierover even opfrist.<br>
 Zorg dat je weet hoe 'for' loops werken en hoe je een functie definieert. <br>
-Voor de installatie kun je de [instructies](/informatie/installatie)  volgen. Als het test programmaatje goed draait dan kun je straks meteen aan de slag.<br>
+Voor de installatie kun je de [instructies](/informatie/installatie)  volgen. Als het test programmaatje werkt dan kun je straks meteen aan de slag.<br>
 
 
 #### Hoorcolleges
@@ -25,14 +25,14 @@ Voor de installatie kun je de [instructies](/informatie/installatie)  volgen. Al
 In hoorcolleges bespreekt de docent de theorie van Data analyse en Statistiek waarmee je de laptopcollege opgaven kunt oplossen en die je voorbereidt op de toetsjes. 
 
 #### Inleveropdrachten
-Tijdens de *laptopcolleges* werk je aan de inlever opdrachten die horen bij dit vak. Deze opdrachten moet je ook inleveren voor een cijfer. Voor de opdrachten van elke module is een deadline. Als je deze deadline niet haalt trekken we **2 punten per dag af**. Aanwezigheid op de laptopcolleges is verplicht, tenzij het werk voor die module al is ingeleverd via ANS.<br>
+Tijdens de *laptopcolleges* werk je aan de inlever opdrachten die horen bij dit vak. Deze opdrachten moet je ook inleveren voor een cijfer. Voor de opdrachten van elke module is een deadline. Als je deze deadline niet haalt trekken we **2 punten van het cijfer voor de opdracht per dag af**. Aanwezigheid op de laptopcolleges is verplicht, tenzij het werk voor die module al is ingeleverd via ANS.<br>
 Informatie over de inleveropdrachten vind je [hier](/informatie/inleveropdrachten). Het gemiddelde van de inleveropdrachten tellen voor 80% mee aan het eindcijfer, je moet minimaal een 5,5 halen voor het gemiddelde van de opdrachten om het vak te halen. Om voor de herkansing in aanmerking te komen dienen alle inleveropdrachten te zijn ingeleverd.
 
 #### Tussentoetsen
 In week 2, 3 en 4 vindt een tussentoets plaats. Deze toetsen moet je gemiddeld met een voldoende (minimaal een 5,5) afronden om het vak te halen, het gemiddelde van de toetsen wegen voor 20% mee in het eindcijfer. Meer informatie over de tussentoetsen vind je [hier](/informatie/tussentoetsen). 
 
 #### Boeken
-Er zijn geen boeken benodigd voor deze cursus. Wil je de stof een keer op een andere manier benaderen, dan vind je in de volgende boeken wellicht wat je zoekt:
+Er zijn geen boeken benodigd voor deze cursus. Wil je de stof een keer op een andere manier benaderen, dan vind je in het volgende boek wellicht wat je zoekt:
 
 J.R. Taylor, 1997, 'An introduction to error analysis', University Science Books, Sausalito, 2, 1997, ISBN 978 0935 702 750. Dit boek is gratis beschikbaar op [deze website](https://archive.org/details/TaylorJ.R.IntroductionToErrorAnalysis2ed/).
 
@@ -56,7 +56,7 @@ Kijk dus niet naar mekaars scherm.
 
 Als we zien dat (delen) van het werk zijn overgenomen van een andere student kunnen we
 niet inschatten of jij het zelf ook wel echt begrepen hebt - en dan kunnen we
-het werk ook geen cijfer geven.
+het werk ook geen cijfer geven. We melden dit ook altijd aan de examencommissie. 
 
 Fraude volgens de UvA: *"Het handelen of nalaten van een student waardoor een
 juist oordeel over zijn kennis, inzicht en vaardigheden geheel of gedeeltelijk
