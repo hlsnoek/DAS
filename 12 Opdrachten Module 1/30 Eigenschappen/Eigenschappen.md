@@ -3,7 +3,7 @@
 
 In deze opdracht gaan we kijken naar de [eigenschappen](/module-1/basisbegrippen) van distributies en hoe deze veranderen als je een translatie of vermenigvuldiging toepast. We kijken naar de Normaal en Poisson distributies. 
 
-Download voor deze opdracht het bestand [M1.3_Eigenschappen.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/30%20Eigenschappen/M1.3_Eigenschappen.py) zorg dat deze in dezelfde folder staat as het `DAS_DatasetGenerator.py` bestand. 
+Download voor deze opdracht het bestand [M1.3_Eigenschappen.py](https://das.proglab.nl/course/12%20Opdrachten%20Module%201/30%20Eigenschappen/M1.3_Eigenschappen.py) zorg dat deze in dezelfde folder staat as het `DAS_DatasetGenerator.py` bestand. 
 
 ### Normale distributie
 We beginnen met het maken van een Gaussische dataset $$\text{dg}(x)$$ met 500 punten. Deze maken we aan met de functie **`genereerDistributieDG(N)`** waarbij **`N`** het aantal datapunten is die we willen genereren. We kiezen voor een dataset met 500 punten.

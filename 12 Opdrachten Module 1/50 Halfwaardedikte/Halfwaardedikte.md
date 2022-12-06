@@ -22,7 +22,7 @@ Hierbij is de intensiteit $$I$$ gelijk aan het aantal counts per seconde:
 
 $$I = \frac{N}{\Delta T}$$
 
-We gaan het experiment nu simuleren. Download het bestand [M1.5_Halfwaardedikte.py](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/50%20Halfwaardedikte/M1.5_Halfwaardedikte.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand. 
+We gaan het experiment nu simuleren. Download het bestand [M1.5_Halfwaardedikte.py](https://das.proglab.nl/course/12%20Opdrachten%20Module%201/50%20Halfwaardedikte/M1.5_Halfwaardedikte.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand. 
 
 De volgende regel in de code maakt de dataset aan: 
 

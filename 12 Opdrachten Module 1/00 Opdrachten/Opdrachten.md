@@ -13,7 +13,7 @@ Tijdens de laptopcolleges in de eerste week werken we aan de vijf opdrachten van
 
 De sterretjes geven een indicatie voor hoeveel werk een opdracht is. 
 
-De antwoorden van de opdrachten moet je invoeren in [deze template](https://das.mprog.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/InlevertemplateModule1.docx) en als **pdf** bestand inleveren via ANS ook de code moet je daar inleveren. 
+De antwoorden van de opdrachten moet je invoeren in [deze template](https://das.proglab.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/InlevertemplateModule1.docx) en als **pdf** bestand inleveren via ANS ook de code moet je daar inleveren. 
 
 De deadlines voor de inleveropdrachten en informatie over ANS kun je [hier](/informatie/inleveropdrachten) vinden.
 

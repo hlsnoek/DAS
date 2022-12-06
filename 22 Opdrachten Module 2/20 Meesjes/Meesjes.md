@@ -5,7 +5,7 @@ Je vindt helaas een dood meesje in de tuin. Het lijkt op een koolmeesje maar het
 Er zijn [manieren](https://www.tuinvogeltelling.nl/herkenningstips/?tip=17) om pimpelmeesjes van koolmeesjes te onderscheiden met behulp van uiterlijke kenmerken. Maar je bent een Natuurkundige en geen Bioloog. Online vind je een dataset met informatie over de massa en de spanwijdte van beide soorten meesjes.
 
 
-Download het bestand [M2.2_Meesjes.py](https://das.mprog.nl/course/22%20Opdrachten%20Module%202/20%20Meesjes/M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand. Je kan eventueel een nieuwe folder voor M2 aanmaken en hier een kopie van het `DAS_DatasetGenerator.py` bestand in plaatsen.
+Download het bestand [M2.2_Meesjes.py](https://das.proglab.nl/course/22%20Opdrachten%20Module%202/20%20Meesjes/M2.2_Meesjes.py) en zorg dat deze in dezelfde folder staat als het `DAS_DatasetGenerator.py` bestand. Je kan eventueel een nieuwe folder voor M2 aanmaken en hier een kopie van het `DAS_DatasetGenerator.py` bestand in plaatsen.
 
 
 We genereren eerst twee datasets met behulp van de volgende regel code: 
