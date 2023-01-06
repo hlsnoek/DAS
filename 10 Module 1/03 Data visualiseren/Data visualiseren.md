@@ -286,7 +286,7 @@ De bijbehorende plot<!--FIG (Fig. \ref{fig:PLOT17_MeerdereLijnen_legenda})-->.
 
 ### Voorbeeld een histogram plotten
 
-In de allereerste opgave M1.1 ga je een histogram plotten. In die opgave staat stap voor stap uitgelegd hoe je dat moet doen. 
+In de allereerste opgave van module 1 ga je een histogram plotten. In die opgave staat stap voor stap uitgelegd hoe je dat moet doen. 
 
 Maar kijk vooral ook in de [online manual](https://matplotlib.org/3.1.1/tutorials/introductory/pyplot.html) van matplotlib.
 

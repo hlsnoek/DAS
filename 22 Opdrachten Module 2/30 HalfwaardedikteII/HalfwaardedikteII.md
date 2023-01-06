@@ -1,10 +1,10 @@
 ## M2.3 Halfwaardedikte II ***
 <!--REF\label{/opdrachten-module-2/halfwaardedikteii}-->
 
-We gaan nu terug naar het experiment uit opgave M1.5 waarbij we de halfwaardedikte van lood onderzoeken voor een bepaalde gamma-bron. We onderzoeken in deze opdracht de onzekerheid op het meetresultaat.
+We gaan nu terug naar het experiment uit opgave M1.4 waarbij we de halfwaardedikte van lood onderzoeken voor een bepaalde gamma-bron. We onderzoeken in deze opdracht de onzekerheid op het meetresultaat.
 
 
-In opgave M1.5 gebruikten we een methode om de halfwaardedikte te bepalen. Bij deze methode zochten we naar de eerste dikte, $$d$$, in de grafiek waarvoor geldt dat $$N\leq 0.5 \times N_0$$. Hiervoor wordt steeds een ratio, $$R$$, berekend: 
+In opgave M1.4 gebruikten we een methode om de halfwaardedikte te bepalen. Bij deze methode zochten we naar de eerste dikte, $$d$$, in de grafiek waarvoor geldt dat $$N\leq 0.5 \times N_0$$. Hiervoor wordt steeds een ratio, $$R$$, berekend: 
 
 $${\displaystyle R = \frac{N_d}{N_0}.}$$
 

@@ -1,7 +1,7 @@
 ## M2.1 Grote Aantallen II \*\*
 <!--REF\label{/opdrachten-module-2/groteaantallen}-->
 
-We gaan in deze opdracht verder kijken naar de ton met kogels uit opgave M1.4. 
+We gaan in deze opdracht verder kijken naar de ton met kogels uit opgave M1.3. 
 In die opgave begonnen we met een ton met 80 kogels en berekenden we  het gemiddelde, $$g_n = \overline{m_n}$$ over de eerste $$n$$ kogels van de set. Zo kregen we de distributie van $$g_n$$ versus $$n$$.
 ***Voordat je met deze opdracht begint, controleer eerst even in ANS of je dit goed hebt gedaan en corrigeer eventueel je fouten.*** 
 
@@ -31,7 +31,7 @@ We nemen nu uit elke ton een steekproef van 10 kogels. We berekenen eerst het ge
 
 
 > - **M2.1c) Bereken voor elk van de 100 datasets het gemiddelde over de eerste 10 metingen en laat de distributie van deze gemiddeldes $$g_{10}$$ zien in een histogram.**<br> 
-> Tip: Denk hierbij aan de functie die je al voor M1.4 hebt geschreven.
+> Tip: Denk hierbij aan de functie die je al voor M1.3 hebt geschreven.
 
 Je ziet nu duidelijk dat niet elke steekproef hetzelfde gemiddelde oplevert. Er is een bepaalde spreiding van de gemiddeldes $$g_{10}$$ die we hebben berekend. De distributie van gemiddeldes heeft dus zelf ook weer een gemiddelde en een spreiding. 
 

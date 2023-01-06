@@ -35,7 +35,7 @@ Je ziet dat de functie **`curve_fit`** verschillende opties nodig heeft en twee 
 -->
 
 
-We hebben eerst een functie nodig die de datapunten beschrijft en een set met startwaardes voor de parameters. We kijken eerst nog even naar de formule die in M1.1 is gegeven:
+We hebben eerst een functie nodig die de datapunten beschrijft en een set met startwaardes voor de parameters. We kijken eerst nog even naar de formule die in M1 is gegeven:
 
 $${\displaystyle I(d; N_0, d_{half}) = I_0 \times \left( \frac{1}{2} \right) ^{d/d_{half}}}$$
 

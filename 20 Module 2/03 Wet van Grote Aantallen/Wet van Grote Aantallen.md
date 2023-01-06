@@ -1,7 +1,7 @@
 # Wet van Grote Aantallen
 <!--REF\label{/module-2/wet-van-grote-aantallen}-->
 
-In opgave M1.4 hebben we gezien hoe de spreiding van het bepaalde steekproefgemiddelde steeds kleiner wordt als we meer data gebruiken om het gemiddelde te bepalen. De gemeten waardes liggen steeds dichter bij elkaar.
+In opgave M1.3 hebben we gezien hoe de spreiding van het bepaalde steekproefgemiddelde steeds kleiner wordt als we meer data gebruiken om het gemiddelde te bepalen. De gemeten waardes liggen steeds dichter bij elkaar.
 Dit is een belangrijke observatie. Het geeft aan dat hoe groter de steekproef, hoe nauwkeuriger we ons resultaat weten. Je voelt misschien al aan dat dit niet altijd op gaat. Wanneer dit wel en wanneer dit niet opgaat zullen we hier bespreken. 
 
 We bespreken hier twee wetten, de $$\sqrt{n}$$-wet en de wet van grote aantallen. De eerste wet zegt dat we een gemiddelde, onder bepaalde voorwaarden, steeds beter kennen als we meer datapunten meenemen. De tweede wet zegt dat het steekproef gemiddelde langzaam zal convergeren naar het gemiddelde van de populatie naarmate de steekproef steeds groter wordt.

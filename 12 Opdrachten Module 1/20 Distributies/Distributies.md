@@ -47,7 +47,7 @@ En wat is de kans dat je een 4 of lager gooit?**<br><br>
 >
 > - **M1.1e) Stel dat je 30 keer met de dobbelsteen gooit. Wat is dan het verwachte aantal keren dat je 3 gooit?**<br><br>
 >
-> - **M1.1f) Als je dit experiment doet en je gooit wel 10 keer een 3, kun je daaruit dan concluderen dat je een niet eerlijke dobbelsteen hebt?**
+> - **M1.1f) Als je dit experiment doet en je gooit wel 10 keer een 3, kun je daaruit dan concluderen dat je een niet eerlijke dobbelsteen hebt? Beredeneer je antwoord.**
 <!-- Voor 2023: Beredeneer je antwoord-->
 
 We gaan dit experiment nu simuleren. Om stochastische (ook wel toevallige of random) getallen te genereren maken we gebruik van de random nummer generator in het **`numpy`** pakket. Er zijn verschillende manieren om een dataset te maken die het experiment simuleert. In elk geval heb je de volgende pakketten nodig: 
