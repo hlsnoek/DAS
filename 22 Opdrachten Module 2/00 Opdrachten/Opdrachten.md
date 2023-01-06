@@ -4,7 +4,7 @@
 In deze module gaan we werken aan de volgende opdrachten. 
 
 * [M2.1 Grote Aantallen II \*\*](/opdrachten-module-2/groteaantallen)
-* [M2.2 Meesjes \*\*\*\* ](/opdrachten-module-2/meesjes)
+* [M2.2 Reigers \*\*\*\* ](/opdrachten-module-2/reigers)
 * [M2.3 Halfwaardedikte II \*\*\*](/opdrachten-module-2/halfwaardedikteii)
 
 De sterren geven een indicatie voor hoeveel werk een opdracht is. Let op dat je deze week goed plant! Lees voor je begint de hoofdstukken van Module 2 goed door. 
