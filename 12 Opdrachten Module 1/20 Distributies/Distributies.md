@@ -1,16 +1,20 @@
-## M1.2 - Kansdichtheid distributies **
+## M1.1 - Kansdichtheid distributies **
 <!--REF\label{/opdrachten-module-1/distributies}-->
 
-We gaan in deze opgave kijken naar kansdichtheid distributie. Lees [hier](/module-1/verdelingsfuncties) meer over kansdichtheidsdistributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/verdelingsfuncties#Poisson">poisson</a>  en  <a href="/module-1/verdelingsfuncties#Uniform">uniforme</a>  distributies.
+We gaan in deze opgave kijken naar kansdichtheid distributie. 
+Lees eerst [hier](/module-1/verdelingsfuncties) meer over kansdichtheidsdistributies. Er zijn een paar belangrijke en bekende distributies. We gaan in deze opgave aan de slag met de <a href="/module-1/verdelingsfuncties#Poisson">poisson</a>  en  <a href="/module-1/verdelingsfuncties#Uniform">uniforme</a>  distributies.
 
-<!--2022: M1.2: Aangezien studenten deze fout een paar keer maakten bij mij stel ik voor dat we even noemen dat de random en np.random library elkaar niet beïnvloeden en de studenten ze dus niet samen gebruiken.-->
+De dikgedrukte vragen die je in deze opdracht vindt moet je uiteindelijke ook invullen op het [inlevertemplate](https://das.progblab.nl/course/12%20Opdrachten%20Module%201/00%20Opdrachten/InlevertemplateModule1.docx). De rest van de opdracht moet je uitvoeren om de vragen correct te kunnen beantwoorden dus sla de rest niet zomaar over! In deze opdracht zijn er twee dikgedrukte vragen en staan ze helemaal onderaan. In andere opdrachten vind je ze vaak tussendoor.
+
+
+<!--2022: M1.1: Aangezien studenten deze fout een paar keer maakten bij mij stel ik voor dat we even noemen dat de random en np.random library elkaar niet beïnvloeden en de studenten ze dus niet samen gebruiken.-->
 
 ### Poisson distributie
 
-> **M1.2a) Reken (met de hand) de volgende Poisson kansen uit: $$P(k=1, \lambda=3)$$, $$P(k=2, \lambda =3)$$ en $$P(k=3, \lambda=3)$$. Kijk goed wat $$\lambda$$ en $$k$$ eigenlijk betekenen en wat de verwachtingswaarde is, en wat de geobserveerde waarde. Schrijf niet alleen het antwoord op maar begin bij de formule en werk het dan uit. Let ook op de regels van de notatie. Bekijk hiervoor het stukje over significantie in het hoofdstuk [notatie](/module-1/notatie).**
+> **MM1.1a) Reken (met de hand) de volgende Poisson kansen uit: $$P(k=1, \lambda=3)$$, $$P(k=2, \lambda =3)$$ en $$P(k=3, \lambda=3)$$. Kijk goed wat $$\lambda$$ en $$k$$ eigenlijk betekenen en wat de verwachtingswaarde is, en wat de geobserveerde waarde. Schrijf niet alleen het antwoord op maar begin bij de formule en werk het dan uit. Let ook op de regels van de notatie. Bekijk hiervoor het stukje over significantie in het hoofdstuk [notatie](/module-1/notatie).**
 
 De Poisson distributie is één van de belangrijkste distributies. We zullen hem vaak tegen gaan komen.
-We gaan nu Poisson distributies met python grafisch weergeven. Download het bestand [M1.2_Distributies.py](https://das.proglab.nl/course/12%20Opdrachten%20Module%201/20%20Distributies/M1.2_Distributies.py).
+We gaan nu Poisson distributies met python grafisch weergeven. Download het bestand [M1.1_Distributies.py](https://das.proglab.nl/course/12%20Opdrachten%20Module%201/20%20Distributies/M1.1_Distributies.py).
 
 
 > Maak eerst een functie die de Poisson kans uitrekent. De bedoeling is dat je de functie $$k$$ en $$\lambda$$ meegeeft en deze de Poisson kans teruggeeft. In het bestand vind je al een lege functie die je kunt invullen.  
@@ -29,9 +33,9 @@ We gaan nu Poisson distributies met python grafisch weergeven. Download het best
 >
 > - Maak vervolgens een Poisson-kansdichtheidsdistributie voor $$\lambda = 5$$. Doe dit door eerst een lijst aan te maken met $$x$$ waardes tussen 1 en 40 (met stapjes van 1) en vervolgens voor elk punt de kans uit te rekenen met de functie en deze op te slaan in een lijst. Maak vervolgens een grafiek met de resultaten. Zorg dat je grafiek er netjes uitziet. Ziet de grafiek eruit zoals je had verwacht? 
 > 
-> - **M1.2b) Maak nu een grafiek waarin je de Poisson distributies voor $$\lambda = 2, 5, 10$$ en $$20$$ laat zien. Maak 1 grafiek met de 4 resultaten. Zorg dat je de grafiek leesbaar maakt, bekijk hiervoor de richtlijnen in het hoofdstuk [data visualisatie](/module-1/data-visualiseren).** <br><br>
+> - **M1.1b) Maak nu een grafiek waarin je de Poisson distributies voor $$\lambda = 2, 5, 10$$ en $$20$$ laat zien. Maak 1 grafiek met de 4 resultaten. Zorg dat je de grafiek leesbaar maakt, bekijk hiervoor de richtlijnen in het hoofdstuk [data visualisatie](/module-1/data-visualiseren).** <br><br>
 >
-> - **M1.2c) Lees af in je grafiek hoe groot de kans is om een waarde van 4 te vinden voor de vier verschillende verwachtingswaarden. NB je kan het natuurlijk ook uitrekenen met je functie.**
+> - **M1.1c) Lees af in je grafiek hoe groot de kans is om een waarde van 4 te vinden voor de vier verschillende verwachtingswaarden. NB je kan het natuurlijk ook uitrekenen met je functie.**
 
 
 
@@ -40,12 +44,12 @@ We gaan nu kijken naar de uniforme distributie en simuleren een experiment dobbe
 
 Beantwoord de volgende vragen:  
 
-> - **M1.2d) Als je een dobbelsteen eenmaal gooit, wat is dan de kans dat je een 1 gooit?   
+> - **M1.1d) Als je een dobbelsteen eenmaal gooit, wat is dan de kans dat je een 1 gooit?   
 En wat is de kans dat je een 4 of lager gooit?**<br><br>
 >
-> - **M1.2e) Stel dat je 30 keer met de dobbelsteen gooit. Wat is dan het verwachte aantal keren dat je 3 gooit?**<br><br>
+> - **M1.1e) Stel dat je 30 keer met de dobbelsteen gooit. Wat is dan het verwachte aantal keren dat je 3 gooit?**<br><br>
 >
-> - **M1.2f) Als je dit experiment doet en je gooit wel 10 keer een 3, kun je daaruit dan concluderen dat je een niet eerlijke dobbelsteen hebt?**
+> - **M1.1f) Als je dit experiment doet en je gooit wel 10 keer een 3, kun je daaruit dan concluderen dat je een niet eerlijke dobbelsteen hebt?**
 <!-- Voor 2023: Beredeneer je antwoord-->
 
 We gaan dit experiment nu simuleren. Om stochastische (ook wel toevallige of random) getallen te genereren maken we gebruik van de random nummer generator in het **`numpy`** pakket. Er zijn verschillende manieren om een dataset te maken die het experiment simuleert. In elk geval heb je de volgende pakketten nodig: 
@@ -59,16 +63,23 @@ Zet nu de **`seed`** van de random nummer generator op 1. Dit kan je zien als he
 
 
 
-	np.random.seed(1)   # dit zet de seed in de random generator op 1.
+	random.seed(1)   # dit zet de seed in de random generator op 1.
 
-Er zijn verschillende functies die je kan gebruiken. Kijk eens naar de **`uniform()`** en de **`randint()`** functies van random en bedenk een manier om je simulatie te schrijven.
+Er zijn verschillende functies die je kan gebruiken. Kijk eens naar de **`uniform()`** en de **`randint()`** functies van [random](https://docs.python.org/3/library/random.html) en bedenk een manier om je simulatie te schrijven. 
+
+
 
 > - Genereer nu een dataset waarin je simuleert dat je 30 keer met een dobbelsteen gooit.  <br>
 **TIP** Als je het nodig hebt: gebruik **`(int)`** om naar een natuurlijk getal af te ronden. Controleer dat je alle getallen in de set {1,2,3,4,5,6} kunt maken. <br><br>  
-> - **M1.2g) Plot de waarden in je dataset in een histogram. Kijk naar de code in opgave M1.1 om te zien hoe je een histogram maakt. Let goed op de binning en range van je histogram. Als deze niet in orde zijn krijg je de verkeerde indruk van de dataset. Controleer je histogram desnoods door je dataset uit te printen en met de hand te tellen of je de juiste hoeveelheid in de juiste bin hebt. Kijk goed naar de richtlijnen en maak je histogram helemaal netjes.** <br><br>
+> - **M1.1g) Plot de waarden in je dataset in een histogram. Kijk naar de code in opgave M1.1 om te zien hoe je een histogram maakt. Let goed op de binning en range van je histogram. Als deze niet in orde zijn krijg je de verkeerde indruk van de dataset. Controleer je histogram desnoods door je dataset uit te printen en met de hand te tellen of je de juiste hoeveelheid in de juiste bin hebt. Kijk goed naar de richtlijnen en maak je histogram helemaal netjes.** <br><br>
 >
-> - **M1.2h)  Komt de distributie overeen met je verwachting? Motiveer dit.**<br><br>
+> - **M1.1h)  Komt de distributie overeen met je verwachting? Motiveer dit.**<br><br>
 >
-> - **M1.2i)  Waarschijnlijk komt niet elke mogelijke uitkomst evenveel keer voor in je dataset. Hoe verwacht je dat de uitkomsten verdeeld zijn? Als je het experiment opnieuw zou doen, wat is dan de kans dat je maar 1 keer een 6 zult gooien. Gebruik hiervoor de <a href="/module-1/verdelingsfuncties#Poisson">Poisson kans</a> (deze kans moet je berekenen en kun je niet aflezen uit je histogram).**
+> - **M1.1i)  Waarschijnlijk komt niet elke mogelijke uitkomst evenveel keer voor in je dataset. Hoe verwacht je dat de uitkomsten verdeeld zijn? Als je het experiment opnieuw zou doen, wat is dan de kans dat je maar 1 keer een 6 zult gooien. Gebruik hiervoor de <a href="/module-1/verdelingsfuncties#Poisson">Poisson kans</a> (deze kans moet je berekenen en kun je niet aflezen uit je histogram).**
 
-Verzamel je antwoorden op het template voor module 1, zorg dat je de code ook bewaart, deze moet je later inleveren. 
+Verzamel je antwoorden op het template voor module 1.
+
+**Je moet straks de code ook inleveren**. We gebruiken deze bij het nakijken om, als er een fout is gemaakt in de opdracht te kunnen bekijken waar die vandaan komt. Het is natuurlijk ook de bedoeling dat de resultaten die je inlevert overeenkomen met de resultaten uit je programmaatje. Daar kijken we ook naar.
+
+
+Als je alle andere opdrachten voor module 1 ook hebt gemaakt kun je de opdrachten en code inleveren via de ANS website. Bij de laatste opgave voor module 1 vind je hier meer informatie over. 
