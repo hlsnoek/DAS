@@ -1,6 +1,6 @@
 # Author: Hella Snoek and ...
 # Studentnummer: 
-# Date: Jan 2021
+# Date: Jan 2023
 # Code for UvA/VU Data Analyse en Statistiek course
 
 import numpy as np
@@ -19,7 +19,7 @@ plt.ylabel('aantal metingen')
 plt.xlabel('waardes')
 
 #sla het histogram op als een plaatje:
-#plt.savefig('M1.A_MooiPlotten.png')
+#plt.savefig('M1_MooiPlotten.png')
 
 # Laat het plaatje zien
 plt.show()
