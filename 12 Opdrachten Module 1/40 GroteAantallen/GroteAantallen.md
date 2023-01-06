@@ -1,4 +1,4 @@
-## M1.4 - Grote Aantallen \*\*\*
+## M1.3 - Grote Aantallen \*\*\*
 <!--REF\label{/opdrachten-module-1/groteaantallen}-->
 
 We hebben een enorme ton kogeltjes en we willen weten hoe zwaar een enkele kogel uit de ton is. De kogels zijn, door variaties in het productieproces, niet allemaal precies even zwaar. De massa's van de kogels zijn **Normaal** ofwel **Gaussisch** verdeeld. We willen graag weten wat de ***typische*** massa is van een kogel uit deze ton. 
@@ -17,11 +17,11 @@ De Wet van de Grote Aantallen zegt dat als we een verdeling hebben van random (s
 We gaan onze metingen nu simuleren om een gevoel te krijgen hoe de wet van grote aantallen werkt.
 
 
-Download het volgende bestand in je werkfolder op de computer: [M1.4_GroteAantallen.py](https://das.proglab.nl/course/12%20Opdrachten%20Module%201/40%20GroteAantallen/M1.4_GroteAantallen.py).
+Download het volgende bestand in je werkfolder op de computer: [M1.3_GroteAantallen.py](https://das.proglab.nl/course/12%20Opdrachten%20Module%201/40%20GroteAantallen/M1.3_GroteAantallen.py).
 Zorg dat dit bestand in dezelfde folder staat als de `DAS_DatasetGenerator.py` file die je in opgave M1.1 al hebt gebruikt.
 
 
-In `M1.4_GroteAantallen.py` bestand zie je eerst een aantal functies (**`berekenGemiddelde()`**, **`maakSetGemiddelde()`**) die gaan we **later pas** gebruiken.  
+In `M1.3_GroteAantallen.py` bestand zie je eerst een aantal functies (**`berekenGemiddelde()`**, **`maakSetGemiddelde()`**) die gaan we **later pas** gebruiken.  
 
 Eerst kijken we naar de regel:
 
@@ -29,9 +29,9 @@ Eerst kijken we naar de regel:
 	
 Hier wordt de dataset met de **gemeten kogel massa (in grammen)** aangemaakt waarbij de elementen een normaalverdeling volgen. We gaan eerst kijken naar de gehele dataset.
 
-> - **M1.4a) Laat zien dat de waardes in de dataset een normaalverdeling volgen. Doe dit door de waardes te plotten in een *histogram*. Zorg dat het histogram er netjes uitziet en dat je de as-labels ook aanmaakt. Kijk eventueel naar de code van opgave M1.1 om te zien hoe je dat moet doen.**<br><br>
+> - **M1.3a) Laat zien dat de waardes in de dataset een normaalverdeling volgen. Doe dit door de waardes te plotten in een *histogram*. Zorg dat het histogram er netjes uitziet en dat je de as-labels ook aanmaakt. Kijk eventueel naar de code van opgave M1.1 om te zien hoe je dat moet doen.**<br><br>
 >
-> - **M1.4b) Reken het gemiddelde, $$\bar{m}$$, en de standaardafwijking, $$s$$, uit van de gehele set metingen. Let bij het noteren van het resultaat op de notatieregels. Programmeer dit zelf uit (en maak dus geen gebruik van functies in python libraries die dit voor je kunnen doen). Je kan je functie uit opdracht M1.3 natuurlijk weer opnieuw gebruiken.**
+> - **M1.3b) Reken het gemiddelde, $$\bar{m}$$, en de standaardafwijking, $$s$$, uit van de gehele set metingen. Let bij het noteren van het resultaat op de notatieregels. Programmeer dit zelf uit (en maak dus geen gebruik van functies in python libraries die dit voor je kunnen doen). Je kan je functie uit opdracht M1.3 natuurlijk weer opnieuw gebruiken.**
 
 We gaan nu simuleren dat we steeds meer datapunten hebben in onze dataset. We willen weten wat het gevonden kogel massa is na $1, 2, 3 ... n$ metingen. Hoe verandert het gevonden gemiddelde van de dataset als we nog een extra kogel massa eraan toevoegen?
 
@@ -41,7 +41,7 @@ We gaan nu simuleren dat we steeds meer datapunten hebben in onze dataset. We wi
 
 Nu gaan we de functie **`maakSetGemiddeldes()`** afmaken. Deze functie geeft twee lijsten terug: ***n*** en ***gemiddeldes***. **n** loopt van 1 tot het aantal punten in de originele set_gauss dataset en  ***gemiddeldes*** waarin steeds het gemiddelde over de eerste **n** meetwaardes in de dataset wordt berekend. Controleer of de functie goed werkt door bijvoorbeeld de gevonden gemiddeldes uit te printen.
 
-> - **M1.4c) Maak nu een grafiek met op de horizontale as *n* en op de verticale as de bijbehorende berekende gemiddelde waarde, $$\bar{m_n}$$. Als je nu de grafiek afleest bij n=2 dan is het de bedoeling dat je op de verticale as het gemiddelde afleest over de eerste twee punten van de dataset. Let goed op het goed leesbaar maken van de grafiek.**<br><br>
+> - **M1.3c) Maak nu een grafiek met op de horizontale as *n* en op de verticale as de bijbehorende berekende gemiddelde waarde, $$\bar{m_n}$$. Als je nu de grafiek afleest bij n=2 dan is het de bedoeling dat je op de verticale as het gemiddelde afleest over de eerste twee punten van de dataset. Let goed op het goed leesbaar maken van de grafiek.**<br><br>
 > 
-> - **M1.4d) Beschrijf in de grafiek wat er gebeurt. Is dit wat je verwacht had? Waarom wel of waarom niet?**
+> - **M1.3d) Beschrijf in de grafiek wat er gebeurt. Is dit wat je verwacht had? Waarom wel of waarom niet?**
 
