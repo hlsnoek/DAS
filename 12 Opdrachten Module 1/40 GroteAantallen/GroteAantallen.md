@@ -18,7 +18,7 @@ We gaan onze metingen nu simuleren om een gevoel te krijgen hoe de wet van grote
 
 
 Download het volgende bestand in je werkfolder op de computer: [M1.3_GroteAantallen.py](https://das.proglab.nl/course/12%20Opdrachten%20Module%201/40%20GroteAantallen/M1.3_GroteAantallen.py).
-Zorg dat dit bestand in dezelfde folder staat als de `DAS_DatasetGenerator.py` file die je in opgave M1.1 al hebt gebruikt.
+Zorg dat dit bestand in dezelfde folder staat als de `DAS_DatasetGenerator.py` file die je in de M1 Intro opgave al hebt gebruikt.
 
 
 In `M1.3_GroteAantallen.py` bestand zie je eerst een aantal functies (**`berekenGemiddelde()`**, **`maakSetGemiddelde()`**) die gaan we **later pas** gebruiken.  
