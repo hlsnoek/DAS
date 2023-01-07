@@ -100,7 +100,7 @@ def datasetVogels() :
     span_br_v = m.pow((span_br_s),2)
 
     m_br = (1020+2080)/2 
-    m_br_s = (2080-1020)/3.5
+    m_br_s = (2080-1020)/4
     m_br_v = m.pow((m_br_s),2)
 
     span_pr = (120+152)/2
@@ -108,7 +108,7 @@ def datasetVogels() :
     span_pr_v = m.pow(span_pr_s,2)
 
     m_pr = (500+1350)/2
-    m_pr_s = (1350-500)/3.5
+    m_pr_s = (1350-500)/4
     m_pr_v = m.pow(m_pr_s,2)
 
     np.random.seed(1)
