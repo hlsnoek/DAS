@@ -1,5 +1,5 @@
 # Author: Hella Snoek
-# Date: Dec 2020
+# Date: Jan 2023
 # Code for Data Analyse en Statistiek course
 
 from random import seed
@@ -94,39 +94,39 @@ def DataSetHalfwaardeDikteVariatie(s=1,dtrue=-1,lood_dikte=0.3,meettijd=120,N=16
         metingen.append(meting_i)
     return metingen,diktes,d_half
 
-def datasetVogeltjes() :
-    span_km = (25.5+22.5)/2
-    span_km_s = (25.5-22.5)/2
-    span_km_v = m.pow((span_km_s),2)
+def datasetVogels() :
+    span_br = (155+195)/2
+    span_br_s = (195-155)/2
+    span_br_v = m.pow((span_br_s),2)
 
-    m_km = (14+22)/2 
-    m_km_s = (22-14)/2
-    m_km_v = m.pow((m_km_s),2)
+    m_br = (1020+2080)/2 
+    m_br_s = (2080-1020)/3.5
+    m_br_v = m.pow((m_br_s),2)
 
-    span_pm = (20+17)/2
-    span_pm_s = (20-17)/2
-    span_pm_v = m.pow(span_pm_s,2)
+    span_pr = (120+152)/2
+    span_pr_s = (152-120)/2
+    span_pr_v = m.pow(span_pr_s,2)
 
-    m_pm = (12+15)/2
-    m_pm_s = (15-12)/2
-    m_pm_v = m.pow(m_pm_s,2)
+    m_pr = (500+1350)/2
+    m_pr_s = (1350-500)/3.5
+    m_pr_v = m.pow(m_pr_s,2)
 
     np.random.seed(1)
     
-    mu_km = [span_km, m_km]
-    cov_km = [[span_km_v,0.3*span_km_s*m_km_s],[0.3*span_km_s*m_km_s,m_km_v]]
-    span_km,m_km = np.random.multivariate_normal(mu_km,cov_km,30000).T
+    mu_br = [span_br, m_br]
+    cov_br = [[span_br_v,0.65*span_br_s*m_br_s],[0.65*span_br_s*m_br_s,m_br_v]]
+    span_br,m_br = np.random.multivariate_normal(mu_br,cov_br,5000).T
 
-    mu_pm = [span_pm, m_pm]
-    cov_pm = [[span_pm_v,0.3*span_pm_s*m_pm_s],[0.3*span_pm_s*m_pm_s,m_pm_v]]
-    span_pm,m_pm = np.random.multivariate_normal(mu_pm,cov_pm,30000).T
-    return m_km,span_km, m_pm, span_pm
+    mu_pr = [span_pr, m_pr]
+    cov_pr = [[span_pr_v,0.5*span_pr_s*m_pr_s],[0.5*span_pr_s*m_pr_s,m_pr_v]]
+    span_pr,m_pr = np.random.multivariate_normal(mu_pr,cov_pr,5000).T
+    return m_br,span_br, m_pr, span_pr
 
-def meetMassaMeesje() :
-    return (10,11)
+def meetMassaReiger() :
+    return (1300,1350)
 
-def meetLengteMeesje() :
-    return (21,22)
+def meetLengteReiger() :
+    return (130,145)
 
 def GroteAantallenStdGenerator() :
     checkSD()

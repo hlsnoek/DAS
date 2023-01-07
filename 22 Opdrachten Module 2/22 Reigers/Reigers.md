@@ -43,7 +43,7 @@ Met deze informatie kunnen we nu met de Frequentist Methode de kans uitrekenen d
 > Dit noem je ook wel de voorwaardelijke kans $$P(\text{reiger_m_laag} < m < \text{reiger_m_hoog} \mid \text{purperreiger})$$. Voor het gemak noteren we dit even als $$P(m_{\text{obs}} \mid \text{purperreiger} )$$. Zie ook het hoofdstuk over [Extra Kansrekenregels](/module-2/extra-kansrekenregels) over voorwaardelijke kansen.<br>
 > **Tip** Bedenk dat je voor de dataset van de purperreigers altijd zeker weet dat het om een purperreiger gaat en dat dus per definitie $$P(\text{purperreiger}) \equiv 1.$$<br>
 >
-> - **M2.2d) Als je kijkt naar de uitkomst van M2.2c), wat voor soort vogeltje denk je dat het is? Beredeneer je antwoord.**
+> - **M2.2d) Als je kijkt naar de uitkomst van M2.2c), wat voor soort vogel denk je dat het is? Beredeneer je antwoord.**
 
 De frequentist methode, zoals we die hierboven gebruiken, is uiteindelijk een ratio tussen twee getallen. Deze twee getallen hebben een onzekerheid volgens de Poisson verdeling. 
 
@@ -57,11 +57,11 @@ De output volgt dezelfde logica als hiervoor.
 
 > - **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen $$ P(w_{\text{obs}} \mid \text{blauwe reiger} )$$ en $$P(w_{\text{obs}} \mid \text{purper reiger} )$$ uit te rekenen maar nu door (alleen) gebruik te maken van de informatie van de spanwijdtes. Noteer ook de onzekerheden op de uitgerekende kansen.**<br><br>
 > 
-> - **M2.2g) Op basis van deze informatie, wat denk je nu dat het voor vogeltje is? Beredeneer je antwoord.**
+> - **M2.2g) Op basis van deze informatie, wat denk je nu dat het voor vogel is? Beredeneer je antwoord.**
 
 We kunnen nu natuurlijk ook de gecombineerde informatie gebruiken. Hiervoor gaan we eerst de data visualiseren.
 
-> - **M2.2h) Maak een tweedimensionale scatterplot die de tweedimensionale dataset van de massa versus de spanwijdte voor zowel de pimpelmezen als de koolmezen.**  
+> - **M2.2h) Maak een tweedimensionale scatterplot die de tweedimensionale dataset van de massa versus de spanwijdte voor zowel de purperreigers als de blauwe reigers.**  
 > **TIP** gebruik de opties **`'o',markersize=3`** in de plot functie. Zorg dat beide datasets weer hun eigen kleur hebben en vergeet de legenda niet. 
 
 Het valt misschien op dat er een verband lijkt te zijn tussen beide grootheden. We gaan eerst kijken naar [de covariantie](/module-2/meerdimensionale-data) en de correlatie tussen de massa en de spanwijdte voor beide vogelsoorten. 
