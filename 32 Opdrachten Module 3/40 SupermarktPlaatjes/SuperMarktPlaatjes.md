@@ -1,5 +1,6 @@
 
-## Opdracht M3.2 - Supermarktplaatjes \*\*\*
+## M3.3 - Supermarktplaatjes \*\*\*
+<!--REF\label{/opdrachten-module-3/supermarktplaatjes}-->
 
 Een grote Nederlandse supermarktketen heeft een spaaractie. Je kunt plaatjes verzamelen met wetenschapsfeitjes. Deze plaatjes kun je in een verzamelboek plakken. Bij elke 10 euro aan boodschappen krijg je een pakje met 4 willekeurige plaatjes, wel hebben ze erop gelet dat er geen dubbele plaatjes in een pakje zitten (niet helemaal willekeurig dus). 
 Er bestaan 160 verschillende plaatjes.
@@ -27,16 +28,21 @@ We willen weten wat het gemiddelde aantal pakjes is dat je nodig hebt om het boe
 
 > - **M3.3a) Plot de distributie van het aantal pakjes die je nodig hebt gehad. Zorg dat de plot goed leesbaar is.**<br><br>
 > 
-> - **M3.3b) Wat is de kans dat je minder dan 150 pakjes plaatjes nodig hebt gehad om je boek te vullen? Gebruik de distributie om deze kans te berekenen.** <br><br>
+> 
+> - **M3.3b) Wat is de kans dat je minder dan 150 pakjes plaatjes nodig hebt gehad om je boek te vullen? Gebruik de distributie om deze kans te berekenen.**<br><br>
+> 
 > 
 > - **M3.3c) Bereken de onzekerheid op de in 3.3b) uitgerekende kans. Geef niet alleen het antwoord maar laat ook je berekening zien.**<br><br> 
 > 
 > 
 > - **M3.3d) Wat is de kans dat je meer dan 250 pakjes plaatjes nodig hebt gehad om je boek te vullen? Presenteer de berekende kans met daarbij de berekende onzekerheid op de kans.**<br><br>
 > 
-> - **M3.3e) Presenteer de modus, het gemiddelde en de mediaan van de distributie.**  <br><br>
+> 
+> - **M3.3e) Presenteer de modus, het gemiddelde en de mediaan van de distributie.**<br><br>
+> 
 > 
 > - **M3.3f) Wat zijn de variantie en de standaardafwijking van de distributie?**<br><br>
+> 
 > Tip: Denk bij het noteren van de antwoorden ook aan de juiste notatie en de eenheden.<br><br>
 
 

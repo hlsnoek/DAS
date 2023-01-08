@@ -9,7 +9,7 @@ De dikgedrukte vragen die je in deze opdracht vindt moet je uiteindelijke ook in
 
 ### Poisson distributie
 
-> **MM1.1a) Reken (met de hand) de volgende Poisson kansen uit: $$P(k=1, \lambda=3)$$, $$P(k=2, \lambda =3)$$ en $$P(k=3, \lambda=3)$$. Kijk goed wat $$\lambda$$ en $$k$$ eigenlijk betekenen en wat de verwachtingswaarde is, en wat de geobserveerde waarde. Schrijf niet alleen het antwoord op maar begin bij de formule en werk het dan uit. Let ook op de regels van de notatie. Bekijk hiervoor het stukje over significantie in het hoofdstuk [notatie](/module-1/notatie).**
+> **MM1.1a) Reken (met de hand) de volgende Poisson kansen uit: $$P(k=1, \lambda=4)$$, $$P(k=2, \lambda =4)$$ en $$P(k=3, \lambda=4)$$. Kijk goed wat $$\lambda$$ en $$k$$ eigenlijk betekenen en wat de verwachtingswaarde is, en wat de geobserveerde waarde. Schrijf niet alleen het antwoord op maar begin bij de formule en werk het dan uit. Let ook op de regels van de notatie. Bekijk hiervoor het stukje over significantie in het hoofdstuk [notatie](/module-1/notatie).**
 
 De Poisson distributie is één van de belangrijkste distributies. We zullen hem vaak tegen gaan komen.
 We gaan nu Poisson distributies met python grafisch weergeven. Download het bestand [M1.1_Distributies.py](https://das.proglab.nl/course/12%20Opdrachten%20Module%201/20%20Distributies/M1.1_Distributies.py).
@@ -45,9 +45,9 @@ Beantwoord de volgende vragen:
 > - **M1.1d) Als je een dobbelsteen eenmaal gooit, wat is dan de kans dat je een 1 gooit?   
 En wat is de kans dat je een 4 of lager gooit?**<br><br>
 >
-> - **M1.1e) Stel dat je 30 keer met de dobbelsteen gooit. Wat is dan het verwachte aantal keren dat je 3 gooit?**<br><br>
+> - **M1.1e) Stel dat je 10 keer met de dobbelsteen gooit. Wat is dan het verwachte aantal keren dat je 3 gooit?**<br><br>
 >
-> - **M1.1f) Als je dit experiment doet en je gooit wel 10 keer een 3, kun je daaruit dan concluderen dat je een niet eerlijke dobbelsteen hebt? Beredeneer je antwoord.**
+> - **M1.1f) Als je dit experiment doet en je gooit wel 10 keer achter mekaar een 3, kun je daaruit dan concluderen dat je een niet eerlijke dobbelsteen hebt? Beredeneer je antwoord.**
 <!-- Voor 2023: Beredeneer je antwoord-->
 
 We gaan dit experiment nu simuleren. Om stochastische (ook wel toevallige of random) getallen te genereren maken we gebruik van de random nummer generator in het **`numpy`** pakket. Er zijn verschillende manieren om een dataset te maken die het experiment simuleert. In elk geval heb je de volgende pakketten nodig: 
