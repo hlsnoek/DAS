@@ -27,7 +27,7 @@ We gaan nu Poisson distributies met python grafisch weergeven. Download het best
  
  <!--comment: lamda hierboven niet veranderen in lambda!!-->
  
-> - Reken nu de kansen $$P(k=1,\lambda=3)$$, $$P(k=2,\lambda =3)$$ en $$P(k=3,\lambda=3)$$, uit met je python functie. Komt het overeen met de waardes die je eerder met de hand berekende? Check het resultaat.
+> - Reken nu de kansen $$P(k=1,\lambda=4)$$, $$P(k=2,\lambda =4)$$ en $$P(k=3,\lambda=4)$$, uit met je python functie. Komt het overeen met de waardes die je eerder met de hand berekende? Check het resultaat.
 >
 > - Maak vervolgens een Poisson-kansdichtheidsdistributie voor $$\lambda = 5$$. Doe dit door eerst een lijst aan te maken met $$x$$ waardes tussen 1 en 40 (met stapjes van 1) en vervolgens voor elk punt de kans uit te rekenen met de functie en deze op te slaan in een lijst. Maak vervolgens een grafiek met de resultaten. Zorg dat je grafiek er netjes uitziet. Ziet de grafiek eruit zoals je had verwacht? 
 > 
