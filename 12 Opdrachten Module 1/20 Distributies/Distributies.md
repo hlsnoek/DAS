@@ -56,6 +56,7 @@ We gaan dit experiment nu simuleren. Om stochastische (ook wel toevallige of ran
 	import random
 	from random import seed
 
+<!-- For 2024: remove the line from random import seed, also in .py file -->
 
 Zet nu de **`seed`** van de random nummer generator op 1. Dit kan je zien als het startpunt waarvandaan het algoritme begint. Zo is de simulatie herhaalbaar onder steeds dezelfde condities. Dat wil zeggen dat wanneer het programma opnieuw runt, elke keer dezelfde random getallen worden gegenereerd
 

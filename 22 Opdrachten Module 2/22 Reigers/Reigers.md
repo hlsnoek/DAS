@@ -25,7 +25,7 @@ Voor de twee variabelen die eindigen op **`_pr`** van de purperreigers geldt pre
 
 We gaan eerst naar de twee massaverdelingen van de reigers kijken. 
 
-> - **M2.2a) Plot de massaverdelingen van beide reigers in een histogram. Maak een apart histogram waarin je spanwijdtes van de twee soorten reigers plot.** Laat in een legenda zien welke reiger bij welke kleur hoort. Maak de twee histogrammen netjes af en zorg dat duidelijk is welke distributie bij welk soort reiger hoort.<br><br>
+> - **M2.2a) Plot de massaverdelingen van beide reigers in een histogram. Maak een apart histogram waarin je spanwijdtes van de twee soorten reigers plot.** Laat in een legenda zien welke reiger bij welke kleur hoort. Maak de twee histogrammen netjes af en zorg dat duidelijk is welke distributie bij welke soort reiger hoort.<br><br>
 > TIP: Gebruik de plot optie **`alpha=0.8`** zodat je histogrammen wat doorzichtig worden. Zo kan je het achterste histogram ook nog altijd goed zien.<br><br>
 >  
 > - **M2.2b) Maak een tabel waarin je voor beide soorten reigers de gemiddeldes, de standaardafwijkingen en de varianties noteert.** Let goed op de notatie en denk ook even aan de eenheden.
@@ -39,7 +39,7 @@ Je krijgt nu een onderwaarde **`reiger_m_laag`** en een bovenwaarde **`reiger_m_
 
 Met deze informatie kunnen we nu met de Frequentist Methode de kans uitrekenen dat onze reiger een blauwe reiger is. 
 
-> - **M2.2c) Gebruik de dataset `m_br` om de kans uit te rekenen dat je een blauwe reiger vindt die een massa heeft die in het gebied `reiger_m_laag` en `reiger_m_hoog` in ligt. Herhaal dit voor het purperreiger, bereken dus ook $$P(m_{\text{obs}} \mid \text{purperreiger})$$.** <br>
+> - **M2.2c) Gebruik de dataset `m_br` om de kans uit te rekenen dat je een blauwe reiger vindt die een massa heeft die in het gebied `reiger_m_laag` en `reiger_m_hoog` in ligt. Herhaal dit voor de purperreiger, bereken dus ook $$P(m_{\text{obs}} \mid \text{purperreiger})$$.** <br>
 > Dit noem je ook wel de voorwaardelijke kans $$P(\text{reiger_m_laag} < m < \text{reiger_m_hoog} \mid \text{purperreiger})$$. Voor het gemak noteren we dit even als $$P(m_{\text{obs}} \mid \text{purperreiger} )$$. Zie ook het hoofdstuk over [Extra Kansrekenregels](/module-2/extra-kansrekenregels) over voorwaardelijke kansen.<br>
 > **Tip** Bedenk dat je voor de dataset van de purperreigers altijd zeker weet dat het om een purperreiger gaat en dat dus per definitie $$P(\text{purperreiger}) \equiv 1.$$<br>
 >
@@ -79,7 +79,7 @@ We gaan terug naar de kansberekeningen.
 > 
 > - **M2.2l) Welke vogel denk je nu dat het is? Beredeneer je antwoord.**
 
-Na al deze berekeningen lopen we een eindje in de tuin. Op de plek waar we eerder de reiger aantroffen zit nu een andere reiger hartstochtelijk te schreeuwen. Aan de schreeuw hoor je direct dat dit een purperreiger is. Je schat in dat er een kans is van 90$$\%$$ dat dit purperreiger bij het andere reiger hoorde, en dat dat dus ook een purperreiger is. 
+Na al deze berekeningen lopen we een eindje in de tuin. Op de plek waar we eerder de reiger aantroffen zit nu een andere reiger hartstochtelijk te schreeuwen. Aan de schreeuw hoor je direct dat dit een purperreiger is. Je schat in dat er een kans is van 90$$\%$$ dat deze purperreiger bij de andere reiger hoorde, en dat dat dus ook een purperreiger is. 
 
 > - **M2.2m) Bereken nu de kans dat het inderdaad een purperreiger is geweest: $$P(\text{purperreiger} \mid m_\text{obs} \text{ en } w_{\text{obs}}).$$ Bereken hier alleen de centrale waarde. Geef hierbij ook je berekening.**<br>
 > TIP: Maak hierbij gebruik van de [vergelijking](/module-2/extra-kansrekenregels) van Bayes. Om $$P(m_\text{obs} \text{ en }w_{\text{obs}})$$ te berekenen kun je gebruiken maken van de volgende formule: 

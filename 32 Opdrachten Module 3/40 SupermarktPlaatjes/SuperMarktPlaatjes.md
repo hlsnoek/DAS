@@ -2,6 +2,8 @@
 ## M3.3 - Supermarktplaatjes \*\*\*
 <!--REF\label{/opdrachten-module-3/supermarktplaatjes}-->
 
+<!--Voor 2024: verander getallen zodat je ook kan zien wanneer de check met de dubbele plaatjes niet is gedaan in de code-->
+
 Een grote Nederlandse supermarktketen heeft een spaaractie. Je kunt plaatjes verzamelen met wetenschapsfeitjes. Deze plaatjes kun je in een verzamelboek plakken. Bij elke 10 euro aan boodschappen krijg je een pakje met 4 willekeurige plaatjes, wel hebben ze erop gelet dat er geen dubbele plaatjes in een pakje zitten (niet helemaal willekeurig dus). 
 Er bestaan 160 verschillende plaatjes.
 
