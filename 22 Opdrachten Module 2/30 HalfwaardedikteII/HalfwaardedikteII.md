@@ -60,7 +60,7 @@ Bij gesimuleerde data kunnen we dit onderzoeken. We kunnen de verwachtingswaarde
 > 
 > - Kijk eerst eens naar wat de *true* waarde was in je datasets die je hierboven hebt gebruikt! Als je voor **`d_input`** nu -1 invult krijg je de halfwaardedikte terug die gebruikt is voor het genereren van de 500 datasets die je eerder in deze opdracht hebt gebruikt. Het maakt hierbij niet uit wat voor waarde je aan de seed meegeeft, maar je moet wel iets meegeven, gebruik bijvoorbeeld **`s=1`**.<br><br>
 >
-> - **M2.3f) Hoe groot is de onzuiverheid van ons experiment? Vergelijk hiervoor de gemiddelde bepaalde halfwaardediktes van de 500 experimenten met de `d_true`.**
+> - **M2.3f) Hoe groot is de onzuiverheid van ons experiment? Vergelijk hiervoor de gemiddelde bepaalde halfwaardediktes van de 500 experimenten met de `d_true`.** Zorg nu dat je wel verschillende waardes voor de seed meegeeft, zoals je ook voor M2.3b hebt gedaan.
 
 
 Nu kun je het gedrag bekijken over meerdere waardes rond de **`d_true`** waarde. 
