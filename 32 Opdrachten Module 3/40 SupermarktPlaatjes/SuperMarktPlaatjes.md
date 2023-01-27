@@ -31,7 +31,7 @@ We willen weten wat het gemiddelde aantal pakjes is dat je nodig hebt om het boe
 > - **M3.3a) Plot de distributie van het aantal pakjes die je nodig hebt gehad. Zorg dat de plot goed leesbaar is.**<br><br>
 > 
 > 
-> - **M3.3b) Wat is de kans dat je minder dan 150 pakjes plaatjes nodig hebt gehad om je boek te vullen? Gebruik de distributie om deze kans te berekenen.**<br><br>
+> - **M3.3b) Wat is de kans dat je minder dan 150 pakjes plaatjes nodig hebt gehad om je boek te vullen? Gebruik de simulatie om deze kans te berekenen.**<br><br>
 > 
 > 
 > - **M3.3c) Bereken de onzekerheid op de in 3.3b) uitgerekende kans. Geef niet alleen het antwoord maar laat ook je berekening zien.**<br><br> 
