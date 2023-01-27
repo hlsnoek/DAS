@@ -64,5 +64,5 @@ onmogelijk wordt."*
 
 Zie ook:
 
-* de [fraude- en plagiaatwebsite](http://www.uva.nl/plagiaat), en
+* de [fraude- en plagiaatwebsite](https://student.uva.nl/onderwerpen/plagiaat-en-fraude), en
 * de onderwijs- en examenregeling van Natuur- en Sterrenkunde.
