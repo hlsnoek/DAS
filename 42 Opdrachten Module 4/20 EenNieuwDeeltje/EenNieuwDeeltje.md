@@ -29,9 +29,9 @@ Maak voor deze opdracht een nieuw python bestand aan.
 >	
 > De drie `list`'s die worden teruggegeven zijn:
 >	
->		m - de berekende massa van de restproducten uitgedrukt in proton massa's (pm)
->		events - het aantal botsingen in de geselecteerde data in de massa bin
->		events_err - de onzekerheid op het aantal events
+>`m` - de berekende massa van de restproducten uitgedrukt in proton massa's (pm)<br>
+>`events` - het aantal botsingen in de geselecteerde data in de massa bin<br>
+>`events_err` - de onzekerheid op het aantal events<br>
 >	
 > Zorg dat je de volgorde van de lists intact houdt zodat de juiste waarde van `m` bij de juiste waarde van `events` houdt.
 
@@ -40,6 +40,11 @@ Het aantal *events* (aantal evenementen) is het geobserveerde aantal botsingen d
 De achtergrond data wordt beschreven met de volgende functie: 
 
 $$\displaystyle f(m;N_0,c) = N_0 \cdot \left( \frac{1}{2} \right)^{m/c}$$
+
+De functie lijkt qua vorm op de functie voor de halfwaardedikte in de vorige opgave. 
+Deze functie heeft 3 parameters: $$m$$, $$N_0$$ en $$c$$. 
+De variable $$m$$ is, zoals hierboven beschreven de berekende massa van de resproducten die wordt uitgedrukt in proton massa's (pm).
+De variabele $$N_0$$ en $$c$$ zijn parameters die de vorm van de exponentieel vallende curve bepalen. De parameter $$c$$ heeft de eenheid $$1/pm$$. 
 
 De massaverdeling van deeltje $$X$$ ziet er zo uit: 
 
