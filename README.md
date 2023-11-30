@@ -1,7 +1,7 @@
 # Studiewijzer
 <!--REF\label{/syllabus}-->
 
-## Data Analyse en Statistiek, Januari 2023
+## Data Analyse en Statistiek, Januari 2024
 
 
 Welkom bij het vak Data Analyse en Statistiek. In dit vak leer je de basisprincipes van statistiek en deze toe te passen op realistische gemodelleerde datasets. 
@@ -14,10 +14,11 @@ Marthe Schut is betrokken bij het materiaal van de website. <br>
 Je kunt via Canvas vragen stellen over het vak.
 
 
-#### Voorbereiding
+#### Voorbereiding en voorkennis
+In dit vak gaan we aan de slag met opdrachten waarbij we python programmas gebruiken.
 Bereid je vast voor op dit vak door te zorgen dat python goed geïnstalleerd is en dat je je kennis hierover even opfrist.<br>
-Zorg dat je weet hoe 'for' loops werken en hoe je een functie definieert. <br>
-Voor de installatie kun je de [instructies](/informatie/installatie)  volgen. Als het test programmaatje werkt dan kun je straks meteen aan de slag.<br>
+Bijvoorbeeld: Zorg dat je weet hoe 'for' loops werken en hoe je een functie definieert. <br>
+Voor de installatie zelf kun je de [instructies](/informatie/installatie) volgen. Als het test programmaatje werkt zonder foutmeldingen, dan kun je straks meteen aan de slag.<br>
 
 
 #### Hoorcolleges
