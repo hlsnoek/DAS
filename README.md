@@ -43,7 +43,7 @@ Het opnieuw insturen van opdrachten is niet meer mogelijk na de deadline.
 
 Als je niet zowel een voldoende hebt voor (het gewogen gemiddelde van) de inlevertoetsen als voor de tussentoetsen kun je het vak herkansen. Toegang tot de herkansing wordt alleen verleend als je **alle** opdrachten op tijd hebt ingeleverd.
 
-Let op! De toets vorm van de herkansing staat voor dit jaar nog niet vast. Het zal afhangen van de Corona regels op dat moment en de hoeveelheid studenten die een herkansing nodig heeft. 
+Let op! De toets vorm van de herkansing staat voor dit jaar nog niet vast. Het zal afhangen van de hoeveelheid studenten die een herkansing nodig heeft. 
 
 #### Samenwerken, fraude en plagiaat
 
@@ -54,6 +54,9 @@ Zo leer je waarschijnlijk ook veel meer.
 Wat niet mag is dingen simpel overschrijven of overnemen van een andere student.
 Een simpele regel is dat je wel mag overleggen maar niet naar elkaars code of antwoorden te kijken.
 Kijk dus niet naar mekaars scherm.
+
+Als je gebruik maakt van AI hulpmiddelen bij het programmeren van een opdracht en je kunt niet (achteraf) uitleggen hoe de code precies werkt dan behouden we het recht om geen punten toe aan die opdracht. 
+
 
 Als we zien dat (delen) van het werk zijn overgenomen van een andere student kunnen we
 niet inschatten of jij het zelf ook wel echt begrepen hebt - en dan kunnen we
