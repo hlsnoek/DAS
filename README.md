@@ -8,17 +8,20 @@ Welkom bij het vak Data Analyse en Statistiek. In dit vak leer je de basisprinci
 
 Dit vak bestaat uit 4 hoorcolleges en 7 laptopcolleges. Voor het cijfer tellen de inleveropdrachten en de tussentoetsen mee. Voor het halen van dit vak moet je minimaal een 5,5 halen voor zowel het gemiddelde van de inleveropdrachten, als voor het gemiddelde van de tussentoetsen. 
 
-#### Docenten
-De coördinator en docent voor dit vak is Hella Snoek. 
-Marthe Schut is betrokken bij het materiaal van de website. <br>
-Je kunt via Canvas vragen stellen over het vak.
-
 
 #### Voorbereiding en voorkennis
 In dit vak gaan we aan de slag met opdrachten waarbij we python programmas gebruiken.
 Bereid je vast voor op dit vak door te zorgen dat python goed geïnstalleerd is en dat je je kennis hierover even opfrist.<br>
 Bijvoorbeeld: Zorg dat je weet hoe 'for' loops werken en hoe je een functie definieert. <br>
 Voor de installatie zelf kun je de [instructies](/informatie/installatie) volgen. Als het test programmaatje werkt zonder foutmeldingen, dan kun je straks meteen aan de slag.<br>
+
+
+#### Docenten
+De coördinator en docent voor dit vak is Hella Snoek. 
+Marthe Schut is betrokken bij het materiaal van de website. <br>
+Je kunt via Canvas vragen stellen over het vak.
+
+
 
 
 #### Hoorcolleges
