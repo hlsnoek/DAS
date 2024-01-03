@@ -1,4 +1,4 @@
-# Het correct noteren van resultaten
+# Wetenschappelijk notatie - correct noteren van resultaten
 <!--REF\label{/module-1/notatie}-->
 1. Ordered TOC 
 {:toc}
