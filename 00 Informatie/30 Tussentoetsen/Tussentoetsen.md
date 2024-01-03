@@ -6,11 +6,11 @@ Deze tellen voor 20% mee voor je eindcijfer. <br>
 Je moet minimaal een 5.5 halen voor het gemiddelde van de drie toetsen om het vak te halen. 
 <br>
 De tussentoetsen zijn schriftelijk en worden afgenomen tijdens de werkcolleges. <br>
-Hieronder vind je het schema.
+Hieronder vind je het schema voor DAS 23/24.
 
 | tussentoets |  1 | 2 | 3 |
 |------|-------|------|------|
-|  | 17 jan 10:00-10:20 | 24 jan 10:00-10:20 | 31 jan 10:00-10:20 |
+|  | di 16 jan 10:00-10:25 | di 23 jan 10:00-10:25 | di 30 jan 10:00-10:25 |
 
 <!-- | datum | di 18 jan | di 25 jan | di 1 feb |-->
 
