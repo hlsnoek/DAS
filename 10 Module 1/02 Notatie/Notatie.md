@@ -1,6 +1,6 @@
 # Het correct noteren van resultaten
 <!--REF\label{/module-1/notatie}-->
-1. Ordered TOC {:toc}
+Ordered TOC {:toc}
 
 Voordat we verder gaan is het belangrijk om even in te gaan in het onderwerp significantie en de wetenschappelijke notatie. Dit gaat over hoe we een resultaat noteren. Het is goed om hier even bij stil te staan. 
 
