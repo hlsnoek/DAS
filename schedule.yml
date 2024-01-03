@@ -26,51 +26,51 @@ Module 1:
        Oefenopdrachten: /tussentoets-i/oefenopgaves
        Antwoorden: /tussentoets-i/antwoorden
 
-Module 2:
-   Introductie: /module-2/introductie
-   Theorie:
-     Wet van Grote Aantallen: /module-2/wet-van-grote-aantallen
-     Meerdimensionale data: /module-2/meerdimensionale-data
-     Extra Kansrekenregels: /module-2/extra-kansrekenregels
-     Schatmethodes: /module-2/schatmethodes
-   Inleveropdrachten:
-     Overzicht en info: /opdrachten-module-2/opdrachten    
-     M2.1 Grote Aantallen II: /opdrachten-module-2/groteaantallen
-     M2.2 Reigers: /opdrachten-module-2/reigers
-     M2.3 Halfwaardedikte II: /opdrachten-module-2/halfwaardedikteii
-   Tussentoets II:
-     Wat moet je weten?: /tussentoets-ii/inhoud
-     Oefenopdrachten: /tussentoets-ii/oefenopgaves
-     Antwoorden: /tussentoets-ii/antwoordenii
-
-Module 3:
-   Introductie: /module-3/introductie
-   Theorie:
-     De Centrale Limietstelling: /module-3/de-centrale-limietstelling
-     De Normaalverdeling: /module-3/normaalverdeling
-     De Kleinste Kwadraten Methode: /module-3/kleinste-kwadraten
-     De Chi-kwadraat: /module-3/chi-2
-     Hypothese toetsen I: /module-3/hypothese-toetsen
-   Appendix:
-     De Toets Tabel: /appendix/chi-kwadraat-toets
-   Inleveropdrachten:
-     Overzicht en info: /opdrachten-module-3/opdrachten    
-     M3.1 Grote Aantallen III: /opdrachten-module-3/groteaantalleniii
-     M3.2 Halfwaardedikte III: /opdrachten-module-3/halfwaardedikteiii
-     M3.3 Supermarktplaatjes: /opdrachten-module-3/supermarktplaatjes
-   Tussentoets III:
-     Wat moet je weten?: /tussentoets-iii/inhoud
-     Oefenopdrachten: /tussentoets-iii/oefenopgaves
-     Antwoorden: /tussentoets-iii/antwoordeniiia
-
-Module 4: 
-   Introductie: /module-4/introductie
-   Theorie:
-     Hypothese toetsen II: /module-4/hypothese-toetsen-2
-   Inleveropdrachten:
-     Overzicht en info: /opdrachten-module-4/opdrachten    
-     M4.1 Een Nieuw Deeltje: /opdrachten-module-4/eennieuwdeeltje
+#Module 2:
+#   Introductie: /module-2/introductie
+#   Theorie:
+#     Wet van Grote Aantallen: /module-2/wet-van-grote-aantallen
+#     Meerdimensionale data: /module-2/meerdimensionale-data
+#     Extra Kansrekenregels: /module-2/extra-kansrekenregels
+#     Schatmethodes: /module-2/schatmethodes
+#   Inleveropdrachten:
+#     Overzicht en info: /opdrachten-module-2/opdrachten    
+#     M2.1 Grote Aantallen II: /opdrachten-module-2/groteaantallen
+#     M2.2 Reigers: /opdrachten-module-2/reigers
+#     M2.3 Halfwaardedikte II: /opdrachten-module-2/halfwaardedikteii
+#   Tussentoets II:
+#     Wat moet je weten?: /tussentoets-ii/inhoud
+#     Oefenopdrachten: /tussentoets-ii/oefenopgaves
+#     Antwoorden: /tussentoets-ii/antwoordenii
 #
+#Module 3:
+#   Introductie: /module-3/introductie
+#   Theorie:
+#     De Centrale Limietstelling: /module-3/de-centrale-limietstelling
+#     De Normaalverdeling: /module-3/normaalverdeling
+#     De Kleinste Kwadraten Methode: /module-3/kleinste-kwadraten
+#     De Chi-kwadraat: /module-3/chi-2
+#     Hypothese toetsen I: /module-3/hypothese-toetsen
+#   Appendix:
+#     De Toets Tabel: /appendix/chi-kwadraat-toets
+#   Inleveropdrachten:
+#     Overzicht en info: /opdrachten-module-3/opdrachten    
+#     M3.1 Grote Aantallen III: /opdrachten-module-3/groteaantalleniii
+#     M3.2 Halfwaardedikte III: /opdrachten-module-3/halfwaardedikteiii
+#     M3.3 Supermarktplaatjes: /opdrachten-module-3/supermarktplaatjes
+#   Tussentoets III:
+#     Wat moet je weten?: /tussentoets-iii/inhoud
+#     Oefenopdrachten: /tussentoets-iii/oefenopgaves
+#     Antwoorden: /tussentoets-iii/antwoordeniiia
+#
+#Module 4: 
+#   Introductie: /module-4/introductie
+#   Theorie:
+#     Hypothese toetsen II: /module-4/hypothese-toetsen-2
+#   Inleveropdrachten:
+#     Overzicht en info: /opdrachten-module-4/opdrachten    
+#     M4.1 Een Nieuw Deeltje: /opdrachten-module-4/eennieuwdeeltje
+##
 ##Herkansing A:
 ##   Herkansing A: /extraopdracht/opdrachta
 #
