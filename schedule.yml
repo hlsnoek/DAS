@@ -1,21 +1,21 @@
 Cursus informatie:
-  De studiewijzer: /syllabus
-  Installeer de pakketten: /informatie/installatie
-  Over de inleveropdrachten: /informatie/inleveropdrachten
-  Over de tussentoetsen: /informatie/tussentoetsen
-  Syllabus: /informatie/syllabus
+       De studiewijzer: /syllabus
+       Installeer de pakketten: /informatie/installatie
+       Over de inleveropdrachten: /informatie/inleveropdrachten
+       Over de tussentoetsen: /informatie/tussentoetsen
+       Syllabus: /informatie/syllabus
 
 Module 1:
-   Introductie: /module-1/introductie
-   Theorie:
-     Basisbegrippen: /module-1/basisbegrippen
-     Wetenschappelijke notatie: /module-1/notatie
-     Data visualiseren: /module-1/data-visualiseren
-     Meetonzekerheid: /module-1/meetonzekerheid
-     Kanstheorie: /module-1/kanstheorie
-     Kansdichtheidsfuncties: /module-1/verdelingsfuncties  
+       Introductie: /module-1/introductie
+       Theorie:
+	Basisbegrippen: /module-1/basisbegrippen
+	Wetenschappelijke notatie: /module-1/notatie
+     	Data visualiseren: /module-1/data-visualiseren
+     	Meetonzekerheid: /module-1/meetonzekerheid
+     	Kanstheorie: /module-1/kanstheorie
+     	Kansdichtheidsfuncties: /module-1/verdelingsfuncties  
 Inleveropdrachten:
-     Overzicht en info: /opdrachten-module-1/opdrachten
+	Overzicht en info: /opdrachten-module-1/opdrachten
      Intro Mooi Plotten: /opdrachten-module-1/mooiplotten
      M1.1 Kansdichtheids Distributies: /opdrachten-module-1/distributies
      M1.2 Eigenschappen van Distributies: /opdrachten-module-1/eigenschappen
