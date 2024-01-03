@@ -14,7 +14,8 @@ Module 1:
      Meetonzekerheid: /module-1/meetonzekerheid
      Kanstheorie: /module-1/kanstheorie
      Kansdichtheidsfuncties: /module-1/verdelingsfuncties
-   Inleveropdrachten:
+     Foutenpropagatie: /module-1/foutenpropagatiei
+Inleveropdrachten:
      Overzicht en info: /opdrachten-module-1/opdrachten
      Intro Mooi Plotten: /opdrachten-module-1/mooiplotten
      M1.1 Kansdichtheids Distributies: /opdrachten-module-1/distributies
@@ -29,7 +30,6 @@ Module 1:
 Module 2:
    Introductie: /module-2/introductie
    Theorie:
-     Foutenpropagatie: /module-2/foutenpropagatiei
      Wet van Grote Aantallen: /module-2/wet-van-grote-aantallen
      Meerdimensionale data: /module-2/meerdimensionale-data
      Extra Kansrekenregels: /module-2/extra-kansrekenregels
