@@ -4,74 +4,44 @@
 {:toc}
 
 
-In dit deel bekijken we de verschillende manieren om data visueel te presenteren. Aan bod komen grafieken en scatterplots, staafdiagrammen en histogrammen. We laten ook zien hoe je deze met behulp van python kan maken.
+Meetgegevens die je hebt verzameld kun je vaak ook visueel presenteren. Visualisatie is een heel krachtig middel. 
 
-Als je data visualiseert dan is het de bedoeling dat iemand anders deze goed kan begrijpen. Er zijn wel een aantal richtlijnen, maar het meest belangrijke is dat de data overzichtelijk is. Dat trends, of juist afwijkingen daarvan, goed zichtbaar worden gemaakt. 
+In dit deel bekijken we de verschillende manieren om data visueel te presenteren. Aan bod komen grafieken en scatterplots, staafdiagrammen en histogrammen. 
+We laten ook zien hoe je deze met behulp van python kan maken.
 
-De richtlijnen zijn geen regels. Er zijn altijd uitzonderlijke datasets die erom vragen om af te wijken van de richtlijnen. Blijf dus altijd goed nadenken over wat je doet en waarom. 
+Als je data visualiseert dan is het natuurlijk de bedoeling dat iemand anders deze makkelijk en goed kan interpreteren. Er zijn bepaalde richtlijnen voor het maken van goede, inzichtelijke plots. 
+
+De **richtlijnen zijn geen regels**. Er zijn altijd uitzonderlijke datasets die erom vragen om af te wijken van de richtlijnen. Blijf dus altijd goed nadenken over **wat** je doet en **waarom**. 
 
 Afhankelijk van wat voor soort metingen je hebt genomen kies je uit een grafiek, een scatterplot, een staafdiagram of een histogram. Elk van deze data visualisatie methodes worden hieronder besproken. 
 
 ## Grafieken & Scatterplots
 
-Grafieken en scatterplots zijn twee vormen van een diagram die veel op elkaar lijken. Ze verschillen wel op een paar punten. 
+Grafieken en scatterplots zijn twee vormen van een diagram die veel op elkaar lijken. 
+Bij beide vormen geef je datapunten weer die steeds twee waardes kennen, bijvoorbeeld de massa en lengte. Scatterplots gebruik je voor een waarde van de ene grootheid meerdere waardes voor kunnen komen van de andere grootheid. In het voorbeeld van lengte en massa zouden er bijvoorbeeld voor een gegeven massa meerdere waardes van de lengte kunnen voorkomen. Grafieken gebruik je als er maar één waarde voor een gegeven massa voorkomt.
 
-Bij **scattterplots**,
+Bij **grafieken** verwacht je vaak een bepaalde relatie tussen de gemeten waardes. Op de horizontale as zet je de ingestelde of gekozen waarde, op de verticale as de gemeten waarde. Bijvoorbeeld als je te temperatuur meet op verschillende tijdstippen van de dag dan komt de tijd op de horizontale as en de temperatuur op de verticale as. 
+De punten in een grafiek mag je eventueel met een lijn verbinden. Maar let goed op, soms wordt het er niet duidelijker van. 
 
-* kunnen voor een ingestelde/gekozen waarde meer dan één gemeten waarden bestaan. Een voorbeeld zou zijn als je een meting doet waarbij je de lengte van mensen opmeet en tegen hun leeftijd uitzet. 
-* verbind je *nooit* punten met lijnen. Dat zou ook erg verwarrend zijn omdat je de dataset niet altijd logisch kan ordenen. In grafieken is dat vaak trouwens ook onwenselijk. 
+> **Voorbeeld van een grafiek**
+> Bij verschillende weerstations meten we over een periode van een maand de temperatuur op een vast tijdstip op de dag. De meetgegeven geven we weer in een grafiek. Op de horizontale as zetten we de tijd en op de verticale as de gemeten temperatuur. De meetwaardes van de verschillende meetstations geven we weer met verschillende kleuren en om de grafiek duidelijker leesbaar te maken verbinden we de punten met een lijn. De legenda geeft duidelijk weer welke kleur bij welk meetstation hoort.
+> ![Plot met verschillende weerstations.](plot5_grafieken_aslabel_lim.png){:width="100%"}<br>
 
-Bij **grafieken**, 
+Bij **scatterplots** kan er wel een relatie bestaan tussen de twee grootheden maar er zit geen volgorde in de datapunten. Hierom verbindt je de punten in een scatterplot *nooit*. 
 
-* kies je meestal voor een van de twee grootheden een meetpunt of stel je een waarde in. De gemeten waarde laten we zien op de verticale as en de gekozen waarde op de horizontale as. 
+> **Voorbeeld van een scatterplot**
+> Van een bolhoop meten van een deel van de sterren zowel de oppervlakte temperatuur ($$T_{eff}$$) als de lichtkracht ($$M_v$$). De datapunten geven we weer in een scatterplot.
+> ![Hertzsprung-Russel diagram van bolhoop M55.](HRScatter.jpg){:width="40%"}> (Bron: Astronomy picture of the day)
 
-### Richtlijnen voor de opmaak van diagrammen
+Voor het weergeven van grafieken en scatterplots in wetenschappelijke rapporten gelden een aantal richtlijnen die we hieronder samenvatten en kort uitleggen. 
 
-Met behulp van voorbeelden laten we zien wat de richtlijnen zijn en waar je op moet letten. 
-
-Stel bijvoorbeeld dat we naar de gemiddelde dagtemperatuur in de maand december 2019 in de Bilt kijken. Hier<!--FIG , in Fig. \ref{fig:plot1_lijn_geenOpmaak}--> een plot met een lijn tussen elk datapunt (Bron: KNMI, gehomogeniseerde data).
-
-![Plot met lijn tussen de datapunten.](plot1_lijn_geenOpmaak.png){:width="60%"}
-
-Je ziet dat dit niet erg duidelijk is. Het is bijvoorbeeld niet precies te zien waar de gemeten punten zitten, we hebben wel een vermoeden doordat er punten zijn waarop de lijn abrupt van richting verandert, maar wie weet zitten er nog wel meer datapunten tussen.
-
-Laten we dezelfde data eens plotten zonder lijnen maar alleen met punten. <br>
-
-![Plot met alleen de datapunten.](plot2_scatter_geenOpmaak.png){:width="60%"}
-
-Vanuit deze grafiek<!--FIG , Fig. \ref{fig:plot2_scatter_geenOpmaak}--> zien we waar de datapunten zijn. Dat konden we in de lijnplot niet goed zien. We kunnen nu helaas de trend niet meer goed waarnemen. Omdat er op een dag maar één gemiddelde gemeten temperatuur kan bestaan, is het toch beter deze als een grafiek weer te geven. 
-We kiezen ervoor om zowel een lijn als markers te gebruiken. 
-
-De plot kan echter netter. Zo staan er geen labels op de assen. Nu kunnen we in dit geval wel raden welke as het jaar aangeeft en welke as de temperatuur, maar in veel gevallen is dat niet zo duidelijk. Om die reden moeten er altijd **labels op de assen** staan, zie het volgende figuur <!--FIG \ref{fig:plot3_grafiek_aslabel}-->.
-
-![Plot met lijnen en datapunten en aslabels.](plot3_grafiek_aslabel.png){:width="100%"}<br>
-
-Zoals je ziet hebben we het formaat van de grafiek ook aangepast zodat de distributie iets natuurlijker overkomt.
-
-Een andere conventie is dat grafieken doorgaans **beginnen bij de oorsprong, tenzij de data dan onvolledig of onleesbaar wordt**. In het geval van het weergeven van de temperaturen wordt de data bijvoorbeeld onvolledig als we de temperatuur bij nul laten beginnen, we hebben immers ook temperaturen onder het vriespunt. In dit geval kunnen we de horizontale as wel bij nul laten beginnen, al is niet voor alle datums zo. 
-
-De assen kunnen nog wat netter. Zo eindigt de verticale as net voor de waarde $$0$$, maar het is niet helemaal duidelijk bij welke waarde precies. De horizontale as begint een klein stukje voor 0 en eindigt een klein stukje na 30. Conventie is om assen te laten **beginnen en eindigen op een maatstreepje met een getal**.  In ons geval laten we het beginnen op de eerste dag van de maand en de laatste dag, daarnaast laten we de temperatuur beginnen op $$-2$$ &deg;C en eindigen op $$16$$ &deg;C. 
-<!--FIG Dit tonen we in Fig. \ref{fig:plot4_grafiek_aslabel_lim}.-->
-
-![Plot met correct as-bereik.](plot4_grafiek_aslabel_lim.png){:width="100%"}<br>
-
-Stel we willen de temperatuur in de Bilt nu weergeven naast de temperaturen gemeten in Vlissingen en Maastricht. De grafiek ziet er dan zo uit<!--FIG in Fig.\ref{fig:plot5_grafieken_aslabel_lim}-->.
-
-![Plot met verschillende weerstations.](plot5_grafieken_aslabel_lim.png){:width="100%"}<br>
-
-We hebben<!--FIG in Fig.\ref{fig:plot5_grafieken_aslabel_lim}--> ook een legenda toegevoegd zodat duidelijk is welke lijn bij welk weerstation hoort. 
-
-Tot nu toe hebben we nog geen titels toegevoegd aan de plots. Dit komt omdat dat voor verslagen en wetenschappelijke artikelen ongebruikelijk is, daar moet het onderschrift namelijk al vertellen wat er te zien is in de grafiek. In webteksten, lesteksten en presentaties kan het echter voorkomen dat een grafiek wel een titel heeft, omdat er in die context vaak geen onderschrift toegevoegd kan worden. 
-
-**Samengevat**:
-
-- Een grafiek van een dataset wordt geplot met punten en eventueel lijnen. 
-- Het resultaat van een fit of een theoretisch verband wordt met een gladde lijn geplot.
+###Richtlijnen opmaak grafieken en scatterplots
+- Een grafiek van een dataset wordt geplot met punten en eventueel lijnen die de datapunten verbinden. Een scatterplot alleen met punten en nooit met een lijn.
 - Bij een enkele dataset wordt geen legenda gebruikt. Als er meerdere datasets in één grafiek worden weergegeven dan is een legenda noodzakelijk.
 - Aslabels geven weer wat elke as representeert (inclusief eenheden!).
-- Assen beginnen in principe bij de oorsprong. Een uitzondering kan zijn als de data heel erg ver van de oorsprong af zit.
-- Een as begint en eindigt op een groot maatstreepje met een waarde ('major tick') en niet op een klein maatstreepje of een maatstreep zonder getal. Tenzij er een heel goede reden is om hiervan af te wijken. (Zoals in het voorbeeld hierboven.) 
-- Een grafiek voor een wetenschappelijk artikel of een verslag heeft geen titel. Een grafiek voor webteksten of lesmateriaal heeft over het algemeen wel een titel.
+- Assen beginnen zo mogelijk bij de oorsprong. Een uitzondering kan zijn als de data heel erg ver van de oorsprong af zit of als er bijvoorbeeld ook negatieve waardes voorkomen.
+- Op de assen vindt je maatstreepjes die de waardes op de as markeren. Er bestaan grote en kleine maatstreepjes. Een as begint en eindigt op een groot maatstreepje met een waarde en niet op een klein maatstreepje of een maatstreep zonder getal. Tenzij er een natuurlijk een goede reden is om hiervan af te wijken.  
+- Een grafiek voor een wetenschappelijk artikel of een verslag heeft geen titel. Een grafiek voor webteksten of lesmateriaal heeft over het algemeen wel een titel. 
 - Als je de onzekerheid op de meetpunten kent, dan is het goed om deze ook weer te geven in je plot. Tenzij deze heel onoverzichtelijk wordt (zoals in een scatterplot met heel veel punten).
 
 *Let op!* Dit zijn weer richtlijnen en geen regels. Denk altijd goed na over wat je doet en waarom. Het eindresultaat moet goed begrijpbaar zijn en daarvoor is het soms nodig om van de richtlijnen af te wijken.
@@ -140,6 +110,9 @@ Bij het bepalen van het optimale aantal bins en de optimale bin breedte is het b
 	*  Je gebruikt een scatterplot als er geen unieke waarde is per afhankelijke grootheid. Bijvoorbeeld als je de lengte van een student meet in relatie met de leeftijd. Er zijn waarschijnlijk meerdere studenten met dezelfde leeftijd in de groep die hoogstwaarschijnlijk in lengte van elkaar verschillen.
 
 	
+###Richtlijnen opmaak staafdiagrammen en histogrammen
+
+
 
 
 ## Data plotten met Python
