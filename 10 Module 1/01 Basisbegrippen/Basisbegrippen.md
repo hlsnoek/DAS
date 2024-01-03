@@ -5,14 +5,20 @@
 
 
 
-## Datasets beschrijven
+## Datasets beschrijven - wat is een statistiek?
 
-Als we een set metingen (data) hebben verzameld kunnen we deze op verschillende manieren gebruiken. Vaak willen we bepaalde kenmerken van de dataset weten. Stel we hebben een dataset met de temperatuur op elk van de 37 meetpunten van het KNMI in Nederland in de afgelopen twintig jaar.  Het is dan niet zo inzichtelijk om dit aan medewetenschappers te presenteren d.m.v. een enorme tabel (elke 10 minuten wordt een meting gedaan door de weerstations) met de mededeling 'dit was de temperatuur in de afgelopen twintig jaar'. Uit deze dataset kun je natuurlijk een enorme hoeveelheid informatie halen. Bijvoorbeeld wat is de koudste temperatuur die in de afgelopen 20 jaar in Nederland is gemeten. Maar ook: Wat is de gemiddelde temperatuur in de maand Juli. Of: Hoeveel kouder zijn de winters in het binnenland ten opzichte van de regio's aan de kust. 
+Als we een set metingen (data) hebben verzameld kunnen we deze op verschillende manieren gebruiken. Meestal nemen we de data omdat we bepaalde eigenschappen willen weten. 
 
-In de secties hieronder behandelen we verschillende veelvoorkomende definities van kenmerken van data.
+> Stel we hebben een dataset met de temperatuur op elk van de 37 meetpunten van het KNMI in Nederland in de afgelopen twintig jaar. Je kan uit deze dataset natuurlijk verschillende dingen te weet komen. Bijvoorbeeld de jaargemiddeldes op de verschillende meetpunten, of de maximale of minimale temperatuur die gemeten is. Of bijvoorbeeld hoeveel kouder de winters in het binnenland zijn ten opzichte van de regio's aan de kust.
+> Het is in elk geval niet zo inzichtelijk om aan medewetenschappers alleen de enorme tabel aan datapunten te presenteren.
 
+Een eigenschap van een dataset die je kan definiëren noemen we een **statistiek**. Sommige statistieken zoals bijvoorbeeld 'het gemiddelde' worden heel veel gebruikt. 
 
-### Populatie en steekproef
+Meestal proberen we met statistieken een algemene grootheid te bepalen maar is onze dataset beperkt. Bijvoorbeeld als je 'de massa van het electron' wilt bepalen kun je natuurlijk niet letterlijk van alle electronen in het heelal de massa meten. Als je verwacht dat alle electronen dezelfde massa hebben dan volstaat het natuurlijk om de massa van een enkel electron te meten. Denk je dat de grootheid die je wilt bepalen wel varieert, dan zul je met een enkele meting niet genoeg te weten komen. Bijvoorbeeld als je wilt weten hoe veel kouder het in de winter in het binnenland is ten opzichte van de kust gebieden in Nederland. Dan zal een enkele meting op een winterse dag niet voldoende zijn. 
+
+In de hoofdstuk gaan we hier verder op in en zullen we daarna ook we verschillende veelvoorkomende definities van statistieken definiëren. 
+
+### Populatie versus steekproef
 
 Voordat we het gaan hebben over de kenmerken van data is het belangrijk om te kijken naar de data zelf. Waar komt die vandaan? We maken hierbij onderscheid tussen de **populatie** en een **steekproef**.
 
