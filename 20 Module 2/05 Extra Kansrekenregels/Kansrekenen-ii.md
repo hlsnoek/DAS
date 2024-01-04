@@ -28,7 +28,7 @@ Bovenstaande definities kunnen we ook visueel weergeven in Venn diagrammen. <!--
 
 ![Vier verschillende Venn diagrammen die verschillende deelgebieden weergeven in de uitkomstenverzameling $$\mathcal{U}$$. Linksboven $$(B)$$, rechtsboven $$(A \cup B)$$, linksonder $$(A \cap B)$$ en rechtsonder $$(A \cup B)^C$$](Venn.png){:width="80%"}
 
-## De of regel wanneer A en B niet wederzijds uitsluitend zijn
+## De of-regel wanneer A en B niet wederzijds uitsluitend zijn
 In het geval A en B niet wederzijds uitsluitend zijn dan geldt:  
 
 $$P(\text{A en B}) \equiv P(A \cap B) >0.$$
@@ -129,4 +129,3 @@ Deze formule heet het Bayes theorema en blijkt een van de meest krachtige formul
 We hebben in deze twee voorbeelden gezien hoe we informatie over conditionele kansen kunnen omzetten. Het theorema van Bayes maakt het mogelijk om nieuwe informatie te gebruiken. De achterafkans wordt berekend met een test uit voorafkans (ook wel prior), een testuitslag en een normalisatie. De normalisatie is in het geval van het voorbeeld de kans $$P(+)$$, de kans dat er überhaupt een positieve uitslag volgt. 
 
 Voordat de patiënt de test afnam konden we alleen afgaan op de praktijkervaring van de assistent. Een blaasontsteking bij een kind is onwaarschijnlijk (slechts $$20\%$$) en bij een volwassene waarschijnlijk ($$60\%$$). Na het uitvoeren van de test hebben we meer informatie, maar nog steeds is het belangrijk om de ervaring van de assistent mee te nemen (de voorafkans), maar ook mee te nemen hoe groot de kans is op een positieve testuitslag (de normalisatie). Dat een patiënt daadwerkelijk een blaasontsteking heeft is in beide gevallen (kind/volwassene) waarschijnlijk, maar bij een kind is het misschien goed om ook nog even wat andere oorzaken uit te sluiten.
-

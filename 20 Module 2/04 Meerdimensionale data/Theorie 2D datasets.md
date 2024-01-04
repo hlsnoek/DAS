@@ -5,12 +5,12 @@
 
 Het komt vaak voor dat we datasets hebben waarbij we meerdere grootheden tegelijkertijd hebben gemeten. Bijvoorbeeld als we een steekproef doen onder de bevolking waarbij we allerlei gegevens tegelijkertijd opvragen zoals leeftijd, inkomen, gezinssamenstelling etc. We kunnen dan niet alleen naar verdelingen kijken van bijvoorbeeld alleen het inkomen, maar we kunnen ook naar het inkomen kijken *als functie* van de leeftijd. Dit levert meer informatie op dan als we deze gegevens afzonderlijk zouden hebben verzameld. Ook in Natuurkundige experimenten komen multidimensionale datasets veel voor. 
 
-Voor elke afzonderlijke variabele kunnen we bijvoorbeeld het gemiddelde en de standaardafwijking berekenen met behulp van de formules die we in het hoofdstuk [Basisbegrippen](/module-1/basisbegrippen) hebben geïntroduceerd. Maar we kunnen nu ook kijken of de waarde van een grootheid afhangt van een andere grootheid in de dataset, dit noemen we correlatie. Ook kunnen we berekenen of de mate van spreiding van een grootheid afhangt van de waarde van een andere grootheid, we noemen dit covariantie. Hieronder introduceren we eerst covariantie, daaronder komt correlatie aan bod.
+Voor elke afzonderlijke variabele van een meerdimensionale dataset kunnen we bijvoorbeeld het gemiddelde en de standaardafwijking berekenen met behulp van de formules die we in het hoofdstuk [Basisbegrippen](/module-1/basisbegrippen) hebben geïntroduceerd. Maar we kunnen nu ook kijken of de waarde van een grootheid afhangt van een andere grootheid in de dataset, dit noemen we correlatie. Ook kunnen we berekenen of de mate van spreiding van een grootheid afhangt van de waarde van een andere grootheid, we noemen dit covariantie. Hieronder introduceren we eerst covariantie, daaronder komt correlatie aan bod.
 
 
 ## Variantie en covariantie
 
-De variantie geeft zoals eerder besproken (in het hoofdstuk [Basisbegrippen](/module-1/basisbegrippen)) een maat voor de spreiding van een variabele aan. Bij een twee dimensionale dataset waarbij een grootheid wordt uitgezet op de $$x$$-as en een andere grootheid op de $$y$$-as, wordt de mate van spreiding o.a. aangegeven met de *covariantie*.
+De variantie geeft zoals eerder besproken (in het hoofdstuk [Basisbegrippen](/module-1/basisbegrippen)) een maat voor de spreiding van een variabele aan. Bij een twee-dimensionale dataset waarbij een grootheid wordt uitgezet op de $$x$$-as en een andere grootheid op de $$y$$-as, wordt de mate van spreiding o.a. aangegeven met de *covariantie*.
 
 De covariantie bij een twee dimensionale dataset geeft aan in welke mate de data verspreid is over het twee dimensionale vlak.
 
@@ -82,7 +82,9 @@ Een voorbeeld hiervan is als je kijkt naar de ijsverkoop en de buitentemperatuur
 In wetenschappelijk onderzoek zijn we altijd op zoek naar correlaties. Correlaties kunnen wijzen op onbekende wetten of onderliggende, nog onbekende fenomenen. 
 Toch moet je behoorlijk oppassen om meteen een conclusie te trekken. Niet alle observabelen die gecorreleerd zijn, hebben een causaal verband. Het kan ook toeval zijn, als je maar genoeg grootheden tegen elkaar uitzet zal je er altijd een combinatie vinden die toevallig een correlatie vertonen. Het kan bijvoorbeeld ook komen door het bestaan van een verborgen parameter. Dit wordt ook wel Simpsons paradox genoemd.
 
-Een bekend voorbeeld van een Simpsons paradox is een onderzoek naar veiligheid op de scheepvaart. Er is gebleken dat er een positieve correlatie is tussen het dragen van reddingsvesten en het aantal ongevallen waarbij mensen verdronken zijn. Dit is natuurlijk niet wat je verwacht! Voordat je adviseert om alle reddingsvesten weg te laten gooien is het goed om nog iets verder onderzoek te plegen. Wat blijkt, de reddingsvesten worden alleen aangetrokken bij slecht weer op zee. De verborgen parameter is dus het weer. Als we de data nog een keer goed bekijken en nu kijken naar alleen de categorie slecht weer dan zien we dat de overlevingskans juist vele malen hoger is als een reddingsvest wordt gedragen. 
+
+> **Voorbeeld van een Simpons paradox** Een bekend voorbeeld van een Simpsons paradox is een onderzoek naar veiligheid op de scheepvaart. Er is gebleken dat er een positieve correlatie is tussen het dragen van reddingsvesten en het aantal ongevallen waarbij mensen verdronken zijn. Dit is natuurlijk niet wat je verwacht! Voordat je adviseert om alle reddingsvesten weg te laten gooien is het goed om nog iets verder onderzoek te plegen. Wat blijkt, de reddingsvesten worden alleen aangetrokken bij slecht weer op zee. De verborgen parameter is dus het weer. Als we de data nog een keer goed bekijken en nu kijken naar alleen de categorie slecht weer dan zien we dat de overlevingskans juist vele malen hoger is als een reddingsvest wordt gedragen. 
+
 
 De les die je hieruit moet trekken is dat je eerst heel goed moet nadenken over wat een verborgen parameter zou kunnen zijn en niet zomaar de conclusie trekken dat een correlatie ook causaliteit impliceert. Het is goed om zo'n conclusie eerst te onderbouwen met een plausibele verklaring.
 

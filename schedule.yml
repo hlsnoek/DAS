@@ -44,26 +44,26 @@ Module 2:
        Oefenopdrachten: /tussentoets-ii/oefenopgaves
        Antwoorden: /tussentoets-ii/antwoordenii
 
-#Module 3:
-#   Introductie: /module-3/introductie
-#   Theorie:
-#     De Centrale Limietstelling: /module-3/de-centrale-limietstelling
-#     De Normaalverdeling: /module-3/normaalverdeling
-#     De Kleinste Kwadraten Methode: /module-3/kleinste-kwadraten
-#     De Chi-kwadraat: /module-3/chi-2
-#     Hypothese toetsen I: /module-3/hypothese-toetsen
-#   Appendix:
-#     De Toets Tabel: /appendix/chi-kwadraat-toets
-#   Inleveropdrachten:
-#     Overzicht en info: /opdrachten-module-3/opdrachten    
-#     M3.1 Grote Aantallen III: /opdrachten-module-3/groteaantalleniii
-#     M3.2 Halfwaardedikte III: /opdrachten-module-3/halfwaardedikteiii
-#     M3.3 Supermarktplaatjes: /opdrachten-module-3/supermarktplaatjes
-#   Tussentoets III:
-#     Wat moet je weten?: /tussentoets-iii/inhoud
-#     Oefenopdrachten: /tussentoets-iii/oefenopgaves
-#     Antwoorden: /tussentoets-iii/antwoordeniiia
-#
+Module 3:
+       Introductie: /module-3/introductie
+       Theorie:
+       De Centrale Limietstelling: /module-3/de-centrale-limietstelling
+       De Normaalverdeling: /module-3/normaalverdeling
+       De Kleinste Kwadraten Methode: /module-3/kleinste-kwadraten
+       De Chi-kwadraat: /module-3/chi-2
+       Hypothese toetsen I: /module-3/hypothese-toetsen
+       Appendix:
+       De Toets Tabel: /appendix/chi-kwadraat-toets
+       Inleveropdrachten:
+       Overzicht en info: /opdrachten-module-3/opdrachten    
+       M3.1 Grote Aantallen III: /opdrachten-module-3/groteaantalleniii
+       M3.2 Halfwaardedikte III: /opdrachten-module-3/halfwaardedikteiii
+       M3.3 Supermarktplaatjes: /opdrachten-module-3/supermarktplaatjes
+       Tussentoets III:
+       Wat moet je weten?: /tussentoets-iii/inhoud
+       Oefenopdrachten: /tussentoets-iii/oefenopgaves
+       Antwoorden: /tussentoets-iii/antwoordeniiia
+       
 #Module 4: 
 #   Introductie: /module-4/introductie
 #   Theorie:
