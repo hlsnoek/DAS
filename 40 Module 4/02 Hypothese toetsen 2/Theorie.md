@@ -83,4 +83,4 @@ We moeten ook bij deze toets van tevoren bepalen bij welke p-waarde we de nulhyp
 Eigenlijk hadden  we van tevoren ook bij dit experiment een significantieniveau moeten afspreken waarbij we de aanwezigheid van het chemische element kunnen aantonen. Zodra de gemeten p-waarde onder deze afgesproken significantie zakt in de p-waarde scan kunnen we claimen het element te hebben aangetoond. Als we hem weer bij een waarde van $$1 \cdot 10^{-6}$$ hadden afgesproken hadden we ook in de p-waarde scan het element $$Y$$ kunnen claimen. 
 
 
-De Wald test is een krachtige methode om hypotheses te toetsen. We gaan hem in opdracht M4.1 toepassen. 
+De Wald test is een krachtige methode om hypotheses te toetsen. 
