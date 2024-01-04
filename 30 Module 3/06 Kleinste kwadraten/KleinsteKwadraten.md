@@ -4,9 +4,9 @@
 1. Ordered TOC
 {:toc}
 
-In labexperimenten meten we vaak een bepaalde grootheid waarbij we een andere grootheid variëren. Zo krijgen we bijvoorbeeld datapunten van een observabele $$y$$ waarbij we een grootheid $$x$$ variëren. Meestal doen we dit als we een bepaald verband verwachten tussen de twee grootheden. In het voorbeeld van de halfwaardedikte meting meten we een aantal counts waarbij we steeds een laag lood toevoegen. We variëren in het experiment de looddikte en meten de intensiteit.
+In labexperimenten meten we vaak een bepaalde grootheid waarbij we een andere grootheid variëren. Zo krijgen we bijvoorbeeld datapunten van een observabele $$y$$ waarbij we een grootheid $$x$$ variëren. Op deze manier kunnen we onderzoeken of tussen de twee grootheden een verband is. In het voorbeeld van de halfwaardedikte meting meten we een aantal counts waarbij we steeds een laag lood toevoegen. We variëren in het experiment de looddikte en meten de intensiteit.
 
-> **Voorbeeld: Meetwaardes**
+> **Voorbeeld: Meetwaardes** <br>
 > We beginnen met een voorbeeld. Stel dat we een set metingen hebben die er als volgt <!--FIG (Fig. \ref{fig:VoorbeeldLeastSquares0}) --> uitziet. 
 >
 > ![Een set metingen.](VoorbeeldLeastSquares0.png){:width="60%"}
@@ -35,13 +35,13 @@ De parameters van de functie $$\theta_i$$ willen we nu afschatten met behulp van
 > 
 > Als we een schatter kunnen definiëren voor onze functie dan vinden we de geschatte optimale waardes van $$a$$ en $$b$$ . Deze noemen we $$\hat{a}$$ en $$\hat{b}$$. Oftewel, $$\hat{a}$$ en $$\hat{b}$$ zijn de waardes van $$a$$ en $$b$$ waarbij de lineaire functie onze dataset optimaal beschrijft. Dit schatten van de waardes van $$\hat{a}$$ en $$\hat{b}$$ noemen we ook wel fitten. 
 
-We introduceren nu een definitie van de $$\chi^2$$ schatter. Deze methode noemen we ook wel de kleinste kwadraten methode.
-
- Stel dat we een functie $$f(x;\theta)$$ hebben die waardes van $$y$$ voorspelt, en we hebben een dataset met $$n$$ waardes voor $$x: {x_1,x_2,...,x_n}$$ met corresponderende waardes voor $$y: {y_1,y_2,...,y_n}$$ waarbij elke waarde van $$y$$ gemeten is met precisie $$\sigma_i$$. Nu kunnen we de som nemen van het kwadratische verschil van alle punten in de dataset met de voorspelde waardes $$f(x_i;\theta)$$, geschaald met de onzekerheden $$\sigma_i$$. Deze som noemen we $$\chi^2:$$
-
-$${\displaystyle \chi^2 = \sum_{i=1}^N \left( \frac{y_i - f(x_i;\theta)}{\sigma_i}\right)^2 .}$$
-
- Dit is de definitie van de $$\chi^2$$ schatter.
+> We introduceren nu een definitie van de $$\chi^2$$ schatter. Deze methode noemen we ook wel de kleinste kwadraten methode.
+>
+> Stel dat we een functie $$f(x;\theta)$$ hebben die waardes van $$y$$ voorspelt, en we hebben een dataset met $$n$$ waardes voor $$x: {x_1,x_2,...,x_n}$$ met corresponderende waardes voor $$y: {y_1,y_2,...,y_n}$$ waarbij elke waarde van $$y$$ gemeten is met precisie $$\sigma_i$$. Nu kunnen we de som nemen van het kwadratische verschil van alle punten in de dataset met de voorspelde waardes $$f(x_i;\theta)$$, geschaald met de onzekerheden $$\sigma_i$$. Deze som noemen we $$\chi^2:$$
+>
+> $${\displaystyle \chi^2 = \sum_{i=1}^N \left( \frac{y_i - f(x_i;\theta)}{\sigma_i}\right)^2 .}$$
+>
+> Dit is de definitie van de $$\chi^2$$ schatter. Het is de som van het kwadratische, gewogen verschil tussen de data punten en de voorspelling.
 
 De meest optimale waarde voor $$\theta$$ geeft de kleinste $$\chi^2$$. Door de $$\chi^2$$ te minimaliseren vinden we dus de optimale schatting $$\hat{\theta}$$. 
 
@@ -73,9 +73,6 @@ Twee filmpjes die het principe van de kleinste kwadraten goed illustreren vind j
 
 
 Om in te schatten **hoe goed** je fit gelukt is moeten we eerst meer weten over de $$\chi^2$$-distributie. Daar gaat het volgende hoofdstuk over.
-
-
-In opgave M3.1 ga je het principe van de kleinste kwadraten toepassen.
 
 
 

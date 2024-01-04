@@ -2,10 +2,11 @@
 <!--REF\label{/module-3/de-centrale-limietstelling}-->
 
 
-Stel dat we een schatter hebben die afhangt van meerdere grootheden. Deze metingen van deze grootheden hebben elk hun eigen onzekerheden en kunnen bijvoorbeeld uniform of Poisson verdeeld zijn. Hoe ziet de verwachte kansverdeling van de schatter er dan uit?  In dit hoofdstuk zullen we zien dat schatters die van veel grootheden afhangen vaak de Normale verdeling volgen.  
+Stel dat we een schatter hebben die afhangt van meerdere grootheden. Deze metingen van deze grootheden hebben elk hun eigen onzekerheden en kunnen bijvoorbeeld uniform of Poisson verdeeld zijn. Hoe ziet de verwachte kansverdeling van de schatter er dan uit?  <br>
+In dit hoofdstuk zullen we zien dat schatters die van veel grootheden afhangen vaak de Normale verdeling volgen en laten we zien waarom dat is.  
 
 
-> **Voorbeeld Twee dobbelstenen gooien.** 
+> **Voorbeeld: Twee dobbelstenen gooien.** 
 > We gooien eerst een enkele (eerlijke) dobbelsteen. De uitkomstenverzameling is $$\mathscr{U} = \{1,2,3,4,5,6\}$$. De kans op elk van deze uitkomsten is gelijk, dat wil zeggen:
 > 
 > $$P(1) = P(2) = P(3) = P(4) = P(5) = P(6) = \frac{1}{6}$$
@@ -31,7 +32,7 @@ We zien in het voorbeeld met de dobbelstenen dat als we twee metingen combineren
 
 We werken het voorbeeld van de dobbelstenen nog verder uit. 
 
-> **Voorbeeld Veel dobbelstenen gooien**
+> **Voorbeeld: Veel dobbelstenen gooien**
 > We bekijken in dit voorbeeld hoe de kansdistributies eruitzien van experimenten waarbij we met meerdere dobbelstenen tegelijk gooien. Als we een enkele dobbelsteen gooien dan weten we dat we een uniforme distributie verwachten. Gooien we met twee dobbelstenen dan hebben we in het vorige experiment al gezien dat de kansdistributie van de uitkomstenverzameling van de worp zeker niet uniform is. 
 > 
 > Hieronder zie je de kansdistributies voor experimenten waarbij met 1,2,3 en 4 dobbelstenen tegelijk wordt geworpen.
@@ -58,7 +59,7 @@ Het bewijs van deze stelling is bijzonder ingewikkeld en zullen we hier niet beh
 [hier](http://www.cs.toronto.edu/~yuvalf/CLT.pdf) verder lezen over de bewijs stelling.
 
 
-**Twee leuke video's die de Centrale Limietstelling illustreren kun je [hier](https://www.youtube.com/watch?v=jvoxEYmQHNM) en [hier](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-mean/v/central-limit-theorem) vinden.** 
+**Twee video's die de Centrale Limietstelling illustreren kun je [hier](https://www.youtube.com/watch?v=jvoxEYmQHNM) en [hier](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-mean/v/central-limit-theorem) vinden.** 
 
 Meestal is er in de natuur of in experimenten sprake van een combinatie van een grote hoeveelheid toevalligheden die een rol speelt bij de onzekerheid van een meting. Hetzelfde geldt vaak voor de eigenschappen van een populatie, de natuurlijke verdeling van deze eigenschappen zijn vaak ook Normaal verdeeld om dezelfde reden.
 
