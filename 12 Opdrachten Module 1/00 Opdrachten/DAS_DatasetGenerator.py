@@ -23,7 +23,7 @@ def checkSD() :
         random_getal = student_nummer
       
         
-def DataSetMooiPlotten() :
+def DataSetEersteHistogram() :
     checkSD()
     mu = random_getal%10
     sigma = ((random_getal)%100)/10 + 1
