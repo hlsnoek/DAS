@@ -13,7 +13,7 @@ Open de bestanden in het VSCode programma en lees de code. We zullen hieronder w
 
 In `M1_EersteHistogram.py` wordt eerst een dataset aangemaakt met de volgende regel:
 
-	x = ds.DataSetMooiEersteHistogram()
+	x = ds.DataSetEersteHistogram()
 
 Helemaal boven in de code vind je de regel:
 
