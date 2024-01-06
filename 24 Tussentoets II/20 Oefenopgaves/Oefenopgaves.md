@@ -9,39 +9,6 @@ Lees goed het [lijstje](/tussentoets-ii/inhoud) door ter voorbereiding voor de t
 
 
 
-**1.**
-Als $$y = 2 x + 0.6$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
-
------
-
-**2.**
-Als $$y = -3 x + 2  x^2$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
-
-----
-
-**3.**
-Als $$y = \sin(x)$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
-
-----
-**4.**
-Als $$y = \frac{1}{x^2}$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
-
-----
-**5.**
-Als $$z = \frac{4 \cdot x}{3\cdot y}$$ en de onzekerheden op $$x$$ en $$y$$ volgende de Poisson statistiek. Wat is dan de onzekerheid op $$z$$? Schrijf de onzekerheid zo kort mogelijk op. <br>
-
-----
-**6.**
-Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$), wat is dan de fout op $$E$$? <br><br>
-
-----
-**7.** 
-Stel je wil de kinetische energie berekenen van een object. De formule is $$E_k = 1/2 m \cdot v^2$$. Je meet de massa van het object, deze is $$m=2.3 \pm 0.2$$ kg. De snelheid is $$v=0.20 \pm 0.05$$ m/s. <br>
-Bereken de kinetische energie.<br>
-
-----
-
-
 **8.**
 We hebben een dataset met de gemeten massa van 80 kogels. Het gemiddelde van de massa-distributie is bepaald op 108.2 kg. De standaardafwijking van de massa-distributie is 11.2 kg. Wat is de fout op het berekende gemiddelde?<br>
 

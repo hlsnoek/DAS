@@ -116,6 +116,38 @@ Bereken nu opnieuw het gemiddelde, de standaardafwijking en de variantie waarbij
 
 **b** Reken de kans uit dat er op een dag 0 binnenkomen. <br>
 
+-----
 
+**14.**
+Als $$y = 2 x + 0.6$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
+
+-----
+
+**15.**
+Als $$y = -3 x + 2  x^2$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
+
+----
+
+**16.**
+Als $$y = \sin(x)$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
+
+----
+**17.**
+Als $$y = \frac{1}{x^2}$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
+
+----
+**18.**
+Als $$z = \frac{4 \cdot x}{3\cdot y}$$ en de onzekerheden op $$x$$ en $$y$$ volgende de Poisson statistiek. Wat is dan de onzekerheid op $$z$$? Schrijf de onzekerheid zo kort mogelijk op. <br>
+
+----
+**19.**
+Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$), wat is dan de fout op $$E$$? <br><br>
+
+----
+**20.** 
+Stel je wil de kinetische energie berekenen van een object. De formule is $$E_k = 1/2 m \cdot v^2$$. Je meet de massa van het object, deze is $$m=2.3 \pm 0.2$$ kg. De snelheid is $$v=0.20 \pm 0.05$$ m/s. <br>
+Bereken de kinetische energie.<br>
+
+----
 
 

@@ -114,3 +114,60 @@ $${\displaystyle P(k=6;n=10,p=1/6) = \frac{10!}{6!(4)!} (1/6)^6 (5/6)^{4} = 0.00
 **b** Reken de kans uit dat er op een dag 0 binnenkomen. <br>
 <span style = 'color:blue'>$$P(k=0;\lambda=4.3) =0.014$$</span><br>
 
+-----
+
+**14.**
+Als $$y = 2 x + 0.6$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
+<span style = "color:blue"> $${\Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{4 (\Delta x)^2}=2\Delta x}$$</span><br>
+
+-----
+
+**15.**
+Als $$y = -3 x + 2  x^2$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
+<span style = "color:blue"> $${ \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{(-3+4x)^2 (\Delta x)^2}= |{-3+4x}| \cdot \Delta x}.$$</span><br>
+
+----
+
+**16.**
+Als $$y = \sin(x)$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
+<span style = "color:blue"> $${ \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{(\cos x)^2 (\Delta x)^2}= \cos x \cdot \Delta x}.$$</span><br>
+
+----
+**17.**
+Als $$y = \frac{1}{x^2}$$ en de fout op $$x$$ is $$\Delta x$$, wat is dan de fout op $$y$$? <br><br>
+<span style = "color:blue"> $${ \Delta y = \sqrt{\left(\frac{\partial y}{\partial x}\right)^2 (\Delta x)^2 } = \sqrt{\left( -\frac{2}{x^3} \right)^2 (\Delta x)^2}= \frac{2}{x^3} \cdot \Delta x}.$$</span><br>
+
+
+----
+**18.**
+Als $$z = \frac{4 \cdot x}{3\cdot y}$$ en de onzekerheden op $$x$$ en $$y$$ volgende de Poisson statistiek. Wat is dan de onzekerheid op $$z$$? Schrijf de onzekerheid zo kort mogelijk op. <br>
+<span style = 'color:blue'> 
+We schrijven eerst de partiële afgeleides op van $$z$$ naar $$x$$ en $$y$$:<br>
+$$\frac{\partial z}{\partial x} = \frac{4}{3y} = \frac{1}{x}z$$ en <br>
+$$\frac{\partial z}{\partial y} = - \frac{4x}{3y^2} = - \frac{1}{y} z.$$<br>
+Vervolgens realiseren we ons dat $$\Delta x = \sqrt{x}$$ en $$\Delta y = \sqrt{y}.$$ Immers er staat dat $$x$$ en $$y$$ de Poisson statistiek volgen.<br>
+Nu vullen we dit in in de algemene vergelijking: <br>
+$$ \begin{align} \displaystyle
+\Delta z & = \sqrt{ \left( \frac{\partial z}{\partial x}\right)^2 \left( \Delta x \right)^2 + \left( \frac{\partial z}{\partial y}\right)^2 \left( \Delta y \right)^2}\\
+& =\sqrt{ \left( \frac{1}{x}z \right)^2  \left( \sqrt{x} \right)^2 +\left( - \frac{1}{y} z \right)^2 \left( \sqrt{y} \right)^2} \\
+& = \sqrt{  \frac{x}{x^2} \cdot z^2 + \frac{y}{y^2} \cdot z^2} \\
+& = z \cdot \sqrt{ \frac{1}{x} + \frac{1}{y}}
+\end{align}$$
+</span>
+
+----
+**19.**
+Als $$E = mc^2$$ en de fouten op ($$m$$,$$c$$) zijn ($$\Delta m$$,$$\Delta c$$), wat is dan de fout op $$E$$? <br><br>
+<span style = "color:blue"> $$ \Delta E = \sqrt{\left(\frac{\partial E}{\partial m}\right)^2 (\Delta m)^2 + \left(\frac{\partial E}{\partial c}\right)^2 (\Delta c)^2 } = \sqrt{(c^2)^2(\Delta m)^2 + (2mc)^2 (\Delta c)^2}.$$</span>
+
+
+----
+**20.** 
+Stel je wil de kinetische energie berekenen van een object. De formule is $$E_k = 1/2 m \cdot v^2$$. Je meet de massa van het object, deze is $$m=2.3 \pm 0.2$$ kg. De snelheid is $$v=0.20 \pm 0.05$$ m/s. <br>
+Bereken de kinetische energie.<br>
+<span style = 'color:blue'> $${E_k = 1/2 m \cdot v^2 = 0.046}$$ J<br>
+$$\Delta E_k = \sqrt{\frac{\partial E_k}{\partial m})^2 ( \Delta m)^2 + \left(\frac{\partial E_k}{\partial v}\right)^2 \left( \Delta v \right)^2} = \sqrt{\left( \frac{1}{2}v^2 \Delta m\right)^2 + \left( mv \Delta m \right)^2 } = 0.02$$ J<br>
+$$E_k =  0.046 \pm 0.02$$ J</span>
+
+
+

@@ -8,7 +8,7 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 
 ## Stof checklist
 
-#### [Foutenpropagatie](/module-2/foutenpropagatiei) 
+#### [Foutenpropagatie](/module-1/foutenpropagatiei) 
 
 * Het kennen en kunnen toepassen van de algemene regel voor foutenpropagatie.
 * Afronden van getallen bij foutenpropagatie
