@@ -4,7 +4,7 @@
 Tijdens de laptopcolleges in de eerste week werken we aan de vijf opdrachten van de eerste module.
 
 
-* [Intro Mooi Plotten *](/opdrachten-module-1/mooiplotten)
+* [Eerste Histogram*](/opdrachten-module-1/mooiplotten)
 * [M1.1 Kansdichtheid-distributies \*\*](/opdrachten-module-1/distributies)
 * [M1.2 Eigenschappen van distributies \*\*](/opdrachten-module-1/eigenschappen)
 * [M1.3 Grote Aantallen I \*\*\*](/opdrachten-module-1/groteaantallen)
