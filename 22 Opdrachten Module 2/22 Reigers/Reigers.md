@@ -40,7 +40,10 @@ Je krijgt nu een onderwaarde **`reiger_m_laag`** en een bovenwaarde **`reiger_m_
 Met deze informatie kunnen we nu met de Frequentist Methode de kans uitrekenen dat onze reiger een blauwe reiger is. 
 
 > - **M2.2c) Gebruik de dataset `m_br` om de kans uit te rekenen dat je een blauwe reiger vindt die een massa heeft die in het gebied `reiger_m_laag` en `reiger_m_hoog` in ligt. Herhaal dit voor de purperreiger, bereken dus ook $$P(m_{\text{obs}} \mid \text{purperreiger})$$.** <br>
-> Dit noem je ook wel de voorwaardelijke kans $$P(\text{reiger_m_laag} < m < \text{reiger_m_hoog} \mid \text{purperreiger})$$. Voor het gemak noteren we dit even als $$P(m_{\text{obs}} \mid \text{purperreiger} )$$. Zie ook het hoofdstuk over [Extra Kansrekenregels](/module-2/extra-kansrekenregels) over voorwaardelijke kansen.<br>
+> Dit noem je ook wel de voorwaardelijke kans 
+> $P(\text{reiger_m_laag} < m < \text{reiger_m_hoog} \mid \text{purperreiger})$$. 
+> Voor het gemak noteren we dit even als $$P(m_{\text{obs}} \mid \text{purperreiger} )$$. 
+> Zie ook het hoofdstuk over [Extra Kansrekenregels](/module-2/extra-kansrekenregels) over voorwaardelijke kansen.<br>
 > **Tip** Bedenk dat je voor de dataset van de purperreigers altijd zeker weet dat het om een purperreiger gaat en dat dus per definitie $$P(\text{purperreiger}) \equiv 1.$$<br>
 >
 > - **M2.2d) Als je kijkt naar de uitkomst van M2.2c), wat voor soort vogel denk je dat het is? Beredeneer je antwoord.**
