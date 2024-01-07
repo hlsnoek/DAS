@@ -70,6 +70,8 @@ Ziet je histogram er goed uit? Valt je op dat de distributie niet symmetrisch is
 Als je je binning goed hebt gekozen kun je goed zien dat er twee verschillende trends zichtbaar zijn.
 Er is een grotere bult en een kleinere.
 
+> Controleer of je histogram aan alle richtlijnen voldoet (en zo niet, of je dan kan beargumenteren waarom niet). De richtlijnen voor histogrammen vind je in het hoofdstuk [data visualiseren](/module-1/data-visualiseren).
+
 
 Als je tevreden bent met het resultaat kun je het histogram opslaan door de laatste regel code te activeren: 
 
