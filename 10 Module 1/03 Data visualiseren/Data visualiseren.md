@@ -33,7 +33,7 @@ Bij **scatterplots** kan er wel een relatie bestaan tussen de twee grootheden ma
 > **Voorbeeld van een scatterplot**
 > Van een bolhoop meten van een deel van de sterren zowel de oppervlakte temperatuur ($$T_{eff}$$) als de lichtkracht ($$M_v$$). De datapunten geven we weer in een scatterplot.
 > 
-> ![Hertzsprung-Russel diagram van bolhoop M55.](HRScatter.png}{:width="50%"}<br>
+> ![Hertzsprung-Russel diagram van bolhoop M55.](HRScatter.png){:width="50%"}<br>
 > (Bron: Astronomy picture of the day)
 
 Voor het weergeven van grafieken en scatterplots in wetenschappelijke rapporten gelden een aantal richtlijnen die we hieronder samenvatten en kort uitleggen. 
