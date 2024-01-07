@@ -55,7 +55,8 @@ Je besluit ook de spanwijdte van de reigers op te meten. Misschien geeft dat wel
 		
 De output volgt dezelfde logica als hiervoor.
 
-> - **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen $$ P(w_{\text{obs}} \mid \text{blauwe reiger} )$$ en $$P(w_{\text{obs}} \mid \text{purper reiger} )$$ uit te rekenen maar nu door (alleen) gebruik te maken van de informatie van de spanwijdtes. Noteer ook de onzekerheden op de uitgerekende kansen.**<br><br>
+> - **M2.2f) Gebruik dezelfde methode als hiervoor om beide kansen 
+> $$ P(w_{\text{obs}} \mid \text{blauwe reiger} )$$ en $$P(w_{\text{obs}} \mid \text{purper reiger} )$$ uit te rekenen maar nu door (alleen) gebruik te maken van de informatie van de spanwijdtes. Noteer ook de onzekerheden op de uitgerekende kansen.**<br><br>
 > 
 > - **M2.2g) Op basis van deze informatie, wat denk je nu dat het voor vogel is? Beredeneer je antwoord.**
 
@@ -85,3 +86,4 @@ Na al deze berekeningen lopen we een eindje in de tuin. Op de plek waar we eerde
 > TIP: Maak hierbij gebruik van de [vergelijking](/module-2/extra-kansrekenregels) van Bayes. Om $$P(m_\text{obs} \text{ en }w_{\text{obs}})$$ te berekenen kun je gebruiken maken van de volgende formule: 
 > $$P(C) = P(C \mid D)\cdot P(D) + P(C \mid \text{niet }D)\cdot P(\text{niet }D).$$
 
+-----
