@@ -76,7 +76,7 @@ for line in f:
         line += '\\begin{document}\n'
         line += '\\thispagestyle{empty}\n' 
         line += '\\titleGM\n'
-        line += '\\parbox[b]{\\textwidth}{ \\vspace{0.8\\textheight}\\textbf{dr H.L. Snoek en M.F.L. Schut MSc} \\\\  \\tiny{2022.v1 }} \n'
+        line += '\\parbox[b]{\\textwidth}{ \\vspace{0.8\\textheight}\\textbf{dr H.L. Snoek en M.F.L. Schut MSc} \\\\  \\tiny{2024.v1 }} \n'
         line += '\\tableofcontents\\newpage\n'
 
     if (line.count("begin{quote")) : 
