@@ -29,6 +29,8 @@ $$\begin{aligned}
 \end{aligned}$$<br>
  geeft $$ \hat{b} = -134.8/56.0  = - 2.41 $$</span>
 
+-----
+
 **2** We hebben een dataset met de volgende meetpunten voor {x,y}:<br>
 {1.0,3.2}, {2.0,13.3}, {3.0,26.5} met meetonzekerheden $$\sigma_y = 0.5$$<br>
 De dataset fitten we met de functie $$y = a\cdot x^2$$. Bereken de optimale waarde voor $$a$$.<br>

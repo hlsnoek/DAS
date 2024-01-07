@@ -17,6 +17,7 @@ De meetwaardes kunnen worden omschreven met de volgende functie:
  
 Vind de waarde voor $$b$$ die de dataset optimaal beschrijft.
 
+-----
 
 **2** We hebben een dataset met de volgende meetpunten voor {x,y}:<br>
 {1.0,3.2}, {2.0,13.3}, {3.0,26.5} met meetonzekerheden $$\sigma_y = 0.5$$<br>

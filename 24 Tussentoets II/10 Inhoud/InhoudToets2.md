@@ -9,9 +9,9 @@ Weten (en dit consequent altijd toepassen) hoeveel significante cijfers je moet 
 ## Stof checklist
 
 #### [Foutenpropagatie](/module-1/foutenpropagatiei) 
-
 * Het kennen en kunnen toepassen van de algemene regel voor foutenpropagatie.
 * Afronden van getallen bij foutenpropagatie
+NB Deze stof is ook al getoetst in module 1 maar is ook deel van de tweede tussentoets.
 
 
 #### [De Wet van Grote aantallen](/module-2/wet-van-grote-aantallen)
