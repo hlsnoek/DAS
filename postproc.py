@@ -68,7 +68,7 @@ for line in f:
         line += '\\vspace{0.15\\textheight}'    
         line += '{\\center\\Huge\\bfseries {Data Analyse en Statistiek}} \\\\ [3\\baselineskip]\n'
         line += '{\\center\\huge\\bfseries {Bachelor Natuur- en Sterrenkunde}} \\\\ [3\\baselineskip]\n'
-        line += '{\\center\\huge\\bfseries studiejaar 2022-2023} \\\\ [3\\baselineskip]\n'
+        line += '{\\center\\huge\\bfseries studiejaar 2023-2024} \\\\ [3\\baselineskip]\n'
         line += '\\vspace{0.33\\textheight} \\\\ [3\\baselineskip] \\newline\n'
         line += '{\\filleft\\includegraphics[width=450pt]{logoVUvA.jpeg}}}}'
         line += '\\endgroup}\n'

@@ -28,16 +28,18 @@ De punten in een grafiek mag je eventueel met een lijn verbinden. Maar let goed 
 > ![Plot met verschillende weerstations.](plot5_grafieken_aslabel_lim.png){:width="100%"}<br>
 
 Bij **scatterplots** kan er wel een relatie bestaan tussen de twee grootheden maar er zit geen volgorde in de datapunten. Hierom verbindt je de punten in een scatterplot *nooit*. 
+<br>
 
 > **Voorbeeld van een scatterplot**
 > Van een bolhoop meten van een deel van de sterren zowel de oppervlakte temperatuur ($$T_{eff}$$) als de lichtkracht ($$M_v$$). De datapunten geven we weer in een scatterplot.
 > 
-> ![Hertzsprung-Russel diagram van bolhoop M55.](HRScatter.jpg){:width="50%"}<br>
+> ![Hertzsprung-Russel diagram van bolhoop M55.](HRScatter.png}{:width="50%"}<br>
 > (Bron: Astronomy picture of the day)
 
 Voor het weergeven van grafieken en scatterplots in wetenschappelijke rapporten gelden een aantal richtlijnen die we hieronder samenvatten en kort uitleggen. 
 
-###Richtlijnen opmaak grafieken en scatterplots
+#### Richtlijnen opmaak grafieken en scatterplots
+
 - Een grafiek van een dataset wordt geplot met punten en eventueel lijnen die de datapunten verbinden. Een scatterplot alleen met punten en nooit met een lijn.
 - Bij een enkele dataset wordt geen legenda gebruikt. Als er meerdere datasets in één grafiek worden weergegeven dan is een legenda noodzakelijk.
 - Aslabels geven weer wat elke as representeert (inclusief eenheden!).
@@ -64,7 +66,7 @@ Bij een staafdiagram kun je de frequentie direct aflezen; voor één categorie l
 
 > **Voorbeeld van een histogram** In dit histogram wordt weergegeven hoe vaak een bepaald inkomen voorkomt. Het inkomen is een numeriek getal en dit is dus een histogram. De breedte van de balken moet voor de visualisatie gekozen worden. 
 > 
-> ![Een voorbeeld van een histogram.](InkomenCBS.jpeg){:width="60%"}<br>
+> ![Een voorbeeld van een histogram.](InkomenCBS.png){:width="60%"}<br>
 
 Voor een histogram is de breedte van de intervallen van belang. Als we te weinig bins kiezen dan worden de intervallen erg groot (/breed) en is er minder te zeggen over het gedrag van de data. Als we te veel bins kiezen dan fluctueert de hoogte van de (smalle) bins onderling erg en is het ook lastiger om de trend in de data goed in te schatten.
 
@@ -85,8 +87,8 @@ Met het kiezen van te veel bins hebben we dus visuele ruis geïntroduceerd, dit 
 Bij het bepalen van het optimale aantal bins en de optimale bin breedte is het belangrijkste dat het gedrag van de data goed zichtbaar is. Er zijn verschillende formules (bijvoorbeeld de square of de Sturges formule) ontwikkeld waarmee je het aantal bins dat je nodig hebt kunt berekenen. Echter, geen van die formules kun je blind toepassen. Het is veel beter om gewoon goed naar je dataset te kijken en een inschatting te maken van de bin breedte. 
 Bij het kiezen van een bin breedte moet je ook rekening houden met de waardes op de as, vaak is het goed om de breedte van de balken overeen te laten komen met de markeerstreepjes op de horizontale as.  
 
-
-###Richtlijnen opmaak staafdiagrammen en histogrammen
+<br>
+#### Richtlijnen opmaak staafdiagrammen en histogrammen
 
 - Aslabels geven weer wat elke as representeert (inclusief eenheden!).
 - Assen beginnen zo mogelijk bij de oorsprong. Een uitzondering kan zijn als de data heel erg ver van de oorsprong af zit of als er bijvoorbeeld ook negatieve waardes voorkomen.
