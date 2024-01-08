@@ -12,6 +12,7 @@ README.md
 10 Module 1/04 Meetonzekerheid/Metingen.md				
 10 Module 1/05 Kanstheorie/Kanstheorie.md				
 10 Module 1/06 Verdelingsfuncties/Verdelingsfuncties.md			
+10 Module 1/07 FoutenpropagatieI/Foutenpropagatie.md			
 12 Opdrachten Module 1/00 Opdrachten/Opdrachten.md			
 12 Opdrachten Module 1/10 MooiPlotten/MooiPlotten.md			
 12 Opdrachten Module 1/20 Distributies/Distributies.md			
@@ -20,19 +21,16 @@ README.md
 12 Opdrachten Module 1/50 Halfwaardedikte/Halfwaardedikte.md		
 
 14 Tussentoets I/10 Inhoud/Inhoud.md
-#14 Tussentoets I/20 Oefenopgaves/Oefenopgaves.md
-#14 Tussentoets I/30 Antwoorden/Antwoorden.md
 
 
 20 Module 2/00 Introductie/Introductie.md
-20 Module 2/02 FoutenpropagatieI/Foutenpropagatie.md			
 20 Module 2/03 Wet van Grote Aantallen/Wet van Grote Aantallen.md	
 20 Module 2/04 Meerdimensionale data/Theorie 2D datasets.md		
 20 Module 2/05 Extra Kansrekenregels/Kansrekenen-ii.md			
 20 Module 2/07 Schatmethodes/Schatmethodes.md
 22 Opdrachten Module 2/00 Opdrachten/Opdrachten.md		   
 22 Opdrachten Module 2/10 GroteAantallen/GroteAantallen.md	   
-22 Opdrachten Module 2/20 Meesjes/Meesjes.md			   
+22 Opdrachten Module 2/22 Reigers/Reigers.md			   
 22 Opdrachten Module 2/30 HalfwaardedikteII/HalfwaardedikteII.md   
 
 24 Tussentoets II/10 Inhoud/InhoudToets2.md			   

@@ -37,4 +37,4 @@ Let goed op dat je genoeg tijd overhoudt om de introductie van de kanstheorie te
 
 
 We werken in de werkcolleges aan de opdrachten van deze module [M1](/opdrachten-module-1/opdrachten). Je vindt in het [schema](/informatie/inleveropdrachten) wanneer je deze moet inleveren.
-Vergeet ook niet te kijken naar het [oefenmateriaal](/module-1/tussentoets-info) voor de eerste verplichte tussentoets.
+Vergeet ook niet te kijken naar het [oefenmateriaal](/module-1/tussentoets-i/inhoud) voor de eerste verplichte tussentoets.
