@@ -131,7 +131,7 @@ $$1.23 + 0.1 = 1.3 .$$
 - Bij het vermenigvuldigen of delen van constante waardes (zoals $$\pi, e, 100\%$$ of $$1$$) dan verandert de significantie niet. En bij optellen of aftrekken bij constante waardes verandert het aantal decimalen niet. 
 
 > **Voorbeeld**
-> Ongeveer $$7.8\%$$ van de mannen in Nederland is kleurenblind. Dat betekent  dat het percentage van de mannen die niet kleurenblind is gelijk is aan:<br>
+> Ongeveer $$5.3\%$$ van de mannen in Nederland is kleurenblind. Dat betekent  dat het percentage van de mannen die niet kleurenblind is gelijk is aan:<br>
 >  $$100\% - 5.3\% = 94.7\%$$.
 >  (Want, het is een aftreksom en we behouden dus het aantal decimalen.)
 <br>
