@@ -1,5 +1,5 @@
 # Foutenpropagatie
-<!--REF\label{/module-2/foutenpropagatiei}-->
+<!--REF\label{/module-1/foutenpropagatiei}-->
 <!--som en verschil etc niet apart kopje. Laat iedereen de basisformule gebruiken-->
 
 1. Ordered TOC
