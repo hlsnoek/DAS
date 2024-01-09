@@ -221,7 +221,7 @@ We berekenen de eigenschappen van een aantal datasets als voorbeeld.
 > - De grootte is dus N = 7.  
 > - Om de mediaan te bepalen sorteren we eerst de datapunten van klein naar groot: 
 > $$\{-20,12,31,53,60,133,285\}.$$
-> Het is een even aantal datapunten en de mediaan ligt tussen 53 en 60 in. Dit komt dan uit op 56.5.
+> Het is een even aantal datapunten en de mediaan ligt op 53.
 >
 > - De spreidingsbreedte: 
 > 
