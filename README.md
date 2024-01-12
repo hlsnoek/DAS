@@ -38,8 +38,7 @@ In week 2, 3 en 4 vindt een tussentoets plaats. Deze toetsen moet je gemiddeld m
 #### Boeken
 Er zijn geen boeken benodigd voor deze cursus. Wil je de stof een keer op een andere manier benaderen, dan vind je in het volgende boek wellicht wat je zoekt:
 
-J.R. Taylor, 1997, 'An introduction to error analysis', University Science Books, Sausalito, 2, 1997, ISBN 978 0935 702 750. Dit boek is gratis beschikbaar op [deze website](https://archive.org/details/TaylorJ.R.IntroductionToErrorAnalysis2ed/).
-
+J.R. Taylor, 1997, 'An introduction to error analysis', University Science Books, Sausalito, 2, 1997, ISBN 978 0935 702 750. 
 
 #### Herkansing
 Het opnieuw insturen van opdrachten is niet meer mogelijk na de deadline.
