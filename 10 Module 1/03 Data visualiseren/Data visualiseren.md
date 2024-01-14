@@ -88,6 +88,7 @@ Bij het bepalen van het optimale aantal bins en de optimale bin breedte is het b
 Bij het kiezen van een bin breedte moet je ook rekening houden met de waardes op de as, vaak is het goed om de breedte van de balken overeen te laten komen met de markeerstreepjes op de horizontale as.  
 
 <br>
+
 #### Richtlijnen opmaak staafdiagrammen en histogrammen
 
 - Aslabels geven weer wat elke as representeert (inclusief eenheden!).
