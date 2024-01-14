@@ -44,7 +44,7 @@ Voor het weergeven van grafieken en scatterplots in wetenschappelijke rapporten 
 - Bij een enkele dataset wordt geen legenda gebruikt. Als er meerdere datasets in één grafiek worden weergegeven dan is een legenda noodzakelijk.
 - Aslabels geven weer wat elke as representeert (inclusief eenheden!).
 - Assen beginnen zo mogelijk bij de oorsprong. Een uitzondering kan zijn als de data heel erg ver van de oorsprong af zit of als er bijvoorbeeld ook negatieve waardes voorkomen.
-- Op de assen vindt je maatstreepjes die de waardes op de as markeren. Er bestaan grote en kleine maatstreepjes. Een as begint en eindigt op een groot maatstreepje met een waarde en niet op een klein maatstreepje of een maatstreep zonder getal. Tenzij er een natuurlijk een goede reden is om hiervan af te wijken.  
+- Op de assen vind je maatstreepjes die de waardes op de as markeren. Er bestaan grote en kleine maatstreepjes. Een as begint en eindigt op een groot maatstreepje met een waarde en niet op een klein maatstreepje of een maatstreep zonder getal. Tenzij er een natuurlijk een goede reden is om hiervan af te wijken.  
 - Een grafiek voor een wetenschappelijk artikel of een verslag heeft geen titel. Een grafiek voor webteksten of lesmateriaal heeft over het algemeen wel een titel. 
 - Als je de onzekerheid op de meetpunten kent, dan is het goed om deze ook weer te geven in je plot. Tenzij deze heel onoverzichtelijk wordt (zoals in een scatterplot met heel veel punten).
 
@@ -93,7 +93,7 @@ Bij het kiezen van een bin breedte moet je ook rekening houden met de waardes op
 
 - Aslabels geven weer wat elke as representeert (inclusief eenheden!).
 - Assen beginnen zo mogelijk bij de oorsprong. Een uitzondering kan zijn als de data heel erg ver van de oorsprong af zit of als er bijvoorbeeld ook negatieve waardes voorkomen.
-- Op de assen vindt je maatstreepjes die de waardes op de as markeren. Er bestaan grote en kleine maatstreepjes. Een as begint en eindigt op een groot maatstreepje met een waarde en niet op een klein maatstreepje of een maatstreep zonder getal. Tenzij er een natuurlijk een goede reden is om hiervan af te wijken.  
+- Op de assen vind je maatstreepjes die de waardes op de as markeren. Er bestaan grote en kleine maatstreepjes. Een as begint en eindigt op een groot maatstreepje met een waarde en niet op een klein maatstreepje of een maatstreep zonder getal. Tenzij er een natuurlijk een goede reden is om hiervan af te wijken.  
 - Een histogram of staafdiagram voor een wetenschappelijk artikel of een verslag heeft geen titel. 
 - De bin breedte. Meestal kies je voor het hele histogram dezelfde bin breedte, in sommige gevallen kun je verschillende bin breedtes kiezen. In elk geval geldt dat het histogram goed 'leesbaar' moet zijn. Het moet duidelijk blijven hoe de data gedistribueerd is. Wat is de trend? Zijn er afwijkingen van die trend.
 - Let bij histogrammen erg goed op waar de grens van een bin ligt. Vooral als je een dataset met natuurlijke getallen weergeeft is het belangrijk dat de bin grenzen netjes *tussen* de natuurlijke getallen ligt. Anders kan de distributie van de data verkeerd gerepresenteerd worden.
