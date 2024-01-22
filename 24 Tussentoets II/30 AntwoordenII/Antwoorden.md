@@ -25,9 +25,11 @@ Onder welke voorwaarde mogen we aannemen dat de onzekerheid op het berekende gem
 **4.**
 We hebben een dataset met metingen van een grootheid $$x$$ met precies 16 punten. Het gemiddelde waarde van $$\overline{x} = 22$$ met een standaardafwijking van $$x = 4 $$. <br>
 **a.** Wat is de onzekerheid op het gemiddelde van deze dataset?<br>
-<span style = 'color:blue'>De onzekerheid is: $$s_\overline{x} (=\Delta \overline{x})= \frac{s}{\sqrt{n}} = 4/\sqrt{16} = 1 $$</span><br>
+<span style = 'color:blue'>De onzekerheid is: 
+$$s_{\overline{x}} (=\Delta \overline{x})= \frac{s}{\sqrt{n}} = 4/\sqrt{16} = 1 $$</span><br>
 **b.** We voegen nog 9 extra waardes aan onze dataset toe. Wat is de onzekerheid op het gemiddelde nu?<br>
-<span style = 'color:blue'>De onzekerheid is: $$s_\overline{x} (=\Delta \overline{x})= \frac{s}{\sqrt{n}} = 4/\sqrt{25} = 0.8 $$</span><br>
+<span style = 'color:blue'>De onzekerheid is: 
+$$s_{\overline{x}} (=\Delta \overline{x})= \frac{s}{\sqrt{n}} = 4/\sqrt{25} = 0.8 $$</span><br>
 
 ----
 
