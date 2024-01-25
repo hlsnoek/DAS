@@ -69,10 +69,10 @@ Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze 
 > 
 > De $$\chi^2_\nu$$  is voor de twee functies:
 > 
-> - $$\chi^2_{\nu,1} = 4.0/(10-2) = 0.5,$$ 
+> - $$\chi^2_{\nu,1} = 4.0/(10-2) = 0.50,$$ 
 > - $$\chi^2_{\nu,2} = 13.0/(10-1) = 1.44.$$
 > 
-> Op basis van de vuistregel zou je functie $$f_1$$ kiezen. 
+> Op basis van de vuistregel zou je functie $$f_2$$ kiezen. 
 
  
 
