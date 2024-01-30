@@ -3451,7 +3451,7 @@ De \[\chi^2_\nu\] is voor de twee functies:
   \[\chi^2_{\nu,2} = 9.0/(10-1) = 1.0.\]
 \end{itemize}
 
-Op basis van de vuistregel zou je functie \[f_1\] kiezen.
+Op basis van de vuistregel zou je functie \[f_2\] kiezen.
 \end{quote}
 
 Als de gereduceerde chi-kwadraat echter veel kleiner is dan 1 dan kun je betwijfelen of de bijbehorende functie wel echt de beste is. Je zou dan de waarde kunnen kiezen die het dichtste bij 1 bevindt. Maar de \[\chi^2\] is niet helemaal symmetrisch en het kan zijn dat je dan toch de verkeerde keuze maakt. Dit is lastig in te schatten zonder de overschrijdingskansen exact uit te rekenen.

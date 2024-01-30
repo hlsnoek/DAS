@@ -88,7 +88,7 @@ Stel dat je een dataset hebt waarvan je niet zeker weet door welke functie deze 
 > - $$\chi^2_{\nu,1} = 6.0/(10-2) = 0.75$$ 
 > - $$\chi^2_{\nu,2} = 9.0/(10-1) = 1.0.$$
 > 
-> Op basis van de vuistregel zou je functie $$f_1$$ kiezen. 
+> Op basis van de vuistregel zou je functie $$f_2$$ kiezen. 
 
 
 
