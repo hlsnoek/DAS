@@ -1,4 +1,4 @@
-##Herkansingsopdracht C
+##Herkansingsopdracht
 
 
 Presenteer je antwoorden en je berekeningen in een pdf document. Let hierbij op het volgende: 
@@ -10,12 +10,12 @@ Presenteer je antwoorden en je berekeningen in een pdf document. Let hierbij op 
 
 Nadat het werk is ingeleverd **volgt er een zoom-meting** waarbij vragen worden gesteld over het werk.
 
-Als je tussendoor vast loopt neem dan contact met me op.
+Als je tussendoor vastloopt neem dan contact met me op per email.
 
 Succes!
 
 ##Opdracht 1 - Lange en Korte leerlingen [5 punten]
-Gegeven zijn [metingen](lengtesVanLeerlingen.txt) van lengtes in cm van leerlingen van de middelbare school. In het bestand vind je de klas en de opgemeten lengte van alle leerlingen van de school.
+Gegeven zijn metingen van lengtes in cm van leerlingen van de middelbare school. In het bestand dataOpdracht1.txt vind je de klas en de opgemeten lengte van alle leerlingen van de school.
 
 **[a]** Presenteer de lengtes van alle leerlingen van de school in een histogram.<br>
 **[b]** Bereken het gemiddelde, de mediaan en de standaard deviatie van de distributie.<br> 
@@ -40,7 +40,7 @@ Stel nu dat blijkt dat er een probleem is met het meetlint dat gebruikt is voor 
 
 ## Opdracht 2 - Meten van de halfwaardetijd van een element [2.5 punten]
 In deze opdracht krijg je data die genomen is met een Geiger Muller telbuis waarmee de radioactiviteit van een bron is gemeten. 
-[Hier](dataOpdracht2.txt) vind je een dataset waarbij het aantal gemeten counts en de tijd in minuten is gegeven. Voor elke meetwaarde is 60 seconde lang gemeten, het aantal counts in dit tijdsinterval van 60 secondes is genoteerd in de dataset.
+In het bestand dataOpdracht2.txt vind je een dataset waarbij het aantal gemeten counts en de tijd in minuten is gegeven. Voor elke meetwaarde is 60 seconde lang gemeten, het aantal counts in dit tijdsinterval van 60 secondes is genoteerd in de dataset.
 
 **[a]** Bereken voor elk van de gemeten punten de onzekerheid op de meting. Leg uit welke formules je hiervoor gebruikt. <br>
 **[b]** Stel dat je berekent dat je op een bepaald tijdstip verwacht nog maar 10 counts te meten. Wat is dan de kans dat je er geen 10 maar 15 meet? Laat hierbij, net als voor alle andere opdrachten, je berekening zien en presenteer de formules die je gebruikt. <br>
@@ -54,7 +54,7 @@ Presenteer de meetresultaten en de fit in een grafiek. <br>
 
 ## Opdracht 3 - Correlatie en Covariantie [2.5 punten]
 In deze opdracht krijg je een dataset met de massa en de lengte van een 
-set onbekende voorwerpen. De massa is steeds gegeven in gram, de lengte is gegeven in meter. [Hier](dataOpdracht3.txt) vind je de dataset.
+set onbekende voorwerpen. De massa is steeds gegeven in gram, de lengte is gegeven in meter. In het bestand dataOpdracht3.txt vind je de dataset.
 
 **[a]** Maak een grafische presentatie van de data. <br>
 **[b]** Bereken de correlatie en de covariantie van de dataset. Presenteer ook al je tussenresultaten.<br>
